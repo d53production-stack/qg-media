@@ -1,0 +1,111 @@
+{
+ "aliases": {
+  "2026-10-19-pt1": "2026-10-19-webinar-part1",
+  "2026-10-19-pt2": "2026-10-19-webinar-part2",
+  "2026-10-19-pt3": "2026-10-19-webinar-part3"
+ },
+ "clips": {
+  "2026-10-19-webinar-part1": {
+   "addedAt": "2026-10-21T03:02:55+00:00",
+   "bytes": 8729406,
+   "file": "2026-10-19-webinar-part1.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part10": {
+   "addedAt": "2026-10-21T03:02:55+00:00",
+   "bytes": 11091028,
+   "file": "2026-10-19-webinar-part10.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part11": {
+   "addedAt": "2026-10-21T03:02:55+00:00",
+   "bytes": 11167073,
+   "file": "2026-10-19-webinar-part11.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part12": {
+   "addedAt": "2026-10-21T03:02:54+00:00",
+   "bytes": 8417867,
+   "file": "2026-10-19-webinar-part12.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part13": {
+   "addedAt": "2026-10-21T03:02:54+00:00",
+   "bytes": 10531383,
+   "file": "2026-10-19-webinar-part13.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part14": {
+   "addedAt": "2026-10-21T03:02:54+00:00",
+   "bytes": 10536918,
+   "file": "2026-10-19-webinar-part14.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part15": {
+   "addedAt": "2026-10-21T03:02:55+00:00",
+   "bytes": 13758133,
+   "file": "2026-10-19-webinar-part15.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part16": {
+   "addedAt": "2026-10-21T03:02:54+00:00",
+   "bytes": 7168122,
+   "file": "2026-10-19-webinar-part16.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part2": {
+   "addedAt": "2026-10-21T03:02:54+00:00",
+   "bytes": 9608964,
+   "file": "2026-10-19-webinar-part2.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part3": {
+   "addedAt": "2026-10-21T03:02:55+00:00",
+   "bytes": 15225065,
+   "file": "2026-10-19-webinar-part3.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part4": {
+   "addedAt": "2026-10-21T03:02:54+00:00",
+   "bytes": 11815969,
+   "file": "2026-10-19-webinar-part4.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part5": {
+   "addedAt": "2026-10-21T03:02:55+00:00",
+   "bytes": 8400241,
+   "file": "2026-10-19-webinar-part5.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part6": {
+   "addedAt": "2026-10-21T03:02:55+00:00",
+   "bytes": 7976063,
+   "file": "2026-10-19-webinar-part6.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part7": {
+   "addedAt": "2026-10-21T03:02:55+00:00",
+   "bytes": 12188906,
+   "file": "2026-10-19-webinar-part7.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part8": {
+   "addedAt": "2026-10-21T03:02:54+00:00",
+   "bytes": 12444119,
+   "file": "2026-10-19-webinar-part8.mp4",
+   "zip": "2026-10-19.zip"
+  },
+  "2026-10-19-webinar-part9": {
+   "addedAt": "2026-10-21T03:02:54+00:00",
+   "bytes": 9077853,
+   "file": "2026-10-19-webinar-part9.mp4",
+   "zip": "2026-10-19.zip"
+  }
+ },
+ "zips": {
+  "4a1de97e4b53e54d72d3e2ba049467da422456b07a1faa2a5e2bb8042ed3caa1": {
+   "at": "2026-10-21T03:02:55+00:00",
+   "name": "2026-10-19.zip"
+  }
+ }
+}
