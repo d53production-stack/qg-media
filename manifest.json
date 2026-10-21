@@ -5,6 +5,126 @@
   "2026-10-19-pt3": "2026-10-19-webinar-part3"
  },
  "clips": {
+  "2026-10-07-webinar-part2": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 11098693,
+   "file": "2026-10-07-webinar-part2.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part1": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 7695956,
+   "file": "2026-10-14-webinar-part1.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part10": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 13496547,
+   "file": "2026-10-14-webinar-part10.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part11": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 8043481,
+   "file": "2026-10-14-webinar-part11.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part2": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 13117814,
+   "file": "2026-10-14-webinar-part2.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part3": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 12220986,
+   "file": "2026-10-14-webinar-part3.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part4": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 8949844,
+   "file": "2026-10-14-webinar-part4.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part5": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 12096319,
+   "file": "2026-10-14-webinar-part5.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part6": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 10915785,
+   "file": "2026-10-14-webinar-part6.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part7": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 10845172,
+   "file": "2026-10-14-webinar-part7.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part8": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 8125926,
+   "file": "2026-10-14-webinar-part8.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-14-webinar-part9": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 11843542,
+   "file": "2026-10-14-webinar-part9.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-15-webinar-part1": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 12954010,
+   "file": "2026-10-15-webinar-part1.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-15-webinar-part2": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 11182350,
+   "file": "2026-10-15-webinar-part2.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-15-webinar-part3": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 11507559,
+   "file": "2026-10-15-webinar-part3.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-15-webinar-part4": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 13511475,
+   "file": "2026-10-15-webinar-part4.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-15-webinar-part5": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 9050516,
+   "file": "2026-10-15-webinar-part5.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-15-webinar-part6": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 10891852,
+   "file": "2026-10-15-webinar-part6.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-15-webinar-part7": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 12974726,
+   "file": "2026-10-15-webinar-part7.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-15-webinar-part8": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 11753116,
+   "file": "2026-10-15-webinar-part8.mp4",
+   "zip": "send-to-buffer page"
+  },
   "2026-10-19-webinar-part1": {
    "addedAt": "2026-10-21T03:02:55+00:00",
    "bytes": 8729406,
@@ -100,6 +220,234 @@
    "bytes": 9077853,
    "file": "2026-10-19-webinar-part9.mp4",
    "zip": "2026-10-19.zip"
+  },
+  "cc-how-live-h": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 2597049,
+   "file": "cc-how-live-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "cc-how-live-v": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 3288398,
+   "file": "cc-how-live-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "cc-presets-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 3724974,
+   "file": "cc-presets-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "idea-fresh-chip-or-old-news-d3e-h": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 4473967,
+   "file": "idea-fresh-chip-or-old-news-d3e-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "idea-fresh-chip-or-old-news-d3e-v": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 6392113,
+   "file": "idea-fresh-chip-or-old-news-d3e-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "idea-gold-row-vs-silver-rails-a18-h": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 3833732,
+   "file": "idea-gold-row-vs-silver-rails-a18-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "idea-gold-row-vs-silver-rails-a18-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 6096744,
+   "file": "idea-gold-row-vs-silver-rails-a18-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "idea-is-that-bright-cell-really-big-77w-h": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 2509091,
+   "file": "idea-is-that-bright-cell-really-big-77w-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "idea-is-that-bright-cell-really-big-77w-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 3809795,
+   "file": "idea-is-that-bright-cell-really-big-77w-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "recap-2026-10-08-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 10578149,
+   "file": "recap-2026-10-08-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "recap-2026-10-09-v": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 10173826,
+   "file": "recap-2026-10-09-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-badge-bull-bear-v": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 5811818,
+   "file": "rtb-badge-bull-bear-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-badge-mixed-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 6364058,
+   "file": "rtb-badge-mixed-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-badge-pin-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 6224683,
+   "file": "rtb-badge-pin-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-ladder-03-sign-h": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 3623279,
+   "file": "rtb-ladder-03-sign-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-ladder-03-sign-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 6157972,
+   "file": "rtb-ladder-03-sign-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-ladder-04-majors-v": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 3719112,
+   "file": "rtb-ladder-04-majors-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-ladder-08-primary-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 6293619,
+   "file": "rtb-ladder-08-primary-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-motion-building-v": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 3812493,
+   "file": "rtb-motion-building-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-myth-negative-sr-h": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 2584349,
+   "file": "rtb-myth-negative-sr-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-myth-negative-sr-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 3753588,
+   "file": "rtb-myth-negative-sr-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-myth-single-chip-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 6167260,
+   "file": "rtb-myth-single-chip-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-myth-spike-h": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 4235682,
+   "file": "rtb-myth-spike-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-myth-spike-v": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 6169692,
+   "file": "rtb-myth-spike-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-p-60s-h": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 3857993,
+   "file": "rtb-p-60s-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-p-60s-v": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 6060727,
+   "file": "rtb-p-60s-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-quiz-1-v": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 6623016,
+   "file": "rtb-quiz-1-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-quiz-2-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 5864411,
+   "file": "rtb-quiz-2-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-s1-dealer-h": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 3071449,
+   "file": "rtb-s1-dealer-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-s1-dealer-v": {
+   "addedAt": "2026-10-21T05:08:07+00:00",
+   "bytes": 3974502,
+   "file": "rtb-s1-dealer-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-s1-negative-h": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 2597593,
+   "file": "rtb-s1-negative-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-s1-negative-v": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 3943466,
+   "file": "rtb-s1-negative-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-s1-not-direction-h": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 2461626,
+   "file": "rtb-s1-not-direction-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-s1-not-direction-v": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 3740096,
+   "file": "rtb-s1-not-direction-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-s1-positive-h": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 3050444,
+   "file": "rtb-s1-positive-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-s1-positive-v": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 3747406,
+   "file": "rtb-s1-positive-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-vs-pin-two-cushions-h": {
+   "addedAt": "2026-10-21T05:08:06+00:00",
+   "bytes": 2789405,
+   "file": "rtb-vs-pin-two-cushions-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-vs-pin-two-cushions-v": {
+   "addedAt": "2026-10-21T05:08:08+00:00",
+   "bytes": 4236453,
+   "file": "rtb-vs-pin-two-cushions-v.mp4",
+   "zip": "send-to-buffer page"
   }
  },
  "zips": {
