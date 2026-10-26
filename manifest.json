@@ -317,6 +317,36 @@
    "file": "2026-10-19-webinar-part9.mp4",
    "zip": "2026-10-19.zip"
   },
+  "2026-10-22-webinar-part2": {
+   "addedAt": "2026-10-26T01:59:06+00:00",
+   "bytes": 12369168,
+   "file": "2026-10-22-webinar-part2.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-22-webinar-part3": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 6720005,
+   "file": "2026-10-22-webinar-part3.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-22-webinar-part4": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 11485933,
+   "file": "2026-10-22-webinar-part4.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-22-webinar-part5": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 20397162,
+   "file": "2026-10-22-webinar-part5.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "2026-10-22-webinar-part7": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 4901466,
+   "file": "2026-10-22-webinar-part7.mp4",
+   "zip": "send-to-buffer page"
+  },
   "cc-how-live-h": {
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 2597049,
@@ -371,6 +401,18 @@
    "file": "idea-is-that-bright-cell-really-big-77w-v.mp4",
    "zip": "send-to-buffer page"
   },
+  "idea-which-lens-am-i-reading-lf4-h": {
+   "addedAt": "2026-10-26T01:59:06+00:00",
+   "bytes": 2597393,
+   "file": "idea-which-lens-am-i-reading-lf4-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "idea-which-lens-am-i-reading-lf4-v": {
+   "addedAt": "2026-10-26T01:59:06+00:00",
+   "bytes": 3960013,
+   "file": "idea-which-lens-am-i-reading-lf4-v.mp4",
+   "zip": "send-to-buffer page"
+  },
   "recap-2026-10-08-v": {
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 10578149,
@@ -419,6 +461,18 @@
    "file": "rtb-ladder-04-majors-v.mp4",
    "zip": "send-to-buffer page"
   },
+  "rtb-ladder-07-moving-h": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 3049069,
+   "file": "rtb-ladder-07-moving-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-ladder-07-moving-v": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 4162456,
+   "file": "rtb-ladder-07-moving-v.mp4",
+   "zip": "send-to-buffer page"
+  },
   "rtb-ladder-08-primary-v": {
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 6293619,
@@ -429,6 +483,30 @@
    "addedAt": "2026-10-21T05:08:06+00:00",
    "bytes": 3812493,
    "file": "rtb-motion-building-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-motion-migrating-h": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 2757641,
+   "file": "rtb-motion-migrating-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-motion-migrating-v": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 3956031,
+   "file": "rtb-motion-migrating-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-motion-three-books-h": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 2680605,
+   "file": "rtb-motion-three-books-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-motion-three-books-v": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 3930094,
+   "file": "rtb-motion-three-books-v.mp4",
    "zip": "send-to-buffer page"
   },
   "rtb-myth-negative-sr-h": {
@@ -533,6 +611,18 @@
    "file": "rtb-s1-positive-v.mp4",
    "zip": "send-to-buffer page"
   },
+  "rtb-vs-cushion-accelerant-h": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 2935974,
+   "file": "rtb-vs-cushion-accelerant-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-vs-cushion-accelerant-v": {
+   "addedAt": "2026-10-26T01:59:05+00:00",
+   "bytes": 4025975,
+   "file": "rtb-vs-cushion-accelerant-v.mp4",
+   "zip": "send-to-buffer page"
+  },
   "rtb-vs-pin-two-cushions-h": {
    "addedAt": "2026-10-21T05:08:06+00:00",
    "bytes": 2789405,
@@ -543,6 +633,18 @@
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 4236453,
    "file": "rtb-vs-pin-two-cushions-v.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-vs-trapdoor-launch-h": {
+   "addedAt": "2026-10-26T01:59:06+00:00",
+   "bytes": 2562391,
+   "file": "rtb-vs-trapdoor-launch-h.mp4",
+   "zip": "send-to-buffer page"
+  },
+  "rtb-vs-trapdoor-launch-v": {
+   "addedAt": "2026-10-26T01:59:06+00:00",
+   "bytes": 3908158,
+   "file": "rtb-vs-trapdoor-launch-v.mp4",
    "zip": "send-to-buffer page"
   }
  },
