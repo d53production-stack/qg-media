@@ -17,6 +17,66 @@
    "file": "2026-10-07-webinar-part3.mp4",
    "zip": "send-to-buffer page"
   },
+  "2026-10-14-webinar-b-part1": {
+   "addedAt": "2026-10-26T00:47:46+00:00",
+   "bytes": 13794508,
+   "file": "2026-10-14-webinar-b-part1.mp4",
+   "zip": "2026-10-14-21-22-vertical-clips.zip"
+  },
+  "2026-10-14-webinar-b-part10": {
+   "addedAt": "2026-10-26T00:47:45+00:00",
+   "bytes": 11287056,
+   "file": "2026-10-14-webinar-b-part10.mp4",
+   "zip": "2026-10-14-21-22-vertical-clips.zip"
+  },
+  "2026-10-14-webinar-b-part2": {
+   "addedAt": "2026-10-26T00:47:46+00:00",
+   "bytes": 14226793,
+   "file": "2026-10-14-webinar-b-part2.mp4",
+   "zip": "2026-10-14-21-22-vertical-clips.zip"
+  },
+  "2026-10-14-webinar-b-part3": {
+   "addedAt": "2026-10-26T00:47:45+00:00",
+   "bytes": 10134167,
+   "file": "2026-10-14-webinar-b-part3.mp4",
+   "zip": "2026-10-14-21-22-vertical-clips.zip"
+  },
+  "2026-10-14-webinar-b-part4": {
+   "addedAt": "2026-10-26T00:47:45+00:00",
+   "bytes": 8537594,
+   "file": "2026-10-14-webinar-b-part4.mp4",
+   "zip": "2026-10-14-21-22-vertical-clips.zip"
+  },
+  "2026-10-14-webinar-b-part5": {
+   "addedAt": "2026-10-26T00:47:46+00:00",
+   "bytes": 14002192,
+   "file": "2026-10-14-webinar-b-part5.mp4",
+   "zip": "2026-10-14-21-22-vertical-clips.zip"
+  },
+  "2026-10-14-webinar-b-part6": {
+   "addedAt": "2026-10-26T00:47:45+00:00",
+   "bytes": 8626317,
+   "file": "2026-10-14-webinar-b-part6.mp4",
+   "zip": "2026-10-14-21-22-vertical-clips.zip"
+  },
+  "2026-10-14-webinar-b-part7": {
+   "addedAt": "2026-10-26T00:47:45+00:00",
+   "bytes": 9317772,
+   "file": "2026-10-14-webinar-b-part7.mp4",
+   "zip": "2026-10-14-21-22-vertical-clips.zip"
+  },
+  "2026-10-14-webinar-b-part8": {
+   "addedAt": "2026-10-26T00:47:46+00:00",
+   "bytes": 11139196,
+   "file": "2026-10-14-webinar-b-part8.mp4",
+   "zip": "2026-10-14-21-22-vertical-clips.zip"
+  },
+  "2026-10-14-webinar-b-part9": {
+   "addedAt": "2026-10-26T00:47:46+00:00",
+   "bytes": 14729337,
+   "file": "2026-10-14-webinar-b-part9.mp4",
+   "zip": "2026-10-14-21-22-vertical-clips.zip"
+  },
   "2026-10-14-webinar-part1": {
    "addedAt": "2026-10-21T05:08:06+00:00",
    "bytes": 7695956,
@@ -460,6 +520,10 @@
   "4a1de97e4b53e54d72d3e2ba049467da422456b07a1faa2a5e2bb8042ed3caa1": {
    "at": "2026-10-21T03:02:55+00:00",
    "name": "2026-10-19.zip"
+  },
+  "ff66c191ea4ca347bdb0f0ea40418a58d8a4b2f5294cd90219cdd736cb579ac5": {
+   "at": "2026-10-26T00:47:46+00:00",
+   "name": "2026-10-14-21-22-vertical-clips.zip"
   }
  }
 }
