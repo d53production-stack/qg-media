@@ -1,0 +1,6 @@
+# Proof screenshots and renders are binaries: keep them out of git (Drive or LFS instead).
+*.png
+*.jpg
+*.jpeg
+posts/*/out/
+fonts/
