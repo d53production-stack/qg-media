@@ -284,6 +284,9 @@ def draw_stats(canvas, cfg, x, y, w, vertical=False, value_size=52):
         return y + n * (value_size + 56)
     d.line([(x, y), (x + w, y)], fill=(40, 52, 44), width=1)
     col = w / n
+    while value_size > 32 and max(vf.getlength(s["value"]) for s in cfg["stats"]) > col - 28:
+        value_size -= 2
+        vf = font("head", value_size)
     for i, s in enumerate(cfg["stats"]):
         cx = x + i * col
         tracked(d, (cx, y + 22), s["label"], lf, MUTED, 0.22)
@@ -303,6 +306,10 @@ def draw_signoff(canvas, cfg, x, bottom, logo_w):
 
 # ---- Layouts ----
 
+class TooSmall(Exception):
+    """This layout can't show the proof at 80% or more on this canvas."""
+
+
 def card_size(cfg, scale):
     w, h = cfg["proof_size"]
     return round(w * scale) + 20, round(h * scale) + 20
@@ -312,14 +319,14 @@ def fit_scale(cfg, max_w, max_h):
     w, h = card_size(cfg, 1.0)
     s = min(1.0, max_w / w, max_h / h)
     if s < 0.8:
-        sys.exit(f"Proof needs {s:.0%} scale to fit; the rules allow no less than 80%.")
+        raise TooSmall(f"proof would need {s:.0%} scale; the rules allow no less than 80%")
     return s
 
 
 def layout_side(proof, cfg, W, H, M, card_left):
     """Mirror (card left) or split (card right): card ~55% width, copy column beside it."""
     im = background(W, H, glows=((0.3 if card_left else 0.7, 0.45, 0.6),))
-    s = fit_scale(cfg, W * 0.58, H - 2 * M + 30)
+    s = fit_scale(cfg, W * 0.58, H - 2 * M - 14)
     cw, ch = card_size(cfg, s)
     cy = (H - ch) // 2
     cx = M if card_left else W - M - cw
@@ -412,16 +419,27 @@ def main():
     made = []
     if "x" in formats:
         for name, fn in LANDSCAPE.items():
-            im = fn(proof, cfg, 1600, 900, 64)
+            try:
+                im = fn(proof, cfg, 1600, 900, 64)
+            except TooSmall as e:
+                print(f"Skipped X {name}: {e}")
+                continue
             im.save(os.path.join(out, f"{cfg['name']}-x-{name}{tag}.png"))
             made.append((f"X {name}", im))
     if "story" in formats:
-        im = layout_story(proof, cfg)
-        im.save(os.path.join(out, f"{cfg['name']}-story{tag}.png"))
-        made.append(("Story", im))
+        try:
+            im = layout_story(proof, cfg)
+            im.save(os.path.join(out, f"{cfg['name']}-story{tag}.png"))
+            made.append(("Story", im))
+        except TooSmall as e:
+            print(f"Skipped Story: {e}")
     if "ig" in formats:
         for name, fn in LANDSCAPE.items():
-            im = fn(proof, cfg, 1600, 838, 59).resize((1080, 566), Image.LANCZOS)
+            try:
+                im = fn(proof, cfg, 1600, 838, 59).resize((1080, 566), Image.LANCZOS)
+            except TooSmall as e:
+                print(f"Skipped IG {name}: {e}")
+                continue
             im.save(os.path.join(out, f"{cfg['name']}-ig-{name}{tag}.png"))
             made.append((f"IG {name}", im))
     overview(made, os.path.join(out, f"{cfg['name']}-overview{tag}.png"))

@@ -1,0 +1,25 @@
+{
+  "name": "bricks-lucid-alltime",
+  "proof": "proof.png",
+  "proof_size": [838, 773],
+  "source_label": "SOURCE: LUCID TRADING LEADERBOARD",
+  "kicker": "> LUCID TRADING'S #1 TRADER",
+  "headline": ["Their top trader", "runs on QuantGeeks."],
+  "stats": [
+    {"label": "TOTAL P&L", "value": "$80,932.34", "green": true},
+    {"label": "WIN RATE", "value": "83.6%"},
+    {"label": "TRADES", "value": "329"}
+  ],
+  "signoff": "BRICKS TRADES WITH",
+  "hero": {
+    "box": [30, 136, 791, 279],
+    "tag": "#1 LUCID'S TOP TRADER",
+    "tag_align": "right"
+  },
+  "secondary": {
+    "box": [30, 528, 791, 700],
+    "tag": "TOP 3",
+    "tag_x": 300
+  },
+  "dim": 0.62
+}
