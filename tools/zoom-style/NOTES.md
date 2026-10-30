@@ -36,6 +36,19 @@ on its own for the same material.
 
 - [x] survey
 - [x] analyzer and profile scripts written
-- [ ] run over all webinar clips, eyeball the shot sheets, fix thresholds
-- [ ] write PROFILE.md (Matt's style)
-- [ ] Claude's own zoom rules + side-by-side comparison
+- [x] run over all webinar clips (97 after dropping the pt1-3 aliases), eyeball sheets, fix thresholds
+- [x] results/PROFILE.md (Matt's style), results/profile.json, results/matt-zoom-style.json
+- [x] CLAUDE-DEFAULT-STYLE.md + results/COMPARISON.md
+- [x] results/focus-map.jpg (heat map: SPX and SPY chart panels)
+- [ ] absolute zoom against a raw recording (needs a DRY file from Matt)
+- [ ] transcript timing: what word triggers each zoom (needs captions or audio)
+
+## Findings (2026-10-30)
+
+- Pace: 9.4 moves/min, holds 3.8 s median (zoomed 3.4 s, wide 4.7 s), 46 % of time zoomed.
+- Level: 1.55x median when zoomed (middle half 1.44 to 1.66), tightest 2.3x; almost never 2x+.
+- Moves: 0.2 to 0.3 s ramps since Oct 8 (Oct 7 used 0.55 s); cuts are rare (15 of 620).
+- Pattern: in > out > in; pans at the same zoom (119) are common, stacked zoom-ins (20) are not.
+- 33 % of clips open already zoomed; first zoom at 3.0 s median otherwise.
+- Where: SPX and SPY chart panels in the middle of the dashboard; the ladder and QQQ rarely.
+- Ink: 88 % of zoomed holds have Matt's red ink inside, a median 0.14 off centre; 44 % of wide holds also show ink he did not zoom on.

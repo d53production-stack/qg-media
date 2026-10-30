@@ -1,0 +1,137 @@
+{
+ "clip": "2026-10-14-webinar-part5",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 28.27,
+ "sample_fps": 10,
+ "widest_hold": 1,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.2,
+   "dur": 0.2,
+   "features": 64,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 13.3,
+   "dur": 12.7,
+   "features": 1487,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 405,
+    "share": 0.00047,
+    "center": [
+     0.346,
+     0.422
+    ],
+    "bbox": [
+     0.297,
+     0.413,
+     0.422,
+     0.437
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 13.4,
+   "end": 24.4,
+   "dur": 11.0,
+   "features": 1385,
+   "kind": "video",
+   "zoom": 1.066,
+   "center": [
+    0.152,
+    0.476
+   ],
+   "ink": {
+    "px": 3062,
+    "share": 0.00359,
+    "center": [
+     0.653,
+     0.614
+    ],
+    "bbox": [
+     0.37,
+     0.529,
+     0.94,
+     0.7
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 24.7,
+   "end": 28.3,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.2,
+   "end": 0.6,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": -0.002,
+   "pan_px": 143.3,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null
+  },
+  {
+   "index": 1,
+   "start": 13.3,
+   "end": 13.4,
+   "dur": 0.1,
+   "type": "cut",
+   "log_scale": 0.021,
+   "pan_px": 195.4,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.066,
+   "zoom_ratio": 1.066
+  },
+  {
+   "index": 2,
+   "start": 24.4,
+   "end": 24.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 98.8,
+   "after_hold": 2,
+   "zoom_from": 1.066,
+   "zoom_to": null,
+   "zoom_ratio": null
+  }
+ ],
+ "unresolved_holds": []
+}

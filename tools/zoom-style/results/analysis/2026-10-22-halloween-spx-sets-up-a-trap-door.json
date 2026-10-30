@@ -1,0 +1,241 @@
+{
+ "clip": "2026-10-22-halloween-spx-sets-up-a-trap-door",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 36.63,
+ "sample_fps": 10,
+ "widest_hold": 3,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1124,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 2.3,
+   "dur": 1.7,
+   "features": 1492,
+   "kind": "video",
+   "zoom": 1.002,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 2.6,
+   "end": 15.1,
+   "dur": 12.5,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.761,
+   "center": [
+    0.397,
+    0.354
+   ],
+   "ink": {
+    "px": 3150,
+    "share": 0.00369,
+    "center": [
+     0.501,
+     0.439
+    ],
+    "bbox": [
+     0.352,
+     0.377,
+     0.652,
+     0.516
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 15.3,
+   "end": 23.5,
+   "dur": 8.2,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 606,
+    "share": 0.00071,
+    "center": [
+     0.374,
+     0.407
+    ],
+    "bbox": [
+     0.319,
+     0.295,
+     0.448,
+     0.443
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 23.7,
+   "end": 30.0,
+   "dur": 6.3,
+   "features": 1492,
+   "kind": "video",
+   "zoom": 1.479,
+   "center": [
+    0.466,
+    0.54
+   ],
+   "ink": {
+    "px": 1420,
+    "share": 0.00166,
+    "center": [
+     0.446,
+     0.626
+    ],
+    "bbox": [
+     0.355,
+     0.592,
+     0.543,
+     0.656
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 30.2,
+   "end": 32.7,
+   "dur": 2.5,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 6,
+   "start": 33.1,
+   "end": 36.7,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 72.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.002,
+   "zoom_ratio": null
+  },
+  {
+   "index": 1,
+   "start": 2.3,
+   "end": 2.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.566,
+   "pan_px": 101.2,
+   "after_hold": 1,
+   "zoom_from": 1.002,
+   "zoom_to": 1.761,
+   "zoom_ratio": 1.757
+  },
+  {
+   "index": 2,
+   "start": 15.1,
+   "end": 15.3,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.548,
+   "pan_px": 73.8,
+   "after_hold": 2,
+   "zoom_from": 1.761,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.568
+  },
+  {
+   "index": 3,
+   "start": 23.5,
+   "end": 23.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.374,
+   "pan_px": 115.2,
+   "after_hold": 3,
+   "zoom_from": 1.0,
+   "zoom_to": 1.479,
+   "zoom_ratio": 1.479
+  },
+  {
+   "index": 4,
+   "start": 30.0,
+   "end": 30.2,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.373,
+   "pan_px": 93.4,
+   "after_hold": 4,
+   "zoom_from": 1.479,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.676
+  },
+  {
+   "index": 5,
+   "start": 32.7,
+   "end": 33.1,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 132.5,
+   "after_hold": 5,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null
+  }
+ ],
+ "unresolved_holds": []
+}

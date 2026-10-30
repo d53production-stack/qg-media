@@ -1,0 +1,313 @@
+{
+ "clip": "2026-10-22-halloween-spy-and-qqq-battle-between-two-primaries",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 41.9,
+ "sample_fps": 10,
+ "widest_hold": 5,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1157,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 1.8,
+   "dur": 1.2,
+   "features": 1184,
+   "kind": "video",
+   "zoom": 1.008,
+   "center": [
+    0.497,
+    0.499
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 2.0,
+   "end": 7.4,
+   "dur": 5.4,
+   "features": 1496,
+   "kind": "video",
+   "zoom": 1.343,
+   "center": [
+    0.599,
+    0.598
+   ],
+   "ink": {
+    "px": 1433,
+    "share": 0.00168,
+    "center": [
+     0.562,
+     0.662
+    ],
+    "bbox": [
+     0.498,
+     0.412,
+     0.62,
+     0.849
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 7.7,
+   "end": 12.6,
+   "dur": 4.9,
+   "features": 1491,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 238,
+    "share": 0.00028,
+    "center": [
+     0.734,
+     0.405
+    ],
+    "bbox": [
+     0.709,
+     0.311,
+     0.756,
+     0.476
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 12.9,
+   "end": 14.9,
+   "dur": 2.0,
+   "features": 1486,
+   "kind": "video",
+   "zoom": 1.515,
+   "center": [
+    0.672,
+    0.654
+   ],
+   "ink": {
+    "px": 1341,
+    "share": 0.00157,
+    "center": [
+     0.548,
+     0.712
+    ],
+    "bbox": [
+     0.416,
+     0.275,
+     0.679,
+     0.814
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 15.2,
+   "end": 29.8,
+   "dur": 14.6,
+   "features": 1493,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 6,
+   "start": 30.1,
+   "end": 37.4,
+   "dur": 7.3,
+   "features": 1459,
+   "kind": "video",
+   "zoom": 1.68,
+   "center": [
+    0.868,
+    0.386
+   ],
+   "ink": {
+    "px": 408,
+    "share": 0.00048,
+    "center": [
+     0.64,
+     0.433
+    ],
+    "bbox": [
+     0.556,
+     0.296,
+     0.807,
+     0.565
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 37.5,
+   "end": 38.0,
+   "dur": 0.5,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 0.992,
+   "center": [
+    0.504,
+    0.501
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 8,
+   "start": 38.3,
+   "end": 41.9,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 72.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.008,
+   "zoom_ratio": null
+  },
+  {
+   "index": 1,
+   "start": 1.8,
+   "end": 2.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.278,
+   "pan_px": 180.2,
+   "after_hold": 1,
+   "zoom_from": 1.008,
+   "zoom_to": 1.343,
+   "zoom_ratio": 1.332
+  },
+  {
+   "index": 2,
+   "start": 7.4,
+   "end": 7.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.295,
+   "pan_px": 165.2,
+   "after_hold": 2,
+   "zoom_from": 1.343,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.745
+  },
+  {
+   "index": 3,
+   "start": 12.6,
+   "end": 12.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.415,
+   "pan_px": 304.7,
+   "after_hold": 3,
+   "zoom_from": 1.0,
+   "zoom_to": 1.515,
+   "zoom_ratio": 1.515
+  },
+  {
+   "index": 4,
+   "start": 14.9,
+   "end": 15.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.414,
+   "pan_px": 238.9,
+   "after_hold": 4,
+   "zoom_from": 1.515,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.66
+  },
+  {
+   "index": 5,
+   "start": 29.8,
+   "end": 30.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.516,
+   "pan_px": 449.6,
+   "after_hold": 5,
+   "zoom_from": 1.0,
+   "zoom_to": 1.68,
+   "zoom_ratio": 1.68
+  },
+  {
+   "index": 6,
+   "start": 37.4,
+   "end": 37.5,
+   "dur": 0.1,
+   "type": "cut",
+   "log_scale": -0.518,
+   "pan_px": 307.9,
+   "after_hold": 6,
+   "zoom_from": 1.68,
+   "zoom_to": 0.992,
+   "zoom_ratio": 0.59
+  },
+  {
+   "index": 7,
+   "start": 38.0,
+   "end": 38.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.002,
+   "pan_px": 114.9,
+   "after_hold": 7,
+   "zoom_from": 0.992,
+   "zoom_to": null,
+   "zoom_ratio": null
+  }
+ ],
+ "unresolved_holds": []
+}

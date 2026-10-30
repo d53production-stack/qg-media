@@ -1,0 +1,337 @@
+{
+ "clip": "2026-10-26-webinar-part8",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 72.93,
+ "sample_fps": 10,
+ "widest_hold": 8,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1249,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 3.9,
+   "dur": 3.3,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 4.2,
+   "end": 7.9,
+   "dur": 3.7,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.764,
+   "center": [
+    0.437,
+    0.38
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 8.2,
+   "end": 13.5,
+   "dur": 5.3,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.001,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 4,
+   "start": 13.8,
+   "end": 20.2,
+   "dur": 6.4,
+   "features": 1494,
+   "kind": "video",
+   "zoom": 1.583,
+   "center": [
+    0.387,
+    0.493
+   ],
+   "ink": {
+    "px": 2061,
+    "share": 0.00242,
+    "center": [
+     0.487,
+     0.487
+    ],
+    "bbox": [
+     0.371,
+     0.258,
+     0.611,
+     0.568
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 20.5,
+   "end": 22.9,
+   "dur": 2.4,
+   "features": 1463,
+   "kind": "video",
+   "zoom": 1.589,
+   "center": [
+    0.691,
+    0.486
+   ],
+   "ink": {
+    "px": 1682,
+    "share": 0.00197,
+    "center": [
+     0.532,
+     0.585
+    ],
+    "bbox": [
+     0.337,
+     0.577,
+     0.723,
+     0.596
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 23.2,
+   "end": 28.5,
+   "dur": 5.3,
+   "features": 1498,
+   "kind": "video",
+   "zoom": 1.002,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 28.7,
+   "end": 38.8,
+   "dur": 10.1,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.706,
+   "center": [
+    0.167,
+    0.549
+   ],
+   "ink": {
+    "px": 8761,
+    "share": 0.01027,
+    "center": [
+     0.327,
+     0.531
+    ],
+    "bbox": [
+     0.014,
+     0.387,
+     0.626,
+     0.723
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 39.1,
+   "end": 69.0,
+   "dur": 29.9,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 9,
+   "start": 69.4,
+   "end": 73.0,
+   "dur": 3.6,
+   "features": 1491,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 72.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null
+  },
+  {
+   "index": 1,
+   "start": 3.9,
+   "end": 4.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.453,
+   "pan_px": 102.2,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.764,
+   "zoom_ratio": 1.764
+  },
+  {
+   "index": 2,
+   "start": 7.9,
+   "end": 8.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.495,
+   "pan_px": 90.9,
+   "after_hold": 2,
+   "zoom_from": 1.764,
+   "zoom_to": 1.001,
+   "zoom_ratio": 0.567
+  },
+  {
+   "index": 3,
+   "start": 13.5,
+   "end": 13.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.457,
+   "pan_px": 111.0,
+   "after_hold": 3,
+   "zoom_from": 1.001,
+   "zoom_to": 1.583,
+   "zoom_ratio": 1.581
+  },
+  {
+   "index": 4,
+   "start": 20.2,
+   "end": 20.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 258.8,
+   "after_hold": 4,
+   "zoom_from": 1.583,
+   "zoom_to": 1.589,
+   "zoom_ratio": 1.004
+  },
+  {
+   "index": 5,
+   "start": 22.9,
+   "end": 23.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.454,
+   "pan_px": 238.3,
+   "after_hold": 5,
+   "zoom_from": 1.589,
+   "zoom_to": 1.002,
+   "zoom_ratio": 0.631
+  },
+  {
+   "index": 6,
+   "start": 28.5,
+   "end": 28.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.515,
+   "pan_px": 178.3,
+   "after_hold": 6,
+   "zoom_from": 1.002,
+   "zoom_to": 1.706,
+   "zoom_ratio": 1.703
+  },
+  {
+   "index": 7,
+   "start": 38.8,
+   "end": 39.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.532,
+   "pan_px": 131.1,
+   "after_hold": 7,
+   "zoom_from": 1.706,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.586
+  },
+  {
+   "index": 8,
+   "start": 69.0,
+   "end": 69.4,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 132.2,
+   "after_hold": 8,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null
+  }
+ ],
+ "unresolved_holds": []
+}

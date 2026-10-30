@@ -111,6 +111,10 @@ def summarize(files):
         moves_per_min.append(real_moves / video_len * 60 if video_len else None)
         z_time = 0.0
         fz = None
+        clip_zooms, clip_ramps = [], []
+        for mv in d["moves"]:
+            if mv.get("kind") in ("zoom-in", "zoom-out", "pan"):
+                clip_ramps.append(mv["dur"])
         first = holds[0]
         if first["zoom"] and first["zoom"] >= ZOOMED:
             opens_zoomed += 1
@@ -120,6 +124,7 @@ def summarize(files):
                 continue
             zoom_levels.append(h["zoom"])
             if h["zoom"] >= ZOOMED:
+                clip_zooms.append(h["zoom"])
                 zoomed_durs.append(h["dur"])
                 z_time += h["dur"]
                 if fz is None:
@@ -143,9 +148,25 @@ def summarize(files):
             "first_zoom_s": fz,
             "move_kinds": dict(Counter(kinds)),
             "unresolved": len(d.get("unresolved_holds", [])),
+            "zoomed_holds": len(clip_zooms),
+            "zoom_levels": clip_zooms,
+            "ramp_durs": clip_ramps,
         })
+    by_date = {}
+    for r in per_clip:
+        v = by_date.setdefault(r["clip"][:10], {"clips": 0, "zoomed_holds": 0, "zooms": [], "shares": [], "mpm": [], "ramps": []})
+        v["clips"] += 1
+        v["zoomed_holds"] += r["zoomed_holds"]
+        v["zooms"] += r["zoom_levels"]
+        v["shares"].append(r["zoomed_share"])
+        v["mpm"].append(r["moves_per_min"])
+        v["ramps"] += r["ramp_durs"]
+    by_date = {k: {"clips": v["clips"], "zoomed_holds": v["zoomed_holds"], "zoom_level": pct(v["zooms"], 0.5),
+                   "zoomed_share": pct(v["shares"], 0.5), "moves_per_min": pct(v["mpm"], 0.5), "ramp_s": pct(v["ramps"], 0.5)}
+               for k, v in by_date.items()}
     prof = {
         "clips": clips_with_video,
+        "by_date": by_date,
         "total_minutes": round(sum(r["duration"] for r in per_clip) / 60, 1),
         "holds_total": len(hold_durs),
         "moves_per_min": spread(moves_per_min),
@@ -201,10 +222,17 @@ def to_md(p):
     for k, v in p["focus_cells_when_zoomed"].items():
         L.append(f"- {k}: {v}")
     L.append("")
+    L.append("## By webinar date\n")
+    L.append("| date | clips | zoomed holds | zoom level | zoomed share | moves/min | ramp length |")
+    L.append("|---|---|---|---|---|---|---|")
+    for date, v in sorted(p["by_date"].items()):
+        L.append(f"| {date} | {v['clips']} | {v['zoomed_holds']} | {v['zoom_level']}x | {v['zoomed_share']} | {v['moves_per_min']} | {v['ramp_s']}s |")
+    L.append("")
     L.append("## Per clip\n")
     L.append("| clip | s | holds | moves/min | zoomed share | max zoom | opens zoomed | first zoom s | moves | unresolved |")
     L.append("|---|---|---|---|---|---|---|---|---|---|")
     for r in p["per_clip"]:
+        r = {k: v for k, v in r.items() if k not in ("zoom_levels", "ramp_durs")}
         L.append(f"| {r['clip']} | {r['duration']} | {r['holds']} | {r['moves_per_min']} | {r['zoomed_share']} | {r['max_zoom']} | {'yes' if r['opens_zoomed'] else 'no'} | {r['first_zoom_s']} | {r['move_kinds']} | {r['unresolved']} |")
     return "\n".join(L) + "\n"
 

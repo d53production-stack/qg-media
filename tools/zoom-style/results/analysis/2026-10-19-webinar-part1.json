@@ -1,0 +1,297 @@
+{
+ "clip": "2026-10-19-webinar-part1",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 27.2,
+ "sample_fps": 10,
+ "widest_hold": 5,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1376,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 4.6,
+   "dur": 4.0,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.408,
+   "center": [
+    0.347,
+    0.569
+   ],
+   "ink": {
+    "px": 2484,
+    "share": 0.00291,
+    "center": [
+     0.439,
+     0.518
+    ],
+    "bbox": [
+     0.341,
+     0.253,
+     0.553,
+     0.68
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 4.7,
+   "end": 8.9,
+   "dur": 4.2,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.482,
+   "center": [
+    0.362,
+    0.509
+   ],
+   "ink": {
+    "px": 1463,
+    "share": 0.00171,
+    "center": [
+     0.429,
+     0.697
+    ],
+    "bbox": [
+     0.354,
+     0.63,
+     0.5,
+     0.761
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 9.1,
+   "end": 11.2,
+   "dur": 2.1,
+   "features": 1498,
+   "kind": "video",
+   "zoom": 1.009,
+   "center": [
+    0.497,
+    0.499
+   ],
+   "ink": {
+    "px": 162,
+    "share": 0.00019,
+    "center": [
+     0.335,
+     0.556
+    ],
+    "bbox": [
+     0.29,
+     0.539,
+     0.367,
+     0.582
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 11.5,
+   "end": 14.6,
+   "dur": 3.1,
+   "features": 1490,
+   "kind": "video",
+   "zoom": 1.513,
+   "center": [
+    0.724,
+    0.458
+   ],
+   "ink": {
+    "px": 1168,
+    "share": 0.00137,
+    "center": [
+     0.871,
+     0.604
+    ],
+    "bbox": [
+     0.835,
+     0.412,
+     0.897,
+     0.797
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 14.9,
+   "end": 20.4,
+   "dur": 5.5,
+   "features": 1496,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 318,
+    "share": 0.00037,
+    "center": [
+     0.353,
+     0.569
+    ],
+    "bbox": [
+     0.317,
+     0.477,
+     0.381,
+     0.661
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 20.7,
+   "end": 23.3,
+   "dur": 2.6,
+   "features": 1473,
+   "kind": "video",
+   "zoom": 1.652,
+   "center": [
+    0.804,
+    0.514
+   ],
+   "ink": {
+    "px": 1198,
+    "share": 0.0014,
+    "center": [
+     0.711,
+     0.336
+    ],
+    "bbox": [
+     0.667,
+     0.238,
+     0.773,
+     0.386
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 23.6,
+   "end": 27.2,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 35.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.408,
+   "zoom_ratio": null
+  },
+  {
+   "index": 1,
+   "start": 4.6,
+   "end": 4.7,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.04,
+   "pan_px": 25.3,
+   "after_hold": 1,
+   "zoom_from": 1.408,
+   "zoom_to": 1.482,
+   "zoom_ratio": 1.053
+  },
+  {
+   "index": 2,
+   "start": 8.9,
+   "end": 9.1,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.352,
+   "pan_px": 68.3,
+   "after_hold": 2,
+   "zoom_from": 1.482,
+   "zoom_to": 1.009,
+   "zoom_ratio": 0.681
+  },
+  {
+   "index": 3,
+   "start": 11.2,
+   "end": 11.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.412,
+   "pan_px": 294.7,
+   "after_hold": 3,
+   "zoom_from": 1.009,
+   "zoom_to": 1.513,
+   "zoom_ratio": 1.5
+  },
+  {
+   "index": 4,
+   "start": 14.6,
+   "end": 14.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.412,
+   "pan_px": 242.2,
+   "after_hold": 4,
+   "zoom_from": 1.513,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.661
+  },
+  {
+   "index": 5,
+   "start": 20.4,
+   "end": 20.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.5,
+   "pan_px": 403.0,
+   "after_hold": 5,
+   "zoom_from": 1.0,
+   "zoom_to": 1.652,
+   "zoom_ratio": 1.652
+  },
+  {
+   "index": 6,
+   "start": 23.3,
+   "end": 23.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.006,
+   "pan_px": 114.2,
+   "after_hold": 6,
+   "zoom_from": 1.652,
+   "zoom_to": null,
+   "zoom_ratio": null
+  }
+ ],
+ "unresolved_holds": []
+}
