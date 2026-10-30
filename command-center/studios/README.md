@@ -93,5 +93,5 @@ If nothing changed, the output is one write: the studio doc with a fresh
 2. Command Center preview copy with the STUDIOS card and content chips.
 3. Hourly copy prompt gains the sweep step. Live tool: ask first.
 4. Publish the Command Center. Live tool: ask first.
-5. Worker step in each of the four studios, one at a time. Live tools: ask first.
+5. Workers fire the "Command Center: studio job done" task at job end (see WORKER-STEPS.md); the runbook line needs Matt's OK per studio.
 6. Mark `command-center.v3` (studio half) done once a real job has flowed through.
