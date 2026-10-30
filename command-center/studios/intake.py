@@ -80,3 +80,117 @@ def desk_proposal_status(raw) -> str:
     if word == "SENT BACK":
         return "failed"
     return "unknown"
+
+
+# --- studios -----------------------------------------------------------------
+
+STUDIOS = {
+    "highlight": {"label": "Highlight Studio", "url": "https://claude.ai/artifact/9pKYhvbeaxpwwDyhQswHvi", "collection": "jobs", "prefix": "hs-"},
+    "factory": {"label": "Video Factory", "url": "https://claude.ai/artifact/Q9r9A3GK8dhbKB5jKb2p2g", "collection": "batches", "prefix": "vf-"},
+    "style": {"label": "Style Studio", "url": "https://claude.ai/artifact/AmAqmKFatXwLoTUiE29iTU", "collection": "requests", "prefix": None},
+    "desk": {"label": "Publishing Desk", "url": "https://claude.ai/artifact/Y876Yu3rcP3g4hX6oSfcKz", "collection": "videos", "prefix": None},
+}
+
+DESK_QUIET = {"SCHEDULED", "READY", ""}
+
+
+def _outputs_list(raw) -> list:
+    outs = raw.get("outputs")
+    return [o for o in outs if isinstance(o, dict)] if isinstance(outs, list) else []
+
+
+def _entry(title, st, raw_word, step, started, ended, updated, videos, message=""):
+    return {
+        "title": str(title or ""),
+        "status": st,
+        "raw": str(raw_word or ""),
+        "step": str(step or ""),
+        "startedAt": started,
+        "endedAt": ended,
+        "updatedAt": updated,
+        "videos": int(videos or 0),
+        "message": str(message or ""),
+    }
+
+
+def normalize(studio: str, job_id: str, raw: dict, now: datetime) -> dict | None:
+    """Spec job entry for one raw doc, or None when the doc is not a job the
+    Command Center should show. Raises on malformed input; see safe_normalize."""
+    if not isinstance(raw, dict):
+        raise ValueError("job is not an object")
+    if studio == "desk":
+        return _normalize_desk(job_id, raw, now)
+    if studio == "highlight" and raw.get("task") == "clear":
+        return None
+    videos = len(_outputs_list(raw))
+    word = raw.get("status")
+    st = status(word, videos, raw.get("updatedAt"), now, studio)
+    ended = None
+    if _word(word) in DONE_RAW | FAILED_RAW:
+        ended = raw.get("builtAt") if studio == "factory" and raw.get("builtAt") else raw.get("updatedAt")
+    return _entry(
+        raw.get("title") or raw.get("name") or job_id, st, word, raw.get("step"),
+        raw.get("queuedAt") or raw.get("createdAt"), ended, raw.get("updatedAt"),
+        videos, raw.get("message"),
+    )
+
+
+def _normalize_desk(job_id: str, raw: dict, now: datetime) -> dict | None:
+    if "week" in raw or isinstance(raw.get("status"), str):
+        word = raw.get("status")
+        st = desk_proposal_status(word)
+        updated = raw.get("applied_at") or raw.get("decided_at") or raw.get("created")
+        ended = updated if st in ("confirmed", "failed") else None
+        week = raw.get("week") or job_id
+        return _entry(f"Week {week}", st, word, raw.get("status"), raw.get("created"), ended, updated, 0)
+    smap = raw.get("status") if isinstance(raw.get("status"), dict) else {}
+    loud = {p: str(s).upper() for p, s in smap.items() if str(s).upper() not in DESK_QUIET}
+    if not loud:
+        return None
+    st = desk_video_status(smap)
+    sets = [s.get("set") for s in raw.get("schedule", []) if isinstance(s, dict) and s.get("set")]
+    updated = max(sets, key=lambda t: parse_time(t) or datetime.min.replace(tzinfo=timezone.utc)) if sets else now.isoformat()
+    raw_word = " ".join(f"{p} {s}" for p, s in sorted(loud.items()))
+    ended = updated if st in ("confirmed", "failed") else None
+    return _entry(raw.get("title") or job_id, st, raw_word, raw.get("series"), None, ended, updated, 0)
+
+
+def safe_normalize(studio: str, job_id: str, raw, now: datetime) -> dict | None:
+    """normalize() that never raises: a malformed doc is an unknown job."""
+    try:
+        return normalize(studio, job_id, raw, now)
+    except Exception:  # noqa: BLE001 - the sweep must never crash on one doc
+        updated = raw.get("updatedAt") if isinstance(raw, dict) else None
+        return _entry(job_id, "unknown", "", "", None, None, updated or now.isoformat(), 0, "unreadable job")
+
+
+def outputs(studio: str, job_id: str, raw) -> list[dict]:
+    """Content candidates for a job's finished videos. Style and Desk give none."""
+    prefix = STUDIOS.get(studio, {}).get("prefix")
+    if not prefix or not isinstance(raw, dict):
+        return []
+    items = []
+    for o in _outputs_list(raw):
+        name = o.get("name")
+        if not name:
+            continue
+        if studio == "factory":
+            copy = o.get("copy") if isinstance(o.get("copy"), dict) else {}
+            title = copy.get("title") or o.get("title") or name
+            by_channel = {k: copy[src] for k, src in (("youtube", "description"), ("instagram", "instagram"), ("tiktok", "tiktok")) if copy.get(src)}
+            text = copy.get("instagram") or copy.get("description") or ""
+            orientation = o.get("o") or ("h" if name.endswith("-h") else "v")
+            clip_date = None
+        else:
+            short = o.get("short") if isinstance(o.get("short"), dict) else {}
+            title = short.get("title") or o.get("title") or name
+            by_channel = {}
+            text = title
+            orientation = "v"
+            clip_date = short.get("date") or raw.get("date")
+        items.append({
+            "id": prefix + name, "title": title, "path": o.get("path"), "poster": o.get("poster"),
+            "seconds": o.get("seconds"), "orientation": orientation, "clipDate": clip_date,
+            "text": text, "textByChannel": by_channel,
+        })
+    return items

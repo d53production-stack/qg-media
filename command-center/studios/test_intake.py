@@ -79,5 +79,126 @@ class TestDesk(unittest.TestCase):
         self.assertEqual(intake.desk_proposal_status(None), "unknown")
 
 
+class TestNormalize(unittest.TestCase):
+    def test_highlight_done_job(self):
+        raw = fixture("highlight-2026-10-29-0ww4.json")
+        job = intake.normalize("highlight", "2026-10-29-0ww4", raw, NOW)
+        self.assertEqual(job["status"], "confirmed")
+        self.assertEqual(job["raw"], "done")
+        self.assertEqual(job["videos"], 2)
+        self.assertEqual(job["title"], "Oct 29 webinar")
+        self.assertEqual(job["step"], "Done")
+        self.assertEqual(job["startedAt"], raw["queuedAt"])
+        self.assertEqual(job["endedAt"], raw["updatedAt"])
+        self.assertEqual(job["updatedAt"], raw["updatedAt"])
+        self.assertEqual(job["message"], "")
+        self.assertNotIn("by", job)
+
+    def test_highlight_clear_job_is_skipped(self):
+        self.assertIsNone(intake.normalize("highlight", "2026-10-29-clear-ad4", fixture("highlight-clear.json"), NOW))
+
+    def test_factory_done_batch(self):
+        raw = fixture("factory-2026-10-29-redo-howlive.json")
+        job = intake.normalize("factory", "2026-10-29-redo-howlive", raw, NOW)
+        self.assertEqual(job["status"], "confirmed")
+        self.assertEqual(job["videos"], 2)
+        self.assertEqual(job["endedAt"], raw["builtAt"])
+        self.assertEqual(job["title"], "Redo: How Live Is the Console? (overnight)")
+
+    def test_factory_pending_has_no_ended_at(self):
+        raw = dict(fixture("factory-2026-10-29-redo-howlive.json"), status="working", step="Rendering", outputs=[], updatedAt=NOW.isoformat())
+        raw.pop("builtAt")
+        job = intake.normalize("factory", "x", raw, NOW)
+        self.assertEqual(job["status"], "pending")
+        self.assertIsNone(job["endedAt"])
+        self.assertEqual(job["videos"], 0)
+
+    def test_style_request(self):
+        raw = fixture("style-rmvoi1xo6.json")
+        job = intake.normalize("style", "rmvoi1xo6", raw, NOW)
+        self.assertEqual(job["status"], "confirmed")
+        self.assertEqual(job["videos"], 0)
+        self.assertEqual(job["step"], "Saved as v006")
+        self.assertEqual(job["title"], "Halloween 2")
+        self.assertEqual(job["endedAt"], raw["updatedAt"])
+
+    def test_desk_video_only_scheduled_is_skipped(self):
+        self.assertIsNone(intake.normalize("desk", "cc-04a-primary-and-majors", fixture("desk-video-cc-04a.json"), NOW))
+
+    def test_desk_video_with_failure(self):
+        raw = fixture("desk-video-cc-04a.json")
+        raw["status"]["ig"] = "FAILED"
+        job = intake.normalize("desk", "cc-04a-primary-and-majors", raw, NOW)
+        self.assertEqual(job["status"], "failed")
+        self.assertEqual(job["title"], "Primary and Majors")
+        self.assertEqual(job["raw"], "ig FAILED")
+        self.assertEqual(job["updatedAt"], "2026-10-29T15:17:33-07:00")
+        self.assertEqual(job["videos"], 0)
+
+    def test_desk_video_without_set_times_uses_now(self):
+        raw = fixture("desk-video-cc-04a.json")
+        raw["status"] = {"youtube": "PUBLISHED"}
+        raw["schedule"] = [{"at": "2026-10-31T09:00:00-07:00", "platform": "youtube"}]
+        job = intake.normalize("desk", "v", raw, NOW)
+        self.assertEqual(job["status"], "confirmed")
+        self.assertEqual(job["updatedAt"], NOW.isoformat())
+
+    def test_desk_proposal(self):
+        raw = fixture("desk-proposal-2026-W44.json")
+        job = intake.normalize("desk", "2026-W44", raw, NOW)
+        self.assertEqual(job["status"], "confirmed")
+        self.assertEqual(job["title"], "Week 2026-W44")
+        self.assertEqual(job["raw"], "APPROVED")
+        self.assertEqual(job["updatedAt"], raw["applied_at"])
+        self.assertEqual(job["endedAt"], raw["applied_at"])
+
+    def test_desk_proposal_preview_is_pending_however_old(self):
+        raw = {"week": "2026-W45", "status": "PREVIEW", "created": "2026-10-20T00:00:00Z"}
+        job = intake.normalize("desk", "2026-W45", raw, NOW)
+        self.assertEqual(job["status"], "pending")
+        self.assertEqual(job["updatedAt"], raw["created"])
+        self.assertIsNone(job["endedAt"])
+
+
+class TestOutputs(unittest.TestCase):
+    def test_factory_outputs(self):
+        raw = fixture("factory-2026-10-29-redo-howlive.json")
+        outs = intake.outputs("factory", "2026-10-29-redo-howlive", raw)
+        self.assertEqual([o["id"] for o in outs], ["vf-cc-how-live-v", "vf-cc-how-live-h"])
+        v = outs[0]
+        self.assertEqual(v["orientation"], "v")
+        self.assertEqual(v["title"], "How Live Is the Console? | QuantGeeks Console")
+        self.assertEqual(v["path"], raw["outputs"][0]["path"])
+        self.assertEqual(v["poster"], raw["outputs"][0]["poster"])
+        self.assertEqual(v["seconds"], raw["outputs"][0]["seconds"])
+        self.assertIsNone(v["clipDate"])
+        self.assertEqual(v["text"], raw["outputs"][0]["copy"]["instagram"])
+        self.assertEqual(v["textByChannel"], {
+            "youtube": raw["outputs"][0]["copy"]["description"],
+            "instagram": raw["outputs"][0]["copy"]["instagram"],
+            "tiktok": raw["outputs"][0]["copy"]["tiktok"],
+        })
+
+    def test_highlight_outputs(self):
+        raw = fixture("highlight-2026-10-29-0ww4.json")
+        outs = intake.outputs("highlight", "2026-10-29-0ww4", raw)
+        self.assertEqual(outs[0]["id"], "hs-2026-10-29-webinar-part1")
+        self.assertEqual(outs[0]["title"], "QQQ Resists at 717 in a Trap Door | October 29")
+        self.assertEqual(outs[0]["text"], "QQQ Resists at 717 in a Trap Door | October 29")
+        self.assertEqual(outs[0]["textByChannel"], {})
+        self.assertEqual(outs[0]["clipDate"], "2026-10-29")
+        self.assertEqual(outs[0]["orientation"], "v")
+        self.assertEqual(outs[0]["seconds"], 56.5)
+
+    def test_style_and_desk_make_no_outputs(self):
+        self.assertEqual(intake.outputs("style", "r", fixture("style-rmvoi1xo6.json")), [])
+        self.assertEqual(intake.outputs("desk", "w", fixture("desk-proposal-2026-W44.json")), [])
+
+    def test_output_without_name_is_skipped(self):
+        raw = fixture("factory-2026-10-29-redo-howlive.json")
+        raw["outputs"].append({"path": "x.mp4"})
+        self.assertEqual(len(intake.outputs("factory", "j", raw)), 2)
+
+
 if __name__ == "__main__":
     unittest.main()
