@@ -1,0 +1,78 @@
+{
+ "createdAt": "2026-10-29T23:26:06.946Z",
+ "date": "2026-10-29",
+ "dateLabel": "OCT 29",
+ "focus": "",
+ "mode": "both",
+ "outputs": [
+  {
+   "bytes": 12318360,
+   "focus": "",
+   "kind": "part",
+   "meta": "OCT 29 · PART 1/10",
+   "name": "2026-10-29-webinar-part1",
+   "of": 10,
+   "part": 1,
+   "path": "videos/studio/2026-10-29-webinar/QQQ Resists at 717 in a Trap Door | October 29.mp4",
+   "poster": "videos/studio/2026-10-29-webinar/2026-10-29-webinar-part1.jpg",
+   "seconds": 56.5,
+   "short": {
+    "date": "2026-10-29",
+    "filename": "QQQ Resists at 717 in a Trap Door | October 29.mp4",
+    "move": "resists at 717 in a trap door",
+    "summary": "QQQ resists at 717 in a trap door: positive into negative with a positive below at 714. A hold over 717 opens a drift to 725.",
+    "tickers": [
+     "QQQ"
+    ],
+    "title": "QQQ Resists at 717 in a Trap Door | October 29"
+   },
+   "sidecar": "videos/studio/2026-10-29-webinar/QQQ Resists at 717 in a Trap Door | October 29.json",
+   "span": [
+    0,
+    52.29
+   ],
+   "title": "717 WITH A TRAPDOOR HERE"
+  },
+  {
+   "bytes": 11488965,
+   "focus": "",
+   "kind": "part",
+   "meta": "OCT 29 · PART 2/10",
+   "name": "2026-10-29-webinar-part2",
+   "of": 10,
+   "part": 2,
+   "path": "videos/studio/2026-10-29-webinar/SPX and SPY Split at 7,700 | October 29.mp4",
+   "poster": "videos/studio/2026-10-29-webinar/2026-10-29-webinar-part2.jpg",
+   "seconds": 45.3,
+   "short": {
+    "date": "2026-10-29",
+    "filename": "SPX and SPY Split at 7,700 | October 29.mp4",
+    "move": "split at 7,700",
+    "summary": "7,700 is the pain point on SPX, which looks bearish with a trap door over the primary. SPY looks bullish at resistance; a break below 769 brings 7,700 back.",
+    "tickers": [
+     "SPX",
+     "SPY"
+    ],
+    "title": "SPX and SPY Split at 7,700 | October 29"
+   },
+   "sidecar": "videos/studio/2026-10-29-webinar/SPX and SPY Split at 7,700 | October 29.json",
+   "span": [
+    52.29,
+    93.42
+   ],
+   "title": "SPY BULLISH, SPX BEARISH"
+  }
+ ],
+ "queuedAt": "2026-10-29T23:29:16.172Z",
+ "source": {
+  "kind": "upload",
+  "name": "10-29-26 Webinar Highlights DRY.mp4"
+ },
+ "status": "done",
+ "step": "Done",
+ "style": "current",
+ "styleUsed": "v005",
+ "title": "Oct 29 webinar",
+ "updatedAt": "2026-10-30T00:20:00Z",
+ "zip": "videos/studio/2026-10-29-webinar/2026-10-29-webinar-all-videos.zip"
+}
