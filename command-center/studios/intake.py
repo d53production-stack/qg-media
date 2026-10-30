@@ -96,10 +96,17 @@ DESK_QUIET = {"SCHEDULED", "READY", ""}
 
 def _outputs_list(raw) -> list:
     outs = raw.get("outputs")
-    return [o for o in outs if isinstance(o, dict)] if isinstance(outs, list) else []
+    if outs is None:
+        return []
+    if not isinstance(outs, list):
+        raise ValueError("outputs is not a list")
+    return [o for o in outs if isinstance(o, dict)]
 
 
 def _entry(title, st, raw_word, step, started, ended, updated, videos, message=""):
+    for t in (started, ended, updated):
+        if t is not None and not isinstance(t, str):
+            raise ValueError("time field is not a string")
     return {
         "title": str(title or ""),
         "status": st,
@@ -144,11 +151,16 @@ def _normalize_desk(job_id: str, raw: dict, now: datetime) -> dict | None:
         week = raw.get("week") or job_id
         return _entry(f"Week {week}", st, word, raw.get("status"), raw.get("created"), ended, updated, 0)
     smap = raw.get("status") if isinstance(raw.get("status"), dict) else {}
-    loud = {p: str(s).upper() for p, s in smap.items() if str(s).upper() not in DESK_QUIET}
+    if any(not isinstance(s, str) for s in smap.values()):
+        raise ValueError("platform status is not a string")
+    schedule = raw.get("schedule") or []
+    if not isinstance(schedule, list):
+        raise ValueError("schedule is not a list")
+    loud = {p: s.upper() for p, s in smap.items() if s.upper() not in DESK_QUIET}
     if not loud:
         return None
     st = desk_video_status(smap)
-    sets = [s.get("set") for s in raw.get("schedule", []) if isinstance(s, dict) and s.get("set")]
+    sets = [s.get("set") for s in schedule if isinstance(s, dict) and s.get("set")]
     updated = max(sets, key=lambda t: parse_time(t) or datetime.min.replace(tzinfo=timezone.utc)) if sets else now.isoformat()
     raw_word = " ".join(f"{p} {s}" for p, s in sorted(loud.items()))
     ended = updated if st in ("confirmed", "failed") else None
@@ -161,7 +173,9 @@ def safe_normalize(studio: str, job_id: str, raw, now: datetime) -> dict | None:
         return normalize(studio, job_id, raw, now)
     except Exception:  # noqa: BLE001 - the sweep must never crash on one doc
         updated = raw.get("updatedAt") if isinstance(raw, dict) else None
-        return _entry(job_id, "unknown", "", "", None, None, updated or now.isoformat(), 0, "unreadable job")
+        if not isinstance(updated, str) or not updated:
+            updated = now.isoformat()
+        return _entry(job_id, "unknown", "", "", None, None, updated, 0, "unreadable job")
 
 
 def outputs(studio: str, job_id: str, raw) -> list[dict]:
@@ -194,3 +208,34 @@ def outputs(studio: str, job_id: str, raw) -> list[dict]:
             "text": text, "textByChannel": by_channel,
         })
     return items
+
+
+# --- studio doc ----------------------------------------------------------------
+
+KEEP_JOBS = 10
+
+
+def _ts(value) -> datetime:
+    return parse_time(value) or datetime.min.replace(tzinfo=timezone.utc)
+
+
+def merge_jobs(current: dict | None, incoming: dict, by: str, now: datetime, studio: str | None = None) -> dict:
+    """New studio/{name} data: incoming entries replace stored ones only when
+    newer by updatedAt, the 10 newest jobs are kept, checkedAt is bumped."""
+    studio = studio or (current or {}).get("studio")
+    meta = STUDIOS.get(studio, {})
+    jobs = dict((current or {}).get("jobs") or {})
+    for job_id, entry in incoming.items():
+        stored = jobs.get(job_id)
+        if stored and _ts(stored.get("updatedAt")) >= _ts(entry.get("updatedAt")):
+            continue
+        jobs[job_id] = dict(entry, by=by)
+    newest = sorted(jobs.items(), key=lambda kv: _ts(kv[1].get("updatedAt")), reverse=True)[:KEEP_JOBS]
+    return {
+        "studio": studio,
+        "label": (current or {}).get("label") or meta.get("label", studio),
+        "url": (current or {}).get("url") or meta.get("url", ""),
+        "checkedAt": now.isoformat(),
+        "checkedBy": by,
+        "jobs": dict(newest),
+    }

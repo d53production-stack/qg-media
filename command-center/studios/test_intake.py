@@ -200,5 +200,63 @@ class TestOutputs(unittest.TestCase):
         self.assertEqual(len(intake.outputs("factory", "j", raw)), 2)
 
 
+def job_entry(updated, status="confirmed", by=None, title="t"):
+    e = {"title": title, "status": status, "raw": "done", "step": "", "startedAt": None,
+         "endedAt": updated, "updatedAt": updated, "videos": 1, "message": ""}
+    if by:
+        e["by"] = by
+    return e
+
+
+class TestMergeJobs(unittest.TestCase):
+    def current(self, **jobs):
+        return {"studio": "factory", "label": "Video Factory", "url": intake.STUDIOS["factory"]["url"],
+                "checkedAt": "2026-10-29T00:00:00Z", "checkedBy": "hourly", "jobs": jobs}
+
+    def test_newer_replaces_and_sets_by(self):
+        cur = self.current(a=job_entry("2026-10-29T01:00:00Z", "pending", by="hourly"))
+        doc = intake.merge_jobs(cur, {"a": job_entry("2026-10-29T02:00:00Z")}, "worker", NOW)
+        self.assertEqual(doc["jobs"]["a"]["status"], "confirmed")
+        self.assertEqual(doc["jobs"]["a"]["by"], "worker")
+
+    def test_equal_updated_at_leaves_stored_entry(self):
+        stored = job_entry("2026-10-29T02:00:00Z", by="worker", title="stored")
+        doc = intake.merge_jobs(self.current(a=stored), {"a": job_entry("2026-10-29T02:00:00Z", title="again")}, "hourly", NOW)
+        self.assertEqual(doc["jobs"]["a"], stored)
+
+    def test_older_is_ignored(self):
+        stored = job_entry("2026-10-29T02:00:00Z", by="worker")
+        doc = intake.merge_jobs(self.current(a=stored), {"a": job_entry("2026-10-29T01:00:00Z")}, "hourly", NOW)
+        self.assertEqual(doc["jobs"]["a"], stored)
+
+    def test_keeps_ten_newest(self):
+        cur = self.current(**{f"j{i:02d}": job_entry(f"2026-10-{i+1:02d}T00:00:00Z", by="hourly") for i in range(8)})
+        incoming = {f"n{i}": job_entry(f"2026-10-2{i}T00:00:00Z") for i in range(4)}
+        doc = intake.merge_jobs(cur, incoming, "hourly", NOW)
+        self.assertEqual(len(doc["jobs"]), intake.KEEP_JOBS)
+        self.assertNotIn("j00", doc["jobs"])
+        self.assertNotIn("j01", doc["jobs"])
+        self.assertIn("n3", doc["jobs"])
+
+    def test_none_current_builds_doc(self):
+        doc = intake.merge_jobs(None, {"a": job_entry("2026-10-29T02:00:00Z")}, "worker", NOW, studio="highlight")
+        self.assertEqual(doc["studio"], "highlight")
+        self.assertEqual(doc["label"], "Highlight Studio")
+        self.assertEqual(doc["url"], intake.STUDIOS["highlight"]["url"])
+        self.assertEqual(doc["checkedAt"], NOW.isoformat())
+        self.assertEqual(doc["checkedBy"], "worker")
+
+    def test_checked_at_bumps_even_with_nothing_new(self):
+        doc = intake.merge_jobs(self.current(), {}, "hourly", NOW)
+        self.assertEqual(doc["checkedAt"], NOW.isoformat())
+        self.assertEqual(doc["jobs"], {})
+
+    def test_malformed_raw_is_unknown_unreadable(self):
+        for bad in ("just a string", {"status": "done", "outputs": 5, "updatedAt": 3}, {"status": {"ig": 1}, "schedule": "x"}):
+            job = intake.safe_normalize("factory" if "ig" not in str(bad) else "desk", "bad", bad, NOW)
+            self.assertEqual(job["status"], "unknown", bad)
+            self.assertEqual(job["message"], "unreadable job", bad)
+
+
 if __name__ == "__main__":
     unittest.main()
