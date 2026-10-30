@@ -499,6 +499,47 @@ class TestCLI(unittest.TestCase):
         writes = self.cli("sweep", "factory", raw_dir, "--cc", self.cc, "--now", NOW.isoformat())
         self.assertEqual(len(writes), 1)
 
+    def cli_raw(self, *args):
+        return subprocess.run([sys.executable, os.path.join(HERE, "intake.py"), *args], capture_output=True, text=True)
+
+    def bare_studio(self):
+        # ArtifactData out_dir files hold the bare doc data: no id, no version
+        with open(os.path.join(self.cc, "studio", "factory.json"), "w") as f:
+            json.dump({"studio": "factory", "label": "Video Factory", "url": "u", "checkedAt": "x", "checkedBy": "hourly", "jobs": {}}, f)
+
+    def write_versions(self, versions):
+        with open(os.path.join(self.cc, "versions.json"), "w") as f:
+            json.dump(versions, f)
+
+    def test_versions_file_pins_bare_docs(self):
+        self.bare_studio()
+        self.write_versions({"studio/factory": 7})
+        writes = self.cli("sweep", "factory", os.path.join(HERE, "fixtures", "missing-dir"), "--cc", self.cc, "--now", NOW.isoformat())
+        self.assertEqual(writes[0]["if_version"], 7)
+
+    def test_versions_file_pins_days(self):
+        self.bare_studio()
+        os.makedirs(os.path.join(self.cc, "days"))
+        with open(os.path.join(self.cc, "days", "2026-10-29.json"), "w") as f:
+            json.dump({"date": "2026-10-29", "done": {}}, f)
+        self.write_versions({"studio/factory": 7, "days/2026-10-29": 3})
+        writes = self.cli("job", "factory", os.path.join(HERE, "fixtures", "factory-2026-10-29-redo-howlive.json"),
+                          "--id", "2026-10-29-redo-howlive", "--cc", self.cc, "--now", NOW.isoformat())
+        day = next(w for w in writes if w["collection"] == "days")
+        self.assertEqual(day["if_version"], 3)
+
+    def test_bare_doc_without_version_fails_loudly(self):
+        self.bare_studio()
+        p = self.cli_raw("sweep", "factory", os.path.join(HERE, "fixtures", "missing-dir"), "--cc", self.cc, "--now", NOW.isoformat())
+        self.assertEqual(p.returncode, 2)
+        self.assertIn("missing version for studio/factory", p.stderr)
+        self.assertEqual(p.stdout, "")
+
+    def test_new_doc_needs_no_version(self):
+        os.remove(os.path.join(self.cc, "studio", "factory.json"))
+        writes = self.cli("sweep", "factory", os.path.join(HERE, "fixtures", "missing-dir"), "--cc", self.cc, "--now", NOW.isoformat())
+        self.assertNotIn("if_version", writes[0])
+
 
 if __name__ == "__main__":
     unittest.main()
