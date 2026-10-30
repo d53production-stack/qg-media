@@ -411,7 +411,20 @@ def load_cc(cc_dir: str, studio: str) -> CCDocs:
     d = os.path.join(cc_dir, "content")
     if os.path.isdir(d):
         cc.content_ids = {os.path.splitext(os.path.basename(p))[0] for p in _json_files(d)}
+    # ArtifactData out_dir files hold bare doc data with no version, so the run
+    # writes the versions its reads printed into versions.json.
+    path = os.path.join(cc_dir, "versions.json")
+    if os.path.exists(path):
+        cc.versions.update({k: int(v) for k, v in _read_json(path).items()})
     return cc
+
+
+def missing_pins(writes: list, cc_dir: str, cc: CCDocs) -> list[str]:
+    """Writes to a doc that was read (its file is under cc_dir) but carry no
+    version: the store refuses those, so the run must not send them."""
+    return [f"{w['collection']}/{w['doc_id']}" for w in writes
+            if "if_version" not in w and f"{w['collection']}/{w['doc_id']}" not in cc.versions
+            and os.path.exists(os.path.join(cc_dir, w["collection"], w["doc_id"] + ".json"))]
 
 
 def load_raw_dir(raw_dir: str) -> dict:
@@ -455,7 +468,12 @@ def main(argv=None) -> int:
         raw = {a.job_id or job_id: data}
     else:
         raw = load_raw_dir(a.path)
-    json.dump(run(a.studio, raw, cc, now, a.by), sys.stdout, indent=1, ensure_ascii=False)
+    writes = run(a.studio, raw, cc, now, a.by)
+    missing = missing_pins(writes, a.cc, cc)
+    if missing:
+        sys.stderr.write("".join(f"missing version for {m}: add it to {a.cc}/versions.json\n" for m in missing))
+        return 2
+    json.dump(writes, sys.stdout, indent=1, ensure_ascii=False)
     sys.stdout.write("\n")
     return 0
 
