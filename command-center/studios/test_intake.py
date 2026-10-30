@@ -1,6 +1,10 @@
 """Tests for intake.py. Fixtures are cut from the real studio docs read on 2026-10-30."""
 import json
 import os
+import shutil
+import subprocess
+import sys
+import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
 
@@ -361,6 +365,127 @@ class TestCheckin(unittest.TestCase):
         self.assertIsNone(intake.checkin_write("style", self.job("style"), self.MAP, self.TASKS, None))
         self.assertIsNone(intake.checkin_write("factory", self.job(status="pending", ended=None), self.MAP, self.TASKS, None))
         self.assertIsNone(intake.checkin_write("factory", self.job(status="failed"), self.MAP, self.TASKS, None))
+
+
+def wrap(doc_id, data, version=None):
+    d = {"id": doc_id, "data": data}
+    if version is not None:
+        d["version"] = version
+    return d
+
+
+class TestRun(unittest.TestCase):
+    SINCE = {"since": "2026-10-29T00:00:00Z", "taskMap": {"highlight": "shorts.daily.clips", "factory": "content.evergreen"}}
+    TASKS = {"content.evergreen": {"id": "content.evergreen", "target": {"min": 4}}}
+
+    def cc(self, **over):
+        base = {"studio": None, "settings": self.SINCE, "tasks": self.TASKS, "days": {}, "content_ids": set(), "versions": {}}
+        base.update(over)
+        return intake.CCDocs(**base)
+
+    def raws(self):
+        return {"2026-10-29-redo-howlive": fixture("factory-2026-10-29-redo-howlive.json")}
+
+    def by_coll(self, writes):
+        return {(w["collection"], w["doc_id"]): w for w in writes}
+
+    def test_fresh_command_center(self):
+        writes = intake.run("factory", self.raws(), self.cc(), NOW, "worker")
+        keys = self.by_coll(writes)
+        self.assertIn(("studio", "factory"), keys)
+        self.assertIn(("content", "vf-cc-how-live-v"), keys)
+        self.assertIn(("content", "vf-cc-how-live-h"), keys)
+        self.assertIn(("days", "2026-10-29"), keys)
+        self.assertEqual(len(writes), 4)
+        studio = keys[("studio", "factory")]
+        self.assertNotIn("if_version", studio)
+        self.assertEqual(studio["data"]["checkedBy"], "worker")
+        self.assertEqual(studio["data"]["jobs"]["2026-10-29-redo-howlive"]["by"], "worker")
+
+    def test_versions_are_pinned(self):
+        cur = {"studio": "factory", "label": "Video Factory", "url": "u", "checkedAt": "x", "checkedBy": "hourly", "jobs": {}}
+        day = {"date": "2026-10-29", "done": {}}
+        cc = self.cc(studio=cur, days={"2026-10-29": day}, versions={"studio/factory": 7, "days/2026-10-29": 12})
+        keys = self.by_coll(intake.run("factory", self.raws(), cc, NOW, "hourly"))
+        self.assertEqual(keys[("studio", "factory")]["if_version"], 7)
+        self.assertEqual(keys[("days", "2026-10-29")]["if_version"], 12)
+        self.assertNotIn("if_version", keys[("content", "vf-cc-how-live-v")])
+
+    def test_existing_content_is_not_rewritten(self):
+        cc = self.cc(content_ids={"vf-cc-how-live-v", "vf-cc-how-live-h"})
+        colls = [w["collection"] for w in intake.run("factory", self.raws(), cc, NOW, "hourly")]
+        self.assertNotIn("content", colls)
+
+    def test_empty_sweep_only_bumps_checked_at(self):
+        writes = intake.run("factory", {}, self.cc(), NOW, "hourly")
+        self.assertEqual([(w["collection"], w["doc_id"]) for w in writes], [("studio", "factory")])
+        self.assertEqual(writes[0]["data"]["checkedAt"], NOW.isoformat())
+
+    def test_skipped_and_unreadable_docs(self):
+        raws = {"clear": fixture("highlight-clear.json"), "bad": "nope"}
+        writes = intake.run("highlight", raws, self.cc(), NOW, "hourly")
+        jobs = writes[0]["data"]["jobs"]
+        self.assertEqual(list(jobs), ["bad"])
+        self.assertEqual(jobs["bad"]["message"], "unreadable job")
+
+    def test_unwrap_accepts_wrapper_or_bare(self):
+        self.assertEqual(intake.unwrap(wrap("a", {"x": 1}, 3), "f"), ("a", {"x": 1}, 3))
+        self.assertEqual(intake.unwrap({"x": 1}, "f"), ("f", {"x": 1}, None))
+
+
+class TestCLI(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.cc = os.path.join(self.tmp, "cc")
+        os.makedirs(os.path.join(self.cc, "settings"))
+        os.makedirs(os.path.join(self.cc, "studio"))
+        os.makedirs(os.path.join(self.cc, "content"))
+        with open(os.path.join(self.cc, "settings", "studios.json"), "w") as f:
+            json.dump(wrap("studios", {"since": "2026-10-29T00:00:00Z", "taskMap": {"factory": "content.evergreen"}}, 1), f)
+        with open(os.path.join(self.cc, "studio", "factory.json"), "w") as f:
+            json.dump(wrap("factory", {"studio": "factory", "label": "Video Factory", "url": "u", "checkedAt": "x", "checkedBy": "hourly", "jobs": {}}, 4), f)
+        with open(os.path.join(self.cc, "content", "vf-cc-how-live-h.json"), "w") as f:
+            json.dump(wrap("vf-cc-how-live-h", {"id": "vf-cc-how-live-h"}, 2), f)
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def cli(self, *args):
+        p = subprocess.run([sys.executable, os.path.join(HERE, "intake.py"), *args], capture_output=True, text=True)
+        self.assertEqual(p.returncode, 0, p.stderr)
+        return json.loads(p.stdout)
+
+    def test_job_command(self):
+        writes = self.cli("job", "factory", os.path.join(HERE, "fixtures", "factory-2026-10-29-redo-howlive.json"),
+                          "--id", "2026-10-29-redo-howlive", "--cc", self.cc, "--now", NOW.isoformat())
+        ids = sorted((w["collection"], w["doc_id"]) for w in writes)
+        self.assertEqual(ids, [("content", "vf-cc-how-live-v"), ("days", "2026-10-29"), ("studio", "factory")])
+        studio = next(w for w in writes if w["collection"] == "studio")
+        self.assertEqual(studio["if_version"], 4)
+        self.assertEqual(studio["data"]["checkedBy"], "worker")
+        self.assertIn("2026-10-29-redo-howlive", studio["data"]["jobs"])
+
+    def test_sweep_command(self):
+        raw_dir = os.path.join(self.tmp, "raw")
+        os.makedirs(raw_dir)
+        shutil.copy(os.path.join(HERE, "fixtures", "factory-2026-10-29-redo-howlive.json"), os.path.join(raw_dir, "2026-10-29-redo-howlive.json"))
+        writes = self.cli("sweep", "factory", raw_dir, "--cc", self.cc, "--now", NOW.isoformat())
+        studio = next(w for w in writes if w["collection"] == "studio")
+        self.assertEqual(studio["data"]["checkedBy"], "hourly")
+        self.assertEqual(list(studio["data"]["jobs"]), ["2026-10-29-redo-howlive"])
+
+    def test_sweep_of_nested_out_dir(self):
+        raw_dir = os.path.join(self.tmp, "raw", "batches")
+        os.makedirs(raw_dir)
+        shutil.copy(os.path.join(HERE, "fixtures", "factory-2026-10-29-redo-howlive.json"), os.path.join(raw_dir, "2026-10-29-redo-howlive.json"))
+        writes = self.cli("sweep", "factory", os.path.join(self.tmp, "raw"), "--cc", self.cc, "--now", NOW.isoformat())
+        self.assertIn("2026-10-29-redo-howlive", next(w for w in writes if w["collection"] == "studio")["data"]["jobs"])
+
+    def test_empty_sweep_dir(self):
+        raw_dir = os.path.join(self.tmp, "empty")
+        os.makedirs(raw_dir)
+        writes = self.cli("sweep", "factory", raw_dir, "--cc", self.cc, "--now", NOW.isoformat())
+        self.assertEqual(len(writes), 1)
 
 
 if __name__ == "__main__":

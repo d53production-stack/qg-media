@@ -11,6 +11,10 @@ Spec: docs/superpowers/specs/2026-10-30-studio-intake-design.md
 """
 from __future__ import annotations
 
+import json
+import os
+import sys
+
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
@@ -310,3 +314,150 @@ def checkin_write(studio: str, job: dict | None, task_map: dict, tasks: dict, da
     date = pt_date(job["endedAt"])
     data = dict(day_doc or {}, date=date, done=done)
     return {"op": "set", "collection": "days", "doc_id": date, "data": data}
+
+
+# --- a run ---------------------------------------------------------------------
+
+class CCDocs:
+    """The Command Center docs a run needs, as read before the run."""
+
+    def __init__(self, studio=None, settings=None, tasks=None, days=None, content_ids=None, versions=None):
+        self.studio = studio            # current studio/{name} data or None
+        self.settings = settings or {}  # settings/studios data
+        self.tasks = tasks or {}        # tasks/{id} data by id (only mapped ones needed)
+        self.days = days or {}          # days/{date} data by date
+        self.content_ids = set(content_ids or ())
+        self.versions = versions or {}  # "collection/doc_id" -> version
+
+
+def _pin(write: dict, cc: CCDocs) -> dict:
+    v = cc.versions.get(f"{write['collection']}/{write['doc_id']}")
+    if v is not None:
+        write["if_version"] = v
+    return write
+
+
+def run(studio: str, raw_docs: dict, cc: CCDocs, now: datetime, by: str) -> list[dict]:
+    """All writes for one studio: exactly one studio/{name} set, add-only
+    content sets, and at most one days/{date} set per date."""
+    if studio not in STUDIOS:
+        raise SystemExit(f"unknown studio {studio!r}; one of {', '.join(STUDIOS)}")
+    incoming, writes, days = {}, [], dict(cc.days)
+    since = cc.settings.get("since")
+    task_map = cc.settings.get("taskMap") or {}
+    for job_id, raw in raw_docs.items():
+        job = safe_normalize(studio, job_id, raw, now)
+        if job is None:
+            continue
+        incoming[job_id] = job
+        stored = (cc.studio or {}).get("jobs", {}).get(job_id) if cc.studio else None
+        if stored and _ts(stored.get("updatedAt")) >= _ts(job.get("updatedAt")):
+            continue  # nothing new for this job; no items or check-ins either
+        writes.extend(content_writes(studio, job_id, job, outputs(studio, job_id, raw), cc.content_ids, since))
+        if since and job.get("endedAt") and _ts(job["endedAt"]) >= _ts(since):
+            ci = checkin_write(studio, job, task_map, cc.tasks, days.get(pt_date(job["endedAt"])))
+            if ci:
+                days[ci["doc_id"]] = ci["data"]
+                writes = [w for w in writes if not (w["collection"] == "days" and w["doc_id"] == ci["doc_id"])]
+                writes.append(_pin(ci, cc))
+    doc = merge_jobs(cc.studio, incoming, by, now, studio=studio)
+    return [_pin({"op": "set", "collection": "studio", "doc_id": studio, "data": doc}, cc)] + writes
+
+
+# --- files and CLI -------------------------------------------------------------
+
+def unwrap(obj, fallback_id: str):
+    """(id, data, version) from an ArtifactData out_dir file or a bare doc."""
+    if isinstance(obj, dict) and "data" in obj and isinstance(obj.get("id"), str):
+        return obj["id"], obj["data"], obj.get("version")
+    return fallback_id, obj, None
+
+
+def _read_json(path):
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _json_files(root: str) -> list[str]:
+    found = []
+    for base, _dirs, files in os.walk(root):
+        found.extend(os.path.join(base, f) for f in files if f.endswith(".json"))
+    return sorted(found)
+
+
+def load_cc(cc_dir: str, studio: str) -> CCDocs:
+    """Read a Command Center out_dir: studio/<name>.json, settings/studios.json,
+    tasks/*.json, days/*.json and the ids under content/. Missing files are fine."""
+    cc = CCDocs()
+
+    def one(rel):
+        path = os.path.join(cc_dir, rel + ".json")
+        if not os.path.exists(path):
+            return None
+        _id, data, version = unwrap(_read_json(path), os.path.basename(rel))
+        if version is not None:
+            cc.versions[rel] = version
+        return data
+
+    cc.studio = one(f"studio/{studio}")
+    cc.settings = one("settings/studios") or {}
+    for coll, target in (("tasks", cc.tasks), ("days", cc.days)):
+        d = os.path.join(cc_dir, coll)
+        if os.path.isdir(d):
+            for path in _json_files(d):
+                doc_id = os.path.splitext(os.path.basename(path))[0]
+                target[doc_id] = one(f"{coll}/{doc_id}")
+    d = os.path.join(cc_dir, "content")
+    if os.path.isdir(d):
+        cc.content_ids = {os.path.splitext(os.path.basename(p))[0] for p in _json_files(d)}
+    return cc
+
+
+def load_raw_dir(raw_dir: str) -> dict:
+    """Every *.json under raw_dir (an ArtifactData out_dir may nest the
+    collection folder) as {job_id: data}. An unreadable file is kept as a
+    non-dict so the run records it as unreadable."""
+    docs = {}
+    for path in _json_files(raw_dir):
+        fallback = os.path.splitext(os.path.basename(path))[0]
+        try:
+            doc_id, data, _v = unwrap(_read_json(path), fallback)
+        except (OSError, ValueError):
+            doc_id, data = fallback, None
+        docs[doc_id] = data
+    return docs
+
+
+def main(argv=None) -> int:
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[1])
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    for name, help_ in (("job", "one job file, reported by a studio worker"), ("sweep", "a directory of changed docs, swept by the hourly copy")):
+        p = sub.add_parser(name, help=help_)
+        p.add_argument("studio", choices=sorted(STUDIOS))
+        p.add_argument("path")
+        p.add_argument("--cc", required=True, help="directory of Command Center docs (ArtifactData out_dir layout)")
+        p.add_argument("--now", help="ISO time to treat as now (default: current UTC time)")
+        p.add_argument("--by", default="worker" if name == "job" else "hourly")
+        if name == "job":
+            p.add_argument("--id", dest="job_id", help="job id (default: the doc's id, or the file name)")
+    a = ap.parse_args(argv)
+    now = parse_time(a.now) if a.now else datetime.now(timezone.utc)
+    if now is None:
+        ap.error("--now is not an ISO time")
+    cc = load_cc(a.cc, a.studio)
+    if a.cmd == "job":
+        fallback = os.path.splitext(os.path.basename(a.path))[0]
+        job_id, data, _v = unwrap(_read_json(a.path), fallback)
+        if isinstance(data, dict) and isinstance(data.get("id"), str):
+            job_id = data["id"]
+        raw = {a.job_id or job_id: data}
+    else:
+        raw = load_raw_dir(a.path)
+    json.dump(run(a.studio, raw, cc, now, a.by), sys.stdout, indent=1, ensure_ascii=False)
+    sys.stdout.write("\n")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
