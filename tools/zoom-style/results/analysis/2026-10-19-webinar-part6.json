@@ -1,0 +1,509 @@
+{
+ "clip": "2026-10-19-webinar-part6",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 28.7,
+ "sample_fps": 10,
+ "widest_hold": 5,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 857,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 1.2,
+   "dur": 0.6,
+   "features": 1475,
+   "kind": "video",
+   "zoom": 1.629,
+   "center": [
+    0.488,
+    0.478
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 1.3,
+   "end": 3.7,
+   "dur": 2.4,
+   "features": 1400,
+   "kind": "video",
+   "zoom": 1.625,
+   "center": [
+    0.488,
+    0.479
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 4.0,
+   "end": 16.3,
+   "dur": 12.3,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 1.009,
+   "center": [
+    0.497,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 4,
+   "start": 16.6,
+   "end": 19.6,
+   "dur": 3.0,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.346,
+   "center": [
+    0.322,
+    0.536
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2245,
+    "share": 0.00263,
+    "center": [
+     0.51,
+     0.535
+    ],
+    "bbox": [
+     0.418,
+     0.349,
+     0.569,
+     0.694
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 19.8,
+   "end": 21.9,
+   "dur": 2.1,
+   "features": 1498,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 544,
+    "share": 0.00064,
+    "center": [
+     0.332,
+     0.549
+    ],
+    "bbox": [
+     0.291,
+     0.527,
+     0.367,
+     0.58
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 22.1,
+   "end": 24.8,
+   "dur": 2.7,
+   "features": 1486,
+   "kind": "video",
+   "zoom": 1.375,
+   "center": [
+    0.647,
+    0.546
+   ],
+   "direct": true,
+   "ink": {
+    "px": 822,
+    "share": 0.00096,
+    "center": [
+     0.509,
+     0.636
+    ],
+    "bbox": [
+     0.465,
+     0.608,
+     0.556,
+     0.662
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 25.1,
+   "end": 28.7,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 71.7,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.629,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.2,
+   "caption_text": "THEY RE ALL FULLY PLUMBED, AND THEN IF",
+   "transcript": {
+    "recording_t": 711.11,
+    "cue_i": 115,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "They're all fully plumbed, and then if you see something with overnight, then you're gonna get the overnight action as well.",
+    "into_cue_s": 0.27,
+    "cue_dur": 5.96,
+    "in_gap": false,
+    "prev": "You can now see VIX, NDX, we got some ETFs, a bunch of the MAG7s.",
+    "next": "So shout out to our dev team, they've been,"
+   }
+  },
+  {
+   "index": 1,
+   "start": 1.2,
+   "end": 1.3,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.066,
+   "pan_px": 24.6,
+   "after_hold": 1,
+   "zoom_from": 1.629,
+   "zoom_to": 1.625,
+   "zoom_ratio": 0.998,
+   "caption_offset_s": -0.4,
+   "caption_text": "THEY RE ALL FULLY PLUMBED, AND THEN IF",
+   "transcript": {
+    "recording_t": 711.91,
+    "cue_i": 115,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "They're all fully plumbed, and then if you see something with overnight, then you're gonna get the overnight action as well.",
+    "into_cue_s": 1.07,
+    "cue_dur": 5.96,
+    "in_gap": false,
+    "prev": "You can now see VIX, NDX, we got some ETFs, a bunch of the MAG7s.",
+    "next": "So shout out to our dev team, they've been,"
+   }
+  },
+  {
+   "index": 2,
+   "start": 3.7,
+   "end": 4.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.465,
+   "pan_px": 134.0,
+   "after_hold": 2,
+   "zoom_from": 1.625,
+   "zoom_to": 1.009,
+   "zoom_ratio": 0.621,
+   "caption_offset_s": 0.4,
+   "caption_text": "GUNNA GET THE OVERNIGHT ALTIUN Ad WELL",
+   "transcript": {
+    "recording_t": 714.41,
+    "cue_i": 115,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "They're all fully plumbed, and then if you see something with overnight, then you're gonna get the overnight action as well.",
+    "into_cue_s": 3.57,
+    "cue_dur": 5.96,
+    "in_gap": false,
+    "prev": "You can now see VIX, NDX, we got some ETFs, a bunch of the MAG7s.",
+    "next": "So shout out to our dev team, they've been,"
+   }
+  },
+  {
+   "index": 3,
+   "start": 16.3,
+   "end": 16.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.296,
+   "pan_px": 87.7,
+   "after_hold": 3,
+   "zoom_from": 1.009,
+   "zoom_to": 1.346,
+   "zoom_ratio": 1.334,
+   "caption_offset_s": 0.0,
+   "caption_text": "AGAIN POINTING OUT",
+   "transcript": {
+    "recording_t": 912.55,
+    "cue_i": 141,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "regime here, as well, I mean, kind of across the board.",
+    "into_cue_s": 2.01,
+    "cue_dur": 3.35,
+    "in_gap": false,
+    "prev": "Which means SPX could go wild, right? We're in this big negative gamma.",
+    "next": "Again, point out, pointing out, we had a launch pad set up there."
+   }
+  },
+  {
+   "index": 4,
+   "start": 19.6,
+   "end": 19.8,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.287,
+   "pan_px": 73.1,
+   "after_hold": 4,
+   "zoom_from": 1.346,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.743,
+   "caption_offset_s": -1.7,
+   "caption_text": "AND WHEN WE HAD",
+   "transcript": {
+    "recording_t": 931.16,
+    "cue_i": 143,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And when we\u2026 when we had that\u2026 that happen to us here, the SPY primary was below, now it's above.",
+    "into_cue_s": 0.86,
+    "cue_dur": 6.85,
+    "in_gap": false,
+    "prev": "Again, point out, pointing out, we had a launch pad set up there.",
+    "next": "Let's see if it rolls higher."
+   }
+  },
+  {
+   "index": 5,
+   "start": 21.9,
+   "end": 22.1,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.304,
+   "pan_px": 203.7,
+   "after_hold": 5,
+   "zoom_from": 1.0,
+   "zoom_to": 1.375,
+   "zoom_ratio": 1.375,
+   "caption_offset_s": 0.6,
+   "caption_text": "TO US HERE.",
+   "transcript": {
+    "recording_t": 933.46,
+    "cue_i": 143,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And when we\u2026 when we had that\u2026 that happen to us here, the SPY primary was below, now it's above.",
+    "into_cue_s": 3.16,
+    "cue_dur": 6.85,
+    "in_gap": false,
+    "prev": "Again, point out, pointing out, we had a launch pad set up there.",
+    "next": "Let's see if it rolls higher."
+   }
+  },
+  {
+   "index": 6,
+   "start": 24.8,
+   "end": 25.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.004,
+   "pan_px": 114.3,
+   "after_hold": 6,
+   "zoom_from": 1.375,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "Suunaneoneosoooouenes",
+   "transcript": {
+    "recording_t": 936.36,
+    "cue_i": 143,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And when we\u2026 when we had that\u2026 that happen to us here, the SPY primary was below, now it's above.",
+    "into_cue_s": 6.06,
+    "cue_dur": 6.85,
+    "in_gap": false,
+    "prev": "Again, point out, pointing out, we had a launch pad set up there.",
+    "next": "Let's see if it rolls higher."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  3.3,
+  4.9,
+  6.2,
+  7.8,
+  8.9,
+  11.0,
+  13.7,
+  15.1,
+  16.3,
+  17.9,
+  21.3,
+  24.4
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 4.1,
+    "t1": 4.1,
+    "offset": 710.71,
+    "n": 1
+   },
+   {
+    "t0": 5.55,
+    "t1": 5.55,
+    "offset": 717.16,
+    "n": 1
+   },
+   {
+    "t0": 8.35,
+    "t1": 8.35,
+    "offset": 719.36,
+    "n": 1
+   },
+   {
+    "t0": 14.4,
+    "t1": 15.7,
+    "offset": 896.25,
+    "n": 2
+   },
+   {
+    "t0": 17.1,
+    "t1": 17.1,
+    "offset": 902.35,
+    "n": 1
+   },
+   {
+    "t0": 22.85,
+    "t1": 22.85,
+    "offset": 911.56,
+    "n": 1
+   }
+  ],
+  "matched": 7,
+  "used": 7,
+  "captions": 13,
+  "share": 1.0,
+  "cues": [
+   115,
+   116,
+   117,
+   118,
+   140,
+   141,
+   142,
+   143
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "THEY RE ALL FULLY PLUMBED, AND THEN IF"
+  },
+  {
+   "t": 2.45,
+   "text": "YUU OEE OUMETRING WIR OVERNIGHT, THEN YOU'RE"
+  },
+  {
+   "t": 4.1,
+   "text": "GUNNA GET THE OVERNIGHT ALTIUN Ad WELL"
+  },
+  {
+   "t": 5.55,
+   "text": "SO SHOUT OUT TO OUR DEV TEAM."
+  },
+  {
+   "t": 7.0,
+   "text": "TREY VE BEEN THEY VE BEEN UN THE MONEY."
+  },
+  {
+   "t": 8.35,
+   "text": "FUTURES IS COMING."
+  },
+  {
+   "t": 9.95,
+   "text": "FUTURES fo NUT IN TRE IMMEUIATE HORIZON."
+  },
+  {
+   "t": 12.35,
+   "text": "WE'RE IN"
+  },
+  {
+   "t": 14.4,
+   "text": "GAMMA REGIME HERE AS WELL."
+  },
+  {
+   "t": 15.7,
+   "text": "MEAN, KIND OF ACROSS THE BOARD"
+  },
+  {
+   "t": 17.1,
+   "text": "AGAIN POINTING OUT WE HAD"
+  },
+  {
+   "t": 19.6,
+   "text": "AND PSN NI NN"
+  },
+  {
+   "t": 22.85,
+   "text": "THE OPY PRIMARY WAS BELUW, NUW IT S ABOVE."
+  },
+  {
+   "t": 26.55,
+   "text": ""
+  }
+ ]
+}

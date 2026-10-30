@@ -1,0 +1,576 @@
+{
+ "clip": "2026-10-27-webinar-part7",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 41.97,
+ "sample_fps": 10,
+ "widest_hold": 6,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.1,
+   "dur": 0.1,
+   "features": 764,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 4.4,
+   "dur": 3.8,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 1.853,
+   "center": [
+    0.856,
+    0.496
+   ],
+   "direct": true,
+   "ink": {
+    "px": 392,
+    "share": 0.00046,
+    "center": [
+     0.58,
+     0.471
+    ],
+    "bbox": [
+     0.513,
+     0.425,
+     0.671,
+     0.513
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 4.7,
+   "end": 9.5,
+   "dur": 4.8,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 9.8,
+   "end": 14.1,
+   "dur": 4.3,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.497,
+   "center": [
+    0.669,
+    0.573
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2108,
+    "share": 0.00247,
+    "center": [
+     0.507,
+     0.489
+    ],
+    "bbox": [
+     0.397,
+     0.441,
+     0.62,
+     0.546
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 14.4,
+   "end": 18.2,
+   "dur": 3.8,
+   "features": 1486,
+   "kind": "video",
+   "zoom": 1.738,
+   "center": [
+    0.881,
+    0.455
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1645,
+    "share": 0.00193,
+    "center": [
+     0.69,
+     0.558
+    ],
+    "bbox": [
+     0.459,
+     0.541,
+     0.949,
+     0.566
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 18.4,
+   "end": 22.2,
+   "dur": 3.8,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.625,
+   "center": [
+    0.679,
+    0.517
+   ],
+   "direct": true,
+   "ink": {
+    "px": 4072,
+    "share": 0.00477,
+    "center": [
+     0.616,
+     0.615
+    ],
+    "bbox": [
+     0.431,
+     0.49,
+     0.756,
+     0.72
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 22.4,
+   "end": 25.9,
+   "dur": 3.5,
+   "features": 1491,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 26.0,
+   "end": 38.1,
+   "dur": 12.1,
+   "features": 1498,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.498,
+    0.501
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 8,
+   "start": 38.4,
+   "end": 42.0,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.1,
+   "end": 0.6,
+   "dur": 0.5,
+   "type": "ramp",
+   "log_scale": 0.174,
+   "pan_px": 208.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.853,
+   "zoom_ratio": null,
+   "caption_offset_s": -2.4,
+   "caption_text": "LUUKS LIKE Q PRIMARIES ARE BATTLING",
+   "transcript": {
+    "recording_t": 2247.34,
+    "cue_i": 206,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Looks like Q primaries are battling between 719 and 720.",
+    "into_cue_s": -1.01,
+    "cue_dur": 4.41,
+    "in_gap": false,
+    "prev": "As a potential trade.",
+    "next": "If you're a bull, what don't you want to see?"
+   }
+  },
+  {
+   "index": 1,
+   "start": 4.4,
+   "end": 4.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.487,
+   "pan_px": 358.2,
+   "after_hold": 1,
+   "zoom_from": 1.853,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.54,
+   "caption_offset_s": -1.2,
+   "caption_text": "BETWEEN 719 AND 720 IF YOU'RE A",
+   "transcript": {
+    "recording_t": 2251.64,
+    "cue_i": 206,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Looks like Q primaries are battling between 719 and 720.",
+    "into_cue_s": 3.29,
+    "cue_dur": 4.41,
+    "in_gap": false,
+    "prev": "As a potential trade.",
+    "next": "If you're a bull, what don't you want to see?"
+   }
+  },
+  {
+   "index": 2,
+   "start": 9.5,
+   "end": 9.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.399,
+   "pan_px": 295.8,
+   "after_hold": 2,
+   "zoom_from": 1.0,
+   "zoom_to": 1.497,
+   "zoom_ratio": 1.497,
+   "caption_offset_s": -1.9,
+   "caption_text": "NUTILE HUW AIS",
+   "transcript": {
+    "recording_t": 2406.83,
+    "cue_i": 221,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "I think the bull thesis is kind of holding on the 719 more than anything.",
+    "into_cue_s": 29.53,
+    "cue_dur": 5.81,
+    "in_gap": true,
+    "prev": "Good eye.",
+    "next": "Notice how this magnet was at 300, now it's back at 350. It's continuing to grow."
+   }
+  },
+  {
+   "index": 3,
+   "start": 14.1,
+   "end": 14.4,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.147,
+   "pan_px": 241.9,
+   "after_hold": 3,
+   "zoom_from": 1.497,
+   "zoom_to": 1.738,
+   "zoom_ratio": 1.161,
+   "caption_offset_s": 0.0,
+   "caption_text": "WHAT ioe",
+   "transcript": {
+    "recording_t": 2411.43,
+    "cue_i": 222,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Notice how this magnet was at 300, now it's back at 350. It's continuing to grow.",
+    "into_cue_s": 3.77,
+    "cue_dur": 5.11,
+    "in_gap": false,
+    "prev": "I think the bull thesis is kind of holding on the 719 more than anything.",
+    "next": "David has a question. If trading ES, do you determine a stop loss based on points, or a change in the thesis based on the chart ladder?"
+   }
+  },
+  {
+   "index": 4,
+   "start": 18.2,
+   "end": 18.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.063,
+   "pan_px": 194.1,
+   "after_hold": 4,
+   "zoom_from": 1.738,
+   "zoom_to": 1.625,
+   "zoom_ratio": 0.935,
+   "caption_offset_s": 2.5,
+   "caption_text": "THIS WAS AT",
+   "transcript": {
+    "recording_t": 2878.59,
+    "cue_i": 282,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "No directional indication, however, I think it does mean that it's\u2026 that there's no interest there, so we could just fly to the next strike.",
+    "into_cue_s": 22.05,
+    "cue_dur": 7.39,
+    "in_gap": true,
+    "prev": "Myron says, so no directional indication, just no info on that strike.",
+    "next": "This was at 400, now it's at 285, that's good for bulls."
+   }
+  },
+  {
+   "index": 5,
+   "start": 22.2,
+   "end": 22.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.47,
+   "pan_px": 230.2,
+   "after_hold": 5,
+   "zoom_from": 1.625,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.615,
+   "caption_offset_s": 0.1,
+   "caption_text": "-- WEHAVE NOT SEEN",
+   "transcript": {
+    "recording_t": 2902.78,
+    "cue_i": 284,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "We have not seen a primary role on SPY at all, I don't think.",
+    "into_cue_s": -0.51,
+    "cue_dur": 4.01,
+    "in_gap": false,
+    "prev": "This was at 400, now it's at 285, that's good for bulls.",
+    "next": "Yup, it's been at 767 all day."
+   }
+  },
+  {
+   "index": 6,
+   "start": 25.9,
+   "end": 26.0,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 17.3,
+   "after_hold": 6,
+   "zoom_from": 1.0,
+   "zoom_to": 1.0,
+   "zoom_ratio": 1.0,
+   "caption_offset_s": 0.2,
+   "caption_text": "YEP IT'S BEEN AT 767",
+   "transcript": {
+    "recording_t": 2906.48,
+    "cue_i": 285,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Yup, it's been at 767 all day.",
+    "into_cue_s": -1.21,
+    "cue_dur": 3.15,
+    "in_gap": false,
+    "prev": "We have not seen a primary role on SPY at all, I don't think.",
+    "next": "It's shrinking, though. It's shrinking."
+   }
+  },
+  {
+   "index": 7,
+   "start": 38.1,
+   "end": 38.4,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 98.6,
+   "after_hold": 7,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 4.5,
+   "caption_text": "seenenennoaneneeneues",
+   "transcript": {
+    "recording_t": 2935.91,
+    "cue_i": 295,
+    "sure": false,
+    "direct": false,
+    "speaker": "Shadowhand",
+    "text": "Really quick question. The numbers on the left side, you said, I think, 15\u2026 is that last 15 minutes?",
+    "into_cue_s": 2.1,
+    "cue_dur": 6.26,
+    "in_gap": false,
+    "prev": "Primary\u2026",
+    "next": "on this."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.5,
+  5.6,
+  11.4,
+  12.7,
+  14.1,
+  15.7,
+  20.8,
+  22.1,
+  23.9,
+  25.7,
+  27.6,
+  29.4,
+  30.3,
+  31.9,
+  33.6
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 1.25,
+    "t1": 4.05,
+    "offset": 2247.24,
+    "n": 2
+   },
+   {
+    "t0": 12.05,
+    "t1": 13.4,
+    "offset": 2397.33,
+    "n": 2
+   },
+   {
+    "t0": 14.9,
+    "t1": 14.9,
+    "offset": 2826.04,
+    "n": 1
+   },
+   {
+    "t0": 21.45,
+    "t1": 21.45,
+    "offset": 2860.39,
+    "n": 1
+   },
+   {
+    "t0": 23.0,
+    "t1": 26.65,
+    "offset": 2880.58,
+    "n": 3
+   },
+   {
+    "t0": 32.75,
+    "t1": 32.75,
+    "offset": 2897.81,
+    "n": 1
+   }
+  ],
+  "matched": 10,
+  "used": 10,
+  "captions": 16,
+  "share": 1.0,
+  "cues": [
+   206,
+   222,
+   278,
+   283,
+   284,
+   285,
+   293
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.25,
+   "text": "LUUR9S LIKE U PRIMARIES ARE BATTLING"
+  },
+  {
+   "t": 4.05,
+   "text": "BETWEEN 719 AND 720 IF YOU'RE A"
+  },
+  {
+   "t": 8.5,
+   "text": "Sennanennnananeeueues"
+  },
+  {
+   "t": 12.05,
+   "text": "NOW IT'S BACK AT 350."
+  },
+  {
+   "t": 13.4,
+   "text": "IT'S CONTINUING TO GROW"
+  },
+  {
+   "t": 14.9,
+   "text": "WHAT DID I TELL YUU GUYS ABUUT 719"
+  },
+  {
+   "t": 18.25,
+   "text": "CR THSWAS"
+  },
+  {
+   "t": 21.45,
+   "text": "THAT'S GOOD FOR BULLS"
+  },
+  {
+   "t": 23.0,
+   "text": "- WEHAVE NOT SEEN A PRIMARY ROLL"
+  },
+  {
+   "t": 24.8,
+   "text": "ON SPY AT ALL, DON'T THINK."
+  },
+  {
+   "t": 26.65,
+   "text": "YEP IT'S BEEN AT 767"
+  },
+  {
+   "t": 28.5,
+   "text": "ALL DAY IT S SHRINKING THOUGH."
+  },
+  {
+   "t": 29.85,
+   "text": "HOPEFULLY IT KEEPS SHRINKING."
+  },
+  {
+   "t": 31.1,
+   "text": "YEP, DEFINITELY SHRINKING."
+  },
+  {
+   "t": 32.75,
+   "text": "RIGHT NOW SPX IS LEADING THE WAY"
+  },
+  {
+   "t": 37.78,
+   "text": "Seannanauaneneeneues"
+  }
+ ]
+}

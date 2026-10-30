@@ -1,0 +1,581 @@
+{
+ "clip": "2026-10-19-webinar-part13",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 42.1,
+ "sample_fps": 10,
+ "widest_hold": 3,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1320,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 2.1,
+   "dur": 1.5,
+   "features": 1468,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 2.3,
+   "end": 17.6,
+   "dur": 15.3,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.591,
+   "center": [
+    0.196,
+    0.426
+   ],
+   "ink": {
+    "px": 651,
+    "share": 0.00076,
+    "center": [
+     0.772,
+     0.681
+    ],
+    "bbox": [
+     0.699,
+     0.673,
+     0.844,
+     0.685
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 18.1,
+   "end": 19.8,
+   "dur": 1.7,
+   "features": 1473,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 4,
+   "start": 20.1,
+   "end": 24.2,
+   "dur": 4.1,
+   "features": 1474,
+   "kind": "video",
+   "zoom": 1.52,
+   "center": [
+    0.355,
+    0.558
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 5,
+   "start": 24.4,
+   "end": 31.7,
+   "dur": 7.3,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.794,
+   "center": [
+    0.073,
+    0.555
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 6,
+   "start": 31.9,
+   "end": 33.7,
+   "dur": 1.8,
+   "features": 1475,
+   "kind": "video",
+   "zoom": 1.001,
+   "center": [
+    0.499,
+    0.48
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 33.9,
+   "end": 38.2,
+   "dur": 4.3,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.556,
+   "center": [
+    0.309,
+    0.477
+   ],
+   "direct": true,
+   "ink": {
+    "px": 965,
+    "share": 0.00113,
+    "center": [
+     0.531,
+     0.563
+    ],
+    "bbox": [
+     0.442,
+     0.28,
+     0.594,
+     0.67
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 38.5,
+   "end": 42.1,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 36.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.5,
+   "caption_text": "GU LUURK AT UUR BIGGER VIEW REAL QUICK",
+   "transcript": {
+    "recording_t": 4628.72,
+    "cue_i": 536,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's go look at our bigger view real quick.",
+    "into_cue_s": 5.5,
+    "cue_dur": 3.07,
+    "in_gap": true,
+    "prev": "Can't complain.",
+    "next": "Primaries are moving up, right?"
+   }
+  },
+  {
+   "index": 1,
+   "start": 2.1,
+   "end": 2.3,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.473,
+   "pan_px": 178.3,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.591,
+   "zoom_ratio": 1.591,
+   "caption_offset_s": 0.1,
+   "caption_text": "PRIMARIES ARE MOVING",
+   "transcript": {
+    "recording_t": 4630.32,
+    "cue_i": 537,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Primaries are moving up, right?",
+    "into_cue_s": -0.6,
+    "cue_dur": 1.89,
+    "in_gap": false,
+    "prev": "Let's go look at our bigger view real quick.",
+    "next": "made a high, a low, a higher low, a high, and now it's making a low. So, if primary move from here back up, I would say, oh, this is just a V balance, great. But if it moves below."
+   }
+  },
+  {
+   "index": 2,
+   "start": 17.6,
+   "end": 18.1,
+   "dur": 0.5,
+   "type": "ramp",
+   "log_scale": -0.49,
+   "pan_px": 87.3,
+   "after_hold": 2,
+   "zoom_from": 1.591,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.629,
+   "caption_offset_s": 0.0,
+   "caption_text": "Sacneueosoooenueneua",
+   "transcript": {
+    "recording_t": 4712.39,
+    "cue_i": 547,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Do you have?",
+    "into_cue_s": 15.1,
+    "cue_dur": 0.71,
+    "in_gap": true,
+    "prev": "Excellent trade there, man. $25 on SPX.",
+    "next": "Where did we bounce?"
+   }
+  },
+  {
+   "index": 3,
+   "start": 19.8,
+   "end": 20.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.422,
+   "pan_px": 124.8,
+   "after_hold": 3,
+   "zoom_from": 1.0,
+   "zoom_to": 1.52,
+   "zoom_ratio": 1.52,
+   "caption_offset_s": 0.5,
+   "caption_text": "NOWIF",
+   "transcript": {
+    "recording_t": 4714.59,
+    "cue_i": 548,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Where did we bounce?",
+    "into_cue_s": 1.35,
+    "cue_dur": 1.59,
+    "in_gap": false,
+    "prev": "Do you have?",
+    "next": "Primary."
+   }
+  },
+  {
+   "index": 4,
+   "start": 24.2,
+   "end": 24.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.155,
+   "pan_px": 218.6,
+   "after_hold": 4,
+   "zoom_from": 1.52,
+   "zoom_to": 1.794,
+   "zoom_ratio": 1.18,
+   "caption_offset_s": -0.8,
+   "caption_text": "THIS UBVIUUSLY DUEON T HAVE A VALUE YET.",
+   "transcript": {
+    "recording_t": 4800.94,
+    "cue_i": 559,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Right here, this obviously doesn't have a value yet, you can just come over here and see, oh, 7690 is at 8 million.",
+    "into_cue_s": 0.26,
+    "cue_dur": 7.01,
+    "in_gap": false,
+    "prev": "Now, if you wanted to see here, hey, what's 7690 doing?",
+    "next": "Still\u2026 still got room to turn into our new primary."
+   }
+  },
+  {
+   "index": 5,
+   "start": 31.7,
+   "end": 31.9,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.555,
+   "pan_px": 168.3,
+   "after_hold": 5,
+   "zoom_from": 1.794,
+   "zoom_to": 1.001,
+   "zoom_ratio": 0.558,
+   "caption_offset_s": 0.0,
+   "caption_text": "BOOM",
+   "transcript": {
+    "recording_t": 5180.97,
+    "cue_i": 587,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Boom.",
+    "into_cue_s": 3.67,
+    "cue_dur": 0.84,
+    "in_gap": true,
+    "prev": "Which is what I did.",
+    "next": "Remember what I talked about earlier?"
+   }
+  },
+  {
+   "index": 6,
+   "start": 33.7,
+   "end": 33.9,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.419,
+   "pan_px": 90.6,
+   "after_hold": 6,
+   "zoom_from": 1.001,
+   "zoom_to": 1.556,
+   "zoom_ratio": 1.554,
+   "caption_offset_s": 0.1,
+   "caption_text": "WE MAUVE A NEW TY",
+   "transcript": {
+    "recording_t": 5182.97,
+    "cue_i": 588,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Remember what I talked about earlier?",
+    "into_cue_s": 1.05,
+    "cue_dur": 1.8,
+    "in_gap": false,
+    "prev": "Boom.",
+    "next": "We made a new low on the primary."
+   }
+  },
+  {
+   "index": 7,
+   "start": 38.2,
+   "end": 38.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 115.4,
+   "after_hold": 7,
+   "zoom_from": 1.556,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 5242.2,
+    "cue_i": 601,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Right, so in this view, We made a new low from this high.",
+    "into_cue_s": 3.77,
+    "cue_dur": 6.03,
+    "in_gap": false,
+    "prev": "Correct. So\u2026 I'm thinking about it like this.",
+    "next": "But that's still not a lower low on the primaries."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.0,
+  3.4,
+  5.2,
+  6.7,
+  8.5,
+  11.0,
+  13.7,
+  15.6,
+  17.6,
+  19.3,
+  21.7,
+  25.0,
+  27.5,
+  29.6,
+  31.7,
+  33.6,
+  35.7,
+  37.8
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 2.7,
+    "t1": 2.7,
+    "offset": 4628.22,
+    "n": 1
+   },
+   {
+    "t0": 5.95,
+    "t1": 7.6,
+    "offset": 4628.87,
+    "n": 2
+   },
+   {
+    "t0": 12.35,
+    "t1": 14.65,
+    "offset": 4631.29,
+    "n": 2
+   },
+   {
+    "t0": 18.45,
+    "t1": 18.45,
+    "offset": 4694.79,
+    "n": 1
+   },
+   {
+    "t0": 20.5,
+    "t1": 28.55,
+    "offset": 4776.74,
+    "n": 2
+   },
+   {
+    "t0": 32.65,
+    "t1": 32.65,
+    "offset": 5149.27,
+    "n": 1
+   },
+   {
+    "t0": 36.75,
+    "t1": 36.75,
+    "offset": 5204.0,
+    "n": 1
+   }
+  ],
+  "matched": 11,
+  "used": 10,
+  "captions": 19,
+  "share": 0.91,
+  "cues": [
+   537,
+   538,
+   548,
+   558,
+   559,
+   588,
+   589,
+   601
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.0,
+   "text": "GU LUUK AT UUR BIGGER VIEW REAL QUICK"
+  },
+  {
+   "t": 2.7,
+   "text": "PRIMARIES ARE MOVING UP, RIGHT"
+  },
+  {
+   "t": 4.3,
+   "text": "MADE A A HIGH, A LOW."
+  },
+  {
+   "t": 5.95,
+   "text": "A HIGHER LOW. A HIGH."
+  },
+  {
+   "t": 7.6,
+   "text": "AND NOW IT S MAKING A LOW."
+  },
+  {
+   "t": 9.75,
+   "text": "OU IF PRIMARY MUVED FRUM HERE BACK UP."
+  },
+  {
+   "t": 12.35,
+   "text": "OH, THIS IS JUST AV"
+  },
+  {
+   "t": 14.65,
+   "text": "DUUNGE. UREAT. BUT IF IT MUVES BELOW."
+  },
+  {
+   "t": 16.6,
+   "text": "WE NUW HAVE GUNTINUATIUN 10 THE DOWNSIDE"
+  },
+  {
+   "t": 18.45,
+   "text": "WHERE DID WE BOUNCE"
+  },
+  {
+   "t": 20.5,
+   "text": "NOW IF YOU WANTED TO SEE HERE."
+  },
+  {
+   "t": 23.35,
+   "text": "- - mold hieotieate y"
+  },
+  {
+   "t": 26.25,
+   "text": "YUU GAN JUST GUME UVER RERE ANU SEE."
+  },
+  {
+   "t": 28.55,
+   "text": "OH, 7690 1S AT EIGHT MILLION STILL"
+  },
+  {
+   "t": 30.65,
+   "text": "GUT RUUM TU TURN INTU UUn NEW PRIMARY"
+  },
+  {
+   "t": 32.65,
+   "text": "HEMEMBER WHAT TALKED ABUUT EARLIER"
+  },
+  {
+   "t": 34.65,
+   "text": "WEMAUEANEWLUWUNTRE PRIMARY,"
+  },
+  {
+   "t": 36.75,
+   "text": "BUT WE RAVEN T MADE AFULLUWING LOW, RIGHT"
+  },
+  {
+   "t": 39.95,
+   "text": "a ee ee a es a"
+  }
+ ]
+}

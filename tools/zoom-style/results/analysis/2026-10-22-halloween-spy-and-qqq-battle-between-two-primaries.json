@@ -1,0 +1,582 @@
+{
+ "clip": "2026-10-22-halloween-spy-and-qqq-battle-between-two-primaries",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 41.9,
+ "sample_fps": 10,
+ "widest_hold": 5,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1157,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 1.8,
+   "dur": 1.2,
+   "features": 1184,
+   "kind": "video",
+   "zoom": 1.008,
+   "center": [
+    0.497,
+    0.499
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 2.0,
+   "end": 7.4,
+   "dur": 5.4,
+   "features": 1496,
+   "kind": "video",
+   "zoom": 1.343,
+   "center": [
+    0.599,
+    0.598
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1433,
+    "share": 0.00168,
+    "center": [
+     0.562,
+     0.662
+    ],
+    "bbox": [
+     0.498,
+     0.412,
+     0.62,
+     0.849
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 7.7,
+   "end": 12.6,
+   "dur": 4.9,
+   "features": 1491,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 238,
+    "share": 0.00028,
+    "center": [
+     0.734,
+     0.405
+    ],
+    "bbox": [
+     0.709,
+     0.311,
+     0.756,
+     0.476
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 12.9,
+   "end": 14.9,
+   "dur": 2.0,
+   "features": 1486,
+   "kind": "video",
+   "zoom": 1.515,
+   "center": [
+    0.672,
+    0.654
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1341,
+    "share": 0.00157,
+    "center": [
+     0.548,
+     0.712
+    ],
+    "bbox": [
+     0.416,
+     0.275,
+     0.679,
+     0.814
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 15.2,
+   "end": 29.8,
+   "dur": 14.6,
+   "features": 1493,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 6,
+   "start": 30.1,
+   "end": 37.4,
+   "dur": 7.3,
+   "features": 1459,
+   "kind": "video",
+   "zoom": 1.68,
+   "center": [
+    0.868,
+    0.386
+   ],
+   "direct": true,
+   "ink": {
+    "px": 408,
+    "share": 0.00048,
+    "center": [
+     0.64,
+     0.433
+    ],
+    "bbox": [
+     0.556,
+     0.296,
+     0.807,
+     0.565
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 37.5,
+   "end": 38.0,
+   "dur": 0.5,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 0.992,
+   "center": [
+    0.504,
+    0.501
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 8,
+   "start": 38.3,
+   "end": 41.9,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 72.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.008,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.9,
+   "caption_text": "LED TALA ABUUT Ths TRING REAL QUICK, RIGHT",
+   "transcript": {
+    "recording_t": 4249.94,
+    "cue_i": 548,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's talk about this thing real quick, right? Primary moved up, Once.",
+    "into_cue_s": 0.14,
+    "cue_dur": 5.09,
+    "in_gap": false,
+    "prev": "So many.",
+    "next": "Okay? Did that confirm upside to me? No, it didn't. If it moved up twice, then that would have."
+   }
+  },
+  {
+   "index": 1,
+   "start": 1.8,
+   "end": 2.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.278,
+   "pan_px": 180.2,
+   "after_hold": 1,
+   "zoom_from": 1.008,
+   "zoom_to": 1.343,
+   "zoom_ratio": 1.332,
+   "caption_offset_s": -0.5,
+   "caption_text": "LED TALK ABUUT Tl TRING HEAL QUICK, RIGHT",
+   "transcript": {
+    "recording_t": 4251.34,
+    "cue_i": 548,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let's talk about this thing real quick, right? Primary moved up, Once.",
+    "into_cue_s": 1.54,
+    "cue_dur": 5.09,
+    "in_gap": false,
+    "prev": "So many.",
+    "next": "Okay? Did that confirm upside to me? No, it didn't. If it moved up twice, then that would have."
+   }
+  },
+  {
+   "index": 2,
+   "start": 7.4,
+   "end": 7.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.295,
+   "pan_px": 165.2,
+   "after_hold": 2,
+   "zoom_from": 1.343,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.745,
+   "caption_offset_s": 0.0,
+   "caption_text": "sasueuannoaunoousees",
+   "transcript": {
+    "recording_t": 4256.94,
+    "cue_i": 549,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Okay? Did that confirm upside to me? No, it didn't. If it moved up twice, then that would have.",
+    "into_cue_s": 1.33,
+    "cue_dur": 6.15,
+    "in_gap": false,
+    "prev": "Let's talk about this thing real quick, right? Primary moved up, Once.",
+    "next": "Right?"
+   }
+  },
+  {
+   "index": 3,
+   "start": 12.6,
+   "end": 12.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.415,
+   "pan_px": 304.7,
+   "after_hold": 3,
+   "zoom_from": 1.0,
+   "zoom_to": 1.515,
+   "zoom_ratio": 1.515,
+   "caption_offset_s": -0.3,
+   "caption_text": "BUT RIGHT NOW IT'S JUST KIND",
+   "transcript": {
+    "recording_t": 4262.14,
+    "cue_i": 551,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "But right now, it's just kind of battling between 764 and 760.",
+    "into_cue_s": -1.82,
+    "cue_dur": 3.92,
+    "in_gap": false,
+    "prev": "Right?",
+    "next": "Let's see if 705 takes primary on queues."
+   }
+  },
+  {
+   "index": 4,
+   "start": 14.9,
+   "end": 15.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.414,
+   "pan_px": 238.9,
+   "after_hold": 4,
+   "zoom_from": 1.515,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.66,
+   "caption_offset_s": 0.3,
+   "caption_text": "LET oEE TF U0 TAKES PRIMARY UN Q'S",
+   "transcript": {
+    "recording_t": 4266.94,
+    "cue_i": 551,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "But right now, it's just kind of battling between 764 and 760.",
+    "into_cue_s": 2.98,
+    "cue_dur": 3.92,
+    "in_gap": false,
+    "prev": "Right?",
+    "next": "Let's see if 705 takes primary on queues."
+   }
+  },
+  {
+   "index": 5,
+   "start": 29.8,
+   "end": 30.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.516,
+   "pan_px": 449.6,
+   "after_hold": 5,
+   "zoom_from": 1.0,
+   "zoom_to": 1.68,
+   "zoom_ratio": 1.68,
+   "caption_offset_s": -0.1,
+   "caption_text": "f L- ees JT ff, f ie SCARE TER HUST, SPINE INSIGHT HERE",
+   "transcript": {
+    "recording_t": 4448.29,
+    "cue_i": 571,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And then just some insight here, we're seeing some growth on Q's.",
+    "into_cue_s": 1.89,
+    "cue_dur": 3.21,
+    "in_gap": false,
+    "prev": "Still think those SPX primaries are gonna give us some chop.",
+    "next": "Out of nowhere, so we could start to envision a little bit of\u2026 of a magnet to the upside there as well."
+   }
+  },
+  {
+   "index": 6,
+   "start": 37.4,
+   "end": 37.5,
+   "dur": 0.1,
+   "type": "cut",
+   "log_scale": -0.518,
+   "pan_px": 307.9,
+   "after_hold": 6,
+   "zoom_from": 1.68,
+   "zoom_to": 0.992,
+   "zoom_ratio": 0.59,
+   "caption_offset_s": 0.6,
+   "caption_text": "sannoneononnocenneues",
+   "transcript": {
+    "recording_t": 4455.89,
+    "cue_i": 572,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Out of nowhere, so we could start to envision a little bit of\u2026 of a magnet to the upside there as well.",
+    "into_cue_s": 5.49,
+    "cue_dur": 6.3,
+    "in_gap": false,
+    "prev": "And then just some insight here, we're seeing some growth on Q's.",
+    "next": "Sorry, I was closing a\u2026 Corollandor there."
+   }
+  },
+  {
+   "index": 7,
+   "start": 38.0,
+   "end": 38.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.002,
+   "pan_px": 114.9,
+   "after_hold": 7,
+   "zoom_from": 0.992,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 1.2,
+   "caption_text": "sunnennunoaooneneues",
+   "transcript": {
+    "recording_t": 4456.49,
+    "cue_i": 572,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Out of nowhere, so we could start to envision a little bit of\u2026 of a magnet to the upside there as well.",
+    "into_cue_s": 6.09,
+    "cue_dur": 6.3,
+    "in_gap": false,
+    "prev": "And then just some insight here, we're seeing some growth on Q's.",
+    "next": "Sorry, I was closing a\u2026 Corollandor there."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.3,
+  5.0,
+  5.8,
+  7.4,
+  10.2,
+  11.2,
+  12.9,
+  14.6,
+  17.1,
+  18.6,
+  20.3,
+  21.9,
+  29.9,
+  32.2,
+  33.4,
+  35.0,
+  36.8
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 3.65,
+    "t1": 8.8,
+    "offset": 4249.54,
+    "n": 3
+   },
+   {
+    "t0": 12.05,
+    "t1": 13.75,
+    "offset": 4252.04,
+    "n": 2
+   },
+   {
+    "t0": 17.85,
+    "t1": 17.85,
+    "offset": 4275.28,
+    "n": 1
+   },
+   {
+    "t0": 19.45,
+    "t1": 21.1,
+    "offset": 4279.03,
+    "n": 2
+   },
+   {
+    "t0": 32.8,
+    "t1": 35.9,
+    "offset": 4418.49,
+    "n": 3
+   }
+  ],
+  "matched": 11,
+  "used": 11,
+  "captions": 18,
+  "share": 1.0,
+  "cues": [
+   548,
+   549,
+   550,
+   551,
+   554,
+   555,
+   556,
+   571,
+   572
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.15,
+   "text": "LED o TALA ABUUT Tht TRING REAL QUICK, RIGHT"
+  },
+  {
+   "t": 3.65,
+   "text": "PRIMARY MOVED UP ONCE."
+  },
+  {
+   "t": 5.4,
+   "text": "CTT. ee a a aa ae OKAY rs es es ee"
+  },
+  {
+   "t": 6.6,
+   "text": "DID THAT CONFIRM UPSIDE TO ME"
+  },
+  {
+   "t": 8.8,
+   "text": "IF IT MOVED UP TWICE."
+  },
+  {
+   "t": 10.7,
+   "text": "THEN THAT WOULD'VE, RIGHT"
+  },
+  {
+   "t": 12.05,
+   "text": "BUT RIGHT NOW IT'S JUST KIND"
+  },
+  {
+   "t": 13.75,
+   "text": "OF BATTLING BETWEEN 764 AND 760"
+  },
+  {
+   "t": 15.85,
+   "text": "LET OEE TF U0 TAKES PRIMARY UN Q'S"
+  },
+  {
+   "t": 17.85,
+   "text": "PRIMARY ROLL DOWN ON 0'S."
+  },
+  {
+   "t": 19.45,
+   "text": "THERE IT I$ BACK AT 7.15,"
+  },
+  {
+   "t": 21.1,
+   "text": "SO THOSE TWO LEVELS ARE BATTLING."
+  },
+  {
+   "t": 25.9,
+   "text": "suanenennnsooeenenes"
+  },
+  {
+   "t": 31.05,
+   "text": "WE RE oEEING OUME URUWIE UN US OUT OF NOWHERE."
+  },
+  {
+   "t": 32.8,
+   "text": "SO WE COULD START TO"
+  },
+  {
+   "t": 34.2,
+   "text": "ENVISION A LITTLE BIT OF A"
+  },
+  {
+   "t": 35.9,
+   "text": "MAGNE TU THE UPOIWE THERE Ad WELL."
+  },
+  {
+   "t": 39.35,
+   "text": "Paes"
+  }
+ ]
+}

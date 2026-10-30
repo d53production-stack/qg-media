@@ -1,0 +1,535 @@
+{
+ "clip": "2026-10-19-webinar-part1",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 27.2,
+ "sample_fps": 10,
+ "widest_hold": 5,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1376,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 4.6,
+   "dur": 4.0,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.408,
+   "center": [
+    0.347,
+    0.569
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2484,
+    "share": 0.00291,
+    "center": [
+     0.439,
+     0.518
+    ],
+    "bbox": [
+     0.341,
+     0.253,
+     0.553,
+     0.68
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 4.7,
+   "end": 8.9,
+   "dur": 4.2,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.482,
+   "center": [
+    0.362,
+    0.509
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1463,
+    "share": 0.00171,
+    "center": [
+     0.429,
+     0.697
+    ],
+    "bbox": [
+     0.354,
+     0.63,
+     0.5,
+     0.761
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 9.1,
+   "end": 11.2,
+   "dur": 2.1,
+   "features": 1498,
+   "kind": "video",
+   "zoom": 1.009,
+   "center": [
+    0.497,
+    0.499
+   ],
+   "direct": true,
+   "ink": {
+    "px": 162,
+    "share": 0.00019,
+    "center": [
+     0.335,
+     0.556
+    ],
+    "bbox": [
+     0.29,
+     0.539,
+     0.367,
+     0.582
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 11.5,
+   "end": 14.6,
+   "dur": 3.1,
+   "features": 1490,
+   "kind": "video",
+   "zoom": 1.513,
+   "center": [
+    0.724,
+    0.458
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1168,
+    "share": 0.00137,
+    "center": [
+     0.871,
+     0.604
+    ],
+    "bbox": [
+     0.835,
+     0.412,
+     0.897,
+     0.797
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 14.9,
+   "end": 20.4,
+   "dur": 5.5,
+   "features": 1496,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 318,
+    "share": 0.00037,
+    "center": [
+     0.353,
+     0.569
+    ],
+    "bbox": [
+     0.317,
+     0.477,
+     0.381,
+     0.661
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 20.7,
+   "end": 23.3,
+   "dur": 2.6,
+   "features": 1473,
+   "kind": "video",
+   "zoom": 1.652,
+   "center": [
+    0.804,
+    0.514
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1198,
+    "share": 0.0014,
+    "center": [
+     0.711,
+     0.336
+    ],
+    "bbox": [
+     0.667,
+     0.238,
+     0.773,
+     0.386
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 23.6,
+   "end": 27.2,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 35.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.408,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "BUT MURE THAN ANYTHING ITS READING",
+   "transcript": {
+    "recording_t": 35.68,
+    "cue_i": 5,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "I guess by default, it kind of is reading flow, but more than anything, it's reading what is the structure, and this is a bullish structure, right? We have a launch pad, we have the primary above.",
+    "into_cue_s": 2.59,
+    "cue_dur": 9.48,
+    "in_gap": false,
+    "prev": "To\u2026 to add to this read here. But basically, it's reading the structure. It's not reading,",
+    "next": "So, it should give us\u2026 Some upward momentum."
+   }
+  },
+  {
+   "index": 1,
+   "start": 4.6,
+   "end": 4.7,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.04,
+   "pan_px": 25.3,
+   "after_hold": 1,
+   "zoom_from": 1.408,
+   "zoom_to": 1.482,
+   "zoom_ratio": 1.053,
+   "caption_offset_s": 0.2,
+   "caption_text": "WE HAVE A LAUNCH PAD.",
+   "transcript": {
+    "recording_t": 39.78,
+    "cue_i": 5,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "I guess by default, it kind of is reading flow, but more than anything, it's reading what is the structure, and this is a bullish structure, right? We have a launch pad, we have the primary above.",
+    "into_cue_s": 6.69,
+    "cue_dur": 9.48,
+    "in_gap": false,
+    "prev": "To\u2026 to add to this read here. But basically, it's reading the structure. It's not reading,",
+    "next": "So, it should give us\u2026 Some upward momentum."
+   }
+  },
+  {
+   "index": 2,
+   "start": 8.9,
+   "end": 9.1,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.352,
+   "pan_px": 68.3,
+   "after_hold": 2,
+   "zoom_from": 1.482,
+   "zoom_to": 1.009,
+   "zoom_ratio": 0.681,
+   "caption_offset_s": 0.1,
+   "caption_text": "AND HERE'S THE",
+   "transcript": {
+    "recording_t": 44.08,
+    "cue_i": 7,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And here's the launch pad setup playing out.",
+    "into_cue_s": -3.48,
+    "cue_dur": 2.49,
+    "in_gap": false,
+    "prev": "So, it should give us\u2026 Some upward momentum.",
+    "next": "So, to be\u2026 to be clear."
+   }
+  },
+  {
+   "index": 3,
+   "start": 11.2,
+   "end": 11.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.412,
+   "pan_px": 294.7,
+   "after_hold": 3,
+   "zoom_from": 1.009,
+   "zoom_to": 1.513,
+   "zoom_ratio": 1.5,
+   "caption_offset_s": 0.2,
+   "caption_text": "ONCE WE GET UP HERE.",
+   "transcript": {
+    "recording_t": 145.34,
+    "cue_i": 22,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "It helps our lungs, but then guess what? Once we get up here.",
+    "into_cue_s": 1.58,
+    "cue_dur": 3.38,
+    "in_gap": false,
+    "prev": "Primary rolled up on\u2026 the question is, primary rolled up on cues, does that help our lungs? Absolutely.",
+    "next": "We have a trapdoor setup, down to 718."
+   }
+  },
+  {
+   "index": 4,
+   "start": 14.6,
+   "end": 14.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.412,
+   "pan_px": 242.2,
+   "after_hold": 4,
+   "zoom_from": 1.513,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.661,
+   "caption_offset_s": 0.0,
+   "caption_text": "OUIF",
+   "transcript": {
+    "recording_t": 148.74,
+    "cue_i": 23,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We have a trapdoor setup, down to 718.",
+    "into_cue_s": 1.07,
+    "cue_dur": 3.66,
+    "in_gap": false,
+    "prev": "It helps our lungs, but then guess what? Once we get up here.",
+    "next": "So if we're going from launch pad to Trapdoor, what does this tell us?"
+   }
+  },
+  {
+   "index": 5,
+   "start": 20.4,
+   "end": 20.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.5,
+   "pan_px": 403.0,
+   "after_hold": 5,
+   "zoom_from": 1.0,
+   "zoom_to": 1.652,
+   "zoom_ratio": 1.652,
+   "caption_offset_s": 0.0,
+   "caption_text": "SOWE",
+   "transcript": {
+    "recording_t": 159.66,
+    "cue_i": 25,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We're trading a range.",
+    "into_cue_s": 1.4,
+    "cue_dur": 1.64,
+    "in_gap": false,
+    "prev": "So if we're going from launch pad to Trapdoor, what does this tell us?",
+    "next": "Make the best of it."
+   }
+  },
+  {
+   "index": 6,
+   "start": 23.3,
+   "end": 23.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.006,
+   "pan_px": 114.2,
+   "after_hold": 6,
+   "zoom_from": 1.652,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.3,
+   "caption_text": "sasnnenanananeeueues",
+   "transcript": {
+    "recording_t": 172.23,
+    "cue_i": 28,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "On cues? Absolutely, right? So we have positive, positive gamma levels.",
+    "into_cue_s": 3.56,
+    "cue_dur": 4.32,
+    "in_gap": false,
+    "prev": "Can you talk a little bit more about that trapdoor?",
+    "next": "So we have resistance, and then we have negative gamma below that can fuel the downside move until we find support, probably around 719."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  2.7,
+  4.4,
+  7.0,
+  8.8,
+  9.9,
+  11.0,
+  12.4,
+  14.6,
+  17.0,
+  18.4,
+  19.6,
+  20.4,
+  23.0
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.8,
+    "t1": 7.9,
+    "offset": 35.18,
+    "n": 5
+   },
+   {
+    "t0": 9.35,
+    "t1": 9.35,
+    "offset": 38.21,
+    "n": 1
+   },
+   {
+    "t0": 11.7,
+    "t1": 11.7,
+    "offset": 134.14,
+    "n": 1
+   },
+   {
+    "t0": 17.7,
+    "t1": 20.0,
+    "offset": 139.26,
+    "n": 3
+   },
+   {
+    "t0": 21.7,
+    "t1": 21.7,
+    "offset": 148.93,
+    "n": 1
+   }
+  ],
+  "matched": 11,
+  "used": 11,
+  "captions": 14,
+  "share": 1.0,
+  "cues": [
+   5,
+   6,
+   7,
+   22,
+   23,
+   24,
+   25,
+   26,
+   28
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "BUT MURE THAN ANYTHING HTS READING"
+  },
+  {
+   "t": 2.15,
+   "text": "WHAT IS THE STRUCTURE. AND THIS"
+  },
+  {
+   "t": 3.55,
+   "text": "IS ABULLISH STRUCTURE. RIGHT"
+  },
+  {
+   "t": 5.7,
+   "text": "WERAVE THE PRIMARY ABUVE,"
+  },
+  {
+   "t": 7.9,
+   "text": "GIVEUS SOME UPWARD MOMENTUM."
+  },
+  {
+   "t": 9.35,
+   "text": "AND HERE'S THE LAUNCH PAD SETUP"
+  },
+  {
+   "t": 10.45,
+   "text": "PLAYING OUT BUT THEN GUESS WHAT"
+  },
+  {
+   "t": 11.7,
+   "text": "ONCE WE GET UP HERE."
+  },
+  {
+   "t": 13.5,
+   "text": "WE RAVE A TRAPUUUR oETUP UUWN IU 718."
+  },
+  {
+   "t": 15.8,
+   "text": "QUIF WE RE GUING FRUM LAUNURPAU TO TRAPDOOR ."
+  },
+  {
+   "t": 17.7,
+   "text": "WHAT DOES THIS TELL US"
+  },
+  {
+   "t": 19.0,
+   "text": "WE'RE TRADING A RANGE."
+  },
+  {
+   "t": 20.0,
+   "text": "MAKE THE BEST OF IT"
+  },
+  {
+   "t": 21.7,
+   "text": "$0 WE HAVE POSITIVE GAMMA LEVELS."
+  },
+  {
+   "t": 25.1,
+   "text": ""
+  }
+ ]
+}

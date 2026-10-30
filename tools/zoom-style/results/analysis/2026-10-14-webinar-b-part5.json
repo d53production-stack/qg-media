@@ -1,0 +1,569 @@
+{
+ "clip": "2026-10-14-webinar-b-part5",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 49.37,
+ "sample_fps": 10,
+ "widest_hold": 7,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 711,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 3.7,
+   "dur": 3.1,
+   "features": 1367,
+   "kind": "video",
+   "zoom": 1.552,
+   "center": [
+    0.59,
+    0.489
+   ],
+   "ink": {
+    "px": 256,
+    "share": 0.0003,
+    "center": [
+     0.591,
+     0.545
+    ],
+    "bbox": [
+     0.581,
+     0.479,
+     0.604,
+     0.611
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 4.0,
+   "end": 7.9,
+   "dur": 3.9,
+   "features": 1451,
+   "kind": "video",
+   "zoom": 1.44,
+   "center": [
+    0.22,
+    0.426
+   ],
+   "ink": {
+    "px": 839,
+    "share": 0.00098,
+    "center": [
+     0.47,
+     0.5
+    ],
+    "bbox": [
+     0.368,
+     0.494,
+     0.565,
+     0.513
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 8.1,
+   "end": 17.7,
+   "dur": 9.6,
+   "features": 1488,
+   "kind": "video",
+   "zoom": 1.018,
+   "center": [
+    0.495,
+    0.493
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 4,
+   "start": 18.2,
+   "end": 29.4,
+   "dur": 11.2,
+   "features": 1476,
+   "kind": "video",
+   "zoom": 1.421,
+   "center": [
+    0.62,
+    0.421
+   ],
+   "ink": {
+    "px": 1441,
+    "share": 0.00169,
+    "center": [
+     0.496,
+     0.614
+    ],
+    "bbox": [
+     0.426,
+     0.568,
+     0.552,
+     0.665
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 29.7,
+   "end": 32.1,
+   "dur": 2.4,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.698,
+   "center": [
+    0.346,
+    0.513
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1316,
+    "share": 0.00154,
+    "center": [
+     0.645,
+     0.645
+    ],
+    "bbox": [
+     0.559,
+     0.638,
+     0.743,
+     0.654
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 32.4,
+   "end": 35.2,
+   "dur": 2.8,
+   "features": 1491,
+   "kind": "video",
+   "zoom": 1.696,
+   "center": [
+    0.801,
+    0.506
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1673,
+    "share": 0.00196,
+    "center": [
+     0.293,
+     0.668
+    ],
+    "bbox": [
+     0.176,
+     0.552,
+     0.45,
+     0.713
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 35.4,
+   "end": 36.1,
+   "dur": 0.7,
+   "features": 1494,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 8,
+   "start": 36.4,
+   "end": 41.5,
+   "dur": 5.1,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.467,
+   "center": [
+    0.338,
+    0.481
+   ],
+   "direct": true,
+   "ink": {
+    "px": 575,
+    "share": 0.00067,
+    "center": [
+     0.534,
+     0.545
+    ],
+    "bbox": [
+     0.491,
+     0.463,
+     0.585,
+     0.629
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 41.7,
+   "end": 45.5,
+   "dur": 3.8,
+   "features": 1487,
+   "kind": "video",
+   "zoom": 1.009,
+   "center": [
+    0.5,
+    0.495
+   ],
+   "direct": true,
+   "ink": {
+    "px": 359,
+    "share": 0.00042,
+    "center": [
+     0.332,
+     0.63
+    ],
+    "bbox": [
+     0.254,
+     0.618,
+     0.432,
+     0.68
+    ]
+   }
+  },
+  {
+   "index": 10,
+   "start": 45.8,
+   "end": 49.4,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 71.8,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.552,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.3,
+   "caption_text": "SO IF PRICE COMES DOWN HERE."
+  },
+  {
+   "index": 1,
+   "start": 3.7,
+   "end": 4.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.288,
+   "pan_px": 52.4,
+   "after_hold": 1,
+   "zoom_from": 1.552,
+   "zoom_to": 1.44,
+   "zoom_ratio": 0.928,
+   "caption_offset_s": 0.0,
+   "caption_text": "LOOK AT THIS."
+  },
+  {
+   "index": 2,
+   "start": 7.9,
+   "end": 8.1,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.31,
+   "pan_px": 102.4,
+   "after_hold": 2,
+   "zoom_from": 1.44,
+   "zoom_to": 1.018,
+   "zoom_ratio": 0.707,
+   "caption_offset_s": 0.1,
+   "caption_text": "THE FRESH NODE WORKS."
+  },
+  {
+   "index": 3,
+   "start": 17.7,
+   "end": 18.2,
+   "dur": 0.5,
+   "type": "ramp",
+   "log_scale": 0.326,
+   "pan_px": 175.9,
+   "after_hold": 3,
+   "zoom_from": 1.018,
+   "zoom_to": 1.421,
+   "zoom_ratio": 1.396,
+   "caption_offset_s": -0.1,
+   "caption_text": "eeecmneneeaueee ie ee a aa"
+  },
+  {
+   "index": 4,
+   "start": 29.4,
+   "end": 29.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.519,
+   "pan_px": 140.9,
+   "after_hold": 4,
+   "zoom_from": 1.421,
+   "zoom_to": 1.698,
+   "zoom_ratio": 1.195,
+   "caption_offset_s": 0.2,
+   "caption_text": "PRIMARY HULLING DUWN, VALUES DECREASING SIGNIFICANTLY HERE."
+  },
+  {
+   "index": 5,
+   "start": 32.1,
+   "end": 32.4,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 414.5,
+   "after_hold": 5,
+   "zoom_from": 1.698,
+   "zoom_to": 1.696,
+   "zoom_ratio": 0.999,
+   "caption_offset_s": 0.1,
+   "caption_text": "PRIMARY ROLLING"
+  },
+  {
+   "index": 6,
+   "start": 35.2,
+   "end": 35.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.512,
+   "pan_px": 311.1,
+   "after_hold": 6,
+   "zoom_from": 1.696,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.59,
+   "caption_offset_s": -0.3,
+   "caption_text": "PRIMARY ROLLING DOWN ON Q'S."
+  },
+  {
+   "index": 7,
+   "start": 36.1,
+   "end": 36.4,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.384,
+   "pan_px": 73.4,
+   "after_hold": 7,
+   "zoom_from": 1.0,
+   "zoom_to": 1.467,
+   "zoom_ratio": 1.467,
+   "caption_offset_s": 0.0,
+   "caption_text": "THE PRIMARY"
+  },
+  {
+   "index": 8,
+   "start": 41.5,
+   "end": 41.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.349,
+   "pan_px": 54.6,
+   "after_hold": 8,
+   "zoom_from": 1.467,
+   "zoom_to": 1.009,
+   "zoom_ratio": 0.688,
+   "caption_offset_s": 0.1,
+   "caption_text": "SUPPORT IS FADING HERE ON"
+  },
+  {
+   "index": 9,
+   "start": 45.5,
+   "end": 45.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 98.7,
+   "after_hold": 9,
+   "zoom_from": 1.009,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": ""
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.7,
+  3.7,
+  4.9,
+  5.7,
+  7.8,
+  9.6,
+  11.6,
+  13.0,
+  14.7,
+  16.4,
+  17.8,
+  19.6,
+  21.4,
+  23.2,
+  24.6,
+  26.5,
+  28.1,
+  29.2,
+  32.0,
+  34.0,
+  35.5,
+  36.1,
+  37.9,
+  39.4,
+  41.4,
+  43.5,
+  45.1
+ ],
+ "captions": [
+  {
+   "t": 0.85,
+   "text": "$0 IF PRICE COMES DOWN HERE."
+  },
+  {
+   "t": 2.7,
+   "text": "THIS TO ME IS A VERY OBVIOUS TRADE"
+  },
+  {
+   "t": 4.3,
+   "text": "ae ae ell -"
+  },
+  {
+   "t": 5.3,
+   "text": "THIS PRIMARY WAS UNTOUCHED,"
+  },
+  {
+   "t": 6.75,
+   "text": "CAME UP AND IT GAVE US THIS TRADE"
+  },
+  {
+   "t": 8.7,
+   "text": "THE FRESH NODE WORKS."
+  },
+  {
+   "t": 10.6,
+   "text": "THE IDEA IS TRUE"
+  },
+  {
+   "t": 12.3,
+   "text": "FOR POSITIVE AND NEGATIVE NODES."
+  },
+  {
+   "t": 13.85,
+   "text": "HOWEVER, LIKE TO ENTER OFF OF"
+  },
+  {
+   "t": 15.55,
+   "text": "WALLS ANU GEILINGS, AND THINK THEY'RE"
+  },
+  {
+   "t": 17.1,
+   "text": "BETTER WHEN IT'S A POSITIVE NODE."
+  },
+  {
+   "t": 18.7,
+   "text": "SAY THAT AND THEN LOOK"
+  },
+  {
+   "t": 20.5,
+   "text": "AT THIS BOUNCE HERE ON THIS"
+  },
+  {
+   "t": 22.3,
+   "text": "PRIMARY NEGATIVE NODE ON SPY."
+  },
+  {
+   "t": 23.9,
+   "text": "$0 IT CAN BE GOOD."
+  },
+  {
+   "t": 25.55,
+   "text": "BUT I LIKE, LIKE THE POSITIVE"
+  },
+  {
+   "t": 27.3,
+   "text": "ONES JUST A LITTLE BIT BETTER."
+  },
+  {
+   "t": 28.65,
+   "text": "COUPLE THINGS."
+  },
+  {
+   "t": 30.6,
+   "text": "PRIMARY HULLING DUWN, VALUES DECREASING SIGNIFICANTLY HERE."
+  },
+  {
+   "t": 33.0,
+   "text": "PRIMARY ROLLING DOWN ON SPY."
+  },
+  {
+   "t": 34.75,
+   "text": "PRIMARY ROLLING DOWN ON Q'S."
+  },
+  {
+   "t": 35.8,
+   "text": "PICK YOUR POISON"
+  },
+  {
+   "t": 37.0,
+   "text": "THE PRIMARY ITSELF AND THEN THE"
+  },
+  {
+   "t": 38.65,
+   "text": "MAJUR DUWN HERE INGREASING WOULD"
+  },
+  {
+   "t": 40.4,
+   "text": "INVALIDATE THE UPSIDE FOR ME"
+  },
+  {
+   "t": 42.45,
+   "text": "SUPPORT IS FADING HERE ON SPX."
+  },
+  {
+   "t": 44.3,
+   "text": "RIGHT. WE HAD TWO FLOORS."
+  },
+  {
+   "t": 47.23,
+   "text": "a a se a a"
+  }
+ ]
+}

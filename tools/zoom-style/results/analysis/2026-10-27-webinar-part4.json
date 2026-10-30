@@ -1,0 +1,767 @@
+{
+ "clip": "2026-10-27-webinar-part4",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 48.3,
+ "sample_fps": 10,
+ "widest_hold": 8,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.1,
+   "dur": 0.1,
+   "features": 662,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 4.8,
+   "dur": 4.2,
+   "features": 1477,
+   "kind": "video",
+   "zoom": 1.603,
+   "center": [
+    0.638,
+    0.518
+   ],
+   "direct": true,
+   "ink": {
+    "px": 585,
+    "share": 0.00069,
+    "center": [
+     0.598,
+     0.509
+    ],
+    "bbox": [
+     0.451,
+     0.438,
+     0.739,
+     0.609
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 5.0,
+   "end": 7.8,
+   "dur": 2.8,
+   "features": 1495,
+   "kind": "video",
+   "zoom": 1.007,
+   "center": [
+    0.497,
+    0.499
+   ],
+   "direct": true,
+   "ink": {
+    "px": 31,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 8.1,
+   "end": 13.7,
+   "dur": 5.6,
+   "features": 1480,
+   "kind": "video",
+   "zoom": 1.67,
+   "center": [
+    0.345,
+    0.36
+   ],
+   "direct": true,
+   "ink": {
+    "px": 3905,
+    "share": 0.00458,
+    "center": [
+     0.623,
+     0.236
+    ],
+    "bbox": [
+     0.459,
+     0.08,
+     0.799,
+     0.387
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 14.0,
+   "end": 18.6,
+   "dur": 4.6,
+   "features": 1485,
+   "kind": "video",
+   "zoom": 1.427,
+   "center": [
+    0.792,
+    0.387
+   ],
+   "direct": true,
+   "ink": {
+    "px": 395,
+    "share": 0.00046,
+    "center": [
+     0.712,
+     0.5
+    ],
+    "bbox": [
+     0.695,
+     0.467,
+     0.731,
+     0.541
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 18.8,
+   "end": 21.2,
+   "dur": 2.4,
+   "features": 1469,
+   "kind": "video",
+   "zoom": 1.755,
+   "center": [
+    0.682,
+    0.476
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1340,
+    "share": 0.00157,
+    "center": [
+     0.613,
+     0.549
+    ],
+    "bbox": [
+     0.506,
+     0.481,
+     0.724,
+     0.606
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 21.5,
+   "end": 25.1,
+   "dur": 3.6,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.73,
+   "center": [
+    0.302,
+    0.51
+   ],
+   "direct": true,
+   "ink": {
+    "px": 23,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 25.3,
+   "end": 27.7,
+   "dur": 2.4,
+   "features": 1476,
+   "kind": "video",
+   "zoom": 2.124,
+   "center": [
+    0.338,
+    0.432
+   ],
+   "direct": true,
+   "ink": {
+    "px": 993,
+    "share": 0.00116,
+    "center": [
+     0.356,
+     0.549
+    ],
+    "bbox": [
+     0.23,
+     0.542,
+     0.465,
+     0.558
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 27.9,
+   "end": 35.2,
+   "dur": 7.3,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 371,
+    "share": 0.00043,
+    "center": [
+     0.64,
+     0.392
+    ],
+    "bbox": [
+     0.611,
+     0.273,
+     0.66,
+     0.499
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 35.5,
+   "end": 42.2,
+   "dur": 6.7,
+   "features": 1487,
+   "kind": "video",
+   "zoom": 1.682,
+   "center": [
+    0.613,
+    0.474
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 10,
+   "start": 42.5,
+   "end": 44.0,
+   "dur": 1.5,
+   "features": 1483,
+   "kind": "video",
+   "zoom": 1.637,
+   "center": [
+    0.905,
+    0.39
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1249,
+    "share": 0.00146,
+    "center": [
+     0.555,
+     0.521
+    ],
+    "bbox": [
+     0.505,
+     0.509,
+     0.615,
+     0.535
+    ]
+   }
+  },
+  {
+   "index": 11,
+   "start": 44.7,
+   "end": 48.3,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.1,
+   "end": 0.6,
+   "dur": 0.5,
+   "type": "ramp",
+   "log_scale": 0.046,
+   "pan_px": 195.7,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.603,
+   "zoom_ratio": null,
+   "caption_offset_s": -2.6,
+   "caption_text": "LOOK AT THIS.",
+   "transcript": {
+    "recording_t": 1640.48,
+    "cue_i": 142,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "can squeeze.",
+    "into_cue_s": 13.21,
+    "cue_dur": 1.36,
+    "in_gap": true,
+    "prev": "We do have a launch pad on SPX as well. We have positive, positive, And the negative above us.",
+    "next": "Look at this, was at $400 million, it's dropped at $350, let's see it keep dropping for some upside."
+   }
+  },
+  {
+   "index": 1,
+   "start": 4.8,
+   "end": 5.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.464,
+   "pan_px": 214.2,
+   "after_hold": 1,
+   "zoom_from": 1.603,
+   "zoom_to": 1.007,
+   "zoom_ratio": 0.628,
+   "caption_offset_s": 0.1,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 1645.18,
+    "cue_i": 143,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Look at this, was at $400 million, it's dropped at $350, let's see it keep dropping for some upside.",
+    "into_cue_s": 4.29,
+    "cue_dur": 5.3,
+    "in_gap": false,
+    "prev": "can squeeze.",
+    "next": "So there's nothing that indicates shorts right now."
+   }
+  },
+  {
+   "index": 2,
+   "start": 7.8,
+   "end": 8.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.506,
+   "pan_px": 49.1,
+   "after_hold": 2,
+   "zoom_from": 1.007,
+   "zoom_to": 1.67,
+   "zoom_ratio": 1.658,
+   "caption_offset_s": 3.1,
+   "caption_text": "THISIS",
+   "transcript": {
+    "recording_t": 1648.18,
+    "cue_i": 143,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Look at this, was at $400 million, it's dropped at $350, let's see it keep dropping for some upside.",
+    "into_cue_s": 7.29,
+    "cue_dur": 5.3,
+    "in_gap": true,
+    "prev": "can squeeze.",
+    "next": "So there's nothing that indicates shorts right now."
+   }
+  },
+  {
+   "index": 3,
+   "start": 13.7,
+   "end": 14.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.149,
+   "pan_px": 309.6,
+   "after_hold": 3,
+   "zoom_from": 1.67,
+   "zoom_to": 1.427,
+   "zoom_ratio": 0.854,
+   "caption_offset_s": 0.0,
+   "caption_text": "REMEMBER NOW IF",
+   "transcript": {
+    "recording_t": 1762.45,
+    "cue_i": 155,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Remember, now if you're long, This was the first trim, 719, now we need to hold above that.",
+    "into_cue_s": -0.42,
+    "cue_dur": 7.32,
+    "in_gap": false,
+    "prev": "To continue this upside move.",
+    "next": "The good thing is, this magnet is getting weaker, and we're just building support at 77.05. Do you notice how that got stronger? That little square?"
+   }
+  },
+  {
+   "index": 4,
+   "start": 18.6,
+   "end": 18.8,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.201,
+   "pan_px": 107.3,
+   "after_hold": 4,
+   "zoom_from": 1.427,
+   "zoom_to": 1.755,
+   "zoom_ratio": 1.23,
+   "caption_offset_s": 0.1,
+   "caption_text": "THE GOOD THING IS Tai",
+   "transcript": {
+    "recording_t": 1773.26,
+    "cue_i": 156,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "The good thing is, this magnet is getting weaker, and we're just building support at 77.05. Do you notice how that got stronger? That little square?",
+    "into_cue_s": -0.49,
+    "cue_dur": 8.44,
+    "in_gap": false,
+    "prev": "Remember, now if you're long, This was the first trim, 719, now we need to hold above that.",
+    "next": "Weak support, getting stronger."
+   }
+  },
+  {
+   "index": 5,
+   "start": 21.2,
+   "end": 21.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.015,
+   "pan_px": 360.8,
+   "after_hold": 5,
+   "zoom_from": 1.755,
+   "zoom_to": 1.73,
+   "zoom_ratio": 0.986,
+   "caption_offset_s": -0.3,
+   "caption_text": "IS GETTING WEAKER AND WE'RE",
+   "transcript": {
+    "recording_t": 1775.86,
+    "cue_i": 156,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "The good thing is, this magnet is getting weaker, and we're just building support at 77.05. Do you notice how that got stronger? That little square?",
+    "into_cue_s": 2.11,
+    "cue_dur": 8.44,
+    "in_gap": false,
+    "prev": "Remember, now if you're long, This was the first trim, 719, now we need to hold above that.",
+    "next": "Weak support, getting stronger."
+   }
+  },
+  {
+   "index": 6,
+   "start": 25.1,
+   "end": 25.3,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.194,
+   "pan_px": 92.4,
+   "after_hold": 6,
+   "zoom_from": 1.73,
+   "zoom_to": 2.124,
+   "zoom_ratio": 1.228,
+   "caption_offset_s": -0.2,
+   "caption_text": "NCO STRONGER. GUT STRONGER",
+   "transcript": {
+    "recording_t": 1779.76,
+    "cue_i": 156,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "The good thing is, this magnet is getting weaker, and we're just building support at 77.05. Do you notice how that got stronger? That little square?",
+    "into_cue_s": 6.01,
+    "cue_dur": 8.44,
+    "in_gap": false,
+    "prev": "Remember, now if you're long, This was the first trim, 719, now we need to hold above that.",
+    "next": "Weak support, getting stronger."
+   }
+  },
+  {
+   "index": 7,
+   "start": 27.7,
+   "end": 27.9,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.728,
+   "pan_px": 110.1,
+   "after_hold": 7,
+   "zoom_from": 2.124,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.471,
+   "caption_offset_s": 0.1,
+   "caption_text": "Sccncueuauauu Ieee I",
+   "transcript": {
+    "recording_t": 1782.36,
+    "cue_i": 156,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "The good thing is, this magnet is getting weaker, and we're just building support at 77.05. Do you notice how that got stronger? That little square?",
+    "into_cue_s": 8.61,
+    "cue_dur": 8.44,
+    "in_gap": false,
+    "prev": "Remember, now if you're long, This was the first trim, 719, now we need to hold above that.",
+    "next": "Weak support, getting stronger."
+   }
+  },
+  {
+   "index": 8,
+   "start": 35.2,
+   "end": 35.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.518,
+   "pan_px": 268.5,
+   "after_hold": 8,
+   "zoom_from": 1.0,
+   "zoom_to": 1.682,
+   "zoom_ratio": 1.682,
+   "caption_offset_s": -0.4,
+   "caption_text": "OVER 719 AND THEN Q WILL FLY",
+   "transcript": {
+    "recording_t": 1850.53,
+    "cue_i": 161,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Turned into support, we can fly, we can fly on Spy as well, now we just need to get over 719, and then cubes will fly.",
+    "into_cue_s": 5.81,
+    "cue_dur": 7.82,
+    "in_gap": false,
+    "prev": "We'll take those three into account.",
+    "next": "Any questions on this setup?"
+   }
+  },
+  {
+   "index": 9,
+   "start": 42.2,
+   "end": 42.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.045,
+   "pan_px": 245.7,
+   "after_hold": 9,
+   "zoom_from": 1.682,
+   "zoom_to": 1.637,
+   "zoom_ratio": 0.973,
+   "caption_offset_s": 0.0,
+   "caption_text": "CAN WE GET",
+   "transcript": {
+    "recording_t": 1886.46,
+    "cue_i": 164,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And if we look here at the SPY primary, it was at $400 million, now it's close to 300. Let's see that continue to reduce.",
+    "into_cue_s": 6.65,
+    "cue_dur": 7.5,
+    "in_gap": false,
+    "prev": "Pretty textbook setup here.",
+    "next": "And for those of you guys in the Zoom, feel free to unmute and ask questions."
+   }
+  },
+  {
+   "index": 10,
+   "start": 44.0,
+   "end": 44.7,
+   "dur": 0.7,
+   "type": "ramp",
+   "log_scale": -0.053,
+   "pan_px": 73.3,
+   "after_hold": 10,
+   "zoom_from": 1.637,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 1.8,
+   "caption_text": "souuua 1 eee",
+   "transcript": {
+    "recording_t": 1888.26,
+    "cue_i": 164,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And if we look here at the SPY primary, it was at $400 million, now it's close to 300. Let's see that continue to reduce.",
+    "into_cue_s": 8.45,
+    "cue_dur": 7.5,
+    "in_gap": true,
+    "prev": "Pretty textbook setup here.",
+    "next": "And for those of you guys in the Zoom, feel free to unmute and ask questions."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.7,
+  4.7,
+  11.4,
+  13.7,
+  15.2,
+  17.1,
+  18.5,
+  20.1,
+  21.5,
+  23.6,
+  25.3,
+  26.0,
+  27.6,
+  29.7,
+  32.6,
+  34.0,
+  35.6,
+  37.5,
+  38.6,
+  40.3,
+  42.2
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 1.35,
+    "t1": 1.35,
+    "offset": 1640.38,
+    "n": 1
+   },
+   {
+    "t0": 14.45,
+    "t1": 17.8,
+    "offset": 1748.75,
+    "n": 3
+   },
+   {
+    "t0": 19.3,
+    "t1": 26.8,
+    "offset": 1754.66,
+    "n": 5
+   },
+   {
+    "t0": 31.15,
+    "t1": 34.8,
+    "offset": 1815.33,
+    "n": 3
+   },
+   {
+    "t0": 39.45,
+    "t1": 41.25,
+    "offset": 1844.26,
+    "n": 2
+   }
+  ],
+  "matched": 16,
+  "used": 14,
+  "captions": 21,
+  "share": 0.88,
+  "cues": [
+   143,
+   155,
+   156,
+   157,
+   161,
+   164
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.35,
+   "text": "WAS AT 400 MILLION, Io URUPPED TU 350."
+  },
+  {
+   "t": 3.7,
+   "text": "LET 9 oEE TT KEEP URUPPING FUh SOME UPSIDE"
+  },
+  {
+   "t": 8.05,
+   "text": "THIS IS 26 MILLION."
+  },
+  {
+   "t": 12.55,
+   "text": "TU 20 MILLIUN TU GUNTINUE This UPSIDE MOVE"
+  },
+  {
+   "t": 14.45,
+   "text": "REMEMBER NOW IF YOU'RE LONG,"
+  },
+  {
+   "t": 16.15,
+   "text": "THIS WAS THE FIRST TRIM, 7 19."
+  },
+  {
+   "t": 17.8,
+   "text": "NOW WE NEED TO HOLD ABOVE THAT"
+  },
+  {
+   "t": 19.3,
+   "text": "THE GOOD THING IS THIS MAGNET"
+  },
+  {
+   "t": 20.8,
+   "text": "ISGETTING WEAKER AND WE'RE"
+  },
+  {
+   "t": 22.55,
+   "text": "JUST BUILDING SUPPORT AT $7.705."
+  },
+  {
+   "t": 24.45,
+   "text": "UU YUU NUTILE HUW THAT GUT STRONGER ."
+  },
+  {
+   "t": 25.65,
+   "text": "THAT LITTLE SQUARE"
+  },
+  {
+   "t": 26.8,
+   "text": "WEAK SUPPORT GETTING STRONGER"
+  },
+  {
+   "t": 28.65,
+   "text": "SSencneuaueuun eee I"
+  },
+  {
+   "t": 31.15,
+   "text": "WE CAN FLY ON SPY AS WELL."
+  },
+  {
+   "t": 33.3,
+   "text": "NOW WE JUST NEED TO GET"
+  },
+  {
+   "t": 34.8,
+   "text": "OVER 719 AND THEN Q WILL FLY"
+  },
+  {
+   "t": 36.55,
+   "text": "ANU tr WE LOUK HERE Al THE oFY PRIMARY,"
+  },
+  {
+   "t": 38.05,
+   "text": "IT WAS AT FOUR HUNDRED"
+  },
+  {
+   "t": 39.45,
+   "text": "MILLION, NOW IT'S CLOSE TO 300."
+  },
+  {
+   "t": 41.25,
+   "text": "LET'S SEE THAT CONTINUE TO REDUCE"
+  },
+  {
+   "t": 45.25,
+   "text": ""
+  }
+ ]
+}

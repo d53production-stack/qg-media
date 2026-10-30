@@ -1,0 +1,596 @@
+{
+ "clip": "2026-10-19-webinar-part10",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 48.1,
+ "sample_fps": 10,
+ "widest_hold": 6,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 997,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 5.6,
+   "dur": 5.0,
+   "features": 1492,
+   "kind": "video",
+   "zoom": 1.572,
+   "center": [
+    0.184,
+    0.487
+   ],
+   "ink": {
+    "px": 967,
+    "share": 0.00113,
+    "center": [
+     0.739,
+     0.355
+    ],
+    "bbox": [
+     0.708,
+     0.249,
+     0.78,
+     0.477
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 5.9,
+   "end": 7.6,
+   "dur": 1.7,
+   "features": 1484,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 7.9,
+   "end": 13.3,
+   "dur": 5.4,
+   "features": 1439,
+   "kind": "video",
+   "zoom": 1.675,
+   "center": [
+    0.624,
+    0.381
+   ],
+   "ink": {
+    "px": 3820,
+    "share": 0.00448,
+    "center": [
+     0.699,
+     0.282
+    ],
+    "bbox": [
+     0.46,
+     0.166,
+     0.897,
+     0.592
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 13.6,
+   "end": 29.8,
+   "dur": 16.2,
+   "features": 1474,
+   "kind": "video",
+   "zoom": 1.001,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 5,
+   "start": 30.1,
+   "end": 32.4,
+   "dur": 2.3,
+   "features": 1454,
+   "kind": "video",
+   "zoom": 1.57,
+   "center": [
+    0.793,
+    0.432
+   ],
+   "direct": true,
+   "ink": {
+    "px": 361,
+    "share": 0.00042,
+    "center": [
+     0.659,
+     0.559
+    ],
+    "bbox": [
+     0.615,
+     0.436,
+     0.71,
+     0.598
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 32.7,
+   "end": 44.2,
+   "dur": 11.5,
+   "features": 1484,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 127,
+    "share": 0.00015,
+    "center": [
+     0.638,
+     0.564
+    ],
+    "bbox": [
+     0.608,
+     0.207,
+     0.68,
+     0.586
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 44.5,
+   "end": 48.1,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 71.8,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.572,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "QU THAT GUULU POTENTIALLY HAPPEN HERE 100,",
+   "transcript": {
+    "recording_t": 2932.06,
+    "cue_i": 370,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And then it became support, right? So that could potentially happen here, too. Where we come back above this, and now that's support.",
+    "into_cue_s": 1.62,
+    "cue_dur": 6.46,
+    "in_gap": false,
+    "prev": "primary move down.",
+    "next": "We have to remember the trend."
+   }
+  },
+  {
+   "index": 1,
+   "start": 5.6,
+   "end": 5.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.457,
+   "pan_px": 107.9,
+   "after_hold": 1,
+   "zoom_from": 1.572,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.636,
+   "caption_offset_s": 0.0,
+   "caption_text": "BIG SPY PRIMARY",
+   "transcript": {
+    "recording_t": 3014.42,
+    "cue_i": 374,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Big spy primary movement.",
+    "into_cue_s": -0.4,
+    "cue_dur": 2.41,
+    "in_gap": false,
+    "prev": "Or is this a trade we hold?",
+    "next": "Boom. From 768."
+   }
+  },
+  {
+   "index": 2,
+   "start": 7.6,
+   "end": 7.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.513,
+   "pan_px": 260.7,
+   "after_hold": 2,
+   "zoom_from": 1.0,
+   "zoom_to": 1.675,
+   "zoom_ratio": 1.675,
+   "caption_offset_s": 0.3,
+   "caption_text": "BOOM. FROM 768 UP T0773.",
+   "transcript": {
+    "recording_t": 3016.42,
+    "cue_i": 375,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Boom. From 768.",
+    "into_cue_s": -1.69,
+    "cue_dur": 2.8,
+    "in_gap": false,
+    "prev": "Big spy primary movement.",
+    "next": "Up to 773. Obviously, it came right back down, but I think that's gonna hold."
+   }
+  },
+  {
+   "index": 3,
+   "start": 13.3,
+   "end": 13.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.512,
+   "pan_px": 192.5,
+   "after_hold": 3,
+   "zoom_from": 1.675,
+   "zoom_to": 1.001,
+   "zoom_ratio": 0.598,
+   "caption_offset_s": 0.3,
+   "caption_text": "ALOT OF PEOPLE WERE CALLING",
+   "transcript": {
+    "recording_t": 3064.98,
+    "cue_i": 377,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "You know, I won't count my chickens too early, but a lot of people were calling for a Black Monday, whatever that means.",
+    "into_cue_s": 2.48,
+    "cue_dur": 5.92,
+    "in_gap": false,
+    "prev": "Up to 773. Obviously, it came right back down, but I think that's gonna hold.",
+    "next": "Max says, Quan Geeks never called it, that's correct."
+   }
+  },
+  {
+   "index": 4,
+   "start": 29.8,
+   "end": 30.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.449,
+   "pan_px": 365.2,
+   "after_hold": 4,
+   "zoom_from": 1.001,
+   "zoom_to": 1.57,
+   "zoom_ratio": 1.568,
+   "caption_offset_s": -0.6,
+   "caption_text": "ATUUGHER PRIGE AGTIUN DAY BREAK BELOW",
+   "transcript": {
+    "recording_t": 3578.23,
+    "cue_i": 431,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "If I can find my pencil, there it is. Break below there, we should see\u2026 722.",
+    "into_cue_s": 0.25,
+    "cue_dur": 5.73,
+    "in_gap": false,
+    "prev": "Now, if you're a bear, you want to break below that 724 on cues.",
+    "next": "Primary flipped from 773 SPY down to 768."
+   }
+  },
+  {
+   "index": 5,
+   "start": 32.4,
+   "end": 32.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.446,
+   "pan_px": 287.0,
+   "after_hold": 5,
+   "zoom_from": 1.57,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.637,
+   "caption_offset_s": -0.6,
+   "caption_text": "THERE, WE SHOULD SEE 722 PRIMARY",
+   "transcript": {
+    "recording_t": 3580.83,
+    "cue_i": 431,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "If I can find my pencil, there it is. Break below there, we should see\u2026 722.",
+    "into_cue_s": 2.85,
+    "cue_dur": 5.73,
+    "in_gap": false,
+    "prev": "Now, if you're a bear, you want to break below that 724 on cues.",
+    "next": "Primary flipped from 773 SPY down to 768."
+   }
+  },
+  {
+   "index": 6,
+   "start": 44.2,
+   "end": 44.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.003,
+   "pan_px": 114.7,
+   "after_hold": 6,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 1.6,
+   "caption_text": "sennanananeneeneues",
+   "transcript": {
+    "recording_t": 3599.31,
+    "cue_i": 433,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "It's the second time it's done it, let's see if it holds this time.",
+    "into_cue_s": 7.69,
+    "cue_dur": 2.65,
+    "in_gap": true,
+    "prev": "Primary flipped from 773 SPY down to 768.",
+    "next": "Primary rolled down on SPX as well."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.5,
+  2.4,
+  4.2,
+  5.6,
+  7.3,
+  10.4,
+  11.8,
+  13.0,
+  14.3,
+  15.8,
+  17.9,
+  19.9,
+  21.9,
+  23.6,
+  25.0,
+  26.9,
+  28.6,
+  30.4,
+  33.0,
+  36.0,
+  37.2,
+  38.3,
+  42.6
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.75,
+    "t1": 4.9,
+    "offset": 2931.66,
+    "n": 3
+   },
+   {
+    "t0": 6.45,
+    "t1": 8.85,
+    "offset": 3008.82,
+    "n": 2
+   },
+   {
+    "t0": 12.4,
+    "t1": 12.4,
+    "offset": 3011.77,
+    "n": 1
+   },
+   {
+    "t0": 13.65,
+    "t1": 13.65,
+    "offset": 3051.68,
+    "n": 1
+   },
+   {
+    "t0": 16.85,
+    "t1": 16.85,
+    "offset": 3068.22,
+    "n": 1
+   },
+   {
+    "t0": 18.9,
+    "t1": 20.9,
+    "offset": 3495.95,
+    "n": 2
+   },
+   {
+    "t0": 24.3,
+    "t1": 27.75,
+    "offset": 3498.75,
+    "n": 2
+   },
+   {
+    "t0": 31.7,
+    "t1": 31.7,
+    "offset": 3548.43,
+    "n": 1
+   },
+   {
+    "t0": 34.5,
+    "t1": 34.5,
+    "offset": 3552.22,
+    "n": 1
+   },
+   {
+    "t0": 36.6,
+    "t1": 37.75,
+    "offset": 3555.11,
+    "n": 2
+   }
+  ],
+  "matched": 16,
+  "used": 16,
+  "captions": 23,
+  "share": 1.0,
+  "cues": [
+   370,
+   371,
+   374,
+   375,
+   376,
+   377,
+   378,
+   427,
+   428,
+   429,
+   431,
+   432,
+   433
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.75,
+   "text": "QU THAT GUULU POTENTIALLY HAPPEN HERE 100,"
+  },
+  {
+   "t": 1.95,
+   "text": "WHERE WE COME BACK"
+  },
+  {
+   "t": 3.3,
+   "text": "ADUVE TAS AND NUW THAT 9 oUPPURL"
+  },
+  {
+   "t": 4.9,
+   "text": "WEHAVE TO REMEMBER THE TREND"
+  },
+  {
+   "t": 6.45,
+   "text": "BIG SPY PRIMARY MOVEMENT."
+  },
+  {
+   "t": 8.85,
+   "text": "BOOM. FROM 768 UP T0773."
+  },
+  {
+   "t": 11.1,
+   "text": "UBVIUUOLY IT GAME ibn BALK DOWN,"
+  },
+  {
+   "t": 12.4,
+   "text": "BUT THINK THAT'S GONNA HOLD"
+  },
+  {
+   "t": 13.65,
+   "text": "A LOT OF PEOPLE WERE CALLING"
+  },
+  {
+   "t": 15.05,
+   "text": "FUh A BLALA MUNDAY, WHATEVER THAT MEANS"
+  },
+  {
+   "t": 16.85,
+   "text": "QUAN GEEKS NEVER CALLED IT. THAT'S CORRECT"
+  },
+  {
+   "t": 18.9,
+   "text": "HUPE YOU GUTS oPENT UME TIME THIS"
+  },
+  {
+   "t": 20.9,
+   "text": "WEEREND LUURING AT WEBINARS Uh LOOKING THROUGH"
+  },
+  {
+   "t": 22.75,
+   "text": "THE REAU ME FUR OUME UF TRUDE PATTERNS."
+  },
+  {
+   "t": 24.3,
+   "text": "WAS LOOKING ON FRIDAY"
+  },
+  {
+   "t": 25.95,
+   "text": "TRHUSE PATTERNS WERE AFFARENT AND EASY T0"
+  },
+  {
+   "t": 27.75,
+   "text": "TRADE, WHICH ON OPEX IS USUALLY"
+  },
+  {
+   "t": 29.5,
+   "text": "A TUUGHER PRIGE AGTIUN DAY BREAK BELOW"
+  },
+  {
+   "t": 31.7,
+   "text": "THERE, WE SHOULD SEE 722 PRIMARY"
+  },
+  {
+   "t": 34.5,
+   "text": "FLIPPED FROM 773 SPY DOWN TO 768."
+  },
+  {
+   "t": 36.6,
+   "text": "IT'S THE SECOND TIME IT'S DONE IT"
+  },
+  {
+   "t": 37.75,
+   "text": "LET'S SEE IF IT HOLDS THIS TIME"
+  },
+  {
+   "t": 40.45,
+   "text": "senncnennnananeeneuee"
+  },
+  {
+   "t": 45.35,
+   "text": ""
+  }
+ ]
+}

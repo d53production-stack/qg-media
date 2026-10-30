@@ -1,0 +1,729 @@
+{
+ "clip": "2026-10-26-webinar-part8",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 72.93,
+ "sample_fps": 10,
+ "widest_hold": 8,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1249,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 3.9,
+   "dur": 3.3,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 4.2,
+   "end": 7.9,
+   "dur": 3.7,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.764,
+   "center": [
+    0.437,
+    0.38
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 8.2,
+   "end": 13.5,
+   "dur": 5.3,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.001,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 4,
+   "start": 13.8,
+   "end": 20.2,
+   "dur": 6.4,
+   "features": 1494,
+   "kind": "video",
+   "zoom": 1.583,
+   "center": [
+    0.387,
+    0.493
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2061,
+    "share": 0.00242,
+    "center": [
+     0.487,
+     0.487
+    ],
+    "bbox": [
+     0.371,
+     0.258,
+     0.611,
+     0.568
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 20.5,
+   "end": 22.9,
+   "dur": 2.4,
+   "features": 1463,
+   "kind": "video",
+   "zoom": 1.589,
+   "center": [
+    0.691,
+    0.486
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1682,
+    "share": 0.00197,
+    "center": [
+     0.532,
+     0.585
+    ],
+    "bbox": [
+     0.337,
+     0.577,
+     0.723,
+     0.596
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 23.2,
+   "end": 28.5,
+   "dur": 5.3,
+   "features": 1498,
+   "kind": "video",
+   "zoom": 1.002,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 28.7,
+   "end": 38.8,
+   "dur": 10.1,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.706,
+   "center": [
+    0.167,
+    0.549
+   ],
+   "direct": true,
+   "ink": {
+    "px": 8761,
+    "share": 0.01027,
+    "center": [
+     0.327,
+     0.531
+    ],
+    "bbox": [
+     0.014,
+     0.387,
+     0.626,
+     0.723
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 39.1,
+   "end": 69.0,
+   "dur": 29.9,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 9,
+   "start": 69.4,
+   "end": 73.0,
+   "dur": 3.6,
+   "features": 1491,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 72.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.5,
+   "caption_text": "Hibnl, WE HAD A PRIMARY GUME DOWN",
+   "transcript": {
+    "recording_t": 656.24,
+    "cue_i": 17,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And I think we also had QQQ as a primary down here below. It was teasing, but I didn't pay it too much mind since SPY and SPX looked pretty strong. I took some scalps upside.",
+    "into_cue_s": 0.76,
+    "cue_dur": 15.7,
+    "in_gap": false,
+    "prev": "Nice and hold\u2026 nice and strong. Big void here, so nothing to really give us any resistance. The SPY primary was above us.",
+    "next": "And then I was just kind of taking them for profit. The last one was a nice hold, simply because we had that primary move where it came down for a second on SPY, but then it moved back up. So that was a nice, clear trade for me to hold."
+   }
+  },
+  {
+   "index": 1,
+   "start": 3.9,
+   "end": 4.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.453,
+   "pan_px": 102.2,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.764,
+   "zoom_ratio": 1.764,
+   "caption_offset_s": 0.0,
+   "caption_text": "iusto tee",
+   "transcript": {
+    "recording_t": 659.74,
+    "cue_i": 17,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And I think we also had QQQ as a primary down here below. It was teasing, but I didn't pay it too much mind since SPY and SPX looked pretty strong. I took some scalps upside.",
+    "into_cue_s": 4.26,
+    "cue_dur": 15.7,
+    "in_gap": false,
+    "prev": "Nice and hold\u2026 nice and strong. Big void here, so nothing to really give us any resistance. The SPY primary was above us.",
+    "next": "And then I was just kind of taking them for profit. The last one was a nice hold, simply because we had that primary move where it came down for a second on SPY, but then it moved back up. So that was a nice, clear trade for me to hold."
+   }
+  },
+  {
+   "index": 2,
+   "start": 7.9,
+   "end": 8.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.495,
+   "pan_px": 90.9,
+   "after_hold": 2,
+   "zoom_from": 1.764,
+   "zoom_to": 1.001,
+   "zoom_ratio": 0.567,
+   "caption_offset_s": 0.0,
+   "caption_text": "senncnenaoaoaneeneues",
+   "transcript": {
+    "recording_t": 4515.96,
+    "cue_i": 549,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Can 7720 take the primary? We're about to find out.",
+    "into_cue_s": 2.09,
+    "cue_dur": 3.27,
+    "in_gap": false,
+    "prev": "Holden.",
+    "next": "Any questions? Any questions at all?"
+   }
+  },
+  {
+   "index": 3,
+   "start": 13.5,
+   "end": 13.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.457,
+   "pan_px": 111.0,
+   "after_hold": 3,
+   "zoom_from": 1.001,
+   "zoom_to": 1.583,
+   "zoom_ratio": 1.581,
+   "caption_offset_s": -0.4,
+   "caption_text": "THE CHART FOR A SECOND.",
+   "transcript": {
+    "recording_t": 4922.46,
+    "cue_i": 590,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let's just talk about the chart for a second.",
+    "into_cue_s": 1.29,
+    "cue_dur": 2.56,
+    "in_gap": false,
+    "prev": "So, spice.",
+    "next": "SPX primary roll down. It looks like we might be topping out here."
+   }
+  },
+  {
+   "index": 4,
+   "start": 20.2,
+   "end": 20.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 258.8,
+   "after_hold": 4,
+   "zoom_from": 1.583,
+   "zoom_to": 1.589,
+   "zoom_ratio": 1.004,
+   "caption_offset_s": -0.1,
+   "caption_text": "seuucecceumbocecetees",
+   "transcript": {
+    "recording_t": 4931.89,
+    "cue_i": 592,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Right? So you could short here, stop there, and target that 766 SPY.",
+    "into_cue_s": 1.65,
+    "cue_dur": 5.23,
+    "in_gap": false,
+    "prev": "SPX primary roll down. It looks like we might be topping out here.",
+    "next": "Nice eye there, Max."
+   }
+  },
+  {
+   "index": 5,
+   "start": 22.9,
+   "end": 23.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.454,
+   "pan_px": 238.3,
+   "after_hold": 5,
+   "zoom_from": 1.589,
+   "zoom_to": 1.002,
+   "zoom_ratio": 0.631,
+   "caption_offset_s": 0.0,
+   "caption_text": "NICE EYE THERE. MAX",
+   "transcript": {
+    "recording_t": 4934.59,
+    "cue_i": 593,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Nice eye there, Max.",
+    "into_cue_s": -1.83,
+    "cue_dur": 1.54,
+    "in_gap": false,
+    "prev": "Right? So you could short here, stop there, and target that 766 SPY.",
+    "next": "That would be the second time SPX rolled down. That's telling you something about trend."
+   }
+  },
+  {
+   "index": 6,
+   "start": 28.5,
+   "end": 28.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.515,
+   "pan_px": 178.3,
+   "after_hold": 6,
+   "zoom_from": 1.002,
+   "zoom_to": 1.706,
+   "zoom_ratio": 1.703,
+   "caption_offset_s": 0.1,
+   "caption_text": "BUT NOW WHAT DO",
+   "transcript": {
+    "recording_t": 4949.61,
+    "cue_i": 595,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "But now, what do we see? Across the board?",
+    "into_cue_s": -0.02,
+    "cue_dur": 2.82,
+    "in_gap": false,
+    "prev": "That would be the second time SPX rolled down. That's telling you something about trend.",
+    "next": "We got magnets right next to spot."
+   }
+  },
+  {
+   "index": 7,
+   "start": 38.8,
+   "end": 39.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.532,
+   "pan_px": 131.1,
+   "after_hold": 7,
+   "zoom_from": 1.706,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.586,
+   "caption_offset_s": -0.9,
+   "caption_text": "BUT WHAT 9 GUNNA WHAT 9 GUNNA SHOW A COIL",
+   "transcript": {
+    "recording_t": 4964.18,
+    "cue_i": 599,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "But what's gonna show\u2026 what's gonna show a coil? A breakout.",
+    "into_cue_s": -2.16,
+    "cue_dur": 4.07,
+    "in_gap": false,
+    "prev": "Will they uncoil? Yup.",
+    "next": "In any direction."
+   }
+  },
+  {
+   "index": 8,
+   "start": 69.0,
+   "end": 69.4,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 132.2,
+   "after_hold": 8,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 5.7,
+   "caption_text": "sennnennnananeeueues",
+   "transcript": {
+    "recording_t": 5120.06,
+    "cue_i": 625,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "to a launchpad set.",
+    "into_cue_s": 4.65,
+    "cue_dur": 1.59,
+    "in_gap": true,
+    "prev": "And then we will be inching our way down, if everything stays the same.",
+    "next": "There it is."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.9,
+  3.9,
+  7.0,
+  7.9,
+  12.8,
+  13.9,
+  17.2,
+  18.4,
+  20.3,
+  22.9,
+  24.7,
+  26.9,
+  28.4,
+  29.6,
+  31.2,
+  32.7,
+  33.7,
+  35.8,
+  39.7,
+  41.4,
+  47.2,
+  50.2,
+  52.1,
+  54.0,
+  56.2,
+  58.8,
+  60.2,
+  61.6,
+  63.3
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.95,
+    "t1": 0.95,
+    "offset": 655.84,
+    "n": 1
+   },
+   {
+    "t0": 7.45,
+    "t1": 7.45,
+    "offset": 4508.06,
+    "n": 1
+   },
+   {
+    "t0": 13.35,
+    "t1": 17.8,
+    "offset": 4908.96,
+    "n": 3
+   },
+   {
+    "t0": 19.35,
+    "t1": 23.8,
+    "offset": 4911.69,
+    "n": 3
+   },
+   {
+    "t0": 25.8,
+    "t1": 25.8,
+    "offset": 4914.89,
+    "n": 1
+   },
+   {
+    "t0": 29.0,
+    "t1": 31.95,
+    "offset": 4921.11,
+    "n": 3
+   },
+   {
+    "t0": 33.2,
+    "t1": 34.75,
+    "offset": 4925.38,
+    "n": 2
+   },
+   {
+    "t0": 37.75,
+    "t1": 40.55,
+    "offset": 4929.33,
+    "n": 2
+   },
+   {
+    "t0": 51.15,
+    "t1": 51.15,
+    "offset": 5033.24,
+    "n": 1
+   },
+   {
+    "t0": 55.1,
+    "t1": 57.5,
+    "offset": 5048.47,
+    "n": 2
+   },
+   {
+    "t0": 59.5,
+    "t1": 60.9,
+    "offset": 5051.06,
+    "n": 2
+   }
+  ],
+  "matched": 21,
+  "used": 21,
+  "captions": 30,
+  "share": 1.0,
+  "cues": [
+   16,
+   17,
+   549,
+   589,
+   590,
+   591,
+   592,
+   593,
+   594,
+   595,
+   596,
+   597,
+   598,
+   599,
+   600,
+   618,
+   619,
+   622,
+   623,
+   624
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.95,
+   "text": "HibnT, WE HAD A PRIMARY GUME DOWN"
+  },
+  {
+   "t": 2.9,
+   "text": "rUh A oELUND, LUIME BALK UF, HOLDING"
+  },
+  {
+   "t": 5.45,
+   "text": "FF AU. AULUING GAN 2U TAKE THE PRIMARY"
+  },
+  {
+   "t": 7.45,
+   "text": "WE'RE ABOUT TO FIND OUT"
+  },
+  {
+   "t": 10.35,
+   "text": "Sennenennnananeeueues"
+  },
+  {
+   "t": 13.35,
+   "text": "THE CHART FOR A SECOND."
+  },
+  {
+   "t": 15.55,
+   "text": "SPX PRIMARY ROLL DOWN ."
+  },
+  {
+   "t": 17.8,
+   "text": "BE TOPPING OUT HERE. RIGHT"
+  },
+  {
+   "t": 19.35,
+   "text": "$0. YOU COULD SHORT HERE."
+  },
+  {
+   "t": 21.6,
+   "text": "STUP THERE, ANU TARGET THAT 6b SPY."
+  },
+  {
+   "t": 23.8,
+   "text": "NICE EYE THERE, MAX THAT WOULD"
+  },
+  {
+   "t": 25.8,
+   "text": "BE THE sEGUND TIME OPA RULLED DOWN."
+  },
+  {
+   "t": 27.65,
+   "text": "THAT TELLING YUU SUMET RING ABOUT TREND."
+  },
+  {
+   "t": 29.0,
+   "text": "BUT NOW WHAT DO WE SEE"
+  },
+  {
+   "t": 30.4,
+   "text": "ACROSS THE BOARD WE GOT"
+  },
+  {
+   "t": 31.95,
+   "text": "MAGNETS RIGHT NEXT TO SPOT"
+  },
+  {
+   "t": 33.2,
+   "text": "PAY ATTENTION T0 THESE GUYS."
+  },
+  {
+   "t": 34.75,
+   "text": "THESE ARE PINS, RIGHT"
+  },
+  {
+   "t": 37.75,
+   "text": "BUT WHAT 9 GUNNA WHAT 9 GUNNA SHOW A COIL"
+  },
+  {
+   "t": 40.55,
+   "text": "A BREAKOUT IN ANY DIRECTION."
+  },
+  {
+   "t": 44.3,
+   "text": "seansnennnananeeueues"
+  },
+  {
+   "t": 48.7,
+   "text": "PRIMARY HULL BAUR UP IU 1U, 7720."
+  },
+  {
+   "t": 51.15,
+   "text": "THINK WE'LL GET ONE LAST"
+  },
+  {
+   "t": 53.05,
+   "text": "LITTLE PUSH BEFORE THE TOP HERE."
+  },
+  {
+   "t": 55.1,
+   "text": "IF WE HOLD BELOW THAT 7690,"
+  },
+  {
+   "t": 57.5,
+   "text": "WE'LL LIKELY SEE THAT 765 ON SPY."
+  },
+  {
+   "t": 59.5,
+   "text": "AND THEN WE WILL BE INCHING"
+  },
+  {
+   "t": 60.9,
+   "text": "OUR WAY DOWN, IF EVERYTHING STAYS"
+  },
+  {
+   "t": 62.45,
+   "text": "THE SAME, TO A LAUNCHPAD SETUP"
+  },
+  {
+   "t": 68.12,
+   "text": "Sennnannnananaeneues"
+  }
+ ]
+}

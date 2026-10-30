@@ -1,0 +1,456 @@
+{
+ "clip": "2026-10-15-webinar-part7",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 42.17,
+ "sample_fps": 10,
+ "widest_hold": 7,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1259,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 6.3,
+   "dur": 5.7,
+   "features": 1474,
+   "kind": "video",
+   "zoom": 1.701,
+   "center": [
+    0.359,
+    0.371
+   ],
+   "direct": true,
+   "ink": {
+    "px": 475,
+    "share": 0.00056,
+    "center": [
+     0.478,
+     0.582
+    ],
+    "bbox": [
+     0.449,
+     0.466,
+     0.579,
+     0.673
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 6.5,
+   "end": 19.1,
+   "dur": 12.6,
+   "features": 1481,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 19.3,
+   "end": 20.8,
+   "dur": 1.5,
+   "features": 1478,
+   "kind": "video",
+   "zoom": 1.423,
+   "center": [
+    0.357,
+    0.37
+   ],
+   "direct": true,
+   "ink": {
+    "px": 866,
+    "share": 0.00102,
+    "center": [
+     0.479,
+     0.419
+    ],
+    "bbox": [
+     0.399,
+     0.39,
+     0.544,
+     0.452
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 20.9,
+   "end": 24.5,
+   "dur": 3.6,
+   "features": 1477,
+   "kind": "video",
+   "zoom": 1.51,
+   "center": [
+    0.35,
+    0.374
+   ],
+   "direct": true,
+   "ink": {
+    "px": 615,
+    "share": 0.00072,
+    "center": [
+     0.46,
+     0.445
+    ],
+    "bbox": [
+     0.435,
+     0.373,
+     0.495,
+     0.481
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 24.7,
+   "end": 32.8,
+   "dur": 8.1,
+   "features": 1486,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 778,
+    "share": 0.00091,
+    "center": [
+     0.28,
+     0.567
+    ],
+    "bbox": [
+     0.205,
+     0.319,
+     0.357,
+     0.799
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 33.0,
+   "end": 36.0,
+   "dur": 3.0,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.359,
+   "center": [
+    0.372,
+    0.436
+   ],
+   "direct": true,
+   "ink": {
+    "px": 914,
+    "share": 0.00107,
+    "center": [
+     0.42,
+     0.485
+    ],
+    "bbox": [
+     0.409,
+     0.314,
+     0.467,
+     0.629
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 36.2,
+   "end": 38.3,
+   "dur": 2.1,
+   "features": 1493,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 8,
+   "start": 38.6,
+   "end": 42.2,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 35.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.701,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.4,
+   "caption_text": "BECAUSE THAT POSITIVE NODE GREW"
+  },
+  {
+   "index": 1,
+   "start": 6.3,
+   "end": 6.5,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.529,
+   "pan_px": 51.1,
+   "after_hold": 1,
+   "zoom_from": 1.701,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.588,
+   "caption_offset_s": 0.0,
+   "caption_text": "tO a Poa Y x WE UD pee TIL LIi LIL I I TLL LIL Lo NO SAA, yr nena AU a vse a L- 1 yy"
+  },
+  {
+   "index": 2,
+   "start": 19.1,
+   "end": 19.3,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.337,
+   "pan_px": 16.7,
+   "after_hold": 2,
+   "zoom_from": 1.0,
+   "zoom_to": 1.423,
+   "zoom_ratio": 1.423,
+   "caption_offset_s": 0.1,
+   "caption_text": "THERE'S THAT 7740 REJECT."
+  },
+  {
+   "index": 3,
+   "start": 20.8,
+   "end": 20.9,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.049,
+   "pan_px": 14.9,
+   "after_hold": 3,
+   "zoom_from": 1.423,
+   "zoom_to": 1.51,
+   "zoom_ratio": 1.061,
+   "caption_offset_s": 0.1,
+   "caption_text": "PUSTTIVE GAMMA INIG NEGATIVE TO GAMMA."
+  },
+  {
+   "index": 4,
+   "start": 24.5,
+   "end": 24.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.395,
+   "pan_px": 25.7,
+   "after_hold": 4,
+   "zoom_from": 1.51,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.662,
+   "caption_offset_s": 0.0,
+   "caption_text": "EM NUT EAGHTED"
+  },
+  {
+   "index": 5,
+   "start": 32.8,
+   "end": 33.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.28,
+   "pan_px": 30.0,
+   "after_hold": 5,
+   "zoom_from": 1.0,
+   "zoom_to": 1.359,
+   "zoom_ratio": 1.359,
+   "caption_offset_s": -1.4,
+   "caption_text": ""
+  },
+  {
+   "index": 6,
+   "start": 36.0,
+   "end": 36.2,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.284,
+   "pan_px": 25.9,
+   "after_hold": 6,
+   "zoom_from": 1.359,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.736,
+   "caption_offset_s": 0.0,
+   "caption_text": "LITTLE BIT OF"
+  },
+  {
+   "index": 7,
+   "start": 38.3,
+   "end": 38.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 98.5,
+   "after_hold": 7,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "sennnennnananeneuee"
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.9,
+  3.5,
+  4.8,
+  6.3,
+  8.9,
+  10.2,
+  11.7,
+  13.9,
+  15.7,
+  17.5,
+  19.0,
+  20.7,
+  22.7,
+  24.5,
+  27.6,
+  28.8,
+  30.0,
+  34.2,
+  36.0,
+  37.0,
+  37.9
+ ],
+ "captions": [
+  {
+   "t": 0.95,
+   "text": "BECAUSE THAT POSITIVE NODE GREW"
+  },
+  {
+   "t": 2.7,
+   "text": "WEHAVE A LITTLE BIT OF THAT"
+  },
+  {
+   "t": 4.15,
+   "text": "REVERT TO MEAN SETUP"
+  },
+  {
+   "t": 5.55,
+   "text": "POSITIVE. NEGATIVE IN THE MIDDLE"
+  },
+  {
+   "t": 7.6,
+   "text": "WE DID HULD Tris CEILING , NUW FLOOR ."
+  },
+  {
+   "t": 9.55,
+   "text": "AND WE SHOULD GET THAT 40"
+  },
+  {
+   "t": 10.95,
+   "text": "YUU WERE LUURING Al TERE 9 Hic NEGATIVE"
+  },
+  {
+   "t": 12.8,
+   "text": "NO TO HELP THAT FLY 10 772"
+  },
+  {
+   "t": 14.8,
+   "text": "AND 7740 GOT WEAKER."
+  },
+  {
+   "t": 16.6,
+   "text": "WORTH PAYING ATTENTIUN 10 WHATS STOPPING"
+  },
+  {
+   "t": 18.25,
+   "text": "YOU FROM TARGETING 7750, RIGHT"
+  },
+  {
+   "t": 19.85,
+   "text": "THERE'S THAT 7740 REJECT,"
+  },
+  {
+   "t": 21.7,
+   "text": "PUSTTIVE GAIMIVIA INTU NEGATIVE GAMMA."
+  },
+  {
+   "t": 23.6,
+   "text": "LITTLE BIT OF AMINI TRAP DOOR ."
+  },
+  {
+   "t": 26.05,
+   "text": "PM NUT EAGHED INTU THAT INTO THAT NECESSARILY"
+  },
+  {
+   "t": 28.2,
+   "text": "MA LITTLE BIT OF A"
+  },
+  {
+   "t": 29.4,
+   "text": "GHILAEN WHEN IT GUMES TU REVERSING,"
+  },
+  {
+   "t": 32.1,
+   "text": "I LIKE T0 GET A RETEST"
+  },
+  {
+   "t": 35.1,
+   "text": "OF A TRAPDOOR GOING ON ON SPX"
+  },
+  {
+   "t": 36.5,
+   "text": "LITTLE BIT OF A"
+  },
+  {
+   "t": 37.45,
+   "text": "WEAKENING FLOOR HERE ON 0'S."
+  },
+  {
+   "t": 40.03,
+   "text": ""
+  }
+ ]
+}

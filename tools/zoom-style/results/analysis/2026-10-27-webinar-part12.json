@@ -1,0 +1,767 @@
+{
+ "clip": "2026-10-27-webinar-part12",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 50.97,
+ "sample_fps": 10,
+ "widest_hold": 10,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 921,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 0.9,
+   "dur": 0.3,
+   "features": 1228,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 2,
+   "start": 1.0,
+   "end": 8.5,
+   "dur": 7.5,
+   "features": 1487,
+   "kind": "video",
+   "zoom": 1.002,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 8.8,
+   "end": 14.0,
+   "dur": 5.2,
+   "features": 1456,
+   "kind": "video",
+   "zoom": 1.577,
+   "center": [
+    0.269,
+    0.669
+   ],
+   "direct": true,
+   "ink": {
+    "px": 987,
+    "share": 0.00116,
+    "center": [
+     0.06,
+     0.843
+    ],
+    "bbox": [
+     0.006,
+     0.795,
+     0.113,
+     0.882
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 14.3,
+   "end": 28.3,
+   "dur": 14.0,
+   "features": 1483,
+   "kind": "video",
+   "zoom": 1.004,
+   "center": [
+    0.498,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 5,
+   "start": 28.5,
+   "end": 30.7,
+   "dur": 2.2,
+   "features": 1461,
+   "kind": "video",
+   "zoom": 1.468,
+   "center": [
+    0.558,
+    0.45
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2866,
+    "share": 0.00336,
+    "center": [
+     0.541,
+     0.411
+    ],
+    "bbox": [
+     0.279,
+     0.357,
+     0.751,
+     0.452
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 31.0,
+   "end": 33.0,
+   "dur": 2.0,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.495,
+   "center": [
+    0.113,
+    0.465
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 33.2,
+   "end": 35.0,
+   "dur": 1.8,
+   "features": 1488,
+   "kind": "video",
+   "zoom": 1.001,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 8,
+   "start": 35.2,
+   "end": 38.1,
+   "dur": 2.9,
+   "features": 1470,
+   "kind": "video",
+   "zoom": 1.704,
+   "center": [
+    0.616,
+    0.603
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1038,
+    "share": 0.00122,
+    "center": [
+     0.699,
+     0.5
+    ],
+    "bbox": [
+     0.534,
+     0.457,
+     0.802,
+     0.543
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 38.4,
+   "end": 42.5,
+   "dur": 4.1,
+   "features": 1491,
+   "kind": "video",
+   "zoom": 1.461,
+   "center": [
+    0.296,
+    0.419
+   ],
+   "direct": true,
+   "ink": {
+    "px": 672,
+    "share": 0.00079,
+    "center": [
+     0.612,
+     0.51
+    ],
+    "bbox": [
+     0.574,
+     0.446,
+     0.661,
+     0.573
+    ]
+   }
+  },
+  {
+   "index": 10,
+   "start": 42.7,
+   "end": 47.0,
+   "dur": 4.3,
+   "features": 1491,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 11,
+   "start": 47.4,
+   "end": 51.0,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 71.8,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.7,
+   "caption_text": "AOA OTRIAE FUME TUMURRUW, HUW, WHAT",
+   "transcript": {
+    "recording_t": 5272.0,
+    "cue_i": 569,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Yeah, so Max has a good question. FOMC tomorrow, what can we expect on QuantGeeks? So, with a day like that, you might see some crazy hedging. You could see, like, $76.50, or even something even further down the line, just light up.",
+    "into_cue_s": 1.2,
+    "cue_dur": 17.16,
+    "in_gap": false,
+    "prev": "Knox is\u2026 Knox is making some\u2026 some bags. Good for you, man.",
+    "next": "that's a hedge, right? People aren't necessarily saying price is gonna go there, but they're gonna protect themselves. Institutions will protect themselves for any whipsawing that might come into play, so\u2026"
+   }
+  },
+  {
+   "index": 1,
+   "start": 0.9,
+   "end": 1.0,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.003,
+   "pan_px": 90.5,
+   "after_hold": 1,
+   "zoom_from": null,
+   "zoom_to": 1.002,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.2,
+   "caption_text": "AOA OTRIAE FUME TUMURAUW, HUW, WHAT",
+   "transcript": {
+    "recording_t": 5272.5,
+    "cue_i": 569,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Yeah, so Max has a good question. FOMC tomorrow, what can we expect on QuantGeeks? So, with a day like that, you might see some crazy hedging. You could see, like, $76.50, or even something even further down the line, just light up.",
+    "into_cue_s": 1.7,
+    "cue_dur": 17.16,
+    "in_gap": false,
+    "prev": "Knox is\u2026 Knox is making some\u2026 some bags. Good for you, man.",
+    "next": "that's a hedge, right? People aren't necessarily saying price is gonna go there, but they're gonna protect themselves. Institutions will protect themselves for any whipsawing that might come into play, so\u2026"
+   }
+  },
+  {
+   "index": 2,
+   "start": 8.5,
+   "end": 8.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.429,
+   "pan_px": 202.9,
+   "after_hold": 2,
+   "zoom_from": 1.002,
+   "zoom_to": 1.577,
+   "zoom_ratio": 1.574,
+   "caption_offset_s": -0.2,
+   "caption_text": "YUU GUULU SEE LIKE 090U Un EVEN SOMETHING",
+   "transcript": {
+    "recording_t": 5280.1,
+    "cue_i": 569,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Yeah, so Max has a good question. FOMC tomorrow, what can we expect on QuantGeeks? So, with a day like that, you might see some crazy hedging. You could see, like, $76.50, or even something even further down the line, just light up.",
+    "into_cue_s": 9.3,
+    "cue_dur": 17.16,
+    "in_gap": false,
+    "prev": "Knox is\u2026 Knox is making some\u2026 some bags. Good for you, man.",
+    "next": "that's a hedge, right? People aren't necessarily saying price is gonna go there, but they're gonna protect themselves. Institutions will protect themselves for any whipsawing that might come into play, so\u2026"
+   }
+  },
+  {
+   "index": 3,
+   "start": 14.0,
+   "end": 14.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.434,
+   "pan_px": 157.1,
+   "after_hold": 3,
+   "zoom_from": 1.577,
+   "zoom_to": 1.004,
+   "zoom_ratio": 0.637,
+   "caption_offset_s": 0.0,
+   "caption_text": "THAT'S A HEDGE.",
+   "transcript": {
+    "recording_t": 5288.05,
+    "cue_i": 569,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Yeah, so Max has a good question. FOMC tomorrow, what can we expect on QuantGeeks? So, with a day like that, you might see some crazy hedging. You could see, like, $76.50, or even something even further down the line, just light up.",
+    "into_cue_s": 17.25,
+    "cue_dur": 17.16,
+    "in_gap": false,
+    "prev": "Knox is\u2026 Knox is making some\u2026 some bags. Good for you, man.",
+    "next": "that's a hedge, right? People aren't necessarily saying price is gonna go there, but they're gonna protect themselves. Institutions will protect themselves for any whipsawing that might come into play, so\u2026"
+   }
+  },
+  {
+   "index": 4,
+   "start": 28.3,
+   "end": 28.5,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.372,
+   "pan_px": 165.3,
+   "after_hold": 4,
+   "zoom_from": 1.004,
+   "zoom_to": 1.468,
+   "zoom_ratio": 1.462,
+   "caption_offset_s": 0.0,
+   "caption_text": "IF WE WANT",
+   "transcript": {
+    "recording_t": 5329.93,
+    "cue_i": 573,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "If we want 771 to take it, it's at $97 million.",
+    "into_cue_s": 0.06,
+    "cue_dur": 4.8,
+    "in_gap": false,
+    "prev": "That's one thing I'd say.",
+    "next": "It might take M2. Let's have a look."
+   }
+  },
+  {
+   "index": 5,
+   "start": 30.7,
+   "end": 31.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 351.0,
+   "after_hold": 5,
+   "zoom_from": 1.468,
+   "zoom_to": 1.495,
+   "zoom_ratio": 1.018,
+   "caption_offset_s": -2.0,
+   "caption_text": "TAKE IT S AT 97 MILLION.",
+   "transcript": {
+    "recording_t": 5332.33,
+    "cue_i": 573,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "If we want 771 to take it, it's at $97 million.",
+    "into_cue_s": 2.46,
+    "cue_dur": 4.8,
+    "in_gap": false,
+    "prev": "That's one thing I'd say.",
+    "next": "It might take M2. Let's have a look."
+   }
+  },
+  {
+   "index": 6,
+   "start": 33.0,
+   "end": 33.2,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.371,
+   "pan_px": 138.3,
+   "after_hold": 6,
+   "zoom_from": 1.495,
+   "zoom_to": 1.001,
+   "zoom_ratio": 0.67,
+   "caption_offset_s": 0.3,
+   "caption_text": "IT MIGHT TAKE M2.",
+   "transcript": {
+    "recording_t": 5334.63,
+    "cue_i": 574,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "It might take M2. Let's have a look.",
+    "into_cue_s": -0.25,
+    "cue_dur": 2.79,
+    "in_gap": false,
+    "prev": "If we want 771 to take it, it's at $97 million.",
+    "next": "That's at 78 million, M2's at 104, we got a little ways to go."
+   }
+  },
+  {
+   "index": 7,
+   "start": 35.0,
+   "end": 35.2,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.487,
+   "pan_px": 293.3,
+   "after_hold": 7,
+   "zoom_from": 1.001,
+   "zoom_to": 1.704,
+   "zoom_ratio": 1.702,
+   "caption_offset_s": -1.1,
+   "caption_text": "THAT'S AT 78 MILLION.",
+   "transcript": {
+    "recording_t": 5336.63,
+    "cue_i": 575,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "That's at 78 million, M2's at 104, we got a little ways to go.",
+    "into_cue_s": -3.94,
+    "cue_dur": 3.99,
+    "in_gap": false,
+    "prev": "It might take M2. Let's have a look.",
+    "next": "And if we hold over that 77.30, like I said, we have a new support."
+   }
+  },
+  {
+   "index": 8,
+   "start": 38.1,
+   "end": 38.4,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.128,
+   "pan_px": 321.0,
+   "after_hold": 8,
+   "zoom_from": 1.704,
+   "zoom_to": 1.461,
+   "zoom_ratio": 0.857,
+   "caption_offset_s": -0.4,
+   "caption_text": "WEGOT ALITTLE WAYS To 60",
+   "transcript": {
+    "recording_t": 5339.73,
+    "cue_i": 575,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "That's at 78 million, M2's at 104, we got a little ways to go.",
+    "into_cue_s": -0.84,
+    "cue_dur": 3.99,
+    "in_gap": false,
+    "prev": "It might take M2. Let's have a look.",
+    "next": "And if we hold over that 77.30, like I said, we have a new support."
+   }
+  },
+  {
+   "index": 9,
+   "start": 42.5,
+   "end": 42.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.354,
+   "pan_px": 38.7,
+   "after_hold": 9,
+   "zoom_from": 1.461,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.684,
+   "caption_offset_s": 0.0,
+   "caption_text": "ALL RIGHTY. EVERYBODY.",
+   "transcript": {
+    "recording_t": 5356.27,
+    "cue_i": 576,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And if we hold over that 77.30, like I said, we have a new support.",
+    "into_cue_s": 3.19,
+    "cue_dur": 4.55,
+    "in_gap": false,
+    "prev": "That's at 78 million, M2's at 104, we got a little ways to go.",
+    "next": "Alrighty, everybody."
+   }
+  },
+  {
+   "index": 10,
+   "start": 47.0,
+   "end": 47.4,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.007,
+   "pan_px": 150.0,
+   "after_hold": 10,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 1.3,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 5438.56,
+    "cue_i": 585,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Absolutely, guys. See you tomorrow. Good luck.",
+    "into_cue_s": 2.36,
+    "cue_dur": 2.65,
+    "in_gap": false,
+    "prev": "Thanks a lot, Chuy.",
+    "next": ""
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.1,
+  4.1,
+  6.3,
+  8.2,
+  8.7,
+  11.1,
+  14.0,
+  14.9,
+  16.7,
+  18.4,
+  19.8,
+  21.8,
+  23.8,
+  25.3,
+  27.3,
+  28.3,
+  32.7,
+  33.8,
+  36.1,
+  38.5,
+  40.4,
+  42.5,
+  43.4,
+  45.1,
+  45.7
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 3.1,
+    "t1": 7.25,
+    "offset": 5271.6,
+    "n": 3
+   },
+   {
+    "t0": 14.45,
+    "t1": 26.3,
+    "offset": 5274.05,
+    "n": 6
+   },
+   {
+    "t0": 27.8,
+    "t1": 27.8,
+    "offset": 5276.86,
+    "n": 1
+   },
+   {
+    "t0": 33.25,
+    "t1": 33.25,
+    "offset": 5301.63,
+    "n": 1
+   },
+   {
+    "t0": 39.45,
+    "t1": 41.45,
+    "offset": 5313.77,
+    "n": 2
+   },
+   {
+    "t0": 44.25,
+    "t1": 44.25,
+    "offset": 5372.82,
+    "n": 1
+   },
+   {
+    "t0": 45.4,
+    "t1": 45.4,
+    "offset": 5391.56,
+    "n": 1
+   }
+  ],
+  "matched": 15,
+  "used": 15,
+  "captions": 25,
+  "share": 1.0,
+  "cues": [
+   569,
+   570,
+   571,
+   572,
+   573,
+   574,
+   576,
+   577,
+   578,
+   584,
+   585
+  ]
+ },
+ "captions": [
+  {
+   "t": 3.1,
+   "text": "CAN WE EXPECT ON QUANT GEEKS"
+  },
+  {
+   "t": 5.2,
+   "text": "SO WITH A DAY LIKE THAT,"
+  },
+  {
+   "t": 7.25,
+   "text": "YOU MIGHT SEE SOME CRAZY HEDGING."
+  },
+  {
+   "t": 8.45,
+   "text": "YUU GUULU SEE"
+  },
+  {
+   "t": 9.9,
+   "text": "YUU GUULU OEE LIKE b0U UR EVEN SOMETHING"
+  },
+  {
+   "t": 12.55,
+   "text": "EVEN FURTAER QUWN TRE LINE JUST LIGHT UP."
+  },
+  {
+   "t": 14.45,
+   "text": "THAT'S A HEDGE, RIGHT"
+  },
+  {
+   "t": 15.8,
+   "text": "PEUPLE AREN NEGESOARILY SAYING PRICE"
+  },
+  {
+   "t": 17.55,
+   "text": "IS GONNA GO THERE. BUT"
+  },
+  {
+   "t": 19.1,
+   "text": "THEY RE GUNNA PRUIEGT THEMSELVES."
+  },
+  {
+   "t": 20.8,
+   "text": "INSTITU TUNS WILL PRUTEGT THEMSELVES FOR ANY"
+  },
+  {
+   "t": 22.8,
+   "text": "WHIPSAWING THAT MIGHT GUME INTU PLAY."
+  },
+  {
+   "t": 24.55,
+   "text": "$0 BE CAREFUL WHEN"
+  },
+  {
+   "t": 26.3,
+   "text": "TARGETING NUDES THAT AEN MOVING."
+  },
+  {
+   "t": 27.8,
+   "text": "THAT'S ONE THING I'D SAY"
+  },
+  {
+   "t": 30.5,
+   "text": "Z a Ty allel ae ."
+  },
+  {
+   "t": 33.25,
+   "text": "IT MIGHT TAKE M2."
+  },
+  {
+   "t": 34.95,
+   "text": "eenenauaununel 5ee6"
+  },
+  {
+   "t": 37.3,
+   "text": "M2 IS AT 104."
+  },
+  {
+   "t": 39.45,
+   "text": "AND IF WE HOLD OVER THAT 7730."
+  },
+  {
+   "t": 41.45,
+   "text": "LIKE SAID. WE HAVE A NEW SUPPORT"
+  },
+  {
+   "t": 42.95,
+   "text": "ALL RIGHTY, EVERYBODY."
+  },
+  {
+   "t": 44.25,
+   "text": "HOPE THIS WAS HELPFUL."
+  },
+  {
+   "t": 45.4,
+   "text": "SEE YOU TOMORROW."
+  },
+  {
+   "t": 48.34,
+   "text": "eS SS LS CS CS A Se"
+  }
+ ]
+}

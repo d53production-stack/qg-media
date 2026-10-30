@@ -1,0 +1,517 @@
+{
+ "clip": "2026-10-19-webinar-part16",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 31.07,
+ "sample_fps": 10,
+ "widest_hold": 1,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1323,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 4.5,
+   "dur": 3.9,
+   "features": 1492,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 4.8,
+   "end": 6.7,
+   "dur": 1.9,
+   "features": 1478,
+   "kind": "video",
+   "zoom": 1.699,
+   "center": [
+    0.469,
+    0.542
+   ],
+   "direct": true,
+   "ink": {
+    "px": 4932,
+    "share": 0.00578,
+    "center": [
+     0.618,
+     0.473
+    ],
+    "bbox": [
+     0.196,
+     0.423,
+     0.936,
+     0.528
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 7.0,
+   "end": 8.6,
+   "dur": 1.6,
+   "features": 1472,
+   "kind": "video",
+   "zoom": 1.7,
+   "center": [
+    0.682,
+    0.547
+   ],
+   "direct": true,
+   "ink": {
+    "px": 4045,
+    "share": 0.00474,
+    "center": [
+     0.582,
+     0.477
+    ],
+    "bbox": [
+     0.413,
+     0.413,
+     0.784,
+     0.542
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 8.8,
+   "end": 13.9,
+   "dur": 5.1,
+   "features": 1449,
+   "kind": "video",
+   "zoom": 1.655,
+   "center": [
+    0.828,
+    0.546
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1800,
+    "share": 0.00211,
+    "center": [
+     0.684,
+     0.58
+    ],
+    "bbox": [
+     0.599,
+     0.419,
+     0.746,
+     0.672
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 14.2,
+   "end": 27.1,
+   "dur": 12.9,
+   "features": 1493,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1271,
+    "share": 0.00149,
+    "center": [
+     0.54,
+     0.537
+    ],
+    "bbox": [
+     0.318,
+     0.534,
+     0.774,
+     0.539
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 27.5,
+   "end": 31.1,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 35.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.3,
+   "caption_text": "SAME PATTERN, IT JUST FLIPS BASED",
+   "transcript": {
+    "recording_t": 6211.96,
+    "cue_i": 695,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Launch pad and trapdoor. Same pattern, it just flips based on where you're coming from.",
+    "into_cue_s": 1.33,
+    "cue_dur": 5.48,
+    "in_gap": false,
+    "prev": "There's a couple new people joining the stream here. I just want to point out, the two trades that we caught, the upside and the downside, were the same pattern.",
+    "next": "How is price distributing as we come into these levels?"
+   }
+  },
+  {
+   "index": 1,
+   "start": 4.5,
+   "end": 4.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.532,
+   "pan_px": 196.5,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.699,
+   "zoom_ratio": 1.699,
+   "caption_offset_s": 0.0,
+   "caption_text": "CO SP Seas ss On On nn sn",
+   "transcript": {
+    "recording_t": 6286.86,
+    "cue_i": 707,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Right now, I'm seeing a pin.",
+    "into_cue_s": 0.6,
+    "cue_dur": 1.8,
+    "in_gap": false,
+    "prev": "So I don't know how to answer your question.",
+    "next": "Spy, it's at his primary. We're holding."
+   }
+  },
+  {
+   "index": 2,
+   "start": 6.7,
+   "end": 7.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 195.2,
+   "after_hold": 2,
+   "zoom_from": 1.699,
+   "zoom_to": 1.7,
+   "zoom_ratio": 1.001,
+   "caption_offset_s": 0.0,
+   "caption_text": "THIS ONE IS",
+   "transcript": {
+    "recording_t": 6289.06,
+    "cue_i": 709,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "This one is increasing in value.",
+    "into_cue_s": -3.2,
+    "cue_dur": 1.96,
+    "in_gap": false,
+    "prev": "Spy, it's at his primary. We're holding.",
+    "next": "And right here, this is a trap door."
+   }
+  },
+  {
+   "index": 3,
+   "start": 8.6,
+   "end": 8.8,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 133.7,
+   "after_hold": 3,
+   "zoom_from": 1.7,
+   "zoom_to": 1.655,
+   "zoom_ratio": 0.974,
+   "caption_offset_s": 0.5,
+   "caption_text": "AND RIGHT HERE, THIS IS A TRAPDOOR .",
+   "transcript": {
+    "recording_t": 6301.88,
+    "cue_i": 710,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And right here, this is a trap door.",
+    "into_cue_s": -0.3,
+    "cue_dur": 2.14,
+    "in_gap": false,
+    "prev": "This one is increasing in value.",
+    "next": "green."
+   }
+  },
+  {
+   "index": 4,
+   "start": 13.9,
+   "end": 14.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.533,
+   "pan_px": 344.9,
+   "after_hold": 4,
+   "zoom_from": 1.655,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.604,
+   "caption_offset_s": 0.0,
+   "caption_text": "RIGHT HERE",
+   "transcript": {
+    "recording_t": 6602.05,
+    "cue_i": 721,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "But if that primary does then roll down, then I would say the trend has shifted.",
+    "into_cue_s": 94.87,
+    "cue_dur": 4.83,
+    "in_gap": true,
+    "prev": "I would\u2026 unless we hold below it, of course, but if this holds, I would assume that we'll come back up, because it's the first movement down.",
+    "next": "Right here, we should be expecting the pin."
+   }
+  },
+  {
+   "index": 5,
+   "start": 27.1,
+   "end": 27.5,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": -0.003,
+   "pan_px": 147.8,
+   "after_hold": 5,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "seennennnananeeneues",
+   "transcript": {
+    "recording_t": 6977.27,
+    "cue_i": 756,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Alright, everybody, this was fun.",
+    "into_cue_s": 1.95,
+    "cue_dur": 1.83,
+    "in_gap": false,
+    "prev": "And it just matches with the time of day when you would start to expect some buy.",
+    "next": "Please remember, if you've got suggestions, you got issues, or you just want to say hi."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.8,
+  3.3,
+  4.5,
+  6.0,
+  6.7,
+  8.1,
+  9.7,
+  11.0,
+  13.9,
+  15.8,
+  16.7,
+  17.9,
+  18.9,
+  20.4,
+  22.3,
+  24.5,
+  25.8,
+  26.4
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.9,
+    "t1": 2.55,
+    "offset": 6211.46,
+    "n": 2
+   },
+   {
+    "t0": 3.9,
+    "t1": 3.9,
+    "offset": 6282.36,
+    "n": 1
+   },
+   {
+    "t0": 7.4,
+    "t1": 7.4,
+    "offset": 6284.86,
+    "n": 1
+   },
+   {
+    "t0": 8.9,
+    "t1": 8.9,
+    "offset": 6293.28,
+    "n": 1
+   },
+   {
+    "t0": 14.85,
+    "t1": 14.85,
+    "offset": 6588.15,
+    "n": 1
+   },
+   {
+    "t0": 16.25,
+    "t1": 16.25,
+    "offset": 6592.44,
+    "n": 1
+   },
+   {
+    "t0": 18.4,
+    "t1": 19.65,
+    "offset": 6598.48,
+    "n": 2
+   },
+   {
+    "t0": 21.35,
+    "t1": 21.35,
+    "offset": 6604.28,
+    "n": 1
+   },
+   {
+    "t0": 25.15,
+    "t1": 25.15,
+    "offset": 6950.17,
+    "n": 1
+   }
+  ],
+  "matched": 12,
+  "used": 11,
+  "captions": 18,
+  "share": 0.92,
+  "cues": [
+   695,
+   707,
+   708,
+   709,
+   710,
+   722,
+   723,
+   725,
+   726,
+   727,
+   756
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.9,
+   "text": "SAME PATTERN, IT JUST FLIPS BASED"
+  },
+  {
+   "t": 2.55,
+   "text": "ON WHERE YOU'RE COMING FROM."
+  },
+  {
+   "t": 3.9,
+   "text": "RIGHT NOW I'M SEEING A PIN ."
+  },
+  {
+   "t": 5.25,
+   "text": "SPY OUTSIDE IS PRIMARY"
+  },
+  {
+   "t": 6.35,
+   "text": "WE'RE HOLDING."
+  },
+  {
+   "t": 7.4,
+   "text": "THIS ONE IS INCREASING IN VALUE"
+  },
+  {
+   "t": 8.9,
+   "text": "AND RIGHT HERE, THIS IS A TRAPDOOR ."
+  },
+  {
+   "t": 10.35,
+   "text": "GREEN INTO GREEN."
+  },
+  {
+   "t": 12.45,
+   "text": "PUSTTIVE, NEGATIVE GAMMA VUID INTU POSITIVE"
+  },
+  {
+   "t": 14.85,
+   "text": "RIGHT HERE WE oHUULD bE EAPEGTING THE PIN ."
+  },
+  {
+   "t": 16.25,
+   "text": "VALLEYS ARE ONLY GROWING,"
+  },
+  {
+   "t": 17.3,
+   "text": "AND WE'RE RIGHT AT THEM"
+  },
+  {
+   "t": 18.4,
+   "text": "KEEP AN EYE ON THESE THINGS,"
+  },
+  {
+   "t": 19.65,
+   "text": "AND THEN AEEP AN EYE UN WHEN TREY OCCUR."
+  },
+  {
+   "t": 21.35,
+   "text": "YOU TEND TO SEE PINS AT LUNCHTIME."
+  },
+  {
+   "t": 23.4,
+   "text": "YUU TEND TU oc PINS INTU PUWER HOUR"
+  },
+  {
+   "t": 25.15,
+   "text": "ALL RIGHT, EVERYBODY, THIS WAS FUN."
+  },
+  {
+   "t": 26.1,
+   "text": "GOODBYE, EVERYBODY"
+  },
+  {
+   "t": 28.73,
+   "text": ""
+  }
+ ]
+}

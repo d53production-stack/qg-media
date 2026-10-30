@@ -1,0 +1,748 @@
+{
+ "clip": "2026-10-26-webinar-part1",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 49.83,
+ "sample_fps": 10,
+ "widest_hold": 1,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1277,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 5.8,
+   "dur": 5.2,
+   "features": 1493,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 6.1,
+   "end": 12.5,
+   "dur": 6.4,
+   "features": 1487,
+   "kind": "video",
+   "zoom": 1.587,
+   "center": [
+    0.377,
+    0.579
+   ],
+   "direct": true,
+   "ink": {
+    "px": 5783,
+    "share": 0.00678,
+    "center": [
+     0.413,
+     0.568
+    ],
+    "bbox": [
+     0.246,
+     0.441,
+     0.602,
+     0.687
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 12.8,
+   "end": 15.7,
+   "dur": 2.9,
+   "features": 1481,
+   "kind": "video",
+   "zoom": 1.564,
+   "center": [
+    0.692,
+    0.522
+   ],
+   "direct": true,
+   "ink": {
+    "px": 3398,
+    "share": 0.00398,
+    "center": [
+     0.473,
+     0.34
+    ],
+    "bbox": [
+     0.218,
+     0.253,
+     0.709,
+     0.447
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 15.9,
+   "end": 22.4,
+   "dur": 6.5,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 1.567,
+   "center": [
+    0.858,
+    0.582
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1563,
+    "share": 0.00183,
+    "center": [
+     0.597,
+     0.65
+    ],
+    "bbox": [
+     0.475,
+     0.641,
+     0.753,
+     0.672
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 22.7,
+   "end": 27.4,
+   "dur": 4.7,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.014,
+   "center": [
+    0.495,
+    0.499
+   ],
+   "direct": true,
+   "ink": {
+    "px": 63,
+    "share": 7e-05,
+    "center": [
+     0.27,
+     0.695
+    ],
+    "bbox": [
+     0.159,
+     0.411,
+     0.847,
+     0.95
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 27.7,
+   "end": 33.4,
+   "dur": 5.7,
+   "features": 1493,
+   "kind": "video",
+   "zoom": 1.572,
+   "center": [
+    0.655,
+    0.538
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1308,
+    "share": 0.00153,
+    "center": [
+     0.509,
+     0.506
+    ],
+    "bbox": [
+     0.439,
+     0.299,
+     0.558,
+     0.731
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 33.6,
+   "end": 38.3,
+   "dur": 4.7,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.016,
+   "center": [
+    0.494,
+    0.502
+   ],
+   "direct": true,
+   "ink": {
+    "px": 96,
+    "share": 0.00011,
+    "center": [
+     0.647,
+     0.404
+    ],
+    "bbox": [
+     0.584,
+     0.372,
+     0.709,
+     0.479
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 38.5,
+   "end": 45.0,
+   "dur": 6.5,
+   "features": 1468,
+   "kind": "video",
+   "zoom": 1.623,
+   "center": [
+    0.372,
+    0.308
+   ],
+   "direct": true,
+   "ink": {
+    "px": 435,
+    "share": 0.00051,
+    "center": [
+     0.586,
+     0.483
+    ],
+    "bbox": [
+     0.533,
+     0.48,
+     0.634,
+     0.485
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 45.3,
+   "end": 45.9,
+   "dur": 0.6,
+   "features": 1497,
+   "kind": "video",
+   "zoom": 1.016,
+   "center": [
+    0.494,
+    0.502
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 10,
+   "start": 46.3,
+   "end": 49.9,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 35.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "LED O TALK ABUUT THE Fino TRADE TODAY.",
+   "transcript": {
+    "recording_t": 616.71,
+    "cue_i": 12,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let's use, the chat more than anything. Unless you have a question. Go ahead and unmute, and we'll\u2026 we'll get to it, okay? Alright, you guys can see my screen. Let's talk about the first trade today.",
+    "into_cue_s": 9.49,
+    "cue_dur": 11.69,
+    "in_gap": false,
+    "prev": "Alrighty, everybody, I'm ready to go. Can everyone see my screen?",
+    "next": "I actually took this a couple times. Oh, Rebel, I'm seeing you use the QuantGeeks chat. In your\u2026 if you're in the webinar, go ahead and use the, Zoom chat. It's just a little easier for me to\u2026"
+   }
+  },
+  {
+   "index": 1,
+   "start": 5.8,
+   "end": 6.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.404,
+   "pan_px": 129.8,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.587,
+   "zoom_ratio": 1.587,
+   "caption_offset_s": 0.0,
+   "caption_text": "- WEHAD OUR",
+   "transcript": {
+    "recording_t": 642.31,
+    "cue_i": 15,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's talk about the first trade. Took this, actually, I think it was 3 times, and then I held the fourth. We had our primary here on SPX.",
+    "into_cue_s": 5.81,
+    "cue_dur": 8.53,
+    "in_gap": false,
+    "prev": "to see when I'm on the calls.",
+    "next": "Nice and hold\u2026 nice and strong. Big void here, so nothing to really give us any resistance. The SPY primary was above us."
+   }
+  },
+  {
+   "index": 2,
+   "start": 12.5,
+   "end": 12.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 268.3,
+   "after_hold": 2,
+   "zoom_from": 1.587,
+   "zoom_to": 1.564,
+   "zoom_ratio": 0.986,
+   "caption_offset_s": 0.0,
+   "caption_text": "THESPY",
+   "transcript": {
+    "recording_t": 651.26,
+    "cue_i": 16,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Nice and hold\u2026 nice and strong. Big void here, so nothing to really give us any resistance. The SPY primary was above us.",
+    "into_cue_s": 5.76,
+    "cue_dur": 9.42,
+    "in_gap": false,
+    "prev": "Let's talk about the first trade. Took this, actually, I think it was 3 times, and then I held the fourth. We had our primary here on SPX.",
+    "next": "And I think we also had QQQ as a primary down here below. It was teasing, but I didn't pay it too much mind since SPY and SPX looked pretty strong. I took some scalps upside."
+   }
+  },
+  {
+   "index": 3,
+   "start": 15.7,
+   "end": 15.9,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 137.9,
+   "after_hold": 3,
+   "zoom_from": 1.564,
+   "zoom_to": 1.567,
+   "zoom_ratio": 1.002,
+   "caption_offset_s": 0.8,
+   "caption_text": "ANDI THINK WE ALSO HAD 000",
+   "transcript": {
+    "recording_t": 654.46,
+    "cue_i": 17,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And I think we also had QQQ as a primary down here below. It was teasing, but I didn't pay it too much mind since SPY and SPX looked pretty strong. I took some scalps upside.",
+    "into_cue_s": -1.02,
+    "cue_dur": 15.7,
+    "in_gap": false,
+    "prev": "Nice and hold\u2026 nice and strong. Big void here, so nothing to really give us any resistance. The SPY primary was above us.",
+    "next": "And then I was just kind of taking them for profit. The last one was a nice hold, simply because we had that primary move where it came down for a second on SPY, but then it moved back up. So that was a nice, clear trade for me to hold."
+   }
+  },
+  {
+   "index": 4,
+   "start": 22.4,
+   "end": 22.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.443,
+   "pan_px": 349.8,
+   "after_hold": 4,
+   "zoom_from": 1.567,
+   "zoom_to": 1.014,
+   "zoom_ratio": 0.647,
+   "caption_offset_s": -1.0,
+   "caption_text": "PAY IT TOO MUCH MIND SINGE SPY",
+   "transcript": {
+    "recording_t": 661.16,
+    "cue_i": 17,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And I think we also had QQQ as a primary down here below. It was teasing, but I didn't pay it too much mind since SPY and SPX looked pretty strong. I took some scalps upside.",
+    "into_cue_s": 5.68,
+    "cue_dur": 15.7,
+    "in_gap": false,
+    "prev": "Nice and hold\u2026 nice and strong. Big void here, so nothing to really give us any resistance. The SPY primary was above us.",
+    "next": "And then I was just kind of taking them for profit. The last one was a nice hold, simply because we had that primary move where it came down for a second on SPY, but then it moved back up. So that was a nice, clear trade for me to hold."
+   }
+  },
+  {
+   "index": 5,
+   "start": 27.4,
+   "end": 27.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.453,
+   "pan_px": 283.4,
+   "after_hold": 5,
+   "zoom_from": 1.014,
+   "zoom_to": 1.572,
+   "zoom_ratio": 1.55,
+   "caption_offset_s": 0.4,
+   "caption_text": "SIMPLY BEGAUSE WE HAU THAT PRIMARY MOVE",
+   "transcript": {
+    "recording_t": 675.95,
+    "cue_i": 18,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And then I was just kind of taking them for profit. The last one was a nice hold, simply because we had that primary move where it came down for a second on SPY, but then it moved back up. So that was a nice, clear trade for me to hold.",
+    "into_cue_s": 4.77,
+    "cue_dur": 14.28,
+    "in_gap": false,
+    "prev": "And I think we also had QQQ as a primary down here below. It was teasing, but I didn't pay it too much mind since SPY and SPX looked pretty strong. I took some scalps upside.",
+    "next": "And then that primary also held on, SPX."
+   }
+  },
+  {
+   "index": 6,
+   "start": 33.4,
+   "end": 33.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.44,
+   "pan_px": 216.5,
+   "after_hold": 6,
+   "zoom_from": 1.572,
+   "zoom_to": 1.016,
+   "zoom_ratio": 0.646,
+   "caption_offset_s": 0.7,
+   "caption_text": "SO THAT WAS A NICE CLEAR TRADE FOR",
+   "transcript": {
+    "recording_t": 681.95,
+    "cue_i": 18,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And then I was just kind of taking them for profit. The last one was a nice hold, simply because we had that primary move where it came down for a second on SPY, but then it moved back up. So that was a nice, clear trade for me to hold.",
+    "into_cue_s": 10.77,
+    "cue_dur": 14.28,
+    "in_gap": false,
+    "prev": "And I think we also had QQQ as a primary down here below. It was teasing, but I didn't pay it too much mind since SPY and SPX looked pretty strong. I took some scalps upside.",
+    "next": "And then that primary also held on, SPX."
+   }
+  },
+  {
+   "index": 7,
+   "start": 38.3,
+   "end": 38.5,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.468,
+   "pan_px": 47.5,
+   "after_hold": 7,
+   "zoom_from": 1.016,
+   "zoom_to": 1.623,
+   "zoom_ratio": 1.597,
+   "caption_offset_s": -1.6,
+   "caption_text": "ALSO HELD ON. SPX UP HERE AT 7710.",
+   "transcript": {
+    "recording_t": 686.85,
+    "cue_i": 19,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And then that primary also held on, SPX.",
+    "into_cue_s": 1.17,
+    "cue_dur": 4.65,
+    "in_gap": false,
+    "prev": "And then I was just kind of taking them for profit. The last one was a nice hold, simply because we had that primary move where it came down for a second on SPY, but then it moved back up. So that was a nice, clear trade for me to hold.",
+    "next": "Up here at 7710. I thought it was gonna take $7,700, but it actually took 7710, so that was a nice happy surprise for us."
+   }
+  },
+  {
+   "index": 8,
+   "start": 45.0,
+   "end": 45.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.444,
+   "pan_px": 36.2,
+   "after_hold": 8,
+   "zoom_from": 1.623,
+   "zoom_to": 1.016,
+   "zoom_ratio": 0.626,
+   "caption_offset_s": -0.6,
+   "caption_text": "NIGE HAPPY SURPRISE FUR US URAY, GUYS.",
+   "transcript": {
+    "recording_t": 693.55,
+    "cue_i": 20,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Up here at 7710. I thought it was gonna take $7,700, but it actually took 7710, so that was a nice happy surprise for us.",
+    "into_cue_s": 2.61,
+    "cue_dur": 7.71,
+    "in_gap": false,
+    "prev": "And then that primary also held on, SPX.",
+    "next": "I took a scalp short in the rejection of the primary on."
+   }
+  },
+  {
+   "index": 9,
+   "start": 45.9,
+   "end": 46.3,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": -0.016,
+   "pan_px": 127.6,
+   "after_hold": 9,
+   "zoom_from": 1.016,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.3,
+   "caption_text": "seanuenananaeeueues",
+   "transcript": {
+    "recording_t": 2709.9,
+    "cue_i": 314,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "I believe it moved up. I thought it was gonna take $7,700, and then it ended up taking $7,710. Now it's at $77.20.",
+    "into_cue_s": 6.85,
+    "cue_dur": 7.38,
+    "in_gap": false,
+    "prev": "That's a little whipsaw in the open, no big deal, and there's the clarity. And then once it moved up to here.",
+    "next": "That's an uptre\u2026 that's an uptrend, everybody."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  3.4,
+  4.6,
+  5.8,
+  8.2,
+  9.2,
+  11.0,
+  12.5,
+  14.9,
+  17.7,
+  19.5,
+  21.3,
+  23.4,
+  25.0,
+  27.0,
+  28.7,
+  31.1,
+  32.7,
+  34.6,
+  36.2,
+  39.9,
+  41.6,
+  43.7,
+  45.6
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.8,
+    "t1": 0.8,
+    "offset": 616.21,
+    "n": 1
+   },
+   {
+    "t0": 4.0,
+    "t1": 10.1,
+    "offset": 636.51,
+    "n": 5
+   },
+   {
+    "t0": 11.75,
+    "t1": 16.3,
+    "offset": 638.76,
+    "n": 3
+   },
+   {
+    "t0": 18.6,
+    "t1": 24.2,
+    "offset": 641.3,
+    "n": 4
+   },
+   {
+    "t0": 26.0,
+    "t1": 33.65,
+    "offset": 648.55,
+    "n": 4
+   },
+   {
+    "t0": 35.4,
+    "t1": 35.4,
+    "offset": 756.55,
+    "n": 1
+   },
+   {
+    "t0": 40.75,
+    "t1": 40.75,
+    "offset": 2664.0,
+    "n": 1
+   }
+  ],
+  "matched": 21,
+  "used": 19,
+  "captions": 24,
+  "share": 0.9,
+  "cues": [
+   12,
+   15,
+   16,
+   17,
+   18,
+   33,
+   313,
+   314
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "LED O TALK ABUUT THE Fino TRADE TODAY."
+  },
+  {
+   "t": 2.5,
+   "text": "AGTUALLY TUUK hls A GUUPLE TIMES."
+  },
+  {
+   "t": 4.0,
+   "text": "THINK IT WAS THREE TIMES,"
+  },
+  {
+   "t": 5.2,
+   "text": "AND THEN HELD THE FOURTH."
+  },
+  {
+   "t": 7.0,
+   "text": "- WEHAD OUR PRIMARY HERE ON SPX,"
+  },
+  {
+   "t": 8.7,
+   "text": "NICE AND STRONG."
+  },
+  {
+   "t": 10.1,
+   "text": "BIG VOID HERE. SO NOTHING TO"
+  },
+  {
+   "t": 11.75,
+   "text": "REALLY GIVE US ANY RESISTANCE."
+  },
+  {
+   "t": 13.7,
+   "text": "THE SPY PRIMARY WAS ABOVE US,"
+  },
+  {
+   "t": 16.3,
+   "text": "ANDI THINK WE ALSO HAD 000"
+  },
+  {
+   "t": 18.6,
+   "text": "ASA PRIMARY DOWN HERE BELOW."
+  },
+  {
+   "t": 20.4,
+   "text": "TT WAS TEASING, BUT DIDN'T"
+  },
+  {
+   "t": 22.35,
+   "text": "PAY IT TOO MUCH MIND SINGE SPY"
+  },
+  {
+   "t": 24.2,
+   "text": "AND. SPX LOOKED PRETTY STRONG."
+  },
+  {
+   "t": 26.0,
+   "text": ", THE LAST ONE WAS A NICE HOLD"
+  },
+  {
+   "t": 27.85,
+   "text": "SIMPLY BEGAUSE WE WAU THAT PRIMARY MOVE"
+  },
+  {
+   "t": 29.9,
+   "text": "WHERE TT GAME UUW FUh A oEGUND ON SPY."
+  },
+  {
+   "t": 31.9,
+   "text": "BUT THEN IT MOVED BACK UP."
+  },
+  {
+   "t": 33.65,
+   "text": "SO THAT WAS A NICE CLEAR TRADE FOR"
+  },
+  {
+   "t": 35.4,
+   "text": "METO HOLD, AND THEN THAT PRIMARY"
+  },
+  {
+   "t": 38.05,
+   "text": "ALSO HELD ON, SPX UP HERE AT 7710."
+  },
+  {
+   "t": 40.75,
+   "text": "THOUGHT IT WAS GONNA TAKE 7700,"
+  },
+  {
+   "t": 42.65,
+   "text": "BUTT AGTUALLY TUUK 1U, oU THAT WAS A"
+  },
+  {
+   "t": 44.65,
+   "text": "NIGE HAPPY SURPRISE FUR US URAY, GUYS."
+  },
+  {
+   "t": 47.72,
+   "text": ""
+  }
+ ]
+}

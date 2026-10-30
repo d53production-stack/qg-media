@@ -1,0 +1,785 @@
+{
+ "clip": "2026-10-21-halloween-spy-and-qqq-hold-primary-support",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 50.47,
+ "sample_fps": 10,
+ "widest_hold": 4,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.1,
+   "dur": 0.1,
+   "features": 1007,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.2,
+   "end": 0.5,
+   "dur": 0.3,
+   "features": 1369,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 2,
+   "start": 0.6,
+   "end": 6.5,
+   "dur": 5.9,
+   "features": 1484,
+   "kind": "video",
+   "zoom": 1.45,
+   "center": [
+    0.331,
+    0.493
+   ],
+   "direct": true,
+   "ink": {
+    "px": 708,
+    "share": 0.00083,
+    "center": [
+     0.527,
+     0.585
+    ],
+    "bbox": [
+     0.482,
+     0.459,
+     0.571,
+     0.704
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 6.8,
+   "end": 8.5,
+   "dur": 1.7,
+   "features": 1486,
+   "kind": "video",
+   "zoom": 1.44,
+   "center": [
+    0.601,
+    0.492
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1426,
+    "share": 0.00167,
+    "center": [
+     0.611,
+     0.618
+    ],
+    "bbox": [
+     0.45,
+     0.615,
+     0.767,
+     0.622
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 8.8,
+   "end": 11.5,
+   "dur": 2.7,
+   "features": 1479,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 716,
+    "share": 0.00084,
+    "center": [
+     0.336,
+     0.872
+    ],
+    "bbox": [
+     0.27,
+     0.834,
+     0.406,
+     0.908
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 11.8,
+   "end": 14.9,
+   "dur": 3.1,
+   "features": 1463,
+   "kind": "video",
+   "zoom": 1.549,
+   "center": [
+    0.41,
+    0.706
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2228,
+    "share": 0.00261,
+    "center": [
+     0.44,
+     0.484
+    ],
+    "bbox": [
+     0.323,
+     0.385,
+     0.631,
+     0.777
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 15.1,
+   "end": 21.7,
+   "dur": 6.6,
+   "features": 1476,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 366,
+    "share": 0.00043,
+    "center": [
+     0.677,
+     0.509
+    ],
+    "bbox": [
+     0.641,
+     0.484,
+     0.706,
+     0.546
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 22.0,
+   "end": 30.4,
+   "dur": 8.4,
+   "features": 1478,
+   "kind": "video",
+   "zoom": 1.244,
+   "center": [
+    0.628,
+    0.545
+   ],
+   "direct": true,
+   "ink": {
+    "px": 373,
+    "share": 0.00044,
+    "center": [
+     0.555,
+     0.467
+    ],
+    "bbox": [
+     0.504,
+     0.448,
+     0.598,
+     0.48
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 30.7,
+   "end": 31.6,
+   "dur": 0.9,
+   "features": 1476,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 9,
+   "start": 31.8,
+   "end": 36.1,
+   "dur": 4.3,
+   "features": 1379,
+   "kind": "video",
+   "zoom": 1.769,
+   "center": [
+    0.867,
+    0.357
+   ],
+   "direct": true,
+   "ink": {
+    "px": 5125,
+    "share": 0.00601,
+    "center": [
+     0.734,
+     0.52
+    ],
+    "bbox": [
+     0.459,
+     0.453,
+     0.99,
+     0.58
+    ]
+   }
+  },
+  {
+   "index": 10,
+   "start": 36.4,
+   "end": 46.6,
+   "dur": 10.2,
+   "features": 1477,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 271,
+    "share": 0.00032,
+    "center": [
+     0.636,
+     0.503
+    ],
+    "bbox": [
+     0.58,
+     0.361,
+     0.704,
+     0.613
+    ]
+   }
+  },
+  {
+   "index": 11,
+   "start": 46.9,
+   "end": 50.5,
+   "dur": 3.6,
+   "features": 1486,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.1,
+   "end": 0.2,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.045,
+   "pan_px": 29.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.4,
+   "caption_text": "WOULD IT BE MORE CONVICTION IF",
+   "transcript": {
+    "recording_t": 353.36,
+    "cue_i": 13,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Travis is asking me, would it be more conviction if those were bigger levels? Absolutely.",
+    "into_cue_s": 0.65,
+    "cue_dur": 4.24,
+    "in_gap": false,
+    "prev": "we push.",
+    "next": "Absolutely. One big thing, though, that I want to say to the upside trade."
+   }
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 36.0,
+   "after_hold": 1,
+   "zoom_from": null,
+   "zoom_to": 1.45,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.0,
+   "caption_text": "WOULD IT BE MORE CONVICTION IF",
+   "transcript": {
+    "recording_t": 353.76,
+    "cue_i": 13,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Travis is asking me, would it be more conviction if those were bigger levels? Absolutely.",
+    "into_cue_s": 1.05,
+    "cue_dur": 4.24,
+    "in_gap": false,
+    "prev": "we push.",
+    "next": "Absolutely. One big thing, though, that I want to say to the upside trade."
+   }
+  },
+  {
+   "index": 2,
+   "start": 6.5,
+   "end": 6.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.002,
+   "pan_px": 209.5,
+   "after_hold": 2,
+   "zoom_from": 1.45,
+   "zoom_to": 1.44,
+   "zoom_ratio": 0.993,
+   "caption_offset_s": 0.3,
+   "caption_text": "WERE ALOU",
+   "transcript": {
+    "recording_t": 388.65,
+    "cue_i": 17,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "two kind of, alerts to give you conviction, right? We have that set up here into that negative void. We're also holding this primary support. Again, primary is where you want to take trades off of, okay?",
+    "into_cue_s": 6.4,
+    "cue_dur": 14.55,
+    "in_gap": false,
+    "prev": "You could say that, but because we have the primary tracker with it, now you have two",
+    "next": "And then, look, we have the primary move up from, what is that, 7670 up to $7,700?"
+   }
+  },
+  {
+   "index": 3,
+   "start": 8.5,
+   "end": 8.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.362,
+   "pan_px": 164.2,
+   "after_hold": 3,
+   "zoom_from": 1.44,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.694,
+   "caption_offset_s": 0.0,
+   "caption_text": "AND THEN LOOK.",
+   "transcript": {
+    "recording_t": 396.75,
+    "cue_i": 18,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And then, look, we have the primary move up from, what is that, 7670 up to $7,700?",
+    "into_cue_s": -0.41,
+    "cue_dur": 6.24,
+    "in_gap": false,
+    "prev": "two kind of, alerts to give you conviction, right? We have that set up here into that negative void. We're also holding this primary support. Again, primary is where you want to take trades off of, okay?",
+    "next": "Boom. What does that tell us? Hey."
+   }
+  },
+  {
+   "index": 4,
+   "start": 11.5,
+   "end": 11.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.439,
+   "pan_px": 219.8,
+   "after_hold": 4,
+   "zoom_from": 1.0,
+   "zoom_to": 1.549,
+   "zoom_ratio": 1.549,
+   "caption_offset_s": 0.0,
+   "caption_text": "7670 UP TO",
+   "transcript": {
+    "recording_t": 399.75,
+    "cue_i": 18,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And then, look, we have the primary move up from, what is that, 7670 up to $7,700?",
+    "into_cue_s": 2.59,
+    "cue_dur": 6.24,
+    "in_gap": false,
+    "prev": "two kind of, alerts to give you conviction, right? We have that set up here into that negative void. We're also holding this primary support. Again, primary is where you want to take trades off of, okay?",
+    "next": "Boom. What does that tell us? Hey."
+   }
+  },
+  {
+   "index": 5,
+   "start": 14.9,
+   "end": 15.1,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.423,
+   "pan_px": 166.7,
+   "after_hold": 5,
+   "zoom_from": 1.549,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.646,
+   "caption_offset_s": -2.3,
+   "caption_text": "seenennnnuooaneeueees",
+   "transcript": {
+    "recording_t": 425.02,
+    "cue_i": 20,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Interest is moving back to the upside.",
+    "into_cue_s": 19.19,
+    "cue_dur": 2.13,
+    "in_gap": true,
+    "prev": "Boom. What does that tell us? Hey.",
+    "next": "And then look at this little resistance show up out of nowhere."
+   }
+  },
+  {
+   "index": 6,
+   "start": 21.7,
+   "end": 22.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.222,
+   "pan_px": 159.6,
+   "after_hold": 6,
+   "zoom_from": 1.0,
+   "zoom_to": 1.244,
+   "zoom_ratio": 1.244,
+   "caption_offset_s": -0.4,
+   "caption_text": "WE RE AEOTTATING TU-- THRUUGH, OU IF YOU WERE A BULL,",
+   "transcript": {
+    "recording_t": 431.82,
+    "cue_i": 22,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We're hesitating through, so if you were a bull, what would you want to see?",
+    "into_cue_s": 1.87,
+    "cue_dur": 3.88,
+    "in_gap": false,
+    "prev": "And then look at this little resistance show up out of nowhere.",
+    "next": "Price hold above it."
+   }
+  },
+  {
+   "index": 7,
+   "start": 30.4,
+   "end": 30.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.218,
+   "pan_px": 138.9,
+   "after_hold": 7,
+   "zoom_from": 1.244,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.804,
+   "caption_offset_s": 0.0,
+   "caption_text": "BELIEVE",
+   "transcript": {
+    "recording_t": 453.76,
+    "cue_i": 24,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And then push, and then we would technically have another mini launch pad set up, as long as we hold 769 SPY.",
+    "into_cue_s": 17.88,
+    "cue_dur": 6.97,
+    "in_gap": true,
+    "prev": "Price hold above it.",
+    "next": "I believe 725 has been the primary on queues the whole time, and it's been growing."
+   }
+  },
+  {
+   "index": 8,
+   "start": 31.6,
+   "end": 31.8,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.553,
+   "pan_px": 477.8,
+   "after_hold": 8,
+   "zoom_from": 1.0,
+   "zoom_to": 1.769,
+   "zoom_ratio": 1.769,
+   "caption_offset_s": -0.4,
+   "caption_text": "BELIEVE 725 HAS BEEN THE",
+   "transcript": {
+    "recording_t": 454.96,
+    "cue_i": 25,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "I believe 725 has been the primary on queues the whole time, and it's been growing.",
+    "into_cue_s": 0.91,
+    "cue_dur": 5.23,
+    "in_gap": false,
+    "prev": "And then push, and then we would technically have another mini launch pad set up, as long as we hold 769 SPY.",
+    "next": "So, that to me, is kind of the North Star of today."
+   }
+  },
+  {
+   "index": 9,
+   "start": 36.1,
+   "end": 36.4,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.57,
+   "pan_px": 362.7,
+   "after_hold": 9,
+   "zoom_from": 1.769,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.565,
+   "caption_offset_s": 1.0,
+   "caption_text": "SO THAT TO ME IS KIND",
+   "transcript": {
+    "recording_t": 459.46,
+    "cue_i": 26,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "So, that to me, is kind of the North Star of today.",
+    "into_cue_s": -0.58,
+    "cue_dur": 3.36,
+    "in_gap": false,
+    "prev": "I believe 725 has been the primary on queues the whole time, and it's been growing.",
+    "next": "And 769 on SPY has been holding as well. So as long as we hold this, we should continue to bounce off of it."
+   }
+  },
+  {
+   "index": 10,
+   "start": 46.6,
+   "end": 46.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.002,
+   "pan_px": 99.2,
+   "after_hold": 10,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "seansnanananonaeueues",
+   "transcript": {
+    "recording_t": 472.63,
+    "cue_i": 27,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And 769 on SPY has been holding as well. So as long as we hold this, we should continue to bounce off of it.",
+    "into_cue_s": 8.15,
+    "cue_dur": 8.72,
+    "in_gap": false,
+    "prev": "So, that to me, is kind of the North Star of today.",
+    "next": "Keep an eye on those values."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.5,
+  2.7,
+  4.8,
+  6.2,
+  8.5,
+  9.9,
+  11.5,
+  17.2,
+  18.5,
+  19.8,
+  22.1,
+  23.2,
+  24.9,
+  26.3,
+  28.6,
+  30.4,
+  32.0,
+  33.3,
+  35.1,
+  38.0,
+  41.4,
+  43.9,
+  46.2
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.75,
+    "t1": 2.1,
+    "offset": 353.26,
+    "n": 2
+   },
+   {
+    "t0": 3.75,
+    "t1": 5.5,
+    "offset": 382.15,
+    "n": 2
+   },
+   {
+    "t0": 9.2,
+    "t1": 10.7,
+    "offset": 388.25,
+    "n": 2
+   },
+   {
+    "t0": 17.85,
+    "t1": 25.6,
+    "offset": 410.12,
+    "n": 3
+   },
+   {
+    "t0": 31.2,
+    "t1": 34.2,
+    "offset": 423.36,
+    "n": 3
+   },
+   {
+    "t0": 39.7,
+    "t1": 42.65,
+    "offset": 426.03,
+    "n": 2
+   }
+  ],
+  "matched": 14,
+  "used": 14,
+  "captions": 24,
+  "share": 1.0,
+  "cues": [
+   13,
+   17,
+   18,
+   21,
+   22,
+   23,
+   24,
+   25,
+   27
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.75,
+   "text": "WOULD IT BE MORE CONVICTION IF"
+  },
+  {
+   "t": 2.1,
+   "text": "THUSE WERE BIGGER LEVELS ABSOLUTELY."
+  },
+  {
+   "t": 3.75,
+   "text": "WE HAVE THAT SET UP"
+  },
+  {
+   "t": 5.5,
+   "text": "HERE INTO THAT NEGATIVE VOID."
+  },
+  {
+   "t": 7.35,
+   "text": "WE RE ALOU HULUING TAs PhiMAny SUPPORT"
+  },
+  {
+   "t": 9.2,
+   "text": "AND THEN LOOK, WE HAVE THE"
+  },
+  {
+   "t": 10.7,
+   "text": "PRIMARY MUVE UP FRUM, WHAT Id THAT"
+  },
+  {
+   "t": 14.35,
+   "text": "BOOM."
+  },
+  {
+   "t": 17.85,
+   "text": "AND THEN LOOK AT THIS LITTLE"
+  },
+  {
+   "t": 19.15,
+   "text": "HESIOTANGE OHUW UP UUT UF NOWHERE."
+  },
+  {
+   "t": 20.95,
+   "text": "WE RE HEOHTATING TU-- TAROUGH, 30 IF YOU WERE A BULL,"
+  },
+  {
+   "t": 22.65,
+   "text": "- WHATWOULD YOU WANNA SEE"
+  },
+  {
+   "t": 24.05,
+   "text": "PRICE HOLD ABOVE IT AND THEN PUSH,"
+  },
+  {
+   "t": 25.6,
+   "text": "AND TREN WE WOULD TEGHNIGALLY HAVE"
+  },
+  {
+   "t": 27.45,
+   "text": "ANUTRER MINTLAUNGHPAU SETUP AS LONG"
+  },
+  {
+   "t": 29.5,
+   "text": "ASWEHOLD769SPY"
+  },
+  {
+   "t": 31.2,
+   "text": "BELIEVE 725 HAS BEEN THE"
+  },
+  {
+   "t": 32.65,
+   "text": "PRIMARY ON QUEUES THE WHOLE"
+  },
+  {
+   "t": 34.2,
+   "text": "TIME. AND IT'S BEEN GROWING."
+  },
+  {
+   "t": 36.55,
+   "text": "saenenennoananueueuee"
+  },
+  {
+   "t": 39.7,
+   "text": "HAS BEEN HOLDING"
+  },
+  {
+   "t": 42.65,
+   "text": "SOAS LONG AS WE HOLD THIS."
+  },
+  {
+   "t": 45.05,
+   "text": "WE OHUULD GUNTINUE TU BUUNGE UF OF IT."
+  },
+  {
+   "t": 48.34,
+   "text": "a a ee a a"
+  }
+ ]
+}

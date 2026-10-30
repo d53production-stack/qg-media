@@ -1,0 +1,1247 @@
+{
+ "clip": "2026-10-28-webinar-part1",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 79.07,
+ "sample_fps": 10,
+ "widest_hold": 1,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1257,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 2.2,
+   "dur": 1.6,
+   "features": 1455,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 2.4,
+   "end": 3.5,
+   "dur": 1.1,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.414,
+   "center": [
+    0.371,
+    0.427
+   ],
+   "direct": true,
+   "ink": {
+    "px": 487,
+    "share": 0.00057,
+    "center": [
+     0.395,
+     0.048
+    ],
+    "bbox": [
+     0.349,
+     0.035,
+     0.456,
+     0.084
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 3.7,
+   "end": 6.0,
+   "dur": 2.3,
+   "features": 1477,
+   "kind": "video",
+   "zoom": 1.41,
+   "center": [
+    0.375,
+    0.636
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2185,
+    "share": 0.00256,
+    "center": [
+     0.48,
+     0.773
+    ],
+    "bbox": [
+     0.337,
+     0.747,
+     0.628,
+     0.797
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 6.2,
+   "end": 10.0,
+   "dur": 3.8,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.413,
+   "center": [
+    0.373,
+    0.427
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2157,
+    "share": 0.00253,
+    "center": [
+     0.566,
+     0.672
+    ],
+    "bbox": [
+     0.384,
+     0.63,
+     0.735,
+     0.718
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 10.9,
+   "end": 19.6,
+   "dur": 8.7,
+   "features": 1488,
+   "kind": "video",
+   "zoom": 1.414,
+   "center": [
+    0.614,
+    0.512
+   ],
+   "direct": true,
+   "ink": {
+    "px": 448,
+    "share": 0.00053,
+    "center": [
+     0.507,
+     0.642
+    ],
+    "bbox": [
+     0.445,
+     0.487,
+     0.581,
+     0.661
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 19.9,
+   "end": 20.6,
+   "dur": 0.7,
+   "features": 1491,
+   "kind": "video",
+   "zoom": 1.431,
+   "center": [
+    0.746,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 20.8,
+   "end": 28.2,
+   "dur": 7.4,
+   "features": 1483,
+   "kind": "video",
+   "zoom": 1.77,
+   "center": [
+    0.804,
+    0.526
+   ],
+   "ink": {
+    "px": 1462,
+    "share": 0.00171,
+    "center": [
+     0.428,
+     0.525
+    ],
+    "bbox": [
+     0.288,
+     0.453,
+     0.613,
+     0.69
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 28.4,
+   "end": 30.8,
+   "dur": 2.4,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 1.425,
+   "center": [
+    0.769,
+    0.506
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 9,
+   "start": 31.1,
+   "end": 32.0,
+   "dur": 0.9,
+   "features": 1469,
+   "kind": "video",
+   "zoom": 1.399,
+   "center": [
+    1.0,
+    0.514
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 10,
+   "start": 32.2,
+   "end": 34.4,
+   "dur": 2.2,
+   "features": 1488,
+   "kind": "video",
+   "zoom": 1.403,
+   "center": [
+    0.863,
+    0.385
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 11,
+   "start": 35.4,
+   "end": 37.8,
+   "dur": 2.4,
+   "features": 1480,
+   "kind": "video",
+   "zoom": 1.41,
+   "center": [
+    0.944,
+    0.389
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 12,
+   "start": 38.0,
+   "end": 39.4,
+   "dur": 1.4,
+   "features": 1475,
+   "kind": "video",
+   "zoom": 1.423,
+   "center": [
+    0.987,
+    0.427
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 13,
+   "start": 39.5,
+   "end": 41.0,
+   "dur": 1.5,
+   "features": 1468,
+   "kind": "video",
+   "zoom": 1.44,
+   "center": [
+    1.02,
+    0.354
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 14,
+   "start": 41.3,
+   "end": 44.7,
+   "dur": 3.4,
+   "features": 1479,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 200,
+    "share": 0.00023,
+    "center": [
+     0.7,
+     0.423
+    ],
+    "bbox": [
+     0.489,
+     0.408,
+     0.797,
+     0.525
+    ]
+   }
+  },
+  {
+   "index": 15,
+   "start": 44.9,
+   "end": 48.3,
+   "dur": 3.4,
+   "features": 1430,
+   "kind": "video",
+   "zoom": 1.681,
+   "center": [
+    0.74,
+    0.664
+   ],
+   "ink": {
+    "px": 4746,
+    "share": 0.00556,
+    "center": [
+     0.487,
+     0.596
+    ],
+    "bbox": [
+     0.341,
+     0.501,
+     0.639,
+     0.687
+    ]
+   }
+  },
+  {
+   "index": 16,
+   "start": 48.5,
+   "end": 50.6,
+   "dur": 2.1,
+   "features": 1481,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.501,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 20,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 17,
+   "start": 50.9,
+   "end": 62.2,
+   "dur": 11.3,
+   "features": 1491,
+   "kind": "video",
+   "zoom": 1.603,
+   "center": [
+    0.369,
+    0.492
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1223,
+    "share": 0.00143,
+    "center": [
+     0.427,
+     0.575
+    ],
+    "bbox": [
+     0.259,
+     0.572,
+     0.616,
+     0.58
+    ]
+   }
+  },
+  {
+   "index": 18,
+   "start": 62.5,
+   "end": 74.8,
+   "dur": 12.3,
+   "features": 1447,
+   "kind": "video",
+   "zoom": 1.599,
+   "center": [
+    0.94,
+    0.56
+   ],
+   "ink": {
+    "px": 890,
+    "share": 0.00104,
+    "center": [
+     0.604,
+     0.306
+    ],
+    "bbox": [
+     0.491,
+     0.258,
+     0.798,
+     0.367
+    ]
+   }
+  },
+  {
+   "index": 19,
+   "start": 75.5,
+   "end": 79.1,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 36.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -2.6,
+   "caption_text": "LET'S BREAK IT DOWN.",
+   "transcript": {
+    "recording_t": 241.1,
+    "cue_i": 7,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "can't sit here and narrate a pin all day. But what are we seeing here on the map currently? Let's break it down.",
+    "into_cue_s": 7.52,
+    "cue_dur": 7.65,
+    "in_gap": false,
+    "prev": "Can think of,",
+    "next": "SPX Primary. Started up here, came down to $76.75, and then it's held $77.15."
+   }
+  },
+  {
+   "index": 1,
+   "start": 2.2,
+   "end": 2.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.33,
+   "pan_px": 37.1,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.414,
+   "zoom_ratio": 1.414,
+   "caption_offset_s": -0.9,
+   "caption_text": "SPX PRIMARY STARTED UP HERE, I",
+   "transcript": {
+    "recording_t": 242.8,
+    "cue_i": 8,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "SPX Primary. Started up here, came down to $76.75, and then it's held $77.15.",
+    "into_cue_s": 0.65,
+    "cue_dur": 7.91,
+    "in_gap": false,
+    "prev": "can't sit here and narrate a pin all day. But what are we seeing here on the map currently? Let's break it down.",
+    "next": "Through most of this kind of chop. Spy."
+   }
+  },
+  {
+   "index": 2,
+   "start": 3.5,
+   "end": 3.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 110.7,
+   "after_hold": 2,
+   "zoom_from": 1.414,
+   "zoom_to": 1.41,
+   "zoom_ratio": 0.997,
+   "caption_offset_s": 0.4,
+   "caption_text": "GAME UUWN TU 0 90, ANU TRENTTS HELD",
+   "transcript": {
+    "recording_t": 244.1,
+    "cue_i": 8,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "SPX Primary. Started up here, came down to $76.75, and then it's held $77.15.",
+    "into_cue_s": 1.95,
+    "cue_dur": 7.91,
+    "in_gap": false,
+    "prev": "can't sit here and narrate a pin all day. But what are we seeing here on the map currently? Let's break it down.",
+    "next": "Through most of this kind of chop. Spy."
+   }
+  },
+  {
+   "index": 3,
+   "start": 6.0,
+   "end": 6.2,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 109.8,
+   "after_hold": 3,
+   "zoom_from": 1.41,
+   "zoom_to": 1.413,
+   "zoom_ratio": 1.002,
+   "caption_offset_s": -0.6,
+   "caption_text": "GAME UUWN IU 0 0, ANU TRENT HELD",
+   "transcript": {
+    "recording_t": 246.6,
+    "cue_i": 8,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "SPX Primary. Started up here, came down to $76.75, and then it's held $77.15.",
+    "into_cue_s": 4.45,
+    "cue_dur": 7.91,
+    "in_gap": false,
+    "prev": "can't sit here and narrate a pin all day. But what are we seeing here on the map currently? Let's break it down.",
+    "next": "Through most of this kind of chop. Spy."
+   }
+  },
+  {
+   "index": 4,
+   "start": 10.0,
+   "end": 10.9,
+   "dur": 0.9,
+   "type": "ramp",
+   "log_scale": 0.02,
+   "pan_px": 172.1,
+   "after_hold": 4,
+   "zoom_from": 1.413,
+   "zoom_to": 1.414,
+   "zoom_ratio": 1.001,
+   "caption_offset_s": 0.6,
+   "caption_text": "SPY.",
+   "transcript": {
+    "recording_t": 254.08,
+    "cue_i": 9,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Through most of this kind of chop. Spy.",
+    "into_cue_s": 3.73,
+    "cue_dur": 3.64,
+    "in_gap": false,
+    "prev": "SPX Primary. Started up here, came down to $76.75, and then it's held $77.15.",
+    "next": "SPY primary, we held it in the morning, broke below the moment it moved down, and then we kind of been bouncing between 77.1 and 770 on SPY."
+   }
+  },
+  {
+   "index": 5,
+   "start": 19.6,
+   "end": 19.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.002,
+   "pan_px": 86.5,
+   "after_hold": 5,
+   "zoom_from": 1.414,
+   "zoom_to": 1.431,
+   "zoom_ratio": 1.012,
+   "caption_offset_s": -0.9,
+   "caption_text": "BUUNGING BETWEEN .1 AND U UN SPY.",
+   "transcript": {
+    "recording_t": 260.2,
+    "cue_i": 10,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "SPY primary, we held it in the morning, broke below the moment it moved down, and then we kind of been bouncing between 77.1 and 770 on SPY.",
+    "into_cue_s": 5.47,
+    "cue_dur": 11.73,
+    "in_gap": false,
+    "prev": "Through most of this kind of chop. Spy.",
+    "next": "Right now, it looks like our resistance"
+   }
+  },
+  {
+   "index": 6,
+   "start": 20.6,
+   "end": 20.8,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.211,
+   "pan_px": 116.5,
+   "after_hold": 6,
+   "zoom_from": 1.431,
+   "zoom_to": 1.77,
+   "zoom_ratio": 1.237,
+   "caption_offset_s": 0.1,
+   "caption_text": "AIGA NUW TT LUUKS oe",
+   "transcript": {
+    "recording_t": 264.68,
+    "cue_i": 10,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "SPY primary, we held it in the morning, broke below the moment it moved down, and then we kind of been bouncing between 77.1 and 770 on SPY.",
+    "into_cue_s": 9.95,
+    "cue_dur": 11.73,
+    "in_gap": false,
+    "prev": "Through most of this kind of chop. Spy.",
+    "next": "Right now, it looks like our resistance"
+   }
+  },
+  {
+   "index": 7,
+   "start": 28.2,
+   "end": 28.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.21,
+   "pan_px": 101.6,
+   "after_hold": 7,
+   "zoom_from": 1.77,
+   "zoom_to": 1.425,
+   "zoom_ratio": 0.805,
+   "caption_offset_s": 0.1,
+   "caption_text": "pesceeees ueeeeeeees",
+   "transcript": {
+    "recording_t": 276.98,
+    "cue_i": 12,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We have 3 resistance to the upside here on SPY, nothing to really hold us, so we might drop.",
+    "into_cue_s": 6.01,
+    "cue_dur": 6.73,
+    "in_gap": false,
+    "prev": "Right now, it looks like our resistance",
+    "next": "Okay, or spike hand drop, is the way you want to think about it."
+   }
+  },
+  {
+   "index": 8,
+   "start": 30.8,
+   "end": 31.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 183.2,
+   "after_hold": 8,
+   "zoom_from": 1.425,
+   "zoom_to": 1.399,
+   "zoom_ratio": 0.982,
+   "caption_offset_s": 0.0,
+   "caption_text": "000, WE HAD",
+   "transcript": {
+    "recording_t": 279.58,
+    "cue_i": 13,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Okay, or spike hand drop, is the way you want to think about it.",
+    "into_cue_s": 1.48,
+    "cue_dur": 3.18,
+    "in_gap": false,
+    "prev": "We have 3 resistance to the upside here on SPY, nothing to really hold us, so we might drop.",
+    "next": "QQQ!"
+   }
+  },
+  {
+   "index": 9,
+   "start": 32.0,
+   "end": 32.2,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.006,
+   "pan_px": 82.9,
+   "after_hold": 9,
+   "zoom_from": 1.399,
+   "zoom_to": 1.403,
+   "zoom_ratio": 1.003,
+   "caption_offset_s": 1.2,
+   "caption_text": "Q00, WE HAD A PRIMARY AT 729,",
+   "transcript": {
+    "recording_t": 280.78,
+    "cue_i": 15,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "All right, we had a primary at 729, came down\u2026 I believe it came\u2026 did not go lower?",
+    "into_cue_s": -2.56,
+    "cue_dur": 7.07,
+    "in_gap": false,
+    "prev": "QQQ!",
+    "next": "Guess not. Guess it just came down from $7.29 to 722, and then held 722."
+   }
+  },
+  {
+   "index": 10,
+   "start": 34.4,
+   "end": 35.4,
+   "dur": 1.0,
+   "type": "ramp",
+   "log_scale": 0.02,
+   "pan_px": 93.9,
+   "after_hold": 10,
+   "zoom_from": 1.403,
+   "zoom_to": 1.41,
+   "zoom_ratio": 1.005,
+   "caption_offset_s": 1.0,
+   "caption_text": "GAME DUWN.... GUESS HT JUST GAME DOWN FROM",
+   "transcript": {
+    "recording_t": 286.43,
+    "cue_i": 15,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "All right, we had a primary at 729, came down\u2026 I believe it came\u2026 did not go lower?",
+    "into_cue_s": 3.09,
+    "cue_dur": 7.07,
+    "in_gap": false,
+    "prev": "QQQ!",
+    "next": "Guess not. Guess it just came down from $7.29 to 722, and then held 722."
+   }
+  },
+  {
+   "index": 11,
+   "start": 37.8,
+   "end": 38.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.012,
+   "pan_px": 38.3,
+   "after_hold": 11,
+   "zoom_from": 1.41,
+   "zoom_to": 1.423,
+   "zoom_ratio": 1.009,
+   "caption_offset_s": -1.1,
+   "caption_text": "729 TO 722. AND THEN HELD",
+   "transcript": {
+    "recording_t": 296.47,
+    "cue_i": 16,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Guess not. Guess it just came down from $7.29 to 722, and then held 722.",
+    "into_cue_s": 3.89,
+    "cue_dur": 5.22,
+    "in_gap": false,
+    "prev": "All right, we had a primary at 729, came down\u2026 I believe it came\u2026 did not go lower?",
+    "next": "Most of the morning."
+   }
+  },
+  {
+   "index": 12,
+   "start": 39.4,
+   "end": 39.5,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.005,
+   "pan_px": 10.0,
+   "after_hold": 12,
+   "zoom_from": 1.423,
+   "zoom_to": 1.44,
+   "zoom_ratio": 1.012,
+   "caption_offset_s": 0.5,
+   "caption_text": "722 MOST OF THE MORNING.",
+   "transcript": {
+    "recording_t": 298.07,
+    "cue_i": 17,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Most of the morning.",
+    "into_cue_s": -0.55,
+    "cue_dur": 2.83,
+    "in_gap": false,
+    "prev": "Guess not. Guess it just came down from $7.29 to 722, and then held 722.",
+    "next": "Right here, the clearest map I see is on SPY."
+   }
+  },
+  {
+   "index": 13,
+   "start": 41.0,
+   "end": 41.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.351,
+   "pan_px": 327.5,
+   "after_hold": 13,
+   "zoom_from": 1.44,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.694,
+   "caption_offset_s": 0.0,
+   "caption_text": "RIGHT HERE. THE",
+   "transcript": {
+    "recording_t": 299.67,
+    "cue_i": 18,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Right here, the clearest map I see is on SPY.",
+    "into_cue_s": -2.26,
+    "cue_dur": 3.47,
+    "in_gap": false,
+    "prev": "Most of the morning.",
+    "next": "Lot of resistance, not a lot of support until kind of this area down here at 767."
+   }
+  },
+  {
+   "index": 14,
+   "start": 44.7,
+   "end": 44.9,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.488,
+   "pan_px": 332.5,
+   "after_hold": 14,
+   "zoom_from": 1.0,
+   "zoom_to": 1.681,
+   "zoom_ratio": 1.681,
+   "caption_offset_s": -1.4,
+   "caption_text": "LOT OF RESISTANCE , NOT A LOT",
+   "transcript": {
+    "recording_t": 303.37,
+    "cue_i": 19,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Lot of resistance, not a lot of support until kind of this area down here at 767.",
+    "into_cue_s": -2.7,
+    "cue_dur": 6.39,
+    "in_gap": false,
+    "prev": "Right here, the clearest map I see is on SPY.",
+    "next": "However, that's not the case for SPX, right? We do have a really strong support at 7724, primary below, kind of boxed in, 77.40, let's call it 7720 as our box."
+   }
+  },
+  {
+   "index": 15,
+   "start": 48.3,
+   "end": 48.5,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.487,
+   "pan_px": 257.8,
+   "after_hold": 15,
+   "zoom_from": 1.681,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.595,
+   "caption_offset_s": 0.1,
+   "caption_text": "DOWN HERE",
+   "transcript": {
+    "recording_t": 310.41,
+    "cue_i": 19,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Lot of resistance, not a lot of support until kind of this area down here at 767.",
+    "into_cue_s": 4.34,
+    "cue_dur": 6.39,
+    "in_gap": false,
+    "prev": "Right here, the clearest map I see is on SPY.",
+    "next": "However, that's not the case for SPX, right? We do have a really strong support at 7724, primary below, kind of boxed in, 77.40, let's call it 7720 as our box."
+   }
+  },
+  {
+   "index": 16,
+   "start": 50.6,
+   "end": 50.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.471,
+   "pan_px": 109.8,
+   "after_hold": 16,
+   "zoom_from": 1.0,
+   "zoom_to": 1.603,
+   "zoom_ratio": 1.603,
+   "caption_offset_s": 0.7,
+   "caption_text": "HUWEVER, THATS NUT TRE GASE FUR SPX. RIGHT",
+   "transcript": {
+    "recording_t": 312.71,
+    "cue_i": 19,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Lot of resistance, not a lot of support until kind of this area down here at 767.",
+    "into_cue_s": 6.64,
+    "cue_dur": 6.39,
+    "in_gap": true,
+    "prev": "Right here, the clearest map I see is on SPY.",
+    "next": "However, that's not the case for SPX, right? We do have a really strong support at 7724, primary below, kind of boxed in, 77.40, let's call it 7720 as our box."
+   }
+  },
+  {
+   "index": 17,
+   "start": 62.2,
+   "end": 62.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.011,
+   "pan_px": 400.0,
+   "after_hold": 17,
+   "zoom_from": 1.603,
+   "zoom_to": 1.599,
+   "zoom_ratio": 0.998,
+   "caption_offset_s": 0.1,
+   "caption_text": "O'S. JUST AS NOISY.",
+   "transcript": {
+    "recording_t": 324.31,
+    "cue_i": 21,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "queues, just as noisy. We got 723, 722, and 721 as our negative, kind of, regime.",
+    "into_cue_s": -2.89,
+    "cue_dur": 10.3,
+    "in_gap": false,
+    "prev": "However, that's not the case for SPX, right? We do have a really strong support at 7724, primary below, kind of boxed in, 77.40, let's call it 7720 as our box.",
+    "next": "Don't really have a ton of support at 720, so I think after a second tap, we break through."
+   }
+  },
+  {
+   "index": 18,
+   "start": 74.8,
+   "end": 75.5,
+   "dur": 0.7,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 64.5,
+   "after_hold": 18,
+   "zoom_from": 1.599,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0,
+   "caption_text": "MeuuUuuLecsousuuounee",
+   "transcript": {
+    "recording_t": 342.45,
+    "cue_i": 22,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Don't really have a ton of support at 720, so I think after a second tap, we break through.",
+    "into_cue_s": 4.14,
+    "cue_dur": 5.04,
+    "in_gap": false,
+    "prev": "queues, just as noisy. We got 723, 722, and 721 as our negative, kind of, regime.",
+    "next": "Notice, things changed immediately here on SPY. Ton of\u2026 ton of resistance, not a lot of support. Support showed up. Okay? Right here, this is what we're seeing. Chop."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  3.1,
+  6.6,
+  9.4,
+  13.0,
+  14.5,
+  17.7,
+  20.5,
+  22.8,
+  24.0,
+  25.8,
+  27.1,
+  28.1,
+  29.6,
+  30.8,
+  33.4,
+  36.4,
+  38.9,
+  41.0,
+  42.5,
+  46.1,
+  48.2,
+  49.9,
+  52.5,
+  54.3,
+  56.0,
+  59.9,
+  62.1,
+  64.1,
+  67.8,
+  70.1,
+  71.5,
+  73.0,
+  74.8
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 1.55,
+    "t1": 1.55,
+    "offset": 240.6,
+    "n": 1
+   },
+   {
+    "t0": 11.2,
+    "t1": 19.1,
+    "offset": 244.08,
+    "n": 4
+   },
+   {
+    "t0": 26.45,
+    "t1": 30.2,
+    "offset": 248.78,
+    "n": 2
+   },
+   {
+    "t0": 32.1,
+    "t1": 32.1,
+    "offset": 252.03,
+    "n": 1
+   },
+   {
+    "t0": 37.65,
+    "t1": 41.75,
+    "offset": 258.67,
+    "n": 3
+   },
+   {
+    "t0": 47.15,
+    "t1": 61.0,
+    "offset": 262.11,
+    "n": 4
+   },
+   {
+    "t0": 63.1,
+    "t1": 65.95,
+    "offset": 264.28,
+    "n": 2
+   },
+   {
+    "t0": 70.8,
+    "t1": 73.9,
+    "offset": 267.65,
+    "n": 3
+   }
+  ],
+  "matched": 21,
+  "used": 20,
+  "captions": 33,
+  "share": 0.95,
+  "cues": [
+   7,
+   8,
+   9,
+   10,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.55,
+   "text": "SPX PRIMARY STARTED UP HERE,"
+  },
+  {
+   "t": 4.85,
+   "text": "GAME UUWN TU 0 90, ANU TREN TTS HELD"
+  },
+  {
+   "t": 8.0,
+   "text": "FF VOTARUUGH MUST UF TRIS AINUA CHOP."
+  },
+  {
+   "t": 11.2,
+   "text": "OFY PRIMARY, WE HELD TT IN THE MORNING."
+  },
+  {
+   "t": 13.75,
+   "text": "BROKE BELOW THE MOMENT IT"
+  },
+  {
+   "t": 16.1,
+   "text": "MUVED DUWN, AND THEN WE KIND UF BEEN"
+  },
+  {
+   "t": 19.1,
+   "text": "BUUNGING BETWEEN .1 AND U UN SPY."
+  },
+  {
+   "t": 21.65,
+   "text": "AIGA NUWHT LUUKRO LIKE GUR RESISTANCE ."
+  },
+  {
+   "t": 23.4,
+   "text": "WEHAVE THREE RESISTANCE"
+  },
+  {
+   "t": 24.9,
+   "text": "TOTHEUPSIDEHEREONSPY."
+  },
+  {
+   "t": 26.45,
+   "text": "NOTHING TO REALLY HOLDUS."
+  },
+  {
+   "t": 27.6,
+   "text": "XX SOWEMIGHTDROD tt"
+  },
+  {
+   "t": 28.85,
+   "text": "QR SPY CAN DROP IS THE"
+  },
+  {
+   "t": 30.2,
+   "text": "WAY YOU WANNA THINK ABOUT IT."
+  },
+  {
+   "t": 32.1,
+   "text": "Q00, WE HAD A PRIMARY AT 729,"
+  },
+  {
+   "t": 34.9,
+   "text": "GAME DUWN.... GUESS HT JUoT GAME DOWN FROM"
+  },
+  {
+   "t": 37.65,
+   "text": "729 TO 722. AND THEN HELD"
+  },
+  {
+   "t": 39.95,
+   "text": "722 MOST OF THE MORNING."
+  },
+  {
+   "t": 41.75,
+   "text": "RIGHT HERE, THE CLEAREST MAP"
+  },
+  {
+   "t": 44.3,
+   "text": "LOTOFRESISTANCE, NOTA"
+  },
+  {
+   "t": 47.15,
+   "text": "OF SUPPORT UNTIL KINDA THIS AREA"
+  },
+  {
+   "t": 49.05,
+   "text": "DOWN HERE AT 767."
+  },
+  {
+   "t": 51.2,
+   "text": "HUWEVER, THATS NUT TRE GASE FUR SPX. RIGHT"
+  },
+  {
+   "t": 53.4,
+   "text": "WE DOHAVEA"
+  },
+  {
+   "t": 55.15,
+   "text": "REALLY STRONG SUPPORT AT 77724."
+  },
+  {
+   "t": 57.95,
+   "text": "PRIMARY BELUW AINUA BUAEU IN, 7740."
+  },
+  {
+   "t": 61.0,
+   "text": "LET'S CALL IT 7720 AS OUR BOX."
+  },
+  {
+   "t": 63.1,
+   "text": "O'S JUST AS NOISY"
+  },
+  {
+   "t": 65.95,
+   "text": "WE GOT 723. 722. AND 721"
+  },
+  {
+   "t": 68.95,
+   "text": "AS OUR NEGATIVE KIND OF REGIME."
+  },
+  {
+   "t": 70.8,
+   "text": "DON'T REALLY HAVE A TON OF"
+  },
+  {
+   "t": 72.25,
+   "text": "SUPPORT AT 720, S01 THINK AFTER"
+  },
+  {
+   "t": 73.9,
+   "text": "A SECOND TAP WE BREAK THROUGH."
+  },
+  {
+   "t": 76.94,
+   "text": ""
+  }
+ ]
+}

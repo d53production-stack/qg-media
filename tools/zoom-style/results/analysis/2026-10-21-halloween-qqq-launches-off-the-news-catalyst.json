@@ -1,0 +1,916 @@
+{
+ "clip": "2026-10-21-halloween-qqq-launches-off-the-news-catalyst",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 68.6,
+ "sample_fps": 10,
+ "widest_hold": 1,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.1,
+   "dur": 0.1,
+   "features": 764,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 10.1,
+   "dur": 9.5,
+   "features": 1479,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 10.3,
+   "end": 14.9,
+   "dur": 4.6,
+   "features": 1493,
+   "kind": "video",
+   "zoom": 1.623,
+   "center": [
+    0.611,
+    0.399
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1622,
+    "share": 0.0019,
+    "center": [
+     0.584,
+     0.719
+    ],
+    "bbox": [
+     0.48,
+     0.242,
+     0.676,
+     0.827
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 15.2,
+   "end": 16.4,
+   "dur": 1.2,
+   "features": 1476,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 4,
+   "start": 16.6,
+   "end": 18.0,
+   "dur": 1.4,
+   "features": 1486,
+   "kind": "video",
+   "zoom": 1.521,
+   "center": [
+    0.768,
+    0.492
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1731,
+    "share": 0.00203,
+    "center": [
+     0.879,
+     0.517
+    ],
+    "bbox": [
+     0.784,
+     0.454,
+     0.993,
+     0.575
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 18.2,
+   "end": 20.2,
+   "dur": 2.0,
+   "features": 1461,
+   "kind": "video",
+   "zoom": 1.534,
+   "center": [
+    0.794,
+    0.414
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1763,
+    "share": 0.00207,
+    "center": [
+     0.857,
+     0.45
+    ],
+    "bbox": [
+     0.712,
+     0.396,
+     0.956,
+     0.513
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 20.4,
+   "end": 22.8,
+   "dur": 2.4,
+   "features": 1479,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 23.1,
+   "end": 27.3,
+   "dur": 4.2,
+   "features": 1462,
+   "kind": "video",
+   "zoom": 1.544,
+   "center": [
+    0.814,
+    0.341
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1466,
+    "share": 0.00172,
+    "center": [
+     0.69,
+     0.497
+    ],
+    "bbox": [
+     0.655,
+     0.284,
+     0.776,
+     0.614
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 27.6,
+   "end": 29.9,
+   "dur": 2.3,
+   "features": 1474,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 9,
+   "start": 30.2,
+   "end": 34.7,
+   "dur": 4.5,
+   "features": 1490,
+   "kind": "video",
+   "zoom": 1.535,
+   "center": [
+    0.777,
+    0.544
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2894,
+    "share": 0.00339,
+    "center": [
+     0.837,
+     0.555
+    ],
+    "bbox": [
+     0.769,
+     0.334,
+     0.902,
+     0.744
+    ]
+   }
+  },
+  {
+   "index": 10,
+   "start": 34.9,
+   "end": 38.0,
+   "dur": 3.1,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.48,
+   "center": [
+    0.675,
+    0.535
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1837,
+    "share": 0.00215,
+    "center": [
+     0.535,
+     0.562
+    ],
+    "bbox": [
+     0.427,
+     0.473,
+     0.61,
+     0.629
+    ]
+   }
+  },
+  {
+   "index": 11,
+   "start": 38.3,
+   "end": 64.6,
+   "dur": 26.3,
+   "features": 1480,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 123,
+    "share": 0.00014,
+    "center": [
+     0.427,
+     0.219
+    ],
+    "bbox": [
+     0.147,
+     0.213,
+     0.493,
+     0.257
+    ]
+   }
+  },
+  {
+   "index": 12,
+   "start": 65.0,
+   "end": 68.6,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.1,
+   "end": 0.6,
+   "dur": 0.5,
+   "type": "ramp",
+   "log_scale": -0.238,
+   "pan_px": 81.5,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -2.0,
+   "caption_text": "ANU Ir YUU HAVE AULLESS U",
+   "transcript": {
+    "recording_t": 3655.36,
+    "cue_i": 287,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "on spiders\u2026",
+    "into_cue_s": 6.21,
+    "cue_dur": 1.45,
+    "in_gap": true,
+    "prev": "Support grew here at 771 and 770.",
+    "next": "And if you have access to the console, you should see that, Russians accepted a U.S. proposal for a trilateral meeting."
+   }
+  },
+  {
+   "index": 1,
+   "start": 10.1,
+   "end": 10.3,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.466,
+   "pan_px": 232.7,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.623,
+   "zoom_ratio": 1.623,
+   "caption_offset_s": -0.5,
+   "caption_text": "AND GUESS WHAT NOW. GUYS",
+   "transcript": {
+    "recording_t": 3687.83,
+    "cue_i": 290,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And guess what now, guys?",
+    "into_cue_s": 0.05,
+    "cue_dur": 1.61,
+    "in_gap": false,
+    "prev": "with Ukraine. We'll see if that has a reaction here in the market.",
+    "next": "we have\u2026 a launchpad."
+   }
+  },
+  {
+   "index": 2,
+   "start": 14.9,
+   "end": 15.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.482,
+   "pan_px": 179.3,
+   "after_hold": 2,
+   "zoom_from": 1.623,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.616,
+   "caption_offset_s": 0.7,
+   "caption_text": "LET'S HOLD OVER THIS 725 ON Q'S.",
+   "transcript": {
+    "recording_t": 3715.68,
+    "cue_i": 296,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let's hold over the 725.",
+    "into_cue_s": -0.8,
+    "cue_dur": 2.71,
+    "in_gap": false,
+    "prev": "Have you oughta",
+    "next": "on queues\u2026 As soon as we hold over that\u2026 727 should take primary."
+   }
+  },
+  {
+   "index": 3,
+   "start": 16.4,
+   "end": 16.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.407,
+   "pan_px": 328.0,
+   "after_hold": 3,
+   "zoom_from": 1.0,
+   "zoom_to": 1.521,
+   "zoom_ratio": 1.521,
+   "caption_offset_s": -0.8,
+   "caption_text": "LET'S HOLD OVER THIS 725 ON Q'S.",
+   "transcript": {
+    "recording_t": 3717.18,
+    "cue_i": 296,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let's hold over the 725.",
+    "into_cue_s": 0.7,
+    "cue_dur": 2.71,
+    "in_gap": false,
+    "prev": "Have you oughta",
+    "next": "on queues\u2026 As soon as we hold over that\u2026 727 should take primary."
+   }
+  },
+  {
+   "index": 4,
+   "start": 18.0,
+   "end": 18.2,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.008,
+   "pan_px": 49.5,
+   "after_hold": 4,
+   "zoom_from": 1.521,
+   "zoom_to": 1.534,
+   "zoom_ratio": 1.009,
+   "caption_offset_s": 0.8,
+   "caption_text": "SOON AS WE HOLD OVER THAT,",
+   "transcript": {
+    "recording_t": 3718.78,
+    "cue_i": 297,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "on queues\u2026 As soon as we hold over that\u2026 727 should take primary.",
+    "into_cue_s": -0.89,
+    "cue_dur": 6.23,
+    "in_gap": false,
+    "prev": "Let's hold over the 725.",
+    "next": "Now, I want to be very clear, I'm not telling you what to do, but\u2026"
+   }
+  },
+  {
+   "index": 5,
+   "start": 20.2,
+   "end": 20.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.415,
+   "pan_px": 269.4,
+   "after_hold": 5,
+   "zoom_from": 1.534,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.652,
+   "caption_offset_s": 0.1,
+   "caption_text": "INORDER FOR IT",
+   "transcript": {
+    "recording_t": 3775.08,
+    "cue_i": 305,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "In order for it to be a trapdoor, it would need to be\u2026 like, for example, 730 is more of a trapdoor.",
+    "into_cue_s": -0.76,
+    "cue_dur": 6.23,
+    "in_gap": false,
+    "prev": "Because you have a positive, right? You're sandwiched.",
+    "next": "Because you have two negatives."
+   }
+  },
+  {
+   "index": 6,
+   "start": 22.8,
+   "end": 23.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.432,
+   "pan_px": 361.1,
+   "after_hold": 6,
+   "zoom_from": 1.0,
+   "zoom_to": 1.544,
+   "zoom_ratio": 1.544,
+   "caption_offset_s": 0.0,
+   "caption_text": "EXAMPLE. 7-2",
+   "transcript": {
+    "recording_t": 3777.68,
+    "cue_i": 305,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "In order for it to be a trapdoor, it would need to be\u2026 like, for example, 730 is more of a trapdoor.",
+    "into_cue_s": 1.84,
+    "cue_dur": 6.23,
+    "in_gap": false,
+    "prev": "Because you have a positive, right? You're sandwiched.",
+    "next": "Because you have two negatives."
+   }
+  },
+  {
+   "index": 7,
+   "start": 27.3,
+   "end": 27.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.431,
+   "pan_px": 281.3,
+   "after_hold": 7,
+   "zoom_from": 1.544,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.648,
+   "caption_offset_s": 0.0,
+   "caption_text": "THE MURE NEGATIVES,",
+   "transcript": {
+    "recording_t": 3785.29,
+    "cue_i": 306,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Because you have two negatives.",
+    "into_cue_s": 2.18,
+    "cue_dur": 1.85,
+    "in_gap": true,
+    "prev": "In order for it to be a trapdoor, it would need to be\u2026 like, for example, 730 is more of a trapdoor.",
+    "next": "The more negatives, the bigger the door."
+   }
+  },
+  {
+   "index": 8,
+   "start": 29.9,
+   "end": 30.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.426,
+   "pan_px": 369.0,
+   "after_hold": 8,
+   "zoom_from": 1.0,
+   "zoom_to": 1.535,
+   "zoom_ratio": 1.535,
+   "caption_offset_s": 0.0,
+   "caption_text": "WOULD",
+   "transcript": {
+    "recording_t": 3787.89,
+    "cue_i": 307,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "The more negatives, the bigger the door.",
+    "into_cue_s": 2.49,
+    "cue_dur": 2.22,
+    "in_gap": true,
+    "prev": "Because you have two negatives.",
+    "next": "The bigger the launch."
+   }
+  },
+  {
+   "index": 9,
+   "start": 34.7,
+   "end": 34.9,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.036,
+   "pan_px": 89.1,
+   "after_hold": 9,
+   "zoom_from": 1.535,
+   "zoom_to": 1.48,
+   "zoom_ratio": 0.964,
+   "caption_offset_s": -0.7,
+   "caption_text": "WE'VE ALREADY KIND OF USED IT UP",
+   "transcript": {
+    "recording_t": 3806.74,
+    "cue_i": 309,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "I would say right here, this is technically a trapdoor on queues, but we've already kind of used it up.",
+    "into_cue_s": 4.41,
+    "cue_dur": 5.24,
+    "in_gap": false,
+    "prev": "The bigger the launch.",
+    "next": "And we're seeing support grow on\u2026 on spiders, so I'm not\u2026 Taking that trapdoor trade."
+   }
+  },
+  {
+   "index": 10,
+   "start": 38.0,
+   "end": 38.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.391,
+   "pan_px": 218.2,
+   "after_hold": 10,
+   "zoom_from": 1.48,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.676,
+   "caption_offset_s": 0.5,
+   "caption_text": "QUE MNUT TAKING THAT RAPUUUR TRADE",
+   "transcript": {
+    "recording_t": 3810.04,
+    "cue_i": 310,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And we're seeing support grow on\u2026 on spiders, so I'm not\u2026 Taking that trapdoor trade.",
+    "into_cue_s": 0.7,
+    "cue_dur": 5.83,
+    "in_gap": false,
+    "prev": "I would say right here, this is technically a trapdoor on queues, but we've already kind of used it up.",
+    "next": "Does that make sense, Isa?"
+   }
+  },
+  {
+   "index": 11,
+   "start": 64.6,
+   "end": 65.0,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.003,
+   "pan_px": 149.2,
+   "after_hold": 11,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "saanenenanononeeueues",
+   "transcript": {
+    "recording_t": 4378.03,
+    "cue_i": 351,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Have a great day, everybody.",
+    "into_cue_s": 1.15,
+    "cue_dur": 1.5,
+    "in_gap": false,
+    "prev": "See you guys tomorrow, same time?",
+    "next": "Oh, and one last thing."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.1,
+  5.5,
+  7.4,
+  9.5,
+  10.6,
+  12.4,
+  14.2,
+  17.2,
+  19.0,
+  20.1,
+  21.6,
+  22.8,
+  24.9,
+  27.3,
+  28.9,
+  29.9,
+  31.2,
+  33.2,
+  35.4,
+  37.5,
+  39.2,
+  40.9,
+  43.7,
+  45.3,
+  47.3,
+  49.8,
+  61.8,
+  63.0,
+  63.9
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 8.45,
+    "t1": 8.45,
+    "offset": 3655.26,
+    "n": 1
+   },
+   {
+    "t0": 10.05,
+    "t1": 10.05,
+    "offset": 3677.73,
+    "n": 1
+   },
+   {
+    "t0": 15.7,
+    "t1": 15.7,
+    "offset": 3700.78,
+    "n": 1
+   },
+   {
+    "t0": 18.1,
+    "t1": 19.55,
+    "offset": 3703.72,
+    "n": 2
+   },
+   {
+    "t0": 20.85,
+    "t1": 22.2,
+    "offset": 3754.88,
+    "n": 2
+   },
+   {
+    "t0": 28.1,
+    "t1": 29.4,
+    "offset": 3757.99,
+    "n": 2
+   },
+   {
+    "t0": 30.55,
+    "t1": 36.45,
+    "offset": 3772.04,
+    "n": 3
+   },
+   {
+    "t0": 40.05,
+    "t1": 42.3,
+    "offset": 3877.31,
+    "n": 2
+   },
+   {
+    "t0": 44.5,
+    "t1": 44.5,
+    "offset": 3893.77,
+    "n": 1
+   },
+   {
+    "t0": 46.3,
+    "t1": 46.3,
+    "offset": 3951.11,
+    "n": 1
+   },
+   {
+    "t0": 48.55,
+    "t1": 48.55,
+    "offset": 3983.61,
+    "n": 1
+   },
+   {
+    "t0": 62.4,
+    "t1": 62.4,
+    "offset": 4308.07,
+    "n": 1
+   },
+   {
+    "t0": 63.45,
+    "t1": 63.45,
+    "offset": 4313.43,
+    "n": 1
+   }
+  ],
+  "matched": 20,
+  "used": 19,
+  "captions": 30,
+  "share": 0.95,
+  "cues": [
+   288,
+   289,
+   290,
+   296,
+   297,
+   304,
+   305,
+   306,
+   307,
+   308,
+   309,
+   310,
+   313,
+   314,
+   316,
+   322,
+   325,
+   350,
+   351
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.05,
+   "text": "ANU Ir YUU HAVE AGGESo IU THE CONSOLE."
+  },
+  {
+   "t": 3.8,
+   "text": "RUSSIANS AGUEPTED A US PRUPUSAL FOR"
+  },
+  {
+   "t": 6.45,
+   "text": "A TRILATERAL MEETING WITR UKRAINE."
+  },
+  {
+   "t": 8.45,
+   "text": "WE'LL SEE IF THAT HAS A"
+  },
+  {
+   "t": 10.05,
+   "text": "AND GUESS WHAT NOW. GUYS"
+  },
+  {
+   "t": 11.5,
+   "text": "WE HAVE A LAUNCH PAD."
+  },
+  {
+   "t": 13.3,
+   "text": "POSITIVE, NEGATIVE, VOID"
+  },
+  {
+   "t": 15.7,
+   "text": "LET'S HOLD OVER THIS 725 ON Q'S."
+  },
+  {
+   "t": 18.1,
+   "text": "SOON AS WE HOLD OVER THAT,"
+  },
+  {
+   "t": 19.55,
+   "text": "727 SHOULD TAKE PRIMARY"
+  },
+  {
+   "t": 20.85,
+   "text": "- INORDER FOR IT TO BE A TRAP DOOR"
+  },
+  {
+   "t": 22.2,
+   "text": "IT WOULD NEED TO BE... LIKE, FOR"
+  },
+  {
+   "t": 23.85,
+   "text": "EXAMPLE 7 30ISMOREOFA"
+  },
+  {
+   "t": 26.1,
+   "text": "TRAP JUUR BELAUSE YUU HAVE TWO NEGATIVES."
+  },
+  {
+   "t": 28.1,
+   "text": "THE MURE NEUATIVES, THE BIGGER THE DOOR."
+  },
+  {
+   "t": 29.4,
+   "text": "THE BIGGER THE LAUNCH"
+  },
+  {
+   "t": 30.55,
+   "text": "WOULD SAY RIGHT HERE."
+  },
+  {
+   "t": 32.2,
+   "text": "TAPS TS TEGHINIGALLY A TP hAPUUUR UN QUEUES. BUT"
+  },
+  {
+   "t": 34.3,
+   "text": "WE'VE ALREADY KIND OF USED IT UP"
+  },
+  {
+   "t": 36.45,
+   "text": "AND WERE SEEING oUPFUR GRUW UN SPIDERS,"
+  },
+  {
+   "t": 38.35,
+   "text": "QU PMNUT TAKING THAT RAPUUUR TRADE"
+  },
+  {
+   "t": 40.05,
+   "text": "ALL UUR PRIMARIES ARE NUW ABUVE US."
+  },
+  {
+   "t": 42.3,
+   "text": "LET'S HOLD THIS 725 SUPPORT ON Q'S"
+  },
+  {
+   "t": 44.5,
+   "text": "TONS OF INTEREST UP HERE"
+  },
+  {
+   "t": 46.3,
+   "text": "THAT 725 IS HOLDING"
+  },
+  {
+   "t": 48.55,
+   "text": "LED O HAVE THAT PRIMARY AULD Al 127"
+  },
+  {
+   "t": 55.8,
+   "text": "seanenannnasoneaneues"
+  },
+  {
+   "t": 62.4,
+   "text": "SEE YOU GUYS TOMORROW, SAME TIME"
+  },
+  {
+   "t": 63.45,
+   "text": "HAVE A GREAT DAY, EVERYBODY."
+  },
+  {
+   "t": 66.25,
+   "text": "Pa ss shes"
+  }
+ ]
+}

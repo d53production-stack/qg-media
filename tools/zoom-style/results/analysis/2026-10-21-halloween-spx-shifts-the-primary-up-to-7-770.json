@@ -1,0 +1,637 @@
+{
+ "clip": "2026-10-21-halloween-spx-shifts-the-primary-up-to-7-770",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 48.03,
+ "sample_fps": 10,
+ "widest_hold": 8,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1305,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 10.8,
+   "dur": 10.2,
+   "features": 1480,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.473,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 100,
+    "share": 0.00012,
+    "center": [
+     0.473,
+     0.239
+    ],
+    "bbox": [
+     0.425,
+     0.235,
+     0.522,
+     0.242
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 11.1,
+   "end": 12.6,
+   "dur": 1.5,
+   "features": 1490,
+   "kind": "video",
+   "zoom": 1.411,
+   "center": [
+    0.658,
+    0.472
+   ],
+   "direct": true,
+   "ink": {
+    "px": 638,
+    "share": 0.00075,
+    "center": [
+     0.505,
+     0.482
+    ],
+    "bbox": [
+     0.467,
+     0.476,
+     0.544,
+     0.49
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 12.8,
+   "end": 16.6,
+   "dur": 3.8,
+   "features": 1483,
+   "kind": "video",
+   "zoom": 1.366,
+   "center": [
+    0.332,
+    0.364
+   ],
+   "direct": true,
+   "ink": {
+    "px": 170,
+    "share": 0.0002,
+    "center": [
+     0.563,
+     0.292
+    ],
+    "bbox": [
+     0.509,
+     0.284,
+     0.601,
+     0.306
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 16.8,
+   "end": 18.2,
+   "dur": 1.4,
+   "features": 1480,
+   "kind": "video",
+   "zoom": 1.605,
+   "center": [
+    0.333,
+    0.295
+   ],
+   "direct": true,
+   "ink": {
+    "px": 34,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 5,
+   "start": 18.5,
+   "end": 19.2,
+   "dur": 0.7,
+   "features": 1484,
+   "kind": "video",
+   "zoom": 1.47,
+   "center": [
+    0.331,
+    0.65
+   ],
+   "direct": true,
+   "ink": {
+    "px": 286,
+    "share": 0.00034,
+    "center": [
+     0.629,
+     0.587
+    ],
+    "bbox": [
+     0.596,
+     0.585,
+     0.662,
+     0.59
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 19.5,
+   "end": 21.4,
+   "dur": 1.9,
+   "features": 1485,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 866,
+    "share": 0.00102,
+    "center": [
+     0.452,
+     0.706
+    ],
+    "bbox": [
+     0.341,
+     0.7,
+     0.575,
+     0.715
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 21.7,
+   "end": 23.7,
+   "dur": 2.0,
+   "features": 1497,
+   "kind": "video",
+   "zoom": 1.562,
+   "center": [
+    0.637,
+    0.502
+   ],
+   "direct": true,
+   "ink": {
+    "px": 184,
+    "share": 0.00022,
+    "center": [
+     0.525,
+     0.503
+    ],
+    "bbox": [
+     0.485,
+     0.476,
+     0.583,
+     0.515
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 24.0,
+   "end": 44.1,
+   "dur": 20.1,
+   "features": 1478,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 6135,
+    "share": 0.00719,
+    "center": [
+     0.496,
+     0.423
+    ],
+    "bbox": [
+     0.231,
+     0.1,
+     0.805,
+     0.789
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 44.5,
+   "end": 48.1,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 35.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -3.1,
+   "caption_text": "PRIMARY MUVEU UP FRUM , UU TU 7,770.",
+   "transcript": {
+    "recording_t": 546.31,
+    "cue_i": 37,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Well, primary moved up from $7,700 to 7770. They're battling.",
+    "into_cue_s": 6.1,
+    "cue_dur": 6.2,
+    "in_gap": false,
+    "prev": "Primary moved up from $7,700.",
+    "next": "for the primary note, I think as soon as this takes primary, and then this one starts to really reduce in value."
+   }
+  },
+  {
+   "index": 1,
+   "start": 10.8,
+   "end": 11.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.344,
+   "pan_px": 228.8,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.411,
+   "zoom_ratio": 1.411,
+   "caption_offset_s": -0.5,
+   "caption_text": "NOTICE IF WE HOLD OVER 769,",
+   "transcript": {
+    "recording_t": 821.59,
+    "cue_i": 57,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Notice if we hold over 769, this resistance has diminished.",
+    "into_cue_s": 0.88,
+    "cue_dur": 3.95,
+    "in_gap": false,
+    "prev": "In this area, you click on that, and it should show you the full read.",
+    "next": "Let's see if we can get a pop, let's see if this primary up here at 77.70 holds."
+   }
+  },
+  {
+   "index": 2,
+   "start": 12.6,
+   "end": 12.8,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.05,
+   "pan_px": 260.3,
+   "after_hold": 2,
+   "zoom_from": 1.411,
+   "zoom_to": 1.366,
+   "zoom_ratio": 0.968,
+   "caption_offset_s": 0.1,
+   "caption_text": "ry ae ae LET'S SE FIF WE a ee ee",
+   "transcript": {
+    "recording_t": 823.39,
+    "cue_i": 57,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Notice if we hold over 769, this resistance has diminished.",
+    "into_cue_s": 2.68,
+    "cue_dur": 3.95,
+    "in_gap": false,
+    "prev": "In this area, you click on that, and it should show you the full read.",
+    "next": "Let's see if we can get a pop, let's see if this primary up here at 77.70 holds."
+   }
+  },
+  {
+   "index": 3,
+   "start": 16.6,
+   "end": 16.8,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.156,
+   "pan_px": 43.9,
+   "after_hold": 3,
+   "zoom_from": 1.366,
+   "zoom_to": 1.605,
+   "zoom_ratio": 1.175,
+   "caption_offset_s": 0.0,
+   "caption_text": "IIa Se LF T'S SEE THIS",
+   "transcript": {
+    "recording_t": 868.41,
+    "cue_i": 61,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And now you have the arrows to choose from as well.",
+    "into_cue_s": 14.1,
+    "cue_dur": 2.52,
+    "in_gap": true,
+    "prev": "So you could pick one or the other.",
+    "next": "Bulls\u2026 Let's see this grow, let's see this diminish."
+   }
+  },
+  {
+   "index": 4,
+   "start": 18.2,
+   "end": 18.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.087,
+   "pan_px": 194.9,
+   "after_hold": 4,
+   "zoom_from": 1.605,
+   "zoom_to": 1.47,
+   "zoom_ratio": 0.916,
+   "caption_offset_s": 0.5,
+   "caption_text": "LET'S SEE",
+   "transcript": {
+    "recording_t": 870.01,
+    "cue_i": 62,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Bulls\u2026 Let's see this grow, let's see this diminish.",
+    "into_cue_s": 0.96,
+    "cue_dur": 5.05,
+    "in_gap": false,
+    "prev": "And now you have the arrows to choose from as well.",
+    "next": "This is diminishing."
+   }
+  },
+  {
+   "index": 5,
+   "start": 19.2,
+   "end": 19.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.387,
+   "pan_px": 134.7,
+   "after_hold": 5,
+   "zoom_from": 1.47,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.68,
+   "caption_offset_s": 0.0,
+   "caption_text": "THIS IS DIMINISHING.",
+   "transcript": {
+    "recording_t": 898.87,
+    "cue_i": 63,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "This is diminishing.",
+    "into_cue_s": -0.5,
+    "cue_dur": 1.57,
+    "in_gap": false,
+    "prev": "Bulls\u2026 Let's see this grow, let's see this diminish.",
+    "next": "We held 7, what is that, 770?"
+   }
+  },
+  {
+   "index": 6,
+   "start": 21.4,
+   "end": 21.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.441,
+   "pan_px": 264.0,
+   "after_hold": 6,
+   "zoom_from": 1.0,
+   "zoom_to": 1.562,
+   "zoom_ratio": 1.562,
+   "caption_offset_s": 1.2,
+   "caption_text": "WEHELD770.",
+   "transcript": {
+    "recording_t": 901.07,
+    "cue_i": 63,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "This is diminishing.",
+    "into_cue_s": 1.7,
+    "cue_dur": 1.57,
+    "in_gap": false,
+    "prev": "Bulls\u2026 Let's see this grow, let's see this diminish.",
+    "next": "We held 7, what is that, 770?"
+   }
+  },
+  {
+   "index": 7,
+   "start": 23.7,
+   "end": 24.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.439,
+   "pan_px": 204.9,
+   "after_hold": 7,
+   "zoom_from": 1.562,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.64,
+   "caption_offset_s": -0.4,
+   "caption_text": "LET'S CONTINUE UP",
+   "transcript": {
+    "recording_t": 903.37,
+    "cue_i": 66,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let's continue up. What would be my first target?",
+    "into_cue_s": -3.75,
+    "cue_dur": 2.9,
+    "in_gap": false,
+    "prev": "Boom.",
+    "next": "723 and a half."
+   }
+  },
+  {
+   "index": 8,
+   "start": 44.1,
+   "end": 44.5,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 131.4,
+   "after_hold": 8,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 20.0,
+   "caption_text": "seanenanaoaonnaeneues",
+   "transcript": {
+    "recording_t": 923.77,
+    "cue_i": 67,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "723 and a half.",
+    "into_cue_s": 13.15,
+    "cue_dur": 1.58,
+    "in_gap": true,
+    "prev": "Let's continue up. What would be my first target?",
+    "next": "Any questions on any of these setups? Today was actually pretty textbook, in my opinion."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  3.6,
+  5.0,
+  6.5,
+  7.6,
+  9.3,
+  11.3,
+  12.5,
+  13.7,
+  15.2,
+  16.6,
+  17.7,
+  19.2,
+  20.2,
+  24.1
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 4.3,
+    "t1": 7.05,
+    "offset": 545.81,
+    "n": 3
+   },
+   {
+    "t0": 10.3,
+    "t1": 11.9,
+    "offset": 810.79,
+    "n": 2
+   },
+   {
+    "t0": 13.1,
+    "t1": 13.1,
+    "offset": 815.74,
+    "n": 1
+   },
+   {
+    "t0": 17.15,
+    "t1": 18.45,
+    "offset": 851.81,
+    "n": 2
+   },
+   {
+    "t0": 19.7,
+    "t1": 19.7,
+    "offset": 879.67,
+    "n": 1
+   }
+  ],
+  "matched": 9,
+  "used": 9,
+  "captions": 15,
+  "share": 1.0,
+  "cues": [
+   38,
+   39,
+   57,
+   58,
+   62,
+   63,
+   64
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.8,
+   "text": "PRIMARY MUVEU UP FRUM , UU TU 7,770."
+  },
+  {
+   "t": 4.3,
+   "text": "THINK AS SOON AS THIS"
+  },
+  {
+   "t": 5.75,
+   "text": "TAKES PRIMARY AND THEN Ths UNE STARTS"
+  },
+  {
+   "t": 7.05,
+   "text": "TO REALLY REDUCE IN VALUE,"
+  },
+  {
+   "t": 8.45,
+   "text": "WE LL HAVE A NILE MUVE TU TRE UPSIDE"
+  },
+  {
+   "t": 10.3,
+   "text": "NOTICE IF WE HOLD OVER 769,"
+  },
+  {
+   "t": 11.9,
+   "text": "THIS RESISTANCE HAS DIMINISHED"
+  },
+  {
+   "t": 13.1,
+   "text": "LET'S SEE IF WE CAN GET A POP."
+  },
+  {
+   "t": 14.45,
+   "text": "LET'S SEEIFTHISPRIMARY"
+  },
+  {
+   "t": 15.9,
+   "text": "ss UPHEREAT7770HOLDS ts"
+  },
+  {
+   "t": 17.15,
+   "text": "LET'S SEE THIS GROW."
+  },
+  {
+   "t": 18.45,
+   "text": "LET'S SEE THIS DIMINISH"
+  },
+  {
+   "t": 19.7,
+   "text": "THIS IS DIMINISHING."
+  },
+  {
+   "t": 22.15,
+   "text": "WEHELD770."
+  },
+  {
+   "t": 36.06,
+   "text": "Seanenanauananaeueues"
+  }
+ ]
+}

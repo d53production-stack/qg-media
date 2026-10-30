@@ -1,0 +1,1129 @@
+{
+ "clip": "2026-10-27-webinar-part11",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 72.67,
+ "sample_fps": 10,
+ "widest_hold": 10,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1348,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 7.3,
+   "dur": 6.7,
+   "features": 1494,
+   "kind": "video",
+   "zoom": 1.607,
+   "center": [
+    0.362,
+    0.454
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1207,
+    "share": 0.00141,
+    "center": [
+     0.57,
+     0.312
+    ],
+    "bbox": [
+     0.329,
+     0.243,
+     0.865,
+     0.358
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 7.6,
+   "end": 11.5,
+   "dur": 3.9,
+   "features": 1483,
+   "kind": "video",
+   "zoom": 1.462,
+   "center": [
+    0.766,
+    0.418
+   ],
+   "direct": true,
+   "ink": {
+    "px": 3081,
+    "share": 0.00361,
+    "center": [
+     0.729,
+     0.406
+    ],
+    "bbox": [
+     0.576,
+     0.271,
+     0.92,
+     0.527
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 11.8,
+   "end": 16.9,
+   "dur": 5.1,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 1.001,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1857,
+    "share": 0.00218,
+    "center": [
+     0.638,
+     0.782
+    ],
+    "bbox": [
+     0.491,
+     0.676,
+     0.765,
+     0.906
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 17.1,
+   "end": 20.9,
+   "dur": 3.8,
+   "features": 1483,
+   "kind": "video",
+   "zoom": 1.666,
+   "center": [
+    0.368,
+    0.477
+   ],
+   "direct": true,
+   "ink": {
+    "px": 909,
+    "share": 0.00107,
+    "center": [
+     0.509,
+     0.593
+    ],
+    "bbox": [
+     0.41,
+     0.587,
+     0.607,
+     0.599
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 21.1,
+   "end": 29.5,
+   "dur": 8.4,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.428,
+   "center": [
+    0.366,
+    0.494
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1265,
+    "share": 0.00148,
+    "center": [
+     0.496,
+     0.303
+    ],
+    "bbox": [
+     0.319,
+     0.233,
+     0.663,
+     0.358
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 29.8,
+   "end": 31.4,
+   "dur": 1.6,
+   "features": 1482,
+   "kind": "video",
+   "zoom": 1.427,
+   "center": [
+    0.686,
+    0.531
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2811,
+    "share": 0.00329,
+    "center": [
+     0.525,
+     0.557
+    ],
+    "bbox": [
+     0.315,
+     0.494,
+     0.707,
+     0.616
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 31.7,
+   "end": 33.6,
+   "dur": 1.9,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 65,
+    "share": 8e-05,
+    "center": [
+     0.342,
+     0.351
+    ],
+    "bbox": [
+     0.33,
+     0.329,
+     0.354,
+     0.37
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 33.9,
+   "end": 43.0,
+   "dur": 9.1,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.854,
+   "center": [
+    0.076,
+    0.584
+   ],
+   "direct": true,
+   "ink": {
+    "px": 5668,
+    "share": 0.00664,
+    "center": [
+     0.551,
+     0.471
+    ],
+    "bbox": [
+     0.336,
+     0.394,
+     0.768,
+     0.554
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 43.3,
+   "end": 44.8,
+   "dur": 1.5,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.494,
+   "center": [
+    0.336,
+    0.48
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1174,
+    "share": 0.00138,
+    "center": [
+     0.522,
+     0.435
+    ],
+    "bbox": [
+     0.439,
+     0.311,
+     0.614,
+     0.515
+    ]
+   }
+  },
+  {
+   "index": 10,
+   "start": 45.1,
+   "end": 57.2,
+   "dur": 12.1,
+   "features": 1488,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 120,
+    "share": 0.00014,
+    "center": [
+     0.407,
+     0.349
+    ],
+    "bbox": [
+     0.324,
+     0.301,
+     0.539,
+     0.385
+    ]
+   }
+  },
+  {
+   "index": 11,
+   "start": 57.5,
+   "end": 60.0,
+   "dur": 2.5,
+   "features": 1450,
+   "kind": "video",
+   "zoom": 1.558,
+   "center": [
+    0.849,
+    0.385
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1037,
+    "share": 0.00122,
+    "center": [
+     0.698,
+     0.444
+    ],
+    "bbox": [
+     0.635,
+     0.408,
+     0.769,
+     0.478
+    ]
+   }
+  },
+  {
+   "index": 12,
+   "start": 60.3,
+   "end": 63.4,
+   "dur": 3.1,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 2.048,
+   "center": [
+    0.183,
+    0.49
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 13,
+   "start": 63.7,
+   "end": 65.3,
+   "dur": 1.6,
+   "features": 1485,
+   "kind": "video",
+   "zoom": 2.052,
+   "center": [
+    0.897,
+    0.51
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 14,
+   "start": 65.5,
+   "end": 68.8,
+   "dur": 3.3,
+   "features": 1427,
+   "kind": "video",
+   "zoom": 1.563,
+   "center": [
+    0.851,
+    0.387
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 15,
+   "start": 69.1,
+   "end": 72.7,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 35.8,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.607,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.3,
+   "caption_text": "NUW WE GAN PUTENTIALLY BREAK THROUGH ,",
+   "transcript": {
+    "recording_t": 4737.27,
+    "cue_i": 537,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "7750 has only grown.",
+    "into_cue_s": 0.28,
+    "cue_dur": 2.15,
+    "in_gap": false,
+    "prev": "Now we can\u2026 Potentially a breakthrough, see that 35?",
+    "next": "When I marked it earlier, it was at $24 million, it's up 10 million."
+   }
+  },
+  {
+   "index": 1,
+   "start": 7.3,
+   "end": 7.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.084,
+   "pan_px": 304.8,
+   "after_hold": 1,
+   "zoom_from": 1.607,
+   "zoom_to": 1.462,
+   "zoom_ratio": 0.91,
+   "caption_offset_s": 0.0,
+   "caption_text": "REMEMBER I SAID",
+   "transcript": {
+    "recording_t": 4744.07,
+    "cue_i": 538,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "When I marked it earlier, it was at $24 million, it's up 10 million.",
+    "into_cue_s": 3.07,
+    "cue_dur": 3.29,
+    "in_gap": false,
+    "prev": "7750 has only grown.",
+    "next": "Remember I said earlier on queues, we wanted to see some growth above us?"
+   }
+  },
+  {
+   "index": 2,
+   "start": 11.5,
+   "end": 11.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.384,
+   "pan_px": 247.2,
+   "after_hold": 2,
+   "zoom_from": 1.462,
+   "zoom_to": 1.001,
+   "zoom_ratio": 0.685,
+   "caption_offset_s": 0.0,
+   "caption_text": "STARTING TU",
+   "transcript": {
+    "recording_t": 4750.95,
+    "cue_i": 539,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Remember I said earlier on queues, we wanted to see some growth above us?",
+    "into_cue_s": 3.88,
+    "cue_dur": 3.95,
+    "in_gap": false,
+    "prev": "When I marked it earlier, it was at $24 million, it's up 10 million.",
+    "next": "We have it now."
+   }
+  },
+  {
+   "index": 3,
+   "start": 16.9,
+   "end": 17.1,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.495,
+   "pan_px": 112.5,
+   "after_hold": 3,
+   "zoom_from": 1.001,
+   "zoom_to": 1.666,
+   "zoom_ratio": 1.664,
+   "caption_offset_s": 0.5,
+   "caption_text": "YOU WANNA HOLD OVER $7,730 AND",
+   "transcript": {
+    "recording_t": 4827.49,
+    "cue_i": 542,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "There's two things you want as a bull. You want to hold over $77.30, and you don't want to break below 7720.",
+    "into_cue_s": 1.58,
+    "cue_dur": 7.34,
+    "in_gap": false,
+    "prev": "Starting to see some interest down here on SPY, worth taking a note of.",
+    "next": "If this primary reduces in value, you might want to think downside down to $77.20."
+   }
+  },
+  {
+   "index": 4,
+   "start": 20.9,
+   "end": 21.1,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.149,
+   "pan_px": 43.9,
+   "after_hold": 4,
+   "zoom_from": 1.666,
+   "zoom_to": 1.428,
+   "zoom_ratio": 0.857,
+   "caption_offset_s": 0.0,
+   "caption_text": "IF THIS PRIMARY",
+   "transcript": {
+    "recording_t": 4839.43,
+    "cue_i": 543,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "If this primary reduces in value, you might want to think downside down to $77.20.",
+    "into_cue_s": -0.67,
+    "cue_dur": 5.65,
+    "in_gap": false,
+    "prev": "There's two things you want as a bull. You want to hold over $77.30, and you don't want to break below 7720.",
+    "next": "If these guys grow a little bit. Your North Star magnet is a little weaker."
+   }
+  },
+  {
+   "index": 5,
+   "start": 29.5,
+   "end": 29.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 246.9,
+   "after_hold": 5,
+   "zoom_from": 1.428,
+   "zoom_to": 1.427,
+   "zoom_ratio": 0.999,
+   "caption_offset_s": -0.2,
+   "caption_text": "ALITTLE WEAKER, ANDYOU",
+   "transcript": {
+    "recording_t": 4850.39,
+    "cue_i": 544,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "If these guys grow a little bit. Your North Star magnet is a little weaker.",
+    "into_cue_s": 4.04,
+    "cue_dur": 4.7,
+    "in_gap": false,
+    "prev": "If this primary reduces in value, you might want to think downside down to $77.20.",
+    "next": "And you have this magnet below on SPY."
+   }
+  },
+  {
+   "index": 6,
+   "start": 31.4,
+   "end": 31.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.356,
+   "pan_px": 213.0,
+   "after_hold": 6,
+   "zoom_from": 1.427,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.701,
+   "caption_offset_s": 0.0,
+   "caption_text": "PRIMARY ROLL DOWN ON",
+   "transcript": {
+    "recording_t": 4860.96,
+    "cue_i": 546,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Primary roll down on SPX.",
+    "into_cue_s": -1.65,
+    "cue_dur": 2.24,
+    "in_gap": false,
+    "prev": "And you have this magnet below on SPY.",
+    "next": "And then if we notice here on the ladder, we have spot, right?"
+   }
+  },
+  {
+   "index": 7,
+   "start": 33.6,
+   "end": 33.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.617,
+   "pan_px": 252.6,
+   "after_hold": 7,
+   "zoom_from": 1.0,
+   "zoom_to": 1.854,
+   "zoom_ratio": 1.854,
+   "caption_offset_s": -1.1,
+   "caption_text": "AND THEN IF WE NOTICE HERE",
+   "transcript": {
+    "recording_t": 4870.4,
+    "cue_i": 547,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And then if we notice here on the ladder, we have spot, right?",
+    "into_cue_s": 0.75,
+    "cue_dur": 3.66,
+    "in_gap": false,
+    "prev": "Primary roll down on SPX.",
+    "next": "And then we have our primary node next to or at SPOT. We're starting to show a little bit of pin here on SPY and QQQ."
+   }
+  },
+  {
+   "index": 8,
+   "start": 43.0,
+   "end": 43.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.215,
+   "pan_px": 197.6,
+   "after_hold": 8,
+   "zoom_from": 1.854,
+   "zoom_to": 1.494,
+   "zoom_ratio": 0.806,
+   "caption_offset_s": 0.0,
+   "caption_text": "IF OBA PRIMARY C",
+   "transcript": {
+    "recording_t": 4879.8,
+    "cue_i": 548,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And then we have our primary node next to or at SPOT. We're starting to show a little bit of pin here on SPY and QQQ.",
+    "into_cue_s": 6.2,
+    "cue_dur": 8.02,
+    "in_gap": false,
+    "prev": "And then if we notice here on the ladder, we have spot, right?",
+    "next": "If SBX pin moves, or primary moves down."
+   }
+  },
+  {
+   "index": 9,
+   "start": 44.8,
+   "end": 45.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.402,
+   "pan_px": 63.3,
+   "after_hold": 9,
+   "zoom_from": 1.494,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.669,
+   "caption_offset_s": -0.5,
+   "caption_text": "IF OBA PRIMARY MUVES DUWN, THEN WE'LL HAVE",
+   "transcript": {
+    "recording_t": 4885.19,
+    "cue_i": 549,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "If SBX pin moves, or primary moves down.",
+    "into_cue_s": 3.01,
+    "cue_dur": 3.67,
+    "in_gap": false,
+    "prev": "And then we have our primary node next to or at SPOT. We're starting to show a little bit of pin here on SPY and QQQ.",
+    "next": "That won't have kind of a pin across the board."
+   }
+  },
+  {
+   "index": 10,
+   "start": 57.2,
+   "end": 57.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.442,
+   "pan_px": 392.1,
+   "after_hold": 10,
+   "zoom_from": 1.0,
+   "zoom_to": 1.558,
+   "zoom_ratio": 1.558,
+   "caption_offset_s": 0.0,
+   "caption_text": "ANDIF YOU'RE",
+   "transcript": {
+    "recording_t": 4969.86,
+    "cue_i": 554,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Growth growing here at 724Qs. Let's see one of the\u2026 let's see a major take this 724.",
+    "into_cue_s": 3.71,
+    "cue_dur": 6.59,
+    "in_gap": false,
+    "prev": "This is at $30 million, back to 36.",
+    "next": "And if you're curious, what's the value of 724? You can always come over here and just hold above."
+   }
+  },
+  {
+   "index": 11,
+   "start": 60.0,
+   "end": 60.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.274,
+   "pan_px": 617.4,
+   "after_hold": 11,
+   "zoom_from": 1.558,
+   "zoom_to": 2.048,
+   "zoom_ratio": 1.315,
+   "caption_offset_s": -0.4,
+   "caption_text": "VALUE OF 724. YOU CAN ALWAYS COME",
+   "transcript": {
+    "recording_t": 4986.58,
+    "cue_i": 555,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And if you're curious, what's the value of 724? You can always come over here and just hold above.",
+    "into_cue_s": 2.27,
+    "cue_dur": 5.14,
+    "in_gap": false,
+    "prev": "Growth growing here at 724Qs. Let's see one of the\u2026 let's see a major take this 724.",
+    "next": "724 is at $25 million."
+   }
+  },
+  {
+   "index": 12,
+   "start": 63.4,
+   "end": 63.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 260.0,
+   "after_hold": 12,
+   "zoom_from": 2.048,
+   "zoom_to": 2.052,
+   "zoom_ratio": 1.002,
+   "caption_offset_s": 0.0,
+   "caption_text": "MAJOR TWO IS",
+   "transcript": {
+    "recording_t": 4989.98,
+    "cue_i": 556,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "724 is at $25 million.",
+    "into_cue_s": 0.13,
+    "cue_dur": 2.18,
+    "in_gap": false,
+    "prev": "And if you're curious, what's the value of 724? You can always come over here and just hold above.",
+    "next": "Major 2 is at $28 million, so we need 3 more million, and we\u2026 and then Major 2 takes $724 as a strike."
+   }
+  },
+  {
+   "index": 13,
+   "start": 65.3,
+   "end": 65.5,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.261,
+   "pan_px": 159.3,
+   "after_hold": 13,
+   "zoom_from": 2.052,
+   "zoom_to": 1.563,
+   "zoom_ratio": 0.762,
+   "caption_offset_s": 0.6,
+   "caption_text": "QU WE NEED TAREE MURE MILLIUN AND THEN",
+   "transcript": {
+    "recording_t": 4994.54,
+    "cue_i": 557,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Major 2 is at $28 million, so we need 3 more million, and we\u2026 and then Major 2 takes $724 as a strike.",
+    "into_cue_s": 1.62,
+    "cue_dur": 7.15,
+    "in_gap": false,
+    "prev": "724 is at $25 million.",
+    "next": "SPX Primary is battling between 50 and 45. Am I worried too much? Not until 50 loses its value entirely, but right now, it's basically one level."
+   }
+  },
+  {
+   "index": 14,
+   "start": 68.8,
+   "end": 69.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 98.6,
+   "after_hold": 14,
+   "zoom_from": 1.563,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "sennnenacananeeneues",
+   "transcript": {
+    "recording_t": 4998.04,
+    "cue_i": 557,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Major 2 is at $28 million, so we need 3 more million, and we\u2026 and then Major 2 takes $724 as a strike.",
+    "into_cue_s": 5.12,
+    "cue_dur": 7.15,
+    "in_gap": false,
+    "prev": "724 is at $25 million.",
+    "next": "SPX Primary is battling between 50 and 45. Am I worried too much? Not until 50 loses its value entirely, but right now, it's basically one level."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.8,
+  5.0,
+  6.3,
+  7.3,
+  9.0,
+  10.8,
+  11.5,
+  13.2,
+  15.0,
+  16.4,
+  18.6,
+  20.9,
+  22.7,
+  24.2,
+  25.7,
+  27.1,
+  28.5,
+  29.7,
+  31.4,
+  34.7,
+  36.4,
+  37.9,
+  39.4,
+  41.2,
+  43.0,
+  45.3,
+  47.4,
+  49.3,
+  54.1,
+  55.6,
+  57.2,
+  58.7,
+  60.4,
+  61.7,
+  63.4,
+  64.7,
+  66.3,
+  68.4
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 5.65,
+    "t1": 6.8,
+    "offset": 4736.77,
+    "n": 2
+   },
+   {
+    "t0": 8.15,
+    "t1": 11.15,
+    "offset": 4739.45,
+    "n": 2
+   },
+   {
+    "t0": 14.1,
+    "t1": 14.1,
+    "offset": 4789.85,
+    "n": 1
+   },
+   {
+    "t0": 15.7,
+    "t1": 17.5,
+    "offset": 4810.59,
+    "n": 2
+   },
+   {
+    "t0": 21.8,
+    "t1": 23.45,
+    "offset": 4818.53,
+    "n": 2
+   },
+   {
+    "t0": 26.4,
+    "t1": 30.55,
+    "offset": 4820.89,
+    "n": 3
+   },
+   {
+    "t0": 33.05,
+    "t1": 33.05,
+    "offset": 4829.56,
+    "n": 1
+   },
+   {
+    "t0": 37.15,
+    "t1": 42.1,
+    "offset": 4836.8,
+    "n": 3
+   },
+   {
+    "t0": 46.35,
+    "t1": 46.35,
+    "offset": 4840.39,
+    "n": 1
+   },
+   {
+    "t0": 54.85,
+    "t1": 56.4,
+    "offset": 4912.66,
+    "n": 2
+   },
+   {
+    "t0": 57.95,
+    "t1": 62.55,
+    "offset": 4926.58,
+    "n": 4
+   },
+   {
+    "t0": 64.05,
+    "t1": 67.35,
+    "offset": 4929.24,
+    "n": 2
+   }
+  ],
+  "matched": 26,
+  "used": 25,
+  "captions": 38,
+  "share": 0.96,
+  "cues": [
+   538,
+   539,
+   540,
+   541,
+   542,
+   543,
+   544,
+   545,
+   546,
+   547,
+   548,
+   549,
+   550,
+   554,
+   555,
+   556,
+   557
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.9,
+   "text": "NUW WE GAN PUTENTIALLY BREAK THROUGH ,"
+  },
+  {
+   "t": 3.4,
+   "text": "F FOU HAS UNLY GRUWN WHEN MARKED IT EARLIER."
+  },
+  {
+   "t": 5.65,
+   "text": "TT WAS AT 24 MILLION."
+  },
+  {
+   "t": 6.8,
+   "text": "AT'S UP 10 MILLION"
+  },
+  {
+   "t": 8.15,
+   "text": "REMEMBER SAID EARLIER ON Q'S WE"
+  },
+  {
+   "t": 9.9,
+   "text": "WANTED TU oEE oUME GHUWIA ABUVE US"
+  },
+  {
+   "t": 11.15,
+   "text": "WE HAVE IT NOW"
+  },
+  {
+   "t": 12.35,
+   "text": "STARTING TU OEE OUME INTEREST DOWN HERE"
+  },
+  {
+   "t": 14.1,
+   "text": "ON SPY WORTH TAKING A NOTE OF"
+  },
+  {
+   "t": 15.7,
+   "text": "THERE TWU THINGS YUU WANT Ad A BULL."
+  },
+  {
+   "t": 17.5,
+   "text": "YOU WANNA HOLD OVER $7,730 AND"
+  },
+  {
+   "t": 19.75,
+   "text": "YUU DUN WANNA BREAK BELUW $7,720"
+  },
+  {
+   "t": 21.8,
+   "text": "IF THIS PRIMARY REDUCES IN VALUE."
+  },
+  {
+   "t": 23.45,
+   "text": "YOU MIGHT WANNA THINK DOWNSIDE"
+  },
+  {
+   "t": 24.95,
+   "text": "DOWN T0.7720 IF THESE"
+  },
+  {
+   "t": 26.4,
+   "text": "BUYS GROW ALITTLE BIT."
+  },
+  {
+   "t": 27.8,
+   "text": "YOUR YOUR NORTH STAR MAGNET IS"
+  },
+  {
+   "t": 29.1,
+   "text": "ALITTLE WEAKER. AND YOU"
+  },
+  {
+   "t": 30.55,
+   "text": "HAVE THIS MAGNET BELOW ON SPY"
+  },
+  {
+   "t": 33.05,
+   "text": "PRIMARY ROLL DOWN ON SPX"
+  },
+  {
+   "t": 35.55,
+   "text": "UN THE LADUE, WE HAVE oF Ul, RIGHT"
+  },
+  {
+   "t": 37.15,
+   "text": "AND THEN WE HAVE OUR PRIMARY"
+  },
+  {
+   "t": 38.65,
+   "text": "NODE NEXT TO OR AT SPOT"
+  },
+  {
+   "t": 40.3,
+   "text": "WERE oTARTING TU onUW ALITTLE BIT"
+  },
+  {
+   "t": 42.1,
+   "text": "OF PIN HERE ON SPY AND 000."
+  },
+  {
+   "t": 44.15,
+   "text": "IF OBA PRIMARY MUVES DUWN, THEN WE'LL HAVE"
+  },
+  {
+   "t": 46.35,
+   "text": "KIND OF A PIN ACROSS THE BOARD,"
+  },
+  {
+   "t": 48.35,
+   "text": "WHIGH MARES oENSE CUMING INTU LUNCHTIME"
+  },
+  {
+   "t": 51.7,
+   "text": "BALK TU ob GRUWIA GRUWING HERE AT 7240'S."
+  },
+  {
+   "t": 54.85,
+   "text": "LET'S SEE ONE OF THE... LET'S"
+  },
+  {
+   "t": 56.4,
+   "text": "SEE A MAJOR TAKE THIS 724"
+  },
+  {
+   "t": 57.95,
+   "text": "AND IF YOU'RE CURIOUS WHAT'S THE"
+  },
+  {
+   "t": 59.55,
+   "text": "VALUE OF 724. YOU CAN ALWAYS COME"
+  },
+  {
+   "t": 61.05,
+   "text": "OVER HERE AND JUST HOLD ABOVE."
+  },
+  {
+   "t": 62.55,
+   "text": "7241S AT 25 MILLION."
+  },
+  {
+   "t": 64.05,
+   "text": "MAJOR TWO IS AT 26 MILLION,"
+  },
+  {
+   "t": 65.5,
+   "text": "QU WE NEED TAREE MURE MILLIUN AND THEN"
+  },
+  {
+   "t": 67.35,
+   "text": "WE. AND THEN MAJOR TWO TAKES 724"
+  },
+  {
+   "t": 70.53,
+   "text": ""
+  }
+ ]
+}

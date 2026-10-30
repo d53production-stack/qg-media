@@ -1,0 +1,788 @@
+{
+ "clip": "2026-10-19-webinar-part7",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 42.63,
+ "sample_fps": 10,
+ "widest_hold": 10,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1006,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 1.1,
+   "dur": 0.5,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 1.418,
+   "center": [
+    0.641,
+    0.543
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 1.4,
+   "end": 2.1,
+   "dur": 0.7,
+   "features": 1494,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 2.3,
+   "end": 8.6,
+   "dur": 6.3,
+   "features": 1464,
+   "kind": "video",
+   "zoom": 1.595,
+   "center": [
+    0.822,
+    0.469
+   ],
+   "direct": true,
+   "ink": {
+    "px": 698,
+    "share": 0.00082,
+    "center": [
+     0.754,
+     0.525
+    ],
+    "bbox": [
+     0.693,
+     0.327,
+     0.779,
+     0.706
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 8.9,
+   "end": 10.5,
+   "dur": 1.6,
+   "features": 1490,
+   "kind": "video",
+   "zoom": 1.009,
+   "center": [
+    0.497,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 5,
+   "start": 10.8,
+   "end": 13.2,
+   "dur": 2.4,
+   "features": 1493,
+   "kind": "video",
+   "zoom": 1.459,
+   "center": [
+    0.666,
+    0.425
+   ],
+   "direct": true,
+   "ink": {
+    "px": 967,
+    "share": 0.00113,
+    "center": [
+     0.603,
+     0.53
+    ],
+    "bbox": [
+     0.464,
+     0.522,
+     0.749,
+     0.537
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 13.4,
+   "end": 15.4,
+   "dur": 2.0,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 15.7,
+   "end": 18.8,
+   "dur": 3.1,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.409,
+   "center": [
+    0.279,
+    0.519
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 8,
+   "start": 19.1,
+   "end": 23.2,
+   "dur": 4.1,
+   "features": 1470,
+   "kind": "video",
+   "zoom": 1.778,
+   "center": [
+    0.514,
+    0.465
+   ],
+   "direct": true,
+   "ink": {
+    "px": 66,
+    "share": 8e-05,
+    "center": [
+     0.355,
+     0.688
+    ],
+    "bbox": [
+     0.341,
+     0.686,
+     0.373,
+     0.691
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 23.5,
+   "end": 25.9,
+   "dur": 2.4,
+   "features": 1469,
+   "kind": "video",
+   "zoom": 1.789,
+   "center": [
+    0.832,
+    0.433
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2838,
+    "share": 0.00333,
+    "center": [
+     0.661,
+     0.468
+    ],
+    "bbox": [
+     0.486,
+     0.391,
+     0.821,
+     0.525
+    ]
+   }
+  },
+  {
+   "index": 10,
+   "start": 26.1,
+   "end": 38.7,
+   "dur": 12.6,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 563,
+    "share": 0.00066,
+    "center": [
+     0.355,
+     0.512
+    ],
+    "bbox": [
+     0.261,
+     0.379,
+     0.406,
+     0.577
+    ]
+   }
+  },
+  {
+   "index": 11,
+   "start": 39.1,
+   "end": 42.7,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 71.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.418,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.7,
+   "caption_text": "LET'S SEE IF IT ROLLS HIGHER",
+   "transcript": {
+    "recording_t": 937.62,
+    "cue_i": 144,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let's see if it rolls higher.",
+    "into_cue_s": -0.65,
+    "cue_dur": 1.67,
+    "in_gap": false,
+    "prev": "And when we\u2026 when we had that\u2026 that happen to us here, the SPY primary was below, now it's above.",
+    "next": "I'll take a look at queues."
+   }
+  },
+  {
+   "index": 1,
+   "start": 1.1,
+   "end": 1.4,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.081,
+   "pan_px": 41.8,
+   "after_hold": 1,
+   "zoom_from": 1.418,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.705,
+   "caption_offset_s": -1.0,
+   "caption_text": "NOW TAKE",
+   "transcript": {
+    "recording_t": 938.32,
+    "cue_i": 144,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's see if it rolls higher.",
+    "into_cue_s": 0.05,
+    "cue_dur": 1.67,
+    "in_gap": false,
+    "prev": "And when we\u2026 when we had that\u2026 that happen to us here, the SPY primary was below, now it's above.",
+    "next": "I'll take a look at queues."
+   }
+  },
+  {
+   "index": 2,
+   "start": 2.1,
+   "end": 2.3,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.453,
+   "pan_px": 397.9,
+   "after_hold": 2,
+   "zoom_from": 1.0,
+   "zoom_to": 1.595,
+   "zoom_ratio": 1.595,
+   "caption_offset_s": 0.0,
+   "caption_text": "Send ieeaeeeeees",
+   "transcript": {
+    "recording_t": 939.32,
+    "cue_i": 144,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's see if it rolls higher.",
+    "into_cue_s": 1.05,
+    "cue_dur": 1.67,
+    "in_gap": false,
+    "prev": "And when we\u2026 when we had that\u2026 that happen to us here, the SPY primary was below, now it's above.",
+    "next": "I'll take a look at queues."
+   }
+  },
+  {
+   "index": 3,
+   "start": 8.6,
+   "end": 8.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.464,
+   "pan_px": 318.8,
+   "after_hold": 3,
+   "zoom_from": 1.595,
+   "zoom_to": 1.009,
+   "zoom_ratio": 0.633,
+   "caption_offset_s": 0.0,
+   "caption_text": "PRIMARIES ARE ROLLING UP",
+   "transcript": {
+    "recording_t": 1073.69,
+    "cue_i": 155,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Primaries are rolling up on SPY.",
+    "into_cue_s": -0.95,
+    "cue_dur": 2.43,
+    "in_gap": false,
+    "prev": "Oh, word.",
+    "next": "They went from 769 up to 770."
+   }
+  },
+  {
+   "index": 4,
+   "start": 10.5,
+   "end": 10.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.366,
+   "pan_px": 241.0,
+   "after_hold": 4,
+   "zoom_from": 1.009,
+   "zoom_to": 1.459,
+   "zoom_ratio": 1.446,
+   "caption_offset_s": 0.0,
+   "caption_text": "IT WENT FROM",
+   "transcript": {
+    "recording_t": 1075.59,
+    "cue_i": 155,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Primaries are rolling up on SPY.",
+    "into_cue_s": 0.95,
+    "cue_dur": 2.43,
+    "in_gap": false,
+    "prev": "Oh, word.",
+    "next": "They went from 769 up to 770."
+   }
+  },
+  {
+   "index": 5,
+   "start": 13.2,
+   "end": 13.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.353,
+   "pan_px": 186.4,
+   "after_hold": 5,
+   "zoom_from": 1.459,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.685,
+   "caption_offset_s": 0.0,
+   "caption_text": "NOW. ONE THING WE",
+   "transcript": {
+    "recording_t": 1101.54,
+    "cue_i": 158,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Now, one thing we have to keep in mind, so far, that primary on SPX is holding 7,700.",
+    "into_cue_s": -0.53,
+    "cue_dur": 7.04,
+    "in_gap": false,
+    "prev": "See you later, Travis. Have a nice day.",
+    "next": "The value is getting competitive. $27 million, $25 million, so if it rolls up."
+   }
+  },
+  {
+   "index": 6,
+   "start": 15.4,
+   "end": 15.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.341,
+   "pan_px": 98.0,
+   "after_hold": 6,
+   "zoom_from": 1.0,
+   "zoom_to": 1.409,
+   "zoom_ratio": 1.409,
+   "caption_offset_s": 0.4,
+   "caption_text": "KEEP IN MIND. SO FAR THAT",
+   "transcript": {
+    "recording_t": 1103.74,
+    "cue_i": 158,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Now, one thing we have to keep in mind, so far, that primary on SPX is holding 7,700.",
+    "into_cue_s": 1.67,
+    "cue_dur": 7.04,
+    "in_gap": false,
+    "prev": "See you later, Travis. Have a nice day.",
+    "next": "The value is getting competitive. $27 million, $25 million, so if it rolls up."
+   }
+  },
+  {
+   "index": 7,
+   "start": 18.8,
+   "end": 19.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.215,
+   "pan_px": 274.3,
+   "after_hold": 7,
+   "zoom_from": 1.409,
+   "zoom_to": 1.778,
+   "zoom_ratio": 1.262,
+   "caption_offset_s": 0.0,
+   "caption_text": "THE VALUE",
+   "transcript": {
+    "recording_t": 1107.14,
+    "cue_i": 158,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Now, one thing we have to keep in mind, so far, that primary on SPX is holding 7,700.",
+    "into_cue_s": 5.07,
+    "cue_dur": 7.04,
+    "in_gap": false,
+    "prev": "See you later, Travis. Have a nice day.",
+    "next": "The value is getting competitive. $27 million, $25 million, so if it rolls up."
+   }
+  },
+  {
+   "index": 8,
+   "start": 23.2,
+   "end": 23.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 296.3,
+   "after_hold": 8,
+   "zoom_from": 1.778,
+   "zoom_to": 1.789,
+   "zoom_ratio": 1.006,
+   "caption_offset_s": -0.2,
+   "caption_text": "I I 1 i I I I I I I I Sy na a y a a y AAP 1 $25 M S0 IF IT ROLLS UP WE ee 1 - 4 ana a a a na na na na oe na na na na aa e ae a a y",
+   "transcript": {
+    "recording_t": 1117.48,
+    "cue_i": 159,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "The value is getting competitive. $27 million, $25 million, so if it rolls up.",
+    "into_cue_s": 4.98,
+    "cue_dur": 5.36,
+    "in_gap": false,
+    "prev": "Now, one thing we have to keep in mind, so far, that primary on SPX is holding 7,700.",
+    "next": "We should easily tag the 723 on the queues."
+   }
+  },
+  {
+   "index": 9,
+   "start": 25.9,
+   "end": 26.1,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.54,
+   "pan_px": 326.5,
+   "after_hold": 9,
+   "zoom_from": 1.789,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.559,
+   "caption_offset_s": 0.0,
+   "caption_text": "TR AND A HALE",
+   "transcript": {
+    "recording_t": 1120.18,
+    "cue_i": 160,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We should easily tag the 723 on the queues.",
+    "into_cue_s": 1.94,
+    "cue_dur": 3.11,
+    "in_gap": false,
+    "prev": "The value is getting competitive. $27 million, $25 million, so if it rolls up.",
+    "next": "Max's question is good. Do you find yourself doing a committee approach when you're looking for a bias? Like, if two or three are bullish and one is bearish, will that make you more bullish, or will that one bearish chart make you dislike the trade?"
+   }
+  },
+  {
+   "index": 10,
+   "start": 38.7,
+   "end": 39.1,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.002,
+   "pan_px": 132.6,
+   "after_hold": 10,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.3,
+   "caption_text": "sennnennnananeeneues",
+   "transcript": {
+    "recording_t": 1282.7,
+    "cue_i": 178,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And then if we take a look, the primary rolled up from here to there on queues.",
+    "into_cue_s": 4.07,
+    "cue_dur": 4.82,
+    "in_gap": false,
+    "prev": "On queues as well.",
+    "next": "I want you to read this as, oh, this could be resistance, without thinking, oh, this is bearish."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.1,
+  3.4,
+  5.1,
+  6.7,
+  8.6,
+  10.5,
+  13.2,
+  15.0,
+  16.9,
+  18.8,
+  21.0,
+  23.4,
+  25.9,
+  29.0,
+  30.8,
+  32.3,
+  33.2,
+  34.7,
+  36.2,
+  37.1,
+  38.4
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 1.05,
+    "t1": 1.05,
+    "offset": 937.22,
+    "n": 1
+   },
+   {
+    "t0": 5.9,
+    "t1": 7.65,
+    "offset": 992.09,
+    "n": 2
+   },
+   {
+    "t0": 9.55,
+    "t1": 9.55,
+    "offset": 1065.09,
+    "n": 1
+   },
+   {
+    "t0": 11.85,
+    "t1": 11.85,
+    "offset": 1072.18,
+    "n": 1
+   },
+   {
+    "t0": 14.1,
+    "t1": 17.85,
+    "offset": 1088.34,
+    "n": 3
+   },
+   {
+    "t0": 24.65,
+    "t1": 24.65,
+    "offset": 1094.28,
+    "n": 1
+   },
+   {
+    "t0": 27.45,
+    "t1": 29.9,
+    "offset": 1192.44,
+    "n": 2
+   },
+   {
+    "t0": 33.95,
+    "t1": 33.95,
+    "offset": 1198.37,
+    "n": 1
+   },
+   {
+    "t0": 35.45,
+    "t1": 35.45,
+    "offset": 1243.18,
+    "n": 1
+   },
+   {
+    "t0": 37.75,
+    "t1": 37.75,
+    "offset": 1244.0,
+    "n": 1
+   }
+  ],
+  "matched": 16,
+  "used": 14,
+  "captions": 22,
+  "share": 0.88,
+  "cues": [
+   143,
+   144,
+   147,
+   148,
+   155,
+   156,
+   158,
+   159,
+   160,
+   167,
+   168,
+   170,
+   171,
+   178
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.05,
+   "text": "LET'S SEEIFIT ROLLS HIGHER"
+  },
+  {
+   "t": 2.75,
+   "text": "IF Q'S COME BACK DOWN."
+  },
+  {
+   "t": 4.25,
+   "text": "WE RAVE ANUTRHER LAUNUAPAD oct UP HERE."
+  },
+  {
+   "t": 5.9,
+   "text": "POSITIVE INTO A NEGATIVE"
+  },
+  {
+   "t": 7.65,
+   "text": "VOID WITH A POSITIVE ABOVE"
+  },
+  {
+   "t": 9.55,
+   "text": "PRIMARIES ARE ROLLING UP ON SPY"
+  },
+  {
+   "t": 11.85,
+   "text": "IT WENT FROM 789 UP TO 770."
+  },
+  {
+   "t": 14.1,
+   "text": "NOW. ONE THING WE HAVE TO"
+  },
+  {
+   "t": 15.95,
+   "text": "KEEP IN MIND. SO FAR THAT"
+  },
+  {
+   "t": 17.85,
+   "text": "PRIMARY ON SPX IS HOLDING 7.700"
+  },
+  {
+   "t": 19.9,
+   "text": "TRIE VALUE 1d GETTING GOUMPENTIVE, S27M."
+  },
+  {
+   "t": 22.2,
+   "text": "$95 M. SOIFIT ROLLS UP. WE"
+  },
+  {
+   "t": 24.65,
+   "text": "SHUULU EASILY TAG THE 20 UN THE Q'S"
+  },
+  {
+   "t": 27.45,
+   "text": "THIS WOULD BE OUR FIRST"
+  },
+  {
+   "t": 29.9,
+   "text": "KINDA TARGET AREA ON Q'S"
+  },
+  {
+   "t": 31.55,
+   "text": "REMEMBER WE GALL HT LAUNURPAD HERE."
+  },
+  {
+   "t": 32.75,
+   "text": "AND THERE ITS."
+  },
+  {
+   "t": 33.95,
+   "text": "THAT'S OUR FIRST REAL RESISTANCE ."
+  },
+  {
+   "t": 35.45,
+   "text": "AND THEN IF WE TAKE A LOOK,"
+  },
+  {
+   "t": 36.65,
+   "text": "THE PRIMARY ROLLED UP"
+  },
+  {
+   "t": 37.75,
+   "text": "FROM HERE TO THERE ON 0'S."
+  },
+  {
+   "t": 40.52,
+   "text": "a a ee"
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "clip": "2026-10-14-webinar-b-part8",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 38.77,
+ "sample_fps": 10,
+ "widest_hold": 3,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1051,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 4.6,
+   "dur": 4.0,
+   "features": 1492,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 937,
+    "share": 0.0011,
+    "center": [
+     0.35,
+     0.733
+    ],
+    "bbox": [
+     0.277,
+     0.699,
+     0.437,
+     0.771
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 4.9,
+   "end": 8.5,
+   "dur": 3.6,
+   "features": 1495,
+   "kind": "video",
+   "zoom": 1.672,
+   "center": [
+    0.64,
+    0.462
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1051,
+    "share": 0.00123,
+    "center": [
+     0.493,
+     0.581
+    ],
+    "bbox": [
+     0.399,
+     0.522,
+     0.617,
+     0.623
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 9.0,
+   "end": 21.2,
+   "dur": 12.2,
+   "features": 1497,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 1356,
+    "share": 0.00159,
+    "center": [
+     0.343,
+     0.735
+    ],
+    "bbox": [
+     0.264,
+     0.523,
+     0.438,
+     0.861
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 21.3,
+   "end": 31.5,
+   "dur": 10.2,
+   "features": 1498,
+   "kind": "video",
+   "zoom": 1.617,
+   "center": [
+    0.739,
+    0.457
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 5,
+   "start": 31.8,
+   "end": 34.9,
+   "dur": 3.1,
+   "features": 1496,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1230,
+    "share": 0.00144,
+    "center": [
+     0.609,
+     0.427
+    ],
+    "bbox": [
+     0.38,
+     0.384,
+     0.782,
+     0.463
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 35.2,
+   "end": 38.8,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 72.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.8,
+   "caption_text": "WE HAVE oUME oUPPUR OHUWING UP HERE."
+  },
+  {
+   "index": 1,
+   "start": 4.6,
+   "end": 4.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.514,
+   "pan_px": 301.1,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.672,
+   "zoom_ratio": 1.672,
+   "caption_offset_s": -0.4,
+   "caption_text": "TWU TRAPUUURS INTU UR OPT SUPPORT"
+  },
+  {
+   "index": 2,
+   "start": 8.5,
+   "end": 9.0,
+   "dur": 0.5,
+   "type": "ramp",
+   "log_scale": -0.235,
+   "pan_px": 109.5,
+   "after_hold": 2,
+   "zoom_from": 1.672,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.598,
+   "caption_offset_s": -0.1,
+   "caption_text": "Gay I Ld I 1 Sere ey eee ee I I 1 I a OIF noe as es ns nn nn nn"
+  },
+  {
+   "index": 3,
+   "start": 21.2,
+   "end": 21.3,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.093,
+   "pan_px": 60.8,
+   "after_hold": 3,
+   "zoom_from": 1.0,
+   "zoom_to": 1.617,
+   "zoom_ratio": 1.617,
+   "caption_offset_s": 0.2,
+   "caption_text": "THESE TWO ARE STILL BATTLING."
+  },
+  {
+   "index": 4,
+   "start": 31.5,
+   "end": 31.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.474,
+   "pan_px": 262.1,
+   "after_hold": 4,
+   "zoom_from": 1.617,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.618,
+   "caption_offset_s": -0.2,
+   "caption_text": "THIS PRIMARY 1d GUNNA OTIGR UP SSSeeeees zeeeeeeees"
+  },
+  {
+   "index": 5,
+   "start": 34.9,
+   "end": 35.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.002,
+   "pan_px": 99.2,
+   "after_hold": 5,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.8,
+   "caption_text": "Sennenennnaneneeneues"
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.2,
+  5.0,
+  7.9,
+  8.6,
+  10.1,
+  11.7,
+  13.4,
+  14.5,
+  15.3,
+  16.7,
+  18.1,
+  21.0,
+  22.3,
+  24.0,
+  25.8,
+  27.7,
+  29.1,
+  30.3,
+  31.7,
+  32.9,
+  34.1
+ ],
+ "captions": [
+  {
+   "t": 1.1,
+   "text": "WE HAVE oUME oUPPUR OHUWING UP HERE."
+  },
+  {
+   "t": 3.6,
+   "text": "TWU TRAPUUURS INTU UR OPT SUPPORT"
+  },
+  {
+   "t": 6.45,
+   "text": "PRIMARY HULLED UP FRUM U TU 771."
+  },
+  {
+   "t": 8.25,
+   "text": "THEY'RE BATTLING."
+  },
+  {
+   "t": 9.35,
+   "text": "IFYOU'REA BULL, YOU WANNA SEE"
+  },
+  {
+   "t": 10.9,
+   "text": "TAS GUNTINUE TU INGREADE IN PRICE, YOU"
+  },
+  {
+   "t": 12.55,
+   "text": "WANNA SEE TAs GUNTINUE 10 INCREASE IN PRICE."
+  },
+  {
+   "t": 13.95,
+   "text": "AND THIS ONE AS WELL"
+  },
+  {
+   "t": 14.9,
+   "text": "IF YOU'RE A BEAR."
+  },
+  {
+   "t": 16.0,
+   "text": "YUU WANINA OEE This INGREADE IN VALUE."
+  },
+  {
+   "t": 17.4,
+   "text": "THIS INCREASE IN VALUE"
+  },
+  {
+   "t": 19.55,
+   "text": "TRAP UUUR LUURO LIKELY DUWN TU 768"
+  },
+  {
+   "t": 21.65,
+   "text": "THESE TWO ARE STILL BATTLING."
+  },
+  {
+   "t": 23.15,
+   "text": "31 AND 34 PRIMARY"
+  },
+  {
+   "t": 24.9,
+   "text": "IT'D BE A HUGE TELL IF THE"
+  },
+  {
+   "t": 26.75,
+   "text": "3 1 STUPPEU BEING A MAJUR UNE NODE."
+  },
+  {
+   "t": 28.4,
+   "text": "MAYBE FLIP TO BEING A MAJOR TWO."
+  },
+  {
+   "t": 29.7,
+   "text": "THAT'D BE A HUGE TELL THAT"
+  },
+  {
+   "t": 31.0,
+   "text": "THIS PRIMARY 1S GUNNA OTIGK UP HERE."
+  },
+  {
+   "t": 32.3,
+   "text": "AND THEN YOU WOULD HAVE"
+  },
+  {
+   "t": 33.5,
+   "text": "ALL THREE PRIMARIES ABOVE SPOT"
+  },
+  {
+   "t": 36.44,
+   "text": ""
+  }
+ ]
+}

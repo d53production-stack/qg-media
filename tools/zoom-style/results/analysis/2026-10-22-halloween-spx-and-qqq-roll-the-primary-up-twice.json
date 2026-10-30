@@ -1,0 +1,803 @@
+{
+ "clip": "2026-10-22-halloween-spx-and-qqq-roll-the-primary-up-twice",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 78.33,
+ "sample_fps": 10,
+ "widest_hold": 4,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1273,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 19.9,
+   "dur": 19.3,
+   "features": 1484,
+   "kind": "video",
+   "zoom": 1.002,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 4,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 20.2,
+   "end": 27.9,
+   "dur": 7.7,
+   "features": 1457,
+   "kind": "video",
+   "zoom": 1.57,
+   "center": [
+    0.679,
+    0.499
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1056,
+    "share": 0.00124,
+    "center": [
+     0.553,
+     0.283
+    ],
+    "bbox": [
+     0.506,
+     0.087,
+     0.607,
+     0.482
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 28.2,
+   "end": 32.2,
+   "dur": 4.0,
+   "features": 1472,
+   "kind": "video",
+   "zoom": 1.57,
+   "center": [
+    0.883,
+    0.507
+   ],
+   "direct": true,
+   "ink": {
+    "px": 893,
+    "share": 0.00105,
+    "center": [
+     0.712,
+     0.859
+    ],
+    "bbox": [
+     0.61,
+     0.856,
+     0.813,
+     0.862
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 32.4,
+   "end": 42.7,
+   "dur": 10.3,
+   "features": 1490,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 560,
+    "share": 0.00066,
+    "center": [
+     0.394,
+     0.214
+    ],
+    "bbox": [
+     0.276,
+     0.21,
+     0.515,
+     0.219
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 43.0,
+   "end": 44.8,
+   "dur": 1.8,
+   "features": 1431,
+   "kind": "video",
+   "zoom": 1.752,
+   "center": [
+    0.689,
+    0.656
+   ],
+   "direct": true,
+   "ink": {
+    "px": 8655,
+    "share": 0.01014,
+    "center": [
+     0.517,
+     0.586
+    ],
+    "bbox": [
+     0.144,
+     0.399,
+     0.935,
+     0.763
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 45.1,
+   "end": 58.3,
+   "dur": 13.2,
+   "features": 1482,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1989,
+    "share": 0.00233,
+    "center": [
+     0.802,
+     0.721
+    ],
+    "bbox": [
+     0.687,
+     0.668,
+     0.96,
+     0.776
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 58.6,
+   "end": 65.1,
+   "dur": 6.5,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.423,
+   "center": [
+    0.462,
+    0.452
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2273,
+    "share": 0.00266,
+    "center": [
+     0.474,
+     0.839
+    ],
+    "bbox": [
+     0.305,
+     0.725,
+     0.634,
+     0.928
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 65.4,
+   "end": 74.4,
+   "dur": 9.0,
+   "features": 1480,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 437,
+    "share": 0.00051,
+    "center": [
+     0.386,
+     0.584
+    ],
+    "bbox": [
+     0.374,
+     0.482,
+     0.391,
+     0.68
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 74.8,
+   "end": 78.4,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 35.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.002,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.3,
+   "caption_text": "- WEHAVE A PRIMARY ROLL UP, RIGHT",
+   "transcript": {
+    "recording_t": 2412.08,
+    "cue_i": 277,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "we have a primary roll-up, right? It was at $76.45?",
+    "into_cue_s": -0.1,
+    "cue_dur": 3.64,
+    "in_gap": false,
+    "prev": "Right now.",
+    "next": "Now it's $76.80."
+   }
+  },
+  {
+   "index": 1,
+   "start": 19.9,
+   "end": 20.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.449,
+   "pan_px": 288.4,
+   "after_hold": 1,
+   "zoom_from": 1.002,
+   "zoom_to": 1.57,
+   "zoom_ratio": 1.567,
+   "caption_offset_s": 0.5,
+   "caption_text": "PRIMARY GUULD PUTENTIALLY MUVE UP 10 63.",
+   "transcript": {
+    "recording_t": 2541.04,
+    "cue_i": 302,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "primary could potentially move up to 763, that would be a roll-up of the primary on SPY, which would give us continuation of the upside.",
+    "into_cue_s": 0.35,
+    "cue_dur": 9.2,
+    "in_gap": false,
+    "prev": "Unless the primary route moved back down on SPX. Or this guy got a lot stronger. But right now, what are we seeing?",
+    "next": "Because now, look, QQQ also moved up from 705 to 714 on that primary."
+   }
+  },
+  {
+   "index": 2,
+   "start": 27.9,
+   "end": 28.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 173.0,
+   "after_hold": 2,
+   "zoom_from": 1.57,
+   "zoom_to": 1.57,
+   "zoom_ratio": 1.0,
+   "caption_offset_s": 0.8,
+   "caption_text": "DAU E NUW LUUR, QUU ALOU MUVED UP",
+   "transcript": {
+    "recording_t": 2549.04,
+    "cue_i": 302,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "primary could potentially move up to 763, that would be a roll-up of the primary on SPY, which would give us continuation of the upside.",
+    "into_cue_s": 8.35,
+    "cue_dur": 9.2,
+    "in_gap": false,
+    "prev": "Unless the primary route moved back down on SPX. Or this guy got a lot stronger. But right now, what are we seeing?",
+    "next": "Because now, look, QQQ also moved up from 705 to 714 on that primary."
+   }
+  },
+  {
+   "index": 3,
+   "start": 32.2,
+   "end": 32.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.438,
+   "pan_px": 333.6,
+   "after_hold": 3,
+   "zoom_from": 1.57,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.637,
+   "caption_offset_s": 0.1,
+   "caption_text": "RIGHT NOW WE'RE CHOPPING",
+   "transcript": {
+    "recording_t": 2571.88,
+    "cue_i": 310,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Yeah, right now we're chopping.",
+    "into_cue_s": 0.3,
+    "cue_dur": 1.58,
+    "in_gap": false,
+    "prev": "Prime moved again.",
+    "next": "Right? How do we know we're chopping? We have the primary moving up and down."
+   }
+  },
+  {
+   "index": 4,
+   "start": 42.7,
+   "end": 43.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.558,
+   "pan_px": 395.3,
+   "after_hold": 4,
+   "zoom_from": 1.0,
+   "zoom_to": 1.752,
+   "zoom_ratio": 1.752,
+   "caption_offset_s": 0.2,
+   "caption_text": "soe sar 7 oes soe aa fe S - ounce san Sa 2502 ll hale",
+   "transcript": {
+    "recording_t": 2587.54,
+    "cue_i": 313,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's create this range. I think the downtrend is a little bit more likely, simply because SPY Primary is held.",
+    "into_cue_s": 4.43,
+    "cue_dur": 7.51,
+    "in_gap": false,
+    "prev": "Up and down on cues.",
+    "next": "I think I know the answer, but I'm gonna ask it anyway."
+   }
+  },
+  {
+   "index": 5,
+   "start": 44.8,
+   "end": 45.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.487,
+   "pan_px": 266.5,
+   "after_hold": 5,
+   "zoom_from": 1.752,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.571,
+   "caption_offset_s": 0.0,
+   "caption_text": "IF YOU WERE",
+   "transcript": {
+    "recording_t": 2822.17,
+    "cue_i": 362,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "If you were bullish, yes, you would want primary to stay above.",
+    "into_cue_s": -0.65,
+    "cue_dur": 3.59,
+    "in_gap": false,
+    "prev": "I don't know when you sent that, Chase.",
+    "next": "And then, not only would you want it to stay above, I'd really want primary at 76\u2026 760 on SPY to diminish, because if this\u2026 excuse me, if this guy holds."
+   }
+  },
+  {
+   "index": 6,
+   "start": 58.3,
+   "end": 58.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.355,
+   "pan_px": 86.9,
+   "after_hold": 6,
+   "zoom_from": 1.0,
+   "zoom_to": 1.423,
+   "zoom_ratio": 1.423,
+   "caption_offset_s": 0.5,
+   "caption_text": "YEAH. SO IF PRICE GOT TO.",
+   "transcript": {
+    "recording_t": 2850.75,
+    "cue_i": 365,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Yeah, so, if price got to, let's just say, $37.50 all the way to, like.",
+    "into_cue_s": 2.12,
+    "cue_dur": 5.07,
+    "in_gap": false,
+    "prev": "It's gonna be a pain.",
+    "next": "$31.50. I think that launch pad is good, because this primary is up here."
+   }
+  },
+  {
+   "index": 7,
+   "start": 65.1,
+   "end": 65.4,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.354,
+   "pan_px": 72.5,
+   "after_hold": 7,
+   "zoom_from": 1.423,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.703,
+   "caption_offset_s": 0.7,
+   "caption_text": "- GUUU BEGAUDSE Ths PRIMARY 1d UP HERE.",
+   "transcript": {
+    "recording_t": 2857.55,
+    "cue_i": 366,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "$31.50. I think that launch pad is good, because this primary is up here.",
+    "into_cue_s": 3.71,
+    "cue_dur": 5.84,
+    "in_gap": false,
+    "prev": "Yeah, so, if price got to, let's just say, $37.50 all the way to, like.",
+    "next": "What you want to see, though, as price comes down, does this primary hold in value? Does it increase? That would clear the upside for me."
+   }
+  },
+  {
+   "index": 8,
+   "start": 74.4,
+   "end": 74.8,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": -0.005,
+   "pan_px": 131.0,
+   "after_hold": 8,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 2866.85,
+    "cue_i": 367,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "What you want to see, though, as price comes down, does this primary hold in value? Does it increase? That would clear the upside for me.",
+    "into_cue_s": 7.05,
+    "cue_dur": 8.35,
+    "in_gap": false,
+    "prev": "$31.50. I think that launch pad is good, because this primary is up here.",
+    "next": "So those positive notes don't have to be major notes, just positive."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.8,
+  4.4,
+  5.3,
+  6.4,
+  8.2,
+  10.2,
+  11.7,
+  13.4,
+  14.8,
+  19.4,
+  21.9,
+  23.6,
+  25.4,
+  27.1,
+  29.8,
+  32.1,
+  33.2,
+  34.2,
+  36.5,
+  37.9,
+  39.0,
+  41.0,
+  42.5,
+  43.0,
+  44.8,
+  46.1,
+  48.4,
+  51.1,
+  52.6,
+  55.5,
+  56.7,
+  57.8,
+  59.6,
+  62.2,
+  64.4,
+  66.7,
+  68.0,
+  69.4,
+  70.9,
+  73.7
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.9,
+    "t1": 0.9,
+    "offset": 2411.58,
+    "n": 1
+   },
+   {
+    "t0": 4.85,
+    "t1": 14.1,
+    "offset": 2414.99,
+    "n": 7
+   },
+   {
+    "t0": 20.65,
+    "t1": 30.95,
+    "offset": 2521.14,
+    "n": 4
+   },
+   {
+    "t0": 32.65,
+    "t1": 35.35,
+    "offset": 2539.68,
+    "n": 3
+   },
+   {
+    "t0": 37.2,
+    "t1": 43.9,
+    "offset": 2544.84,
+    "n": 5
+   },
+   {
+    "t0": 45.45,
+    "t1": 45.45,
+    "offset": 2777.37,
+    "n": 1
+   },
+   {
+    "t0": 51.85,
+    "t1": 56.1,
+    "offset": 2780.19,
+    "n": 3
+   },
+   {
+    "t0": 57.25,
+    "t1": 57.25,
+    "offset": 2782.89,
+    "n": 1
+   },
+   {
+    "t0": 58.7,
+    "t1": 72.3,
+    "offset": 2792.45,
+    "n": 7
+   }
+  ],
+  "matched": 33,
+  "used": 32,
+  "captions": 40,
+  "share": 0.97,
+  "cues": [
+   275,
+   276,
+   277,
+   279,
+   280,
+   301,
+   302,
+   303,
+   309,
+   310,
+   311,
+   312,
+   313,
+   362,
+   363,
+   364,
+   365,
+   366,
+   367
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.9,
+   "text": "- WEHAVE A PRIMARY ROLL UP, RIGHT"
+  },
+  {
+   "t": 3.1,
+   "text": "TT WAS AT. 7645. NOW AT 7680."
+  },
+  {
+   "t": 4.85,
+   "text": "SO THAT'S A CLUE."
+  },
+  {
+   "t": 5.85,
+   "text": "THAT'S A CLUE, RIGHT"
+  },
+  {
+   "t": 7.3,
+   "text": "AND IT S ROLLED UP TWICE,"
+  },
+  {
+   "t": 9.2,
+   "text": "BECAUSE IT WAS AT 7620, 7645."
+  },
+  {
+   "t": 10.95,
+   "text": "ONE ROLL UP ISN'T THAT CLEAR,"
+  },
+  {
+   "t": 12.55,
+   "text": "BUT WHEN IT ROLLS UP TWICE, THAT"
+  },
+  {
+   "t": 14.1,
+   "text": "TELLS ME A TREND IS REVERSING."
+  },
+  {
+   "t": 17.1,
+   "text": "seaneneuonanoneeneues"
+  },
+  {
+   "t": 20.65,
+   "text": "PRIMARY GUULD PUTENTIALLY MUVE UP 10 63."
+  },
+  {
+   "t": 22.75,
+   "text": "THAT WOULD BE A ROLL-UP OF"
+  },
+  {
+   "t": 24.5,
+   "text": "THE PRIMARY UN oPY, WHILH WUULD GIVE"
+  },
+  {
+   "t": 26.25,
+   "text": "US CONTINUATION OF THE UPSIDE."
+  },
+  {
+   "t": 28.45,
+   "text": "DAU E NUW LUUR, QUU ALOU MUVED UP"
+  },
+  {
+   "t": 30.95,
+   "text": "FROM 705 T0714 ON THAT PRIMARY."
+  },
+  {
+   "t": 32.65,
+   "text": "RIGHT NOW WE'RE CHOPPING HOW"
+  },
+  {
+   "t": 33.7,
+   "text": "DO WE KNOW WE'RE CHOPPING"
+  },
+  {
+   "t": 35.35,
+   "text": "WE HAVE THE PRIMARY MUVING UF AND DOWN,"
+  },
+  {
+   "t": 37.2,
+   "text": "UP AND DOWN ON 0."
+  },
+  {
+   "t": 38.45,
+   "text": "LET'S CREATE THIS RANGE."
+  },
+  {
+   "t": 40.0,
+   "text": "THINK THE DOWNTREND IS A"
+  },
+  {
+   "t": 41.75,
+   "text": "LITTLE BIT MORE LIKELY SIMPLY"
+  },
+  {
+   "t": 42.75,
+   "text": ""
+  },
+  {
+   "t": 43.9,
+   "text": "BECAUSE SPY PRIMARY IS HEALTHY"
+  },
+  {
+   "t": 45.45,
+   "text": "IF YOU WERE BULLISH . YES,"
+  },
+  {
+   "t": 47.25,
+   "text": "YUU WUULU WANT PRIMARY IU oTAY ABOVE AND THEN"
+  },
+  {
+   "t": 49.75,
+   "text": "NUT UNLY WUULU YUU WANT ITU STAY ABOVE."
+  },
+  {
+   "t": 51.85,
+   "text": "'D REALLY WANT PRIMARY AT"
+  },
+  {
+   "t": 54.05,
+   "text": "76, 760 ON SPY TO DIMINISH."
+  },
+  {
+   "t": 56.1,
+   "text": "CAUSE IF THIS GUY HOLDS."
+  },
+  {
+   "t": 57.25,
+   "text": "IT'S GONNA BE A PAIN"
+  },
+  {
+   "t": 58.7,
+   "text": "YEAH. SO IF PRICE GOT TO."
+  },
+  {
+   "t": 60.9,
+   "text": "LET JUST OAY 3 0U ALL TRE WAY TU LIKE"
+  },
+  {
+   "t": 63.3,
+   "text": "3150.1 THINK THAT LAUNCH PADIS"
+  },
+  {
+   "t": 65.55,
+   "text": "- GUUU BEGAUDSE Ths PRIMARY 1d UP HERE."
+  },
+  {
+   "t": 67.35,
+   "text": "WHAT YOU WANNA SEE THOUGH."
+  },
+  {
+   "t": 68.7,
+   "text": "AS PRICE COMES DOWN. DOES"
+  },
+  {
+   "t": 70.15,
+   "text": "THIS PRIMARY HOLD IN VALUE"
+  },
+  {
+   "t": 72.3,
+   "text": "THAT WOULD CLEAR TRE UPOIWE FUR ME"
+  },
+  {
+   "t": 76.02,
+   "text": "a ee a a"
+  }
+ ]
+}

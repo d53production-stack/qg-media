@@ -1,0 +1,162 @@
+{
+ "clip": "2026-10-14-webinar-part7",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 31.43,
+ "sample_fps": 10,
+ "widest_hold": null,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 27.5,
+   "dur": 27.5,
+   "features": 1490,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 27.9,
+   "end": 31.5,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 27.5,
+   "end": 27.9,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.002,
+   "pan_px": 132.4,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "Sennenenanananeeueues"
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  2.9,
+  5.5,
+  6.9,
+  8.5,
+  10.0,
+  11.3,
+  12.8,
+  14.0,
+  15.9,
+  17.5,
+  19.4,
+  20.5,
+  21.5,
+  22.6,
+  23.3,
+  24.3,
+  25.4,
+  26.8
+ ],
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "NOW IT'S KIND OF TURNING"
+  },
+  {
+   "t": 2.25,
+   "text": "INTO ANOTHER TRAPDOOR SETUP IF"
+  },
+  {
+   "t": 4.2,
+   "text": "177730 DOESN THOLD"
+  },
+  {
+   "t": 6.2,
+   "text": "THE ONLY THING IS 7730S"
+  },
+  {
+   "t": 7.7,
+   "text": "AULUING IN VALUE, BUT NUW YUU RE SEE-"
+  },
+  {
+   "t": 9.25,
+   "text": "YUU RE, YUU RE GETTING TEASED LEO 10"
+  },
+  {
+   "t": 10.65,
+   "text": "THE UPSIDE BECAUSE OF THIS"
+  },
+  {
+   "t": 12.05,
+   "text": "WOULD BE IN SHORTS HERE"
+  },
+  {
+   "t": 13.4,
+   "text": "JUST BECAUSE THIS LOST VALUE"
+  },
+  {
+   "t": 14.95,
+   "text": "NU, DUWNOIWE KEEPS TESTING AND KEEPS FAILING."
+  },
+  {
+   "t": 16.7,
+   "text": "BUT IF IT KEEPS TESTING IT,"
+  },
+  {
+   "t": 18.45,
+   "text": "AL OUME PUINT THAT SUPPURT WILL FAIL"
+  },
+  {
+   "t": 19.95,
+   "text": "THIS DOWN HERE, ABSOLUTELY."
+  },
+  {
+   "t": 21.0,
+   "text": "AND NOW LOOK AT ALL THIS"
+  },
+  {
+   "t": 22.05,
+   "text": "GROWTH WE HAVE HERE ON THE Q'S."
+  },
+  {
+   "t": 22.95,
+   "text": "CAME OUT OF NOWHERE."
+  },
+  {
+   "t": 23.8,
+   "text": "ALSO ON SPY"
+  },
+  {
+   "t": 24.85,
+   "text": "VALUES UEGREASED, VALUES INCREASED T0"
+  },
+  {
+   "t": 26.1,
+   "text": "THE DOWNSIDE MAX, YOU ASKED"
+  },
+  {
+   "t": 29.12,
+   "text": "TAUNCH WEEK."
+  }
+ ]
+}

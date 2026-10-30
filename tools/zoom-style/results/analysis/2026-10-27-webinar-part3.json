@@ -1,0 +1,807 @@
+{
+ "clip": "2026-10-27-webinar-part3",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 52.33,
+ "sample_fps": 10,
+ "widest_hold": 10,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.1,
+   "dur": 0.1,
+   "features": 955,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 3.2,
+   "dur": 2.6,
+   "features": 1483,
+   "kind": "video",
+   "zoom": 1.549,
+   "center": [
+    0.336,
+    0.409
+   ],
+   "direct": true,
+   "ink": {
+    "px": 437,
+    "share": 0.00051,
+    "center": [
+     0.462,
+     0.496
+    ],
+    "bbox": [
+     0.406,
+     0.492,
+     0.518,
+     0.503
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 3.4,
+   "end": 6.4,
+   "dur": 3.0,
+   "features": 1474,
+   "kind": "video",
+   "zoom": 1.508,
+   "center": [
+    0.659,
+    0.398
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1591,
+    "share": 0.00186,
+    "center": [
+     0.417,
+     0.515
+    ],
+    "bbox": [
+     0.313,
+     0.467,
+     0.565,
+     0.566
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 6.6,
+   "end": 9.4,
+   "dur": 2.8,
+   "features": 1485,
+   "kind": "video",
+   "zoom": 1.001,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 230,
+    "share": 0.00027,
+    "center": [
+     0.298,
+     0.44
+    ],
+    "bbox": [
+     0.251,
+     0.435,
+     0.344,
+     0.442
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 9.7,
+   "end": 11.1,
+   "dur": 1.4,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 1.531,
+   "center": [
+    0.727,
+    0.413
+   ],
+   "direct": true,
+   "ink": {
+    "px": 612,
+    "share": 0.00072,
+    "center": [
+     0.941,
+     0.482
+    ],
+    "bbox": [
+     0.799,
+     0.447,
+     0.993,
+     0.553
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 11.3,
+   "end": 13.8,
+   "dur": 2.5,
+   "features": 1481,
+   "kind": "video",
+   "zoom": 1.593,
+   "center": [
+    0.398,
+    0.438
+   ],
+   "direct": true,
+   "ink": {
+    "px": 607,
+    "share": 0.00071,
+    "center": [
+     0.411,
+     0.529
+    ],
+    "bbox": [
+     0.293,
+     0.524,
+     0.544,
+     0.533
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 14.1,
+   "end": 16.5,
+   "dur": 2.4,
+   "features": 1482,
+   "kind": "video",
+   "zoom": 1.594,
+   "center": [
+    0.626,
+    0.459
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1945,
+    "share": 0.00228,
+    "center": [
+     0.561,
+     0.57
+    ],
+    "bbox": [
+     0.392,
+     0.524,
+     0.733,
+     0.614
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 16.8,
+   "end": 20.0,
+   "dur": 3.2,
+   "features": 1472,
+   "kind": "video",
+   "zoom": 1.497,
+   "center": [
+    0.818,
+    0.397
+   ],
+   "direct": true,
+   "ink": {
+    "px": 361,
+    "share": 0.00042,
+    "center": [
+     0.823,
+     0.528
+    ],
+    "bbox": [
+     0.774,
+     0.523,
+     0.868,
+     0.532
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 20.3,
+   "end": 30.3,
+   "dur": 10.0,
+   "features": 1490,
+   "kind": "video",
+   "zoom": 1.004,
+   "center": [
+    0.498,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 494,
+    "share": 0.00058,
+    "center": [
+     0.711,
+     0.5
+    ],
+    "bbox": [
+     0.64,
+     0.457,
+     0.8,
+     0.538
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 30.6,
+   "end": 37.8,
+   "dur": 7.2,
+   "features": 1484,
+   "kind": "video",
+   "zoom": 1.525,
+   "center": [
+    0.854,
+    0.433
+   ],
+   "direct": true,
+   "ink": {
+    "px": 642,
+    "share": 0.00075,
+    "center": [
+     0.645,
+     0.484
+    ],
+    "bbox": [
+     0.596,
+     0.394,
+     0.683,
+     0.571
+    ]
+   }
+  },
+  {
+   "index": 10,
+   "start": 38.0,
+   "end": 41.7,
+   "dur": 3.7,
+   "features": 1489,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 721,
+    "share": 0.00085,
+    "center": [
+     0.655,
+     0.329
+    ],
+    "bbox": [
+     0.554,
+     0.282,
+     0.734,
+     0.361
+    ]
+   }
+  },
+  {
+   "index": 11,
+   "start": 41.9,
+   "end": 48.1,
+   "dur": 6.2,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.447,
+   "center": [
+    0.325,
+    0.49
+   ],
+   "direct": true,
+   "ink": {
+    "px": 774,
+    "share": 0.00091,
+    "center": [
+     0.485,
+     0.446
+    ],
+    "bbox": [
+     0.406,
+     0.433,
+     0.585,
+     0.5
+    ]
+   }
+  },
+  {
+   "index": 12,
+   "start": 48.8,
+   "end": 52.4,
+   "dur": 3.6,
+   "features": 1486,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.1,
+   "end": 0.6,
+   "dur": 0.5,
+   "type": "ramp",
+   "log_scale": 0.42,
+   "pan_px": 73.8,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.549,
+   "zoom_ratio": null,
+   "caption_offset_s": -4.3,
+   "caption_text": "ABOVETHAT 7705 LEVEL,",
+   "transcript": {
+    "recording_t": 1213.67,
+    "cue_i": 111,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Above that 7705 level, We do have void.",
+    "into_cue_s": 3.89,
+    "cue_dur": 4.6,
+    "in_gap": false,
+    "prev": "And we have that negative gamma below.",
+    "next": "And you have negative void, or you have negative range here on these nodes on SPY."
+   }
+  },
+  {
+   "index": 1,
+   "start": 3.2,
+   "end": 3.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.018,
+   "pan_px": 246.7,
+   "after_hold": 1,
+   "zoom_from": 1.549,
+   "zoom_to": 1.508,
+   "zoom_ratio": 0.974,
+   "caption_offset_s": -1.2,
+   "caption_text": "YUU DU HAVE VUIU YUU HAVE NEGATIVE RANGE HERE",
+   "transcript": {
+    "recording_t": 1216.77,
+    "cue_i": 112,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And you have negative void, or you have negative range here on these nodes on SPY.",
+    "into_cue_s": 1.96,
+    "cue_dur": 4.97,
+    "in_gap": false,
+    "prev": "Above that 7705 level, We do have void.",
+    "next": "So, above that 77.05, I would target 719 here on Q's."
+   }
+  },
+  {
+   "index": 2,
+   "start": 6.4,
+   "end": 6.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.401,
+   "pan_px": 198.5,
+   "after_hold": 2,
+   "zoom_from": 1.508,
+   "zoom_to": 1.001,
+   "zoom_ratio": 0.664,
+   "caption_offset_s": 0.1,
+   "caption_text": "SO ABOVE THAT",
+   "transcript": {
+    "recording_t": 1219.97,
+    "cue_i": 113,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "So, above that 77.05, I would target 719 here on Q's.",
+    "into_cue_s": -0.2,
+    "cue_dur": 5.57,
+    "in_gap": false,
+    "prev": "And you have negative void, or you have negative range here on these nodes on SPY.",
+    "next": "If you're a bull, you want to hold over 777.05, and you want this primary to reduce in value."
+   }
+  },
+  {
+   "index": 3,
+   "start": 9.4,
+   "end": 9.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.427,
+   "pan_px": 308.2,
+   "after_hold": 3,
+   "zoom_from": 1.001,
+   "zoom_to": 1.531,
+   "zoom_ratio": 1.529,
+   "caption_offset_s": -1.7,
+   "caption_text": "WOULD TARGET 719 HERE ON 0'S",
+   "transcript": {
+    "recording_t": 1222.97,
+    "cue_i": 113,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "So, above that 77.05, I would target 719 here on Q's.",
+    "into_cue_s": 2.8,
+    "cue_dur": 5.57,
+    "in_gap": false,
+    "prev": "And you have negative void, or you have negative range here on these nodes on SPY.",
+    "next": "If you're a bull, you want to hold over 777.05, and you want this primary to reduce in value."
+   }
+  },
+  {
+   "index": 4,
+   "start": 11.1,
+   "end": 11.3,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.034,
+   "pan_px": 262.6,
+   "after_hold": 4,
+   "zoom_from": 1.531,
+   "zoom_to": 1.593,
+   "zoom_ratio": 1.04,
+   "caption_offset_s": 0.0,
+   "caption_text": "IF YUU REA",
+   "transcript": {
+    "recording_t": 1224.67,
+    "cue_i": 113,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "So, above that 77.05, I would target 719 here on Q's.",
+    "into_cue_s": 4.5,
+    "cue_dur": 5.57,
+    "in_gap": false,
+    "prev": "And you have negative void, or you have negative range here on these nodes on SPY.",
+    "next": "If you're a bull, you want to hold over 777.05, and you want this primary to reduce in value."
+   }
+  },
+  {
+   "index": 5,
+   "start": 13.8,
+   "end": 14.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.004,
+   "pan_px": 198.8,
+   "after_hold": 5,
+   "zoom_from": 1.593,
+   "zoom_to": 1.594,
+   "zoom_ratio": 1.001,
+   "caption_offset_s": 0.4,
+   "caption_text": "AND YOU WANT THIS PRIMARY TO",
+   "transcript": {
+    "recording_t": 1333.11,
+    "cue_i": 114,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "If you're a bull, you want to hold over 777.05, and you want this primary to reduce in value.",
+    "into_cue_s": 3.03,
+    "cue_dur": 6.24,
+    "in_gap": false,
+    "prev": "So, above that 77.05, I would target 719 here on Q's.",
+    "next": "And obviously, primary rolling up from 719 up to 720."
+   }
+  },
+  {
+   "index": 6,
+   "start": 16.5,
+   "end": 16.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.062,
+   "pan_px": 147.3,
+   "after_hold": 6,
+   "zoom_from": 1.594,
+   "zoom_to": 1.497,
+   "zoom_ratio": 0.939,
+   "caption_offset_s": -1.2,
+   "caption_text": "HEVUCE IN VALUE AND UBVIUUSLY PRIMARY ROLLING UP",
+   "transcript": {
+    "recording_t": 1335.81,
+    "cue_i": 114,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "If you're a bull, you want to hold over 777.05, and you want this primary to reduce in value.",
+    "into_cue_s": 5.73,
+    "cue_dur": 6.24,
+    "in_gap": false,
+    "prev": "So, above that 77.05, I would target 719 here on Q's.",
+    "next": "And obviously, primary rolling up from 719 up to 720."
+   }
+  },
+  {
+   "index": 7,
+   "start": 20.0,
+   "end": 20.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.403,
+   "pan_px": 296.1,
+   "after_hold": 7,
+   "zoom_from": 1.497,
+   "zoom_to": 1.004,
+   "zoom_ratio": 0.671,
+   "caption_offset_s": 2.3,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 1339.31,
+    "cue_i": 115,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And obviously, primary rolling up from 719 up to 720.",
+    "into_cue_s": 1.41,
+    "cue_dur": 3.94,
+    "in_gap": false,
+    "prev": "If you're a bull, you want to hold over 777.05, and you want this primary to reduce in value.",
+    "next": "On cues."
+   }
+  },
+  {
+   "index": 8,
+   "start": 30.3,
+   "end": 30.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.424,
+   "pan_px": 409.7,
+   "after_hold": 8,
+   "zoom_from": 1.004,
+   "zoom_to": 1.525,
+   "zoom_ratio": 1.519,
+   "caption_offset_s": 0.1,
+   "caption_text": "1S PRIMARY WAS",
+   "transcript": {
+    "recording_t": 1596.74,
+    "cue_i": 136,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Primary rolled up on cues, nice high there.",
+    "into_cue_s": 3.08,
+    "cue_dur": 2.64,
+    "in_gap": true,
+    "prev": "Yeah, an up move can reduce it as well.",
+    "next": "Right, primary was at 719, it moved up to 720, we see that clearly."
+   }
+  },
+  {
+   "index": 9,
+   "start": 37.8,
+   "end": 38.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.412,
+   "pan_px": 305.6,
+   "after_hold": 9,
+   "zoom_from": 1.525,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.656,
+   "caption_offset_s": -0.8,
+   "caption_text": "ABUVE 19, WE HAVE A LAUNUHPAU UN Q'S",
+   "transcript": {
+    "recording_t": 1615.31,
+    "cue_i": 140,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "At around 770 SPY, we have a trap door.",
+    "into_cue_s": 0.19,
+    "cue_dur": 3.42,
+    "in_gap": false,
+    "prev": "We have a launch pad on queues.",
+    "next": "We do have a launch pad on SPX as well. We have positive, positive, And the negative above us."
+   }
+  },
+  {
+   "index": 10,
+   "start": 41.7,
+   "end": 41.9,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.354,
+   "pan_px": 73.2,
+   "after_hold": 10,
+   "zoom_from": 1.0,
+   "zoom_to": 1.447,
+   "zoom_ratio": 1.447,
+   "caption_offset_s": -1.1,
+   "caption_text": "WE DO HAVE A LAUNCH",
+   "transcript": {
+    "recording_t": 1619.21,
+    "cue_i": 141,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "We do have a launch pad on SPX as well. We have positive, positive, And the negative above us.",
+    "into_cue_s": -0.04,
+    "cue_dur": 6.76,
+    "in_gap": false,
+    "prev": "At around 770 SPY, we have a trap door.",
+    "next": "can squeeze."
+   }
+  },
+  {
+   "index": 11,
+   "start": 48.1,
+   "end": 48.8,
+   "dur": 0.7,
+   "type": "ramp",
+   "log_scale": 0.023,
+   "pan_px": 192.1,
+   "after_hold": 11,
+   "zoom_from": 1.447,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 1625.61,
+    "cue_i": 141,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We do have a launch pad on SPX as well. We have positive, positive, And the negative above us.",
+    "into_cue_s": 6.36,
+    "cue_dur": 6.76,
+    "in_gap": false,
+    "prev": "At around 770 SPY, we have a trap door.",
+    "next": "can squeeze."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  4.4,
+  6.3,
+  11.1,
+  13.4,
+  15.0,
+  17.7,
+  30.2,
+  31.6,
+  35.1,
+  38.6,
+  42.8,
+  44.2,
+  45.4,
+  48.1
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 5.35,
+    "t1": 8.7,
+    "offset": 1213.57,
+    "n": 2
+   },
+   {
+    "t0": 14.2,
+    "t1": 14.2,
+    "offset": 1319.31,
+    "n": 1
+   },
+   {
+    "t0": 30.9,
+    "t1": 30.9,
+    "offset": 1566.44,
+    "n": 1
+   },
+   {
+    "t0": 40.7,
+    "t1": 46.75,
+    "offset": 1577.51,
+    "n": 4
+   }
+  ],
+  "matched": 10,
+  "used": 8,
+  "captions": 14,
+  "share": 0.8,
+  "cues": [
+   112,
+   113,
+   114,
+   136,
+   137,
+   140,
+   141
+  ]
+ },
+ "captions": [
+  {
+   "t": 2.2,
+   "text": "YUU DU HAVE VUIU YUU RAVE NEGATIVE RANGE HERE"
+  },
+  {
+   "t": 5.35,
+   "text": "ON THESE ON THESE NODES ON SPY."
+  },
+  {
+   "t": 8.7,
+   "text": "WOULD TARGET 719 HERE ON Q'S"
+  },
+  {
+   "t": 12.25,
+   "text": "WF YUU RE A DULL, YUU WANNA HULD OVER 7705."
+  },
+  {
+   "t": 14.2,
+   "text": "AND YOU WANT THIS PRIMARY T0"
+  },
+  {
+   "t": 16.35,
+   "text": "HEVUCE IN VALUE AND UBVIUUSLY PRIMARY ROLLING UP"
+  },
+  {
+   "t": 23.95,
+   "text": "sennenennnananeeueues"
+  },
+  {
+   "t": 30.9,
+   "text": "D PRIMARY WAS AT 719."
+  },
+  {
+   "t": 33.35,
+   "text": "I II I J I Il i i i I iI i il Il i a a a i eee Sseeee aaa WE S - F y or TY a yy a 1 a a ne yy a na na na na na aa aa na na a ye a a y"
+  },
+  {
+   "t": 36.85,
+   "text": "ABUVE 19, WE HAVE A LAUNGHPAU UN Q'S"
+  },
+  {
+   "t": 40.7,
+   "text": "WE HAVE A TRAP DOOR."
+  },
+  {
+   "t": 43.5,
+   "text": "PAD ON SPX AS WELL."
+  },
+  {
+   "t": 44.8,
+   "text": "WEHAVE POSITIVE POSITIVE."
+  },
+  {
+   "t": 46.75,
+   "text": "AND THE NEGATIVE ABUVE US GAN SQUEEZE"
+  },
+  {
+   "t": 50.22,
+   "text": ""
+  }
+ ]
+}

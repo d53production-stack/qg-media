@@ -1,0 +1,365 @@
+{
+ "clip": "2026-10-14-webinar-b-part9",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 39.57,
+ "sample_fps": 10,
+ "widest_hold": 3,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.2,
+   "dur": 0.2,
+   "features": 818,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 8.8,
+   "dur": 8.2,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.538,
+   "center": [
+    0.374,
+    0.466
+   ],
+   "direct": true,
+   "ink": {
+    "px": 854,
+    "share": 0.001,
+    "center": [
+     0.525,
+     0.451
+    ],
+    "bbox": [
+     0.422,
+     0.443,
+     0.629,
+     0.459
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 9.0,
+   "end": 12.4,
+   "dur": 3.4,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.559,
+   "center": [
+    0.721,
+    0.423
+   ],
+   "ink": {
+    "px": 3772,
+    "share": 0.00442,
+    "center": [
+     0.423,
+     0.438
+    ],
+    "bbox": [
+     0.222,
+     0.389,
+     0.649,
+     0.48
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 12.7,
+   "end": 21.0,
+   "dur": 8.3,
+   "features": 1486,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 543,
+    "share": 0.00064,
+    "center": [
+     0.106,
+     0.433
+    ],
+    "bbox": [
+     0.057,
+     0.352,
+     0.204,
+     0.692
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 21.3,
+   "end": 30.3,
+   "dur": 9.0,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.603,
+   "center": [
+    0.431,
+    0.429
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1365,
+    "share": 0.0016,
+    "center": [
+     0.364,
+     0.606
+    ],
+    "bbox": [
+     0.294,
+     0.552,
+     0.435,
+     0.656
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 30.7,
+   "end": 35.7,
+   "dur": 5.0,
+   "features": 1499,
+   "kind": "video",
+   "zoom": 0.999,
+   "center": [
+    0.501,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 755,
+    "share": 0.00088,
+    "center": [
+     0.663,
+     0.419
+    ],
+    "bbox": [
+     0.568,
+     0.382,
+     0.795,
+     0.57
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 36.0,
+   "end": 39.6,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.2,
+   "end": 0.6,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": -0.002,
+   "pan_px": 144.1,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.538,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.4,
+   "caption_text": "THISIS WHY I Say"
+  },
+  {
+   "index": 1,
+   "start": 8.8,
+   "end": 9.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 296.8,
+   "after_hold": 1,
+   "zoom_from": 1.538,
+   "zoom_to": 1.559,
+   "zoom_ratio": 1.014,
+   "caption_offset_s": -0.3,
+   "caption_text": "NOT VERY COMPETITIVE."
+  },
+  {
+   "index": 2,
+   "start": 12.4,
+   "end": 12.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.43,
+   "pan_px": 249.9,
+   "after_hold": 2,
+   "zoom_from": 1.559,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.641,
+   "caption_offset_s": 0.0,
+   "caption_text": "sanenenanananeeueues"
+  },
+  {
+   "index": 3,
+   "start": 21.0,
+   "end": 21.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.425,
+   "pan_px": 96.2,
+   "after_hold": 3,
+   "zoom_from": 1.0,
+   "zoom_to": 1.603,
+   "zoom_ratio": 1.603,
+   "caption_offset_s": -0.2,
+   "caption_text": "JUST TRADING THIS"
+  },
+  {
+   "index": 4,
+   "start": 30.3,
+   "end": 30.7,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": -0.439,
+   "pan_px": 84.6,
+   "after_hold": 4,
+   "zoom_from": 1.603,
+   "zoom_to": 0.999,
+   "zoom_ratio": 0.623,
+   "caption_offset_s": 0.6,
+   "caption_text": "saancnennoananeeneues"
+  },
+  {
+   "index": 5,
+   "start": 35.7,
+   "end": 36.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 98.7,
+   "after_hold": 5,
+   "zoom_from": 0.999,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "seanenenanananeeueues"
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  2.8,
+  4.3,
+  6.2,
+  8.1,
+  9.1,
+  10.9,
+  12.4,
+  21.2,
+  22.0,
+  23.0,
+  24.2,
+  26.0,
+  27.5,
+  29.7,
+  32.8,
+  35.3
+ ],
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "THIS IS WHY SAY EARLIER,"
+  },
+  {
+   "t": 2.2,
+   "text": "YOU WANT TO BE CHASING"
+  },
+  {
+   "t": 3.55,
+   "text": "A PRIMARY THAT CAN MOVE UP."
+  },
+  {
+   "t": 5.25,
+   "text": ""
+  },
+  {
+   "t": 7.15,
+   "text": "AUW GUMPETITIVE 1S PRIMARY RIGHT NOW"
+  },
+  {
+   "t": 8.6,
+   "text": "NOT VERY COMPETITIVE."
+  },
+  {
+   "t": 10.0,
+   "text": "HOWEVER, WE DO HAVE THESE HIGHER"
+  },
+  {
+   "t": 11.65,
+   "text": "PRIMARIES ON SPY AND 00"
+  },
+  {
+   "t": 16.8,
+   "text": "saananennnananeeueues"
+  },
+  {
+   "t": 21.6,
+   "text": "JUST TRADING THIS RANGE"
+  },
+  {
+   "t": 22.5,
+   "text": "- PRIMARY'S HOLDING."
+  },
+  {
+   "t": 23.6,
+   "text": "a coe ace 5 ie -- Oy"
+  },
+  {
+   "t": 25.1,
+   "text": "SEEING OUME URUWIH UP HERE, A LITTLE TANTALIZING."
+  },
+  {
+   "t": 26.75,
+   "text": "LET 9, LED 9 ok IF PRIMARY MUVES UP."
+  },
+  {
+   "t": 28.6,
+   "text": "AGAIN, JUST TRADING THIS RANGE"
+  },
+  {
+   "t": 31.25,
+   "text": "sanncnenanananeeueues"
+  },
+  {
+   "t": 34.05,
+   "text": "NEGATIVE GAMMA HERE WITH PRIMARY ABOVE."
+  },
+  {
+   "t": 37.44,
+   "text": "eS SS SS a Ss a oe"
+  }
+ ]
+}

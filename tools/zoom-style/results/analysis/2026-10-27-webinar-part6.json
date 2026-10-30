@@ -1,0 +1,479 @@
+{
+ "clip": "2026-10-27-webinar-part6",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 24.43,
+ "sample_fps": 10,
+ "widest_hold": 2,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.1,
+   "dur": 0.1,
+   "features": 863,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.2,
+   "end": 0.5,
+   "dur": 0.3,
+   "features": 1442,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 2,
+   "start": 0.6,
+   "end": 2.1,
+   "dur": 1.5,
+   "features": 1481,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 2.3,
+   "end": 7.5,
+   "dur": 5.2,
+   "features": 1484,
+   "kind": "video",
+   "zoom": 1.18,
+   "center": [
+    0.757,
+    0.446
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2680,
+    "share": 0.00314,
+    "center": [
+     0.713,
+     0.297
+    ],
+    "bbox": [
+     0.571,
+     0.238,
+     0.863,
+     0.411
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 7.7,
+   "end": 12.9,
+   "dur": 5.2,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.359,
+   "center": [
+    0.753,
+    0.538
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1309,
+    "share": 0.00153,
+    "center": [
+     0.389,
+     0.44
+    ],
+    "bbox": [
+     0.333,
+     0.276,
+     0.422,
+     0.67
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 13.2,
+   "end": 15.3,
+   "dur": 2.1,
+   "features": 1496,
+   "kind": "video",
+   "zoom": 1.362,
+   "center": [
+    0.329,
+    0.466
+   ],
+   "direct": true,
+   "ink": {
+    "px": 625,
+    "share": 0.00073,
+    "center": [
+     0.501,
+     0.42
+    ],
+    "bbox": [
+     0.462,
+     0.387,
+     0.54,
+     0.501
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 15.5,
+   "end": 20.2,
+   "dur": 4.7,
+   "features": 1498,
+   "kind": "video",
+   "zoom": 0.999,
+   "center": [
+    0.566,
+    0.538
+   ],
+   "direct": true,
+   "ink": {
+    "px": 548,
+    "share": 0.00064,
+    "center": [
+     0.895,
+     0.502
+    ],
+    "bbox": [
+     0.833,
+     0.41,
+     0.957,
+     0.652
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 20.9,
+   "end": 24.5,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.1,
+   "end": 0.2,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.091,
+   "pan_px": 73.4,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.5,
+   "caption_text": "SQ HERE. NOTICE HOW SPY",
+   "transcript": {
+    "recording_t": 2187.42,
+    "cue_i": 200,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "So here, notice how SPY",
+    "into_cue_s": 0.18,
+    "cue_dur": 2.57,
+    "in_gap": false,
+    "prev": "Along the margins.",
+    "next": "has a little growth above. We want to start seeing that on queues as well, or queues will likely"
+   }
+  },
+  {
+   "index": 1,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 35.9,
+   "after_hold": 1,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "SQ HERE. NOTICE HOW SPY",
+   "transcript": {
+    "recording_t": 2187.82,
+    "cue_i": 200,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "So here, notice how SPY",
+    "into_cue_s": 0.58,
+    "cue_dur": 2.57,
+    "in_gap": false,
+    "prev": "Along the margins.",
+    "next": "has a little growth above. We want to start seeing that on queues as well, or queues will likely"
+   }
+  },
+  {
+   "index": 2,
+   "start": 2.1,
+   "end": 2.3,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.162,
+   "pan_px": 199.9,
+   "after_hold": 2,
+   "zoom_from": 1.0,
+   "zoom_to": 1.18,
+   "zoom_ratio": 1.18,
+   "caption_offset_s": 0.5,
+   "caption_text": "HAS ALITTLE GROWTH ABOVE.",
+   "transcript": {
+    "recording_t": 2189.42,
+    "cue_i": 201,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "has a little growth above. We want to start seeing that on queues as well, or queues will likely",
+    "into_cue_s": -0.66,
+    "cue_dur": 5.25,
+    "in_gap": false,
+    "prev": "So here, notice how SPY",
+    "next": "Top out sooner."
+   }
+  },
+  {
+   "index": 3,
+   "start": 7.5,
+   "end": 7.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.134,
+   "pan_px": 80.9,
+   "after_hold": 3,
+   "zoom_from": 1.18,
+   "zoom_to": 1.359,
+   "zoom_ratio": 1.152,
+   "caption_offset_s": 0.1,
+   "caption_text": "SO WATCH, WHAT IF",
+   "transcript": {
+    "recording_t": 2219.05,
+    "cue_i": 203,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "So watch, what if Q's kind of stall right here, but SPY comes into this trapdoor setup, or SPX comes into this trapdoor setup?",
+    "into_cue_s": -0.58,
+    "cue_dur": 8.59,
+    "in_gap": false,
+    "prev": "Top out sooner.",
+    "next": "Then we would be taking that primary rejection along with these trap doors."
+   }
+  },
+  {
+   "index": 4,
+   "start": 12.9,
+   "end": 13.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 312.0,
+   "after_hold": 4,
+   "zoom_from": 1.359,
+   "zoom_to": 1.362,
+   "zoom_ratio": 1.002,
+   "caption_offset_s": 0.3,
+   "caption_text": "UR OPA GUMES INTU Tls PHAP UUUR SETUP",
+   "transcript": {
+    "recording_t": 2224.45,
+    "cue_i": 203,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "So watch, what if Q's kind of stall right here, but SPY comes into this trapdoor setup, or SPX comes into this trapdoor setup?",
+    "into_cue_s": 4.82,
+    "cue_dur": 8.59,
+    "in_gap": false,
+    "prev": "Top out sooner.",
+    "next": "Then we would be taking that primary rejection along with these trap doors."
+   }
+  },
+  {
+   "index": 5,
+   "start": 15.3,
+   "end": 15.5,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.285,
+   "pan_px": 61.9,
+   "after_hold": 5,
+   "zoom_from": 1.362,
+   "zoom_to": 0.999,
+   "zoom_ratio": 0.733,
+   "caption_offset_s": 0.1,
+   "caption_text": "THEN WE WOULD BE",
+   "transcript": {
+    "recording_t": 2226.85,
+    "cue_i": 204,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Then we would be taking that primary rejection along with these trap doors.",
+    "into_cue_s": -1.6,
+    "cue_dur": 4.38,
+    "in_gap": false,
+    "prev": "So watch, what if Q's kind of stall right here, but SPY comes into this trapdoor setup, or SPX comes into this trapdoor setup?",
+    "next": "As a potential trade."
+   }
+  },
+  {
+   "index": 6,
+   "start": 20.2,
+   "end": 20.9,
+   "dur": 0.7,
+   "type": "ramp",
+   "log_scale": 0.12,
+   "pan_px": 225.1,
+   "after_hold": 6,
+   "zoom_from": 0.999,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 2232.86,
+    "cue_i": 204,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Then we would be taking that primary rejection along with these trap doors.",
+    "into_cue_s": 4.41,
+    "cue_dur": 4.38,
+    "in_gap": false,
+    "prev": "So watch, what if Q's kind of stall right here, but SPY comes into this trapdoor setup, or SPX comes into this trapdoor setup?",
+    "next": "As a potential trade."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  3.3,
+  5.6,
+  7.4,
+  9.1,
+  11.0,
+  12.6,
+  15.2,
+  16.9,
+  18.2,
+  20.2
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.8,
+    "t1": 6.5,
+    "offset": 2187.32,
+    "n": 4
+   },
+   {
+    "t0": 8.25,
+    "t1": 10.05,
+    "offset": 2211.55,
+    "n": 2
+   },
+   {
+    "t0": 16.05,
+    "t1": 17.55,
+    "offset": 2212.66,
+    "n": 2
+   }
+  ],
+  "matched": 9,
+  "used": 8,
+  "captions": 12,
+  "share": 0.89,
+  "cues": [
+   200,
+   201,
+   202,
+   203,
+   204
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "SQ HERE. NOTICE HOW SPY"
+  },
+  {
+   "t": 2.45,
+   "text": "HAS ALITTLE GROWTH ABOVE."
+  },
+  {
+   "t": 4.45,
+   "text": "WE WANNA START OEEING THAT UN US AS WELL,"
+  },
+  {
+   "t": 6.5,
+   "text": "OR O'S WILL LIKELY TOP OUT SOONER"
+  },
+  {
+   "t": 8.25,
+   "text": "SO WATCH, WHAT IF Q'S KIND"
+  },
+  {
+   "t": 10.05,
+   "text": "OF STALL RIGHT HERE, BUT SPY COMES"
+  },
+  {
+   "t": 11.8,
+   "text": "INTO THIS TRAP DOOR SETUP,"
+  },
+  {
+   "t": 13.9,
+   "text": "UR OPA GUMES INTO Tils PHAP UUUh SETUP"
+  },
+  {
+   "t": 16.05,
+   "text": "THEN WE WOULD BE TAKING THAT"
+  },
+  {
+   "t": 17.55,
+   "text": "PRIMARY AEJEGTIUN ALUNG WITH THESE"
+  },
+  {
+   "t": 19.2,
+   "text": "- TRAP DOORS AS A POTENTIAL TRADE"
+  },
+  {
+   "t": 22.31,
+   "text": "Pa isSesessosssssenhsseshenesensssnenal"
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "clip": "2026-10-14-webinar-part1",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 37.67,
+ "sample_fps": 10,
+ "widest_hold": null,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1124,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 33.8,
+   "dur": 33.2,
+   "features": 1485,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 2,
+   "start": 34.1,
+   "end": 37.7,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 72.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": -4.1,
+   "caption_text": "$0 LET'S BREAK IT DOWN, RIGHT"
+  },
+  {
+   "index": 1,
+   "start": 33.8,
+   "end": 34.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 98.5,
+   "after_hold": 1,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "sanenananananeeneues"
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  4.5,
+  8.3,
+  9.9,
+  12.1,
+  14.6,
+  16.4,
+  19.0,
+  20.6,
+  21.9,
+  23.2,
+  24.9,
+  26.6,
+  27.6,
+  28.8,
+  31.6,
+  33.4
+ ],
+ "captions": [
+  {
+   "t": 2.25,
+   "text": "WE GOT SPX."
+  },
+  {
+   "t": 6.4,
+   "text": "THAT OPA FLUUR AT 0U, AND ITS GETTING"
+  },
+  {
+   "t": 9.1,
+   "text": "GUMPETHTAVE FUR THAT PRINVARY NUDE"
+  },
+  {
+   "t": 11.0,
+   "text": "IF THAT PRIVIARY NUDE MUVES UF, GUESS WHAT"
+  },
+  {
+   "t": 13.35,
+   "text": "WE HAVE A NIGE LAUNUHPAU SETUP HERE."
+  },
+  {
+   "t": 15.5,
+   "text": "WE SHOULD BE ABLE TO GET"
+  },
+  {
+   "t": 17.7,
+   "text": "774 ON SPY QUITE EASILY."
+  },
+  {
+   "t": 19.8,
+   "text": "DO YOU GUYS SEE HOW THAT"
+  },
+  {
+   "t": 21.25,
+   "text": "NEVATIVE GAMMA oHUULU BE BEHAVING"
+  },
+  {
+   "t": 22.55,
+   "text": "T'S BEHAVING THE SAME WAY HERE"
+  },
+  {
+   "t": 24.05,
+   "text": "AS LONG AS THIS HOLDS IN VALUE"
+  },
+  {
+   "t": 25.75,
+   "text": "- SHOULD BE A NICE FLOOR FOR US."
+  },
+  {
+   "t": 27.1,
+   "text": "DO WANNA POINT"
+  },
+  {
+   "t": 28.2,
+   "text": "OUT THIS GUY IS GROWING"
+  },
+  {
+   "t": 30.2,
+   "text": "DEALERS AnE OHURT GAMMA HERE, MOVES ACCELERATED, VOLATILITY"
+  },
+  {
+   "t": 32.5,
+   "text": "EAPANUS, BREAKS TEND IU nun, RIGHT"
+  },
+  {
+   "t": 35.53,
+   "text": "TAUNCH WEEK"
+  }
+ ]
+}

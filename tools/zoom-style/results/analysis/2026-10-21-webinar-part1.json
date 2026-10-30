@@ -1,0 +1,743 @@
+{
+ "clip": "2026-10-21-webinar-part1",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 39.7,
+ "sample_fps": 10,
+ "widest_hold": 1,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1147,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 8.4,
+   "dur": 7.8,
+   "features": 1476,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 8.7,
+   "end": 11.2,
+   "dur": 2.5,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.664,
+   "center": [
+    0.77,
+    0.557
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2067,
+    "share": 0.00242,
+    "center": [
+     0.689,
+     0.309
+    ],
+    "bbox": [
+     0.544,
+     0.251,
+     0.803,
+     0.352
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 11.4,
+   "end": 13.4,
+   "dur": 2.0,
+   "features": 1487,
+   "kind": "video",
+   "zoom": 1.669,
+   "center": [
+    0.777,
+    0.448
+   ],
+   "direct": true,
+   "ink": {
+    "px": 810,
+    "share": 0.00095,
+    "center": [
+     0.664,
+     0.513
+    ],
+    "bbox": [
+     0.603,
+     0.441,
+     0.724,
+     0.561
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 13.6,
+   "end": 17.0,
+   "dur": 3.4,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.663,
+   "center": [
+    0.77,
+    0.557
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1305,
+    "share": 0.00153,
+    "center": [
+     0.689,
+     0.487
+    ],
+    "bbox": [
+     0.674,
+     0.323,
+     0.706,
+     0.649
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 17.3,
+   "end": 20.0,
+   "dur": 2.7,
+   "features": 1497,
+   "kind": "video",
+   "zoom": 1.742,
+   "center": [
+    0.629,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1722,
+    "share": 0.00202,
+    "center": [
+     0.604,
+     0.544
+    ],
+    "bbox": [
+     0.485,
+     0.303,
+     0.681,
+     0.749
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 20.3,
+   "end": 25.8,
+   "dur": 5.5,
+   "features": 1488,
+   "kind": "video",
+   "zoom": 1.655,
+   "center": [
+    0.457,
+    0.506
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1292,
+    "share": 0.00151,
+    "center": [
+     0.275,
+     0.638
+    ],
+    "bbox": [
+     0.187,
+     0.61,
+     0.411,
+     0.662
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 26.0,
+   "end": 29.5,
+   "dur": 3.5,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.513,
+   "center": [
+    0.758,
+    0.51
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 8,
+   "start": 29.7,
+   "end": 31.0,
+   "dur": 1.3,
+   "features": 1499,
+   "kind": "video",
+   "zoom": 1.665,
+   "center": [
+    0.818,
+    0.514
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1235,
+    "share": 0.00145,
+    "center": [
+     0.68,
+     0.351
+    ],
+    "bbox": [
+     0.587,
+     0.252,
+     0.798,
+     0.384
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 31.3,
+   "end": 32.2,
+   "dur": 0.9,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.663,
+   "center": [
+    0.755,
+    0.631
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2245,
+    "share": 0.00263,
+    "center": [
+     0.707,
+     0.45
+    ],
+    "bbox": [
+     0.656,
+     0.152,
+     0.742,
+     0.771
+    ]
+   }
+  },
+  {
+   "index": 10,
+   "start": 32.4,
+   "end": 35.5,
+   "dur": 3.1,
+   "features": 1472,
+   "kind": "video",
+   "zoom": 1.718,
+   "center": [
+    0.376,
+    0.536
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2273,
+    "share": 0.00266,
+    "center": [
+     0.484,
+     0.501
+    ],
+    "bbox": [
+     0.356,
+     0.232,
+     0.563,
+     0.744
+    ]
+   }
+  },
+  {
+   "index": 11,
+   "start": 36.1,
+   "end": 39.7,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 71.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.9,
+   "caption_text": "LEDS",
+   "transcript": {
+    "recording_t": 292.92,
+    "cue_i": 6,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Alright, let's break down the,",
+    "into_cue_s": 3.2,
+    "cue_dur": 2.41,
+    "in_gap": true,
+    "prev": "Oh, let's try to find a good trade.",
+    "next": "the nice setup today. There's actually two. One of our members spotted a short that I saw. So, first let's go with the\u2026"
+   }
+  },
+  {
+   "index": 1,
+   "start": 8.4,
+   "end": 8.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.505,
+   "pan_px": 403.0,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.664,
+   "zoom_ratio": 1.664,
+   "caption_offset_s": -0.2,
+   "caption_text": "SOFIRST LET'S GO WITH THE SHORTS.",
+   "transcript": {
+    "recording_t": 300.92,
+    "cue_i": 7,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "the nice setup today. There's actually two. One of our members spotted a short that I saw. So, first let's go with the\u2026",
+    "into_cue_s": 7.8,
+    "cue_dur": 8.31,
+    "in_gap": false,
+    "prev": "Alright, let's break down the,",
+    "next": "the shorts, the puts here, right? We had a trapdoor, Positive, positive?"
+   }
+  },
+  {
+   "index": 2,
+   "start": 11.2,
+   "end": 11.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 69.8,
+   "after_hold": 2,
+   "zoom_from": 1.664,
+   "zoom_to": 1.669,
+   "zoom_ratio": 1.003,
+   "caption_offset_s": 1.0,
+   "caption_text": "WEHAD A TRAP DOOR.",
+   "transcript": {
+    "recording_t": 303.72,
+    "cue_i": 8,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "the shorts, the puts here, right? We had a trapdoor, Positive, positive?",
+    "into_cue_s": 1.66,
+    "cue_dur": 5.79,
+    "in_gap": false,
+    "prev": "the nice setup today. There's actually two. One of our members spotted a short that I saw. So, first let's go with the\u2026",
+    "next": "into a negative regime, negative gamma here, so that was a nice move down, and then it came right down to our launch pad setup. We had positive, positive, positive, negative, negative nodes to the upside. So what does that tell us? It's the same setup, it's just inversed."
+   }
+  },
+  {
+   "index": 3,
+   "start": 13.4,
+   "end": 13.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 68.2,
+   "after_hold": 3,
+   "zoom_from": 1.669,
+   "zoom_to": 1.663,
+   "zoom_ratio": 0.996,
+   "caption_offset_s": 0.7,
+   "caption_text": "PUOTTIVE-PUSHTIVE INTU A NEGATIVE REGIME.",
+   "transcript": {
+    "recording_t": 305.92,
+    "cue_i": 8,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "the shorts, the puts here, right? We had a trapdoor, Positive, positive?",
+    "into_cue_s": 3.86,
+    "cue_dur": 5.79,
+    "in_gap": false,
+    "prev": "the nice setup today. There's actually two. One of our members spotted a short that I saw. So, first let's go with the\u2026",
+    "next": "into a negative regime, negative gamma here, so that was a nice move down, and then it came right down to our launch pad setup. We had positive, positive, positive, negative, negative nodes to the upside. So what does that tell us? It's the same setup, it's just inversed."
+   }
+  },
+  {
+   "index": 4,
+   "start": 17.0,
+   "end": 17.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 137.0,
+   "after_hold": 4,
+   "zoom_from": 1.663,
+   "zoom_to": 1.742,
+   "zoom_ratio": 1.048,
+   "caption_offset_s": -0.6,
+   "caption_text": "NICE MOVE DOWN. AND THEN ITCAME",
+   "transcript": {
+    "recording_t": 309.52,
+    "cue_i": 9,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "into a negative regime, negative gamma here, so that was a nice move down, and then it came right down to our launch pad setup. We had positive, positive, positive, negative, negative nodes to the upside. So what does that tell us? It's the same setup, it's just inversed.",
+    "into_cue_s": 1.44,
+    "cue_dur": 17.8,
+    "in_gap": false,
+    "prev": "the shorts, the puts here, right? We had a trapdoor, Positive, positive?",
+    "next": "Same setup, just in verse. Positive, positive, we come in, Fall."
+   }
+  },
+  {
+   "index": 5,
+   "start": 20.0,
+   "end": 20.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 147.6,
+   "after_hold": 5,
+   "zoom_from": 1.742,
+   "zoom_to": 1.655,
+   "zoom_ratio": 0.95,
+   "caption_offset_s": 0.0,
+   "caption_text": "WEHAD",
+   "transcript": {
+    "recording_t": 315.41,
+    "cue_i": 9,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "into a negative regime, negative gamma here, so that was a nice move down, and then it came right down to our launch pad setup. We had positive, positive, positive, negative, negative nodes to the upside. So what does that tell us? It's the same setup, it's just inversed.",
+    "into_cue_s": 7.33,
+    "cue_dur": 17.8,
+    "in_gap": false,
+    "prev": "the shorts, the puts here, right? We had a trapdoor, Positive, positive?",
+    "next": "Same setup, just in verse. Positive, positive, we come in, Fall."
+   }
+  },
+  {
+   "index": 6,
+   "start": 25.8,
+   "end": 26.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.092,
+   "pan_px": 219.8,
+   "after_hold": 6,
+   "zoom_from": 1.655,
+   "zoom_to": 1.513,
+   "zoom_ratio": 0.914,
+   "caption_offset_s": -2.1,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 321.21,
+    "cue_i": 9,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "into a negative regime, negative gamma here, so that was a nice move down, and then it came right down to our launch pad setup. We had positive, positive, positive, negative, negative nodes to the upside. So what does that tell us? It's the same setup, it's just inversed.",
+    "into_cue_s": 13.13,
+    "cue_dur": 17.8,
+    "in_gap": false,
+    "prev": "the shorts, the puts here, right? We had a trapdoor, Positive, positive?",
+    "next": "Same setup, just in verse. Positive, positive, we come in, Fall."
+   }
+  },
+  {
+   "index": 7,
+   "start": 29.5,
+   "end": 29.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.087,
+   "pan_px": 74.4,
+   "after_hold": 7,
+   "zoom_from": 1.513,
+   "zoom_to": 1.665,
+   "zoom_ratio": 1.1,
+   "caption_offset_s": 0.1,
+   "caption_text": "rs es es eel Le SS Es ee pe ool ais dled",
+   "transcript": {
+    "recording_t": 324.91,
+    "cue_i": 9,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "into a negative regime, negative gamma here, so that was a nice move down, and then it came right down to our launch pad setup. We had positive, positive, positive, negative, negative nodes to the upside. So what does that tell us? It's the same setup, it's just inversed.",
+    "into_cue_s": 16.83,
+    "cue_dur": 17.8,
+    "in_gap": false,
+    "prev": "the shorts, the puts here, right? We had a trapdoor, Positive, positive?",
+    "next": "Same setup, just in verse. Positive, positive, we come in, Fall."
+   }
+  },
+  {
+   "index": 8,
+   "start": 31.0,
+   "end": 31.3,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 95.8,
+   "after_hold": 8,
+   "zoom_from": 1.665,
+   "zoom_to": 1.663,
+   "zoom_ratio": 0.999,
+   "caption_offset_s": -1.0,
+   "caption_text": "POSITIVE, WE COME IN. FALL.",
+   "transcript": {
+    "recording_t": 336.13,
+    "cue_i": 10,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Same setup, just in verse. Positive, positive, we come in, Fall.",
+    "into_cue_s": 3.84,
+    "cue_dur": 5.34,
+    "in_gap": false,
+    "prev": "into a negative regime, negative gamma here, so that was a nice move down, and then it came right down to our launch pad setup. We had positive, positive, positive, negative, negative nodes to the upside. So what does that tell us? It's the same setup, it's just inversed.",
+    "next": "We come down into positive, positive, into negative."
+   }
+  },
+  {
+   "index": 9,
+   "start": 32.2,
+   "end": 32.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 343.2,
+   "after_hold": 9,
+   "zoom_from": 1.663,
+   "zoom_to": 1.718,
+   "zoom_ratio": 1.033,
+   "caption_offset_s": 0.2,
+   "caption_text": "WE COME DOWN INTO",
+   "transcript": {
+    "recording_t": 337.33,
+    "cue_i": 11,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "We come down into positive, positive, into negative.",
+    "into_cue_s": -0.57,
+    "cue_dur": 3.37,
+    "in_gap": false,
+    "prev": "Same setup, just in verse. Positive, positive, we come in, Fall.",
+    "next": "we push."
+   }
+  },
+  {
+   "index": 10,
+   "start": 35.5,
+   "end": 36.1,
+   "dur": 0.6,
+   "type": "ramp",
+   "log_scale": -0.037,
+   "pan_px": 96.8,
+   "after_hold": 10,
+   "zoom_from": 1.718,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.1,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 340.63,
+    "cue_i": 11,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We come down into positive, positive, into negative.",
+    "into_cue_s": 2.73,
+    "cue_dur": 3.37,
+    "in_gap": false,
+    "prev": "Same setup, just in verse. Positive, positive, we come in, Fall.",
+    "next": "we push."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.3,
+  3.3,
+  4.7,
+  5.9,
+  8.6,
+  10.2,
+  12.7,
+  14.6,
+  16.1,
+  17.6,
+  20.0,
+  22.8,
+  27.9,
+  29.4,
+  32.0,
+  33.5,
+  35.4
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 4.0,
+    "t1": 15.35,
+    "offset": 292.52,
+    "n": 5
+   },
+   {
+    "t0": 16.85,
+    "t1": 28.65,
+    "offset": 295.41,
+    "n": 3
+   },
+   {
+    "t0": 30.7,
+    "t1": 34.45,
+    "offset": 305.13,
+    "n": 3
+   }
+  ],
+  "matched": 12,
+  "used": 11,
+  "captions": 17,
+  "share": 0.92,
+  "cues": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.15,
+   "text": "LET O BREAK DUWN THE NIGE SETUP TODAY."
+  },
+  {
+   "t": 2.8,
+   "text": "THERE WAS ACTUALLY"
+  },
+  {
+   "t": 4.0,
+   "text": "TWO. ONE OF OUR MEMBERS SPOTTED"
+  },
+  {
+   "t": 5.3,
+   "text": "A SHORT THAT SAW."
+  },
+  {
+   "t": 7.25,
+   "text": "SOFIRST LET'S GO WITH THE SHORTS."
+  },
+  {
+   "t": 9.4,
+   "text": "THE PUTS HERE. RIGHT"
+  },
+  {
+   "t": 11.45,
+   "text": "--WEHAD A TRAP DOOR."
+  },
+  {
+   "t": 13.65,
+   "text": "PUOTTIVE-PUSHTIVE INTU A NEGATIVE REGIME."
+  },
+  {
+   "t": 15.35,
+   "text": "NEGATIVE GAMMA HERE, oU THAT WAS A"
+  },
+  {
+   "t": 16.85,
+   "text": "NICE MOVE DOWN, AND THEN IT CAME"
+  },
+  {
+   "t": 18.8,
+   "text": "HIGHT VUWN TU UURLAUNGHPAD SETUP."
+  },
+  {
+   "t": 21.4,
+   "text": "WEHAD POSITIVE. POSITIVE, NEGATIVE."
+  },
+  {
+   "t": 25.35,
+   "text": "SSSL aE"
+  },
+  {
+   "t": 28.65,
+   "text": "SAME SETUP. JUST INVERSE."
+  },
+  {
+   "t": 30.7,
+   "text": "POSITIVE. WE COME IN. FALL."
+  },
+  {
+   "t": 32.75,
+   "text": "WE COME DOWN INTO"
+  },
+  {
+   "t": 34.45,
+   "text": "POSITIVE INTO NEGATIVE, WE PUSH"
+  },
+  {
+   "t": 37.55,
+   "text": ""
+  }
+ ]
+}

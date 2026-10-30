@@ -1,0 +1,291 @@
+{
+ "clip": "2026-10-28-webinar-part7",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 48.0,
+ "sample_fps": 10,
+ "widest_hold": null,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.2,
+   "dur": 0.2,
+   "features": 63,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 43.7,
+   "dur": 43.1,
+   "features": 1483,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 2,
+   "start": 44.4,
+   "end": 48.0,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.2,
+   "end": 0.6,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 144.4,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.6,
+   "caption_text": "DAVID ASKS I KNOW YOU'RE A",
+   "transcript": {
+    "recording_t": 3562.85,
+    "cue_i": 501,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "David asks, I know you're a successful longtime trader. Are you now looking at this platform of making trade decisions? I only look at this.",
+    "into_cue_s": -0.02,
+    "cue_dur": 8.69,
+    "in_gap": false,
+    "prev": "Make it easy for me to be a little bit more objective on that read.",
+    "next": "My trading view has\u2026 was canceled,"
+   }
+  },
+  {
+   "index": 1,
+   "start": 43.7,
+   "end": 44.4,
+   "dur": 0.7,
+   "type": "ramp",
+   "log_scale": 0.474,
+   "pan_px": 362.1,
+   "after_hold": 1,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": -0.1,
+   "caption_text": "SeuucUauLsuLuEBuUaee",
+   "transcript": {
+    "recording_t": 4808.78,
+    "cue_i": 685,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "What I will say here is, while we've been chit-chatty.",
+    "into_cue_s": 2.53,
+    "cue_dur": 3.97,
+    "in_gap": false,
+    "prev": "Yeah, yeah, don't worry.",
+    "next": "We now have a launch pad, right? We have positive, positive, positive into negative."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.8,
+  3.5,
+  5.4,
+  7.5,
+  10.5,
+  12.9,
+  14.6,
+  16.2,
+  18.2,
+  20.3,
+  22.1,
+  23.9,
+  25.3,
+  28.1,
+  29.3,
+  30.8,
+  32.2,
+  34.3,
+  37.3,
+  40.6,
+  42.3,
+  43.8
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.9,
+    "t1": 9.0,
+    "offset": 3562.65,
+    "n": 3
+   },
+   {
+    "t0": 11.7,
+    "t1": 11.7,
+    "offset": 3566.21,
+    "n": 1
+   },
+   {
+    "t0": 13.75,
+    "t1": 17.2,
+    "offset": 3575.0,
+    "n": 3
+   },
+   {
+    "t0": 23.0,
+    "t1": 23.0,
+    "offset": 3579.42,
+    "n": 1
+   },
+   {
+    "t0": 26.7,
+    "t1": 33.25,
+    "offset": 3581.44,
+    "n": 5
+   },
+   {
+    "t0": 38.95,
+    "t1": 38.95,
+    "offset": 3583.94,
+    "n": 1
+   },
+   {
+    "t0": 41.45,
+    "t1": 43.05,
+    "offset": 4765.08,
+    "n": 2
+   }
+  ],
+  "matched": 16,
+  "used": 16,
+  "captions": 22,
+  "share": 1.0,
+  "cues": [
+   501,
+   502,
+   503,
+   504,
+   505,
+   507,
+   508,
+   509,
+   685
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.9,
+   "text": "DAVID ASKS I KNOW YOU'RE A"
+  },
+  {
+   "t": 2.65,
+   "text": "SUGGESOFUL LUNGTIME TRAUER. ARE YOU NOW"
+  },
+  {
+   "t": 4.45,
+   "text": "LUURING Al hls PLATFURM UF MAKING"
+  },
+  {
+   "t": 6.45,
+   "text": "TRADE UEGISIUNS TUNLY LUUK Al THIS."
+  },
+  {
+   "t": 9.0,
+   "text": "MY TRAUINGVIEW HAS, WAS CANCELED."
+  },
+  {
+   "t": 11.7,
+   "text": "YEAH, MEAN, ONLY LOOK AT THIS"
+  },
+  {
+   "t": 13.75,
+   "text": "PART OF THE REASON WHY I WANTED"
+  },
+  {
+   "t": 15.4,
+   "text": "TOCREATE THIS WITH MY TEAM WAS"
+  },
+  {
+   "t": 17.2,
+   "text": "WE WANTED, WANTED TO BE ABLE TO"
+  },
+  {
+   "t": 19.25,
+   "text": "TRADE UN A LAPTUP ANU NUT NEED SEVEN"
+  },
+  {
+   "t": 21.2,
+   "text": "UIFFERENT MUNITUR IF YUU HAD SEEN"
+  },
+  {
+   "t": 23.0,
+   "text": "MY SETUP BEFORE, IT'D BE OVERKILL."
+  },
+  {
+   "t": 24.6,
+   "text": "AND I'LL OVERSHARE,"
+  },
+  {
+   "t": 26.7,
+   "text": "BUTI GOT STUCK IN MY HOUSE."
+  },
+  {
+   "t": 28.7,
+   "text": "YD NEVER WANNA GO ON VACATION."
+  },
+  {
+   "t": 30.05,
+   "text": "I'D NEVER WANT TO"
+  },
+  {
+   "t": 31.5,
+   "text": "DO ANYTHING CAUSE WAS..."
+  },
+  {
+   "t": 33.25,
+   "text": "THENT'D BE AWAY FROM MY SETUP"
+  },
+  {
+   "t": 35.8,
+   "text": "ANU NUW THAT GUMPLETELY SHIFTED."
+  },
+  {
+   "t": 38.95,
+   "text": "PULL THIS UP. AND EXECUTE"
+  },
+  {
+   "t": 41.45,
+   "text": "WHAT WILL SAY HERE IS"
+  },
+  {
+   "t": 43.05,
+   "text": "WHILE WE'VE BEEN CHIT-CHATTY, WE"
+  },
+  {
+   "t": 45.9,
+   "text": ""
+  }
+ ]
+}

@@ -1,0 +1,828 @@
+{
+ "clip": "2026-10-26-webinar-part9",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 64.63,
+ "sample_fps": 10,
+ "widest_hold": 8,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1242,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 16.9,
+   "dur": 16.3,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 0.999,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 477,
+    "share": 0.00056,
+    "center": [
+     0.373,
+     0.526
+    ],
+    "bbox": [
+     0.339,
+     0.456,
+     0.414,
+     0.582
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 17.1,
+   "end": 18.2,
+   "dur": 1.1,
+   "features": 1466,
+   "kind": "video",
+   "zoom": 1.482,
+   "center": [
+    0.871,
+    0.521
+   ],
+   "direct": true,
+   "ink": {
+    "px": 947,
+    "share": 0.00111,
+    "center": [
+     0.713,
+     0.493
+    ],
+    "bbox": [
+     0.594,
+     0.484,
+     0.827,
+     0.499
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 18.4,
+   "end": 20.4,
+   "dur": 2.0,
+   "features": 1458,
+   "kind": "video",
+   "zoom": 1.529,
+   "center": [
+    0.616,
+    0.518
+   ],
+   "direct": true,
+   "ink": {
+    "px": 704,
+    "share": 0.00083,
+    "center": [
+     0.553,
+     0.593
+    ],
+    "bbox": [
+     0.463,
+     0.587,
+     0.643,
+     0.596
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 20.6,
+   "end": 33.0,
+   "dur": 12.4,
+   "features": 1485,
+   "kind": "video",
+   "zoom": 1.548,
+   "center": [
+    0.371,
+    0.515
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1534,
+    "share": 0.0018,
+    "center": [
+     0.627,
+     0.345
+    ],
+    "bbox": [
+     0.494,
+     0.296,
+     0.752,
+     0.458
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 33.2,
+   "end": 41.4,
+   "dur": 8.2,
+   "features": 1423,
+   "kind": "video",
+   "zoom": 1.709,
+   "center": [
+    0.487,
+    0.429
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 6,
+   "start": 41.6,
+   "end": 42.8,
+   "dur": 1.2,
+   "features": 1463,
+   "kind": "video",
+   "zoom": 1.525,
+   "center": [
+    0.669,
+    0.435
+   ],
+   "direct": true,
+   "ink": {
+    "px": 929,
+    "share": 0.00109,
+    "center": [
+     0.499,
+     0.736
+    ],
+    "bbox": [
+     0.428,
+     0.724,
+     0.561,
+     0.748
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 43.1,
+   "end": 45.8,
+   "dur": 2.7,
+   "features": 1488,
+   "kind": "video",
+   "zoom": 1.494,
+   "center": [
+    0.345,
+    0.416
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1286,
+    "share": 0.00151,
+    "center": [
+     0.453,
+     0.63
+    ],
+    "bbox": [
+     0.384,
+     0.339,
+     0.502,
+     0.927
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 46.0,
+   "end": 50.7,
+   "dur": 4.7,
+   "features": 1491,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 9,
+   "start": 51.0,
+   "end": 52.5,
+   "dur": 1.5,
+   "features": 1462,
+   "kind": "video",
+   "zoom": 1.815,
+   "center": [
+    0.665,
+    0.569
+   ],
+   "direct": true,
+   "ink": {
+    "px": 3746,
+    "share": 0.00439,
+    "center": [
+     0.486,
+     0.536
+    ],
+    "bbox": [
+     0.347,
+     0.487,
+     0.664,
+     0.585
+    ]
+   }
+  },
+  {
+   "index": 10,
+   "start": 52.7,
+   "end": 60.7,
+   "dur": 8.0,
+   "features": 1497,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1015,
+    "share": 0.00119,
+    "center": [
+     0.335,
+     0.698
+    ],
+    "bbox": [
+     0.28,
+     0.624,
+     0.383,
+     0.789
+    ]
+   }
+  },
+  {
+   "index": 11,
+   "start": 61.1,
+   "end": 64.7,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 71.7,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 0.999,
+   "zoom_ratio": null,
+   "caption_offset_s": -2.0,
+   "caption_text": "HAS GHANGED PRIVARY HULL UUWN TWICE.",
+   "transcript": {
+    "recording_t": 5266.16,
+    "cue_i": 626,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "There it is.",
+    "into_cue_s": 1.83,
+    "cue_dur": 1.29,
+    "in_gap": true,
+    "prev": "to a launchpad set.",
+    "next": "Primary roll down, twice. Notice, that's what we want, to give ourselves the confirmation."
+   }
+  },
+  {
+   "index": 1,
+   "start": 16.9,
+   "end": 17.1,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.411,
+   "pan_px": 405.8,
+   "after_hold": 1,
+   "zoom_from": 0.999,
+   "zoom_to": 1.482,
+   "zoom_ratio": 1.483,
+   "caption_offset_s": -7.4,
+   "caption_text": "PRIMARY HULL UWI Oe CETL LELEL EEL SOSUCCCCCS SeVeeeeee",
+   "transcript": {
+    "recording_t": 5744.97,
+    "cue_i": 690,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Primary rolled from 7685 down to 7655.",
+    "into_cue_s": 9.11,
+    "cue_dur": 4.12,
+    "in_gap": true,
+    "prev": "Floor's gone at 765.",
+    "next": "Max says Launchpad looks better down here, now that the primary's there. It does, if everything holds, and then I'd like to see one of these majors take primary right there."
+   }
+  },
+  {
+   "index": 2,
+   "start": 18.2,
+   "end": 18.4,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 200.8,
+   "after_hold": 2,
+   "zoom_from": 1.482,
+   "zoom_to": 1.529,
+   "zoom_ratio": 1.032,
+   "caption_offset_s": -6.1,
+   "caption_text": "PRIMARY RULL DUWN UN WUEUES AGAIN",
+   "transcript": {
+    "recording_t": 5746.27,
+    "cue_i": 690,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Primary rolled from 7685 down to 7655.",
+    "into_cue_s": 10.41,
+    "cue_dur": 4.12,
+    "in_gap": true,
+    "prev": "Floor's gone at 765.",
+    "next": "Max says Launchpad looks better down here, now that the primary's there. It does, if everything holds, and then I'd like to see one of these majors take primary right there."
+   }
+  },
+  {
+   "index": 3,
+   "start": 20.4,
+   "end": 20.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 191.1,
+   "after_hold": 3,
+   "zoom_from": 1.529,
+   "zoom_to": 1.548,
+   "zoom_ratio": 1.012,
+   "caption_offset_s": -3.9,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 5748.47,
+    "cue_i": 690,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Primary rolled from 7685 down to 7655.",
+    "into_cue_s": 12.61,
+    "cue_dur": 4.12,
+    "in_gap": true,
+    "prev": "Floor's gone at 765.",
+    "next": "Max says Launchpad looks better down here, now that the primary's there. It does, if everything holds, and then I'd like to see one of these majors take primary right there."
+   }
+  },
+  {
+   "index": 4,
+   "start": 33.0,
+   "end": 33.2,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.104,
+   "pan_px": 131.3,
+   "after_hold": 4,
+   "zoom_from": 1.548,
+   "zoom_to": 1.709,
+   "zoom_ratio": 1.104,
+   "caption_offset_s": 0.0,
+   "caption_text": "TF YUU LUURK",
+   "transcript": {
+    "recording_t": 5761.07,
+    "cue_i": 691,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Max says Launchpad looks better down here, now that the primary's there. It does, if everything holds, and then I'd like to see one of these majors take primary right there.",
+    "into_cue_s": 8.17,
+    "cue_dur": 9.38,
+    "in_gap": false,
+    "prev": "Primary rolled from 7685 down to 7655.",
+    "next": "to have that trade, then go, oh, now I'm gonna hold it for a new high a day, right? Because you have that primary moving up."
+   }
+  },
+  {
+   "index": 5,
+   "start": 41.4,
+   "end": 41.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.164,
+   "pan_px": 110.4,
+   "after_hold": 5,
+   "zoom_from": 1.709,
+   "zoom_to": 1.525,
+   "zoom_ratio": 0.892,
+   "caption_offset_s": 0.1,
+   "caption_text": "NOTICE THAT FLOOR GONE",
+   "transcript": {
+    "recording_t": 5886.96,
+    "cue_i": 699,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Notice that floor gone.",
+    "into_cue_s": -0.5,
+    "cue_dur": 1.67,
+    "in_gap": false,
+    "prev": "We should be looking for a magnet, we should be looking for\u2026 a pin.",
+    "next": "Primary down Down again."
+   }
+  },
+  {
+   "index": 6,
+   "start": 42.8,
+   "end": 43.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 262.5,
+   "after_hold": 6,
+   "zoom_from": 1.525,
+   "zoom_to": 1.494,
+   "zoom_ratio": 0.98,
+   "caption_offset_s": 0.3,
+   "caption_text": "PRIMARY DOWN AGAIN.",
+   "transcript": {
+    "recording_t": 5888.36,
+    "cue_i": 699,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Notice that floor gone.",
+    "into_cue_s": 0.9,
+    "cue_dur": 1.67,
+    "in_gap": false,
+    "prev": "We should be looking for a magnet, we should be looking for\u2026 a pin.",
+    "next": "Primary down Down again."
+   }
+  },
+  {
+   "index": 7,
+   "start": 45.8,
+   "end": 46.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.383,
+   "pan_px": 34.1,
+   "after_hold": 7,
+   "zoom_from": 1.494,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.669,
+   "caption_offset_s": 0.0,
+   "caption_text": "sannsnannnanoneeueues",
+   "transcript": {
+    "recording_t": 5891.36,
+    "cue_i": 699,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Notice that floor gone.",
+    "into_cue_s": 3.9,
+    "cue_dur": 1.67,
+    "in_gap": true,
+    "prev": "We should be looking for a magnet, we should be looking for\u2026 a pin.",
+    "next": "Primary down Down again."
+   }
+  },
+  {
+   "index": 8,
+   "start": 50.7,
+   "end": 51.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.594,
+   "pan_px": 395.9,
+   "after_hold": 8,
+   "zoom_from": 1.0,
+   "zoom_to": 1.815,
+   "zoom_ratio": 1.815,
+   "caption_offset_s": -0.4,
+   "caption_text": "NUW THERE SUME oUPPURT BUILDING AGAIN, RIGHT",
+   "transcript": {
+    "recording_t": 6134.47,
+    "cue_i": 721,
+    "sure": true,
+    "direct": false,
+    "speaker": "Giancarlo",
+    "text": "Now there's some support building again, right? Yeah.",
+    "into_cue_s": 3.23,
+    "cue_dur": 3.64,
+    "in_gap": false,
+    "prev": "Yeah, we've got a whole library of them coming.",
+    "next": "On Spy, that's correct."
+   }
+  },
+  {
+   "index": 9,
+   "start": 52.5,
+   "end": 52.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.576,
+   "pan_px": 258.6,
+   "after_hold": 9,
+   "zoom_from": 1.815,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.551,
+   "caption_offset_s": -0.3,
+   "caption_text": "ON SPY. THAT'S CORRECT",
+   "transcript": {
+    "recording_t": 6136.27,
+    "cue_i": 722,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "On Spy, that's correct.",
+    "into_cue_s": 0.55,
+    "cue_dur": 1.91,
+    "in_gap": false,
+    "prev": "Now there's some support building again, right? Yeah.",
+    "next": "So, might have not gotten our launch pad set up here, but we should have a nice little push up to our primary on SPY."
+   }
+  },
+  {
+   "index": 10,
+   "start": 60.7,
+   "end": 61.1,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": -0.002,
+   "pan_px": 131.7,
+   "after_hold": 10,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 2.8,
+   "caption_text": "saanenennuananeeneues",
+   "transcript": {
+    "recording_t": 6148.67,
+    "cue_i": 723,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "So, might have not gotten our launch pad set up here, but we should have a nice little push up to our primary on SPY.",
+    "into_cue_s": 7.77,
+    "cue_dur": 5.62,
+    "in_gap": true,
+    "prev": "On Spy, that's correct.",
+    "next": "There's an umbrella."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.4,
+  3.3,
+  4.5,
+  6.3,
+  24.3,
+  25.9,
+  27.4,
+  28.2,
+  29.2,
+  31.3,
+  33.0,
+  35.0,
+  36.1,
+  37.9,
+  39.4,
+  41.3,
+  42.5,
+  44.1,
+  45.8,
+  49.4,
+  51.1,
+  52.8,
+  53.8,
+  54.8,
+  55.7,
+  56.7,
+  57.9
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 2.85,
+    "t1": 3.9,
+    "offset": 5265.76,
+    "n": 2
+   },
+   {
+    "t0": 5.4,
+    "t1": 5.4,
+    "offset": 5267.9,
+    "n": 1
+   },
+   {
+    "t0": 26.65,
+    "t1": 32.15,
+    "offset": 5728.07,
+    "n": 3
+   },
+   {
+    "t0": 35.55,
+    "t1": 37.0,
+    "offset": 5774.19,
+    "n": 2
+   },
+   {
+    "t0": 40.35,
+    "t1": 40.35,
+    "offset": 5776.67,
+    "n": 1
+   },
+   {
+    "t0": 41.9,
+    "t1": 41.9,
+    "offset": 5845.56,
+    "n": 1
+   },
+   {
+    "t0": 51.95,
+    "t1": 51.95,
+    "offset": 6083.77,
+    "n": 1
+   },
+   {
+    "t0": 53.3,
+    "t1": 56.2,
+    "offset": 6087.97,
+    "n": 4
+   }
+  ],
+  "matched": 17,
+  "used": 15,
+  "captions": 27,
+  "share": 0.88,
+  "cues": [
+   627,
+   628,
+   691,
+   695,
+   696,
+   697,
+   698,
+   699,
+   721,
+   722,
+   723
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.2,
+   "text": "HAS GHANGED PRIVARY HULL UUWN TWICE."
+  },
+  {
+   "t": 2.85,
+   "text": "NOTICE THAT'S WHAT WE"
+  },
+  {
+   "t": 3.9,
+   "text": "WANT TO GIVE OURSELVES THE"
+  },
+  {
+   "t": 5.4,
+   "text": "CONFIRMATION TREND HAS CHANGED"
+  },
+  {
+   "t": 15.3,
+   "text": "saanenannnananeeueues"
+  },
+  {
+   "t": 25.1,
+   "text": "MAG SAYS LAUNURPAU LUURO BETTER DOWN"
+  },
+  {
+   "t": 26.65,
+   "text": "HERE NUW THAT THE PRIMARY 9 THERE."
+  },
+  {
+   "t": 27.8,
+   "text": ""
+  },
+  {
+   "t": 28.7,
+   "text": "IT DOES IF EVERYTHING HOLDS,"
+  },
+  {
+   "t": 30.25,
+   "text": "AND TREN TU LIKE TU ote UNE UF THESE"
+  },
+  {
+   "t": 32.15,
+   "text": "MAJORS TAKE PRIMARY RIGHT THERE."
+  },
+  {
+   "t": 34.0,
+   "text": "TF YUU LUUR AT TRE TIME, I LUNCHTIME."
+  },
+  {
+   "t": 35.55,
+   "text": "THINGS MAKE SENSE. RIGHT"
+  },
+  {
+   "t": 37.0,
+   "text": "CONSOLIDATION. A LITTLE BIT OF CHOP."
+  },
+  {
+   "t": 38.65,
+   "text": "WE OHUULD BE LUUKING FUR A MAGNET ."
+  },
+  {
+   "t": 40.35,
+   "text": "WE SHOULD BE LOOKING FOR A PIN"
+  },
+  {
+   "t": 41.9,
+   "text": "NOTICE THAT FLOOR GONE"
+  },
+  {
+   "t": 43.3,
+   "text": "PRIMARY DOWN AGAIN."
+  },
+  {
+   "t": 44.95,
+   "text": "NICE DOWN TREND OCCURRING"
+  },
+  {
+   "t": 47.6,
+   "text": "sanncnennnanoneeueues"
+  },
+  {
+   "t": 50.25,
+   "text": "NUW THERE oUME oUPPURT BUILDING AGAIN, RIGHT"
+  },
+  {
+   "t": 51.95,
+   "text": "ON SPY. THAT'S CORRECT"
+  },
+  {
+   "t": 53.3,
+   "text": "$0 MIGHT HAVE NOT GOTTEN TO"
+  },
+  {
+   "t": 54.3,
+   "text": "OUR LAUNCH PAD SET UP HERE,"
+  },
+  {
+   "t": 55.25,
+   "text": "BUT WE SHOULD HAVE A"
+  },
+  {
+   "t": 56.2,
+   "text": "NICE LITTLE PUSH UP"
+  },
+  {
+   "t": 57.3,
+   "text": "TO OUR PRIMARY ON SPY"
+  },
+  {
+   "t": 61.27,
+   "text": "saanenennnananeeneuee"
+  }
+ ]
+}

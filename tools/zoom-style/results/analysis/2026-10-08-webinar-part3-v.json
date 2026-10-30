@@ -1,0 +1,248 @@
+{
+ "clip": "2026-10-08-webinar-part3-v",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 46.1,
+ "sample_fps": 10,
+ "widest_hold": 2,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.9,
+   "dur": 0.9,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.05,
+   "center": [
+    0.481,
+    0.515
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 1,
+   "start": 1.0,
+   "end": 6.8,
+   "dur": 5.8,
+   "features": 1454,
+   "kind": "video",
+   "zoom": 1.05,
+   "center": [
+    0.48,
+    0.515
+   ],
+   "ink": {
+    "px": 1239,
+    "share": 0.00145,
+    "center": [
+     0.847,
+     0.589
+    ],
+    "bbox": [
+     0.793,
+     0.473,
+     0.904,
+     0.684
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 6.9,
+   "end": 31.6,
+   "dur": 24.7,
+   "features": 1448,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 774,
+    "share": 0.00091,
+    "center": [
+     0.486,
+     0.306
+    ],
+    "bbox": [
+     0.424,
+     0.215,
+     0.553,
+     0.357
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 31.7,
+   "end": 46.1,
+   "dur": 14.4,
+   "features": 1431,
+   "kind": "video",
+   "zoom": 1.01,
+   "center": [
+    0.501,
+    0.58
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.9,
+   "end": 1.0,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.002,
+   "pan_px": 91.2,
+   "after_hold": 0,
+   "zoom_from": 1.05,
+   "zoom_to": 1.05,
+   "zoom_ratio": 1.0,
+   "caption_offset_s": -0.7,
+   "caption_text": "THIS IS A MIXED MAP. RIGHT"
+  },
+  {
+   "index": 1,
+   "start": 6.8,
+   "end": 6.9,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.003,
+   "pan_px": 31.1,
+   "after_hold": 1,
+   "zoom_from": 1.05,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.952,
+   "caption_offset_s": 1.8,
+   "caption_text": ""
+  },
+  {
+   "index": 2,
+   "start": 31.6,
+   "end": 31.7,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.004,
+   "pan_px": 25.5,
+   "after_hold": 2,
+   "zoom_from": 1.0,
+   "zoom_to": 1.01,
+   "zoom_ratio": 1.01,
+   "caption_offset_s": 0.7,
+   "caption_text": ""
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  2.6,
+  3.6,
+  5.0,
+  11.1,
+  12.1,
+  15.0,
+  17.3,
+  19.1,
+  19.9,
+  21.5,
+  28.1,
+  30.1,
+  30.9,
+  36.1,
+  43.1
+ ],
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "THIS IS A MIXED MAP. RIGHT"
+  },
+  {
+   "t": 2.1,
+   "text": "TM SEEING MORE INTEREST"
+  },
+  {
+   "t": 3.1,
+   "text": "ON THE DOWNSIDE ON SPX."
+  },
+  {
+   "t": 4.3,
+   "text": "BUT MORE INTEREST TO"
+  },
+  {
+   "t": 8.05,
+   "text": "TOHOWTHAT PRIMARY"
+  },
+  {
+   "t": 11.6,
+   "text": "CAN'TIGNORETHIS GROWTH."
+  },
+  {
+   "t": 13.55,
+   "text": "TS78AND79NOW."
+  },
+  {
+   "t": 16.15,
+   "text": "oo cn OM NSAI OCS 1 eT aaa. ae N 0 a"
+  },
+  {
+   "t": 18.2,
+   "text": "E oo ee FO IMT RUM. O70 GT a N 0 a"
+  },
+  {
+   "t": 19.5,
+   "text": "YOUGOTTASTARTPAYING"
+  },
+  {
+   "t": 20.7,
+   "text": "oo ee Fe IMT ROM 7 ee a"
+  },
+  {
+   "t": 24.8,
+   "text": "-GETALITTLEWEAKER,"
+  },
+  {
+   "t": 29.1,
+   "text": "THIS HAS GROWN, THIS HAS GROWN."
+  },
+  {
+   "t": 30.5,
+   "text": "THIS INTEREST HAS NOT"
+  },
+  {
+   "t": 33.5,
+   "text": "WOULD SAY DOWNSIDE"
+  },
+  {
+   "t": 39.6,
+   "text": "DOESN'T MEAN LONGS ARE IN PLAY."
+  },
+  {
+   "t": 44.6,
+   "text": "Eee"
+  }
+ ]
+}

@@ -1,0 +1,501 @@
+{
+ "clip": "2026-10-27-webinar-part8",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 29.77,
+ "sample_fps": 10,
+ "widest_hold": 1,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1348,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 6.4,
+   "dur": 5.8,
+   "features": 1497,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 176,
+    "share": 0.00021,
+    "center": [
+     0.957,
+     0.424
+    ],
+    "bbox": [
+     0.931,
+     0.397,
+     0.998,
+     0.465
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 6.7,
+   "end": 9.2,
+   "dur": 2.5,
+   "features": 1463,
+   "kind": "video",
+   "zoom": 1.714,
+   "center": [
+    0.624,
+    0.57
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2762,
+    "share": 0.00324,
+    "center": [
+     0.676,
+     0.62
+    ],
+    "bbox": [
+     0.523,
+     0.528,
+     0.85,
+     0.699
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 9.5,
+   "end": 14.2,
+   "dur": 4.7,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 636,
+    "share": 0.00075,
+    "center": [
+     0.341,
+     0.467
+    ],
+    "bbox": [
+     0.301,
+     0.382,
+     0.354,
+     0.62
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 14.3,
+   "end": 17.3,
+   "dur": 3.0,
+   "features": 1498,
+   "kind": "video",
+   "zoom": 1.001,
+   "center": [
+    0.489,
+    0.498
+   ],
+   "direct": true,
+   "ink": {
+    "px": 495,
+    "share": 0.00058,
+    "center": [
+     0.355,
+     0.49
+    ],
+    "bbox": [
+     0.273,
+     0.471,
+     0.419,
+     0.506
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 17.6,
+   "end": 19.7,
+   "dur": 2.1,
+   "features": 1490,
+   "kind": "video",
+   "zoom": 1.566,
+   "center": [
+    0.836,
+    0.419
+   ],
+   "ink": {
+    "px": 2800,
+    "share": 0.00328,
+    "center": [
+     0.721,
+     0.533
+    ],
+    "bbox": [
+     0.576,
+     0.446,
+     0.894,
+     0.613
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 19.9,
+   "end": 25.8,
+   "dur": 5.9,
+   "features": 1497,
+   "kind": "video",
+   "zoom": 0.959,
+   "center": [
+    0.502,
+    0.455
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 26.2,
+   "end": 29.8,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 36.1,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "OU RIUM T HERE YUU GAN OTART IU MAKE",
+   "transcript": {
+    "recording_t": 3099.84,
+    "cue_i": 325,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "So right here, you can start to make the argument that we\u2026 that we're\u2026 that we might be topping. How do we decide, is this gonna top, or is this gonna extend? This right here is what I'm using.",
+    "into_cue_s": 0.33,
+    "cue_dur": 10.37,
+    "in_gap": false,
+    "prev": "As that next shelf.",
+    "next": "It keeps reducing, You should keep pumping."
+   }
+  },
+  {
+   "index": 1,
+   "start": 6.4,
+   "end": 6.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.538,
+   "pan_px": 313.1,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.714,
+   "zoom_ratio": 1.714,
+   "caption_offset_s": 0.3,
+   "caption_text": "5 IN ok",
+   "transcript": {
+    "recording_t": 3105.74,
+    "cue_i": 325,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "So right here, you can start to make the argument that we\u2026 that we're\u2026 that we might be topping. How do we decide, is this gonna top, or is this gonna extend? This right here is what I'm using.",
+    "into_cue_s": 6.23,
+    "cue_dur": 10.37,
+    "in_gap": false,
+    "prev": "As that next shelf.",
+    "next": "It keeps reducing, You should keep pumping."
+   }
+  },
+  {
+   "index": 2,
+   "start": 9.2,
+   "end": 9.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.539,
+   "pan_px": 240.8,
+   "after_hold": 2,
+   "zoom_from": 1.714,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.583,
+   "caption_offset_s": 0.8,
+   "caption_text": "TEREEP REDUCING, YUU SHUULU KEEP PUMPING",
+   "transcript": {
+    "recording_t": 3108.54,
+    "cue_i": 325,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "So right here, you can start to make the argument that we\u2026 that we're\u2026 that we might be topping. How do we decide, is this gonna top, or is this gonna extend? This right here is what I'm using.",
+    "into_cue_s": 9.03,
+    "cue_dur": 10.37,
+    "in_gap": false,
+    "prev": "As that next shelf.",
+    "next": "It keeps reducing, You should keep pumping."
+   }
+  },
+  {
+   "index": 3,
+   "start": 14.2,
+   "end": 14.3,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 24.7,
+   "after_hold": 3,
+   "zoom_from": 1.0,
+   "zoom_to": 1.001,
+   "zoom_ratio": 1.001,
+   "caption_offset_s": 0.1,
+   "caption_text": "THERE OS ALITTLE PUOHTIVE HERE A",
+   "transcript": {
+    "recording_t": 3161.93,
+    "cue_i": 327,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "If this teases closer to the $300 million, could be a good trapdoor trade.",
+    "into_cue_s": 3.98,
+    "cue_dur": 5.12,
+    "in_gap": false,
+    "prev": "It keeps reducing, You should keep pumping.",
+    "next": "Yeah, if\u2026 so, Chase has a question, if spy primary grows."
+   }
+  },
+  {
+   "index": 4,
+   "start": 17.3,
+   "end": 17.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.429,
+   "pan_px": 399.8,
+   "after_hold": 4,
+   "zoom_from": 1.001,
+   "zoom_to": 1.566,
+   "zoom_ratio": 1.564,
+   "caption_offset_s": 0.0,
+   "caption_text": "AND REMEMBER RIGHT",
+   "transcript": {
+    "recording_t": 3693.21,
+    "cue_i": 401,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And remember, right here, we kind of have\u2026 This room up.",
+    "into_cue_s": -0.65,
+    "cue_dur": 4.11,
+    "in_gap": false,
+    "prev": "There's a little positive here at 77.20, and it looks like we're holding it.",
+    "next": "I'll tell you what, Max, if 7730 got strong, like 7735, I would try it."
+   }
+  },
+  {
+   "index": 5,
+   "start": 19.7,
+   "end": 19.9,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.42,
+   "pan_px": 301.9,
+   "after_hold": 5,
+   "zoom_from": 1.566,
+   "zoom_to": 0.959,
+   "zoom_ratio": 0.612,
+   "caption_offset_s": 1.1,
+   "caption_text": "seenenennoananeeueues",
+   "transcript": {
+    "recording_t": 3695.61,
+    "cue_i": 401,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And remember, right here, we kind of have\u2026 This room up.",
+    "into_cue_s": 1.75,
+    "cue_dur": 4.11,
+    "in_gap": false,
+    "prev": "There's a little positive here at 77.20, and it looks like we're holding it.",
+    "next": "I'll tell you what, Max, if 7730 got strong, like 7735, I would try it."
+   }
+  },
+  {
+   "index": 6,
+   "start": 25.8,
+   "end": 26.2,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.011,
+   "pan_px": 151.2,
+   "after_hold": 6,
+   "zoom_from": 0.959,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 7.2,
+   "caption_text": "sennenenanananeeneues",
+   "transcript": {
+    "recording_t": 3701.71,
+    "cue_i": 401,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And remember, right here, we kind of have\u2026 This room up.",
+    "into_cue_s": 7.85,
+    "cue_dur": 4.11,
+    "in_gap": true,
+    "prev": "There's a little positive here at 77.20, and it looks like we're holding it.",
+    "next": "I'll tell you what, Max, if 7730 got strong, like 7735, I would try it."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  3.0,
+  4.4,
+  6.1,
+  8.4,
+  10.1,
+  12.2,
+  14.1,
+  15.7,
+  17.3,
+  18.6
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 2.3,
+    "t1": 7.25,
+    "offset": 3099.34,
+    "n": 3
+   },
+   {
+    "t0": 13.15,
+    "t1": 13.15,
+    "offset": 3147.73,
+    "n": 1
+   },
+   {
+    "t0": 16.5,
+    "t1": 16.5,
+    "offset": 3658.97,
+    "n": 1
+   },
+   {
+    "t0": 17.95,
+    "t1": 17.95,
+    "offset": 3675.91,
+    "n": 1
+   }
+  ],
+  "matched": 6,
+  "used": 6,
+  "captions": 12,
+  "share": 1.0,
+  "cues": [
+   325,
+   327,
+   399,
+   400,
+   401
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "OU Alb T HERE YUU GAN OTART IU MAKE"
+  },
+  {
+   "t": 2.3,
+   "text": "THE ARGUMENT THAT WE MibhT BE TOPPING."
+  },
+  {
+   "t": 3.7,
+   "text": "HOW DO WE DECIDE IS THIS"
+  },
+  {
+   "t": 5.25,
+   "text": "GUNNA TUP Uh fd Thls GUNNA EXTEND"
+  },
+  {
+   "t": 7.25,
+   "text": "THIS RIGHT HERE IS WHAT I'M USING IF"
+  },
+  {
+   "t": 9.25,
+   "text": "TEREEPS REDUGING, YUU SHUULD REEF PUMPING"
+  },
+  {
+   "t": 11.15,
+   "text": "AF TIS TEASES GLUSER TU THE oUU MILLION,"
+  },
+  {
+   "t": 13.15,
+   "text": "COULD BE A GOOD TRAP DOOR TRADE"
+  },
+  {
+   "t": 14.9,
+   "text": "THERE ALITTLE PUSHTIVE HERE Al 7720."
+  },
+  {
+   "t": 16.5,
+   "text": "AND IT LOOKS LIKE WE'RE HOLDING IT"
+  },
+  {
+   "t": 17.95,
+   "text": "AND REMEMBER RIGHT HERE WE KIND"
+  },
+  {
+   "t": 24.19,
+   "text": "seananennnananeeueues"
+  }
+ ]
+}

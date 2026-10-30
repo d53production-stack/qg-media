@@ -1,0 +1,178 @@
+{
+ "clip": "2026-10-14-webinar-part10",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 39.57,
+ "sample_fps": 10,
+ "widest_hold": null,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1159,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 35.7,
+   "dur": 35.1,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 2,
+   "start": 36.0,
+   "end": 39.6,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 36.1,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "THIS IS WHY SAY EARLIER,"
+  },
+  {
+   "index": 1,
+   "start": 35.7,
+   "end": 36.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 98.5,
+   "after_hold": 1,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "Seenenennnananeoneuee"
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  2.8,
+  4.3,
+  6.2,
+  8.1,
+  9.1,
+  10.9,
+  12.4,
+  21.2,
+  22.0,
+  23.0,
+  24.2,
+  26.0,
+  27.5,
+  29.7,
+  32.8,
+  35.3
+ ],
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "THIS IS WHY SAY EARLIER,"
+  },
+  {
+   "t": 2.2,
+   "text": "YOU WANT TO BE CHASING"
+  },
+  {
+   "t": 3.55,
+   "text": "A PRIMARY THAT CAN MOVE UP."
+  },
+  {
+   "t": 5.25,
+   "text": "INTHIS CASE, M2. YOU KNOW."
+  },
+  {
+   "t": 7.15,
+   "text": "AUW GUMPETITIVE 1S PRIMARY RIGHT NOW"
+  },
+  {
+   "t": 8.6,
+   "text": "NOT VERY COMPETITIVE."
+  },
+  {
+   "t": 10.0,
+   "text": "HOWEVER, WE DO HAVE THESE HIGHER"
+  },
+  {
+   "t": 11.65,
+   "text": "PRIMARIES ON SPY AND 00"
+  },
+  {
+   "t": 16.8,
+   "text": "sennnennnananeeneues"
+  },
+  {
+   "t": 21.6,
+   "text": "JUST TRADING THIS RANGE"
+  },
+  {
+   "t": 22.5,
+   "text": "PRIMARY'S HOLDING."
+  },
+  {
+   "t": 23.6,
+   "text": "sennnannnananeoueues"
+  },
+  {
+   "t": 25.1,
+   "text": "SEEING SUME GHUWIT UP HERE, A LITTLE TANTALIZING."
+  },
+  {
+   "t": 26.75,
+   "text": "LET 9, LET oe IF PRIMARY MUVES UP."
+  },
+  {
+   "t": 28.6,
+   "text": "AGAIN, JUST TRADING THIS RANGE"
+  },
+  {
+   "t": 31.25,
+   "text": "senenannnananeeueues"
+  },
+  {
+   "t": 34.05,
+   "text": "NEGATIVE GAMMA HERE WITH PRIMARY ABOVE."
+  },
+  {
+   "t": 37.44,
+   "text": "LAUNCH WEEK"
+  }
+ ]
+}

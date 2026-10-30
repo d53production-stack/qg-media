@@ -1,0 +1,105 @@
+{
+ "clip": "2026-10-14-webinar-part2",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 38.57,
+ "sample_fps": 10,
+ "widest_hold": null,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1104,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 34.7,
+   "dur": 34.1,
+   "features": 1478,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 2,
+   "start": 35.0,
+   "end": 38.6,
+   "dur": 3.6,
+   "features": 1489,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 71.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.0
+  },
+  {
+   "index": 1,
+   "start": 34.7,
+   "end": 35.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.001,
+   "pan_px": 98.4,
+   "after_hold": 1,
+   "zoom_from": null,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.4,
+  2.7,
+  4.6,
+  6.1,
+  8.0,
+  9.8,
+  11.4,
+  13.0,
+  15.2,
+  16.4,
+  17.7,
+  19.5,
+  22.3,
+  23.6,
+  25.1,
+  26.0,
+  27.2,
+  29.4,
+  32.1,
+  34.3
+ ]
+}

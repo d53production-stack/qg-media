@@ -1,0 +1,456 @@
+{
+ "clip": "2026-10-22-halloween-spx-sets-up-a-trap-door",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 36.63,
+ "sample_fps": 10,
+ "widest_hold": 3,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 1124,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 2.3,
+   "dur": 1.7,
+   "features": 1492,
+   "kind": "video",
+   "zoom": 1.002,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 2.6,
+   "end": 15.1,
+   "dur": 12.5,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.761,
+   "center": [
+    0.397,
+    0.354
+   ],
+   "direct": true,
+   "ink": {
+    "px": 3150,
+    "share": 0.00369,
+    "center": [
+     0.501,
+     0.439
+    ],
+    "bbox": [
+     0.352,
+     0.377,
+     0.652,
+     0.516
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 15.3,
+   "end": 23.5,
+   "dur": 8.2,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 606,
+    "share": 0.00071,
+    "center": [
+     0.374,
+     0.407
+    ],
+    "bbox": [
+     0.319,
+     0.295,
+     0.448,
+     0.443
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 23.7,
+   "end": 30.0,
+   "dur": 6.3,
+   "features": 1492,
+   "kind": "video",
+   "zoom": 1.479,
+   "center": [
+    0.466,
+    0.54
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1420,
+    "share": 0.00166,
+    "center": [
+     0.446,
+     0.626
+    ],
+    "bbox": [
+     0.355,
+     0.592,
+     0.543,
+     0.656
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 30.2,
+   "end": 32.7,
+   "dur": 2.5,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 6,
+   "start": 33.1,
+   "end": 36.7,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 72.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.002,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.3,
+   "caption_text": "COMING INTO THESE POSITIVE NODES.",
+   "transcript": {
+    "recording_t": 1784.2,
+    "cue_i": 173,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "let's just assume price didn't break above here, right? And let's\u2026 it's coming into these positive nodes.",
+    "into_cue_s": 3.54,
+    "cue_dur": 5.65,
+    "in_gap": false,
+    "prev": "Okay, it's a tough answer to give you, just cleanly. For me, my take is.",
+    "next": "Anywhere from\u2026 from these three, it's in the trapdoor for me."
+   }
+  },
+  {
+   "index": 1,
+   "start": 2.3,
+   "end": 2.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.566,
+   "pan_px": 101.2,
+   "after_hold": 1,
+   "zoom_from": 1.002,
+   "zoom_to": 1.761,
+   "zoom_ratio": 1.757,
+   "caption_offset_s": 0.6,
+   "caption_text": "ANYWHERE FRUM TREOE TAREE, ITS IN THE",
+   "transcript": {
+    "recording_t": 1786.1,
+    "cue_i": 173,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "let's just assume price didn't break above here, right? And let's\u2026 it's coming into these positive nodes.",
+    "into_cue_s": 5.44,
+    "cue_dur": 5.65,
+    "in_gap": false,
+    "prev": "Okay, it's a tough answer to give you, just cleanly. For me, my take is.",
+    "next": "Anywhere from\u2026 from these three, it's in the trapdoor for me."
+   }
+  },
+  {
+   "index": 2,
+   "start": 15.1,
+   "end": 15.3,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.548,
+   "pan_px": 73.8,
+   "after_hold": 2,
+   "zoom_from": 1.761,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.568,
+   "caption_offset_s": -0.5,
+   "caption_text": "THAPUUUR WUULU BE ACTIVE SOMETIMES IT JUST",
+   "transcript": {
+    "recording_t": 1804.39,
+    "cue_i": 175,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "I, like, if it came into it here and didn't come into these positive gammas, that trapdoor could be active. It could go into the positive, and that trapdoor would be active.",
+    "into_cue_s": 10.17,
+    "cue_dur": 10.01,
+    "in_gap": false,
+    "prev": "Anywhere from\u2026 from these three, it's in the trapdoor for me.",
+    "next": "Sometimes it just takes a little bit of time, but anywhere between the three."
+   }
+  },
+  {
+   "index": 3,
+   "start": 23.5,
+   "end": 23.7,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.374,
+   "pan_px": 115.2,
+   "after_hold": 3,
+   "zoom_from": 1.0,
+   "zoom_to": 1.479,
+   "zoom_ratio": 1.479,
+   "caption_offset_s": 0.1,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 1818.19,
+    "cue_i": 178,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And let me highlight something real quick for everybody. Primary moved up from $76.20 to $76.45, and it looks like it wants to go up to 7680. We could be bottoming here if that holds.",
+    "into_cue_s": 1.55,
+    "cue_dur": 11.37,
+    "in_gap": false,
+    "prev": "I'm\u2026 I'm thinking trapdoors, but the potential's there.",
+    "next": "Let's not forget, spy node is quite big down here as well."
+   }
+  },
+  {
+   "index": 4,
+   "start": 30.0,
+   "end": 30.2,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.373,
+   "pan_px": 93.4,
+   "after_hold": 4,
+   "zoom_from": 1.479,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.676,
+   "caption_offset_s": 1.2,
+   "caption_text": "Sees LITE rl o oe ad sain in inne",
+   "transcript": {
+    "recording_t": 1824.69,
+    "cue_i": 178,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And let me highlight something real quick for everybody. Primary moved up from $76.20 to $76.45, and it looks like it wants to go up to 7680. We could be bottoming here if that holds.",
+    "into_cue_s": 8.05,
+    "cue_dur": 11.37,
+    "in_gap": false,
+    "prev": "I'm\u2026 I'm thinking trapdoors, but the potential's there.",
+    "next": "Let's not forget, spy node is quite big down here as well."
+   }
+  },
+  {
+   "index": 5,
+   "start": 32.7,
+   "end": 33.1,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 132.5,
+   "after_hold": 5,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.3,
+   "caption_text": "A Ne ALL AL AL Tt J tL Tt a ae oF y Y ye",
+   "transcript": {
+    "recording_t": 1827.39,
+    "cue_i": 178,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And let me highlight something real quick for everybody. Primary moved up from $76.20 to $76.45, and it looks like it wants to go up to 7680. We could be bottoming here if that holds.",
+    "into_cue_s": 10.75,
+    "cue_dur": 11.37,
+    "in_gap": false,
+    "prev": "I'm\u2026 I'm thinking trapdoors, but the potential's there.",
+    "next": "Let's not forget, spy node is quite big down here as well."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.7,
+  3.9,
+  6.1,
+  7.9,
+  9.8,
+  11.2,
+  13.7,
+  15.6,
+  17.6,
+  20.1,
+  21.5,
+  22.4,
+  23.4,
+  27.4,
+  28.8,
+  32.4
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.85,
+    "t1": 0.85,
+    "offset": 1783.8,
+    "n": 1
+   },
+   {
+    "t0": 10.5,
+    "t1": 18.85,
+    "offset": 1789.29,
+    "n": 4
+   },
+   {
+    "t0": 21.95,
+    "t1": 30.6,
+    "offset": 1794.69,
+    "n": 3
+   }
+  ],
+  "matched": 9,
+  "used": 8,
+  "captions": 16,
+  "share": 0.89,
+  "cues": [
+   173,
+   175,
+   176,
+   178
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.85,
+   "text": "COMING INTO THESE POSITIVE NODES."
+  },
+  {
+   "t": 2.8,
+   "text": "ANYWHERE FRUM TREOE TAREE, ITS IN THE"
+  },
+  {
+   "t": 5.0,
+   "text": "TRAP DOOR FOR ME . LIKE IF."
+  },
+  {
+   "t": 7.0,
+   "text": "AFIT GAME INTO IT HERE"
+  },
+  {
+   "t": 8.85,
+   "text": "AND DION TY GUME INTU THESE POSITIVE GAMMAS,"
+  },
+  {
+   "t": 10.5,
+   "text": "THAT TRAPDOOR COULD BE ACTIVE."
+  },
+  {
+   "t": 12.45,
+   "text": "FE GUULD GU INTU TRE PUSTTIVE AND THAT"
+  },
+  {
+   "t": 14.65,
+   "text": "- RAPUUUR WUULD bE AGTIVE SOMETIMES IT JUST"
+  },
+  {
+   "t": 16.6,
+   "text": "TAKES A LITTLE BIT OF TIME,"
+  },
+  {
+   "t": 18.85,
+   "text": "BUT ANYWHERE BETWEEN THE IME, I'M, 'M THINKING"
+  },
+  {
+   "t": 20.8,
+   "text": "TRAP DOOR , THE POTENTIAL IS THERE"
+  },
+  {
+   "t": 21.95,
+   "text": "AND LET ME HIGHLIGHT"
+  },
+  {
+   "t": 22.9,
+   "text": "OUMETRING HEAL QUICK FUh EVERYBODY."
+  },
+  {
+   "t": 25.4,
+   "text": "PRIMARY MUVEU UF FRUM 62U TU 7645."
+  },
+  {
+   "t": 28.1,
+   "text": "AND IT LOOKS LIKE IT WANTS"
+  },
+  {
+   "t": 30.6,
+   "text": "WE GOULD bE BUT TUMING HERE"
+  },
+  {
+   "t": 34.52,
+   "text": ""
+  }
+ ]
+}

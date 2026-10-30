@@ -1,0 +1,481 @@
+{
+ "clip": "2026-10-19-webinar-part5",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 38.03,
+ "sample_fps": 10,
+ "widest_hold": 4,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.1,
+   "dur": 0.1,
+   "features": 269,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 8.3,
+   "dur": 7.7,
+   "features": 1485,
+   "kind": "video",
+   "zoom": 1.535,
+   "center": [
+    0.244,
+    0.563
+   ],
+   "direct": true,
+   "ink": {
+    "px": 3050,
+    "share": 0.00357,
+    "center": [
+     0.559,
+     0.426
+    ],
+    "bbox": [
+     0.469,
+     0.257,
+     0.701,
+     0.668
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 8.5,
+   "end": 13.1,
+   "dur": 4.6,
+   "features": 1476,
+   "kind": "video",
+   "zoom": 1.784,
+   "center": [
+    0.305,
+    0.466
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1051,
+    "share": 0.00123,
+    "center": [
+     0.614,
+     0.577
+    ],
+    "bbox": [
+     0.559,
+     0.434,
+     0.656,
+     0.703
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 13.3,
+   "end": 23.2,
+   "dur": 9.9,
+   "features": 1493,
+   "kind": "video",
+   "zoom": 1.512,
+   "center": [
+    0.244,
+    0.563
+   ],
+   "direct": true,
+   "ink": {
+    "px": 252,
+    "share": 0.0003,
+    "center": [
+     0.542,
+     0.455
+    ],
+    "bbox": [
+     0.525,
+     0.411,
+     0.557,
+     0.496
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 23.3,
+   "end": 29.0,
+   "dur": 5.7,
+   "features": 1496,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 5,
+   "start": 29.2,
+   "end": 34.1,
+   "dur": 4.9,
+   "features": 1390,
+   "kind": "video",
+   "zoom": 1.602,
+   "center": [
+    0.499,
+    0.479
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 6,
+   "start": 34.5,
+   "end": 38.1,
+   "dur": 3.6,
+   "features": 1486,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.1,
+   "end": 0.6,
+   "dur": 0.5,
+   "type": "ramp",
+   "log_scale": 0.121,
+   "pan_px": 217.0,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.535,
+   "zoom_ratio": null,
+   "caption_offset_s": -2.4,
+   "caption_text": "SOHERE ON SPY, OKAY",
+   "transcript": {
+    "recording_t": 647.88,
+    "cue_i": 105,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "So here on SPY, Okay?",
+    "into_cue_s": -1.15,
+    "cue_dur": 4.08,
+    "in_gap": false,
+    "prev": "I want to point something out here. Let's go to this view.",
+    "next": "support, primary rolled up, primary rolled down, okay? What are we doing? We're creating a range to trade off of. So, likely here, I'm expecting primary to roll back up on either of these nodes."
+   }
+  },
+  {
+   "index": 1,
+   "start": 8.3,
+   "end": 8.5,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.156,
+   "pan_px": 107.1,
+   "after_hold": 1,
+   "zoom_from": 1.535,
+   "zoom_to": 1.784,
+   "zoom_ratio": 1.162,
+   "caption_offset_s": 0.1,
+   "caption_text": "OU LIKELY FERE.",
+   "transcript": {
+    "recording_t": 659.12,
+    "cue_i": 106,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "support, primary rolled up, primary rolled down, okay? What are we doing? We're creating a range to trade off of. So, likely here, I'm expecting primary to roll back up on either of these nodes.",
+    "into_cue_s": 5.69,
+    "cue_dur": 12.98,
+    "in_gap": false,
+    "prev": "So here on SPY, Okay?",
+    "next": "And then roll back down. And then what did that tell me? Hey, we're trading range."
+   }
+  },
+  {
+   "index": 2,
+   "start": 13.1,
+   "end": 13.3,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.147,
+   "pan_px": 92.2,
+   "after_hold": 2,
+   "zoom_from": 1.784,
+   "zoom_to": 1.512,
+   "zoom_ratio": 0.848,
+   "caption_offset_s": 0.1,
+   "caption_text": "NODES. AND THEN",
+   "transcript": {
+    "recording_t": 663.92,
+    "cue_i": 106,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "support, primary rolled up, primary rolled down, okay? What are we doing? We're creating a range to trade off of. So, likely here, I'm expecting primary to roll back up on either of these nodes.",
+    "into_cue_s": 10.49,
+    "cue_dur": 12.98,
+    "in_gap": false,
+    "prev": "So here on SPY, Okay?",
+    "next": "And then roll back down. And then what did that tell me? Hey, we're trading range."
+   }
+  },
+  {
+   "index": 3,
+   "start": 23.2,
+   "end": 23.3,
+   "dur": 0.1,
+   "type": "cut",
+   "log_scale": -0.412,
+   "pan_px": 109.3,
+   "after_hold": 3,
+   "zoom_from": 1.512,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.661,
+   "caption_offset_s": 0.1,
+   "caption_text": "ANU JUST OU EVERYUNE",
+   "transcript": {
+    "recording_t": 680.56,
+    "cue_i": 109,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Wait for them to flip, and then that's how you know your range, your range high, your range low has been established, come back to the middle.",
+    "into_cue_s": 6.9,
+    "cue_dur": 7.73,
+    "in_gap": false,
+    "prev": "Don't\u2026 don't chase primaries.",
+    "next": "Do you play credit spreads on that?"
+   }
+  },
+  {
+   "index": 4,
+   "start": 29.0,
+   "end": 29.2,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.429,
+   "pan_px": 164.6,
+   "after_hold": 4,
+   "zoom_from": 1.0,
+   "zoom_to": 1.602,
+   "zoom_ratio": 1.602,
+   "caption_offset_s": 0.1,
+   "caption_text": "YUU LAN NUW SEE",
+   "transcript": {
+    "recording_t": 704.34,
+    "cue_i": 113,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And, just so everyone knows, we'll have a release note out later today, but we have added a bunch of tickers.",
+    "into_cue_s": 6.19,
+    "cue_dur": 6.6,
+    "in_gap": false,
+    "prev": "If you're asking me individually, no, I like naked calls, naked puts.",
+    "next": "You can now see VIX, NDX, we got some ETFs, a bunch of the MAG7s."
+   }
+  },
+  {
+   "index": 5,
+   "start": 34.1,
+   "end": 34.5,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": 0.001,
+   "pan_px": 132.4,
+   "after_hold": 5,
+   "zoom_from": 1.602,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.3,
+   "caption_text": "SancnenaooseeeeNnual",
+   "transcript": {
+    "recording_t": 709.44,
+    "cue_i": 114,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "You can now see VIX, NDX, we got some ETFs, a bunch of the MAG7s.",
+    "into_cue_s": 4.25,
+    "cue_dur": 5.32,
+    "in_gap": false,
+    "prev": "And, just so everyone knows, we'll have a release note out later today, but we have added a bunch of tickers.",
+    "next": "They're all fully plumbed, and then if you see something with overnight, then you're gonna get the overnight action as well."
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.5,
+  5.1,
+  6.4,
+  8.2,
+  10.6,
+  13.0,
+  14.5,
+  16.7,
+  18.3,
+  19.2,
+  20.6,
+  22.1,
+  23.1,
+  24.8,
+  27.0,
+  28.9,
+  32.2,
+  33.8
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 1.25,
+    "t1": 1.25,
+    "offset": 647.78,
+    "n": 1
+   },
+   {
+    "t0": 3.8,
+    "t1": 11.8,
+    "offset": 650.82,
+    "n": 4
+   },
+   {
+    "t0": 13.75,
+    "t1": 18.75,
+    "offset": 653.62,
+    "n": 3
+   },
+   {
+    "t0": 22.6,
+    "t1": 22.6,
+    "offset": 657.36,
+    "n": 1
+   },
+   {
+    "t0": 27.95,
+    "t1": 33.0,
+    "offset": 675.34,
+    "n": 2
+   }
+  ],
+  "matched": 11,
+  "used": 11,
+  "captions": 18,
+  "share": 1.0,
+  "cues": [
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   113,
+   114
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.25,
+   "text": "SO HERE ON SPY. OKAY. SUPPORT."
+  },
+  {
+   "t": 3.8,
+   "text": "PRIMARY AULLED UP, PRIMARY RULLED DOWN."
+  },
+  {
+   "t": 5.75,
+   "text": "WHATARE Wi"
+  },
+  {
+   "t": 7.3,
+   "text": "WE RE CREATING A RANGE TU TRADE OFF OF."
+  },
+  {
+   "t": 9.4,
+   "text": "OU LIKELY HERE, M EAPEGTING PRIMARY T0"
+  },
+  {
+   "t": 11.8,
+   "text": "ROLL BACK UP ON EITHER OF THESE"
+  },
+  {
+   "t": 13.75,
+   "text": "NODES, AND THEN ROLL BACK DOWN."
+  },
+  {
+   "t": 15.6,
+   "text": ""
+  },
+  {
+   "t": 17.5,
+   "text": "DON'T, DON'T CHASE PRIMARIES."
+  },
+  {
+   "t": 18.75,
+   "text": "WAIT FOR THEM TO FLIP"
+  },
+  {
+   "t": 19.9,
+   "text": "ANU THEN THAT s HUW YUU ANUW YOUR RANGE"
+  },
+  {
+   "t": 21.35,
+   "text": "Hibh, YUU RANGE LUW HAS BEEN ESTABLISHED,"
+  },
+  {
+   "t": 22.6,
+   "text": "COME BACK TO THE MIDDLE."
+  },
+  {
+   "t": 23.95,
+   "text": "ANU JUST OU EVERTUNE ANUWS, WE'LL,"
+  },
+  {
+   "t": 25.9,
+   "text": "WE LL HAVE A RELEASE NUTE UUT LATER TODAY,"
+  },
+  {
+   "t": 27.95,
+   "text": "DUI WE HAVE AUUED A BUNGH UF TICKERS."
+  },
+  {
+   "t": 30.55,
+   "text": "YUU GAN NUW SEE VIA, NUA WE GUT SOME ETFS."
+  },
+  {
+   "t": 33.0,
+   "text": "BUNCH OF THE MAG SEVENS."
+  },
+  {
+   "t": 35.91,
+   "text": "eS SS SS LS a iS a a ce on"
+  }
+ ]
+}

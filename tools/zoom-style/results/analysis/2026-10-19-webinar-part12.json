@@ -1,0 +1,697 @@
+{
+ "clip": "2026-10-19-webinar-part12",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 34.1,
+ "sample_fps": 10,
+ "widest_hold": 2,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.4,
+   "dur": 0.4,
+   "features": 901,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 5.8,
+   "dur": 5.2,
+   "features": 1419,
+   "kind": "video",
+   "zoom": 1.626,
+   "center": [
+    0.573,
+    0.415
+   ],
+   "direct": true,
+   "ink": {
+    "px": 3458,
+    "share": 0.00405,
+    "center": [
+     0.667,
+     0.582
+    ],
+    "bbox": [
+     0.426,
+     0.373,
+     0.878,
+     0.804
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 6.1,
+   "end": 12.8,
+   "dur": 6.7,
+   "features": 1478,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 3,
+   "start": 13.0,
+   "end": 16.0,
+   "dur": 3.0,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.712,
+   "center": [
+    0.336,
+    0.363
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2046,
+    "share": 0.0024,
+    "center": [
+     0.462,
+     0.482
+    ],
+    "bbox": [
+     0.318,
+     0.449,
+     0.597,
+     0.524
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 16.1,
+   "end": 20.7,
+   "dur": 4.6,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.708,
+   "center": [
+    0.299,
+    0.398
+   ],
+   "direct": true,
+   "ink": {
+    "px": 431,
+    "share": 0.00051,
+    "center": [
+     0.527,
+     0.47
+    ],
+    "bbox": [
+     0.451,
+     0.382,
+     0.592,
+     0.5
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 21.0,
+   "end": 22.4,
+   "dur": 1.4,
+   "features": 1411,
+   "kind": "video",
+   "zoom": 1.71,
+   "center": [
+    0.616,
+    0.402
+   ],
+   "direct": true,
+   "ink": {
+    "px": 257,
+    "share": 0.0003,
+    "center": [
+     0.512,
+     0.541
+    ],
+    "bbox": [
+     0.487,
+     0.538,
+     0.539,
+     0.543
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 22.7,
+   "end": 26.9,
+   "dur": 4.2,
+   "features": 1205,
+   "kind": "video",
+   "zoom": 1.737,
+   "center": [
+    0.893,
+    0.65
+   ],
+   "ink": {
+    "px": 1982,
+    "share": 0.00232,
+    "center": [
+     0.798,
+     0.523
+    ],
+    "bbox": [
+     0.68,
+     0.511,
+     0.916,
+     0.537
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "start": 27.2,
+   "end": 28.3,
+   "dur": 1.1,
+   "features": 1441,
+   "kind": "video",
+   "zoom": 1.749,
+   "center": [
+    0.905,
+    0.383
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2609,
+    "share": 0.00306,
+    "center": [
+     0.779,
+     0.441
+    ],
+    "bbox": [
+     0.6,
+     0.372,
+     0.926,
+     0.53
+    ]
+   }
+  },
+  {
+   "index": 8,
+   "start": 28.6,
+   "end": 29.6,
+   "dur": 1.0,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 1.502,
+   "center": [
+    0.324,
+    0.473
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2871,
+    "share": 0.00336,
+    "center": [
+     0.552,
+     0.585
+    ],
+    "bbox": [
+     0.468,
+     0.287,
+     0.689,
+     0.713
+    ]
+   }
+  },
+  {
+   "index": 9,
+   "start": 29.9,
+   "end": 30.2,
+   "dur": 0.3,
+   "features": 1470,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.501,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 10,
+   "start": 30.5,
+   "end": 34.1,
+   "dur": 3.6,
+   "features": 1487,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.4,
+   "end": 0.6,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 71.9,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.626,
+   "zoom_ratio": null,
+   "caption_offset_s": -1.2,
+   "caption_text": "SOIWOULD SAY THIS TRAPDOOR",
+   "transcript": {
+    "recording_t": 4136.21,
+    "cue_i": 481,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "So I would say this trapdoor is almost gone here on\u2026 on SPY, and it comes back into play at 771.",
+    "into_cue_s": 0.49,
+    "cue_dur": 6.57,
+    "in_gap": false,
+    "prev": "However, the support\u2026 Kinda gone.",
+    "next": "Mixed, I would say, with a tilt to the downside."
+   }
+  },
+  {
+   "index": 1,
+   "start": 5.8,
+   "end": 6.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.482,
+   "pan_px": 167.6,
+   "after_hold": 1,
+   "zoom_from": 1.626,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.615,
+   "caption_offset_s": 0.1,
+   "caption_text": "MIXED. WOULD",
+   "transcript": {
+    "recording_t": 4141.61,
+    "cue_i": 481,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "So I would say this trapdoor is almost gone here on\u2026 on SPY, and it comes back into play at 771.",
+    "into_cue_s": 5.89,
+    "cue_dur": 6.57,
+    "in_gap": false,
+    "prev": "However, the support\u2026 Kinda gone.",
+    "next": "Mixed, I would say, with a tilt to the downside."
+   }
+  },
+  {
+   "index": 2,
+   "start": 12.8,
+   "end": 13.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.515,
+   "pan_px": 51.7,
+   "after_hold": 2,
+   "zoom_from": 1.0,
+   "zoom_to": 1.712,
+   "zoom_ratio": 1.712,
+   "caption_offset_s": -0.8,
+   "caption_text": "OH. LOOK. POSITIVE GAMMA SHOWED",
+   "transcript": {
+    "recording_t": 4169.83,
+    "cue_i": 485,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Oh, look.",
+    "into_cue_s": 0.75,
+    "cue_dur": 1.12,
+    "in_gap": false,
+    "prev": "our shelf.",
+    "next": "Positive gamma showed right back up on 7735."
+   }
+  },
+  {
+   "index": 3,
+   "start": 16.0,
+   "end": 16.1,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": -0.0,
+   "pan_px": 33.2,
+   "after_hold": 3,
+   "zoom_from": 1.712,
+   "zoom_to": 1.708,
+   "zoom_ratio": 0.998,
+   "caption_offset_s": 0.1,
+   "caption_text": "WANNA NOTICE, WAN",
+   "transcript": {
+    "recording_t": 4173.03,
+    "cue_i": 486,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Positive gamma showed right back up on 7735.",
+    "into_cue_s": 2.62,
+    "cue_dur": 3.65,
+    "in_gap": false,
+    "prev": "Oh, look.",
+    "next": "M1 and primary are flipping on the SPX."
+   }
+  },
+  {
+   "index": 4,
+   "start": 20.7,
+   "end": 21.0,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 292.7,
+   "after_hold": 4,
+   "zoom_from": 1.708,
+   "zoom_to": 1.71,
+   "zoom_ratio": 1.001,
+   "caption_offset_s": 0.0,
+   "caption_text": "I'D LIKE To",
+   "transcript": {
+    "recording_t": 4222.96,
+    "cue_i": 490,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "The down move happened the moment our ceiling got stronger.",
+    "into_cue_s": 2.2,
+    "cue_dur": 3.34,
+    "in_gap": false,
+    "prev": "I want to note it\u2026 want everyone to notice here.",
+    "next": "I'd like to see it show up here on SPY."
+   }
+  },
+  {
+   "index": 5,
+   "start": 22.4,
+   "end": 22.7,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.018,
+   "pan_px": 314.6,
+   "after_hold": 5,
+   "zoom_from": 1.71,
+   "zoom_to": 1.737,
+   "zoom_ratio": 1.016,
+   "caption_offset_s": 0.0,
+   "caption_text": "WOULD LOVE Te",
+   "transcript": {
+    "recording_t": 4268.45,
+    "cue_i": 492,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Beautiful.",
+    "into_cue_s": 30.41,
+    "cue_dur": 0.71,
+    "in_gap": true,
+    "prev": "I'd like to see it show up here on SPY.",
+    "next": "Would love to see 719 get closer to 65, 68 million."
+   }
+  },
+  {
+   "index": 6,
+   "start": 26.9,
+   "end": 27.2,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 184.3,
+   "after_hold": 6,
+   "zoom_from": 1.737,
+   "zoom_to": 1.749,
+   "zoom_ratio": 1.007,
+   "caption_offset_s": 0.0,
+   "caption_text": "AND THEN POTENTIALLY",
+   "transcript": {
+    "recording_t": 4272.95,
+    "cue_i": 494,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And then potentially take primary.",
+    "into_cue_s": -2.73,
+    "cue_dur": 1.93,
+    "in_gap": false,
+    "prev": "Would love to see 719 get closer to 65, 68 million.",
+    "next": "What would have to happen on SPX for the read of,"
+   }
+  },
+  {
+   "index": 7,
+   "start": 28.3,
+   "end": 28.6,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.013,
+   "pan_px": 93.5,
+   "after_hold": 7,
+   "zoom_from": 1.749,
+   "zoom_to": 1.502,
+   "zoom_ratio": 0.859,
+   "caption_offset_s": 0.0,
+   "caption_text": "AND HERE'S",
+   "transcript": {
+    "recording_t": 4276.38,
+    "cue_i": 494,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And then potentially take primary.",
+    "into_cue_s": 0.7,
+    "cue_dur": 1.93,
+    "in_gap": false,
+    "prev": "Would love to see 719 get closer to 65, 68 million.",
+    "next": "What would have to happen on SPX for the read of,"
+   }
+  },
+  {
+   "index": 8,
+   "start": 29.6,
+   "end": 29.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.481,
+   "pan_px": 68.6,
+   "after_hold": 8,
+   "zoom_from": 1.502,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.666,
+   "caption_offset_s": 0.1,
+   "caption_text": "SeceenCUeeeMeunan",
+   "transcript": {
+    "recording_t": 4277.68,
+    "cue_i": 494,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And then potentially take primary.",
+    "into_cue_s": 2.0,
+    "cue_dur": 1.93,
+    "in_gap": false,
+    "prev": "Would love to see 719 get closer to 65, 68 million.",
+    "next": "What would have to happen on SPX for the read of,"
+   }
+  },
+  {
+   "index": 9,
+   "start": 30.2,
+   "end": 30.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.003,
+   "pan_px": 114.5,
+   "after_hold": 9,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "SecneNCReeeeueNnan",
+   "transcript": {
+    "recording_t": 4278.28,
+    "cue_i": 494,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And then potentially take primary.",
+    "into_cue_s": 2.6,
+    "cue_dur": 1.93,
+    "in_gap": true,
+    "prev": "Would love to see 719 get closer to 65, 68 million.",
+    "next": "What would have to happen on SPX for the read of,"
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  3.5,
+  5.7,
+  7.0,
+  11.3,
+  13.6,
+  15.9,
+  17.3,
+  18.9,
+  20.7,
+  22.4,
+  24.9,
+  26.9,
+  28.3,
+  29.5
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.8,
+    "t1": 4.6,
+    "offset": 4135.81,
+    "n": 3
+   },
+   {
+    "t0": 6.35,
+    "t1": 6.35,
+    "offset": 4144.97,
+    "n": 1
+   },
+   {
+    "t0": 14.75,
+    "t1": 14.75,
+    "offset": 4157.03,
+    "n": 1
+   },
+   {
+    "t0": 16.6,
+    "t1": 19.8,
+    "offset": 4202.26,
+    "n": 2
+   },
+   {
+    "t0": 23.65,
+    "t1": 25.9,
+    "offset": 4246.05,
+    "n": 2
+   },
+   {
+    "t0": 27.6,
+    "t1": 27.6,
+    "offset": 4248.08,
+    "n": 1
+   }
+  ],
+  "matched": 11,
+  "used": 10,
+  "captions": 15,
+  "share": 0.91,
+  "cues": [
+   480,
+   481,
+   482,
+   485,
+   486,
+   489,
+   490,
+   493,
+   494
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "SOIWOULD SAY THIS TRAPDOOR"
+  },
+  {
+   "t": 2.55,
+   "text": "IS ALMOST GONE HERE ON SPY. AND"
+  },
+  {
+   "t": 4.6,
+   "text": "ITCOMES BACK INTO PLAY AT 771."
+  },
+  {
+   "t": 6.35,
+   "text": "MIXED, WOULD SAY WITH"
+  },
+  {
+   "t": 9.15,
+   "text": "TF WE AQSOUME 5U HAS BELUME UUR, SHELF"
+  },
+  {
+   "t": 12.45,
+   "text": "OH. LOOK. POSITIVE GAMMA SHOWED"
+  },
+  {
+   "t": 14.75,
+   "text": "RIGHT BACK UP ON 7735"
+  },
+  {
+   "t": 16.6,
+   "text": "WANNA NOTICE, WANT EVERYONE TO"
+  },
+  {
+   "t": 18.1,
+   "text": "NUTILE HERE THAT Te DUWN MUVE HAPPENED"
+  },
+  {
+   "t": 19.8,
+   "text": "TRE MUMENT UUh CEILING GUT STRONGER"
+  },
+  {
+   "t": 21.55,
+   "text": ""
+  },
+  {
+   "t": 23.65,
+   "text": "WOULD LOVE TO SEE 719 GET"
+  },
+  {
+   "t": 25.9,
+   "text": "CLOSER TO 65. 68 MILLION"
+  },
+  {
+   "t": 27.6,
+   "text": "AND THEN POTENTIALLY TAKE PRIMARY"
+  },
+  {
+   "t": 28.9,
+   "text": "AND HERE'S THE TRAPDOOR"
+  },
+  {
+   "t": 31.8,
+   "text": "SS SS CS A a i"
+  }
+ ]
+}

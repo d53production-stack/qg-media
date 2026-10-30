@@ -1,0 +1,104 @@
+{
+ "name": "matt-webinar-highlights",
+ "measured_from": {
+  "clips": 97,
+  "minutes": 73.2
+ },
+ "frame": "1080x1920 vertical, video window y 610 to 1400, crop of the dashboard screen share",
+ "open": {
+  "wide_first_share": 0.67,
+  "first_zoom_after_s": 3.0
+ },
+ "levels": {
+  "wide": 1.0,
+  "standard_zoom": 1.55,
+  "standard_zoom_range": [
+   1.44,
+   1.66
+  ],
+  "tight_zoom_max": 2.298,
+  "histogram": {
+   "1.0-1.15": 301,
+   "1.15-1.4": 61,
+   "1.4-1.6": 201,
+   "1.6-1.9": 145,
+   "1.9-2.5": 10
+  }
+ },
+ "holds_s": {
+  "zoomed": {
+   "median": 3.4,
+   "p25": 2.1,
+   "p75": 5.4,
+   "n": 417
+  },
+  "wide": {
+   "median": 4.7,
+   "p25": 2.3,
+   "p75": 9.5,
+   "n": 301
+  },
+  "any_p90": 11.02
+ },
+ "moves": {
+  "per_minute": {
+   "median": 9.38,
+   "p25": 7.09,
+   "p75": 12.24,
+   "n": 97
+  },
+  "ramp_s": {
+   "median": 0.3,
+   "p25": 0.2,
+   "p75": 0.3,
+   "n": 570
+  },
+  "kinds": {
+   "zoom-in": 233,
+   "zoom-out": 218,
+   "pan": 119,
+   "nudge": 34,
+   "cut": 15,
+   "unknown": 2
+  },
+  "zoom_in_step": {
+   "median": 1.52,
+   "p25": 1.36,
+   "p75": 1.63,
+   "n": 233
+  },
+  "zoom_out_step": {
+   "median": 0.66,
+   "p25": 0.62,
+   "p75": 0.71,
+   "n": 218
+  },
+  "common_sequences": {
+   "zoom-out > zoom-in": 132,
+   "zoom-in > zoom-out": 125,
+   "zoom-in > pan": 57,
+   "pan > zoom-out": 57,
+   "pan > pan": 34,
+   "zoom-in > zoom-in": 20,
+   "zoom-out > zoom-out": 14,
+   "nudge > zoom-in": 11
+  }
+ },
+ "zoomed_share_of_time": {
+  "median": 0.46,
+  "p25": 0.27,
+  "p75": 0.59,
+  "n": 97
+ },
+ "focus_cells": {
+  "middle-right": 125,
+  "middle-center": 99,
+  "middle-left": 79,
+  "top-right": 37,
+  "bottom-right": 19,
+  "top-center": 18,
+  "top-left": 17,
+  "bottom-left": 14,
+  "bottom-center": 9
+ }
+}

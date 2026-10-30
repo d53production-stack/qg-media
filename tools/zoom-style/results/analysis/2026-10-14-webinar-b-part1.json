@@ -1,0 +1,394 @@
+{
+ "clip": "2026-10-14-webinar-b-part1",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 37.67,
+ "sample_fps": 10,
+ "widest_hold": 6,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.5,
+   "dur": 0.5,
+   "features": 1268,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 5.2,
+   "dur": 4.6,
+   "features": 1500,
+   "kind": "video",
+   "zoom": 0.997,
+   "center": [
+    0.507,
+    0.476
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2371,
+    "share": 0.00278,
+    "center": [
+     0.324,
+     0.516
+    ],
+    "bbox": [
+     0.155,
+     0.362,
+     0.506,
+     0.675
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 5.5,
+   "end": 14.5,
+   "dur": 9.0,
+   "features": 1490,
+   "kind": "video",
+   "zoom": 1.266,
+   "center": [
+    0.375,
+    0.527
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1035,
+    "share": 0.00121,
+    "center": [
+     0.503,
+     0.419
+    ],
+    "bbox": [
+     0.45,
+     0.175,
+     0.525,
+     0.611
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 14.8,
+   "end": 17.9,
+   "dur": 3.1,
+   "features": 1477,
+   "kind": "video",
+   "zoom": 1.268,
+   "center": [
+    0.63,
+    0.539
+   ],
+   "ink": {
+    "px": 862,
+    "share": 0.00101,
+    "center": [
+     0.536,
+     0.456
+    ],
+    "bbox": [
+     0.472,
+     0.425,
+     0.641,
+     0.577
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "start": 18.3,
+   "end": 27.6,
+   "dur": 9.3,
+   "features": 1482,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 1007,
+    "share": 0.00118,
+    "center": [
+     0.364,
+     0.565
+    ],
+    "bbox": [
+     0.259,
+     0.531,
+     0.457,
+     0.614
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "start": 27.9,
+   "end": 28.7,
+   "dur": 0.8,
+   "features": 1485,
+   "kind": "video",
+   "zoom": 1.436,
+   "center": [
+    0.674,
+    0.612
+   ],
+   "ink": {
+    "px": 3101,
+    "share": 0.00363,
+    "center": [
+     0.543,
+     0.65
+    ],
+    "bbox": [
+     0.308,
+     0.562,
+     0.756,
+     0.723
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "start": 29.1,
+   "end": 33.8,
+   "dur": 4.7,
+   "features": 1476,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 7,
+   "start": 34.1,
+   "end": 37.7,
+   "dur": 3.6,
+   "features": 1488,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.5,
+   "end": 0.6,
+   "dur": 0.1,
+   "type": "ramp",
+   "log_scale": 0.0,
+   "pan_px": 36.1,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 0.997,
+   "zoom_ratio": null,
+   "caption_offset_s": -4.0,
+   "caption_text": "$0 LET'S BREAK IT DOWN, RIGHT"
+  },
+  {
+   "index": 1,
+   "start": 5.2,
+   "end": 5.5,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.239,
+   "pan_px": 74.1,
+   "after_hold": 1,
+   "zoom_from": 0.997,
+   "zoom_to": 1.266,
+   "zoom_ratio": 1.27,
+   "caption_offset_s": 0.7,
+   "caption_text": "WEHELDTHATSPOT, tits"
+  },
+  {
+   "index": 2,
+   "start": 14.5,
+   "end": 14.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.003,
+   "pan_px": 181.3,
+   "after_hold": 2,
+   "zoom_from": 1.266,
+   "zoom_to": 1.268,
+   "zoom_ratio": 1.002,
+   "caption_offset_s": 0.0,
+   "caption_text": ""
+  },
+  {
+   "index": 3,
+   "start": 17.9,
+   "end": 18.3,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": -0.233,
+   "pan_px": 147.3,
+   "after_hold": 3,
+   "zoom_from": 1.268,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.789,
+   "caption_offset_s": -1.1,
+   "caption_text": "Spy"
+  },
+  {
+   "index": 4,
+   "start": 27.6,
+   "end": 27.9,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.357,
+   "pan_px": 265.5,
+   "after_hold": 4,
+   "zoom_from": 1.0,
+   "zoom_to": 1.436,
+   "zoom_ratio": 1.436,
+   "caption_offset_s": 0.0,
+   "caption_text": "QUT THIS GUY"
+  },
+  {
+   "index": 5,
+   "start": 28.7,
+   "end": 29.1,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": -0.335,
+   "pan_px": 216.2,
+   "after_hold": 5,
+   "zoom_from": 1.436,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.696,
+   "caption_offset_s": -0.1,
+   "caption_text": "DEALERS LY"
+  },
+  {
+   "index": 6,
+   "start": 33.8,
+   "end": 34.1,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.002,
+   "pan_px": 98.4,
+   "after_hold": 6,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "saanauananananeeueues"
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  4.5,
+  8.3,
+  9.9,
+  12.1,
+  14.5,
+  16.4,
+  19.0,
+  20.6,
+  21.9,
+  23.2,
+  24.9,
+  26.6,
+  27.6,
+  28.8,
+  31.6,
+  33.4
+ ],
+ "captions": [
+  {
+   "t": 2.25,
+   "text": "WE GOT SPX."
+  },
+  {
+   "t": 6.4,
+   "text": "THAT OPAFLUUR AT 0U, AND ITS GETTING"
+  },
+  {
+   "t": 9.1,
+   "text": "GUMPETHTAVE FUR THAT PRIVARY NUDE"
+  },
+  {
+   "t": 11.0,
+   "text": "IF THAT PRIVIARY NUDE MUVES UP, GUESS WHAT"
+  },
+  {
+   "t": 13.3,
+   "text": "WE HAVE ANIGE LAUNUHPAU SETUP HERE."
+  },
+  {
+   "t": 15.45,
+   "text": "WE SHOULD BE ABLE TO GET"
+  },
+  {
+   "t": 17.7,
+   "text": "774 ON SPY QUITE EASILY."
+  },
+  {
+   "t": 19.8,
+   "text": "DO YOU GUYS SEE HOW THAT"
+  },
+  {
+   "t": 21.25,
+   "text": "NEGATIVE GAMMA oHUULU BE BEHAVING"
+  },
+  {
+   "t": 22.55,
+   "text": "T'S BEHAVING THE SAME WAY HERE"
+  },
+  {
+   "t": 24.05,
+   "text": "AS LONG AS THIS HOLDS IN VALUE."
+  },
+  {
+   "t": 25.75,
+   "text": "- SHOULD BE A NICE FLOOR FOR US."
+  },
+  {
+   "t": 27.1,
+   "text": "DO WANNA POINT"
+  },
+  {
+   "t": 28.2,
+   "text": "QUT THIS GUY IS GROWING"
+  },
+  {
+   "t": 30.2,
+   "text": "DEALERS AnE oHURT GAMMA HERE, MOVES ACCELERATED, VOLATILITY"
+  },
+  {
+   "t": 32.5,
+   "text": "EAPANUS, BREAKS TEND IU hun, RIGHT"
+  },
+  {
+   "t": 35.53,
+   "text": ""
+  }
+ ]
+}

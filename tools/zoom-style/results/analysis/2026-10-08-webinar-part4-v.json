@@ -1,0 +1,212 @@
+{
+ "clip": "2026-10-08-webinar-part4-v",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 28.2,
+ "sample_fps": 10,
+ "widest_hold": 2,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.1,
+   "dur": 0.1,
+   "features": 522,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.2,
+   "end": 3.5,
+   "dur": 3.3,
+   "features": 1373,
+   "kind": "video",
+   "zoom": 1.389,
+   "center": [
+    0.657,
+    0.485
+   ],
+   "direct": true,
+   "ink": {
+    "px": 2360,
+    "share": 0.00277,
+    "center": [
+     0.747,
+     0.867
+    ],
+    "bbox": [
+     0.641,
+     0.79,
+     0.846,
+     0.947
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "start": 3.8,
+   "end": 10.9,
+   "dur": 7.1,
+   "features": 1435,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 613,
+    "share": 0.00072,
+    "center": [
+     0.537,
+     0.576
+    ],
+    "bbox": [
+     0.389,
+     0.542,
+     0.745,
+     0.634
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 11.1,
+   "end": 21.6,
+   "dur": 10.5,
+   "features": 1432,
+   "kind": "video",
+   "zoom": 1.414,
+   "center": [
+    0.274,
+    0.567
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 4,
+   "start": 21.8,
+   "end": 28.2,
+   "dur": 6.4,
+   "features": 1442,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.1,
+   "end": 0.2,
+   "dur": 0.1,
+   "type": "cut",
+   "log_scale": 0.222,
+   "pan_px": 148.6,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.389,
+   "zoom_ratio": null,
+   "caption_offset_s": -6.3,
+   "caption_text": "CONTINUED GROWTH."
+  },
+  {
+   "index": 1,
+   "start": 3.5,
+   "end": 3.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": -0.328,
+   "pan_px": 175.9,
+   "after_hold": 1,
+   "zoom_from": 1.389,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.72,
+   "caption_offset_s": -2.9,
+   "caption_text": "SUPPORT GREW."
+  },
+  {
+   "index": 2,
+   "start": 10.9,
+   "end": 11.1,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.33,
+   "pan_px": 121.7,
+   "after_hold": 2,
+   "zoom_from": 1.0,
+   "zoom_to": 1.414,
+   "zoom_ratio": 1.414,
+   "caption_offset_s": 0.3,
+   "caption_text": "ss LET'SSEETHISGUY"
+  },
+  {
+   "index": 3,
+   "start": 21.6,
+   "end": 21.8,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.323,
+   "pan_px": 96.8,
+   "after_hold": 3,
+   "zoom_from": 1.414,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0,
+   "caption_text": "IF YOU'RE"
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  6.4,
+  9.0,
+  10.6,
+  21.6,
+  25.2
+ ],
+ "captions": [
+  {
+   "t": 3.2,
+   "text": "SUPPORT GREW."
+  },
+  {
+   "t": 7.7,
+   "text": "YES. ESPECIALLY BECAUSE SPX IS NOW"
+  },
+  {
+   "t": 9.8,
+   "text": "IN POSITIVE GAMMA TERRITORY."
+  },
+  {
+   "t": 16.1,
+   "text": "THAT'S 7785, SOTHAT'SAT 17."
+  },
+  {
+   "t": 23.4,
+   "text": "DEFINITELY DON'T WANT THAT."
+  },
+  {
+   "t": 26.7,
+   "text": ""
+  }
+ ]
+}

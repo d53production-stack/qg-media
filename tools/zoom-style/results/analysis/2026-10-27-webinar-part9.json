@@ -1,0 +1,337 @@
+{
+ "clip": "2026-10-27-webinar-part9",
+ "fps": 30.0,
+ "frame": [
+  1080,
+  1920
+ ],
+ "window": {
+  "y0": 610,
+  "y1": 1400,
+  "h": 790,
+  "w": 1080
+ },
+ "duration": 38.37,
+ "sample_fps": 10,
+ "widest_hold": 3,
+ "holds": [
+  {
+   "index": 0,
+   "start": 0.0,
+   "end": 0.2,
+   "dur": 0.2,
+   "features": 63,
+   "kind": "template",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  },
+  {
+   "index": 1,
+   "start": 0.6,
+   "end": 20.8,
+   "dur": 20.2,
+   "features": 1490,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.499,
+    0.5
+   ],
+   "direct": true,
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 2,
+   "start": 21.0,
+   "end": 27.6,
+   "dur": 6.6,
+   "features": 1494,
+   "kind": "video",
+   "zoom": 1.423,
+   "center": [
+    0.364,
+    0.428
+   ],
+   "direct": true,
+   "ink": {
+    "px": 626,
+    "share": 0.00073,
+    "center": [
+     0.588,
+     0.77
+    ],
+    "bbox": [
+     0.481,
+     0.759,
+     0.679,
+     0.787
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "start": 27.8,
+   "end": 34.5,
+   "dur": 6.7,
+   "features": 1491,
+   "kind": "video",
+   "zoom": 1.0,
+   "center": [
+    0.5,
+    0.5
+   ],
+   "ink": {
+    "px": 0,
+    "share": 0.0,
+    "center": null,
+    "bbox": null
+   }
+  },
+  {
+   "index": 4,
+   "start": 34.8,
+   "end": 38.4,
+   "dur": 3.6,
+   "features": 1486,
+   "kind": "card",
+   "zoom": null,
+   "center": null,
+   "ink": null
+  }
+ ],
+ "moves": [
+  {
+   "index": 0,
+   "start": 0.2,
+   "end": 0.6,
+   "dur": 0.4,
+   "type": "ramp",
+   "log_scale": -0.002,
+   "pan_px": 143.4,
+   "after_hold": 0,
+   "zoom_from": null,
+   "zoom_to": 1.0,
+   "zoom_ratio": null,
+   "caption_offset_s": -3.1,
+   "caption_text": "WAS JUST GONNA SAY, LIKE.",
+   "transcript": {
+    "recording_t": 3882.1,
+    "cue_i": 424,
+    "sure": true,
+    "direct": true,
+    "speaker": "Max Gumowitz",
+    "text": "I was just gonna say, like, I think the best way\u2026 some of my best trades using QuantGeeks have been sort of developing a thesis and having an idea, and then\u2026",
+    "into_cue_s": 0.43,
+    "cue_dur": 8.57,
+    "in_gap": false,
+    "prev": "I'm more interested, Chase, in which one's taking primary.",
+    "next": "Comparing the real-time movement to that idea, to see, you know, the best way to enter and the best way to sort of plan out your trade."
+   }
+  },
+  {
+   "index": 1,
+   "start": 20.8,
+   "end": 21.0,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": 0.337,
+   "pan_px": 40.2,
+   "after_hold": 1,
+   "zoom_from": 1.0,
+   "zoom_to": 1.423,
+   "zoom_ratio": 1.423,
+   "caption_offset_s": 0.8,
+   "caption_text": "LIKE HERE WE WERE BULLISH TO 7750.",
+   "transcript": {
+    "recording_t": 3913.86,
+    "cue_i": 428,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Right? Like, here, we were bullish to 7750. It looks like $7,700 is taking primary. We must change that narrative.",
+    "into_cue_s": 0.37,
+    "cue_dur": 8.02,
+    "in_gap": false,
+    "prev": "Build a narrative that\u2026 that fits with price, and if that narrative starts to change, So should your thesis.",
+    "next": "It's a feature, not a bug."
+   }
+  },
+  {
+   "index": 2,
+   "start": 27.6,
+   "end": 27.8,
+   "dur": 0.2,
+   "type": "ramp",
+   "log_scale": -0.342,
+   "pan_px": 32.4,
+   "after_hold": 2,
+   "zoom_from": 1.423,
+   "zoom_to": 1.0,
+   "zoom_ratio": 0.703,
+   "caption_offset_s": 0.1,
+   "caption_text": "sesncnananananeeueues",
+   "transcript": {
+    "recording_t": 3923.1,
+    "cue_i": 429,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "It's a feature, not a bug.",
+    "into_cue_s": 0.6,
+    "cue_dur": 1.51,
+    "in_gap": false,
+    "prev": "Right? Like, here, we were bullish to 7750. It looks like $7,700 is taking primary. We must change that narrative.",
+    "next": "it's actually one of the issues with, some of the\u2026 some of the things like MEIC, where you kind of hold the thesis all day, or\u2026 I guess the thesis changes because of the stop losses, but\u2026"
+   }
+  },
+  {
+   "index": 3,
+   "start": 34.5,
+   "end": 34.8,
+   "dur": 0.3,
+   "type": "ramp",
+   "log_scale": 0.002,
+   "pan_px": 99.3,
+   "after_hold": 3,
+   "zoom_from": 1.0,
+   "zoom_to": null,
+   "zoom_ratio": null,
+   "caption_offset_s": 7.0,
+   "caption_text": "sanncnennnaneneeneues",
+   "transcript": {
+    "recording_t": 3930.0,
+    "cue_i": 429,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "It's a feature, not a bug.",
+    "into_cue_s": 7.5,
+    "cue_dur": 1.51,
+    "in_gap": true,
+    "prev": "Right? Like, here, we were bullish to 7750. It looks like $7,700 is taking primary. We must change that narrative.",
+    "next": "it's actually one of the issues with, some of the\u2026 some of the things like MEIC, where you kind of hold the thesis all day, or\u2026 I guess the thesis changes because of the stop losses, but\u2026"
+   }
+  }
+ ],
+ "unresolved_holds": [],
+ "caption_changes": [
+  3.3,
+  5.0,
+  6.7,
+  8.9,
+  11.1,
+  12.6,
+  14.2,
+  16.8,
+  20.0,
+  23.0,
+  25.2,
+  26.5,
+  27.5
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 5.85,
+    "t1": 11.85,
+    "offset": 3881.9,
+    "n": 3
+   },
+   {
+    "t0": 15.5,
+    "t1": 15.5,
+    "offset": 3885.66,
+    "n": 1
+   },
+   {
+    "t0": 21.5,
+    "t1": 25.85,
+    "offset": 3893.06,
+    "n": 2
+   },
+   {
+    "t0": 27.0,
+    "t1": 27.0,
+    "offset": 3895.5,
+    "n": 1
+   }
+  ],
+  "matched": 7,
+  "used": 7,
+  "captions": 14,
+  "share": 1.0,
+  "cues": [
+   424,
+   425,
+   426,
+   427,
+   428,
+   429
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.65,
+   "text": "TL TAINA THE BEST WAY, oUME UF"
+  },
+  {
+   "t": 4.15,
+   "text": "UsING QUANT GEERS HAVE BEEN oURI OF"
+  },
+  {
+   "t": 5.85,
+   "text": "DEVELOPING A THESIS AND HAVING AN"
+  },
+  {
+   "t": 7.8,
+   "text": "IDEA ANU THEN GUMPARING THE REAL-TIME MOVEMENT"
+  },
+  {
+   "t": 10.0,
+   "text": "TO THAT IDEA TO SEE, YOU KNOW,"
+  },
+  {
+   "t": 11.85,
+   "text": "THE BEST WAY TU ENTER AND TRE BEST"
+  },
+  {
+   "t": 13.4,
+   "text": "WAY TU oUnT UF FLAN UUT YUUh TRADE."
+  },
+  {
+   "t": 15.5,
+   "text": "BUILD A NARRATIVE THAT FITS WHR PRICE,"
+  },
+  {
+   "t": 18.4,
+   "text": "STARTS TU GHANGE, OU OHUULU YUUh THESIS"
+  },
+  {
+   "t": 21.5,
+   "text": "LIKE HERE WE WERE BULLISH TO 7750."
+  },
+  {
+   "t": 24.1,
+   "text": "HT LUUKO LIKE UU HAS TAKEN PRIMARY."
+  },
+  {
+   "t": 25.85,
+   "text": "- WE MUST CHANGE THAT NARRATIVE."
+  },
+  {
+   "t": 27.0,
+   "text": "IT'S A FEATURE. NOT A BUG"
+  },
+  {
+   "t": 32.94,
+   "text": "sanncnannnananeeueues"
+  }
+ ]
+}
