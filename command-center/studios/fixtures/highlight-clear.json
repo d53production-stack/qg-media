@@ -1,0 +1,20 @@
+{
+ "createdAt": "2026-10-29T22:58:56.636Z",
+ "outputs": [],
+ "queuedAt": "2026-10-29T22:58:56.636Z",
+ "status": "done",
+ "step": "Cleared 8 days",
+ "targets": [
+  "2026-10-21-nhdy",
+  "2026-10-19-rcwn",
+  "2026-10-15-wrtx",
+  "2026-10-14-qs1u",
+  "2026-10-14-3mev",
+  "2026-10-12-tester",
+  "2026-10-07-test",
+  "2026-10-12-webinar"
+ ],
+ "task": "clear",
+ "title": "Clear old videos",
+ "updatedAt": "2026-10-29T22:58:56.636Z"
+}

@@ -1,0 +1,31 @@
+{
+ "applied_at": "2026-10-27T00:23:00Z",
+ "applied_by": "claude for matt",
+ "created": "2026-10-25T21:12:30.708016-07:00",
+ "decided_at": "2026-10-26T23:27:54.497Z",
+ "decided_by": "u_b4QSIlCWjexOcDujboPvtg",
+ "kept": [
+  {
+   "at": "2026-11-01T16:30:00-08:00",
+   "by": "release",
+   "locked": true,
+   "platform": "tiktok",
+   "record": "hl-2026-10-07-webinar-p1",
+   "rule": "backlog release 2026-10-20 (daily caps)",
+   "set": "2026-10-20T16:05:37-07:00",
+   "title": "QQQ Sets Up the Launch Pad | October 7"
+  }
+ ],
+ "proposed": [
+  {
+   "at": "2026-10-31T09:00:00-07:00",
+   "locked": false,
+   "platform": "youtube",
+   "record": "cc-04a-primary-and-majors",
+   "rule": "1:explainer first open youtube slot",
+   "title": "Primary and Majors"
+  }
+ ],
+ "status": "APPROVED",
+ "week": "2026-W44"
+}

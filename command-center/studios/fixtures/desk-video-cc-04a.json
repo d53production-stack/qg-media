@@ -1,0 +1,49 @@
+{
+ "files": "out/explainers/cc-04a-primary-and-majors-v.mp4 + out/explainers/cc-04a-primary-and-majors-h.mp4",
+ "kicker": "CONSOLE CHEAT SHEET · MARKS AND COLORS",
+ "kind": "explainer",
+ "order": 15,
+ "published_url": {},
+ "schedule": [
+  {
+   "at": "2026-10-31T09:00:00-07:00",
+   "locked": false,
+   "platform": "youtube",
+   "rule": "1:explainer first open youtube slot"
+  },
+  {
+   "at": "2026-11-01T18:00:00-08:00",
+   "by": "release",
+   "locked": true,
+   "platform": "ig",
+   "rule": "repopulate 2026-10-29 (newest webinars first, daily caps)",
+   "set": "2026-10-29T15:17:33-07:00"
+  },
+  {
+   "at": "2026-11-02T18:00:00-08:00",
+   "by": "release",
+   "locked": true,
+   "platform": "tiktok",
+   "rule": "repopulate 2026-10-29 (newest webinars first, daily caps)",
+   "set": "2026-10-29T15:17:33-07:00"
+  },
+  {
+   "at": "2026-11-03T19:00:00-08:00",
+   "by": "release",
+   "locked": true,
+   "platform": "shorts",
+   "rule": "repopulate 2026-10-29 (newest webinars first, daily caps)",
+   "set": "2026-10-29T15:17:33-07:00"
+  }
+ ],
+ "seconds": 31.6,
+ "series": "Console",
+ "status": {
+  "ig": "SCHEDULED",
+  "shorts": "SCHEDULED",
+  "tiktok": "SCHEDULED",
+  "youtube": "SCHEDULED"
+ },
+ "title": "Primary and Majors",
+ "type": "Console legend"
+}

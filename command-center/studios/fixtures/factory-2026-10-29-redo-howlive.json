@@ -1,0 +1,77 @@
+{
+ "builtAt": "2026-10-29T22:10:54Z",
+ "by": "matt",
+ "createdAt": "2026-10-29T20:03:00.000Z",
+ "flood": "none",
+ "focus": "",
+ "note": "Matt approved 2026-10-29. Only the last step changes: since the Oct 22 release, SPX, NDX and VIX keep streaming through the overnight session instead of freezing at the close, and listed names follow Cboe's extended hours (7:30 ET through the post-close curb). Use the updated catalog text for cc-how-live. Keep everything else from jobs/2026-10-16-first/cc-how-live.yaml.",
+ "outputs": [
+  {
+   "bytes": 6164581,
+   "copy": {
+    "description": "Ladders, bubbles and chart lines refresh every few seconds, readings about once a minute, the chain every 15 s. After the bell most of it freezes, but SPX, NDX and VIX keep streaming overnight and listed names follow Cboe's extended hours.\n\nFrom the QuantGeeks member guide: Console Cheat Sheet.\n\nUse code QUANT for 50% off QuantGeeks at QuantGeeks.io\n\nTrading involves risk. For education only, not investment advice.\n\n#GEX #OptionsTrading #DayTrading #Shorts #QuantGeeks",
+    "instagram": "Ladders, bubbles and chart lines refresh every few seconds, readings about once a minute, the chain every 15 s. After the bell most of it freezes, but SPX, NDX and VIX keep streaming overnight and listed names follow Cboe's extended hours.\n\nFrom the QuantGeeks member guide: Console Cheat Sheet.\n\nUse code QUANT for 50% off QuantGeeks. Link in bio.\n\nTrading involves risk. For education only, not investment advice.\n\n#gex #optionstrading #daytrading #trading #quantgeeks",
+    "tags": [
+     "GEX",
+     "gamma exposure",
+     "dealer positioning",
+     "options trading",
+     "day trading",
+     "QuantGeeks"
+    ],
+    "tiktok": "Ladders, bubbles and chart lines refresh every few seconds, readings about once a minute, the chain every 15 s. After the bell most of it freezes, but SPX, NDX and VIX keep streaming overnight and listed names follow Cboe's extended hours.\n\nFrom the QuantGeeks member guide: Console Cheat Sheet.\n\nUse code QUANT for 50% off QuantGeeks. Link in bio.\n\nTrading involves risk. For education only, not investment advice.\n\n#daytrading #optionstrading #gex #stocktok #quantgeeks",
+    "title": "How Live Is the Console? | QuantGeeks Console"
+   },
+   "file": "How Live Is the Console- | QuantGeeks Console.mp4",
+   "kind": "explainer",
+   "name": "cc-how-live-v",
+   "o": "v",
+   "path": "build/factory/out/2026-10-29-redo-howlive/How Live Is the Console- | QuantGeeks Console.mp4",
+   "poster": "build/factory/out/2026-10-29-redo-howlive/How Live Is the Console- | QuantGeeks Console.jpg",
+   "seconds": 32.6,
+   "sidecar": "build/factory/out/2026-10-29-redo-howlive/How Live Is the Console- | QuantGeeks Console.json",
+   "title": "How Live Is the Console? | QuantGeeks Console",
+   "topic": "cc-how-live"
+  },
+  {
+   "bytes": 4455702,
+   "copy": {
+    "description": "Ladders, bubbles and chart lines refresh every few seconds, readings about once a minute, the chain every 15 s. After the bell most of it freezes, but SPX, NDX and VIX keep streaming overnight and listed names follow Cboe's extended hours.\n\nFrom the QuantGeeks member guide: Console Cheat Sheet.\n\nUse code QUANT for 50% off QuantGeeks at QuantGeeks.io\n\nTrading involves risk. For education only, not investment advice.\n\n#GEX #OptionsTrading #DayTrading #Shorts #QuantGeeks",
+    "instagram": "Ladders, bubbles and chart lines refresh every few seconds, readings about once a minute, the chain every 15 s. After the bell most of it freezes, but SPX, NDX and VIX keep streaming overnight and listed names follow Cboe's extended hours.\n\nFrom the QuantGeeks member guide: Console Cheat Sheet.\n\nUse code QUANT for 50% off QuantGeeks. Link in bio.\n\nTrading involves risk. For education only, not investment advice.\n\n#gex #optionstrading #daytrading #trading #quantgeeks",
+    "tags": [
+     "GEX",
+     "gamma exposure",
+     "dealer positioning",
+     "options trading",
+     "day trading",
+     "QuantGeeks"
+    ],
+    "tiktok": "Ladders, bubbles and chart lines refresh every few seconds, readings about once a minute, the chain every 15 s. After the bell most of it freezes, but SPX, NDX and VIX keep streaming overnight and listed names follow Cboe's extended hours.\n\nFrom the QuantGeeks member guide: Console Cheat Sheet.\n\nUse code QUANT for 50% off QuantGeeks. Link in bio.\n\nTrading involves risk. For education only, not investment advice.\n\n#daytrading #optionstrading #gex #stocktok #quantgeeks",
+    "title": "How Live Is the Console? | QuantGeeks Console"
+   },
+   "file": "How Live Is the Console- | QuantGeeks Console (16x9).mp4",
+   "kind": "explainer",
+   "name": "cc-how-live-h",
+   "o": "h",
+   "path": "build/factory/out/2026-10-29-redo-howlive/How Live Is the Console- | QuantGeeks Console (16x9).mp4",
+   "poster": "build/factory/out/2026-10-29-redo-howlive/How Live Is the Console- | QuantGeeks Console (16x9).jpg",
+   "seconds": 32.6,
+   "sidecar": "build/factory/out/2026-10-29-redo-howlive/How Live Is the Console- | QuantGeeks Console (16x9).json",
+   "title": "How Live Is the Console? | QuantGeeks Console",
+   "topic": "cc-how-live"
+  }
+ ],
+ "queuedAt": "2026-10-29T20:03:00.000Z",
+ "redo_of": "2026-10-16-first",
+ "sizes": [
+  "v",
+  "h"
+ ],
+ "status": "done",
+ "step": "Ready",
+ "style": "current",
+ "task": "make",
+ "title": "Redo: How Live Is the Console? (overnight)",
+ "updatedAt": "2026-10-29T22:20:00Z",
+ "zip": "build/factory/out/2026-10-29-redo-howlive/QG videos 2026-10-29-redo-howlive.zip"
+}
