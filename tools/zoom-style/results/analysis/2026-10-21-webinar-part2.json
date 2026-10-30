@@ -49,6 +49,7 @@
     0.331,
     0.493
    ],
+   "direct": true,
    "ink": {
     "px": 708,
     "share": 0.00083,
@@ -76,6 +77,7 @@
     0.601,
     0.492
    ],
+   "direct": true,
    "ink": {
     "px": 1426,
     "share": 0.00167,
@@ -130,6 +132,7 @@
     0.41,
     0.706
    ],
+   "direct": true,
    "ink": {
     "px": 2228,
     "share": 0.00261,
@@ -157,6 +160,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 366,
     "share": 0.00043,
@@ -184,6 +188,7 @@
     0.628,
     0.545
    ],
+   "direct": true,
    "ink": {
     "px": 373,
     "share": 0.00044,
@@ -211,6 +216,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -230,6 +236,7 @@
     0.867,
     0.357
    ],
+   "direct": true,
    "ink": {
     "px": 5125,
     "share": 0.00601,
@@ -257,6 +264,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 271,
     "share": 0.00032,
@@ -296,7 +304,8 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.4
   },
   {
    "index": 1,
@@ -309,7 +318,8 @@
    "after_hold": 1,
    "zoom_from": null,
    "zoom_to": 1.45,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.0
   },
   {
    "index": 2,
@@ -322,7 +332,8 @@
    "after_hold": 2,
    "zoom_from": 1.45,
    "zoom_to": 1.44,
-   "zoom_ratio": 0.993
+   "zoom_ratio": 0.993,
+   "caption_offset_s": 0.3
   },
   {
    "index": 3,
@@ -335,7 +346,8 @@
    "after_hold": 3,
    "zoom_from": 1.44,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.694
+   "zoom_ratio": 0.694,
+   "caption_offset_s": 0.0
   },
   {
    "index": 4,
@@ -348,7 +360,8 @@
    "after_hold": 4,
    "zoom_from": 1.0,
    "zoom_to": 1.549,
-   "zoom_ratio": 1.549
+   "zoom_ratio": 1.549,
+   "caption_offset_s": 0.0
   },
   {
    "index": 5,
@@ -361,7 +374,8 @@
    "after_hold": 5,
    "zoom_from": 1.549,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.646
+   "zoom_ratio": 0.646,
+   "caption_offset_s": -2.3
   },
   {
    "index": 6,
@@ -374,7 +388,8 @@
    "after_hold": 6,
    "zoom_from": 1.0,
    "zoom_to": 1.244,
-   "zoom_ratio": 1.244
+   "zoom_ratio": 1.244,
+   "caption_offset_s": -0.4
   },
   {
    "index": 7,
@@ -387,7 +402,8 @@
    "after_hold": 7,
    "zoom_from": 1.244,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.804
+   "zoom_ratio": 0.804,
+   "caption_offset_s": 0.0
   },
   {
    "index": 8,
@@ -400,7 +416,8 @@
    "after_hold": 8,
    "zoom_from": 1.0,
    "zoom_to": 1.769,
-   "zoom_ratio": 1.769
+   "zoom_ratio": 1.769,
+   "caption_offset_s": -0.4
   },
   {
    "index": 9,
@@ -413,7 +430,8 @@
    "after_hold": 9,
    "zoom_from": 1.769,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.565
+   "zoom_ratio": 0.565,
+   "caption_offset_s": 1.0
   },
   {
    "index": 10,
@@ -426,8 +444,38 @@
    "after_hold": 10,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.5,
+  2.7,
+  4.8,
+  6.2,
+  8.5,
+  9.9,
+  11.5,
+  17.2,
+  18.5,
+  19.8,
+  22.1,
+  23.2,
+  24.9,
+  26.3,
+  28.6,
+  30.4,
+  32.0,
+  33.3,
+  35.1,
+  38.0,
+  41.4,
+  43.9,
+  46.2
+ ],
+ "align": {
+  "ok": false,
+  "reason": "no OCR captions (run caption_ocr.py)"
+ }
 }

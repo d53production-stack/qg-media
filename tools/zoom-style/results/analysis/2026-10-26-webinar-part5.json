@@ -65,6 +65,7 @@
     0.497,
     0.395
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -84,6 +85,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 42,
     "share": 5e-05,
@@ -111,6 +113,7 @@
     0.335,
     0.419
    ],
+   "direct": true,
    "ink": {
     "px": 544,
     "share": 0.00064,
@@ -165,6 +168,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 210,
     "share": 0.00025,
@@ -246,6 +250,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -277,7 +282,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.6,
+   "caption_text": "WE'RE STARTING TO GET SOME SORT",
+   "transcript": {
+    "recording_t": 2235.77,
+    "cue_i": 237,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Looks like we're\u2026 we're starting to get some sort of inkling of a trapdoor show up here at 7.15.",
+    "into_cue_s": 0.17,
+    "cue_dur": 7.17,
+    "in_gap": false,
+    "prev": "And we will have our first case of a trapdoor, right? Because we got positive, positive, even got a third positive here, into negative. But that's if 7,700 goes negative, currently positive.",
+    "next": "We'd have positive, positive, negative, negative, negative."
+   }
   },
   {
    "index": 1,
@@ -290,7 +310,22 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.1,
-   "zoom_ratio": 1.1
+   "zoom_ratio": 1.1,
+   "caption_offset_s": -4.1,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 2263.0,
+    "cue_i": 240,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "It might be a nice little area to start eyeing some downside.",
+    "into_cue_s": 8.53,
+    "cue_dur": 3.18,
+    "in_gap": true,
+    "prev": "with a positive below and a primary below. So, in this area here, 716, 715,",
+    "next": "Especially if the\u2026 those two primary nodes that are below us stay there, no?"
+   }
   },
   {
    "index": 2,
@@ -303,7 +338,22 @@
    "after_hold": 2,
    "zoom_from": 1.1,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.909
+   "zoom_ratio": 0.909,
+   "caption_offset_s": -1.9,
+   "caption_text": "PRIMARY JUST",
+   "transcript": {
+    "recording_t": 2265.2,
+    "cue_i": 240,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "It might be a nice little area to start eyeing some downside.",
+    "into_cue_s": 10.73,
+    "cue_dur": 3.18,
+    "in_gap": true,
+    "prev": "with a positive below and a primary below. So, in this area here, 716, 715,",
+    "next": "Especially if the\u2026 those two primary nodes that are below us stay there, no?"
+   }
   },
   {
    "index": 3,
@@ -316,7 +366,22 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": 1.442,
-   "zoom_ratio": 1.442
+   "zoom_ratio": 1.442,
+   "caption_offset_s": -1.7,
+   "caption_text": "THIS RESISTANCE IS GETTING",
+   "transcript": {
+    "recording_t": 3368.55,
+    "cue_i": 401,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "This resistance is getting weaker, this resistance is getting weaker.",
+    "into_cue_s": -2.6,
+    "cue_dur": 4.13,
+    "in_gap": false,
+    "prev": "Maybe a big resistance buildup, that'd be a little different, but honestly, it's pretty clear to me.",
+    "next": "The only thing that isn't getting weaker is this guy here, this spy primary."
+   }
   },
   {
    "index": 4,
@@ -329,7 +394,22 @@
    "after_hold": 4,
    "zoom_from": 1.442,
    "zoom_to": 1.446,
-   "zoom_ratio": 1.003
+   "zoom_ratio": 1.003,
+   "caption_offset_s": 1.1,
+   "caption_text": "THE ONLY TRING THAT ISNT GETTING WEAKER IS",
+   "transcript": {
+    "recording_t": 3373.15,
+    "cue_i": 402,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "The only thing that isn't getting weaker is this guy here, this spy primary.",
+    "into_cue_s": -3.18,
+    "cue_dur": 4.9,
+    "in_gap": false,
+    "prev": "This resistance is getting weaker, this resistance is getting weaker.",
+    "next": "Which doesn't mean we can't move up, but now we would have a nice target once we get up to this primary to give it a short."
+   }
   },
   {
    "index": 5,
@@ -342,7 +422,22 @@
    "after_hold": 5,
    "zoom_from": 1.446,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.692
+   "zoom_ratio": 0.692,
+   "caption_offset_s": -0.7,
+   "caption_text": "DOESN'T MEAN WE CAN'T MOVE UP,",
+   "transcript": {
+    "recording_t": 3382.36,
+    "cue_i": 403,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Which doesn't mean we can't move up, but now we would have a nice target once we get up to this primary to give it a short.",
+    "into_cue_s": 0.36,
+    "cue_dur": 7.07,
+    "in_gap": false,
+    "prev": "The only thing that isn't getting weaker is this guy here, this spy primary.",
+    "next": "Mark says, clear that queues are going to dip."
+   }
   },
   {
    "index": 6,
@@ -355,7 +450,22 @@
    "after_hold": 6,
    "zoom_from": 1.0,
    "zoom_to": 1.701,
-   "zoom_ratio": 1.701
+   "zoom_ratio": 1.701,
+   "caption_offset_s": 0.1,
+   "caption_text": "ANICE TARGET ONCE WE GET",
+   "transcript": {
+    "recording_t": 3384.36,
+    "cue_i": 403,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Which doesn't mean we can't move up, but now we would have a nice target once we get up to this primary to give it a short.",
+    "into_cue_s": 2.36,
+    "cue_dur": 7.07,
+    "in_gap": false,
+    "prev": "The only thing that isn't getting weaker is this guy here, this spy primary.",
+    "next": "Mark says, clear that queues are going to dip."
+   }
   },
   {
    "index": 7,
@@ -368,7 +478,22 @@
    "after_hold": 7,
    "zoom_from": 1.701,
    "zoom_to": 1.575,
-   "zoom_ratio": 0.926
+   "zoom_ratio": 0.926,
+   "caption_offset_s": 0.1,
+   "caption_text": "UP TO THIS PRIMARY",
+   "transcript": {
+    "recording_t": 3385.66,
+    "cue_i": 403,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Which doesn't mean we can't move up, but now we would have a nice target once we get up to this primary to give it a short.",
+    "into_cue_s": 3.66,
+    "cue_dur": 7.07,
+    "in_gap": false,
+    "prev": "The only thing that isn't getting weaker is this guy here, this spy primary.",
+    "next": "Mark says, clear that queues are going to dip."
+   }
   },
   {
    "index": 8,
@@ -381,7 +506,22 @@
    "after_hold": 8,
    "zoom_from": 1.575,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.635
+   "zoom_ratio": 0.635,
+   "caption_offset_s": 0.0,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 3387.66,
+    "cue_i": 403,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Which doesn't mean we can't move up, but now we would have a nice target once we get up to this primary to give it a short.",
+    "into_cue_s": 5.66,
+    "cue_dur": 7.07,
+    "in_gap": false,
+    "prev": "The only thing that isn't getting weaker is this guy here, this spy primary.",
+    "next": "Mark says, clear that queues are going to dip."
+   }
   },
   {
    "index": 9,
@@ -394,8 +534,157 @@
    "after_hold": 9,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 4.6,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 3392.26,
+    "cue_i": 403,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Which doesn't mean we can't move up, but now we would have a nice target once we get up to this primary to give it a short.",
+    "into_cue_s": 10.26,
+    "cue_dur": 7.07,
+    "in_gap": true,
+    "prev": "The only thing that isn't getting weaker is this guy here, this spy primary.",
+    "next": "Mark says, clear that queues are going to dip."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.1,
+  5.7,
+  9.8,
+  11.9,
+  14.3,
+  16.7,
+  18.1,
+  28.5,
+  31.0,
+  38.9,
+  40.7,
+  43.0,
+  45.0,
+  46.6,
+  47.8,
+  49.1,
+  51.2
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 1.05,
+    "t1": 1.05,
+    "offset": 2235.27,
+    "n": 1
+   },
+   {
+    "t0": 10.85,
+    "t1": 17.4,
+    "offset": 2238.6,
+    "n": 4
+   },
+   {
+    "t0": 39.8,
+    "t1": 39.8,
+    "offset": 3331.35,
+    "n": 1
+   },
+   {
+    "t0": 41.85,
+    "t1": 48.45,
+    "offset": 3336.46,
+    "n": 5
+   }
+  ],
+  "matched": 12,
+  "used": 11,
+  "captions": 14,
+  "share": 0.92,
+  "cues": [
+   237,
+   239,
+   240,
+   401,
+   402,
+   403
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.05,
+   "text": "WE'RE STARTING TO GET SOME SORT"
+  },
+  {
+   "t": 3.9,
+   "text": "SHOW UP"
+  },
+  {
+   "t": 7.75,
+   "text": "WE U HAVE PUSITIVE, NEGATIVE, NEGATIVE, WITH A"
+  },
+  {
+   "t": 10.85,
+   "text": "PUSHIIVE BELUW AND A PRIMARY BELOW."
+  },
+  {
+   "t": 13.1,
+   "text": "SO IN THIS AREA HERE, 716, 715,"
+  },
+  {
+   "t": 15.5,
+   "text": "IT MIGHT BE A NICE LITTLE AREA"
+  },
+  {
+   "t": 17.4,
+   "text": "TO START EYEING SOME DOWNSIDE"
+  },
+  {
+   "t": 23.3,
+   "text": ""
+  },
+  {
+   "t": 29.75,
+   "text": "THEY RE BATTLING BETWEEN o AND 712."
+  },
+  {
+   "t": 34.95,
+   "text": ""
+  },
+  {
+   "t": 39.8,
+   "text": "THIS RESISTANCE IS GETTING WEAKER ."
+  },
+  {
+   "t": 41.85,
+   "text": "THE ONLY TRING THAT ISNT GETTING WEAKER IS"
+  },
+  {
+   "t": 44.0,
+   "text": "THIS GUY HERE, TRIS oP Y PRIMARY, WHICH"
+  },
+  {
+   "t": 45.8,
+   "text": "DOESN'T MEAN WE CAN'T MOVE UP,"
+  },
+  {
+   "t": 47.2,
+   "text": "BUT NOW WE WOULD HAVE"
+  },
+  {
+   "t": 48.45,
+   "text": "A NICE TARGET ONCE WE GET"
+  },
+  {
+   "t": 50.15,
+   "text": ""
+  },
+  {
+   "t": 55.44,
+   "text": ""
+  }
+ ]
 }

@@ -38,6 +38,7 @@
     0.496,
     0.499
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -57,6 +58,7 @@
     0.609,
     0.64
    ],
+   "direct": true,
    "ink": {
     "px": 68,
     "share": 8e-05,
@@ -84,6 +86,7 @@
     0.496,
     0.499
    ],
+   "direct": true,
    "ink": {
     "px": 500,
     "share": 0.00059,
@@ -111,6 +114,7 @@
     0.642,
     0.523
    ],
+   "direct": true,
    "ink": {
     "px": 1977,
     "share": 0.00232,
@@ -138,6 +142,7 @@
     0.496,
     0.499
    ],
+   "direct": true,
    "ink": {
     "px": 464,
     "share": 0.00054,
@@ -165,6 +170,7 @@
     0.653,
     0.455
    ],
+   "direct": true,
    "ink": {
     "px": 2042,
     "share": 0.00239,
@@ -192,6 +198,7 @@
     0.308,
     0.489
    ],
+   "direct": true,
    "ink": {
     "px": 909,
     "share": 0.00107,
@@ -219,6 +226,7 @@
     0.766,
     0.284
    ],
+   "direct": true,
    "ink": {
     "px": 3376,
     "share": 0.00396,
@@ -265,6 +273,7 @@
     0.317,
     0.555
    ],
+   "direct": true,
    "ink": {
     "px": 1009,
     "share": 0.00118,
@@ -292,6 +301,7 @@
     0.836,
     0.567
    ],
+   "direct": true,
    "ink": {
     "px": 896,
     "share": 0.00105,
@@ -319,6 +329,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 412,
     "share": 0.00048,
@@ -346,6 +357,7 @@
     0.356,
     0.447
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -377,7 +389,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.01,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.3,
+   "caption_text": "WANNA GO OVER A SETUP THAT"
   },
   {
    "index": 1,
@@ -390,7 +404,9 @@
    "after_hold": 1,
    "zoom_from": 1.01,
    "zoom_to": 1.581,
-   "zoom_ratio": 1.565
+   "zoom_ratio": 1.565,
+   "caption_offset_s": 0.2,
+   "caption_text": ""
   },
   {
    "index": 2,
@@ -403,7 +419,9 @@
    "after_hold": 2,
    "zoom_from": 1.581,
    "zoom_to": 1.01,
-   "zoom_ratio": 0.639
+   "zoom_ratio": 0.639,
+   "caption_offset_s": 0.0,
+   "caption_text": "LTRUUGHT HIS CY"
   },
   {
    "index": 3,
@@ -416,7 +434,9 @@
    "after_hold": 3,
    "zoom_from": 1.01,
    "zoom_to": 1.759,
-   "zoom_ratio": 1.742
+   "zoom_ratio": 1.742,
+   "caption_offset_s": -0.5,
+   "caption_text": "BUT WHAT GAVE IT AWAY"
   },
   {
    "index": 4,
@@ -429,7 +449,9 @@
    "after_hold": 4,
    "zoom_from": 1.759,
    "zoom_to": 1.011,
-   "zoom_ratio": 0.575
+   "zoom_ratio": 0.575,
+   "caption_offset_s": 0.2,
+   "caption_text": "BOOM. RIGHT"
   },
   {
    "index": 5,
@@ -442,7 +464,9 @@
    "after_hold": 5,
    "zoom_from": 1.011,
    "zoom_to": 1.663,
-   "zoom_ratio": 1.645
+   "zoom_ratio": 1.645,
+   "caption_offset_s": 0.1,
+   "caption_text": "PRIMARY MOVE BACK UP"
   },
   {
    "index": 6,
@@ -455,7 +479,9 @@
    "after_hold": 6,
    "zoom_from": 1.663,
    "zoom_to": 1.767,
-   "zoom_ratio": 1.063
+   "zoom_ratio": 1.063,
+   "caption_offset_s": 0.0,
+   "caption_text": "BUT LOOK AT"
   },
   {
    "index": 7,
@@ -468,7 +494,9 @@
    "after_hold": 7,
    "zoom_from": 1.767,
    "zoom_to": 1.665,
-   "zoom_ratio": 0.942
+   "zoom_ratio": 0.942,
+   "caption_offset_s": -0.3,
+   "caption_text": "BUT LOOK AT THAT SUPPORT BUILD"
   },
   {
    "index": 8,
@@ -481,7 +509,9 @@
    "after_hold": 8,
    "zoom_from": 1.665,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.601
+   "zoom_ratio": 0.601,
+   "caption_offset_s": 0.0,
+   "caption_text": "DSAY THis"
   },
   {
    "index": 9,
@@ -494,7 +524,9 @@
    "after_hold": 9,
    "zoom_from": 1.0,
    "zoom_to": 1.569,
-   "zoom_ratio": 1.569
+   "zoom_ratio": 1.569,
+   "caption_offset_s": 0.5,
+   "caption_text": "SIMPLY BELAUDE IF WE HULU BELUW THIS,"
   },
   {
    "index": 10,
@@ -507,7 +539,9 @@
    "after_hold": 10,
    "zoom_from": 1.569,
    "zoom_to": 1.57,
-   "zoom_ratio": 1.001
+   "zoom_ratio": 1.001,
+   "caption_offset_s": 0.1,
+   "caption_text": "AND THEN PRIMARY JUST MUVE"
   },
   {
    "index": 11,
@@ -520,7 +554,9 @@
    "after_hold": 11,
    "zoom_from": 1.57,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.637
+   "zoom_ratio": 0.637,
+   "caption_offset_s": 0.0,
+   "caption_text": "$0 RIGHT"
   },
   {
    "index": 12,
@@ -533,7 +569,9 @@
    "after_hold": 12,
    "zoom_from": 1.0,
    "zoom_to": 1.419,
-   "zoom_ratio": 1.419
+   "zoom_ratio": 1.419,
+   "caption_offset_s": 0.0,
+   "caption_text": "INMY"
   },
   {
    "index": 13,
@@ -546,8 +584,139 @@
    "after_hold": 13,
    "zoom_from": 1.419,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "sannenonauananeoueues"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.7,
+  3.5,
+  4.2,
+  5.5,
+  7.3,
+  8.7,
+  10.2,
+  12.1,
+  13.2,
+  14.9,
+  16.5,
+  18.5,
+  20.2,
+  21.7,
+  22.9,
+  25.0,
+  26.9,
+  30.0,
+  32.4,
+  35.6,
+  37.6,
+  41.6,
+  43.2,
+  44.6,
+  45.7
+ ],
+ "captions": [
+  {
+   "t": 0.85,
+   "text": "WANNA GO OVER A SETUP THAT"
+  },
+  {
+   "t": 2.6,
+   "text": "SAW YOU GUYS MENTIONING IN CHAT."
+  },
+  {
+   "t": 4.85,
+   "text": "THIS BOUNCE HERE OKAY"
+  },
+  {
+   "t": 6.4,
+   "text": "LE ERUUOHT This BUUNGE WAN T THAT SIGNIFICANT,"
+  },
+  {
+   "t": 8.0,
+   "text": "BUT WHAT GAVE IT AWAY"
+  },
+  {
+   "t": 9.45,
+   "text": "WAS THIS PRIMARY 60"
+  },
+  {
+   "t": 11.15,
+   "text": "FROM 764 UP TO 768."
+  },
+  {
+   "t": 12.65,
+   "text": "BOOM. RIGHT"
+  },
+  {
+   "t": 14.05,
+   "text": "LITTLE bil UF SUPFURI PLUS CONVICTION."
+  },
+  {
+   "t": 15.7,
+   "text": "PRIMARY MOVE BACK UP"
+  },
+  {
+   "t": 17.5,
+   "text": "FROM 768 TO SEVEN 70."
+  },
+  {
+   "t": 19.35,
+   "text": "THIS ONE AT LEAST IS QUITE LARGE."
+  },
+  {
+   "t": 20.95,
+   "text": "BUT LOOK AT THAT SUPPORT BUILD"
+  },
+  {
+   "t": 22.3,
+   "text": "PRIMARIES UP HERE ON 0'S"
+  },
+  {
+   "t": 23.95,
+   "text": "YD SAY THIS IS A PRETTY MIXED MAP"
+  },
+  {
+   "t": 25.95,
+   "text": "SIMPLY BEGAUDE IF WE HULU BELUW THIS,"
+  },
+  {
+   "t": 28.45,
+   "text": "7 00, WE DU RAVE A TRAPUUUR ET UP"
+  },
+  {
+   "t": 31.2,
+   "text": "AND THEN PRIMARY JUST MUVE DUWN ON Q'S"
+  },
+  {
+   "t": 34.0,
+   "text": "SUPPORT. BUT AT THE SAME TIME"
+  },
+  {
+   "t": 36.6,
+   "text": "PRIMARY MOVED UP ON SPY FROM"
+  },
+  {
+   "t": 39.6,
+   "text": "saanenensocoaneeueues"
+  },
+  {
+   "t": 42.4,
+   "text": "ALSO MOVED UP ON Q'S"
+  },
+  {
+   "t": 43.9,
+   "text": "IN MY OPINION, THAT'S A HEDGE"
+  },
+  {
+   "t": 45.15,
+   "text": "WHEN IT'S THAT FAR OUT."
+  },
+  {
+   "t": 47.84,
+   "text": ""
+  }
+ ]
 }

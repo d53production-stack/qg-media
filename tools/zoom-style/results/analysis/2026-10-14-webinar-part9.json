@@ -65,6 +65,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 621,
     "share": 0.00073,
@@ -104,7 +105,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.7,
+   "caption_text": "WE HAVE oUME oUPPUR OnUWING UP HERE."
   },
   {
    "index": 1,
@@ -117,7 +120,9 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.0,
-   "zoom_ratio": 1.0
+   "zoom_ratio": 1.0,
+   "caption_offset_s": 0.1,
+   "caption_text": "THESE TWO ARE STILL"
   },
   {
    "index": 2,
@@ -130,8 +135,118 @@
    "after_hold": 2,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.8,
+   "caption_text": "sanncnennoananeeueues"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.2,
+  5.0,
+  7.9,
+  10.1,
+  11.6,
+  13.4,
+  14.5,
+  15.3,
+  16.7,
+  18.1,
+  21.0,
+  22.3,
+  24.0,
+  25.8,
+  27.7,
+  29.1,
+  30.3,
+  31.7,
+  32.9,
+  34.1
+ ],
+ "captions": [
+  {
+   "t": 1.1,
+   "text": "WE HAVE oUME oUPPUR OnUWING UP HERE."
+  },
+  {
+   "t": 3.6,
+   "text": "TWU TRAPUUURS INTU UR OPT SUPPORT"
+  },
+  {
+   "t": 6.45,
+   "text": "PRIMARY HULLED UP FRUM U TU 771."
+  },
+  {
+   "t": 9.0,
+   "text": "IFYOU'REA BULL, YOU WANNA SEE"
+  },
+  {
+   "t": 10.85,
+   "text": "TAS GUNTINUE TU INGREADE IN PRICE, YOU"
+  },
+  {
+   "t": 12.5,
+   "text": "WANNA SEE I Als GUNTINUE 10 INCREASE IN PRICE."
+  },
+  {
+   "t": 13.95,
+   "text": "AND THIS ONE AS WELL"
+  },
+  {
+   "t": 14.9,
+   "text": "IF YOU'RE A BEAR."
+  },
+  {
+   "t": 16.0,
+   "text": "YUU WANNA OEE Tid INGREADE IN VALUE."
+  },
+  {
+   "t": 17.4,
+   "text": "THIS INCREASE IN VALUE"
+  },
+  {
+   "t": 19.55,
+   "text": "RAP UUUR LUURO LIKELY DUWN TU 768"
+  },
+  {
+   "t": 21.65,
+   "text": "THESE TWO ARE STILL BATTLING."
+  },
+  {
+   "t": 23.15,
+   "text": "31 AND 34 PRIMARY"
+  },
+  {
+   "t": 24.9,
+   "text": "IT'D BE A HUGE TELL IF THE"
+  },
+  {
+   "t": 26.75,
+   "text": "3 1 STUPPEU BEING A MAJUR UNE NODE."
+  },
+  {
+   "t": 28.4,
+   "text": "MAYBE FLIP TO BEING A MAJOR TWO."
+  },
+  {
+   "t": 29.7,
+   "text": "THAT'D BE A HUGE TELL THAT"
+  },
+  {
+   "t": 31.0,
+   "text": "THIS PRIMARY IS GUNNA OTIGK UP HERE."
+  },
+  {
+   "t": 32.3,
+   "text": "AND THEN YOU WOULD HAVE"
+  },
+  {
+   "t": 33.5,
+   "text": "ALL THREE PRIMARIES ABOVE SPOT"
+  },
+  {
+   "t": 36.44,
+   "text": "1 AUNCH WEEK"
+  }
+ ]
 }

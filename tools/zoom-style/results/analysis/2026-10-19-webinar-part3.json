@@ -57,6 +57,7 @@
     0.312,
     0.605
    ],
+   "direct": true,
    "ink": {
     "px": 3990,
     "share": 0.00468,
@@ -84,6 +85,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -103,6 +105,7 @@
     0.381,
     0.499
    ],
+   "direct": true,
    "ink": {
     "px": 1273,
     "share": 0.00149,
@@ -130,6 +133,7 @@
     0.395,
     0.455
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -149,6 +153,7 @@
     0.396,
     0.495
    ],
+   "direct": true,
    "ink": {
     "px": 192,
     "share": 0.00023,
@@ -176,6 +181,7 @@
     0.333,
     0.52
    ],
+   "direct": true,
    "ink": {
     "px": 1364,
     "share": 0.0016,
@@ -215,7 +221,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.4,
+   "caption_text": "OVER TIME, YOU'LL START TO SEE AND,",
+   "transcript": {
+    "recording_t": 259.72,
+    "cue_i": 39,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Here's the thing. Over time, you'll start to see, and you'll start to shed your previous strategy, simply because the data in and of itself is",
+    "into_cue_s": 1.42,
+    "cue_dur": 8.73,
+    "in_gap": false,
+    "prev": "Use it for your entries, and then use the data as your, conviction.",
+    "next": "Is good enough for me."
+   }
   },
   {
    "index": 1,
@@ -228,7 +249,22 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.553,
-   "zoom_ratio": 1.553
+   "zoom_ratio": 1.553,
+   "caption_offset_s": 0.0,
+   "caption_text": "re ee ae aa LET'S BREAK 7",
+   "transcript": {
+    "recording_t": 343.59,
+    "cue_i": 50,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And we have another, now, support here on\u2026 queues.",
+    "into_cue_s": 2.45,
+    "cue_dur": 4.17,
+    "in_gap": false,
+    "prev": "And we have that launch pad.",
+    "next": "is primary more of a floor or a trapdoor here on SPX? This is not a trapdoor here on SPX."
+   }
   },
   {
    "index": 2,
@@ -241,7 +277,22 @@
    "after_hold": 2,
    "zoom_from": 1.553,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.644
+   "zoom_ratio": 0.644,
+   "caption_offset_s": 0.1,
+   "caption_text": "THERE WAS ANUTRER SETUP",
+   "transcript": {
+    "recording_t": 411.33,
+    "cue_i": 62,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "There was another setup on Friday, which we can get into here in a second, but I mean, this is perfect. You have positive, positive, boom, come back in, we had our primary North Star target above, and then we squeezed. Negative.",
+    "into_cue_s": -3.3,
+    "cue_dur": 14.79,
+    "in_gap": false,
+    "prev": "This is by far the best setup.",
+    "next": "Negative, gamma."
+   }
   },
   {
    "index": 3,
@@ -254,7 +305,22 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": 1.571,
-   "zoom_ratio": 1.571
+   "zoom_ratio": 1.571,
+   "caption_offset_s": -0.3,
+   "caption_text": "SECOND, BUT MEAN, THIS IS PERFECT.",
+   "transcript": {
+    "recording_t": 420.16,
+    "cue_i": 62,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "There was another setup on Friday, which we can get into here in a second, but I mean, this is perfect. You have positive, positive, boom, come back in, we had our primary North Star target above, and then we squeezed. Negative.",
+    "into_cue_s": 5.53,
+    "cue_dur": 14.79,
+    "in_gap": false,
+    "prev": "This is by far the best setup.",
+    "next": "Negative, gamma."
+   }
   },
   {
    "index": 4,
@@ -267,7 +333,22 @@
    "after_hold": 4,
    "zoom_from": 1.571,
    "zoom_to": 1.502,
-   "zoom_ratio": 0.956
+   "zoom_ratio": 0.956,
+   "caption_offset_s": 0.7,
+   "caption_text": "A PRIMARY ABOVE AS OUR NORTH STAR",
+   "transcript": {
+    "recording_t": 447.11,
+    "cue_i": 66,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Positive, positive, negative. Except this time, we don't have a primary above as our North Star.",
+    "into_cue_s": 0.13,
+    "cue_dur": 5.73,
+    "in_gap": false,
+    "prev": "And we kind of have that set up again here.",
+    "next": "bet."
+   }
   },
   {
    "index": 5,
@@ -280,7 +361,22 @@
    "after_hold": 5,
    "zoom_from": 1.502,
    "zoom_to": 1.503,
-   "zoom_ratio": 1.001
+   "zoom_ratio": 1.001,
+   "caption_offset_s": -0.8,
+   "caption_text": "THAT M2 IS POTENTIALLY FUEL, RIGHT",
+   "transcript": {
+    "recording_t": 467.69,
+    "cue_i": 69,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Well, that M2 is potentially fuel, right?",
+    "into_cue_s": 2.16,
+    "cue_dur": 3.17,
+    "in_gap": false,
+    "prev": "M2 doesn't really\u2026 I mean, would you look at that, or is it not.",
+    "next": "Because it's negative gamma, but for that fuel to come into play, I personally want to be closer to these positive gammas to then bounce off of, right? So, the way I think about it is these positive gammas."
+   }
   },
   {
    "index": 6,
@@ -293,7 +389,22 @@
    "after_hold": 6,
    "zoom_from": 1.503,
    "zoom_to": 1.685,
-   "zoom_ratio": 1.121
+   "zoom_ratio": 1.121,
+   "caption_offset_s": -0.1,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 471.49,
+    "cue_i": 70,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Because it's negative gamma, but for that fuel to come into play, I personally want to be closer to these positive gammas to then bounce off of, right? So, the way I think about it is these positive gammas.",
+    "into_cue_s": 2.4,
+    "cue_dur": 12.42,
+    "in_gap": false,
+    "prev": "Well, that M2 is potentially fuel, right?",
+    "next": "you\u2026 you have a floor that you can genuinely bounce off of, right? And then in this\u2026 in this zone here, I would\u2026 I would think about it as, like, you're in an anti-gravity chamber, where you can move around."
+   }
   },
   {
    "index": 7,
@@ -306,8 +417,228 @@
    "after_hold": 7,
    "zoom_from": 1.685,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.3,
+   "caption_text": "sennenenanananeeneues",
+   "transcript": {
+    "recording_t": 476.19,
+    "cue_i": 70,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Because it's negative gamma, but for that fuel to come into play, I personally want to be closer to these positive gammas to then bounce off of, right? So, the way I think about it is these positive gammas.",
+    "into_cue_s": 7.1,
+    "cue_dur": 12.42,
+    "in_gap": false,
+    "prev": "Well, that M2 is potentially fuel, right?",
+    "next": "you\u2026 you have a floor that you can genuinely bounce off of, right? And then in this\u2026 in this zone here, I would\u2026 I would think about it as, like, you're in an anti-gravity chamber, where you can move around."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.9,
+  3.6,
+  5.3,
+  6.9,
+  8.5,
+  10.0,
+  10.9,
+  13.2,
+  14.6,
+  15.9,
+  17.7,
+  20.7,
+  22.9,
+  24.0,
+  26.0,
+  27.4,
+  29.1,
+  30.8,
+  32.2,
+  33.7,
+  36.2,
+  37.4,
+  39.3,
+  40.2,
+  42.1,
+  43.6
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.95,
+    "t1": 6.1,
+    "offset": 259.22,
+    "n": 3
+   },
+   {
+    "t0": 7.7,
+    "t1": 9.25,
+    "offset": 333.59,
+    "n": 2
+   },
+   {
+    "t0": 10.45,
+    "t1": 12.05,
+    "offset": 398.03,
+    "n": 2
+   },
+   {
+    "t0": 13.9,
+    "t1": 23.45,
+    "offset": 402.76,
+    "n": 5
+   },
+   {
+    "t0": 28.25,
+    "t1": 29.95,
+    "offset": 414.21,
+    "n": 2
+   },
+   {
+    "t0": 31.5,
+    "t1": 32.95,
+    "offset": 417.08,
+    "n": 2
+   },
+   {
+    "t0": 34.95,
+    "t1": 42.85,
+    "offset": 432.29,
+    "n": 3
+   }
+  ],
+  "matched": 19,
+  "used": 19,
+  "captions": 27,
+  "share": 1.0,
+  "cues": [
+   38,
+   39,
+   50,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   65,
+   66,
+   68,
+   69,
+   70
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.95,
+   "text": "OVER TIME, YOU'LL START TO SEE AND,"
+  },
+  {
+   "t": 2.75,
+   "text": "YUU ANUW, oTART TU onED YOUR PREVIOUS"
+  },
+  {
+   "t": 4.45,
+   "text": "STRATEGY IMPLY BELAUSE IME UAIA IN"
+  },
+  {
+   "t": 6.1,
+   "text": "AND OF ITSELF IS GOOD ENOUGH."
+  },
+  {
+   "t": 7.7,
+   "text": "AND WE HAVE ANOTHER"
+  },
+  {
+   "t": 9.25,
+   "text": "NOW SUPPORT HERE ON 0'S"
+  },
+  {
+   "t": 10.45,
+   "text": "LET'S BREAK IT DOWN."
+  },
+  {
+   "t": 12.05,
+   "text": "THIS IS BY FAR THE BEST SETUP"
+  },
+  {
+   "t": 13.9,
+   "text": "THERE WAS ANUTHER oETUP UN FRIDAY WE WHICH"
+  },
+  {
+   "t": 15.25,
+   "text": "WE CAN GET INTO HERE IN A"
+  },
+  {
+   "t": 16.8,
+   "text": "SECOND, BUT MEAN, THIS IS PERFECT."
+  },
+  {
+   "t": 19.2,
+   "text": "YUU HAVE PUSHTIVE, BUUM, FUME BACK IN."
+  },
+  {
+   "t": 21.8,
+   "text": "WE HAD UUR PRIMARY NURIA OTAR TARGET ABOVE,"
+  },
+  {
+   "t": 23.45,
+   "text": "AND THEN WE SQUEEZED"
+  },
+  {
+   "t": 25.0,
+   "text": "NEGATIVE GAMMA"
+  },
+  {
+   "t": 26.7,
+   "text": "POSITIVE, NEGATIVE."
+  },
+  {
+   "t": 28.25,
+   "text": "AND WE KIND OF HAVE THAT"
+  },
+  {
+   "t": 29.95,
+   "text": "oc UP AGAIN HERE PUOITIVE, NEGATIVE."
+  },
+  {
+   "t": 31.5,
+   "text": "EXCEPT THIS TIME WE DON'T HAVE"
+  },
+  {
+   "t": 32.95,
+   "text": "A PRIMARY ABOVE AS OUR NORTH STAR"
+  },
+  {
+   "t": 34.95,
+   "text": "THAT M2 IS POTENTIALLY FUEL, RIGHT"
+  },
+  {
+   "t": 36.8,
+   "text": "BECAUSE IT'S NEGATIVE GAMMA."
+  },
+  {
+   "t": 38.35,
+   "text": "DUT FUR TRAT FUEL 10 GUME INTU PLAY."
+  },
+  {
+   "t": 39.75,
+   "text": "PERSONALLY WANNA BE"
+  },
+  {
+   "t": 41.15,
+   "text": "GLUSER TU TRESE FUSITIVE GAMMAS T0"
+  },
+  {
+   "t": 42.85,
+   "text": "THEN BOUNCE OFF OF. RIGHT"
+  },
+  {
+   "t": 45.7,
+   "text": "a a a ee"
+  }
+ ]
 }

@@ -38,6 +38,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 2398,
     "share": 0.00281,
@@ -92,6 +93,7 @@
     0.322,
     0.578
    ],
+   "direct": true,
    "ink": {
     "px": 446,
     "share": 0.00052,
@@ -119,6 +121,7 @@
     0.503,
     0.478
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -138,6 +141,7 @@
     0.591,
     0.47
    ],
+   "direct": true,
    "ink": {
     "px": 11,
     "share": 0.0,
@@ -157,6 +161,7 @@
     0.295,
     0.395
    ],
+   "direct": true,
    "ink": {
     "px": 652,
     "share": 0.00076,
@@ -184,6 +189,7 @@
     0.297,
     0.513
    ],
+   "direct": true,
    "ink": {
     "px": 1432,
     "share": 0.00168,
@@ -211,6 +217,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 197,
     "share": 0.00023,
@@ -238,6 +245,7 @@
     0.723,
     0.632
    ],
+   "direct": true,
    "ink": {
     "px": 3668,
     "share": 0.0043,
@@ -265,6 +273,7 @@
     0.867,
     0.623
    ],
+   "direct": true,
    "ink": {
     "px": 2674,
     "share": 0.00313,
@@ -311,6 +320,7 @@
     0.464,
     0.582
    ],
+   "direct": true,
    "ink": {
     "px": 1037,
     "share": 0.00122,
@@ -350,7 +360,8 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -2.6
   },
   {
    "index": 1,
@@ -363,7 +374,8 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.652,
-   "zoom_ratio": 1.652
+   "zoom_ratio": 1.652,
+   "caption_offset_s": 1.1
   },
   {
    "index": 2,
@@ -376,7 +388,8 @@
    "after_hold": 2,
    "zoom_from": 1.652,
    "zoom_to": 1.435,
-   "zoom_ratio": 0.869
+   "zoom_ratio": 0.869,
+   "caption_offset_s": 0.0
   },
   {
    "index": 3,
@@ -389,7 +402,8 @@
    "after_hold": 3,
    "zoom_from": 1.435,
    "zoom_to": 1.006,
-   "zoom_ratio": 0.701
+   "zoom_ratio": 0.701,
+   "caption_offset_s": 1.1
   },
   {
    "index": 4,
@@ -402,7 +416,8 @@
    "after_hold": 4,
    "zoom_from": 1.006,
    "zoom_to": 1.379,
-   "zoom_ratio": 1.371
+   "zoom_ratio": 1.371,
+   "caption_offset_s": 0.0
   },
   {
    "index": 5,
@@ -415,7 +430,8 @@
    "after_hold": 5,
    "zoom_from": 1.379,
    "zoom_to": 1.617,
-   "zoom_ratio": 1.173
+   "zoom_ratio": 1.173,
+   "caption_offset_s": -0.3
   },
   {
    "index": 6,
@@ -428,7 +444,8 @@
    "after_hold": 6,
    "zoom_from": 1.617,
    "zoom_to": 1.615,
-   "zoom_ratio": 0.999
+   "zoom_ratio": 0.999,
+   "caption_offset_s": 0.9
   },
   {
    "index": 7,
@@ -441,7 +458,8 @@
    "after_hold": 7,
    "zoom_from": 1.615,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.619
+   "zoom_ratio": 0.619,
+   "caption_offset_s": 0.2
   },
   {
    "index": 8,
@@ -454,7 +472,8 @@
    "after_hold": 8,
    "zoom_from": 1.0,
    "zoom_to": 1.481,
-   "zoom_ratio": 1.481
+   "zoom_ratio": 1.481,
+   "caption_offset_s": 0.1
   },
   {
    "index": 9,
@@ -467,7 +486,8 @@
    "after_hold": 9,
    "zoom_from": 1.481,
    "zoom_to": 1.485,
-   "zoom_ratio": 1.003
+   "zoom_ratio": 1.003,
+   "caption_offset_s": 0.1
   },
   {
    "index": 10,
@@ -480,7 +500,8 @@
    "after_hold": 10,
    "zoom_from": 1.485,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.673
+   "zoom_ratio": 0.673,
+   "caption_offset_s": 0.3
   },
   {
    "index": 11,
@@ -493,7 +514,8 @@
    "after_hold": 11,
    "zoom_from": 1.0,
    "zoom_to": 1.463,
-   "zoom_ratio": 1.463
+   "zoom_ratio": 1.463,
+   "caption_offset_s": 0.6
   },
   {
    "index": 12,
@@ -506,8 +528,35 @@
    "after_hold": 12,
    "zoom_from": 1.463,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  3.1,
+  7.3,
+  8.8,
+  10.7,
+  13.0,
+  15.1,
+  17.0,
+  18.3,
+  21.2,
+  22.7,
+  24.4,
+  25.8,
+  27.7,
+  28.7,
+  30.4,
+  32.0,
+  33.3,
+  34.8,
+  36.2,
+  39.1
+ ],
+ "align": {
+  "ok": false,
+  "reason": "no OCR captions (run caption_ocr.py)"
+ }
 }

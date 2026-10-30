@@ -18,7 +18,18 @@ python3 profile.py results/analysis --md > results/PROFILE.md
 python3 compare.py results/profile.json results/analysis > results/COMPARISON.md
 python3 make_spec.py results/profile.json > results/matt-zoom-style.json
 python3 focus_map.py results/analysis wide-frame.jpg results/focus-map.jpg
+
+# 4. timing against the burned-in captions, then the words themselves
+for j in results/analysis/*.json; do python3 caption_sync.py "$(basename "$j" .json).mp4" "$j"; done
+apt-get install tesseract-ocr   # OMP_THREAD_LIMIT=1 when running several at once
+for j in results/analysis/*.json; do python3 caption_ocr.py "$(basename "$j" .json).mp4" "$j"; done
+python3 transcript_align.py results/analysis vtt/ --md results/zoom-sentences.md --json results/align-summary.json
+python3 triggers.py results/analysis vtt/ --md > results/TRIGGERS.md
 ```
+
+`vtt/` holds the Zoom `.transcript.vtt` files (named `GMT20261028-...`); they
+are Matt's and are not committed. The reels are chronological cuts of the
+recording, so `transcript_align.py` finds one offset per cut segment.
 
 Terms: a **hold** is a stretch where the video window sits still. A
 **move** is what happens between two holds: a hard **cut**, or a short

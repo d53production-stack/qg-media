@@ -1,0 +1,792 @@
+{
+ "clips_aligned": 68,
+ "cues_spoken": 681,
+ "cues_with_zoom_in": 152,
+ "zoom_in_rate_per_cue": 0.223,
+ "families": [
+  {
+   "family": "ticker",
+   "cues": 94,
+   "cues_with_zoom_in": 34,
+   "p_zoom_in": 0.36,
+   "lift": 1.62,
+   "share_of_zoom_ins": 0.22
+  },
+  {
+   "family": "price level",
+   "cues": 186,
+   "cues_with_zoom_in": 65,
+   "p_zoom_in": 0.35,
+   "lift": 1.57,
+   "share_of_zoom_ins": 0.43
+  },
+  {
+   "family": "pointing (here / this / look)",
+   "cues": 306,
+   "cues_with_zoom_in": 89,
+   "p_zoom_in": 0.29,
+   "lift": 1.3,
+   "share_of_zoom_ins": 0.59
+  },
+  {
+   "family": "chart structure (primary / major / value / magnet)",
+   "cues": 262,
+   "cues_with_zoom_in": 77,
+   "p_zoom_in": 0.29,
+   "lift": 1.32,
+   "share_of_zoom_ins": 0.51
+  },
+  {
+   "family": "drawing (draw / pencil / line)",
+   "cues": 5,
+   "cues_with_zoom_in": 4,
+   "p_zoom_in": 0.8,
+   "lift": 3.58,
+   "share_of_zoom_ins": 0.03
+  },
+  {
+   "family": "direction (up / down / break)",
+   "cues": 249,
+   "cues_with_zoom_in": 70,
+   "p_zoom_in": 0.28,
+   "lift": 1.26,
+   "share_of_zoom_ins": 0.46
+  },
+  {
+   "family": "time (today / tomorrow / open)",
+   "cues": 34,
+   "cues_with_zoom_in": 9,
+   "p_zoom_in": 0.26,
+   "lift": 1.19,
+   "share_of_zoom_ins": 0.06
+  },
+  {
+   "family": "question / aside (okay, questions, so)",
+   "cues": 137,
+   "cues_with_zoom_in": 37,
+   "p_zoom_in": 0.27,
+   "lift": 1.21,
+   "share_of_zoom_ins": 0.24
+  },
+  {
+   "family": "big picture (overall / big picture / zoom out)",
+   "cues": 2,
+   "cues_with_zoom_in": 1,
+   "p_zoom_in": 0.5,
+   "lift": 2.24,
+   "share_of_zoom_ins": 0.01
+  }
+ ],
+ "zoom-in": {
+  "n": 162,
+  "within_1s_of_sentence_start": 0.3,
+  "median_into_cue_s": 2.17,
+  "median_cue_dur": 5.44,
+  "speakers": {
+   "Chuy": 161,
+   "Giancarlo": 1
+  },
+  "families_on_screen": {
+   "pointing (here / this / look)": 31,
+   "price level": 25,
+   "chart structure (primary / major / value / magnet)": 24,
+   "direction (up / down / break)": 19,
+   "ticker": 9,
+   "question / aside (okay, questions, so)": 7,
+   "time (today / tomorrow / open)": 1
+  },
+  "families_in_sentence": {
+   "pointing (here / this / look)": 95,
+   "chart structure (primary / major / value / magnet)": 84,
+   "direction (up / down / break)": 77,
+   "price level": 74,
+   "question / aside (okay, questions, so)": 39,
+   "ticker": 36,
+   "time (today / tomorrow / open)": 12,
+   "drawing (draw / pencil / line)": 4,
+   "big picture (overall / big picture / zoom out)": 1
+  }
+ },
+ "zoom-out": {
+  "n": 149,
+  "within_1s_of_sentence_start": 0.46,
+  "median_into_cue_s": 1.34,
+  "median_cue_dur": 4.24,
+  "speakers": {
+   "Chuy": 148,
+   "Noreniel Barreiro": 1
+  },
+  "families_on_screen": {
+   "pointing (here / this / look)": 23,
+   "chart structure (primary / major / value / magnet)": 20,
+   "direction (up / down / break)": 13,
+   "price level": 10,
+   "question / aside (okay, questions, so)": 7,
+   "ticker": 4,
+   "time (today / tomorrow / open)": 1
+  },
+  "families_in_sentence": {
+   "pointing (here / this / look)": 76,
+   "chart structure (primary / major / value / magnet)": 70,
+   "direction (up / down / break)": 56,
+   "price level": 52,
+   "question / aside (okay, questions, so)": 25,
+   "ticker": 23,
+   "time (today / tomorrow / open)": 9,
+   "drawing (draw / pencil / line)": 4,
+   "big picture (overall / big picture / zoom out)": 1
+  }
+ },
+ "pan": {
+  "n": 91,
+  "within_1s_of_sentence_start": 0.26,
+  "median_into_cue_s": 3.03,
+  "median_cue_dur": 5.5,
+  "speakers": {
+   "Chuy": 90,
+   "naveen": 1
+  },
+  "families_on_screen": {
+   "chart structure (primary / major / value / magnet)": 18,
+   "direction (up / down / break)": 14,
+   "pointing (here / this / look)": 13,
+   "price level": 9,
+   "ticker": 3,
+   "question / aside (okay, questions, so)": 1,
+   "time (today / tomorrow / open)": 1
+  },
+  "families_in_sentence": {
+   "chart structure (primary / major / value / magnet)": 56,
+   "pointing (here / this / look)": 53,
+   "direction (up / down / break)": 49,
+   "price level": 38,
+   "question / aside (okay, questions, so)": 29,
+   "ticker": 21,
+   "time (today / tomorrow / open)": 4
+  }
+ },
+ "zoom_in_words_by_lift": [
+  {
+   "word": "bull",
+   "lift": 3.96,
+   "sentences_with_move": 6,
+   "all_sentences": 8
+  },
+  {
+   "word": "pretty",
+   "lift": 3.17,
+   "sentences_with_move": 6,
+   "all_sentences": 10
+  },
+  {
+   "word": "q's",
+   "lift": 2.88,
+   "sentences_with_move": 6,
+   "all_sentences": 11
+  },
+  {
+   "word": "below",
+   "lift": 2.64,
+   "sentences_with_move": 13,
+   "all_sentences": 26
+  },
+  {
+   "word": "once",
+   "lift": 2.44,
+   "sentences_with_move": 6,
+   "all_sentences": 13
+  },
+  {
+   "word": "held",
+   "lift": 2.31,
+   "sentences_with_move": 7,
+   "all_sentences": 16
+  },
+  {
+   "word": "well",
+   "lift": 2.26,
+   "sentences_with_move": 9,
+   "all_sentences": 21
+  },
+  {
+   "word": "spx",
+   "lift": 2.24,
+   "sentences_with_move": 14,
+   "all_sentences": 33
+  },
+  {
+   "word": "had",
+   "lift": 2.16,
+   "sentences_with_move": 9,
+   "all_sentences": 22
+  },
+  {
+   "word": "break",
+   "lift": 1.86,
+   "sentences_with_move": 6,
+   "all_sentences": 17
+  },
+  {
+   "word": "i'm",
+   "lift": 1.86,
+   "sentences_with_move": 6,
+   "all_sentences": 17
+  },
+  {
+   "word": "spy",
+   "lift": 1.82,
+   "sentences_with_move": 20,
+   "all_sentences": 58
+  },
+  {
+   "word": "support",
+   "lift": 1.81,
+   "sentences_with_move": 12,
+   "all_sentences": 35
+  },
+  {
+   "word": "more",
+   "lift": 1.76,
+   "sentences_with_move": 7,
+   "all_sentences": 21
+  },
+  {
+   "word": "trade",
+   "lift": 1.69,
+   "sentences_with_move": 8,
+   "all_sentences": 25
+  },
+  {
+   "word": "moved",
+   "lift": 1.61,
+   "sentences_with_move": 7,
+   "all_sentences": 23
+  },
+  {
+   "word": "say",
+   "lift": 1.58,
+   "sentences_with_move": 6,
+   "all_sentences": 20
+  },
+  {
+   "word": "nice",
+   "lift": 1.51,
+   "sentences_with_move": 8,
+   "all_sentences": 28
+  },
+  {
+   "word": "let's",
+   "lift": 1.48,
+   "sentences_with_move": 19,
+   "all_sentences": 68
+  },
+  {
+   "word": "little",
+   "lift": 1.48,
+   "sentences_with_move": 9,
+   "all_sentences": 32
+  },
+  {
+   "word": "primary",
+   "lift": 1.46,
+   "sentences_with_move": 38,
+   "all_sentences": 137
+  },
+  {
+   "word": "above",
+   "lift": 1.43,
+   "sentences_with_move": 10,
+   "all_sentences": 37
+  },
+  {
+   "word": "we're",
+   "lift": 1.32,
+   "sentences_with_move": 11,
+   "all_sentences": 44
+  },
+  {
+   "word": "hold",
+   "lift": 1.32,
+   "sentences_with_move": 11,
+   "all_sentences": 44
+  },
+  {
+   "word": "because",
+   "lift": 1.32,
+   "sentences_with_move": 8,
+   "all_sentences": 32
+  }
+ ],
+ "zoom_out_words_by_lift": [
+  {
+   "word": "downside",
+   "lift": 2.75,
+   "sentences_with_move": 5,
+   "all_sentences": 10
+  },
+  {
+   "word": "might",
+   "lift": 2.5,
+   "sentences_with_move": 5,
+   "all_sentences": 11
+  },
+  {
+   "word": "million",
+   "lift": 1.96,
+   "sentences_with_move": 5,
+   "all_sentences": 14
+  },
+  {
+   "word": "target",
+   "lift": 1.96,
+   "sentences_with_move": 5,
+   "all_sentences": 14
+  },
+  {
+   "word": "i'm",
+   "lift": 1.94,
+   "sentences_with_move": 6,
+   "all_sentences": 17
+  },
+  {
+   "word": "upside",
+   "lift": 1.9,
+   "sentences_with_move": 9,
+   "all_sentences": 26
+  },
+  {
+   "word": "spy",
+   "lift": 1.8,
+   "sentences_with_move": 19,
+   "all_sentences": 58
+  },
+  {
+   "word": "had",
+   "lift": 1.75,
+   "sentences_with_move": 7,
+   "all_sentences": 22
+  },
+  {
+   "word": "support",
+   "lift": 1.73,
+   "sentences_with_move": 11,
+   "all_sentences": 35
+  },
+  {
+   "word": "trade",
+   "lift": 1.54,
+   "sentences_with_move": 7,
+   "all_sentences": 25
+  },
+  {
+   "word": "trapdoor",
+   "lift": 1.48,
+   "sentences_with_move": 7,
+   "all_sentences": 26
+  },
+  {
+   "word": "have",
+   "lift": 1.48,
+   "sentences_with_move": 25,
+   "all_sentences": 93
+  },
+  {
+   "word": "above",
+   "lift": 1.48,
+   "sentences_with_move": 10,
+   "all_sentences": 37
+  },
+  {
+   "word": "we're",
+   "lift": 1.37,
+   "sentences_with_move": 11,
+   "all_sentences": 44
+  },
+  {
+   "word": "setup",
+   "lift": 1.37,
+   "sentences_with_move": 5,
+   "all_sentences": 20
+  },
+  {
+   "word": "primary",
+   "lift": 1.28,
+   "sentences_with_move": 32,
+   "all_sentences": 137
+  },
+  {
+   "word": "below",
+   "lift": 1.27,
+   "sentences_with_move": 6,
+   "all_sentences": 26
+  },
+  {
+   "word": "that's",
+   "lift": 1.24,
+   "sentences_with_move": 7,
+   "all_sentences": 31
+  },
+  {
+   "word": "negative",
+   "lift": 1.22,
+   "sentences_with_move": 6,
+   "all_sentences": 27
+  },
+  {
+   "word": "back",
+   "lift": 1.22,
+   "sentences_with_move": 6,
+   "all_sentences": 27
+  }
+ ],
+ "on_screen_words": {
+  "zoom-in": {
+   "primary": 15,
+   "let's": 9,
+   "yuu": 7,
+   "see": 6,
+   "have": 5,
+   "gamma": 5,
+   "hold": 5,
+   "spx": 5,
+   "once": 4,
+   "look": 4,
+   "positive": 4,
+   "guess": 4,
+   "say": 4,
+   "break": 3,
+   "value": 3,
+   "nuw": 3,
+   "725": 3,
+   "eel": 3,
+   "ais": 3,
+   "support": 3,
+   "notice": 3,
+   "chart": 3,
+   "tre": 3,
+   "wanna": 3,
+   "below": 2
+  },
+  "zoom-out": {
+   "primary": 17,
+   "have": 8,
+   "let's": 5,
+   "q's": 5,
+   "trade": 5,
+   "see": 4,
+   "spy": 3,
+   "setup": 3,
+   "same": 3,
+   "mure": 3,
+   "we're": 3,
+   "negative": 3,
+   "you're": 3,
+   "nige": 3,
+   "that's": 3,
+   "here's": 2,
+   "look": 2,
+   "wanna": 2,
+   "gunna": 2,
+   "take": 2,
+   "gone": 2,
+   "anu": 2,
+   "hold": 2,
+   "725": 2,
+   "inorder": 2
+  },
+  "pan": {
+   "primary": 11,
+   "intu": 5,
+   "wehad": 4,
+   "come": 4,
+   "let's": 4,
+   "anu": 4,
+   "positive": 3,
+   "negative": 3,
+   "alou": 3,
+   "vuiu": 3,
+   "had": 3,
+   "weaker": 3,
+   "game": 3,
+   "used": 2,
+   "we've": 2,
+   "already": 2,
+   "trap": 2,
+   "door": 2,
+   "regime": 2,
+   "pushtive": 2,
+   "puottive": 2,
+   "move": 2,
+   "nice": 2,
+   "itcame": 2,
+   "fall": 2
+  }
+ },
+ "speaking_time_share": {
+  "Chuy": 0.98,
+  "Noreniel Barreiro": 0.01,
+  "Max Gumowitz": 0.01,
+  "Nore": 0.0,
+  "Shadowhand": 0.0
+ },
+ "examples": {
+  "zoom-in": [
+   {
+    "clip": "2026-10-19-webinar-part1",
+    "t": 11.2,
+    "ratio": 1.5,
+    "on_screen": "ONCE WE GET UP HERE.",
+    "cue": "It helps our lungs, but then guess what? Once we get up here."
+   },
+   {
+    "clip": "2026-10-19-webinar-part14",
+    "t": 21.9,
+    "ratio": 1.338,
+    "on_screen": "TRIS LEVEL UISoIPATEU, ANU",
+    "cue": "Let's go look at another ticker. Let's say\u2026 Let's go look at\u2026 let's say Meta."
+   },
+   {
+    "clip": "2026-10-19-webinar-part7",
+    "t": 15.4,
+    "ratio": 1.409,
+    "on_screen": "KEEP IN MIND. SO FAR THAT",
+    "cue": "Now, one thing we have to keep in mind, so far, that primary on SPX is holding 7,700."
+   },
+   {
+    "clip": "2026-10-21-halloween-spx-flips-the-trap-door-into-a-launch-pad",
+    "t": 8.4,
+    "ratio": 1.664,
+    "on_screen": "SOFIRST LET'S GO WITH THE SHORTS.",
+    "cue": "the nice setup today. There's actually two. One of our members spotted a short that I saw. So, first let's go with the\u2026"
+   },
+   {
+    "clip": "2026-10-21-webinar-part3",
+    "t": 21.4,
+    "ratio": 1.562,
+    "on_screen": "WEHELD770.",
+    "cue": "This is diminishing."
+   },
+   {
+    "clip": "2026-10-22-halloween-spx-drops-through-the-trap-door",
+    "t": 26.8,
+    "ratio": 1.509,
+    "on_screen": "CLEARLY ON THE CHART FOR YOU.",
+    "cue": "Put this clearly, on the chart for you."
+   },
+   {
+    "clip": "2026-10-22-halloween-spy-and-qqq-roll-the-primary-down",
+    "t": 36.8,
+    "ratio": 1.463,
+    "on_screen": "BELOW THAT STRONG M2 AT 76.45.",
+    "cue": "And then what you really want to see if you're a bear is you want to hold below that strong M2 at 76.45."
+   },
+   {
+    "clip": "2026-10-22-webinar-part6",
+    "t": 12.6,
+    "ratio": 1.515,
+    "on_screen": "BUT RIGHT NOW IT'S JUST KIND",
+    "cue": "But right now, it's just kind of battling between 764 and 760."
+   },
+   {
+    "clip": "2026-10-26-webinar-part5",
+    "t": 37.2,
+    "ratio": 1.442,
+    "on_screen": "THIS RESISTANCE IS GETTING",
+    "cue": "This resistance is getting weaker, this resistance is getting weaker."
+   },
+   {
+    "clip": "2026-10-27-webinar-part1",
+    "t": 13.1,
+    "ratio": 1.387,
+    "on_screen": "ACHANGE OF THE UPSIDE, BUT UNTIL",
+    "cue": "No, okay? It's\u2026 it's showing that there is potentially a change of the upside, but until that primary moves up again, that to me isn't a change of trend, okay?"
+   },
+   {
+    "clip": "2026-10-27-webinar-part3",
+    "t": 41.7,
+    "ratio": 1.447,
+    "on_screen": "WE DO HAVE A LAUNCH",
+    "cue": "We do have a launch pad on SPX as well. We have positive, positive, And the negative above us."
+   },
+   {
+    "clip": "2026-10-27-webinar-part9",
+    "t": 20.8,
+    "ratio": 1.423,
+    "on_screen": "LIKE HERE WE WERE BULLISH TO 7750.",
+    "cue": "Right? Like, here, we were bullish to 7750. It looks like $7,700 is taking primary. We must change that narrative."
+   }
+  ],
+  "zoom-out": [
+   {
+    "clip": "2026-10-19-webinar-part1",
+    "t": 8.9,
+    "ratio": 0.681,
+    "on_screen": "AND HERE'S THE",
+    "cue": "And here's the launch pad setup playing out."
+   },
+   {
+    "clip": "2026-10-19-webinar-part14",
+    "t": 4.6,
+    "ratio": 0.654,
+    "on_screen": "INFURMATIUN TELLING Us WE",
+    "cue": "Because we have more information telling us we were trending up."
+   },
+   {
+    "clip": "2026-10-19-webinar-part7",
+    "t": 8.6,
+    "ratio": 0.633,
+    "on_screen": "PRIMARIES ARE ROLLING UP",
+    "cue": "Primaries are rolling up on SPY."
+   },
+   {
+    "clip": "2026-10-21-halloween-spx-and-qqq-watch-for-a-primary-roll-up",
+    "t": 18.9,
+    "ratio": 0.632,
+    "on_screen": "PLL STILL BE BULLISH .",
+    "cue": "But then we'll be in a buy-the-dip regime."
+   },
+   {
+    "clip": "2026-10-21-webinar-part5",
+    "t": 6.3,
+    "ratio": 0.693,
+    "on_screen": "THERE'S THAT PRIMARY SHIFT, 775.",
+    "cue": "This is quite clear, there's that primary shift, 775, let's\u2026 let's have that hold."
+   },
+   {
+    "clip": "2026-10-22-halloween-spx-drops-through-the-trap-door",
+    "t": 69.7,
+    "ratio": 0.871,
+    "on_screen": "UP TU b0U IN Tits LAUNGHFAU Y SECTION,",
+    "cue": "once we get into this area, you want to look at the values, right? What's M1? What's primary? M1's pretty close to turning into primary. So, as soon as that M1, or that primary moves up to 7680,"
+   },
+   {
+    "clip": "2026-10-22-webinar-part1",
+    "t": 31.2,
+    "ratio": 0.665,
+    "on_screen": "AND SHOUT OUT",
+    "cue": "And shout out to, one of our traders yesterday was on\u2026 was number one trader on Loose's leaderboard. I think he cleared out 40K."
+   },
+   {
+    "clip": "2026-10-26-webinar-part1",
+    "t": 33.4,
+    "ratio": 0.646,
+    "on_screen": "SO THAT WAS A NICE CLEAR TRADE FOR",
+    "cue": "And then I was just kind of taking them for profit. The last one was a nice hold, simply because we had that primary move where it came down for a second on SPY, but then it moved back up. So that was a nice, clear trade for me to hold."
+   },
+   {
+    "clip": "2026-10-26-webinar-part8",
+    "t": 7.9,
+    "ratio": 0.567,
+    "on_screen": "senncnenaoaoaneeneues",
+    "cue": "Can 7720 take the primary? We're about to find out."
+   },
+   {
+    "clip": "2026-10-27-webinar-part11",
+    "t": 20.9,
+    "ratio": 0.857,
+    "on_screen": "IF THIS PRIMARY",
+    "cue": "If this primary reduces in value, you might want to think downside down to $77.20."
+   },
+   {
+    "clip": "2026-10-27-webinar-part4",
+    "t": 4.8,
+    "ratio": 0.628,
+    "on_screen": "",
+    "cue": "Look at this, was at $400 million, it's dropped at $350, let's see it keep dropping for some upside."
+   },
+   {
+    "clip": "2026-10-28-webinar-part1",
+    "t": 48.3,
+    "ratio": 0.595,
+    "on_screen": "DOWN HERE",
+    "cue": "Lot of resistance, not a lot of support until kind of this area down here at 767."
+   }
+  ],
+  "pan": [
+   {
+    "clip": "2026-10-19-webinar-part12",
+    "t": 20.7,
+    "ratio": 1.001,
+    "on_screen": "I'D LIKE To",
+    "cue": "The down move happened the moment our ceiling got stronger."
+   },
+   {
+    "clip": "2026-10-19-webinar-part4",
+    "t": 18.2,
+    "ratio": 1.078,
+    "on_screen": "VERSUS THE TRADE HERE",
+    "cue": "Right? Versus the\u2026 the trade here."
+   },
+   {
+    "clip": "2026-10-21-halloween-spx-flips-the-trap-door-into-a-launch-pad",
+    "t": 20.0,
+    "ratio": 0.95,
+    "on_screen": "WEHAD",
+    "cue": "into a negative regime, negative gamma here, so that was a nice move down, and then it came right down to our launch pad setup. We had positive, positive, positive, negative, negative nodes to the upside. So what does that tell us? It's the same setup, it's just inversed."
+   },
+   {
+    "clip": "2026-10-21-halloween-spy-and-qqq-hold-primary-support",
+    "t": 6.5,
+    "ratio": 0.993,
+    "on_screen": "WERE ALOU",
+    "cue": "two kind of, alerts to give you conviction, right? We have that set up here into that negative void. We're also holding this primary support. Again, primary is where you want to take trades off of, okay?"
+   },
+   {
+    "clip": "2026-10-21-webinar-part1",
+    "t": 32.2,
+    "ratio": 1.033,
+    "on_screen": "WE COME DOWN INTO",
+    "cue": "We come down into positive, positive, into negative."
+   },
+   {
+    "clip": "2026-10-22-halloween-spx-drops-through-the-trap-door",
+    "t": 49.6,
+    "ratio": 1.001,
+    "on_screen": "NEOATIVE VUIU INTU",
+    "cue": "hold, and then we have a launch pad set up, right? Positive, positive, positive. We even have, you know, a nice set of positive."
+   },
+   {
+    "clip": "2026-10-22-webinar-part5",
+    "t": 27.9,
+    "ratio": 1.0,
+    "on_screen": "DAU E NUW LUUR, QUU ALOU MUVED UP",
+    "cue": "primary could potentially move up to 763, that would be a roll-up of the primary on SPY, which would give us continuation of the upside."
+   },
+   {
+    "clip": "2026-10-26-webinar-part5",
+    "t": 49.2,
+    "ratio": 0.926,
+    "on_screen": "UP TO THIS PRIMARY",
+    "cue": "Which doesn't mean we can't move up, but now we would have a nice target once we get up to this primary to give it a short."
+   },
+   {
+    "clip": "2026-10-27-webinar-part11",
+    "t": 7.3,
+    "ratio": 0.91,
+    "on_screen": "REMEMBER I SAID",
+    "cue": "When I marked it earlier, it was at $24 million, it's up 10 million."
+   },
+   {
+    "clip": "2026-10-27-webinar-part3",
+    "t": 16.5,
+    "ratio": 0.939,
+    "on_screen": "HEVUCE IN VALUE AND UBVIUUSLY PRIMARY ROLLING UP",
+    "cue": "If you're a bull, you want to hold over 777.05, and you want this primary to reduce in value."
+   },
+   {
+    "clip": "2026-10-28-webinar-part1",
+    "t": 6.0,
+    "ratio": 1.002,
+    "on_screen": "GAME UUWN IU 0 0, ANU TRENT HELD",
+    "cue": "SPX Primary. Started up here, came down to $76.75, and then it's held $77.15."
+   },
+   {
+    "clip": "2026-10-28-webinar-part2",
+    "t": 38.8,
+    "ratio": 1.032,
+    "on_screen": "THAT 773 TAKES MAJOR TWO.",
+    "cue": "Not a lot. So, my\u2026 my guess would be that 773 takes Major 2."
+   }
+  ]
+ }
+}

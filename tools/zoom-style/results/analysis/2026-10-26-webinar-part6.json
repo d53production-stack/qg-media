@@ -38,6 +38,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -84,6 +85,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 218,
     "share": 0.00026,
@@ -111,6 +113,7 @@
     0.411,
     0.378
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -169,7 +172,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -2.1,
+   "caption_text": "OH, THIS IS INTERESTING.",
+   "transcript": {
+    "recording_t": 3601.25,
+    "cue_i": 431,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Oh, this is interesting.",
+    "into_cue_s": 0.45,
+    "cue_dur": 1.46,
+    "in_gap": false,
+    "prev": "167 and a half.",
+    "next": "We had the primary roll down for the first time."
+   }
   },
   {
    "index": 1,
@@ -182,7 +200,22 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.936,
-   "zoom_ratio": 1.936
+   "zoom_ratio": 1.936,
+   "caption_offset_s": -1.5,
+   "caption_text": "WEHAD",
+   "transcript": {
+    "recording_t": 3601.85,
+    "cue_i": 431,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Oh, this is interesting.",
+    "into_cue_s": 1.05,
+    "cue_dur": 1.46,
+    "in_gap": false,
+    "prev": "167 and a half.",
+    "next": "We had the primary roll down for the first time."
+   }
   },
   {
    "index": 2,
@@ -195,7 +228,22 @@
    "after_hold": 2,
    "zoom_from": 1.936,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.517
+   "zoom_ratio": 0.517,
+   "caption_offset_s": 0.1,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 3604.85,
+    "cue_i": 432,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We had the primary roll down for the first time.",
+    "into_cue_s": 2.41,
+    "cue_dur": 2.68,
+    "in_gap": false,
+    "prev": "Oh, this is interesting.",
+    "next": "on SPX, Am I\u2026 am I flipping my bias entirely? No. Unless it moves down again."
+   }
   },
   {
    "index": 3,
@@ -208,7 +256,22 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": 1.682,
-   "zoom_ratio": 1.682
+   "zoom_ratio": 1.682,
+   "caption_offset_s": 0.7,
+   "caption_text": "LET'S SAY",
+   "transcript": {
+    "recording_t": 3861.35,
+    "cue_i": 459,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Well, if it\u2026 I'll say that, but if that SPX primary moves down, and hold\u2026 let's say it moved down to $76.85,",
+    "into_cue_s": 5.05,
+    "cue_dur": 7.85,
+    "in_gap": false,
+    "prev": "We'll reassess.",
+    "next": "and price still comes up here, oh, then I'm extra short, right? Because now we have a magnet down below."
+   }
   },
   {
    "index": 4,
@@ -221,7 +284,22 @@
    "after_hold": 4,
    "zoom_from": 1.682,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.595
+   "zoom_ratio": 0.595,
+   "caption_offset_s": 0.0,
+   "caption_text": "OUR PRIMARY CONTINUES",
+   "transcript": {
+    "recording_t": 3951.17,
+    "cue_i": 461,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Our primary continues to grow.",
+    "into_cue_s": -0.85,
+    "cue_dur": 2.17,
+    "in_gap": false,
+    "prev": "and price still comes up here, oh, then I'm extra short, right? Because now we have a magnet down below.",
+    "next": "When you guys start getting\u2026"
+   }
   },
   {
    "index": 5,
@@ -234,8 +312,215 @@
    "after_hold": 5,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 3.4,
+   "caption_text": "sennanonooononeeuenes",
+   "transcript": {
+    "recording_t": 3971.96,
+    "cue_i": 464,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "There's some clarity there.",
+    "into_cue_s": 3.3,
+    "cue_dur": 1.45,
+    "in_gap": true,
+    "prev": "twitchy, and you go, oh man, is this gonna be the top? What's going on? Whatever. Look at the values, look at the changes.",
+    "next": "Well, it looks like 7700's kind of clearing out."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.5,
+  3.9,
+  6.8,
+  8.4,
+  9.9,
+  11.6,
+  13.4,
+  14.9,
+  16.7,
+  19.1,
+  20.3,
+  22.8,
+  24.8,
+  26.7,
+  28.3,
+  30.0,
+  32.1,
+  33.7,
+  35.2,
+  37.6,
+  38.6
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 3.2,
+    "t1": 3.2,
+    "offset": 3600.85,
+    "n": 1
+   },
+   {
+    "t0": 7.6,
+    "t1": 7.6,
+    "offset": 3603.32,
+    "n": 1
+   },
+   {
+    "t0": 9.15,
+    "t1": 10.75,
+    "offset": 3776.72,
+    "n": 2
+   },
+   {
+    "t0": 12.5,
+    "t1": 12.5,
+    "offset": 3824.15,
+    "n": 1
+   },
+   {
+    "t0": 14.15,
+    "t1": 15.8,
+    "offset": 3826.19,
+    "n": 2
+   },
+   {
+    "t0": 17.9,
+    "t1": 17.9,
+    "offset": 3831.36,
+    "n": 1
+   },
+   {
+    "t0": 21.55,
+    "t1": 25.75,
+    "offset": 3840.35,
+    "n": 3
+   },
+   {
+    "t0": 29.15,
+    "t1": 29.15,
+    "offset": 3922.87,
+    "n": 1
+   },
+   {
+    "t0": 31.05,
+    "t1": 38.1,
+    "offset": 3929.96,
+    "n": 4
+   }
+  ],
+  "matched": 16,
+  "used": 16,
+  "captions": 22,
+  "share": 1.0,
+  "cues": [
+   431,
+   432,
+   433,
+   443,
+   444,
+   455,
+   456,
+   457,
+   459,
+   460,
+   461,
+   462,
+   463,
+   464
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.25,
+   "text": "WEHAD THE"
+  },
+  {
+   "t": 3.2,
+   "text": "FOR THE FIRST TIME ON SPX."
+  },
+  {
+   "t": 5.35,
+   "text": "ANI, AMI FLIPPING MY BIAS ENTIRELY"
+  },
+  {
+   "t": 7.6,
+   "text": "NO, UNLESS IT MOVES DOWN AGAIN"
+  },
+  {
+   "t": 9.15,
+   "text": "THOSE ARE TWO TRAP DOORS, HUH"
+  },
+  {
+   "t": 10.75,
+   "text": "THUSE ARE TWU TRAP UUUHS, BROTHER."
+  },
+  {
+   "t": 12.5,
+   "text": "RIGHT NOW, ARE WE BEARISH"
+  },
+  {
+   "t": 14.15,
+   "text": "WE WANT THAT TOUCH."
+  },
+  {
+   "t": 15.8,
+   "text": "WE WANT THAT ENTRY UF THAT TRAPDOOR"
+  },
+  {
+   "t": 17.9,
+   "text": "TF THAT OPA PRIMARY MUVES DUWN ONCE MORE."
+  },
+  {
+   "t": 19.7,
+   "text": "IT'S A DIFFERENT STORY."
+  },
+  {
+   "t": 21.55,
+   "text": "LET'S SAY IT MOVED DOWN TO"
+  },
+  {
+   "t": 23.8,
+   "text": "060 AND PRIGE STILL GUMES UP HERE,"
+  },
+  {
+   "t": 25.75,
+   "text": "OH. THEN I'M EXTRA SHORT, RIGHT"
+  },
+  {
+   "t": 27.5,
+   "text": "GAUSE NUW WE HAVE A WIAGNET DOWN BELOW"
+  },
+  {
+   "t": 29.15,
+   "text": "OUR PRIMARY CONTINUES TO GROW"
+  },
+  {
+   "t": 31.05,
+   "text": "WHEN YUU GUYS OTART GETTING TWITCHY AND YOU GO,"
+  },
+  {
+   "t": 32.9,
+   "text": "0H MAN. IS THIS GONNA BE THE"
+  },
+  {
+   "t": 34.45,
+   "text": "TOP WHAT'S GOING ON WHATEVER,"
+  },
+  {
+   "t": 36.4,
+   "text": "LUUK Al THE VALUES, LUUR Al THE CHANGES."
+  },
+  {
+   "t": 38.1,
+   "text": "THERE'S SOME CLARITY THERE"
+  },
+  {
+   "t": 42.25,
+   "text": "sennanonooononeeuenes"
+  }
+ ]
 }

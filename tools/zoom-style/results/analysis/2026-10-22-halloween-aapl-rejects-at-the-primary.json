@@ -49,6 +49,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -68,6 +69,7 @@
     -0.076,
     0.595
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -148,7 +150,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -3.1,
+   "caption_text": "I'M PERSONALLY I'M A",
+   "transcript": {
+    "recording_t": 1631.93,
+    "cue_i": 147,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "I'm an old dog, so I like\u2026 I really don't like to change what works for me, if I find something that works.",
+    "into_cue_s": 1.5,
+    "cue_dur": 6.87,
+    "in_gap": false,
+    "prev": "Nope. I'm, I'm personally, I'm a\u2026",
+    "next": "But we have definitely taken advantage of the individual tickers."
+   }
   },
   {
    "index": 1,
@@ -161,7 +178,22 @@
    "after_hold": 1,
    "zoom_from": null,
    "zoom_to": 1.001,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -2.7,
+   "caption_text": "I'M PERSONALLY I'M A",
+   "transcript": {
+    "recording_t": 1632.33,
+    "cue_i": 147,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "I'm an old dog, so I like\u2026 I really don't like to change what works for me, if I find something that works.",
+    "into_cue_s": 1.9,
+    "cue_dur": 6.87,
+    "in_gap": false,
+    "prev": "Nope. I'm, I'm personally, I'm a\u2026",
+    "next": "But we have definitely taken advantage of the individual tickers."
+   }
   },
   {
    "index": 2,
@@ -174,7 +206,22 @@
    "after_hold": 2,
    "zoom_from": 1.001,
    "zoom_to": 0.975,
-   "zoom_ratio": 0.974
+   "zoom_ratio": 0.974,
+   "caption_offset_s": 0.5,
+   "caption_text": "ADVANTAGE UF THE INDIVIDUAL TICKERS.",
+   "transcript": {
+    "recording_t": 1640.23,
+    "cue_i": 148,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "But we have definitely taken advantage of the individual tickers.",
+    "into_cue_s": 1.64,
+    "cue_dur": 4.57,
+    "in_gap": false,
+    "prev": "I'm an old dog, so I like\u2026 I really don't like to change what works for me, if I find something that works.",
+    "next": "So, like, if we look at Apple, Apple yesterday was beautiful."
+   }
   },
   {
    "index": 3,
@@ -187,7 +234,22 @@
    "after_hold": 3,
    "zoom_from": 0.975,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0,
+   "caption_text": "$0. LIKE. IF",
+   "transcript": {
+    "recording_t": 1641.83,
+    "cue_i": 148,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "But we have definitely taken advantage of the individual tickers.",
+    "into_cue_s": 3.24,
+    "cue_dur": 4.57,
+    "in_gap": false,
+    "prev": "I'm an old dog, so I like\u2026 I really don't like to change what works for me, if I find something that works.",
+    "next": "So, like, if we look at Apple, Apple yesterday was beautiful."
+   }
   },
   {
    "index": 4,
@@ -200,7 +262,22 @@
    "after_hold": 4,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.6,
+   "caption_text": "AT APPLE YESTERDAY WAS BEAUTIFUL",
+   "transcript": {
+    "recording_t": 1644.13,
+    "cue_i": 149,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "So, like, if we look at Apple, Apple yesterday was beautiful.",
+    "into_cue_s": 0.75,
+    "cue_dur": 3.76,
+    "in_gap": false,
+    "prev": "But we have definitely taken advantage of the individual tickers.",
+    "next": "Oh, I guess I can't show you the, what happened yesterday yet, but we had\u2026 look at this primary rejection down."
+   }
   },
   {
    "index": 5,
@@ -213,7 +290,22 @@
    "after_hold": 5,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -0.2,
+   "caption_text": "ee TERA GURE TES. TURES eeu iy",
+   "transcript": {
+    "recording_t": 1680.14,
+    "cue_i": 154,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "So, I mean, I've been taking advantage of that for sure.",
+    "into_cue_s": 0.36,
+    "cue_dur": 3.03,
+    "in_gap": false,
+    "prev": "Positive, got sucked up to primary, just an easy trade, and then a nice primary rejection, if you wanted to take both sides.",
+    "next": "I have another question, maybe, if I could."
+   }
   },
   {
    "index": 6,
@@ -226,8 +318,124 @@
    "after_hold": 6,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.3,
+   "caption_text": "sennanenaoananaeneues",
+   "transcript": {
+    "recording_t": 1680.64,
+    "cue_i": 154,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "So, I mean, I've been taking advantage of that for sure.",
+    "into_cue_s": 0.86,
+    "cue_dur": 3.03,
+    "in_gap": false,
+    "prev": "Positive, got sucked up to primary, just an easy trade, and then a nice primary rejection, if you wanted to take both sides.",
+    "next": "I have another question, maybe, if I could."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  3.2,
+  4.5,
+  5.8,
+  7.9,
+  10.0,
+  11.7,
+  13.3,
+  15.6,
+  17.4,
+  19.1,
+  20.8,
+  21.9,
+  23.6
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 3.85,
+    "t1": 12.5,
+    "offset": 1631.83,
+    "n": 6
+   },
+   {
+    "t0": 14.45,
+    "t1": 22.75,
+    "offset": 1656.74,
+    "n": 4
+   }
+  ],
+  "matched": 10,
+  "used": 10,
+  "captions": 13,
+  "share": 1.0,
+  "cues": [
+   147,
+   148,
+   149,
+   153,
+   154
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.6,
+   "text": "FM AN OLD DUG, oU TREALLY DUN LIKE"
+  },
+  {
+   "t": 3.85,
+   "text": "TO CHANGE WHAT WORKS FOR ME"
+  },
+  {
+   "t": 5.15,
+   "text": "IF LFIND SOMETHING THAT WORKS."
+  },
+  {
+   "t": 6.85,
+   "text": "BUT WE HAVE DEFINITELY TAKEN"
+  },
+  {
+   "t": 8.95,
+   "text": "ADVANTAGE UF THE INDIVIDUAL TICKERS."
+  },
+  {
+   "t": 10.85,
+   "text": "$0. LIKE. IF WE LOOK"
+  },
+  {
+   "t": 12.5,
+   "text": "AT APPLE YESTERDAY WAS BEAUTIFUL"
+  },
+  {
+   "t": 14.45,
+   "text": "POSITIVE. GOT SUCKED UP TO PRIMARY."
+  },
+  {
+   "t": 16.5,
+   "text": "JUSTAN EASY TRADEAND"
+  },
+  {
+   "t": 18.25,
+   "text": "THEN ANICE PRIMARY REJECTION IF"
+  },
+  {
+   "t": 19.95,
+   "text": "YOU WANTED TO TAKE BOTH SIDES."
+  },
+  {
+   "t": 21.35,
+   "text": "$01 MEAN. I'VE"
+  },
+  {
+   "t": 22.75,
+   "text": "EVE BEEN TAKING ADVANTAGE UF IAT FOR SURE IT'S"
+  },
+  {
+   "t": 25.71,
+   "text": ""
+  }
+ ]
 }

@@ -61,7 +61,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.9,
+   "caption_text": "SO ONE OF OUR TRADERS. HE'S A HE'S",
+   "transcript": {
+    "recording_t": 4476.81,
+    "cue_i": 578,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Oh, yeah, so one of our traders, he's a, he's a live trader for a prop firm, Lucid. He's currently the number one trader ever on their live accounts, so\u2026 I mean, he's been on fire this week. He's a big QuantGeeks fan.",
+    "into_cue_s": 0.89,
+    "cue_dur": 14.34,
+    "in_gap": false,
+    "prev": "Oh, tell me about that leaderboard!",
+    "next": "You can see on our Twitter, we're keeping track of his leaderboard."
+   }
   },
   {
    "index": 1,
@@ -74,8 +89,119 @@
    "after_hold": 1,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "Sennanananananeoueues",
+   "transcript": {
+    "recording_t": 4502.83,
+    "cue_i": 581,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Definitely, good on him.",
+    "into_cue_s": 1.12,
+    "cue_dur": 1.83,
+    "in_gap": false,
+    "prev": "We don't want to jinx him, but he, you know, he's\u2026 I think he's up $70K on the week, so\u2026",
+    "next": "I, I, I'm\u2026"
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.4,
+  4.8,
+  6.7,
+  8.9,
+  10.6,
+  11.8,
+  13.5,
+  15.0,
+  16.2,
+  17.7,
+  19.2
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 1.2,
+    "t1": 9.75,
+    "offset": 4476.31,
+    "n": 4
+   },
+   {
+    "t0": 12.65,
+    "t1": 15.6,
+    "offset": 4480.53,
+    "n": 2
+   },
+   {
+    "t0": 16.95,
+    "t1": 18.45,
+    "offset": 4482.93,
+    "n": 2
+   }
+  ],
+  "matched": 8,
+  "used": 8,
+  "captions": 11,
+  "share": 1.0,
+  "cues": [
+   578,
+   579,
+   580,
+   581
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.2,
+   "text": "SO ONE OF OUR TRADERS. HE'S A HE'S"
+  },
+  {
+   "t": 3.6,
+   "text": "ALIVE RAUER FUR A PAUP FInM, LUCID."
+  },
+  {
+   "t": 5.75,
+   "text": "HE GURRENTLY THE NUMBER UNE TRADER"
+  },
+  {
+   "t": 7.8,
+   "text": "EVER ON THEIR LIVE ACCOUNTS, SO"
+  },
+  {
+   "t": 9.75,
+   "text": "MEAN, HE'S BEEN ON FIRE THIS WEEK."
+  },
+  {
+   "t": 11.2,
+   "text": "HE'S A BIG QUANT GEEKS FAN."
+  },
+  {
+   "t": 12.65,
+   "text": "YOU CAN SEE ON OUR TWITTER WE'RE,"
+  },
+  {
+   "t": 14.25,
+   "text": "WE AE KEEPING TRALK UF Hild LEADERBOARD."
+  },
+  {
+   "t": 15.6,
+   "text": "WE DON'T WANNA JINX HIM, BUT,"
+  },
+  {
+   "t": 16.95,
+   "text": "THINK HE'S UP 70K ON THE WEEK,"
+  },
+  {
+   "t": 18.45,
+   "text": "$0 DEFINITELY GOOD ON HIM."
+  },
+  {
+   "t": 21.52,
+   "text": ""
+  }
+ ]
 }

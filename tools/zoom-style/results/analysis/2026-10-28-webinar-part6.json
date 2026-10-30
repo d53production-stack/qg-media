@@ -38,6 +38,7 @@
     0.504,
     0.498
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -165,6 +166,7 @@
     0.685,
     0.34
    ],
+   "direct": true,
    "ink": {
     "px": 1938,
     "share": 0.00227,
@@ -192,6 +194,7 @@
     0.667,
     0.541
    ],
+   "direct": true,
    "ink": {
     "px": 878,
     "share": 0.00103,
@@ -250,7 +253,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.002,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -2.9,
+   "caption_text": "DU YUU GUYS OEE HUW WE RE TILL PINNING",
+   "transcript": {
+    "recording_t": 3063.51,
+    "cue_i": 445,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Do you guys see how we're still pinning?",
+    "into_cue_s": 10.03,
+    "cue_dur": 1.63,
+    "in_gap": true,
+    "prev": "Perfect, thank you.",
+    "next": "Now, if I were to ask you, is that 7715? Likely. No, not in my mind. Why? Because we have too much support here on SPY."
+   }
   },
   {
    "index": 1,
@@ -263,7 +281,22 @@
    "after_hold": 1,
    "zoom_from": 1.002,
    "zoom_to": 1.727,
-   "zoom_ratio": 1.724
+   "zoom_ratio": 1.724,
+   "caption_offset_s": -0.7,
+   "caption_text": "NOW. IF WERE TO ASK YOU.",
+   "transcript": {
+    "recording_t": 3065.71,
+    "cue_i": 446,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Now, if I were to ask you, is that 7715? Likely. No, not in my mind. Why? Because we have too much support here on SPY.",
+    "into_cue_s": 1.0,
+    "cue_dur": 8.72,
+    "in_gap": false,
+    "prev": "Do you guys see how we're still pinning?",
+    "next": "Mark has a question, positive equals brakes, negative equals gas, it's the other way around, Mark."
+   }
   },
   {
    "index": 2,
@@ -276,7 +309,22 @@
    "after_hold": 2,
    "zoom_from": 1.727,
    "zoom_to": 1.29,
-   "zoom_ratio": 0.747
+   "zoom_ratio": 0.747,
+   "caption_offset_s": -0.5,
+   "caption_text": "NO.NOTINMY MIND.",
+   "transcript": {
+    "recording_t": 3068.81,
+    "cue_i": 446,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Now, if I were to ask you, is that 7715? Likely. No, not in my mind. Why? Because we have too much support here on SPY.",
+    "into_cue_s": 4.1,
+    "cue_dur": 8.72,
+    "in_gap": false,
+    "prev": "Do you guys see how we're still pinning?",
+    "next": "Mark has a question, positive equals brakes, negative equals gas, it's the other way around, Mark."
+   }
   },
   {
    "index": 3,
@@ -289,7 +337,22 @@
    "after_hold": 3,
    "zoom_from": 1.29,
    "zoom_to": 1.632,
-   "zoom_ratio": 1.265
+   "zoom_ratio": 1.265,
+   "caption_offset_s": 0.4,
+   "caption_text": "SPY O QUHTE INTERESTING TU SEE ALL",
+   "transcript": {
+    "recording_t": 3195.88,
+    "cue_i": 457,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "It's quite interesting to see all the strikes, or all the major and primary on SPX, be quite close, and\u2026",
+    "into_cue_s": -0.46,
+    "cue_dur": 5.11,
+    "in_gap": false,
+    "prev": "Decent support, not a ton of resistance immediately.",
+    "next": "you know, value."
+   }
   },
   {
    "index": 4,
@@ -302,7 +365,22 @@
    "after_hold": 4,
    "zoom_from": 1.632,
    "zoom_to": 1.476,
-   "zoom_ratio": 0.904
+   "zoom_ratio": 0.904,
+   "caption_offset_s": -0.8,
+   "caption_text": "ONSPX BE QUITE CLOSE IN VALUE",
+   "transcript": {
+    "recording_t": 3200.98,
+    "cue_i": 457,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "It's quite interesting to see all the strikes, or all the major and primary on SPX, be quite close, and\u2026",
+    "into_cue_s": 4.64,
+    "cue_dur": 5.11,
+    "in_gap": false,
+    "prev": "Decent support, not a ton of resistance immediately.",
+    "next": "you know, value."
+   }
   },
   {
    "index": 5,
@@ -315,7 +393,22 @@
    "after_hold": 5,
    "zoom_from": 1.476,
    "zoom_to": 1.46,
-   "zoom_ratio": 0.989
+   "zoom_ratio": 0.989,
+   "caption_offset_s": 0.1,
+   "caption_text": "SOME GROWTH HERE",
+   "transcript": {
+    "recording_t": 3249.27,
+    "cue_i": 459,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Some growth here at 729.",
+    "into_cue_s": 0.9,
+    "cue_dur": 2.16,
+    "in_gap": false,
+    "prev": "you know, value.",
+    "next": "Some growth here at 777."
+   }
   },
   {
    "index": 6,
@@ -328,7 +421,22 @@
    "after_hold": 6,
    "zoom_from": 1.46,
    "zoom_to": 1.455,
-   "zoom_ratio": 0.997
+   "zoom_ratio": 0.997,
+   "caption_offset_s": -0.5,
+   "caption_text": "WE SHOULD UNCLENCH AS LONG",
+   "transcript": {
+    "recording_t": 3272.49,
+    "cue_i": 461,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We shouldn't clench.",
+    "into_cue_s": 0.47,
+    "cue_dur": 1.39,
+    "in_gap": false,
+    "prev": "Some growth here at 777.",
+    "next": "As long as this continues to drop."
+   }
   },
   {
    "index": 7,
@@ -341,7 +449,22 @@
    "after_hold": 7,
    "zoom_from": 1.455,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.687
+   "zoom_ratio": 0.687,
+   "caption_offset_s": 1.7,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 3275.89,
+    "cue_i": 462,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "As long as this continues to drop.",
+    "into_cue_s": 2.3,
+    "cue_dur": 1.76,
+    "in_gap": true,
+    "prev": "We shouldn't clench.",
+    "next": "Growing again."
+   }
   },
   {
    "index": 8,
@@ -354,8 +477,134 @@
    "after_hold": 8,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 8.3,
+   "caption_text": "sennanoooooooneouenes",
+   "transcript": {
+    "recording_t": 3282.49,
+    "cue_i": 462,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "As long as this continues to drop.",
+    "into_cue_s": 8.9,
+    "cue_dur": 1.76,
+    "in_gap": true,
+    "prev": "We shouldn't clench.",
+    "next": "Growing again."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  3.4,
+  4.6,
+  6.3,
+  8.3,
+  9.6,
+  12.3,
+  14.6,
+  16.2,
+  18.0,
+  19.3,
+  20.5
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 1.7,
+    "t1": 5.45,
+    "offset": 3063.01,
+    "n": 3
+   },
+   {
+    "t0": 8.95,
+    "t1": 13.45,
+    "offset": 3187.18,
+    "n": 3
+   },
+   {
+    "t0": 15.4,
+    "t1": 15.4,
+    "offset": 3232.97,
+    "n": 1
+   },
+   {
+    "t0": 17.1,
+    "t1": 17.1,
+    "offset": 3237.68,
+    "n": 1
+   },
+   {
+    "t0": 19.9,
+    "t1": 19.9,
+    "offset": 3253.69,
+    "n": 1
+   }
+  ],
+  "matched": 10,
+  "used": 9,
+  "captions": 11,
+  "share": 0.9,
+  "cues": [
+   446,
+   457,
+   458,
+   459,
+   460,
+   461,
+   462
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.7,
+   "text": "NOW. IF WERE TO ASK YOU."
+  },
+  {
+   "t": 4.0,
+   "text": "IS THAT 7715 LIKELY"
+  },
+  {
+   "t": 5.45,
+   "text": "NO, NOT IN MY MIND."
+  },
+  {
+   "t": 7.3,
+   "text": "DELAUSE WE RAVE IUU MUG SUPPORT HERE ON"
+  },
+  {
+   "t": 8.95,
+   "text": "OPT O QUTTE INTERESTING TU SEE ALL"
+  },
+  {
+   "t": 10.95,
+   "text": "TRE oTRIKES Uh ALL TA MAJUR AND PRIMARY"
+  },
+  {
+   "t": 13.45,
+   "text": "ONSPX BE QUITE CLOSE IN VALUE"
+  },
+  {
+   "t": 15.4,
+   "text": "SOME GROWTH HERE AT 729"
+  },
+  {
+   "t": 17.1,
+   "text": "SOME GROWTH HERE AT 777"
+  },
+  {
+   "t": 18.65,
+   "text": "WE SHOULD UNCLENCH AS LONG"
+  },
+  {
+   "t": 19.9,
+   "text": "AS THIS CONTINUES TO DROP"
+  },
+  {
+   "t": 26.64,
+   "text": ""
+  }
+ ]
 }

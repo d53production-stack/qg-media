@@ -100,6 +100,7 @@
     0.501,
     0.58
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -120,7 +121,9 @@
    "after_hold": 0,
    "zoom_from": 1.05,
    "zoom_to": 1.05,
-   "zoom_ratio": 1.0
+   "zoom_ratio": 1.0,
+   "caption_offset_s": -0.7,
+   "caption_text": "THIS IS A MIXED MAP. RIGHT"
   },
   {
    "index": 1,
@@ -133,7 +136,9 @@
    "after_hold": 1,
    "zoom_from": 1.05,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.952
+   "zoom_ratio": 0.952,
+   "caption_offset_s": 1.8,
+   "caption_text": ""
   },
   {
    "index": 2,
@@ -146,8 +151,98 @@
    "after_hold": 2,
    "zoom_from": 1.0,
    "zoom_to": 1.01,
-   "zoom_ratio": 1.01
+   "zoom_ratio": 1.01,
+   "caption_offset_s": 0.7,
+   "caption_text": ""
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  2.6,
+  3.6,
+  5.0,
+  11.1,
+  12.1,
+  15.0,
+  17.3,
+  19.1,
+  19.9,
+  21.5,
+  28.1,
+  30.1,
+  30.9,
+  36.1,
+  43.1
+ ],
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "THIS IS A MIXED MAP. RIGHT"
+  },
+  {
+   "t": 2.1,
+   "text": "TM SEEING MORE INTEREST"
+  },
+  {
+   "t": 3.1,
+   "text": "ON THE DOWNSIDE ON SPX."
+  },
+  {
+   "t": 4.3,
+   "text": "BUT MORE INTEREST TO"
+  },
+  {
+   "t": 8.05,
+   "text": "TOHOWTHAT PRIMARY"
+  },
+  {
+   "t": 11.6,
+   "text": "CAN'TIGNORETHIS GROWTH."
+  },
+  {
+   "t": 13.55,
+   "text": "TS78AND79NOW."
+  },
+  {
+   "t": 16.15,
+   "text": "oo cn OM NSAI OCS 1 eT aaa. ae N 0 a"
+  },
+  {
+   "t": 18.2,
+   "text": "E oo ee FO IMT RUM. O70 GT a N 0 a"
+  },
+  {
+   "t": 19.5,
+   "text": "YOUGOTTASTARTPAYING"
+  },
+  {
+   "t": 20.7,
+   "text": "oo ee Fe IMT ROM 7 ee a"
+  },
+  {
+   "t": 24.8,
+   "text": "-GETALITTLEWEAKER,"
+  },
+  {
+   "t": 29.1,
+   "text": "THIS HAS GROWN, THIS HAS GROWN."
+  },
+  {
+   "t": 30.5,
+   "text": "THIS INTEREST HAS NOT"
+  },
+  {
+   "t": 33.5,
+   "text": "WOULD SAY DOWNSIDE"
+  },
+  {
+   "t": 39.6,
+   "text": "DOESN'T MEAN LONGS ARE IN PLAY."
+  },
+  {
+   "t": 44.6,
+   "text": "Eee"
+  }
+ ]
 }

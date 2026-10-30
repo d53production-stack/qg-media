@@ -38,6 +38,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -57,6 +58,7 @@
     0.445,
     0.587
    ],
+   "direct": true,
    "ink": {
     "px": 2076,
     "share": 0.00243,
@@ -103,6 +105,7 @@
     0.664,
     0.606
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -122,6 +125,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -153,7 +157,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.4,
+   "caption_text": "ROLL DOWN ON SPX AS WELL YEAH.",
+   "transcript": {
+    "recording_t": 5074.15,
+    "cue_i": 712,
+    "sure": true,
+    "direct": true,
+    "speaker": "Noreniel Barreiro",
+    "text": "Roll down on SPX as well.",
+    "into_cue_s": 1.26,
+    "cue_dur": 2.94,
+    "in_gap": false,
+    "prev": "Boxed.",
+    "next": "Yeah, and if you look at Juul, it called 7745 to be the wall hardening."
+   }
   },
   {
    "index": 1,
@@ -166,7 +185,22 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.562,
-   "zoom_ratio": 1.562
+   "zoom_ratio": 1.562,
+   "caption_offset_s": -0.5,
+   "caption_text": "- FTOLD YOU IF YOU WERE A BULL,",
+   "transcript": {
+    "recording_t": 5091.91,
+    "cue_i": 715,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "I told you, if you were a bull, you wanted to see 7715 lose value, it only gained value.",
+    "into_cue_s": 1.15,
+    "cue_dur": 5.02,
+    "in_gap": false,
+    "prev": "And we see that on active levels as well.",
+    "next": "Boxed."
+   }
   },
   {
    "index": 2,
@@ -179,7 +213,22 @@
    "after_hold": 2,
    "zoom_from": 1.562,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.64
+   "zoom_ratio": 0.64,
+   "caption_offset_s": 0.5,
+   "caption_text": "sannenannnananeoueues",
+   "transcript": {
+    "recording_t": 5095.61,
+    "cue_i": 715,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "I told you, if you were a bull, you wanted to see 7715 lose value, it only gained value.",
+    "into_cue_s": 4.85,
+    "cue_dur": 5.02,
+    "in_gap": false,
+    "prev": "And we see that on active levels as well.",
+    "next": "Boxed."
+   }
   },
   {
    "index": 3,
@@ -192,7 +241,22 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": 1.384,
-   "zoom_ratio": 1.384
+   "zoom_ratio": 1.384,
+   "caption_offset_s": 1.6,
+   "caption_text": "AND THEN THAT",
+   "transcript": {
+    "recording_t": 5096.71,
+    "cue_i": 715,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "I told you, if you were a bull, you wanted to see 7715 lose value, it only gained value.",
+    "into_cue_s": 5.95,
+    "cue_dur": 5.02,
+    "in_gap": true,
+    "prev": "And we see that on active levels as well.",
+    "next": "Boxed."
+   }
   },
   {
    "index": 4,
@@ -205,7 +269,22 @@
    "after_hold": 4,
    "zoom_from": 1.384,
    "zoom_to": 0.999,
-   "zoom_ratio": 0.722
+   "zoom_ratio": 0.722,
+   "caption_offset_s": 0.1,
+   "caption_text": "PIN LOOKS LIKE BYE EVERYBODY.",
+   "transcript": {
+    "recording_t": 5176.79,
+    "cue_i": 726,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "This is what a pin looks like.",
+    "into_cue_s": 0.71,
+    "cue_dur": 1.59,
+    "in_gap": false,
+    "prev": "And then that launch pad that we had before got weaker.",
+    "next": "So on the SPX, the\u2026"
+   }
   },
   {
    "index": 5,
@@ -218,8 +297,119 @@
    "after_hold": 5,
    "zoom_from": 0.999,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 2.0,
+   "caption_text": "sannanananananeeneues",
+   "transcript": {
+    "recording_t": 5179.29,
+    "cue_i": 726,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "This is what a pin looks like.",
+    "into_cue_s": 3.21,
+    "cue_dur": 1.59,
+    "in_gap": true,
+    "prev": "And then that launch pad that we had before got weaker.",
+    "next": "So on the SPX, the\u2026"
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.7,
+  3.7,
+  6.2,
+  8.3,
+  10.1,
+  11.6,
+  12.8,
+  16.0,
+  17.7,
+  18.7,
+  19.3
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.85,
+    "t1": 4.95,
+    "offset": 5073.85,
+    "n": 3
+   },
+   {
+    "t0": 9.2,
+    "t1": 12.2,
+    "offset": 5082.31,
+    "n": 2
+   },
+   {
+    "t0": 19.0,
+    "t1": 19.0,
+    "offset": 5157.99,
+    "n": 1
+   }
+  ],
+  "matched": 7,
+  "used": 6,
+  "captions": 11,
+  "share": 0.86,
+  "cues": [
+   712,
+   713,
+   715,
+   726
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.85,
+   "text": "ROLL DOWN ON SPX AS WELL YEAH,"
+  },
+  {
+   "t": 2.7,
+   "text": "AND IF YOU LOOK AT JUUL, IT CALLED"
+  },
+  {
+   "t": 4.95,
+   "text": "7745 TO BE THE WALL HARDENING"
+  },
+  {
+   "t": 7.25,
+   "text": "ON soe"
+  },
+  {
+   "t": 9.2,
+   "text": "TOLD YOU IF YOU WERE A BULL."
+  },
+  {
+   "t": 10.85,
+   "text": "YUU WANTED TU sEE 10 LUSE VALUE."
+  },
+  {
+   "t": 12.2,
+   "text": "ATONLY GAINED VALUE."
+  },
+  {
+   "t": 14.4,
+   "text": "eos. leseeueeueeoueees"
+  },
+  {
+   "t": 16.85,
+   "text": "WEHADBEFOREGOT WEAKER"
+  },
+  {
+   "t": 18.2,
+   "text": "Lo THIS IS WHAT A"
+  },
+  {
+   "t": 19.0,
+   "text": "PIN LOOKS LIKE BYE EVERYBODY."
+  },
+  {
+   "t": 22.29,
+   "text": ""
+  }
+ ]
 }

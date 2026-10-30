@@ -38,6 +38,7 @@
     0.626,
     0.485
    ],
+   "direct": true,
    "ink": {
     "px": 3800,
     "share": 0.00445,
@@ -92,6 +93,7 @@
     0.649,
     0.459
    ],
+   "direct": true,
    "ink": {
     "px": 755,
     "share": 0.00088,
@@ -119,6 +121,7 @@
     0.5,
     0.48
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -165,6 +168,7 @@
     0.07,
     0.436
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -203,6 +207,7 @@
     0.5,
     0.48
    ],
+   "direct": true,
    "ink": {
     "px": 72,
     "share": 8e-05,
@@ -242,7 +247,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.601,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -2.8,
+   "caption_text": "NUTIGE THINGS CHANGED IMMEDIATELY HERE ON",
+   "transcript": {
+    "recording_t": 346.68,
+    "cue_i": 23,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Notice, things changed immediately here on SPY. Ton of\u2026 ton of resistance, not a lot of support. Support showed up. Okay? Right here, this is what we're seeing. Chop.",
+    "into_cue_s": -0.3,
+    "cue_dur": 13.03,
+    "in_gap": false,
+    "prev": "Don't really have a ton of support at 720, so I think after a second tap, we break through.",
+    "next": "What would we see here\u2026 what would we want to see here for, let's say, longs?"
+   }
   },
   {
    "index": 1,
@@ -255,7 +275,22 @@
    "after_hold": 1,
    "zoom_from": 1.601,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.625
+   "zoom_ratio": 0.625,
+   "caption_offset_s": 1.1,
+   "caption_text": "OKAY",
+   "transcript": {
+    "recording_t": 463.01,
+    "cue_i": 37,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Questions on this?",
+    "into_cue_s": 0.74,
+    "cue_dur": 1.14,
+    "in_gap": false,
+    "prev": "Any questions?",
+    "next": "You think right now we're just boxed in?"
+   }
   },
   {
    "index": 2,
@@ -268,7 +303,22 @@
    "after_hold": 2,
    "zoom_from": 1.0,
    "zoom_to": 1.48,
-   "zoom_ratio": 1.48
+   "zoom_ratio": 1.48,
+   "caption_offset_s": 0.0,
+   "caption_text": "LET'S LOOK AT",
+   "transcript": {
+    "recording_t": 1039.98,
+    "cue_i": 138,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Right, so let's look at this primary.",
+    "into_cue_s": 0.32,
+    "cue_dur": 2.15,
+    "in_gap": false,
+    "prev": "Yes.",
+    "next": "Could\u2026 could we hold over this with this value still holding 62? Absolutely, right? Then that would just mean that value is going to hold as a support. But once we hold over it as support, we want to see"
+   }
   },
   {
    "index": 3,
@@ -281,7 +331,22 @@
    "after_hold": 3,
    "zoom_from": 1.48,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.676
+   "zoom_ratio": 0.676,
+   "caption_offset_s": 0.0,
+   "caption_text": "SO MY",
+   "transcript": {
+    "recording_t": 1057.11,
+    "cue_i": 140,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Some interests start to grow above us.",
+    "into_cue_s": 1.18,
+    "cue_dur": 2.3,
+    "in_gap": false,
+    "prev": "Could\u2026 could we hold over this with this value still holding 62? Absolutely, right? Then that would just mean that value is going to hold as a support. But once we hold over it as support, we want to see",
+    "next": "Or\u2026 what would get price to push us even higher?"
+   }
   },
   {
    "index": 4,
@@ -294,7 +359,22 @@
    "after_hold": 4,
    "zoom_from": 1.0,
    "zoom_to": 1.731,
-   "zoom_ratio": 1.731
+   "zoom_ratio": 1.731,
+   "caption_offset_s": -0.6,
+   "caption_text": "SQ MY GUESS WOULD BE or",
+   "transcript": {
+    "recording_t": 1066.67,
+    "cue_i": 142,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Not a lot. So, my\u2026 my guess would be that 773 takes Major 2.",
+    "into_cue_s": 2.84,
+    "cue_dur": 7.29,
+    "in_gap": false,
+    "prev": "Or\u2026 what would get price to push us even higher?",
+    "next": "We can look at 773, it's at 12 million, M2's at 13.4, so it's\u2026 it'll overtake it here shortly."
+   }
   },
   {
    "index": 5,
@@ -307,7 +387,22 @@
    "after_hold": 5,
    "zoom_from": 1.731,
    "zoom_to": 1.786,
-   "zoom_ratio": 1.032
+   "zoom_ratio": 1.032,
+   "caption_offset_s": -0.8,
+   "caption_text": "THAT 773 TAKES MAJOR TWO.",
+   "transcript": {
+    "recording_t": 1068.97,
+    "cue_i": 142,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Not a lot. So, my\u2026 my guess would be that 773 takes Major 2.",
+    "into_cue_s": 5.14,
+    "cue_dur": 7.29,
+    "in_gap": false,
+    "prev": "Or\u2026 what would get price to push us even higher?",
+    "next": "We can look at 773, it's at 12 million, M2's at 13.4, so it's\u2026 it'll overtake it here shortly."
+   }
   },
   {
    "index": 6,
@@ -320,7 +415,22 @@
    "after_hold": 6,
    "zoom_from": 1.786,
    "zoom_to": 1.703,
-   "zoom_ratio": 0.954
+   "zoom_ratio": 0.954,
+   "caption_offset_s": 2.2,
+   "caption_text": "lid Rell",
+   "transcript": {
+    "recording_t": 1073.47,
+    "cue_i": 143,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We can look at 773, it's at 12 million, M2's at 13.4, so it's\u2026 it'll overtake it here shortly.",
+    "into_cue_s": 1.86,
+    "cue_dur": 8.84,
+    "in_gap": false,
+    "prev": "Not a lot. So, my\u2026 my guess would be that 773 takes Major 2.",
+    "next": "Does your eye\u2026 Go first to\u2026"
+   }
   },
   {
    "index": 7,
@@ -333,7 +443,22 @@
    "after_hold": 7,
    "zoom_from": 1.703,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.587
+   "zoom_ratio": 0.587,
+   "caption_offset_s": 0.1,
+   "caption_text": "Sennnennnananeeueues",
+   "transcript": {
+    "recording_t": 1077.57,
+    "cue_i": 143,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We can look at 773, it's at 12 million, M2's at 13.4, so it's\u2026 it'll overtake it here shortly.",
+    "into_cue_s": 5.96,
+    "cue_dur": 8.84,
+    "in_gap": false,
+    "prev": "Not a lot. So, my\u2026 my guess would be that 773 takes Major 2.",
+    "next": "Does your eye\u2026 Go first to\u2026"
+   }
   },
   {
    "index": 8,
@@ -346,8 +471,200 @@
    "after_hold": 8,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 3.3,
+   "caption_text": "sennnennuananeeueues",
+   "transcript": {
+    "recording_t": 1080.77,
+    "cue_i": 143,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We can look at 773, it's at 12 million, M2's at 13.4, so it's\u2026 it'll overtake it here shortly.",
+    "into_cue_s": 9.16,
+    "cue_dur": 8.84,
+    "in_gap": true,
+    "prev": "Not a lot. So, my\u2026 my guess would be that 773 takes Major 2.",
+    "next": "Does your eye\u2026 Go first to\u2026"
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.9,
+  4.2,
+  5.4,
+  8.5,
+  10.4,
+  12.3,
+  13.5,
+  15.7,
+  18.3,
+  19.6,
+  20.5,
+  21.7,
+  24.0,
+  26.0,
+  27.2,
+  28.3,
+  30.0,
+  31.9,
+  32.8,
+  34.5,
+  37.1,
+  39.6,
+  41.1,
+  47.3
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 3.55,
+    "t1": 3.55,
+    "offset": 346.58,
+    "n": 1
+   },
+   {
+    "t0": 9.45,
+    "t1": 20.05,
+    "offset": 456.51,
+    "n": 6
+   },
+   {
+    "t0": 21.1,
+    "t1": 29.15,
+    "offset": 1019.48,
+    "n": 5
+   },
+   {
+    "t0": 33.65,
+    "t1": 33.65,
+    "offset": 1022.61,
+    "n": 1
+   },
+   {
+    "t0": 35.8,
+    "t1": 40.35,
+    "offset": 1030.17,
+    "n": 3
+   }
+  ],
+  "matched": 17,
+  "used": 16,
+  "captions": 25,
+  "share": 0.94,
+  "cues": [
+   23,
+   38,
+   39,
+   138,
+   139,
+   140,
+   142,
+   143
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.45,
+   "text": "aA achat i QG HERE ON SPY"
+  },
+  {
+   "t": 3.55,
+   "text": "TON OF. TON OF RESISTANCE"
+  },
+  {
+   "t": 4.8,
+   "text": "NOT ALOT OF SUPPORT."
+  },
+  {
+   "t": 6.95,
+   "text": "HIGHT HERE, HS"
+  },
+  {
+   "t": 9.45,
+   "text": "YEAH, WE'RE JUST BOXED"
+  },
+  {
+   "t": 11.35,
+   "text": "WE GUT Ths WAGNET HERE, VWAUNE THERE."
+  },
+  {
+   "t": 12.9,
+   "text": "BOXED IN CURRENTLY, RIGHT"
+  },
+  {
+   "t": 14.6,
+   "text": "TRADING IS CONDITIONAL. SO IF WE"
+  },
+  {
+   "t": 17.0,
+   "text": "START TO BREAK OUT OF THAT BOX,"
+  },
+  {
+   "t": 18.95,
+   "text": "WHAT ARE, WHAT ARE WE GONNA D0"
+  },
+  {
+   "t": 20.05,
+   "text": "WHAT ARE WE LOOKING AT"
+  },
+  {
+   "t": 21.1,
+   "text": "LET'S LOOK AT THIS PRIMARY."
+  },
+  {
+   "t": 22.85,
+   "text": "COULD WE HOLD OVER THIS WITH"
+  },
+  {
+   "t": 25.0,
+   "text": "THIS VALUE STILL HOLDING 62"
+  },
+  {
+   "t": 26.6,
+   "text": "ABSOLUTELY"
+  },
+  {
+   "t": 27.75,
+   "text": "THEN THAT WOULD JUST MEAN THAT"
+  },
+  {
+   "t": 29.15,
+   "text": "VALUE IS GONNA HOLD AS A SUPPORT."
+  },
+  {
+   "t": 30.95,
+   "text": "DUT UNGE WE HULU UVER IT Ad SUPPORT ."
+  },
+  {
+   "t": 32.35,
+   "text": "WE WANNA SEE SOME"
+  },
+  {
+   "t": 33.65,
+   "text": "INTEREST START TO GROW ABOVE US."
+  },
+  {
+   "t": 35.8,
+   "text": "SQ MY GUESS WOULD BE"
+  },
+  {
+   "t": 38.35,
+   "text": "THAT 773 TAKES MAJOR TWO."
+  },
+  {
+   "t": 40.35,
+   "text": "WE CAN LOOK AT 773."
+  },
+  {
+   "t": 44.2,
+   "text": "WRSAT 13.4"
+  },
+  {
+   "t": 50.91,
+   "text": "sennnennuananeeueues"
+  }
+ ]
 }

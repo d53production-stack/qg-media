@@ -38,6 +38,7 @@
     0.313,
     0.473
    ],
+   "direct": true,
    "ink": {
     "px": 2210,
     "share": 0.00259,
@@ -65,6 +66,7 @@
     0.5,
     0.48
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -160,6 +162,7 @@
     -0.088,
     0.511
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -179,6 +182,7 @@
     0.138,
     0.49
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -198,6 +202,7 @@
     0.391,
     0.516
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -340,7 +345,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.531,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "SOIMNOTI'MNOTTHE",
+   "transcript": {
+    "recording_t": 1517.95,
+    "cue_i": 198,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "The reason why these setups are better, in my opinion, is because you have a little bit more\u2026",
+    "into_cue_s": 0.11,
+    "cue_dur": 5.41,
+    "in_gap": false,
+    "prev": "I've seen launch pads, trapdoors happen on one. As long as it's a strong positive, it can absolutely happen on one.",
+    "next": "of a net to catch you for your stop, right? Does that\u2026 do you want a $10 stop? Probably not. But if you\u2026 if you're okay with it, now that\u2026 that becomes a little bit more of a risk-to-reward friendly trade, right? Because that's your risk, and then your profit would be up here."
+   }
   },
   {
    "index": 1,
@@ -353,7 +373,22 @@
    "after_hold": 1,
    "zoom_from": 1.531,
    "zoom_to": 1.001,
-   "zoom_ratio": 0.654
+   "zoom_ratio": 0.654,
+   "caption_offset_s": 0.1,
+   "caption_text": "INFURMATIUN TELLING Us WE",
+   "transcript": {
+    "recording_t": 5196.9,
+    "cue_i": 592,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Because we have more information telling us we were trending up.",
+    "into_cue_s": 0.72,
+    "cue_dur": 4.46,
+    "in_gap": false,
+    "prev": "Right? So, I'm not\u2026 I'm not the first to say the uptrend is dead.",
+    "next": "Now, if we had a primary roll down from here, or continue down."
+   }
   },
   {
    "index": 2,
@@ -366,7 +401,22 @@
    "after_hold": 2,
    "zoom_from": 1.001,
    "zoom_to": 1.031,
-   "zoom_ratio": 1.03
+   "zoom_ratio": 1.03,
+   "caption_offset_s": -0.5,
+   "caption_text": "INFURMATIUN TELLING Us WE WERE TRENDING UP NOW.",
+   "transcript": {
+    "recording_t": 5198.3,
+    "cue_i": 592,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Because we have more information telling us we were trending up.",
+    "into_cue_s": 2.12,
+    "cue_dur": 4.46,
+    "in_gap": false,
+    "prev": "Right? So, I'm not\u2026 I'm not the first to say the uptrend is dead.",
+    "next": "Now, if we had a primary roll down from here, or continue down."
+   }
   },
   {
    "index": 3,
@@ -379,7 +429,22 @@
    "after_hold": 3,
    "zoom_from": 1.031,
    "zoom_to": 1.598,
-   "zoom_ratio": 1.55
+   "zoom_ratio": 1.55,
+   "caption_offset_s": 0.1,
+   "caption_text": "IFWEHAD A",
+   "transcript": {
+    "recording_t": 5198.9,
+    "cue_i": 592,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Because we have more information telling us we were trending up.",
+    "into_cue_s": 2.72,
+    "cue_dur": 4.46,
+    "in_gap": false,
+    "prev": "Right? So, I'm not\u2026 I'm not the first to say the uptrend is dead.",
+    "next": "Now, if we had a primary roll down from here, or continue down."
+   }
   },
   {
    "index": 4,
@@ -392,7 +457,22 @@
    "after_hold": 4,
    "zoom_from": 1.598,
    "zoom_to": 1.591,
-   "zoom_ratio": 0.996
+   "zoom_ratio": 0.996,
+   "caption_offset_s": 0.5,
+   "caption_text": "HEY, YEAH, THIS WAS THE",
+   "transcript": {
+    "recording_t": 5208.61,
+    "cue_i": 594,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Then that would tell me, hey, yeah.",
+    "into_cue_s": 1.79,
+    "cue_dur": 1.78,
+    "in_gap": false,
+    "prev": "Now, if we had a primary roll down from here, or continue down.",
+    "next": "This was the pivot, and now we're trending down."
+   }
   },
   {
    "index": 5,
@@ -405,7 +485,22 @@
    "after_hold": 5,
    "zoom_from": 1.591,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.629
+   "zoom_ratio": 0.629,
+   "caption_offset_s": 0.0,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 5211.01,
+    "cue_i": 595,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "This was the pivot, and now we're trending down.",
+    "into_cue_s": 2.07,
+    "cue_dur": 3.82,
+    "in_gap": false,
+    "prev": "Then that would tell me, hey, yeah.",
+    "next": "Does that make sense, everybody, while I'm reading that primary structure?"
+   }
   },
   {
    "index": 6,
@@ -418,7 +513,22 @@
    "after_hold": 6,
    "zoom_from": 1.0,
    "zoom_to": 1.036,
-   "zoom_ratio": 1.036
+   "zoom_ratio": 1.036,
+   "caption_offset_s": 0.2,
+   "caption_text": "COUPLE THINGS YOU CAN Do",
+   "transcript": {
+    "recording_t": 5843.47,
+    "cue_i": 650,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Couple things we can do now. Let's say you wanted to move the Zoom thing out of the way.",
+    "into_cue_s": -0.65,
+    "cue_dur": 4.87,
+    "in_gap": false,
+    "prev": "Looks like the indexes have stalled here for a second.",
+    "next": "Let's go look at another ticker. Let's say\u2026 Let's go look at\u2026 let's say Meta."
+   }
   },
   {
    "index": 7,
@@ -431,7 +541,22 @@
    "after_hold": 7,
    "zoom_from": 1.036,
    "zoom_to": 1.031,
-   "zoom_ratio": 0.995
+   "zoom_ratio": 0.995,
+   "caption_offset_s": 0.6,
+   "caption_text": "COUPLE THINGS YOU CAN DO NOW.",
+   "transcript": {
+    "recording_t": 5843.87,
+    "cue_i": 650,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Couple things we can do now. Let's say you wanted to move the Zoom thing out of the way.",
+    "into_cue_s": -0.25,
+    "cue_dur": 4.87,
+    "in_gap": false,
+    "prev": "Looks like the indexes have stalled here for a second.",
+    "next": "Let's go look at another ticker. Let's say\u2026 Let's go look at\u2026 let's say Meta."
+   }
   },
   {
    "index": 8,
@@ -444,7 +569,22 @@
    "after_hold": 8,
    "zoom_from": 1.031,
    "zoom_to": 1.004,
-   "zoom_ratio": 0.974
+   "zoom_ratio": 0.974,
+   "caption_offset_s": 0.1,
+   "caption_text": "LET'S GOLOOK AT",
+   "transcript": {
+    "recording_t": 5849.47,
+    "cue_i": 651,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let's go look at another ticker. Let's say\u2026 Let's go look at\u2026 let's say Meta.",
+    "into_cue_s": -0.8,
+    "cue_dur": 9.08,
+    "in_gap": false,
+    "prev": "Couple things we can do now. Let's say you wanted to move the Zoom thing out of the way.",
+    "next": "Very nice."
+   }
   },
   {
    "index": 9,
@@ -457,7 +597,22 @@
    "after_hold": 9,
    "zoom_from": 1.004,
    "zoom_to": 1.343,
-   "zoom_ratio": 1.338
+   "zoom_ratio": 1.338,
+   "caption_offset_s": 2.0,
+   "caption_text": "TRIS LEVEL UISoIPATEU, ANU",
+   "transcript": {
+    "recording_t": 5853.17,
+    "cue_i": 651,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's go look at another ticker. Let's say\u2026 Let's go look at\u2026 let's say Meta.",
+    "into_cue_s": 2.9,
+    "cue_dur": 9.08,
+    "in_gap": false,
+    "prev": "Couple things we can do now. Let's say you wanted to move the Zoom thing out of the way.",
+    "next": "Very nice."
+   }
   },
   {
    "index": 10,
@@ -470,7 +625,22 @@
    "after_hold": 10,
    "zoom_from": 1.343,
    "zoom_to": 1.03,
-   "zoom_ratio": 0.767
+   "zoom_ratio": 0.767,
+   "caption_offset_s": 0.4,
+   "caption_text": "LET'S SEE WHAT ELSE WE GOT.",
+   "transcript": {
+    "recording_t": 5875.56,
+    "cue_i": 655,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let's see what else we got,",
+    "into_cue_s": -2.97,
+    "cue_dur": 2.39,
+    "in_gap": false,
+    "prev": "Looks like it's paying out okay.",
+    "next": "Tesla's always fun."
+   }
   },
   {
    "index": 11,
@@ -483,7 +653,22 @@
    "after_hold": 11,
    "zoom_from": 1.03,
    "zoom_to": 1.031,
-   "zoom_ratio": 1.001
+   "zoom_ratio": 1.001,
+   "caption_offset_s": 0.1,
+   "caption_text": "TESLA'S ALWAYS FUN.",
+   "transcript": {
+    "recording_t": 5879.28,
+    "cue_i": 655,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's see what else we got,",
+    "into_cue_s": 0.75,
+    "cue_dur": 2.39,
+    "in_gap": false,
+    "prev": "Looks like it's paying out okay.",
+    "next": "Tesla's always fun."
+   }
   },
   {
    "index": 12,
@@ -496,7 +681,22 @@
    "after_hold": 12,
    "zoom_from": 1.031,
    "zoom_to": 1.03,
-   "zoom_ratio": 0.999
+   "zoom_ratio": 0.999,
+   "caption_offset_s": 0.1,
+   "caption_text": "BOOM.",
+   "transcript": {
+    "recording_t": 5890.94,
+    "cue_i": 657,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Nice trend up here on Tesla.",
+    "into_cue_s": 1.55,
+    "cue_dur": 2.3,
+    "in_gap": false,
+    "prev": "Tesla's always fun.",
+    "next": "Boom, primary."
+   }
   },
   {
    "index": 13,
@@ -509,7 +709,22 @@
    "after_hold": 13,
    "zoom_from": 1.03,
    "zoom_to": 1.03,
-   "zoom_ratio": 1.0
+   "zoom_ratio": 1.0,
+   "caption_offset_s": -0.1,
+   "caption_text": "WHERE'S THE PRIMARY NOW",
+   "transcript": {
+    "recording_t": 5896.46,
+    "cue_i": 659,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Where's the primary now? Up at 370, so it looks like Tesla might still have",
+    "into_cue_s": -0.55,
+    "cue_dur": 4.4,
+    "in_gap": false,
+    "prev": "Boom, primary.",
+    "next": "Some potential upside, up to 370, as long as this 36\u2026 367 holds."
+   }
   },
   {
    "index": 14,
@@ -522,8 +737,203 @@
    "after_hold": 14,
    "zoom_from": 1.03,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 1.5,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 5898.96,
+    "cue_i": 659,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Where's the primary now? Up at 370, so it looks like Tesla might still have",
+    "into_cue_s": 1.95,
+    "cue_dur": 4.4,
+    "in_gap": false,
+    "prev": "Boom, primary.",
+    "next": "Some potential upside, up to 370, as long as this 36\u2026 367 holds."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  2.9,
+  4.5,
+  6.5,
+  8.3,
+  11.0,
+  12.3,
+  13.9,
+  15.0,
+  16.4,
+  18.1,
+  19.9,
+  24.2,
+  26.2,
+  27.5,
+  28.8,
+  31.7,
+  33.1,
+  34.0
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 3.7,
+    "t1": 3.7,
+    "offset": 1517.45,
+    "n": 1
+   },
+   {
+    "t0": 5.5,
+    "t1": 5.5,
+    "offset": 5192.3,
+    "n": 1
+   },
+   {
+    "t0": 13.1,
+    "t1": 13.1,
+    "offset": 5197.11,
+    "n": 1
+   },
+   {
+    "t0": 14.45,
+    "t1": 15.7,
+    "offset": 5822.1,
+    "n": 2
+   },
+   {
+    "t0": 17.25,
+    "t1": 17.25,
+    "offset": 5826.87,
+    "n": 1
+   },
+   {
+    "t0": 19.0,
+    "t1": 19.0,
+    "offset": 5831.27,
+    "n": 1
+   },
+   {
+    "t0": 26.85,
+    "t1": 26.85,
+    "offset": 5847.66,
+    "n": 1
+   },
+   {
+    "t0": 28.15,
+    "t1": 28.15,
+    "offset": 5850.38,
+    "n": 1
+   },
+   {
+    "t0": 30.25,
+    "t1": 30.25,
+    "offset": 5859.14,
+    "n": 1
+   },
+   {
+    "t0": 33.55,
+    "t1": 33.55,
+    "offset": 5863.46,
+    "n": 1
+   }
+  ],
+  "matched": 12,
+  "used": 11,
+  "captions": 18,
+  "share": 0.92,
+  "cues": [
+   198,
+   592,
+   594,
+   595,
+   648,
+   649,
+   650,
+   651,
+   653,
+   654,
+   655,
+   657,
+   658,
+   659
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "SOIMNOTI'MNOTTHE"
+  },
+  {
+   "t": 2.25,
+   "text": "FIRSTTOSAYTHEUPTREND ts"
+  },
+  {
+   "t": 3.7,
+   "text": "ISDEAD BECAUSE WEHAVE MORE"
+  },
+  {
+   "t": 5.5,
+   "text": "INFURMATIUN TELLING Us WE WERE TRENDING UP NOW."
+  },
+  {
+   "t": 7.4,
+   "text": "- FWEHAD A PRIMARY ROLL DOWN"
+  },
+  {
+   "t": 9.65,
+   "text": "- FRUM AERE UR GUNTINUE DUWN, THEN THAT WOULD TELL ME."
+  },
+  {
+   "t": 13.1,
+   "text": "PIVOT, AND NOW WE RE TRENUING DOWN."
+  },
+  {
+   "t": 14.45,
+   "text": "IN THE MEANTIME."
+  },
+  {
+   "t": 15.7,
+   "text": "WHILE WE WAIT, LET'S DO THIS."
+  },
+  {
+   "t": 17.25,
+   "text": "COUPLE THINGS YOU CAN DO NOW."
+  },
+  {
+   "t": 19.0,
+   "text": "LET'S GO LOOK AT ANOTHER TICKER."
+  },
+  {
+   "t": 25.2,
+   "text": "NILE HAPUUUR oET UP HERE UN META."
+  },
+  {
+   "t": 26.85,
+   "text": "LOOKS LIKE IT S PAYING OUT OKAY"
+  },
+  {
+   "t": 28.15,
+   "text": "LET'S SEE WHAT ELSE WE GOT."
+  },
+  {
+   "t": 30.25,
+   "text": "NICE TREND UP HERE ON TESLA"
+  },
+  {
+   "t": 32.4,
+   "text": "PRIMARY."
+  },
+  {
+   "t": 33.55,
+   "text": "WHERE'S THE PRIMARY NOW"
+  },
+  {
+   "t": 36.7,
+   "text": "Bassists"
+  }
+ ]
 }

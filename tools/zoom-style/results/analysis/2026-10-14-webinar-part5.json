@@ -65,6 +65,7 @@
     0.152,
     0.476
    ],
+   "direct": true,
    "ink": {
     "px": 3062,
     "share": 0.00359,
@@ -104,7 +105,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.4,
+   "caption_text": "NOW. REMEMBER WHAT I TOLD"
   },
   {
    "index": 1,
@@ -117,7 +120,9 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.066,
-   "zoom_ratio": 1.066
+   "zoom_ratio": 1.066,
+   "caption_offset_s": 0.1,
+   "caption_text": "THIS IS JUST SPX. OKAY"
   },
   {
    "index": 2,
@@ -130,8 +135,93 @@
    "after_hold": 2,
    "zoom_from": 1.066,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.6,
+   "caption_text": ""
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  3.2,
+  4.5,
+  5.7,
+  7.5,
+  10.1,
+  11.4,
+  12.2,
+  13.2,
+  14.9,
+  16.3,
+  17.7,
+  19.6,
+  22.2,
+  23.8
+ ],
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "NOW, REMEMBER WHAT I TOLD YOU"
+  },
+  {
+   "t": 2.4,
+   "text": "GUYS ABUUT TAKING TRADES UN FREOn LEVELS"
+  },
+  {
+   "t": 3.85,
+   "text": "THIS LEVEL HAS BEEN TOUCHED"
+  },
+  {
+   "t": 5.1,
+   "text": "QUITE A FEW TIMES. RIGHT"
+  },
+  {
+   "t": 6.6,
+   "text": "COULD IT BE A GOOD CEILING NOW"
+  },
+  {
+   "t": 8.8,
+   "text": "1M NUT OLAMMING PUTS HERE BECAUSE"
+  },
+  {
+   "t": 10.75,
+   "text": "IT'S NOT A FRESH LEVEL"
+  },
+  {
+   "t": 11.8,
+   "text": "IS ASKING ME TO"
+  },
+  {
+   "t": 12.7,
+   "text": "REPEAT THE FRESH NODES RULE."
+  },
+  {
+   "t": 14.05,
+   "text": "THIS IS JUST SPX. OKAY"
+  },
+  {
+   "t": 15.6,
+   "text": "NOTICE THIS."
+  },
+  {
+   "t": 17.0,
+   "text": "THISIS OUR... LET'S ASSUME THAT"
+  },
+  {
+   "t": 18.65,
+   "text": "Thld HULUS WHEN PRIGE GUMES DOWN, OKAY"
+  },
+  {
+   "t": 20.9,
+   "text": "THIS LEVEL HAS NUT BEEN TUUGHEU, RIGHT"
+  },
+  {
+   "t": 23.0,
+   "text": "STILL PRIMARY, NO TOUCH."
+  },
+  {
+   "t": 26.04,
+   "text": "TAUNCH WEEK"
+  }
+ ]
 }

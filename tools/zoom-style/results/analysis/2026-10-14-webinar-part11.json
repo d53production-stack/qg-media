@@ -61,7 +61,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.5,
+   "caption_text": "LET'S SEE THIS GROW."
   },
   {
    "index": 1,
@@ -74,8 +76,93 @@
    "after_hold": 1,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "seennenanananeeueues"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.0,
+  3.8,
+  5.4,
+  7.2,
+  11.1,
+  12.6,
+  14.2,
+  16.6,
+  18.0,
+  19.7,
+  23.3,
+  24.5,
+  26.6,
+  28.8,
+  29.7
+ ],
+ "captions": [
+  {
+   "t": 1.0,
+   "text": ""
+  },
+  {
+   "t": 2.9,
+   "text": "PRIMARY MOVED UP ON SPX."
+  },
+  {
+   "t": 4.6,
+   "text": "LET'S SEE IF THE STORM HAS"
+  },
+  {
+   "t": 6.3,
+   "text": "PASSED AND WE'RE A GO FOR LAUNCH"
+  },
+  {
+   "t": 9.15,
+   "text": "TRAP DOOR IS PRESENT ON SPX."
+  },
+  {
+   "t": 11.85,
+   "text": "ANU YUU GUULU EVEN ARGUE hAP DOOR"
+  },
+  {
+   "t": 13.4,
+   "text": "TS OLIGHTLY PRESENT HERE UN THE Q'S."
+  },
+  {
+   "t": 15.4,
+   "text": "NUW, TF WE DID AGTIVATE THAT PAP DOOR DOWN."
+  },
+  {
+   "t": 17.3,
+   "text": "WHAT WOULD WE BE TARGETING"
+  },
+  {
+   "t": 18.85,
+   "text": "POSITIVE GAMMA HERE IN 768"
+  },
+  {
+   "t": 21.5,
+   "text": "senncnennnaneneeneues"
+  },
+  {
+   "t": 23.9,
+   "text": "STILL WITHIN THIS RANGE"
+  },
+  {
+   "t": 25.55,
+   "text": "AUW MANY TIMES HAVE WE TESTED THIS 7720"
+  },
+  {
+   "t": 27.7,
+   "text": "sennenenananoneeueues"
+  },
+  {
+   "t": 29.25,
+   "text": "HAVE A GREAT DAY, EVERYBODY"
+  },
+  {
+   "t": 31.87,
+   "text": "TAUNCH WEEK"
+  }
+ ]
 }

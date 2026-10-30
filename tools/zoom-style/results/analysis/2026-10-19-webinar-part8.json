@@ -38,6 +38,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 242,
     "share": 0.00028,
@@ -65,6 +66,7 @@
     0.848,
     0.451
    ],
+   "direct": true,
    "ink": {
     "px": 1223,
     "share": 0.00143,
@@ -92,6 +94,7 @@
     0.439,
     0.474
    ],
+   "direct": true,
    "ink": {
     "px": 1259,
     "share": 0.00148,
@@ -138,6 +141,7 @@
     0.496,
     0.497
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -223,7 +227,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.4,
+   "caption_text": "AND NUW WITH TRIS MAGNE BELUW HERE,",
+   "transcript": {
+    "recording_t": 1331.58,
+    "cue_i": 183,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And now with this magnet below here, this trap door should have a nice trade.",
+    "into_cue_s": -0.5,
+    "cue_dur": 4.33,
+    "in_gap": false,
+    "prev": "Where we entered, it wasn't bearish.",
+    "next": "positive, positive, into negative, positive below, just as the inverse, the mirror, of positive, positive, into negative, positive above. They're the same setup, it just\u2026 it just\u2026"
+   }
   },
   {
    "index": 1,
@@ -236,7 +255,22 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.748,
-   "zoom_ratio": 1.748
+   "zoom_ratio": 1.748,
+   "caption_offset_s": 0.0,
+   "caption_text": "POSITIVE INTO",
+   "transcript": {
+    "recording_t": 1346.32,
+    "cue_i": 183,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And now with this magnet below here, this trap door should have a nice trade.",
+    "into_cue_s": 14.24,
+    "cue_dur": 4.33,
+    "in_gap": true,
+    "prev": "Where we entered, it wasn't bearish.",
+    "next": "positive, positive, into negative, positive below, just as the inverse, the mirror, of positive, positive, into negative, positive above. They're the same setup, it just\u2026 it just\u2026"
+   }
   },
   {
    "index": 2,
@@ -249,7 +283,22 @@
    "after_hold": 2,
    "zoom_from": 1.748,
    "zoom_to": 1.667,
-   "zoom_ratio": 0.954
+   "zoom_ratio": 0.954,
+   "caption_offset_s": -0.4,
+   "caption_text": "POSITIVE BELOW, JUST AS THE THE",
+   "transcript": {
+    "recording_t": 1349.72,
+    "cue_i": 184,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "positive, positive, into negative, positive below, just as the inverse, the mirror, of positive, positive, into negative, positive above. They're the same setup, it just\u2026 it just\u2026",
+    "into_cue_s": 2.76,
+    "cue_dur": 12.62,
+    "in_gap": false,
+    "prev": "And now with this magnet below here, this trap door should have a nice trade.",
+    "next": "The definition, or the label comes based on where price is coming from."
+   }
   },
   {
    "index": 3,
@@ -262,7 +311,22 @@
    "after_hold": 3,
    "zoom_from": 1.667,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.6
+   "zoom_ratio": 0.6,
+   "caption_offset_s": 0.0,
+   "caption_text": "THEY'RE THE SAME",
+   "transcript": {
+    "recording_t": 1354.82,
+    "cue_i": 184,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "positive, positive, into negative, positive below, just as the inverse, the mirror, of positive, positive, into negative, positive above. They're the same setup, it just\u2026 it just\u2026",
+    "into_cue_s": 7.86,
+    "cue_dur": 12.62,
+    "in_gap": false,
+    "prev": "And now with this magnet below here, this trap door should have a nice trade.",
+    "next": "The definition, or the label comes based on where price is coming from."
+   }
   },
   {
    "index": 4,
@@ -275,7 +339,22 @@
    "after_hold": 4,
    "zoom_from": 1.0,
    "zoom_to": 1.009,
-   "zoom_ratio": 1.009
+   "zoom_ratio": 1.009,
+   "caption_offset_s": 8.1,
+   "caption_text": "Sennnannuananeeneues",
+   "transcript": {
+    "recording_t": 1372.38,
+    "cue_i": 185,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "The definition, or the label comes based on where price is coming from.",
+    "into_cue_s": 12.28,
+    "cue_dur": 6.19,
+    "in_gap": true,
+    "prev": "positive, positive, into negative, positive below, just as the inverse, the mirror, of positive, positive, into negative, positive above. They're the same setup, it just\u2026 it just\u2026",
+    "next": "So, for a trapdoor or a lunch pad, you look for two\u2026 Positives that are\u2026"
+   }
   },
   {
    "index": 5,
@@ -288,7 +367,22 @@
    "after_hold": 5,
    "zoom_from": 1.009,
    "zoom_to": 1.388,
-   "zoom_ratio": 1.376
+   "zoom_ratio": 1.376,
+   "caption_offset_s": -1.9,
+   "caption_text": "I'D LIKE",
+   "transcript": {
+    "recording_t": 2509.74,
+    "cue_i": 330,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Continue to diminish at 723Qs.",
+    "into_cue_s": 9.04,
+    "cue_dur": 3.17,
+    "in_gap": true,
+    "prev": "I'd like to see this support here.",
+    "next": "Do you see how you don't want to be shorting a squeeze?"
+   }
   },
   {
    "index": 6,
@@ -301,7 +395,22 @@
    "after_hold": 6,
    "zoom_from": 1.388,
    "zoom_to": 1.203,
-   "zoom_ratio": 0.867
+   "zoom_ratio": 0.867,
+   "caption_offset_s": 0.0,
+   "caption_text": "Cee DO YOU SEE",
+   "transcript": {
+    "recording_t": 2513.94,
+    "cue_i": 331,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Do you see how you don't want to be shorting a squeeze?",
+    "into_cue_s": -0.27,
+    "cue_dur": 3.85,
+    "in_gap": false,
+    "prev": "Continue to diminish at 723Qs.",
+    "next": "Let it top out."
+   }
   },
   {
    "index": 7,
@@ -314,8 +423,140 @@
    "after_hold": 7,
    "zoom_from": 1.203,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 2516.94,
+    "cue_i": 331,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Do you see how you don't want to be shorting a squeeze?",
+    "into_cue_s": 2.73,
+    "cue_dur": 3.85,
+    "in_gap": false,
+    "prev": "Continue to diminish at 723Qs.",
+    "next": "Let it top out."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.8,
+  3.7,
+  5.0,
+  7.5,
+  9.6,
+  12.2,
+  13.2,
+  13.7,
+  15.1,
+  16.8,
+  39.5,
+  41.8,
+  43.4,
+  44.8
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.9,
+    "t1": 0.9,
+    "offset": 1331.18,
+    "n": 1
+   },
+   {
+    "t0": 6.25,
+    "t1": 12.7,
+    "offset": 1342.62,
+    "n": 3
+   },
+   {
+    "t0": 15.95,
+    "t1": 15.95,
+    "offset": 1347.48,
+    "n": 1
+   },
+   {
+    "t0": 42.6,
+    "t1": 44.1,
+    "offset": 2472.14,
+    "n": 2
+   }
+  ],
+  "matched": 9,
+  "used": 7,
+  "captions": 13,
+  "share": 0.78,
+  "cues": [
+   183,
+   184,
+   185,
+   331
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.9,
+   "text": "AND NUW WITH TRIS MAGNE BELUW HERE,"
+  },
+  {
+   "t": 2.75,
+   "text": "TAS TRAPUUUR OHUULU HAVE A NILE TRADE"
+  },
+  {
+   "t": 4.35,
+   "text": "POSITIVE INTO NEGATIVE,"
+  },
+  {
+   "t": 6.25,
+   "text": "POSITIVE BELOW, JUST AS THE THE"
+  },
+  {
+   "t": 8.55,
+   "text": "INVERSE. THE MIRROR OF"
+  },
+  {
+   "t": 10.9,
+   "text": "PUSHIIVE INTU NEGATIVE, FUSHTIVE ABOVE."
+  },
+  {
+   "t": 12.7,
+   "text": "THEY'RE THE SAME SETUP."
+  },
+  {
+   "t": 13.45,
+   "text": ""
+  },
+  {
+   "t": 14.4,
+   "text": "IT JUST THE LABEL COMES BASED"
+  },
+  {
+   "t": 15.95,
+   "text": "ON WHERE PRICE IS COMING FROM"
+  },
+  {
+   "t": 28.15,
+   "text": "sennenennnananeeneues"
+  },
+  {
+   "t": 40.65,
+   "text": "HERE GUNTINUE TU DIMINISH AT 23 Q'S"
+  },
+  {
+   "t": 42.6,
+   "text": "DO. YOU SEE HOW YOU DON'T"
+  },
+  {
+   "t": 44.1,
+   "text": "WANNA BE SHORTING A SQUEEZE"
+  },
+  {
+   "t": 46.91,
+   "text": ""
+  }
+ ]
 }

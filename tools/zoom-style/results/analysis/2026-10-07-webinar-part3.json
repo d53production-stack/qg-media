@@ -38,6 +38,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -57,6 +58,7 @@
     0.649,
     0.559
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -76,6 +78,7 @@
     0.575,
     0.521
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -126,7 +129,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.5,
+   "caption_text": "AND THERE SHE GOES."
   },
   {
    "index": 1,
@@ -139,7 +144,9 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.156,
-   "zoom_ratio": 1.156
+   "zoom_ratio": 1.156,
+   "caption_offset_s": -0.1,
+   "caption_text": ""
   },
   {
    "index": 2,
@@ -152,7 +159,9 @@
    "after_hold": 2,
    "zoom_from": 1.156,
    "zoom_to": 1.351,
-   "zoom_ratio": 1.169
+   "zoom_ratio": 1.169,
+   "caption_offset_s": 0.1,
+   "caption_text": "WHATDIDITELLYOU2"
   },
   {
    "index": 3,
@@ -165,7 +174,9 @@
    "after_hold": 3,
    "zoom_from": 1.351,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.74
+   "zoom_ratio": 0.74,
+   "caption_offset_s": -1.4,
+   "caption_text": "GET TO KNOW THOSE"
   },
   {
    "index": 4,
@@ -178,8 +189,63 @@
    "after_hold": 4,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.5,
+   "caption_text": "sennenennnananeeueues"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.0,
+  5.5,
+  10.9,
+  13.2,
+  14.5,
+  16.0,
+  17.9,
+  19.9,
+  21.3
+ ],
+ "captions": [
+  {
+   "t": 1.0,
+   "text": ""
+  },
+  {
+   "t": 3.75,
+   "text": "oe eeseeeooueeueeees"
+  },
+  {
+   "t": 8.2,
+   "text": "LAUNCHPAD PATTERN."
+  },
+  {
+   "t": 12.05,
+   "text": "THEY TAKE ALITTLE BIT OF TIME TO DI AV NIT"
+  },
+  {
+   "t": 13.85,
+   "text": "BECAUSE IT DOESN'T TRANSLATE IMANMACNIATELV"
+  },
+  {
+   "t": 15.25,
+   "text": "TO THE BUYING AND SELLING."
+  },
+  {
+   "t": 16.95,
+   "text": "IT TRANSLATES 10 WHAT MARKET MIAVEDC UAVE TN"
+  },
+  {
+   "t": 18.9,
+   "text": "DO AT THOSE POSITIONS, AT THOSE CTDIVEC DIRUTI"
+  },
+  {
+   "t": 20.6,
+   "text": "AND THAT CAN TAKE JUST A LITTLE BIT NC TINIE"
+  },
+  {
+   "t": 23.5,
+   "text": ""
+  }
+ ]
 }

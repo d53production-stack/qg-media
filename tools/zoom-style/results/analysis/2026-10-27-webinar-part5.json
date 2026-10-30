@@ -76,6 +76,7 @@
     0.764,
     0.444
    ],
+   "direct": true,
    "ink": {
     "px": 957,
     "share": 0.00112,
@@ -103,6 +104,7 @@
     0.309,
     0.383
    ],
+   "direct": true,
    "ink": {
     "px": 452,
     "share": 0.00053,
@@ -130,6 +132,7 @@
     0.337,
     0.461
    ],
+   "direct": true,
    "ink": {
     "px": 1197,
     "share": 0.0014,
@@ -157,6 +160,7 @@
     0.606,
     0.449
    ],
+   "direct": true,
    "ink": {
     "px": 741,
     "share": 0.00087,
@@ -196,7 +200,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -4.1,
+   "caption_text": "PRIMARY RULLED UF FRUM 69U UP",
+   "transcript": {
+    "recording_t": 2084.44,
+    "cue_i": 187,
+    "sure": false,
+    "direct": false,
+    "speaker": "Shadowhand",
+    "text": "Right, it's only $300 max loss, so I did that, and that's kind of how I looked at it, at least.",
+    "into_cue_s": 5.36,
+    "cue_dur": 5.78,
+    "in_gap": false,
+    "prev": "at around $77.95\u2026 $76.95, I was like, okay, I'll\u2026 it's 3 bucks, open it, it's a good lottery.",
+    "next": "Okay."
+   }
   },
   {
    "index": 1,
@@ -209,7 +228,22 @@
    "after_hold": 1,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -3.7,
+   "caption_text": "PRIMARY RULLEU UF FRUM 00U UP 10 7700.",
+   "transcript": {
+    "recording_t": 2084.84,
+    "cue_i": 187,
+    "sure": false,
+    "direct": false,
+    "speaker": "Shadowhand",
+    "text": "Right, it's only $300 max loss, so I did that, and that's kind of how I looked at it, at least.",
+    "into_cue_s": 5.76,
+    "cue_dur": 5.78,
+    "in_gap": false,
+    "prev": "at around $77.95\u2026 $76.95, I was like, okay, I'll\u2026 it's 3 bucks, open it, it's a good lottery.",
+    "next": "Okay."
+   }
   },
   {
    "index": 2,
@@ -222,7 +256,22 @@
    "after_hold": 2,
    "zoom_from": 1.0,
    "zoom_to": 1.19,
-   "zoom_ratio": 1.19
+   "zoom_ratio": 1.19,
+   "caption_offset_s": -0.3,
+   "caption_text": "BULLS, YOU Willa. i",
+   "transcript": {
+    "recording_t": 2095.84,
+    "cue_i": 189,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Well, now you're\u2026 now you're sitting pretty, at least on that tread.",
+    "into_cue_s": 8.09,
+    "cue_dur": 3.31,
+    "in_gap": true,
+    "prev": "Okay.",
+    "next": "Bulls, you wanna\u2026 you wanna keep an eye on this 719 level. Let's hold above it."
+   }
   },
   {
    "index": 3,
@@ -235,7 +284,22 @@
    "after_hold": 3,
    "zoom_from": 1.19,
    "zoom_to": 1.562,
-   "zoom_ratio": 1.313
+   "zoom_ratio": 1.313,
+   "caption_offset_s": 0.0,
+   "caption_text": "AND LOOK, Wl",
+   "transcript": {
+    "recording_t": 2107.97,
+    "cue_i": 192,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's see this continuing to reduce, so our primary can roll up on SPY.",
+    "into_cue_s": 3.54,
+    "cue_dur": 4.45,
+    "in_gap": false,
+    "prev": "Let's go target 720 on Q's.",
+    "next": "And look, we had a launch pad set up here, positive, positive, into negative."
+   }
   },
   {
    "index": 4,
@@ -248,7 +312,22 @@
    "after_hold": 4,
    "zoom_from": 1.562,
    "zoom_to": 1.177,
-   "zoom_ratio": 0.754
+   "zoom_ratio": 0.754,
+   "caption_offset_s": -0.9,
+   "caption_text": "SEL UP HERE, FUSITIVE UUW INTU NEGATIVE.",
+   "transcript": {
+    "recording_t": 2125.32,
+    "cue_i": 194,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Now we have a trapdoor set up here. Positive, positive, down into negative. So once we get into this area here, I would start to be interested in some downside, potentially.",
+    "into_cue_s": 4.28,
+    "cue_dur": 11.49,
+    "in_gap": false,
+    "prev": "And look, we had a launch pad set up here, positive, positive, into negative.",
+    "next": "So what I'd look for here in the 77, call it 30 area, 25, 27 area."
+   }
   },
   {
    "index": 5,
@@ -261,7 +340,22 @@
    "after_hold": 5,
    "zoom_from": 1.177,
    "zoom_to": 1.203,
-   "zoom_ratio": 1.022
+   "zoom_ratio": 1.022,
+   "caption_offset_s": 0.0,
+   "caption_text": "QU WHAT TD",
+   "transcript": {
+    "recording_t": 2131.72,
+    "cue_i": 194,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Now we have a trapdoor set up here. Positive, positive, down into negative. So once we get into this area here, I would start to be interested in some downside, potentially.",
+    "into_cue_s": 10.68,
+    "cue_dur": 11.49,
+    "in_gap": false,
+    "prev": "And look, we had a launch pad set up here, positive, positive, into negative.",
+    "next": "So what I'd look for here in the 77, call it 30 area, 25, 27 area."
+   }
   },
   {
    "index": 6,
@@ -274,8 +368,176 @@
    "after_hold": 6,
    "zoom_from": 1.203,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.1,
+   "caption_text": "Y ms a rN",
+   "transcript": {
+    "recording_t": 2148.31,
+    "cue_i": 197,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And that magnet can pull us back down.",
+    "into_cue_s": 1.45,
+    "cue_dur": 2.15,
+    "in_gap": false,
+    "prev": "I'd be looking at the SPY primary. Is it growing?",
+    "next": "Do yourself the favor and try\u2026 try to keep spot kind of in the middle of your chart, so you can see growth"
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  4.2,
+  11.8,
+  12.8,
+  14.0,
+  15.1,
+  17.4,
+  19.3,
+  21.3,
+  23.6,
+  25.9,
+  27.8,
+  29.9,
+  32.2,
+  33.8,
+  35.4,
+  38.4,
+  42.7,
+  45.4
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 12.3,
+    "t1": 16.25,
+    "offset": 2084.34,
+    "n": 2
+   },
+   {
+    "t0": 20.3,
+    "t1": 20.3,
+    "offset": 2086.67,
+    "n": 1
+   },
+   {
+    "t0": 22.45,
+    "t1": 24.75,
+    "offset": 2092.99,
+    "n": 2
+   },
+   {
+    "t0": 33.0,
+    "t1": 34.6,
+    "offset": 2096.32,
+    "n": 2
+   },
+   {
+    "t0": 40.55,
+    "t1": 40.55,
+    "offset": 2099.79,
+    "n": 1
+   },
+   {
+    "t0": 44.05,
+    "t1": 44.05,
+    "offset": 2102.81,
+    "n": 1
+   }
+  ],
+  "matched": 10,
+  "used": 9,
+  "captions": 19,
+  "share": 0.9,
+  "cues": [
+   190,
+   191,
+   192,
+   193,
+   194,
+   195,
+   196,
+   197
+  ]
+ },
+ "captions": [
+  {
+   "t": 2.1,
+   "text": "PRIMARY RULLEU UF FRUM 60U UP 10 7700."
+  },
+  {
+   "t": 8.0,
+   "text": "a Fil AA"
+  },
+  {
+   "t": 12.3,
+   "text": "BULLS. YOU WANNA. YOU WANNA KEEP"
+  },
+  {
+   "t": 13.4,
+   "text": "ANEYEONTHIS 719 LEVEL."
+  },
+  {
+   "t": 14.55,
+   "text": "LET'SHOLDABOVEIT."
+  },
+  {
+   "t": 16.25,
+   "text": "LET'S GO TARGET 720 ONO'S."
+  },
+  {
+   "t": 18.35,
+   "text": "LETS OEE TAls GUNTINUING 10 REDUCE SO"
+  },
+  {
+   "t": 20.3,
+   "text": "QUR PRIMARY CAN ROLL UP ON SPY"
+  },
+  {
+   "t": 22.45,
+   "text": "AND LOOK, WE HAD A LAUNCHPAD"
+  },
+  {
+   "t": 24.75,
+   "text": "SETUP HERE. POSITIVE INTO NEGATIVE."
+  },
+  {
+   "t": 26.85,
+   "text": "NOW WE HAVE A TRAP DOOR"
+  },
+  {
+   "t": 28.85,
+   "text": "SEL UP HERE, FUSITIVE UUW INTU NEGATIVE."
+  },
+  {
+   "t": 31.05,
+   "text": "OU UNGE WE GET INTU Thld AREA HERE,"
+  },
+  {
+   "t": 33.0,
+   "text": "WOULD START TO BE INTERESTED"
+  },
+  {
+   "t": 34.6,
+   "text": "IN SOME DOWNSIDE POTENTIALLY"
+  },
+  {
+   "t": 36.9,
+   "text": "SU WHAT TD LOUK FUR ERE IN PAE 171."
+  },
+  {
+   "t": 40.55,
+   "text": "PALLIT 30 AREA. 25. 27 AREA"
+  },
+  {
+   "t": 44.05,
+   "text": "AND THAT WAGNET GAN PULL US 5A"
+  },
+  {
+   "t": 47.53,
+   "text": "a a ee a a a"
+  }
+ ]
 }

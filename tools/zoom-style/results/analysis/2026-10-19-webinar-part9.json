@@ -38,6 +38,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 185,
     "share": 0.00022,
@@ -65,6 +66,7 @@
     0.304,
     0.487
    ],
+   "direct": true,
    "ink": {
     "px": 436,
     "share": 0.00051,
@@ -111,6 +113,7 @@
     0.675,
     0.537
    ],
+   "direct": true,
    "ink": {
     "px": 2778,
     "share": 0.00326,
@@ -138,6 +141,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -157,6 +161,7 @@
     0.243,
     0.522
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -176,6 +181,7 @@
     0.222,
     0.503
    ],
+   "direct": true,
    "ink": {
     "px": 1135,
     "share": 0.00133,
@@ -215,7 +221,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.5,
+   "caption_text": "LET IT TOP OUT.",
+   "transcript": {
+    "recording_t": 2524.45,
+    "cue_i": 332,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let it top out.",
+    "into_cue_s": 0.23,
+    "cue_dur": 2.18,
+    "in_gap": false,
+    "prev": "Do you see how you don't want to be shorting a squeeze?",
+    "next": "And because we're at a negative gamma, it can take a little bit to top out before"
+   }
   },
   {
    "index": 1,
@@ -228,7 +249,22 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.483,
-   "zoom_ratio": 1.483
+   "zoom_ratio": 1.483,
+   "caption_offset_s": 0.3,
+   "caption_text": "PUOHTIVE GAMMA 9 GETTING WEARER HERE SL",
+   "transcript": {
+    "recording_t": 2556.33,
+    "cue_i": 337,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Positive gamma is getting weaker here.",
+    "into_cue_s": -0.85,
+    "cue_dur": 2.27,
+    "in_gap": false,
+    "prev": "But look at this.",
+    "next": "Right here, we're at."
+   }
   },
   {
    "index": 2,
@@ -241,7 +277,22 @@
    "after_hold": 2,
    "zoom_from": 1.483,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.674
+   "zoom_ratio": 0.674,
+   "caption_offset_s": 0.2,
+   "caption_text": "- QUR SUPPORT 'S GONE HERE ON 0'S.",
+   "transcript": {
+    "recording_t": 2690.59,
+    "cue_i": 349,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Our support's gone here on queues.",
+    "into_cue_s": -0.25,
+    "cue_dur": 2.12,
+    "in_gap": false,
+    "prev": "So we could stick here for lunch.",
+    "next": "What would have previously?"
+   }
   },
   {
    "index": 3,
@@ -254,7 +305,22 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": 1.604,
-   "zoom_ratio": 1.604
+   "zoom_ratio": 1.604,
+   "caption_offset_s": 0.0,
+   "caption_text": "LET'S SEE THIS",
+   "transcript": {
+    "recording_t": 2728.22,
+    "cue_i": 352,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Primary rolldown on SPY.",
+    "into_cue_s": 2.8,
+    "cue_dur": 1.85,
+    "in_gap": true,
+    "prev": "Got me to skip out on shorts is gone.",
+    "next": "Let's see this get bigger."
+   }
   },
   {
    "index": 4,
@@ -267,7 +333,22 @@
    "after_hold": 4,
    "zoom_from": 1.604,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.623
+   "zoom_ratio": 0.623,
+   "caption_offset_s": 0.1,
+   "caption_text": "ANU IMAI WAS A",
+   "transcript": {
+    "recording_t": 2729.22,
+    "cue_i": 353,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's see this get bigger.",
+    "into_cue_s": 0.55,
+    "cue_dur": 1.48,
+    "in_gap": false,
+    "prev": "Primary rolldown on SPY.",
+    "next": "And that was a big node here previously."
+   }
   },
   {
    "index": 5,
@@ -280,7 +361,22 @@
    "after_hold": 5,
    "zoom_from": 1.0,
    "zoom_to": 1.039,
-   "zoom_ratio": 1.039
+   "zoom_ratio": 1.039,
+   "caption_offset_s": -0.2,
+   "caption_text": "OU LUUA, WE HE UPTRENUING, PRIMARY",
+   "transcript": {
+    "recording_t": 2768.62,
+    "cue_i": 355,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Now let's have, SPX have a primary flip below. We're close.",
+    "into_cue_s": 3.1,
+    "cue_dur": 5.27,
+    "in_gap": false,
+    "prev": "And that was a big node here previously.",
+    "next": "Alright, for anyone short, What are your targets?"
+   }
   },
   {
    "index": 6,
@@ -293,7 +389,22 @@
    "after_hold": 6,
    "zoom_from": 1.039,
    "zoom_to": 1.593,
-   "zoom_ratio": 1.533
+   "zoom_ratio": 1.533,
+   "caption_offset_s": 0.2,
+   "caption_text": "OU LUUK, WE HE UP TRENDING, PRIMARY MOVE DOWN.",
+   "transcript": {
+    "recording_t": 2769.02,
+    "cue_i": 355,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Now let's have, SPX have a primary flip below. We're close.",
+    "into_cue_s": 3.5,
+    "cue_dur": 5.27,
+    "in_gap": false,
+    "prev": "And that was a big node here previously.",
+    "next": "Alright, for anyone short, What are your targets?"
+   }
   },
   {
    "index": 7,
@@ -306,8 +417,199 @@
    "after_hold": 7,
    "zoom_from": 1.593,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.3,
+   "caption_text": "seanenenanonaneeueues",
+   "transcript": {
+    "recording_t": 2931.92,
+    "cue_i": 370,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And then it became support, right? So that could potentially happen here, too. Where we come back above this, and now that's support.",
+    "into_cue_s": 1.48,
+    "cue_dur": 6.46,
+    "in_gap": false,
+    "prev": "primary move down.",
+    "next": "We have to remember the trend."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  2.7,
+  4.6,
+  6.9,
+  8.2,
+  9.3,
+  11.0,
+  12.9,
+  14.5,
+  16.1,
+  17.7,
+  19.1,
+  20.0,
+  22.0,
+  23.6,
+  25.5,
+  26.5,
+  28.3,
+  30.1
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.8,
+    "t1": 3.65,
+    "offset": 2524.35,
+    "n": 2
+   },
+   {
+    "t0": 7.55,
+    "t1": 7.55,
+    "offset": 2529.3,
+    "n": 1
+   },
+   {
+    "t0": 8.75,
+    "t1": 10.15,
+    "offset": 2546.73,
+    "n": 2
+   },
+   {
+    "t0": 13.7,
+    "t1": 13.7,
+    "offset": 2677.49,
+    "n": 1
+   },
+   {
+    "t0": 16.9,
+    "t1": 16.9,
+    "offset": 2680.04,
+    "n": 1
+   },
+   {
+    "t0": 19.55,
+    "t1": 19.55,
+    "offset": 2709.12,
+    "n": 1
+   },
+   {
+    "t0": 22.8,
+    "t1": 24.55,
+    "offset": 2742.32,
+    "n": 2
+   },
+   {
+    "t0": 29.2,
+    "t1": 29.2,
+    "offset": 2901.52,
+    "n": 1
+   }
+  ],
+  "matched": 13,
+  "used": 11,
+  "captions": 19,
+  "share": 0.85,
+  "cues": [
+   332,
+   333,
+   334,
+   335,
+   336,
+   337,
+   349,
+   350,
+   351,
+   352,
+   353,
+   355,
+   369,
+   370
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "LET IT TOP OUT."
+  },
+  {
+   "t": 2.15,
+   "text": "AND BECAUSE WE FE Al A NEGATIVE GAMMA,"
+  },
+  {
+   "t": 3.65,
+   "text": "TT CAN TAKE A LITTLE BIT T0 TOP OUT"
+  },
+  {
+   "t": 5.75,
+   "text": "BEFORE PRIMARY ROLL DOWN ON Q'S."
+  },
+  {
+   "t": 7.55,
+   "text": "THIS LOOKS QUITE TEXTBOOK"
+  },
+  {
+   "t": 8.75,
+   "text": "AH, BUT LOOK AT THIS."
+  },
+  {
+   "t": 10.15,
+   "text": "PUOHTIVE GAMMA 9 GETTING WEARER HERE SL"
+  },
+  {
+   "t": 11.95,
+   "text": "AIGA HERE WE hE Al PUTENTIAL CEILING ."
+  },
+  {
+   "t": 13.7,
+   "text": "QUR SUPPORT 'S GONE HERE ON 0'S."
+  },
+  {
+   "t": 15.3,
+   "text": "WHAT WUULD VE PREVIUVUOLY GUT ME 10"
+  },
+  {
+   "t": 16.9,
+   "text": "SKIP OUT ON SHORT IS GONE"
+  },
+  {
+   "t": 18.4,
+   "text": "PRIMARY ROLL DOWN ON SPY,"
+  },
+  {
+   "t": 19.55,
+   "text": "LET'S SEE THIS GET BIGGER."
+  },
+  {
+   "t": 21.0,
+   "text": "ANU THAI WAS A bib NUDE HERE PREVIOUSLY"
+  },
+  {
+   "t": 22.8,
+   "text": "NOW LET'S HAVE SPX"
+  },
+  {
+   "t": 24.55,
+   "text": "HAVE A PRIMARY FLIP BELOW."
+  },
+  {
+   "t": 26.0,
+   "text": "WE'RE CLOSE"
+  },
+  {
+   "t": 27.4,
+   "text": "OU LUUK, WE RE UP TRENDING, PRIMARY MOVE DOWN."
+  },
+  {
+   "t": 29.2,
+   "text": "ANU THEN IT BEGAME SUPPURI , RIGHT"
+  },
+  {
+   "t": 32.2,
+   "text": ""
+  }
+ ]
 }

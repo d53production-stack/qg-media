@@ -38,6 +38,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 608,
     "share": 0.00071,
@@ -65,6 +66,7 @@
     0.339,
     0.445
    ],
+   "direct": true,
    "ink": {
     "px": 2813,
     "share": 0.0033,
@@ -119,6 +121,7 @@
     0.605,
     0.484
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -150,7 +153,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "NOW IT S KIND OF TURNING"
   },
   {
    "index": 1,
@@ -163,7 +168,9 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.474,
-   "zoom_ratio": 1.474
+   "zoom_ratio": 1.474,
+   "caption_offset_s": 0.1,
+   "caption_text": "WOULD BE IN"
   },
   {
    "index": 2,
@@ -176,7 +183,9 @@
    "after_hold": 2,
    "zoom_from": 1.474,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.678
+   "zoom_ratio": 0.678,
+   "caption_offset_s": 0.3,
+   "caption_text": "NU, DUWNOIWE KEEPS TESTING AND KEEPS FAILING."
   },
   {
    "index": 3,
@@ -189,7 +198,9 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": 1.233,
-   "zoom_ratio": 1.233
+   "zoom_ratio": 1.233,
+   "caption_offset_s": -0.1,
+   "caption_text": "Seco"
   },
   {
    "index": 4,
@@ -202,8 +213,113 @@
    "after_hold": 4,
    "zoom_from": 1.233,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "Seunanacooosoneanenes"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  2.9,
+  5.5,
+  6.9,
+  8.5,
+  10.0,
+  11.3,
+  12.8,
+  14.0,
+  15.9,
+  17.5,
+  19.4,
+  20.5,
+  21.5,
+  22.6,
+  23.3,
+  24.3,
+  25.4,
+  26.8
+ ],
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "NOW IT'S KIND OF TURNING"
+  },
+  {
+   "t": 2.25,
+   "text": "INTO ANOTHER TRAPDOOR SETUP IF"
+  },
+  {
+   "t": 4.2,
+   "text": "77730 DOESN'T HOLD"
+  },
+  {
+   "t": 6.2,
+   "text": "THE ONLY THING IS 7730 IS"
+  },
+  {
+   "t": 7.7,
+   "text": "AULUING IN VALUE, BUT NUW YUU RE SEE-"
+  },
+  {
+   "t": 9.25,
+   "text": "YUU RE, YUU RE GETTING TEASED LEO 10"
+  },
+  {
+   "t": 10.65,
+   "text": "THE UPSIDE BECAUSE OF THIS"
+  },
+  {
+   "t": 12.05,
+   "text": "WOULD BE IN SHORTS HERE"
+  },
+  {
+   "t": 13.4,
+   "text": "JUST BECAUSE THIS LOST VALUE"
+  },
+  {
+   "t": 14.95,
+   "text": "NU, DUWNOIWE KEEPS TESTING AND KEEPS FAILING."
+  },
+  {
+   "t": 16.7,
+   "text": "BUT IF IT KEEPS TESTING IT,"
+  },
+  {
+   "t": 18.45,
+   "text": "AL OUME PUINT THAT SUPPURT WILL FAIL"
+  },
+  {
+   "t": 19.95,
+   "text": "THIS DOWN HERE, ABSOLUTELY."
+  },
+  {
+   "t": 21.0,
+   "text": "AND NOW LOOK AT ALL THIS"
+  },
+  {
+   "t": 22.05,
+   "text": "GROWTH WE HAVE HERE ON THE Q'S."
+  },
+  {
+   "t": 22.95,
+   "text": "CAME OUT OF NOWHERE."
+  },
+  {
+   "t": 23.8,
+   "text": "ALSO ON SPY"
+  },
+  {
+   "t": 24.85,
+   "text": "VALUES UEGREASED, VALUES INCREASED T0"
+  },
+  {
+   "t": 26.1,
+   "text": "THE DOWNSIDE MAX, YOU ASKED"
+  },
+  {
+   "t": 29.12,
+   "text": "Paces Sees"
+  }
+ ]
 }

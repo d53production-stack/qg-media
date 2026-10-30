@@ -38,6 +38,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 937,
     "share": 0.0011,
@@ -65,6 +66,7 @@
     0.64,
     0.462
    ],
+   "direct": true,
    "ink": {
     "px": 1051,
     "share": 0.00123,
@@ -119,6 +121,7 @@
     0.739,
     0.457
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -138,6 +141,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 1230,
     "share": 0.00144,
@@ -177,7 +181,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.8,
+   "caption_text": "WE HAVE oUME oUPPUR OHUWING UP HERE."
   },
   {
    "index": 1,
@@ -190,7 +196,9 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.672,
-   "zoom_ratio": 1.672
+   "zoom_ratio": 1.672,
+   "caption_offset_s": -0.4,
+   "caption_text": "TWU TRAPUUURS INTU UR OPT SUPPORT"
   },
   {
    "index": 2,
@@ -203,7 +211,9 @@
    "after_hold": 2,
    "zoom_from": 1.672,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.598
+   "zoom_ratio": 0.598,
+   "caption_offset_s": -0.1,
+   "caption_text": "Gay I Ld I 1 Sere ey eee ee I I 1 I a OIF noe as es ns nn nn nn"
   },
   {
    "index": 3,
@@ -216,7 +226,9 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": 1.617,
-   "zoom_ratio": 1.617
+   "zoom_ratio": 1.617,
+   "caption_offset_s": 0.2,
+   "caption_text": "THESE TWO ARE STILL BATTLING."
   },
   {
    "index": 4,
@@ -229,7 +241,9 @@
    "after_hold": 4,
    "zoom_from": 1.617,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.618
+   "zoom_ratio": 0.618,
+   "caption_offset_s": -0.2,
+   "caption_text": "THIS PRIMARY 1d GUNNA OTIGR UP SSSeeeees zeeeeeeees"
   },
   {
    "index": 5,
@@ -242,8 +256,123 @@
    "after_hold": 5,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.8,
+   "caption_text": "Sennenennnaneneeneues"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.2,
+  5.0,
+  7.9,
+  8.6,
+  10.1,
+  11.7,
+  13.4,
+  14.5,
+  15.3,
+  16.7,
+  18.1,
+  21.0,
+  22.3,
+  24.0,
+  25.8,
+  27.7,
+  29.1,
+  30.3,
+  31.7,
+  32.9,
+  34.1
+ ],
+ "captions": [
+  {
+   "t": 1.1,
+   "text": "WE HAVE oUME oUPPUR OHUWING UP HERE."
+  },
+  {
+   "t": 3.6,
+   "text": "TWU TRAPUUURS INTU UR OPT SUPPORT"
+  },
+  {
+   "t": 6.45,
+   "text": "PRIMARY HULLED UP FRUM U TU 771."
+  },
+  {
+   "t": 8.25,
+   "text": "THEY'RE BATTLING."
+  },
+  {
+   "t": 9.35,
+   "text": "IFYOU'REA BULL, YOU WANNA SEE"
+  },
+  {
+   "t": 10.9,
+   "text": "TAS GUNTINUE TU INGREADE IN PRICE, YOU"
+  },
+  {
+   "t": 12.55,
+   "text": "WANNA SEE TAs GUNTINUE 10 INCREASE IN PRICE."
+  },
+  {
+   "t": 13.95,
+   "text": "AND THIS ONE AS WELL"
+  },
+  {
+   "t": 14.9,
+   "text": "IF YOU'RE A BEAR."
+  },
+  {
+   "t": 16.0,
+   "text": "YUU WANINA OEE This INGREADE IN VALUE."
+  },
+  {
+   "t": 17.4,
+   "text": "THIS INCREASE IN VALUE"
+  },
+  {
+   "t": 19.55,
+   "text": "TRAP UUUR LUURO LIKELY DUWN TU 768"
+  },
+  {
+   "t": 21.65,
+   "text": "THESE TWO ARE STILL BATTLING."
+  },
+  {
+   "t": 23.15,
+   "text": "31 AND 34 PRIMARY"
+  },
+  {
+   "t": 24.9,
+   "text": "IT'D BE A HUGE TELL IF THE"
+  },
+  {
+   "t": 26.75,
+   "text": "3 1 STUPPEU BEING A MAJUR UNE NODE."
+  },
+  {
+   "t": 28.4,
+   "text": "MAYBE FLIP TO BEING A MAJOR TWO."
+  },
+  {
+   "t": 29.7,
+   "text": "THAT'D BE A HUGE TELL THAT"
+  },
+  {
+   "t": 31.0,
+   "text": "THIS PRIMARY 1S GUNNA OTIGK UP HERE."
+  },
+  {
+   "t": 32.3,
+   "text": "AND THEN YOU WOULD HAVE"
+  },
+  {
+   "t": 33.5,
+   "text": "ALL THREE PRIMARIES ABOVE SPOT"
+  },
+  {
+   "t": 36.44,
+   "text": ""
+  }
+ ]
 }

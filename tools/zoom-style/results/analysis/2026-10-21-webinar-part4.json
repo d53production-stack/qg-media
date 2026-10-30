@@ -38,6 +38,7 @@
     0.487,
     0.296
    ],
+   "direct": true,
    "ink": {
     "px": 2349,
     "share": 0.00275,
@@ -84,6 +85,7 @@
     0.747,
     0.419
    ],
+   "direct": true,
    "ink": {
     "px": 603,
     "share": 0.00071,
@@ -111,6 +113,7 @@
     0.371,
     0.304
    ],
+   "direct": true,
    "ink": {
     "px": 3826,
     "share": 0.00448,
@@ -138,6 +141,7 @@
     0.499,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 105,
     "share": 0.00012,
@@ -165,6 +169,7 @@
     0.493,
     0.443
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -196,7 +201,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.636,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -3.0,
+   "caption_text": "TNE A LOOK UP",
+   "transcript": {
+    "recording_t": 1563.12,
+    "cue_i": 129,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Take a look up here.",
+    "into_cue_s": 1.14,
+    "cue_dur": 1.33,
+    "in_gap": false,
+    "prev": "And back to the upside, like I mentioned. Yeah, that could be a good\u2026 a good little trade.",
+    "next": "It's 70 and 75 SPX."
+   }
   },
   {
    "index": 1,
@@ -209,7 +229,22 @@
    "after_hold": 1,
    "zoom_from": 1.636,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.611
+   "zoom_ratio": 0.611,
+   "caption_offset_s": 0.3,
+   "caption_text": "I'D BE. I'D BE QUITE",
+   "transcript": {
+    "recording_t": 1570.32,
+    "cue_i": 132,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "I'd be\u2026 I'd be quite careful in trading any downside.",
+    "into_cue_s": -2.47,
+    "cue_dur": 3.13,
+    "in_gap": false,
+    "prev": "These are getting close in value, so if we see that primary roll up to 75,",
+    "next": "Anybody?"
+   }
   },
   {
    "index": 2,
@@ -222,7 +257,22 @@
    "after_hold": 2,
    "zoom_from": 1.0,
    "zoom_to": 1.362,
-   "zoom_ratio": 1.362
+   "zoom_ratio": 1.362,
+   "caption_offset_s": -0.2,
+   "caption_text": "ONCE WEGET UPTO THESELEVELS",
+   "transcript": {
+    "recording_t": 1677.88,
+    "cue_i": 134,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Once we get up to these levels here at, 25 and 24 queues, it's gonna get a little bit of a grind.",
+    "into_cue_s": 1.22,
+    "cue_dur": 6.32,
+    "in_gap": false,
+    "prev": "Anybody?",
+    "next": "But then we'll be in a buy-the-dip regime."
+   }
   },
   {
    "index": 3,
@@ -235,7 +285,22 @@
    "after_hold": 3,
    "zoom_from": 1.362,
    "zoom_to": 1.586,
-   "zoom_ratio": 1.164
+   "zoom_ratio": 1.164,
+   "caption_offset_s": 0.0,
+   "caption_text": "AND TF",
+   "transcript": {
+    "recording_t": 1683.08,
+    "cue_i": 134,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Once we get up to these levels here at, 25 and 24 queues, it's gonna get a little bit of a grind.",
+    "into_cue_s": 6.42,
+    "cue_dur": 6.32,
+    "in_gap": false,
+    "prev": "Anybody?",
+    "next": "But then we'll be in a buy-the-dip regime."
+   }
   },
   {
    "index": 4,
@@ -248,7 +313,22 @@
    "after_hold": 4,
    "zoom_from": 1.586,
    "zoom_to": 1.002,
-   "zoom_ratio": 0.632
+   "zoom_ratio": 0.632,
+   "caption_offset_s": 0.4,
+   "caption_text": "PLL STILL BE BULLISH .",
+   "transcript": {
+    "recording_t": 1685.18,
+    "cue_i": 135,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "But then we'll be in a buy-the-dip regime.",
+    "into_cue_s": 1.92,
+    "cue_dur": 2.18,
+    "in_gap": false,
+    "prev": "Once we get up to these levels here at, 25 and 24 queues, it's gonna get a little bit of a grind.",
+    "next": "And if these continue to hold value, I'll still be bullish."
+   }
   },
   {
    "index": 5,
@@ -261,7 +341,22 @@
    "after_hold": 5,
    "zoom_from": 1.002,
    "zoom_to": 1.03,
-   "zoom_ratio": 1.028
+   "zoom_ratio": 1.028,
+   "caption_offset_s": 26.8,
+   "caption_text": "up ee a ea L ft ft J",
+   "transcript": {
+    "recording_t": 1712.58,
+    "cue_i": 139,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "holding us back if we're on the upside, I should be clear.",
+    "into_cue_s": 7.95,
+    "cue_dur": 2.86,
+    "in_gap": true,
+    "prev": "What is it?",
+    "next": "Max says 724 on queues."
+   }
   },
   {
    "index": 6,
@@ -274,8 +369,125 @@
    "after_hold": 6,
    "zoom_from": 1.03,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 38.1,
+   "caption_text": "SSSSe",
+   "transcript": {
+    "recording_t": 1723.88,
+    "cue_i": 140,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Max says 724 on queues.",
+    "into_cue_s": 0.34,
+    "cue_dur": 2.54,
+    "in_gap": false,
+    "prev": "holding us back if we're on the upside, I should be clear.",
+    "next": "I'd say that is a nice resistance, but what's holding us back, to me, is this magnet on SPY. $181 million."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  3.1,
+  4.7,
+  7.0,
+  8.5,
+  9.9,
+  11.8,
+  13.7,
+  15.1,
+  15.8,
+  16.8,
+  18.5,
+  19.5
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 3.9,
+    "t1": 3.9,
+    "offset": 1563.02,
+    "n": 1
+   },
+   {
+    "t0": 7.75,
+    "t1": 9.2,
+    "offset": 1565.1,
+    "n": 2
+   },
+   {
+    "t0": 10.85,
+    "t1": 16.3,
+    "offset": 1666.28,
+    "n": 5
+   }
+  ],
+  "matched": 8,
+  "used": 8,
+  "captions": 12,
+  "share": 1.0,
+  "cues": [
+   130,
+   131,
+   132,
+   134,
+   135
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.55,
+   "text": ""
+  },
+  {
+   "t": 3.9,
+   "text": "THESE ARE GETTING CLOSE IN VALUE."
+  },
+  {
+   "t": 5.85,
+   "text": "QU TF WE OEE THAT PRIMARY AULL UP T0 75."
+  },
+  {
+   "t": 7.75,
+   "text": "I'D BE. I'D BE QUITE"
+  },
+  {
+   "t": 9.2,
+   "text": "CAREFUL IN TRADING ANY DOWNSIDE."
+  },
+  {
+   "t": 10.85,
+   "text": "ONCE WE GET UP TO THESE LEVELS"
+  },
+  {
+   "t": 12.75,
+   "text": "HERE AT 25 AND 24.0'S. IT'S"
+  },
+  {
+   "t": 14.4,
+   "text": "GONNA GET ALITTLE BIT OF A GRIND,"
+  },
+  {
+   "t": 15.45,
+   "text": "BUT THEN WE'LL BE"
+  },
+  {
+   "t": 16.3,
+   "text": "IN A BUY THE DIP REGIME."
+  },
+  {
+   "t": 17.65,
+   "text": "CAND TF THESE GUNTINUE TU AULD VALUE,"
+  },
+  {
+   "t": 19.0,
+   "text": "FLLSTILLBEBULLISH."
+  },
+  {
+   "t": 40.5,
+   "text": "ee ee ee ee"
+  }
+ ]
 }

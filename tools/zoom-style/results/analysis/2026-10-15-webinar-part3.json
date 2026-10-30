@@ -38,6 +38,7 @@
     0.831,
     0.623
    ],
+   "direct": true,
    "ink": {
     "px": 1435,
     "share": 0.00168,
@@ -65,6 +66,7 @@
     0.5,
     0.532
    ],
+   "direct": true,
    "ink": {
     "px": 578,
     "share": 0.00068,
@@ -111,6 +113,7 @@
     0.775,
     0.398
    ],
+   "direct": true,
    "ink": {
     "px": 3899,
     "share": 0.00457,
@@ -138,6 +141,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 606,
     "share": 0.00071,
@@ -165,6 +169,7 @@
     0.636,
     0.402
    ],
+   "direct": true,
    "ink": {
     "px": 649,
     "share": 0.00076,
@@ -192,6 +197,7 @@
     0.505,
     0.502
    ],
+   "direct": true,
    "ink": {
     "px": 326,
     "share": 0.00038,
@@ -219,6 +225,7 @@
     0.759,
     0.558
    ],
+   "direct": true,
    "ink": {
     "px": 970,
     "share": 0.00114,
@@ -258,7 +265,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.625,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -2.4,
+   "caption_text": "NUW hls GUMES UUW INTU A LAUNCHPAD SETUP"
   },
   {
    "index": 1,
@@ -271,7 +280,9 @@
    "after_hold": 1,
    "zoom_from": 1.625,
    "zoom_to": 1.349,
-   "zoom_ratio": 0.83
+   "zoom_ratio": 0.83,
+   "caption_offset_s": 0.0,
+   "caption_text": "WE'RE HOLDING THE"
   },
   {
    "index": 2,
@@ -284,7 +295,9 @@
    "after_hold": 2,
    "zoom_from": 1.349,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.741
+   "zoom_ratio": 0.741,
+   "caption_offset_s": 0.1,
+   "caption_text": "AGAIN, I'M STILL, I'M"
   },
   {
    "index": 3,
@@ -297,7 +310,9 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": 1.736,
-   "zoom_ratio": 1.736
+   "zoom_ratio": 1.736,
+   "caption_offset_s": -0.2,
+   "caption_text": "Aho WE TALKED ABOUT WANTING -"
   },
   {
    "index": 4,
@@ -310,7 +325,9 @@
    "after_hold": 4,
    "zoom_from": 1.736,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.576
+   "zoom_ratio": 0.576,
+   "caption_offset_s": 0.6,
+   "caption_text": "sennanonanananeeueues"
   },
   {
    "index": 5,
@@ -323,7 +340,9 @@
    "after_hold": 5,
    "zoom_from": 1.0,
    "zoom_to": 1.245,
-   "zoom_ratio": 1.245
+   "zoom_ratio": 1.245,
+   "caption_offset_s": 0.4,
+   "caption_text": "TPO AIND UF"
   },
   {
    "index": 6,
@@ -336,7 +355,9 @@
    "after_hold": 6,
    "zoom_from": 1.245,
    "zoom_to": 0.994,
-   "zoom_ratio": 0.798
+   "zoom_ratio": 0.798,
+   "caption_offset_s": 0.1,
+   "caption_text": "NIGELITTLE LAUNCH PAD SET"
   },
   {
    "index": 7,
@@ -349,7 +370,9 @@
    "after_hold": 7,
    "zoom_from": 0.994,
    "zoom_to": 1.362,
-   "zoom_ratio": 1.37
+   "zoom_ratio": 1.37,
+   "caption_offset_s": 0.1,
+   "caption_text": "seanenananananeeneues"
   },
   {
    "index": 8,
@@ -362,8 +385,118 @@
    "after_hold": 8,
    "zoom_from": 1.362,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "seennenaoananeeneues"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.8,
+  4.0,
+  5.7,
+  7.8,
+  9.9,
+  10.8,
+  11.9,
+  14.0,
+  16.7,
+  18.5,
+  22.3,
+  23.6,
+  25.1,
+  26.5,
+  28.5,
+  29.6,
+  30.7,
+  32.4,
+  34.5,
+  36.0
+ ],
+ "captions": [
+  {
+   "t": 1.4,
+   "text": "NUW hls GUMES UUW INTU A LAUNCHPAD SETUP"
+  },
+  {
+   "t": 3.4,
+   "text": "WE'RE HOLDING THE SUPPORT ,"
+  },
+  {
+   "t": 4.85,
+   "text": "PRIMARY MOVE BACK UP ON SPY."
+  },
+  {
+   "t": 6.75,
+   "text": "AGAIN, I'M STILL, I'M STILL A"
+  },
+  {
+   "t": 8.85,
+   "text": "LITTLE BIT MIXED ON TRUE DIRECTION"
+  },
+  {
+   "t": 10.35,
+   "text": "WE TALKED ABOUT WANTING"
+  },
+  {
+   "t": 11.35,
+   "text": "SOME GROWTH ON THE UPSIDE."
+  },
+  {
+   "t": 12.95,
+   "text": "sennanannnanoneeueues"
+  },
+  {
+   "t": 15.35,
+   "text": "LEILING 1d DETERIURATING UN OPA 7105"
+  },
+  {
+   "t": 17.6,
+   "text": "REMEMBER, Tilo 1d OTILL A PRINVARY NODE ."
+  },
+  {
+   "t": 20.4,
+   "text": "TPO KIND UF FLIPPING BETWEEN U AND 768"
+  },
+  {
+   "t": 22.95,
+   "text": "DID THAT SETUP MAKE SENSE T0 YOU"
+  },
+  {
+   "t": 24.35,
+   "text": "THE WAY WE KINDA WICKED BELOW"
+  },
+  {
+   "t": 25.8,
+   "text": "AND THEN STILL CLOSED ABOVE THAT"
+  },
+  {
+   "t": 27.5,
+   "text": "SUPPURT , THAT PUSHTIVE GAMMA SUULIUUILU NODE WU"
+  },
+  {
+   "t": 29.05,
+   "text": "NICE LITTLE LAUNGH PAD SET"
+  },
+  {
+   "t": 30.15,
+   "text": "UP HERE ON THE Q'S"
+  },
+  {
+   "t": 31.55,
+   "text": "SoC MUREEXGHTING ry CYL LLL LLL OI"
+  },
+  {
+   "t": 33.45,
+   "text": "WEHAD A LAUNCH PAD UP,"
+  },
+  {
+   "t": 35.25,
+   "text": "BUT HERE WE HAVE A RAPUUUR DOWN."
+  },
+  {
+   "t": 38.15,
+   "text": ""
+  }
+ ]
 }

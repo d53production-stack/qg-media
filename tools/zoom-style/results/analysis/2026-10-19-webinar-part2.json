@@ -38,6 +38,7 @@
     0.804,
     0.516
    ],
+   "direct": true,
    "ink": {
     "px": 2259,
     "share": 0.00265,
@@ -65,6 +66,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -84,6 +86,7 @@
     0.821,
     0.449
    ],
+   "direct": true,
    "ink": {
     "px": 2674,
     "share": 0.00313,
@@ -150,7 +153,8 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.653,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.0
   },
   {
    "index": 1,
@@ -163,7 +167,8 @@
    "after_hold": 1,
    "zoom_from": 1.653,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.605
+   "zoom_ratio": 0.605,
+   "caption_offset_s": 0.1
   },
   {
    "index": 2,
@@ -176,7 +181,8 @@
    "after_hold": 2,
    "zoom_from": 1.0,
    "zoom_to": 1.893,
-   "zoom_ratio": 1.893
+   "zoom_ratio": 1.893,
+   "caption_offset_s": -0.4
   },
   {
    "index": 3,
@@ -189,7 +195,8 @@
    "after_hold": 3,
    "zoom_from": 1.893,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.528
+   "zoom_ratio": 0.528,
+   "caption_offset_s": 0.5
   },
   {
    "index": 4,
@@ -202,8 +209,33 @@
    "after_hold": 4,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.5
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.5,
+  3.7,
+  5.9,
+  7.8,
+  9.9,
+  11.6,
+  14.1,
+  17.1,
+  19.7,
+  20.4,
+  22.9,
+  25.8,
+  27.5,
+  30.0,
+  31.5,
+  33.5,
+  36.1,
+  36.8
+ ],
+ "align": {
+  "ok": false,
+  "reason": "no OCR captions (run caption_ocr.py)"
+ }
 }

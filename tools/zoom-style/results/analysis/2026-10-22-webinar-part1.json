@@ -38,6 +38,7 @@
     0.498,
     0.308
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -57,6 +58,7 @@
     0.356,
     0.521
    ],
+   "direct": true,
    "ink": {
     "px": 1826,
     "share": 0.00214,
@@ -84,6 +86,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 378,
     "share": 0.00044,
@@ -111,6 +114,7 @@
     0.353,
     0.689
    ],
+   "direct": true,
    "ink": {
     "px": 925,
     "share": 0.00108,
@@ -138,6 +142,7 @@
     0.673,
     0.593
    ],
+   "direct": true,
    "ink": {
     "px": 4211,
     "share": 0.00494,
@@ -165,6 +170,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 757,
     "share": 0.00089,
@@ -192,6 +198,7 @@
     0.281,
     0.524
    ],
+   "direct": true,
    "ink": {
     "px": 1502,
     "share": 0.00176,
@@ -219,6 +226,7 @@
     0.498,
     0.501
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -238,6 +246,7 @@
     0.339,
     0.615
    ],
+   "direct": true,
    "ink": {
     "px": 3707,
     "share": 0.00434,
@@ -265,6 +274,7 @@
     0.399,
     0.483
    ],
+   "direct": true,
    "ink": {
     "px": 941,
     "share": 0.0011,
@@ -292,6 +302,7 @@
     0.497,
     0.501
    ],
+   "direct": true,
    "ink": {
     "px": 1029,
     "share": 0.00121,
@@ -319,6 +330,7 @@
     0.318,
     0.501
    ],
+   "direct": true,
    "ink": {
     "px": 2899,
     "share": 0.0034,
@@ -346,6 +358,7 @@
     0.319,
     0.61
    ],
+   "direct": true,
    "ink": {
     "px": 1529,
     "share": 0.00179,
@@ -373,6 +386,7 @@
     0.318,
     0.502
    ],
+   "direct": true,
    "ink": {
     "px": 1806,
     "share": 0.00212,
@@ -400,6 +414,7 @@
     0.414,
     0.415
    ],
+   "direct": true,
    "ink": {
     "px": 1565,
     "share": 0.00183,
@@ -427,6 +442,7 @@
     0.395,
     0.487
    ],
+   "direct": true,
    "ink": {
     "px": 3326,
     "share": 0.0039,
@@ -485,7 +501,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 0.996,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -2.0,
+   "caption_text": "FUR TAUSE UF YUU THAT CAUGHT THAT TRAP DOOR .",
+   "transcript": {
+    "recording_t": 668.13,
+    "cue_i": 17,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "For those of you that caught that trapdoor, let's talk about it, right? We were in this positive gamma, and then as soon as we kind of held below this 7685, we have a trap door, positive, positive, into negative, and then we have that positive floor at 76.60.",
+    "into_cue_s": 0.57,
+    "cue_dur": 16.94,
+    "in_gap": false,
+    "prev": "I just hate being in a trade on these calls, excellent trade.",
+    "next": "We broke below that 7660. As you can see, that support diminished, and we had that primary even lower on SPY. So if you are in this trade, this would be a pretty good place to either set a nice stop in profit, or be out of the trade altogether."
+   }
   },
   {
    "index": 1,
@@ -498,7 +529,22 @@
    "after_hold": 1,
    "zoom_from": 0.996,
    "zoom_to": 1.641,
-   "zoom_ratio": 1.648
+   "zoom_ratio": 1.648,
+   "caption_offset_s": 0.3,
+   "caption_text": "- WEWEREIN THIS POSITIVE GAMMA.",
+   "transcript": {
+    "recording_t": 671.93,
+    "cue_i": 17,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "For those of you that caught that trapdoor, let's talk about it, right? We were in this positive gamma, and then as soon as we kind of held below this 7685, we have a trap door, positive, positive, into negative, and then we have that positive floor at 76.60.",
+    "into_cue_s": 4.37,
+    "cue_dur": 16.94,
+    "in_gap": false,
+    "prev": "I just hate being in a trade on these calls, excellent trade.",
+    "next": "We broke below that 7660. As you can see, that support diminished, and we had that primary even lower on SPY. So if you are in this trade, this would be a pretty good place to either set a nice stop in profit, or be out of the trade altogether."
+   }
   },
   {
    "index": 2,
@@ -511,7 +557,22 @@
    "after_hold": 2,
    "zoom_from": 1.641,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.609
+   "zoom_ratio": 0.609,
+   "caption_offset_s": -0.4,
+   "caption_text": "INTO NEGATIVE, AND THEN WE HAVE",
+   "transcript": {
+    "recording_t": 681.53,
+    "cue_i": 17,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "For those of you that caught that trapdoor, let's talk about it, right? We were in this positive gamma, and then as soon as we kind of held below this 7685, we have a trap door, positive, positive, into negative, and then we have that positive floor at 76.60.",
+    "into_cue_s": 13.97,
+    "cue_dur": 16.94,
+    "in_gap": false,
+    "prev": "I just hate being in a trade on these calls, excellent trade.",
+    "next": "We broke below that 7660. As you can see, that support diminished, and we had that primary even lower on SPY. So if you are in this trade, this would be a pretty good place to either set a nice stop in profit, or be out of the trade altogether."
+   }
   },
   {
    "index": 3,
@@ -524,7 +585,22 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": 1.558,
-   "zoom_ratio": 1.558
+   "zoom_ratio": 1.558,
+   "caption_offset_s": 0.0,
+   "caption_text": "Ad YUU",
+   "transcript": {
+    "recording_t": 685.43,
+    "cue_i": 18,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "We broke below that 7660. As you can see, that support diminished, and we had that primary even lower on SPY. So if you are in this trade, this would be a pretty good place to either set a nice stop in profit, or be out of the trade altogether.",
+    "into_cue_s": 0.86,
+    "cue_dur": 16.81,
+    "in_gap": false,
+    "prev": "For those of you that caught that trapdoor, let's talk about it, right? We were in this positive gamma, and then as soon as we kind of held below this 7685, we have a trap door, positive, positive, into negative, and then we have that positive floor at 76.60.",
+    "next": "Looks like Chase caught 150 points down."
+   }
   },
   {
    "index": 4,
@@ -537,7 +613,22 @@
    "after_hold": 4,
    "zoom_from": 1.558,
    "zoom_to": 1.547,
-   "zoom_ratio": 0.993
+   "zoom_ratio": 0.993,
+   "caption_offset_s": 0.1,
+   "caption_text": "ANU We WAU THAT PRIMARY",
+   "transcript": {
+    "recording_t": 687.63,
+    "cue_i": 18,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "We broke below that 7660. As you can see, that support diminished, and we had that primary even lower on SPY. So if you are in this trade, this would be a pretty good place to either set a nice stop in profit, or be out of the trade altogether.",
+    "into_cue_s": 3.06,
+    "cue_dur": 16.81,
+    "in_gap": false,
+    "prev": "For those of you that caught that trapdoor, let's talk about it, right? We were in this positive gamma, and then as soon as we kind of held below this 7685, we have a trap door, positive, positive, into negative, and then we have that positive floor at 76.60.",
+    "next": "Looks like Chase caught 150 points down."
+   }
   },
   {
    "index": 5,
@@ -550,7 +641,22 @@
    "after_hold": 5,
    "zoom_from": 1.547,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.646
+   "zoom_ratio": 0.646,
+   "caption_offset_s": -0.2,
+   "caption_text": "HOPE YOU'RE SEEING",
+   "transcript": {
+    "recording_t": 732.42,
+    "cue_i": 24,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "But I hope you're seeing the power of seeing the setups.",
+    "into_cue_s": -0.65,
+    "cue_dur": 4.05,
+    "in_gap": false,
+    "prev": "Too many things to keep an eye on.",
+    "next": "Put\u2026 put this, straightforward."
+   }
   },
   {
    "index": 6,
@@ -563,7 +669,22 @@
    "after_hold": 6,
    "zoom_from": 1.0,
    "zoom_to": 1.509,
-   "zoom_ratio": 1.509
+   "zoom_ratio": 1.509,
+   "caption_offset_s": 0.8,
+   "caption_text": "CLEARLY ON THE CHART FOR YOU.",
+   "transcript": {
+    "recording_t": 741.06,
+    "cue_i": 26,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Put this clearly, on the chart for you.",
+    "into_cue_s": 0.58,
+    "cue_dur": 2.78,
+    "in_gap": false,
+    "prev": "Put\u2026 put this, straightforward.",
+    "next": "Nice positive into that trap door. So, where are we expecting a balance team?"
+   }
   },
   {
    "index": 7,
@@ -576,7 +697,22 @@
    "after_hold": 7,
    "zoom_from": 1.509,
    "zoom_to": 1.003,
-   "zoom_ratio": 0.665
+   "zoom_ratio": 0.665,
+   "caption_offset_s": 0.5,
+   "caption_text": "AND SHOUT OUT",
+   "transcript": {
+    "recording_t": 768.99,
+    "cue_i": 29,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And shout out to, one of our traders yesterday was on\u2026 was number one trader on Loose's leaderboard. I think he cleared out 40K.",
+    "into_cue_s": 0.52,
+    "cue_dur": 8.43,
+    "in_gap": false,
+    "prev": "I'll wait for answers in chat. Where are we expecting a bounce?",
+    "next": "Max says $76.20 for a bounce. I would have to disagree. I'd have to say\u2026"
+   }
   },
   {
    "index": 8,
@@ -589,7 +725,22 @@
    "after_hold": 8,
    "zoom_from": 1.003,
    "zoom_to": 1.355,
-   "zoom_ratio": 1.351
+   "zoom_ratio": 1.351,
+   "caption_offset_s": -1.3,
+   "caption_text": "PD HAVE TO SAY 7635 TO 7630 IS",
+   "transcript": {
+    "recording_t": 784.23,
+    "cue_i": 30,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Max says $76.20 for a bounce. I would have to disagree. I'd have to say\u2026",
+    "into_cue_s": 4.61,
+    "cue_dur": 6.27,
+    "in_gap": false,
+    "prev": "And shout out to, one of our traders yesterday was on\u2026 was number one trader on Loose's leaderboard. I think he cleared out 40K.",
+    "next": "7635 to 7630 is gonna be where we want to bounce."
+   }
   },
   {
    "index": 9,
@@ -602,7 +753,22 @@
    "after_hold": 9,
    "zoom_from": 1.355,
    "zoom_to": 1.356,
-   "zoom_ratio": 1.001
+   "zoom_ratio": 1.001,
+   "caption_offset_s": 0.0,
+   "caption_text": "NEOATIVE VUIU INTU",
+   "transcript": {
+    "recording_t": 797.24,
+    "cue_i": 32,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "hold, and then we have a launch pad set up, right? Positive, positive, positive. We even have, you know, a nice set of positive.",
+    "into_cue_s": 6.32,
+    "cue_dur": 6.98,
+    "in_gap": false,
+    "prev": "7635 to 7630 is gonna be where we want to bounce.",
+    "next": "Negative void into this positive ceiling at 7660."
+   }
   },
   {
    "index": 10,
@@ -615,7 +781,22 @@
    "after_hold": 10,
    "zoom_from": 1.356,
    "zoom_to": 1.004,
-   "zoom_ratio": 0.74
+   "zoom_ratio": 0.74,
+   "caption_offset_s": 0.1,
+   "caption_text": "T'S THE SAME SETUP WE",
+   "transcript": {
+    "recording_t": 801.44,
+    "cue_i": 34,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "It's the same setup we saw here.",
+    "into_cue_s": -2.19,
+    "cue_dur": 2.6,
+    "in_gap": false,
+    "prev": "Negative void into this positive ceiling at 7660.",
+    "next": "Down, except this time, it's up."
+   }
   },
   {
    "index": 11,
@@ -628,7 +809,22 @@
    "after_hold": 11,
    "zoom_from": 1.004,
    "zoom_to": 1.468,
-   "zoom_ratio": 1.462
+   "zoom_ratio": 1.462,
+   "caption_offset_s": -0.6,
+   "caption_text": "YUU WANNA LOUK Al TRE VALUES, RIGHT",
+   "transcript": {
+    "recording_t": 827.83,
+    "cue_i": 37,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "once we get into this area, you want to look at the values, right? What's M1? What's primary? M1's pretty close to turning into primary. So, as soon as that M1, or that primary moves up to 7680,",
+    "into_cue_s": 2.15,
+    "cue_dur": 13.37,
+    "in_gap": false,
+    "prev": "Does that make sense, Max?",
+    "next": "In this launch pad section, we'd have a nice trade to the upside."
+   }
   },
   {
    "index": 12,
@@ -641,7 +837,22 @@
    "after_hold": 12,
    "zoom_from": 1.468,
    "zoom_to": 1.47,
-   "zoom_ratio": 1.001
+   "zoom_ratio": 1.001,
+   "caption_offset_s": 1.1,
+   "caption_text": "aor a ta t F-eN 7s eae 12S AY 6. UN cal - n - a - -",
+   "transcript": {
+    "recording_t": 829.53,
+    "cue_i": 37,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "once we get into this area, you want to look at the values, right? What's M1? What's primary? M1's pretty close to turning into primary. So, as soon as that M1, or that primary moves up to 7680,",
+    "into_cue_s": 3.85,
+    "cue_dur": 13.37,
+    "in_gap": false,
+    "prev": "Does that make sense, Max?",
+    "next": "In this launch pad section, we'd have a nice trade to the upside."
+   }
   },
   {
    "index": 13,
@@ -654,7 +865,22 @@
    "after_hold": 13,
    "zoom_from": 1.47,
    "zoom_to": 1.469,
-   "zoom_ratio": 0.999
+   "zoom_ratio": 0.999,
+   "caption_offset_s": 0.2,
+   "caption_text": "",
+   "transcript": {
+    "recording_t": 830.83,
+    "cue_i": 37,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "once we get into this area, you want to look at the values, right? What's M1? What's primary? M1's pretty close to turning into primary. So, as soon as that M1, or that primary moves up to 7680,",
+    "into_cue_s": 5.15,
+    "cue_dur": 13.37,
+    "in_gap": false,
+    "prev": "Does that make sense, Max?",
+    "next": "In this launch pad section, we'd have a nice trade to the upside."
+   }
   },
   {
    "index": 14,
@@ -667,7 +893,22 @@
    "after_hold": 14,
    "zoom_from": 1.469,
    "zoom_to": 1.673,
-   "zoom_ratio": 1.139
+   "zoom_ratio": 1.139,
+   "caption_offset_s": 1.3,
+   "caption_text": "$0. AS SOON AS THAT PRIMARY MOVES",
+   "transcript": {
+    "recording_t": 834.33,
+    "cue_i": 37,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "once we get into this area, you want to look at the values, right? What's M1? What's primary? M1's pretty close to turning into primary. So, as soon as that M1, or that primary moves up to 7680,",
+    "into_cue_s": 8.65,
+    "cue_dur": 13.37,
+    "in_gap": false,
+    "prev": "Does that make sense, Max?",
+    "next": "In this launch pad section, we'd have a nice trade to the upside."
+   }
   },
   {
    "index": 15,
@@ -680,7 +921,22 @@
    "after_hold": 15,
    "zoom_from": 1.673,
    "zoom_to": 1.458,
-   "zoom_ratio": 0.871
+   "zoom_ratio": 0.871,
+   "caption_offset_s": -1.1,
+   "caption_text": "UP TU b0U IN Tits LAUNGHFAU Y SECTION,",
+   "transcript": {
+    "recording_t": 837.33,
+    "cue_i": 37,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "once we get into this area, you want to look at the values, right? What's M1? What's primary? M1's pretty close to turning into primary. So, as soon as that M1, or that primary moves up to 7680,",
+    "into_cue_s": 11.65,
+    "cue_dur": 13.37,
+    "in_gap": false,
+    "prev": "Does that make sense, Max?",
+    "next": "In this launch pad section, we'd have a nice trade to the upside."
+   }
   },
   {
    "index": 16,
@@ -693,7 +949,22 @@
    "after_hold": 16,
    "zoom_from": 1.458,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.686
+   "zoom_ratio": 0.686,
+   "caption_offset_s": -0.5,
+   "caption_text": "WE U HAVE A NIGE TRADE IU THE UPSIDE",
+   "transcript": {
+    "recording_t": 839.83,
+    "cue_i": 38,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "In this launch pad section, we'd have a nice trade to the upside.",
+    "into_cue_s": 0.4,
+    "cue_dur": 3.99,
+    "in_gap": false,
+    "prev": "once we get into this area, you want to look at the values, right? What's M1? What's primary? M1's pretty close to turning into primary. So, as soon as that M1, or that primary moves up to 7680,",
+    "next": "That was funny, right? Not as good as Chase, but still good."
+   }
   },
   {
    "index": 17,
@@ -706,8 +977,279 @@
    "after_hold": 17,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "seanenenonananeeueues",
+   "transcript": {
+    "recording_t": 840.73,
+    "cue_i": 38,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "In this launch pad section, we'd have a nice trade to the upside.",
+    "into_cue_s": 1.3,
+    "cue_dur": 3.99,
+    "in_gap": false,
+    "prev": "once we get into this area, you want to look at the values, right? What's M1? What's primary? M1's pretty close to turning into primary. So, as soon as that M1, or that primary moves up to 7680,",
+    "next": "That was funny, right? Not as good as Chase, but still good."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.5,
+  4.0,
+  5.3,
+  7.2,
+  12.3,
+  14.3,
+  15.9,
+  17.8,
+  19.9,
+  22.5,
+  23.0,
+  24.6,
+  26.0,
+  27.7,
+  30.7,
+  32.9,
+  34.7,
+  36.5,
+  38.1,
+  41.1,
+  44.0,
+  45.7,
+  47.2,
+  48.6,
+  49.6,
+  53.7,
+  55.8,
+  57.8,
+  59.2,
+  60.8,
+  63.0,
+  65.4,
+  68.1,
+  70.8,
+  72.7
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 3.25,
+    "t1": 21.2,
+    "offset": 667.63,
+    "n": 7
+   },
+   {
+    "t0": 23.8,
+    "t1": 25.3,
+    "offset": 709.62,
+    "n": 2
+   },
+   {
+    "t0": 26.85,
+    "t1": 29.2,
+    "offset": 714.26,
+    "n": 2
+   },
+   {
+    "t0": 31.8,
+    "t1": 37.3,
+    "offset": 737.79,
+    "n": 3
+   },
+   {
+    "t0": 39.6,
+    "t1": 42.55,
+    "offset": 744.43,
+    "n": 2
+   },
+   {
+    "t0": 47.9,
+    "t1": 54.75,
+    "offset": 747.64,
+    "n": 3
+   },
+   {
+    "t0": 56.8,
+    "t1": 56.8,
+    "offset": 749.83,
+    "n": 1
+   },
+   {
+    "t0": 58.5,
+    "t1": 66.75,
+    "offset": 767.63,
+    "n": 2
+   }
+  ],
+  "matched": 23,
+  "used": 22,
+  "captions": 34,
+  "share": 0.96,
+  "cues": [
+   17,
+   18,
+   24,
+   25,
+   26,
+   27,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   37
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.25,
+   "text": "FUR TAUSE UF YUU THAT CAUGHT THAT TRAP DOOR ."
+  },
+  {
+   "t": 3.25,
+   "text": "LET'S TALK ABOUT IT, RIGHT"
+  },
+  {
+   "t": 4.65,
+   "text": "- WEWEREIN THIS POSITIVE GAMMA."
+  },
+  {
+   "t": 6.25,
+   "text": "AND THEN Ad OUUN Ad WE KINDA HELD BELOW"
+  },
+  {
+   "t": 9.75,
+   "text": "THIS 7600, WE HAVE A TRAP UUUR, POSITIVE-POSITIVE"
+  },
+  {
+   "t": 13.3,
+   "text": "INTO NEGATIVE. AND THEN WE HAVE"
+  },
+  {
+   "t": 15.1,
+   "text": "THAT POSITIVE FLOOR AT 7660."
+  },
+  {
+   "t": 16.85,
+   "text": "WE BROKE BELOW THAT 7660."
+  },
+  {
+   "t": 18.85,
+   "text": "Ad YUU GAN cE, THAT oUPPUT DIMINISHED."
+  },
+  {
+   "t": 21.2,
+   "text": "ANU We WAU THAT PRIMARY EVEN LOWER ON SPY."
+  },
+  {
+   "t": 22.75,
+   "text": "seannennoanoneeneees"
+  },
+  {
+   "t": 23.8,
+   "text": "- HOPE YOU'RE SEEING THE POWER OF,"
+  },
+  {
+   "t": 25.3,
+   "text": "SEEING THE SETUPS PUT THIS"
+  },
+  {
+   "t": 26.85,
+   "text": "CLEARLY ON THE CHART FOR YOU."
+  },
+  {
+   "t": 29.2,
+   "text": "NICE POSITIVE INTO THAT TRAP DOOR."
+  },
+  {
+   "t": 31.8,
+   "text": "AND SHOUT OUT TO ONE OF"
+  },
+  {
+   "t": 33.8,
+   "text": "UUh THAVERS YESTERDAY WAS NUMBER ONE"
+  },
+  {
+   "t": 35.6,
+   "text": "TRADER ON LUCID'S LEADERBOARD."
+  },
+  {
+   "t": 37.3,
+   "text": "THINK HE CLEARED OUT 40K."
+  },
+  {
+   "t": 39.6,
+   "text": "PD HAVE TO SAY 7635 TO 7630 IS"
+  },
+  {
+   "t": 42.55,
+   "text": "GUNNA BE WHERE WE WANNA BUUNLE, HOLD, AND"
+  },
+  {
+   "t": 44.85,
+   "text": "THEN WE HAVE A LAUNGHPAU oETUF, RIGHT"
+  },
+  {
+   "t": 46.45,
+   "text": "POSITIVE, POSITIVE."
+  },
+  {
+   "t": 47.9,
+   "text": "WE EVEN HAVE, YOU KNOW,"
+  },
+  {
+   "t": 49.1,
+   "text": "A NICE SET OF POSITIVE."
+  },
+  {
+   "t": 51.65,
+   "text": "NEGATIVE VUIU INTU TAs PUSITIVE CEILING AT 7660."
+  },
+  {
+   "t": 54.75,
+   "text": "IT'S THE SAME SETUP WE SAW HERE."
+  },
+  {
+   "t": 56.8,
+   "text": "DOWN, EXCEPT THIS TIME IT'S UP"
+  },
+  {
+   "t": 58.5,
+   "text": "ONCE WE GET INTO THIS AREA,"
+  },
+  {
+   "t": 60.0,
+   "text": "YUU WANNA LUUK Al THE VALUES, RIGHT"
+  },
+  {
+   "t": 61.9,
+   "text": ""
+  },
+  {
+   "t": 64.2,
+   "text": "MPO PRETTY GLUSE TU TURNING INTU PRIMARY."
+  },
+  {
+   "t": 66.75,
+   "text": "$0 AS SOON AS THAT PRIMARY MOVES"
+  },
+  {
+   "t": 69.45,
+   "text": "UP TU b0U IN Tits LAUNGHFAU SECTION,"
+  },
+  {
+   "t": 71.75,
+   "text": "-WEDRAVEANILE TRADE TU TRE UPSIDE"
+  },
+  {
+   "t": 74.84,
+   "text": ""
+  }
+ ]
 }

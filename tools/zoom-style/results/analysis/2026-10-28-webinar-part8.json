@@ -38,6 +38,7 @@
     0.603,
     0.499
    ],
+   "direct": true,
    "ink": {
     "px": 2610,
     "share": 0.00306,
@@ -65,6 +66,7 @@
     0.103,
     0.526
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -84,6 +86,7 @@
     0.274,
     0.541
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -103,6 +106,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 142,
     "share": 0.00017,
@@ -130,6 +134,7 @@
     0.427,
     0.568
    ],
+   "direct": true,
    "ink": {
     "px": 1801,
     "share": 0.00211,
@@ -176,6 +181,7 @@
     0.686,
     0.508
    ],
+   "direct": true,
    "ink": {
     "px": 781,
     "share": 0.00092,
@@ -203,6 +209,7 @@
     0.892,
     0.551
    ],
+   "direct": true,
    "ink": {
     "px": 946,
     "share": 0.00111,
@@ -242,7 +249,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.627,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -3.4,
+   "caption_text": "NOWHAVE A LAUNCH PAD , RIGHT oe",
+   "transcript": {
+    "recording_t": 4941.1,
+    "cue_i": 690,
+    "sure": false,
+    "direct": false,
+    "speaker": "Noreniel Barreiro",
+    "text": "Maybe nobody thinks it's gonna stay there.",
+    "into_cue_s": 40.18,
+    "cue_dur": 2.75,
+    "in_gap": true,
+    "prev": "Nothing.",
+    "next": "Oh, I'm looking at chat here, and it looks like Knight Rider called 771."
+   }
   },
   {
    "index": 1,
@@ -255,7 +277,22 @@
    "after_hold": 1,
    "zoom_from": 1.627,
    "zoom_to": 1.736,
-   "zoom_ratio": 1.067
+   "zoom_ratio": 1.067,
+   "caption_offset_s": 0.8,
+   "caption_text": "THERE o NUTRING AT TAS oT RIKE HERE,",
+   "transcript": {
+    "recording_t": 4945.3,
+    "cue_i": 691,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Oh, I'm looking at chat here, and it looks like Knight Rider called 771.",
+    "into_cue_s": 4.2,
+    "cue_dur": 4.17,
+    "in_gap": false,
+    "prev": "Maybe nobody thinks it's gonna stay there.",
+    "next": "to be support."
+   }
   },
   {
    "index": 2,
@@ -268,7 +305,22 @@
    "after_hold": 2,
    "zoom_from": 1.736,
    "zoom_to": 1.736,
-   "zoom_ratio": 1.0
+   "zoom_ratio": 1.0,
+   "caption_offset_s": 0.3,
+   "caption_text": "95,00 ON SPX.",
+   "transcript": {
+    "recording_t": 4947.7,
+    "cue_i": 692,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "to be support.",
+    "into_cue_s": 1.97,
+    "cue_dur": 1.58,
+    "in_gap": true,
+    "prev": "Oh, I'm looking at chat here, and it looks like Knight Rider called 771.",
+    "next": "Looks good. Primary rolled up on SPX, with a little bit of launch pad, a little bit of support here on Q's."
+   }
   },
   {
    "index": 3,
@@ -281,7 +333,22 @@
    "after_hold": 3,
    "zoom_from": 1.736,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.576
+   "zoom_ratio": 0.576,
+   "caption_offset_s": -0.2,
+   "caption_text": "PRIMARY ROLLED",
+   "transcript": {
+    "recording_t": 4949.2,
+    "cue_i": 692,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "to be support.",
+    "into_cue_s": 3.47,
+    "cue_dur": 1.58,
+    "in_gap": true,
+    "prev": "Oh, I'm looking at chat here, and it looks like Knight Rider called 771.",
+    "next": "Looks good. Primary rolled up on SPX, with a little bit of launch pad, a little bit of support here on Q's."
+   }
   },
   {
    "index": 4,
@@ -294,7 +361,22 @@
    "after_hold": 4,
    "zoom_from": 1.0,
    "zoom_to": 1.58,
-   "zoom_ratio": 1.58
+   "zoom_ratio": 1.58,
+   "caption_offset_s": 0.0,
+   "caption_text": "YOU WOULD",
+   "transcript": {
+    "recording_t": 4967.72,
+    "cue_i": 695,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Again, right here, if you were a bull, what would you want to see? You would just want to see 7715",
+    "into_cue_s": 2.15,
+    "cue_dur": 5.98,
+    "in_gap": false,
+    "prev": "Could see a little pop.",
+    "next": "lose value."
+   }
   },
   {
    "index": 5,
@@ -307,7 +389,22 @@
    "after_hold": 5,
    "zoom_from": 1.58,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.633
+   "zoom_ratio": 0.633,
+   "caption_offset_s": 0.5,
+   "caption_text": "STICK NOTHING IS SAYING SHORT.",
+   "transcript": {
+    "recording_t": 5000.87,
+    "cue_i": 698,
+    "sure": true,
+    "direct": true,
+    "speaker": "Noreniel Barreiro",
+    "text": "We're gonna look at it like this. Nothing is saying short right here.",
+    "into_cue_s": 1.75,
+    "cue_dur": 3.9,
+    "in_gap": false,
+    "prev": "So this primary could stick.",
+    "next": "No, nothing is saying short."
+   }
   },
   {
    "index": 6,
@@ -320,7 +417,22 @@
    "after_hold": 6,
    "zoom_from": 1.0,
    "zoom_to": 1.553,
-   "zoom_ratio": 1.553
+   "zoom_ratio": 1.553,
+   "caption_offset_s": 1.0,
+   "caption_text": "SPX GOOD SPY BREAK DOWN TO",
+   "transcript": {
+    "recording_t": 5018.97,
+    "cue_i": 701,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Right? Because we don't\u2026 we have a decent amount of space here on SPX,",
+    "into_cue_s": 5.97,
+    "cue_dur": 4.58,
+    "in_gap": true,
+    "prev": "However, I could see price dropping.",
+    "next": "Good spy breakdown to 770 and get pulled right back up to 771, of course."
+   }
   },
   {
    "index": 7,
@@ -333,7 +445,22 @@
    "after_hold": 7,
    "zoom_from": 1.553,
    "zoom_to": 1.613,
-   "zoom_ratio": 1.039
+   "zoom_ratio": 1.039,
+   "caption_offset_s": 0.0,
+   "caption_text": "TK I I l I I I I I I ry eee PN AL PRIMARY ROLL noe an en en en nn nn nn a a a ee a",
+   "transcript": {
+    "recording_t": 5023.87,
+    "cue_i": 702,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Good spy breakdown to 770 and get pulled right back up to 771, of course.",
+    "into_cue_s": 4.38,
+    "cue_dur": 5.5,
+    "in_gap": false,
+    "prev": "Right? Because we don't\u2026 we have a decent amount of space here on SPX,",
+    "next": "Yeah, yeah."
+   }
   },
   {
    "index": 8,
@@ -346,8 +473,181 @@
    "after_hold": 8,
    "zoom_from": 1.613,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 1.8,
+   "caption_text": "Sennennnananeeueues",
+   "transcript": {
+    "recording_t": 5059.46,
+    "cue_i": 709,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Primary roll down on queues.",
+    "into_cue_s": 2.5,
+    "cue_dur": 1.91,
+    "in_gap": true,
+    "prev": "Exactly",
+    "next": "722 to 721."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  3.8,
+  6.7,
+  8.7,
+  10.4,
+  12.6,
+  14.3,
+  15.3,
+  17.2,
+  18.4,
+  20.5,
+  22.5,
+  24.2,
+  26.7,
+  29.4,
+  31.5,
+  33.2,
+  35.3,
+  36.7
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 9.55,
+    "t1": 13.45,
+    "offset": 4940.7,
+    "n": 3
+   },
+   {
+    "t0": 14.8,
+    "t1": 14.8,
+    "offset": 4943.13,
+    "n": 1
+   },
+   {
+    "t0": 16.25,
+    "t1": 19.45,
+    "offset": 4949.32,
+    "n": 3
+   },
+   {
+    "t0": 23.35,
+    "t1": 23.35,
+    "offset": 4977.87,
+    "n": 1
+   },
+   {
+    "t0": 28.05,
+    "t1": 28.05,
+    "offset": 4985.6,
+    "n": 1
+   },
+   {
+    "t0": 32.35,
+    "t1": 34.25,
+    "offset": 4988.57,
+    "n": 2
+   },
+   {
+    "t0": 36.0,
+    "t1": 36.0,
+    "offset": 5020.96,
+    "n": 1
+   }
+  ],
+  "matched": 12,
+  "used": 12,
+  "captions": 18,
+  "share": 1.0,
+  "cues": [
+   693,
+   694,
+   695,
+   698,
+   701,
+   702,
+   709
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.9,
+   "text": "WE HAVE FUSTTIVE, FUSHIIVEINTIU NEGATIVE"
+  },
+  {
+   "t": 5.25,
+   "text": "THERE o NUTRING AT TAS OT RIKE HERE,"
+  },
+  {
+   "t": 7.7,
+   "text": "95,00 ON SPX."
+  },
+  {
+   "t": 9.55,
+   "text": ". PRIMARY ROLLED UP ON SPX"
+  },
+  {
+   "t": 11.5,
+   "text": "WITH ALITTLE BIT OF LAUNCHPAD A"
+  },
+  {
+   "t": 13.45,
+   "text": "LITTLE BIT OF SUPPORT HERE ON Q'S."
+  },
+  {
+   "t": 14.8,
+   "text": "COULD SEE A LITTLE POP"
+  },
+  {
+   "t": 16.25,
+   "text": "AUAIN, RIGHT HERE, IF YUU WERE A BULL."
+  },
+  {
+   "t": 17.8,
+   "text": "WHAT WOULD YOU WANNA SEE"
+  },
+  {
+   "t": 19.45,
+   "text": "YOU WOULD JUST WANNA SEE 7715"
+  },
+  {
+   "t": 21.5,
+   "text": "LOSE VALUE SO THIS PRIMARY COULD"
+  },
+  {
+   "t": 23.35,
+   "text": "STICK NOTHING IS SAYING SHORT."
+  },
+  {
+   "t": 25.45,
+   "text": "HUWEVER, GUULU occ PRICE DROPPING CAUSE."
+  },
+  {
+   "t": 28.05,
+   "text": "WE HAVE DELENT AMUUNT UF OPALE HERE ON"
+  },
+  {
+   "t": 30.45,
+   "text": "SPX GOOD SPY BREAK DOWN TO"
+  },
+  {
+   "t": 32.35,
+   "text": "770 AND GET PULLED RIGHT"
+  },
+  {
+   "t": 34.25,
+   "text": "BACK UP T0 771. OF COURSE"
+  },
+  {
+   "t": 36.0,
+   "text": "PRIMARY ROLL DOWN ON QUEUES."
+  },
+  {
+   "t": 39.53,
+   "text": ""
+  }
+ ]
 }

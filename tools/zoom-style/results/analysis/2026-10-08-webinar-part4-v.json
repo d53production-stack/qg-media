@@ -38,6 +38,7 @@
     0.657,
     0.485
    ],
+   "direct": true,
    "ink": {
     "px": 2360,
     "share": 0.00277,
@@ -92,6 +93,7 @@
     0.274,
     0.567
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -123,7 +125,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.389,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -6.3,
+   "caption_text": "CONTINUED GROWTH."
   },
   {
    "index": 1,
@@ -136,7 +140,9 @@
    "after_hold": 1,
    "zoom_from": 1.389,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.72
+   "zoom_ratio": 0.72,
+   "caption_offset_s": -2.9,
+   "caption_text": "SUPPORT GREW."
   },
   {
    "index": 2,
@@ -149,7 +155,9 @@
    "after_hold": 2,
    "zoom_from": 1.0,
    "zoom_to": 1.414,
-   "zoom_ratio": 1.414
+   "zoom_ratio": 1.414,
+   "caption_offset_s": 0.3,
+   "caption_text": "ss LET'SSEETHISGUY"
   },
   {
    "index": 3,
@@ -162,8 +170,43 @@
    "after_hold": 3,
    "zoom_from": 1.414,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0,
+   "caption_text": "IF YOU'RE"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  6.4,
+  9.0,
+  10.6,
+  21.6,
+  25.2
+ ],
+ "captions": [
+  {
+   "t": 3.2,
+   "text": "SUPPORT GREW."
+  },
+  {
+   "t": 7.7,
+   "text": "YES. ESPECIALLY BECAUSE SPX IS NOW"
+  },
+  {
+   "t": 9.8,
+   "text": "IN POSITIVE GAMMA TERRITORY."
+  },
+  {
+   "t": 16.1,
+   "text": "THAT'S 7785, SOTHAT'SAT 17."
+  },
+  {
+   "t": 23.4,
+   "text": "DEFINITELY DON'T WANT THAT."
+  },
+  {
+   "t": 26.7,
+   "text": ""
+  }
+ ]
 }

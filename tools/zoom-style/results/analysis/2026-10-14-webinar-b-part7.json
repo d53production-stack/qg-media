@@ -57,6 +57,7 @@
     0.739,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 2251,
     "share": 0.00264,
@@ -84,6 +85,7 @@
     0.415,
     0.482
    ],
+   "direct": true,
    "ink": {
     "px": 3848,
     "share": 0.00451,
@@ -111,6 +113,7 @@
     0.689,
     0.51
    ],
+   "direct": true,
    "ink": {
     "px": 2225,
     "share": 0.00261,
@@ -138,6 +141,7 @@
     0.501,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -169,7 +173,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.5,
+   "caption_text": "NOW. JUST BECAUSE A"
   },
   {
    "index": 1,
@@ -182,7 +188,9 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.488,
-   "zoom_ratio": 1.488
+   "zoom_ratio": 1.488,
+   "caption_offset_s": 0.3,
+   "caption_text": "THE VALUE OF THAT PRIMARY."
   },
   {
    "index": 2,
@@ -195,7 +203,9 @@
    "after_hold": 2,
    "zoom_from": 1.488,
    "zoom_to": 1.487,
-   "zoom_ratio": 0.999
+   "zoom_ratio": 0.999,
+   "caption_offset_s": 0.0,
+   "caption_text": ""
   },
   {
    "index": 3,
@@ -208,7 +218,9 @@
    "after_hold": 3,
    "zoom_from": 1.487,
    "zoom_to": 1.48,
-   "zoom_ratio": 0.995
+   "zoom_ratio": 0.995,
+   "caption_offset_s": -0.7,
+   "caption_text": "THE DIFFERENCE BETWEEN 80 AND 63,"
   },
   {
    "index": 4,
@@ -221,7 +233,9 @@
    "after_hold": 4,
    "zoom_from": 1.48,
    "zoom_to": 0.999,
-   "zoom_ratio": 0.675
+   "zoom_ratio": 0.675,
+   "caption_offset_s": 0.0,
+   "caption_text": "DO YOU SEE"
   },
   {
    "index": 5,
@@ -234,8 +248,118 @@
    "after_hold": 5,
    "zoom_from": 0.999,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "sennnananananeeneues"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.7,
+  3.0,
+  4.1,
+  5.3,
+  6.4,
+  8.1,
+  9.4,
+  11.6,
+  13.3,
+  14.2,
+  15.9,
+  16.8,
+  18.4,
+  20.0,
+  21.6,
+  23.2,
+  24.2,
+  25.4,
+  26.7,
+  29.0
+ ],
+ "captions": [
+  {
+   "t": 0.85,
+   "text": "NOW. JUST BECAUSE A"
+  },
+  {
+   "t": 2.35,
+   "text": "PRIMARY 1 HULUING DUEON NECESSARILY"
+  },
+  {
+   "t": 3.55,
+   "text": "MEAN THAT'S A WAGNET ABOVE."
+  },
+  {
+   "t": 4.7,
+   "text": "YOU HAVE TO SEE WHAT'S"
+  },
+  {
+   "t": 5.85,
+   "text": "THE VALUE OF THAT PRIMARY."
+  },
+  {
+   "t": 7.25,
+   "text": "IS THERE, IS THERE A CHANCE"
+  },
+  {
+   "t": 8.75,
+   "text": "THAT PRIMARY FUTENTIALLY RULLS DOWN"
+  },
+  {
+   "t": 10.5,
+   "text": "SAY WE'RE CLOSE ON SPX."
+  },
+  {
+   "t": 12.45,
+   "text": "THE DIFFERENCE BETWEEN 82 AND 69,"
+  },
+  {
+   "t": 13.75,
+   "text": "NOT TOO CRAZY"
+  },
+  {
+   "t": 15.05,
+   "text": "THE DIFFERENCE BETWEEN 80 AND 63,"
+  },
+  {
+   "t": 16.35,
+   "text": "NOT TOO CRAZY"
+  },
+  {
+   "t": 17.6,
+   "text": "HOWEVER, I'D SAY THE DIFFERENCE"
+  },
+  {
+   "t": 19.2,
+   "text": "BETWEEN THESE TWO IS GREATER."
+  },
+  {
+   "t": 20.8,
+   "text": "$0 IF WE CONTINUE TO DROP BUT THIS"
+  },
+  {
+   "t": 22.4,
+   "text": "GUNTINUES TU HULU, FU SAY THAT OA TELL"
+  },
+  {
+   "t": 23.7,
+   "text": "DO YOU SEE HOW IT'S A"
+  },
+  {
+   "t": 24.8,
+   "text": "LETT LE BET MURE DYNAMIC TRAN JUST SEEING."
+  },
+  {
+   "t": 26.05,
+   "text": "OH, WHERE'S THE PRIMARY AT"
+  },
+  {
+   "t": 27.85,
+   "text": "HS HELATIVE TU WHAT UTHER STRIKES ARE DOING"
+  },
+  {
+   "t": 31.32,
+   "text": ""
+  }
+ ]
 }

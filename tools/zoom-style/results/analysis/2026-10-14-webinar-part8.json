@@ -61,7 +61,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.2,
+   "caption_text": "NOW. JUST BECAUSE A"
   },
   {
    "index": 1,
@@ -74,8 +76,118 @@
    "after_hold": 1,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "Sennnananananeneues"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.7,
+  3.0,
+  4.1,
+  5.3,
+  6.4,
+  8.1,
+  9.5,
+  11.6,
+  13.3,
+  14.2,
+  15.9,
+  16.8,
+  18.4,
+  20.0,
+  21.6,
+  23.2,
+  24.2,
+  25.4,
+  26.7,
+  29.0
+ ],
+ "captions": [
+  {
+   "t": 0.85,
+   "text": "NOW. JUST BECAUSE A"
+  },
+  {
+   "t": 2.35,
+   "text": "PRIMARY 1S HULUING DUESN NECESSARILY"
+  },
+  {
+   "t": 3.55,
+   "text": "MEAN THAT'S A WAGNET ABOVE."
+  },
+  {
+   "t": 4.7,
+   "text": "YOU HAVE TO SEE WHAT'S"
+  },
+  {
+   "t": 5.85,
+   "text": "THE VALUE OF THAT PRIMARY."
+  },
+  {
+   "t": 7.25,
+   "text": "IS THERE, 1S THERE A CHANCE"
+  },
+  {
+   "t": 8.8,
+   "text": "THAT PRIMARY FUTENTIALLY HULLS DOWN"
+  },
+  {
+   "t": 10.55,
+   "text": "SAY WE'RE CLOSE ON SPX."
+  },
+  {
+   "t": 12.45,
+   "text": "THE DIFFERENCE BETWEEN 82 AND 69,"
+  },
+  {
+   "t": 13.75,
+   "text": "NOT TOO CRAZY"
+  },
+  {
+   "t": 15.05,
+   "text": "THE DIFFERENCE BETWEEN 80 AND 63,"
+  },
+  {
+   "t": 16.35,
+   "text": "NOT TOO CRAZY"
+  },
+  {
+   "t": 17.6,
+   "text": "HOWEVER, I'D SAY THE DIFFERENCE"
+  },
+  {
+   "t": 19.2,
+   "text": "BETWEEN THESE TWO IS GREATER."
+  },
+  {
+   "t": 20.8,
+   "text": "$0 IF WE CONTINUE TO DROP BUT THIS"
+  },
+  {
+   "t": 22.4,
+   "text": "GUNTINUES TU HULU, FU SAY THAT OA TELL"
+  },
+  {
+   "t": 23.7,
+   "text": "DO YOU SEE HOW IT'S A"
+  },
+  {
+   "t": 24.8,
+   "text": "LETT LE BET MURE DYNAMIC TRAN JUST SEEING."
+  },
+  {
+   "t": 26.05,
+   "text": "OH, WHERE'S THE PRIMARY AT"
+  },
+  {
+   "t": 27.85,
+   "text": "HS HELATIVE TU WHAT UTHER STRIKES ARE DOING"
+  },
+  {
+   "t": 31.3,
+   "text": "TAUNCH WEEK"
+  }
+ ]
 }

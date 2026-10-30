@@ -57,6 +57,7 @@
     0.265,
     0.499
    ],
+   "direct": true,
    "ink": {
     "px": 368,
     "share": 0.00043,
@@ -115,7 +116,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.035,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.4,
+   "caption_text": "SO IF PRICE COMES DOWN HERE."
   },
   {
    "index": 1,
@@ -128,7 +131,9 @@
    "after_hold": 1,
    "zoom_from": 1.035,
    "zoom_to": 1.031,
-   "zoom_ratio": 0.996
+   "zoom_ratio": 0.996,
+   "caption_offset_s": -0.5,
+   "caption_text": "$0 IF PRICE COMES DOWN HERE."
   },
   {
    "index": 2,
@@ -141,7 +146,9 @@
    "after_hold": 2,
    "zoom_from": 1.031,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.97
+   "zoom_ratio": 0.97,
+   "caption_offset_s": 0.1,
+   "caption_text": "THE FRESH NODE WORKS."
   },
   {
    "index": 3,
@@ -154,8 +161,153 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.3,
+   "caption_text": ""
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.7,
+  3.7,
+  4.9,
+  5.7,
+  7.8,
+  9.6,
+  11.6,
+  13.0,
+  14.7,
+  16.4,
+  17.8,
+  19.6,
+  21.4,
+  23.2,
+  24.6,
+  26.5,
+  28.1,
+  29.1,
+  32.0,
+  34.0,
+  35.5,
+  36.1,
+  37.9,
+  39.4,
+  41.4,
+  43.5,
+  45.1
+ ],
+ "captions": [
+  {
+   "t": 0.85,
+   "text": "$0 IF PRICE COMES DOWN HERE."
+  },
+  {
+   "t": 2.7,
+   "text": "THIS TO ME IS A VERY OBVIOUS TRADE"
+  },
+  {
+   "t": 4.3,
+   "text": "N aq sn nn"
+  },
+  {
+   "t": 5.3,
+   "text": "THIS PRIMARY WAS UNTOUCHED,"
+  },
+  {
+   "t": 6.75,
+   "text": "CAME UP AND IT GAVE US THIS TRADE"
+  },
+  {
+   "t": 8.7,
+   "text": "THE FRESH NODE WORKS."
+  },
+  {
+   "t": 10.6,
+   "text": "THE IDEA IS TRUE"
+  },
+  {
+   "t": 12.3,
+   "text": "FOR POSITIVE AND NEGATIVE NODES."
+  },
+  {
+   "t": 13.85,
+   "text": "HOWEVER, LIKE TO ENTER OFF OF"
+  },
+  {
+   "t": 15.55,
+   "text": "WALL ANU GEILINGS, AND THINK THEY'RE"
+  },
+  {
+   "t": 17.1,
+   "text": "BETTER WHEN IT'S A POSITIVE NODE."
+  },
+  {
+   "t": 18.7,
+   "text": "SAY THAT AND THEN LOOK"
+  },
+  {
+   "t": 20.5,
+   "text": "AT THIS BOUNCE HERE ON THIS"
+  },
+  {
+   "t": 22.3,
+   "text": "PRIMARY NEGATIVE NODE ON SPY."
+  },
+  {
+   "t": 23.9,
+   "text": "$0 IT CAN BE GOOD."
+  },
+  {
+   "t": 25.55,
+   "text": "BUT I LIKE, LIKE THE POSITIVE"
+  },
+  {
+   "t": 27.3,
+   "text": "ONES JUST A LITTLE BIT BETTER."
+  },
+  {
+   "t": 28.6,
+   "text": "COUPLE THINGS."
+  },
+  {
+   "t": 30.55,
+   "text": "PRIMARY HULLING DUWN, VALUES DECREASING SIGNIFICANTLY HERE."
+  },
+  {
+   "t": 33.0,
+   "text": "PRIMARY ROLLING DOWN ON SPY."
+  },
+  {
+   "t": 34.75,
+   "text": "PRIMARY ROLLING DOWN ON Q'S."
+  },
+  {
+   "t": 35.8,
+   "text": "PICK YOUR POISON"
+  },
+  {
+   "t": 37.0,
+   "text": "THE PRIMARY ITSELF AND THEN THE"
+  },
+  {
+   "t": 38.65,
+   "text": "MAJUR DUWN HERE INGREASING WOULD"
+  },
+  {
+   "t": 40.4,
+   "text": "INVALIDATE THE UPSIDE FOR ME"
+  },
+  {
+   "t": 42.45,
+   "text": "SUPPORT IS FADING HERE ON SPX."
+  },
+  {
+   "t": 44.3,
+   "text": "RIGHT. WE HAD TWO FLOORS."
+  },
+  {
+   "t": 47.23,
+   "text": "AUNGH WEEK."
+  }
+ ]
 }

@@ -38,6 +38,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -57,6 +58,7 @@
     0.329,
     0.542
    ],
+   "direct": true,
    "ink": {
     "px": 1777,
     "share": 0.00208,
@@ -111,6 +113,7 @@
     0.284,
     0.521
    ],
+   "direct": true,
    "ink": {
     "px": 1355,
     "share": 0.00159,
@@ -138,6 +141,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 365,
     "share": 0.00043,
@@ -165,6 +169,7 @@
     0.647,
     0.556
    ],
+   "direct": true,
    "ink": {
     "px": 1443,
     "share": 0.00169,
@@ -192,6 +197,7 @@
     0.653,
     0.68
    ],
+   "direct": true,
    "ink": {
     "px": 691,
     "share": 0.00081,
@@ -219,6 +225,7 @@
     0.648,
     0.555
    ],
+   "direct": true,
    "ink": {
     "px": 2553,
     "share": 0.00299,
@@ -258,7 +265,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "'M.GONNA GO AHEAD AND GET INTO IT.",
+   "transcript": {
+    "recording_t": 389.9,
+    "cue_i": 25,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "No brave souls this morning, so I'm gonna go ahead and get into it.",
+    "into_cue_s": 2.81,
+    "cue_dur": 4.99,
+    "in_gap": false,
+    "prev": "Okay.",
+    "next": "Let's talk about the chart. Currently, we have a primary at $7,700. Oops, no, didn't mean to do that."
+   }
   },
   {
    "index": 1,
@@ -271,7 +293,22 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.542,
-   "zoom_ratio": 1.542
+   "zoom_ratio": 1.542,
+   "caption_offset_s": 0.0,
+   "caption_text": "PRIMARY AT , UU, VIUVEU",
+   "transcript": {
+    "recording_t": 392.3,
+    "cue_i": 25,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "No brave souls this morning, so I'm gonna go ahead and get into it.",
+    "into_cue_s": 5.21,
+    "cue_dur": 4.99,
+    "in_gap": true,
+    "prev": "Okay.",
+    "next": "Let's talk about the chart. Currently, we have a primary at $7,700. Oops, no, didn't mean to do that."
+   }
   },
   {
    "index": 2,
@@ -284,7 +321,22 @@
    "after_hold": 2,
    "zoom_from": 1.542,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.649
+   "zoom_ratio": 0.649,
+   "caption_offset_s": -0.7,
+   "caption_text": "IS THAT A CHANGE",
+   "transcript": {
+    "recording_t": 406.22,
+    "cue_i": 28,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Is that a change in trend of the upside?",
+    "into_cue_s": 0.83,
+    "cue_dur": 2.86,
+    "in_gap": false,
+    "prev": "Primary at $7,700, moved up from $7,650, okay?",
+    "next": "No, okay? It's\u2026 it's showing that there is potentially a change of the upside, but until that primary moves up again, that to me isn't a change of trend, okay?"
+   }
   },
   {
    "index": 3,
@@ -297,7 +349,22 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": 1.387,
-   "zoom_ratio": 1.387
+   "zoom_ratio": 1.387,
+   "caption_offset_s": -0.5,
+   "caption_text": "ACHANGE OF THE UPSIDE, BUT UNTIL",
+   "transcript": {
+    "recording_t": 412.52,
+    "cue_i": 29,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "No, okay? It's\u2026 it's showing that there is potentially a change of the upside, but until that primary moves up again, that to me isn't a change of trend, okay?",
+    "into_cue_s": 4.07,
+    "cue_dur": 11.93,
+    "in_gap": false,
+    "prev": "Is that a change in trend of the upside?",
+    "next": "we came down, and guess what? When we came down that spy primary."
+   }
   },
   {
    "index": 4,
@@ -310,7 +377,22 @@
    "after_hold": 4,
    "zoom_from": 1.387,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.721
+   "zoom_ratio": 0.721,
+   "caption_offset_s": -0.8,
+   "caption_text": "THAT TO ME ISN'T A CHANGE OF TREND.",
+   "transcript": {
+    "recording_t": 415.62,
+    "cue_i": 29,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "No, okay? It's\u2026 it's showing that there is potentially a change of the upside, but until that primary moves up again, that to me isn't a change of trend, okay?",
+    "into_cue_s": 7.17,
+    "cue_dur": 11.93,
+    "in_gap": false,
+    "prev": "Is that a change in trend of the upside?",
+    "next": "we came down, and guess what? When we came down that spy primary."
+   }
   },
   {
    "index": 5,
@@ -323,7 +405,22 @@
    "after_hold": 5,
    "zoom_from": 1.0,
    "zoom_to": 1.699,
-   "zoom_ratio": 1.699
+   "zoom_ratio": 1.699,
+   "caption_offset_s": -0.6,
+   "caption_text": "- WECAME DOWN. AND GUESS WHAT",
+   "transcript": {
+    "recording_t": 421.97,
+    "cue_i": 30,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "we came down, and guess what? When we came down that spy primary.",
+    "into_cue_s": 0.47,
+    "cue_dur": 4.22,
+    "in_gap": false,
+    "prev": "No, okay? It's\u2026 it's showing that there is potentially a change of the upside, but until that primary moves up again, that to me isn't a change of trend, okay?",
+    "next": "Kept its value and kept growing, which is why we were pulled back up."
+   }
   },
   {
    "index": 6,
@@ -336,7 +433,22 @@
    "after_hold": 6,
    "zoom_from": 1.699,
    "zoom_to": 1.698,
-   "zoom_ratio": 0.999
+   "zoom_ratio": 0.999,
+   "caption_offset_s": 0.1,
+   "caption_text": "IF OU, THEN WE LL LIKELY HAVE A CONTINUATION.",
+   "transcript": {
+    "recording_t": 436.53,
+    "cue_i": 32,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "When price was coming down, your job is to look at the SPY primary value. Is that reducing in value? If so, then we'll likely have a continuation.",
+    "into_cue_s": 5.83,
+    "cue_dur": 10.14,
+    "in_gap": false,
+    "prev": "Kept its value and kept growing, which is why we were pulled back up.",
+    "next": "Okay? But instead, that magnet kept growing as we were coming down, which told us we were going to revert back up to at least that magnet."
+   }
   },
   {
    "index": 7,
@@ -349,7 +461,22 @@
    "after_hold": 7,
    "zoom_from": 1.698,
    "zoom_to": 1.698,
-   "zoom_ratio": 1.0
+   "zoom_ratio": 1.0,
+   "caption_offset_s": 1.0,
+   "caption_text": "BUT INOTEAU, THAT WIAUNE KEPT GROWING",
+   "transcript": {
+    "recording_t": 439.33,
+    "cue_i": 33,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Okay? But instead, that magnet kept growing as we were coming down, which told us we were going to revert back up to at least that magnet.",
+    "into_cue_s": -2.9,
+    "cue_dur": 8.54,
+    "in_gap": false,
+    "prev": "When price was coming down, your job is to look at the SPY primary value. Is that reducing in value? If so, then we'll likely have a continuation.",
+    "next": "Okay?"
+   }
   },
   {
    "index": 8,
@@ -362,8 +489,190 @@
    "after_hold": 8,
    "zoom_from": 1.698,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0,
+   "caption_text": "SAN",
+   "transcript": {
+    "recording_t": 448.75,
+    "cue_i": 33,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Okay? But instead, that magnet kept growing as we were coming down, which told us we were going to revert back up to at least that magnet.",
+    "into_cue_s": 6.52,
+    "cue_dur": 8.54,
+    "in_gap": false,
+    "prev": "When price was coming down, your job is to look at the SPY primary value. Is that reducing in value? If so, then we'll likely have a continuation.",
+    "next": "Okay?"
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.5,
+  2.8,
+  5.9,
+  7.5,
+  8.8,
+  11.3,
+  13.6,
+  14.9,
+  17.0,
+  18.6,
+  19.8,
+  22.4,
+  24.7,
+  27.1,
+  29.1,
+  30.6,
+  31.1,
+  33.0,
+  35.5,
+  37.0,
+  38.7,
+  40.5
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.75,
+    "t1": 2.15,
+    "offset": 389.5,
+    "n": 2
+   },
+   {
+    "t0": 8.15,
+    "t1": 15.95,
+    "offset": 399.42,
+    "n": 4
+   },
+   {
+    "t0": 17.8,
+    "t1": 19.2,
+    "offset": 403.97,
+    "n": 2
+   },
+   {
+    "t0": 23.55,
+    "t1": 29.85,
+    "offset": 405.33,
+    "n": 4
+   },
+   {
+    "t0": 34.25,
+    "t1": 39.6,
+    "offset": 408.25,
+    "n": 4
+   }
+  ],
+  "matched": 17,
+  "used": 16,
+  "captions": 22,
+  "share": 0.94,
+  "cues": [
+   25,
+   26,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.75,
+   "text": "'M.GONNA GO AHEAD AND GET INTO IT."
+  },
+  {
+   "t": 2.15,
+   "text": "LET'S TALK ABOUT THE CHART."
+  },
+  {
+   "t": 4.35,
+   "text": "PRIMARY Al , UU, MUVEU UP FRUM 7,650."
+  },
+  {
+   "t": 6.7,
+   "text": "ISTHAT A CHANGE"
+  },
+  {
+   "t": 8.15,
+   "text": "IN TREND OF THE UPSIDE"
+  },
+  {
+   "t": 10.05,
+   "text": "HS OMUWING THAT THERE Id POTENTIALLY"
+  },
+  {
+   "t": 12.45,
+   "text": "ACHANGE OF THE UPSIDE, BUT UNTIL"
+  },
+  {
+   "t": 14.25,
+   "text": "THAT PRIMARY MOVES, UP AGAIN,"
+  },
+  {
+   "t": 15.95,
+   "text": "THAT TO ME ISN'T A CHANGE OF TREND."
+  },
+  {
+   "t": 17.8,
+   "text": "WE CAME DOWN. AND GUESS WHAT"
+  },
+  {
+   "t": 19.2,
+   "text": "WHEN WE CAME DOWN."
+  },
+  {
+   "t": 21.1,
+   "text": "THAT OPY PRIMARY KEPT Il VALUE AND KEPT GROWING,"
+  },
+  {
+   "t": 23.55,
+   "text": "WHICH TS WHY WE WERE PULLED BAUR UP."
+  },
+  {
+   "t": 25.9,
+   "text": "WHEN FRIGE WAS CUMING DUWN, YUUR JOB IS"
+  },
+  {
+   "t": 28.1,
+   "text": "TOLOOK AT THE SPY PRIMARY VALUE."
+  },
+  {
+   "t": 29.85,
+   "text": "IS THAT REDUCING IN VALUE"
+  },
+  {
+   "t": 30.85,
+   "text": "Ir oU, THEN"
+  },
+  {
+   "t": 32.05,
+   "text": "IF OU, TREN WE LL LIKELY HAVE A CONTINUATION."
+  },
+  {
+   "t": 34.25,
+   "text": "BUT INOTEAU, THAT WVIAUNE KEPT GROWING"
+  },
+  {
+   "t": 36.25,
+   "text": "AS WE WERE COMING DOWN,"
+  },
+  {
+   "t": 37.85,
+   "text": "WHIGH TULU Us WE WERE GUNNA REVERT"
+  },
+  {
+   "t": 39.6,
+   "text": "BACK UPTO AT LEAST THAT MAGNET."
+  },
+  {
+   "t": 42.61,
+   "text": ""
+  }
+ ]
 }

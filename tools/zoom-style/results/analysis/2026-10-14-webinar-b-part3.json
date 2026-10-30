@@ -38,6 +38,7 @@
     0.345,
     0.611
    ],
+   "direct": true,
    "ink": {
     "px": 629,
     "share": 0.00074,
@@ -65,6 +66,7 @@
     0.289,
     0.373
    ],
+   "direct": true,
    "ink": {
     "px": 2747,
     "share": 0.00322,
@@ -146,6 +148,7 @@
     0.622,
     0.52
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -177,7 +180,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.45,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -2.2,
+   "caption_text": "OU TAPS VUID , DUES TT... TES, TT MEANS THAT,"
   },
   {
    "index": 1,
@@ -190,7 +195,9 @@
    "after_hold": 1,
    "zoom_from": 1.45,
    "zoom_to": 1.586,
-   "zoom_ratio": 1.094
+   "zoom_ratio": 1.094,
+   "caption_offset_s": 0.2,
+   "caption_text": "Te a's GREWHERE"
   },
   {
    "index": 2,
@@ -203,7 +210,9 @@
    "after_hold": 2,
    "zoom_from": 1.586,
    "zoom_to": 1.585,
-   "zoom_ratio": 0.999
+   "zoom_ratio": 0.999,
+   "caption_offset_s": 0.1,
+   "caption_text": "yy PUOHTIVE GAMMA INTO NEGATIVE Veer e. LEL LIL"
   },
   {
    "index": 3,
@@ -216,7 +225,9 @@
    "after_hold": 3,
    "zoom_from": 1.585,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.631
+   "zoom_ratio": 0.631,
+   "caption_offset_s": 0.6,
+   "caption_text": "SO THIS IS KIND OF THE TEST."
   },
   {
    "index": 4,
@@ -229,7 +240,9 @@
    "after_hold": 4,
    "zoom_from": 1.0,
    "zoom_to": 1.408,
-   "zoom_ratio": 1.408
+   "zoom_ratio": 1.408,
+   "caption_offset_s": 0.1,
+   "caption_text": ""
   },
   {
    "index": 5,
@@ -242,8 +255,98 @@
    "after_hold": 5,
    "zoom_from": 1.408,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "sennenenaoananeeueues"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.6,
+  4.3,
+  5.6,
+  7.1,
+  9.1,
+  11.6,
+  14.3,
+  16.0,
+  17.2,
+  19.0,
+  22.1,
+  25.5,
+  28.5,
+  29.5,
+  30.4,
+  32.4
+ ],
+ "captions": [
+  {
+   "t": 1.3,
+   "text": "QU TAs VUIU , DUES TT... YES, HT MEANS THAT."
+  },
+  {
+   "t": 3.45,
+   "text": "LIKE, THERE ISN'T ANY SUPPORT HERE."
+  },
+  {
+   "t": 4.95,
+   "text": "HOWEVER, IT DOESN'T CANCEL"
+  },
+  {
+   "t": 6.35,
+   "text": "OUT M1 BEING A MAGNET"
+  },
+  {
+   "t": 8.1,
+   "text": "2 LAUNCHPAD Soup, en en en en ee en en ee"
+  },
+  {
+   "t": 10.35,
+   "text": "PUOTTIVE GAMIVIA INTU NEGATIVE GAMMA INTO VOID."
+  },
+  {
+   "t": 12.95,
+   "text": "PUOITIVE GAMMA INTU NEGATIVE GAMMA HERE ON SPY."
+  },
+  {
+   "t": 15.15,
+   "text": "SO THIS IS KIND OF THE TEST."
+  },
+  {
+   "t": 16.6,
+   "text": "IF WE CAN HOLD AND RECLAIM,"
+  },
+  {
+   "t": 18.1,
+   "text": "RIGHT NOW I STILL DON'T LOVE UPSIDE."
+  },
+  {
+   "t": 20.55,
+   "text": "BIGPRIMARY ROLL DOWN ON G'S,"
+  },
+  {
+   "t": 23.8,
+   "text": "39 DOWN TO 36"
+  },
+  {
+   "t": 27.0,
+   "text": "BUT TWU OUT UF TAREE WERE TELLING US DOWN."
+  },
+  {
+   "t": 29.0,
+   "text": "AND NOW THREE OF... OUT OF"
+  },
+  {
+   "t": 29.95,
+   "text": "THREE ARE TELLING US DOWN"
+  },
+  {
+   "t": 31.4,
+   "text": "RIGHT NOW WE ARE PINNING"
+  },
+  {
+   "t": 34.72,
+   "text": "ee a"
+  }
+ ]
 }

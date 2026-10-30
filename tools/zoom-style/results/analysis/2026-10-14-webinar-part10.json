@@ -61,7 +61,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "THIS IS WHY SAY EARLIER,"
   },
   {
    "index": 1,
@@ -74,8 +76,103 @@
    "after_hold": 1,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": "Seenenennnananeoneuee"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  2.8,
+  4.3,
+  6.2,
+  8.1,
+  9.1,
+  10.9,
+  12.4,
+  21.2,
+  22.0,
+  23.0,
+  24.2,
+  26.0,
+  27.5,
+  29.7,
+  32.8,
+  35.3
+ ],
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "THIS IS WHY SAY EARLIER,"
+  },
+  {
+   "t": 2.2,
+   "text": "YOU WANT TO BE CHASING"
+  },
+  {
+   "t": 3.55,
+   "text": "A PRIMARY THAT CAN MOVE UP."
+  },
+  {
+   "t": 5.25,
+   "text": "INTHIS CASE, M2. YOU KNOW."
+  },
+  {
+   "t": 7.15,
+   "text": "AUW GUMPETITIVE 1S PRIMARY RIGHT NOW"
+  },
+  {
+   "t": 8.6,
+   "text": "NOT VERY COMPETITIVE."
+  },
+  {
+   "t": 10.0,
+   "text": "HOWEVER, WE DO HAVE THESE HIGHER"
+  },
+  {
+   "t": 11.65,
+   "text": "PRIMARIES ON SPY AND 00"
+  },
+  {
+   "t": 16.8,
+   "text": "sennnennnananeeneues"
+  },
+  {
+   "t": 21.6,
+   "text": "JUST TRADING THIS RANGE"
+  },
+  {
+   "t": 22.5,
+   "text": "PRIMARY'S HOLDING."
+  },
+  {
+   "t": 23.6,
+   "text": "sennnannnananeoueues"
+  },
+  {
+   "t": 25.1,
+   "text": "SEEING SUME GHUWIT UP HERE, A LITTLE TANTALIZING."
+  },
+  {
+   "t": 26.75,
+   "text": "LET 9, LET oe IF PRIMARY MUVES UP."
+  },
+  {
+   "t": 28.6,
+   "text": "AGAIN, JUST TRADING THIS RANGE"
+  },
+  {
+   "t": 31.25,
+   "text": "senenannnananeeueues"
+  },
+  {
+   "t": 34.05,
+   "text": "NEGATIVE GAMMA HERE WITH PRIMARY ABOVE."
+  },
+  {
+   "t": 37.44,
+   "text": "LAUNCH WEEK"
+  }
+ ]
 }

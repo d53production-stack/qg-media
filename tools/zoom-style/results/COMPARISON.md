@@ -25,3 +25,16 @@ Matt's numbers are medians over 97 highlight clips (73.2 min). Claude's are the 
 - Wide holds with red ink on screen (Claude's rules would zoom on these): 122 of 276 (0.44)
 - When ink is inside a zoomed hold, its centre sits a median 0.138 of the window away from centre (0 = dead centre, 0.5 = at the edge)
 
+
+## What is being said when the frame moves (68 clips aligned to the Zoom transcripts)
+
+| what | Matt (measured) | Claude (default) | read |
+|---|---|---|---|
+| when the zoom-in starts | mid-sentence: 30% within 1 s of the sentence start, median 2.17 s in | at the start of the sentence that names the thing | Matt waits for the noun |
+| when the zoom-out starts | at the next sentence: 46% within 1 s of its start | when the topic changes | same idea, Matt is quicker |
+| sentences that draw a zoom-in | ticker 1.6x, price level 1.6x, "primary / value / magnet" 1.3x, "here / this / look" 1.3x the base rate | zoom on every "look here" and every new annotation | pointing words are too common to be the trigger; the level or ticker is |
+| share of sentences with a zoom-in | 22% | would be higher (every pointing word) | Claude would over-zoom |
+| whose words | Chuy, 161 of 162 zoom-ins | the speaker | same |
+| spoken drawing cues | 5 sentences in 681 say draw / line / pencil | would wait for them | the pencil is seen, not said: use the ink detector |
+
+The per-move listing is in `zoom-sentences.md`; the aggregates in `TRIGGERS.md` and `triggers.json`.

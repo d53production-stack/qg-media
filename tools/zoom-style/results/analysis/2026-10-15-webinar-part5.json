@@ -38,6 +38,7 @@
     0.494,
     0.498
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -57,6 +58,7 @@
     0.317,
     0.45
    ],
+   "direct": true,
    "ink": {
     "px": 1646,
     "share": 0.00193,
@@ -84,6 +86,7 @@
     0.925,
     0.494
    ],
+   "direct": true,
    "ink": {
     "px": 2272,
     "share": 0.00266,
@@ -111,6 +114,7 @@
     0.654,
     0.439
    ],
+   "direct": true,
    "ink": {
     "px": 944,
     "share": 0.00111,
@@ -165,6 +169,7 @@
     0.645,
     0.381
    ],
+   "direct": true,
    "ink": {
     "px": 591,
     "share": 0.00069,
@@ -204,7 +209,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.005,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.9,
+   "caption_text": "PRIMARY OPIKE, NIGE LITTLE REJEGT DOWN 10 69"
   },
   {
    "index": 1,
@@ -217,7 +224,9 @@
    "after_hold": 1,
    "zoom_from": 1.005,
    "zoom_to": 1.362,
-   "zoom_ratio": 1.355
+   "zoom_ratio": 1.355,
+   "caption_offset_s": 0.0,
+   "caption_text": "x THIS IS A oe"
   },
   {
    "index": 2,
@@ -230,7 +239,9 @@
    "after_hold": 2,
    "zoom_from": 1.362,
    "zoom_to": 2.067,
-   "zoom_ratio": 1.518
+   "zoom_ratio": 1.518,
+   "caption_offset_s": 0.0,
+   "caption_text": ""
   },
   {
    "index": 3,
@@ -243,7 +254,9 @@
    "after_hold": 3,
    "zoom_from": 2.067,
    "zoom_to": 1.339,
-   "zoom_ratio": 0.648
+   "zoom_ratio": 0.648,
+   "caption_offset_s": 0.4,
+   "caption_text": "FLOOR GREW SEE HOW THAT SUPPORT"
   },
   {
    "index": 4,
@@ -256,7 +269,9 @@
    "after_hold": 4,
    "zoom_from": 1.339,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.747
+   "zoom_ratio": 0.747,
+   "caption_offset_s": 1.2,
+   "caption_text": "THAT CLEARS US OUT"
   },
   {
    "index": 5,
@@ -269,7 +284,9 @@
    "after_hold": 5,
    "zoom_from": 1.0,
    "zoom_to": 1.516,
-   "zoom_ratio": 1.516
+   "zoom_ratio": 1.516,
+   "caption_offset_s": 0.0,
+   "caption_text": "YOU HOLD THIS"
   },
   {
    "index": 6,
@@ -282,8 +299,128 @@
    "after_hold": 6,
    "zoom_from": 1.516,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.4,
+   "caption_text": ""
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  2.4,
+  3.3,
+  4.4,
+  5.8,
+  7.5,
+  9.7,
+  12.3,
+  13.0,
+  15.0,
+  17.0,
+  18.0,
+  19.9,
+  21.9,
+  23.1,
+  24.9,
+  26.4,
+  27.5,
+  28.9,
+  32.5,
+  34.1,
+  36.0,
+  37.4
+ ],
+ "captions": [
+  {
+   "t": 1.2,
+   "text": "PRIMARY OPIRE, NIGE LITTLE REJEGT DOWN 10 69"
+  },
+  {
+   "t": 2.85,
+   "text": "ss THISISAWEAKONE tt"
+  },
+  {
+   "t": 3.85,
+   "text": "BUTI WANNA POINT THIS OUT."
+  },
+  {
+   "t": 5.1,
+   "text": "WHEN YOUHAVE POSITIVE"
+  },
+  {
+   "t": 6.65,
+   "text": "NEGATIVE. POSITIVE THISISA"
+  },
+  {
+   "t": 8.6,
+   "text": "BEAUTIFUL SETUP TO TRADE DOWN."
+  },
+  {
+   "t": 11.0,
+   "text": "TRADE UP TRADE DOWN, TRADE UP."
+  },
+  {
+   "t": 12.65,
+   "text": "AGAIN. IT'S WEAK. cx"
+  },
+  {
+   "t": 14.0,
+   "text": "- YOUDON'THAVESTRONG FLOOR,"
+  },
+  {
+   "t": 16.0,
+   "text": "STRUNG CEILING, AND YUUR NEGATIVE'S"
+  },
+  {
+   "t": 17.5,
+   "text": "QUITE WEAK THEREAS WELL."
+  },
+  {
+   "t": 18.95,
+   "text": "BUTWHEN YOU SEEA SANDWICH"
+  },
+  {
+   "t": 20.9,
+   "text": "CLINE NIGE LITTLE RETURN TU MEAN SETUP"
+  },
+  {
+   "t": 22.5,
+   "text": "- WEHOLD BELOW HERE, TRAP DOOR"
+  },
+  {
+   "t": 24.0,
+   "text": "FLOOR GREW SEE HOW THAT SUPPORT"
+  },
+  {
+   "t": 25.65,
+   "text": "GREW INTO THAT POSITIVE GAMA"
+  },
+  {
+   "t": 26.95,
+   "text": "LIKE SAID A SECOND AGO"
+  },
+  {
+   "t": 28.2,
+   "text": "NOW. IF WE CAN HOLD THIS."
+  },
+  {
+   "t": 30.7,
+   "text": "THAT CLEARS US OUT FOR 7740."
+  },
+  {
+   "t": 33.3,
+   "text": "MAYBE 730 ON O'S"
+  },
+  {
+   "t": 35.05,
+   "text": "MUGH MURE EVENTFUL THAN YESTERDAY"
+  },
+  {
+   "t": 36.7,
+   "text": "YOU HOLD THIS. GUESS WHAT"
+  },
+  {
+   "t": 39.55,
+   "text": "a a a a a a"
+  }
+ ]
 }

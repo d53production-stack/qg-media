@@ -57,6 +57,7 @@
     0.762,
     0.397
    ],
+   "direct": true,
    "ink": {
     "px": 1055,
     "share": 0.00124,
@@ -84,6 +85,7 @@
     0.306,
     0.459
    ],
+   "direct": true,
    "ink": {
     "px": 4568,
     "share": 0.00535,
@@ -111,6 +113,7 @@
     0.499,
     0.501
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -142,7 +145,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "NOW THIS IS. THIS IS KIND OF",
+   "transcript": {
+    "recording_t": 4339.43,
+    "cue_i": 518,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Now, this is\u2026 this is kind of the setup that a lot of people fall for, and then get screwed.",
+    "into_cue_s": 0.1,
+    "cue_dur": 5.31,
+    "in_gap": false,
+    "prev": "I'm kidding, I'm just picking on you, Max.",
+    "next": "Look, we're pretty close to a magnet here on the SPY, we're pretty close to a magnet here on Q's, okay?"
+   }
   },
   {
    "index": 1,
@@ -155,7 +173,22 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.262,
-   "zoom_ratio": 1.262
+   "zoom_ratio": 1.262,
+   "caption_offset_s": 0.3,
+   "caption_text": "LOOK, WE'RE PRETTY CLOSE TO A",
+   "transcript": {
+    "recording_t": 4344.23,
+    "cue_i": 519,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Look, we're pretty close to a magnet here on the SPY, we're pretty close to a magnet here on Q's, okay?",
+    "into_cue_s": -0.58,
+    "cue_dur": 7.25,
+    "in_gap": false,
+    "prev": "Now, this is\u2026 this is kind of the setup that a lot of people fall for, and then get screwed.",
+    "next": "You want to watch these numbers?"
+   }
   },
   {
    "index": 2,
@@ -168,7 +201,22 @@
    "after_hold": 2,
    "zoom_from": 1.262,
    "zoom_to": 1.424,
-   "zoom_ratio": 1.128
+   "zoom_ratio": 1.128,
+   "caption_offset_s": 0.4,
+   "caption_text": "EOPEGIALLY UFF UF NEGATIVE GAMMA HERE ON SPX.",
+   "transcript": {
+    "recording_t": 4369.86,
+    "cue_i": 524,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Go to Purgatory, right in this little range here.",
+    "into_cue_s": 2.31,
+    "cue_dur": 2.84,
+    "in_gap": false,
+    "prev": "Will a pin uncoil? Sure. But for the time being, you know, your contracts could be dying.",
+    "next": "Especially off of negative gamma here on SPX, there's nothing really for it to reject from, nothing really for it to bounce from."
+   }
   },
   {
    "index": 3,
@@ -181,7 +229,22 @@
    "after_hold": 3,
    "zoom_from": 1.424,
    "zoom_to": 1.001,
-   "zoom_ratio": 0.703
+   "zoom_ratio": 0.703,
+   "caption_offset_s": 0.1,
+   "caption_text": "Sennnenanananeeneuee",
+   "transcript": {
+    "recording_t": 4379.17,
+    "cue_i": 525,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Especially off of negative gamma here on SPX, there's nothing really for it to reject from, nothing really for it to bounce from.",
+    "into_cue_s": 5.54,
+    "cue_dur": 6.6,
+    "in_gap": false,
+    "prev": "Go to Purgatory, right in this little range here.",
+    "next": "Is, SPX, like, down in the area where you were just\u2026"
+   }
   },
   {
    "index": 4,
@@ -194,8 +257,202 @@
    "after_hold": 4,
    "zoom_from": 1.001,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.3,
+   "caption_text": "seanenenouaoaneenees",
+   "transcript": {
+    "recording_t": 4496.74,
+    "cue_i": 543,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let's highlight what's happening on queues.",
+    "into_cue_s": 1.52,
+    "cue_dur": 2.21,
+    "in_gap": false,
+    "prev": "These are just kind of areas where we're expecting reactions based on that structure.",
+    "next": "Right? We had a primary."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.5,
+  3.0,
+  4.9,
+  6.6,
+  9.1,
+  11.2,
+  12.8,
+  15.0,
+  16.9,
+  18.8,
+  20.8,
+  21.8,
+  23.1,
+  25.6,
+  27.6,
+  29.3,
+  31.6,
+  33.1,
+  34.8,
+  36.3,
+  37.7,
+  38.9,
+  40.6
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.75,
+    "t1": 7.85,
+    "offset": 4339.03,
+    "n": 5
+   },
+   {
+    "t0": 12.0,
+    "t1": 12.0,
+    "offset": 4340.22,
+    "n": 1
+   },
+   {
+    "t0": 17.85,
+    "t1": 22.45,
+    "offset": 4346.36,
+    "n": 3
+   },
+   {
+    "t0": 28.45,
+    "t1": 28.45,
+    "offset": 4349.77,
+    "n": 1
+   },
+   {
+    "t0": 32.35,
+    "t1": 38.3,
+    "offset": 4427.79,
+    "n": 4
+   },
+   {
+    "t0": 39.75,
+    "t1": 39.75,
+    "offset": 4455.84,
+    "n": 1
+   }
+  ],
+  "matched": 16,
+  "used": 15,
+  "captions": 23,
+  "share": 0.94,
+  "cues": [
+   518,
+   519,
+   520,
+   523,
+   524,
+   525,
+   541,
+   542,
+   543
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.75,
+   "text": "NOW THIS IS. THIS IS KIND OF"
+  },
+  {
+   "t": 2.25,
+   "text": "THE SETUP THAT A LOT OF PEOPLE"
+  },
+  {
+   "t": 3.95,
+   "text": "FALL FOR AND THEY GET SCREWED."
+  },
+  {
+   "t": 5.75,
+   "text": "LOOK, WE'RE PRETTY CLOSE TO A"
+  },
+  {
+   "t": 7.85,
+   "text": "MAGNET HERE ON THE SPY."
+  },
+  {
+   "t": 10.15,
+   "text": "AMAGNET HERE ON 0'S."
+  },
+  {
+   "t": 12.0,
+   "text": "YOU WANNA WATCH THESE NUMBERS."
+  },
+  {
+   "t": 13.9,
+   "text": "IF TREY GUNTINUE TU GRUW, WHAT GONNA HAPPEN"
+  },
+  {
+   "t": 15.95,
+   "text": "WE RE GUNNA GET PINNED WILL IT PIN UNCOIL"
+  },
+  {
+   "t": 17.85,
+   "text": "BUT FOR THE TIME BEING."
+  },
+  {
+   "t": 19.8,
+   "text": "YUU ANUW, YUUR GUNTRAGTS LUULD BE DYING."
+  },
+  {
+   "t": 21.3,
+   "text": "G0 TO PURGATORY RIGHT"
+  },
+  {
+   "t": 22.45,
+   "text": "IN THIS LITTLE RANGE HERE"
+  },
+  {
+   "t": 24.35,
+   "text": "EOPEGIALLY UFF UF NEGATIVE GAMMA HERE ON SPX."
+  },
+  {
+   "t": 26.6,
+   "text": "THERE 9 NUTRING REALLY FUR TT TU REJECT FROM."
+  },
+  {
+   "t": 28.45,
+   "text": "NOTHING REALLY FUR IT TU BUUNCE FROM"
+  },
+  {
+   "t": 30.45,
+   "text": "seananenanananeeueues"
+  },
+  {
+   "t": 32.35,
+   "text": "NOW REMEMBER GUYS, THESE ARE NOT"
+  },
+  {
+   "t": 33.95,
+   "text": "ADVICES FOR YOU TO TAKE ENTRIES."
+  },
+  {
+   "t": 35.55,
+   "text": "THESE ARE JUST KIND OF"
+  },
+  {
+   "t": 37.0,
+   "text": "AREAS WHERE WE hE EAPEGTING REACTIONS"
+  },
+  {
+   "t": 38.3,
+   "text": "BASED ON THAT STRUCTURE"
+  },
+  {
+   "t": 39.75,
+   "text": "LED O AIGHLIGHT WHAT HAPPENING ON QUEUES."
+  },
+  {
+   "t": 42.72,
+   "text": ""
+  }
+ ]
 }

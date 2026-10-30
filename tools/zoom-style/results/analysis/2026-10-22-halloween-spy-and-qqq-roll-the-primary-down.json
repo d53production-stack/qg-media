@@ -38,6 +38,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 2398,
     "share": 0.00281,
@@ -92,6 +93,7 @@
     0.322,
     0.578
    ],
+   "direct": true,
    "ink": {
     "px": 446,
     "share": 0.00052,
@@ -119,6 +121,7 @@
     0.503,
     0.478
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -138,6 +141,7 @@
     0.591,
     0.47
    ],
+   "direct": true,
    "ink": {
     "px": 11,
     "share": 0.0,
@@ -157,6 +161,7 @@
     0.295,
     0.395
    ],
+   "direct": true,
    "ink": {
     "px": 652,
     "share": 0.00076,
@@ -184,6 +189,7 @@
     0.297,
     0.513
    ],
+   "direct": true,
    "ink": {
     "px": 1432,
     "share": 0.00168,
@@ -211,6 +217,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 197,
     "share": 0.00023,
@@ -238,6 +245,7 @@
     0.723,
     0.632
    ],
+   "direct": true,
    "ink": {
     "px": 3668,
     "share": 0.0043,
@@ -265,6 +273,7 @@
     0.867,
     0.623
    ],
+   "direct": true,
    "ink": {
     "px": 2674,
     "share": 0.00313,
@@ -311,6 +320,7 @@
     0.464,
     0.582
    ],
+   "direct": true,
    "ink": {
     "px": 1037,
     "share": 0.00122,
@@ -350,7 +360,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -2.6,
+   "caption_text": "PRIMARY RULL UUWN FRUM 60 DUWN T0 760.",
+   "transcript": {
+    "recording_t": 885.12,
+    "cue_i": 41,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Primary roll down from 76, 763 down to 760.",
+    "into_cue_s": 2.07,
+    "cue_dur": 4.69,
+    "in_gap": false,
+    "prev": "Oh, I cracked myself up.",
+    "next": "As well, on queues, it went from 708 down to 705."
+   }
   },
   {
    "index": 1,
@@ -363,7 +388,22 @@
    "after_hold": 1,
    "zoom_from": 1.0,
    "zoom_to": 1.652,
-   "zoom_ratio": 1.652
+   "zoom_ratio": 1.652,
+   "caption_offset_s": 1.1,
+   "caption_text": "AS WELL ON. O'S,",
+   "transcript": {
+    "recording_t": 888.82,
+    "cue_i": 42,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "As well, on queues, it went from 708 down to 705.",
+    "into_cue_s": 0.78,
+    "cue_dur": 4.9,
+    "in_gap": false,
+    "prev": "Primary roll down from 76, 763 down to 760.",
+    "next": "Let us do some negative gamma nonsense here, and then bring us down to that 35, 30 on SPX. That's my next trade."
+   }
   },
   {
    "index": 2,
@@ -376,7 +416,22 @@
    "after_hold": 2,
    "zoom_from": 1.652,
    "zoom_to": 1.435,
-   "zoom_ratio": 0.869
+   "zoom_ratio": 0.869,
+   "caption_offset_s": 0.0,
+   "caption_text": "LETUSDOSOME",
+   "transcript": {
+    "recording_t": 891.92,
+    "cue_i": 42,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "As well, on queues, it went from 708 down to 705.",
+    "into_cue_s": 3.88,
+    "cue_dur": 4.9,
+    "in_gap": false,
+    "prev": "Primary roll down from 76, 763 down to 760.",
+    "next": "Let us do some negative gamma nonsense here, and then bring us down to that 35, 30 on SPX. That's my next trade."
+   }
   },
   {
    "index": 3,
@@ -389,7 +444,22 @@
    "after_hold": 3,
    "zoom_from": 1.435,
    "zoom_to": 1.006,
-   "zoom_ratio": 0.701
+   "zoom_ratio": 0.701,
+   "caption_offset_s": 1.1,
+   "caption_text": "TO THAT 3530 ON SPX.",
+   "transcript": {
+    "recording_t": 900.27,
+    "cue_i": 43,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Let us do some negative gamma nonsense here, and then bring us down to that 35, 30 on SPX. That's my next trade.",
+    "into_cue_s": 4.17,
+    "cue_dur": 7.67,
+    "in_gap": false,
+    "prev": "As well, on queues, it went from 708 down to 705.",
+    "next": "Today has been easy, Noor said. Geeked out today felt good. I love it. Noor, would you mind sharing what trade you took?"
+   }
   },
   {
    "index": 4,
@@ -402,7 +472,22 @@
    "after_hold": 4,
    "zoom_from": 1.006,
    "zoom_to": 1.379,
-   "zoom_ratio": 1.371
+   "zoom_ratio": 1.371,
+   "caption_offset_s": 0.0,
+   "caption_text": "PRIMARY RULLED",
+   "transcript": {
+    "recording_t": 901.47,
+    "cue_i": 43,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Let us do some negative gamma nonsense here, and then bring us down to that 35, 30 on SPX. That's my next trade.",
+    "into_cue_s": 5.37,
+    "cue_dur": 7.67,
+    "in_gap": false,
+    "prev": "As well, on queues, it went from 708 down to 705.",
+    "next": "Today has been easy, Noor said. Geeked out today felt good. I love it. Noor, would you mind sharing what trade you took?"
+   }
   },
   {
    "index": 5,
@@ -415,7 +500,22 @@
    "after_hold": 5,
    "zoom_from": 1.379,
    "zoom_to": 1.617,
-   "zoom_ratio": 1.173
+   "zoom_ratio": 1.173,
+   "caption_offset_s": -0.3,
+   "caption_text": "WELL OEE HUW MUCH IT AULDS, RIGHT",
+   "transcript": {
+    "recording_t": 1302.79,
+    "cue_i": 82,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Primary rolled up, so if $76.80 holds, downside is dead, in my opinion.",
+    "into_cue_s": 4.69,
+    "cue_dur": 4.79,
+    "in_gap": false,
+    "prev": "Right now, I'm still looking for some downside.",
+    "next": "We'll see how much it holds, right? Currently battling between $76.80 and 7620."
+   }
   },
   {
    "index": 6,
@@ -428,7 +528,22 @@
    "after_hold": 6,
    "zoom_from": 1.617,
    "zoom_to": 1.615,
-   "zoom_ratio": 0.999
+   "zoom_ratio": 0.999,
+   "caption_offset_s": 0.9,
+   "caption_text": "GURRENTLY BATTLING BETWEEN b0U AND 7620",
+   "transcript": {
+    "recording_t": 1303.99,
+    "cue_i": 83,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "We'll see how much it holds, right? Currently battling between $76.80 and 7620.",
+    "into_cue_s": 0.39,
+    "cue_dur": 4.68,
+    "in_gap": false,
+    "prev": "Primary rolled up, so if $76.80 holds, downside is dead, in my opinion.",
+    "next": "Given that those two are battling, you can look over to SPY and QQQ. SPY is still below, still the strongest node on the map. Q's still below, still the strongest node on the map. So,"
+   }
   },
   {
    "index": 7,
@@ -441,7 +556,22 @@
    "after_hold": 7,
    "zoom_from": 1.615,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.619
+   "zoom_ratio": 0.619,
+   "caption_offset_s": 0.2,
+   "caption_text": "GIVEN THAT THOSE TWO",
+   "transcript": {
+    "recording_t": 1313.94,
+    "cue_i": 84,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Given that those two are battling, you can look over to SPY and QQQ. SPY is still below, still the strongest node on the map. Q's still below, still the strongest node on the map. So,",
+    "into_cue_s": -0.3,
+    "cue_dur": 11.12,
+    "in_gap": false,
+    "prev": "We'll see how much it holds, right? Currently battling between $76.80 and 7620.",
+    "next": "I'm waiting to sit through this and think more downside."
+   }
   },
   {
    "index": 8,
@@ -454,7 +584,22 @@
    "after_hold": 8,
    "zoom_from": 1.0,
    "zoom_to": 1.481,
-   "zoom_ratio": 1.481
+   "zoom_ratio": 1.481,
+   "caption_offset_s": 0.1,
+   "caption_text": "ISIN ISIN NINN NNN NN NNN",
+   "transcript": {
+    "recording_t": 1317.04,
+    "cue_i": 84,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Given that those two are battling, you can look over to SPY and QQQ. SPY is still below, still the strongest node on the map. Q's still below, still the strongest node on the map. So,",
+    "into_cue_s": 2.8,
+    "cue_dur": 11.12,
+    "in_gap": false,
+    "prev": "We'll see how much it holds, right? Currently battling between $76.80 and 7620.",
+    "next": "I'm waiting to sit through this and think more downside."
+   }
   },
   {
    "index": 9,
@@ -467,7 +612,22 @@
    "after_hold": 9,
    "zoom_from": 1.481,
    "zoom_to": 1.485,
-   "zoom_ratio": 1.003
+   "zoom_ratio": 1.003,
+   "caption_offset_s": 0.1,
+   "caption_text": "QQISSTILLBELOW,",
+   "transcript": {
+    "recording_t": 1320.34,
+    "cue_i": 84,
+    "sure": false,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Given that those two are battling, you can look over to SPY and QQQ. SPY is still below, still the strongest node on the map. Q's still below, still the strongest node on the map. So,",
+    "into_cue_s": 6.1,
+    "cue_dur": 11.12,
+    "in_gap": false,
+    "prev": "We'll see how much it holds, right? Currently battling between $76.80 and 7620.",
+    "next": "I'm waiting to sit through this and think more downside."
+   }
   },
   {
    "index": 10,
@@ -480,7 +640,22 @@
    "after_hold": 10,
    "zoom_from": 1.485,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.673
+   "zoom_ratio": 0.673,
+   "caption_offset_s": 0.3,
+   "caption_text": "$0'M WAITING TO SIT THROUGH",
+   "transcript": {
+    "recording_t": 1323.24,
+    "cue_i": 85,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "I'm waiting to sit through this and think more downside.",
+    "into_cue_s": -2.69,
+    "cue_dur": 3.11,
+    "in_gap": false,
+    "prev": "Given that those two are battling, you can look over to SPY and QQQ. SPY is still below, still the strongest node on the map. Q's still below, still the strongest node on the map. So,",
+    "next": "And then what you really want to see if you're a bear is you want to hold below that strong M2 at 76.45."
+   }
   },
   {
    "index": 11,
@@ -493,7 +668,22 @@
    "after_hold": 11,
    "zoom_from": 1.0,
    "zoom_to": 1.463,
-   "zoom_ratio": 1.463
+   "zoom_ratio": 1.463,
+   "caption_offset_s": 0.6,
+   "caption_text": "BELOW THAT STRONG M2 AT 76.45.",
+   "transcript": {
+    "recording_t": 1338.68,
+    "cue_i": 86,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "And then what you really want to see if you're a bear is you want to hold below that strong M2 at 76.45.",
+    "into_cue_s": 4.02,
+    "cue_dur": 7.01,
+    "in_gap": false,
+    "prev": "I'm waiting to sit through this and think more downside.",
+    "next": "Should easily see that 30."
+   }
   },
   {
    "index": 12,
@@ -506,8 +696,185 @@
    "after_hold": 12,
    "zoom_from": 1.463,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0,
+   "caption_text": ". Na ome a",
+   "transcript": {
+    "recording_t": 1340.98,
+    "cue_i": 86,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "And then what you really want to see if you're a bear is you want to hold below that strong M2 at 76.45.",
+    "into_cue_s": 6.32,
+    "cue_dur": 7.01,
+    "in_gap": false,
+    "prev": "I'm waiting to sit through this and think more downside.",
+    "next": "Should easily see that 30."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  3.1,
+  7.3,
+  8.8,
+  10.7,
+  13.0,
+  15.1,
+  17.0,
+  18.3,
+  21.2,
+  22.7,
+  24.4,
+  25.8,
+  27.7,
+  28.7,
+  30.4,
+  32.0,
+  33.3,
+  34.8,
+  36.2,
+  39.1
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 5.2,
+    "t1": 5.2,
+    "offset": 884.62,
+    "n": 1
+   },
+   {
+    "t0": 9.75,
+    "t1": 11.85,
+    "offset": 888.47,
+    "n": 2
+   },
+   {
+    "t0": 14.05,
+    "t1": 19.75,
+    "offset": 1284.79,
+    "n": 3
+   },
+   {
+    "t0": 21.95,
+    "t1": 25.1,
+    "offset": 1292.54,
+    "n": 3
+   },
+   {
+    "t0": 31.2,
+    "t1": 32.65,
+    "offset": 1294.94,
+    "n": 2
+   },
+   {
+    "t0": 35.5,
+    "t1": 37.65,
+    "offset": 1301.88,
+    "n": 2
+   }
+  ],
+  "matched": 13,
+  "used": 13,
+  "captions": 20,
+  "share": 1.0,
+  "cues": [
+   42,
+   43,
+   82,
+   83,
+   84,
+   85,
+   86
+  ]
+ },
+ "captions": [
+  {
+   "t": 1.55,
+   "text": "PRIMARY RULL UUWN FRUM 60 DUWN T0 760."
+  },
+  {
+   "t": 5.2,
+   "text": "IT WENT FROM 708 DOWN TO 705"
+  },
+  {
+   "t": 8.05,
+   "text": "LETUSDOSOMENEGATIVEGAMMA"
+  },
+  {
+   "t": 9.75,
+   "text": "NUNOSENSE HERE AND THEN BRINGUS DOWN"
+  },
+  {
+   "t": 11.85,
+   "text": "TO THAT 3530 ON SPX."
+  },
+  {
+   "t": 14.05,
+   "text": "PRIMARY HULLED UP, oU IF O0U HOLDS,"
+  },
+  {
+   "t": 16.05,
+   "text": "DOWNSIDE IS DEAD IN MY OPINION."
+  },
+  {
+   "t": 17.65,
+   "text": "WE LL OEE HUW MUGH IT HULDS, RIGHT"
+  },
+  {
+   "t": 19.75,
+   "text": "GURRENTLY BATTLING BETWEEN boU AND 7620"
+  },
+  {
+   "t": 21.95,
+   "text": "GIVEN THAT THOSE TWO ARE BATTLING,"
+  },
+  {
+   "t": 23.55,
+   "text": "YOU CAN LOOK OVER TO SPY AND 000."
+  },
+  {
+   "t": 25.1,
+   "text": "SPY S STILL BELOW."
+  },
+  {
+   "t": 26.75,
+   "text": "STILL THE OTRUNGEOT NUDE UN THE MAP."
+  },
+  {
+   "t": 28.2,
+   "text": "QQISSTILLBELOW,"
+  },
+  {
+   "t": 29.55,
+   "text": "STILL THE OTRUNGEOT NUDE UN THE MAP."
+  },
+  {
+   "t": 31.2,
+   "text": "$O'M WAITING TO SIT THROUGH"
+  },
+  {
+   "t": 32.65,
+   "text": "THIS AND THINK MORE DOWNSIDE"
+  },
+  {
+   "t": 34.05,
+   "text": "ANU TREN WHAT YUU REALLY WANNA SEE IF"
+  },
+  {
+   "t": 35.5,
+   "text": "YOU'RE A BEAR IS YOU WANNA HOLD"
+  },
+  {
+   "t": 37.65,
+   "text": "BELOW THAT STRONG M2 AT 76.45."
+  },
+  {
+   "t": 41.2,
+   "text": ""
+  }
+ ]
 }

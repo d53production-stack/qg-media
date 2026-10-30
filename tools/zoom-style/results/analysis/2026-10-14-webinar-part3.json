@@ -61,7 +61,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.1,
+   "caption_text": "IOSCSSE 101.311 . CSCC"
   },
   {
    "index": 1,
@@ -74,8 +76,113 @@
    "after_hold": 1,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.8,
+   "caption_text": "secnenenaoananeeneues"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.6,
+  3.3,
+  5.0,
+  6.3,
+  7.8,
+  10.6,
+  12.6,
+  14.5,
+  16.7,
+  19.3,
+  20.6,
+  22.2,
+  23.7,
+  25.3,
+  27.2,
+  29.6,
+  30.7,
+  32.4,
+  34.0
+ ],
+ "captions": [
+  {
+   "t": 0.8,
+   "text": "SHOULDGIVE"
+  },
+  {
+   "t": 2.45,
+   "text": "AND LIKE SAID A SECOND AGO."
+  },
+  {
+   "t": 4.15,
+   "text": "IF Tl OUPPURT RULUS HERE Al $7,750."
+  },
+  {
+   "t": 5.65,
+   "text": "- WEDO HAVE A LAUNCHPAD SET UP"
+  },
+  {
+   "t": 7.05,
+   "text": "WHERE WILL THIS LIKELY STOP"
+  },
+  {
+   "t": 9.2,
+   "text": "NOW. IF SPY GETS TO THIS"
+  },
+  {
+   "t": 11.6,
+   "text": "PUSTTIVE AREA FIRST, HLL PRUBABLY MUTE"
+  },
+  {
+   "t": 13.55,
+   "text": "THESPX MOVE, AT LEAST INITIALLY"
+  },
+  {
+   "t": 15.6,
+   "text": "THAT PRIMARY NUTE UN OPA Id GETTING COMPETITIVE."
+  },
+  {
+   "t": 18.0,
+   "text": "BUTITISN'TON SPY"
+  },
+  {
+   "t": 19.95,
+   "text": "THAT PRIMARY fd GETTING COMPETITIVE"
+  },
+  {
+   "t": 21.4,
+   "text": "HOWEVER, IT'S STILL NEVER FLIPPED."
+  },
+  {
+   "t": 22.95,
+   "text": "THAT COULD LEAD YOU TO BELIEVE"
+  },
+  {
+   "t": 24.5,
+   "text": "THAT TAs MIGHT TURN INTU RESISTANCE"
+  },
+  {
+   "t": 26.25,
+   "text": "QIS ALSO REDUCED IN VALUE"
+  },
+  {
+   "t": 28.4,
+   "text": "THIS IS A TRAP DOOR SETUP"
+  },
+  {
+   "t": 30.15,
+   "text": "THIS IS A POSITIVE."
+  },
+  {
+   "t": 31.55,
+   "text": "NEUATIVE INTU NEGATIVE REGIME Wilh THE"
+  },
+  {
+   "t": 33.2,
+   "text": "PRIMARY BELOW AS OUR NORTH STAR"
+  },
+  {
+   "t": 36.36,
+   "text": "LAUNCH WEEK"
+  }
+ ]
 }

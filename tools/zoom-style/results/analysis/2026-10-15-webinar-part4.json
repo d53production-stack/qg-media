@@ -76,6 +76,7 @@
     0.688,
     0.356
    ],
+   "direct": true,
    "ink": {
     "px": 763,
     "share": 0.00089,
@@ -103,6 +104,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 235,
     "share": 0.00028,
@@ -130,6 +132,7 @@
     0.675,
     0.476
    ],
+   "direct": true,
    "ink": {
     "px": 1069,
     "share": 0.00125,
@@ -157,6 +160,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 324,
     "share": 0.00038,
@@ -184,6 +188,7 @@
     0.665,
     0.447
    ],
+   "direct": true,
    "ink": {
     "px": 556,
     "share": 0.00065,
@@ -211,6 +216,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 165,
     "share": 0.00019,
@@ -238,6 +244,7 @@
     0.531,
     0.317
    ],
+   "direct": true,
    "ink": {
     "px": 2590,
     "share": 0.00304,
@@ -265,6 +272,7 @@
     0.5,
     0.5
    ],
+   "direct": true,
    "ink": {
     "px": 468,
     "share": 0.00055,
@@ -319,6 +327,7 @@
     0.495,
     0.523
    ],
+   "direct": true,
    "ink": {
     "px": 0,
     "share": 0.0,
@@ -350,7 +359,9 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.4,
+   "caption_text": "MIXED"
   },
   {
    "index": 1,
@@ -363,7 +374,9 @@
    "after_hold": 1,
    "zoom_from": null,
    "zoom_to": 1.0,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -0.9,
+   "caption_text": "PRIMARY ROLLED UP"
   },
   {
    "index": 2,
@@ -376,7 +389,9 @@
    "after_hold": 2,
    "zoom_from": 1.0,
    "zoom_to": 1.408,
-   "zoom_ratio": 1.408
+   "zoom_ratio": 1.408,
+   "caption_offset_s": 0.0,
+   "caption_text": "Dy G eeeeeees"
   },
   {
    "index": 3,
@@ -389,7 +404,9 @@
    "after_hold": 3,
    "zoom_from": 1.408,
    "zoom_to": 1.002,
-   "zoom_ratio": 0.712
+   "zoom_ratio": 0.712,
+   "caption_offset_s": 0.0,
+   "caption_text": "eel"
   },
   {
    "index": 4,
@@ -402,7 +419,9 @@
    "after_hold": 4,
    "zoom_from": 1.002,
    "zoom_to": 1.384,
-   "zoom_ratio": 1.381
+   "zoom_ratio": 1.381,
+   "caption_offset_s": 0.0,
+   "caption_text": "USE Thild TYPE UF"
   },
   {
    "index": 5,
@@ -415,7 +434,9 @@
    "after_hold": 5,
    "zoom_from": 1.384,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.723
+   "zoom_ratio": 0.723,
+   "caption_offset_s": 0.0,
+   "caption_text": "LL E LLL I"
   },
   {
    "index": 6,
@@ -428,7 +449,9 @@
    "after_hold": 6,
    "zoom_from": 1.0,
    "zoom_to": 1.294,
-   "zoom_ratio": 1.294
+   "zoom_ratio": 1.294,
+   "caption_offset_s": 0.1,
+   "caption_text": "HOLD OVER 769."
   },
   {
    "index": 7,
@@ -441,7 +464,9 @@
    "after_hold": 7,
    "zoom_from": 1.294,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.773
+   "zoom_ratio": 0.773,
+   "caption_offset_s": 0.0,
+   "caption_text": "AGAIN. MIXED."
   },
   {
    "index": 8,
@@ -454,7 +479,9 @@
    "after_hold": 8,
    "zoom_from": 1.0,
    "zoom_to": 1.412,
-   "zoom_ratio": 1.412
+   "zoom_ratio": 1.412,
+   "caption_offset_s": -0.5,
+   "caption_text": "AND WE HAVE TWO Cr"
   },
   {
    "index": 9,
@@ -467,7 +494,9 @@
    "after_hold": 9,
    "zoom_from": 1.412,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.708
+   "zoom_ratio": 0.708,
+   "caption_offset_s": 0.0,
+   "caption_text": "BOOM"
   },
   {
    "index": 10,
@@ -480,7 +509,9 @@
    "after_hold": 10,
    "zoom_from": 1.0,
    "zoom_to": 1.822,
-   "zoom_ratio": 1.822
+   "zoom_ratio": 1.822,
+   "caption_offset_s": -0.1,
+   "caption_text": "IFWESTARTHOLDING THISQ'S."
   },
   {
    "index": 11,
@@ -493,7 +524,9 @@
    "after_hold": 11,
    "zoom_from": 1.822,
    "zoom_to": 0.992,
-   "zoom_ratio": 0.544
+   "zoom_ratio": 0.544,
+   "caption_offset_s": 0.0,
+   "caption_text": "BASIGALLY FAUM WHERE"
   },
   {
    "index": 12,
@@ -506,8 +539,173 @@
    "after_hold": 12,
    "zoom_from": 0.992,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.7,
+   "caption_text": "eeees"
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.8,
+  3.3,
+  4.5,
+  6.4,
+  7.4,
+  8.5,
+  10.8,
+  12.6,
+  15.9,
+  17.3,
+  18.9,
+  20.7,
+  21.9,
+  23.9,
+  25.8,
+  27.5,
+  28.3,
+  29.6,
+  32.3,
+  33.8,
+  35.7,
+  36.4,
+  38.7,
+  40.1,
+  42.7,
+  43.4,
+  44.8,
+  46.4,
+  49.0,
+  50.8,
+  52.4
+ ],
+ "captions": [
+  {
+   "t": 0.9,
+   "text": ""
+  },
+  {
+   "t": 2.55,
+   "text": "AND LOOK. WE HAVE A NEW"
+  },
+  {
+   "t": 3.9,
+   "text": "NOTE UP HERE AT 7740"
+  },
+  {
+   "t": 5.45,
+   "text": "PRIMARY oTUFPED GHUWING, GUT REDUCED."
+  },
+  {
+   "t": 6.9,
+   "text": "YOU CAN ASSUME TRAP DOOR IS"
+  },
+  {
+   "t": 7.95,
+   "text": "A LITTLE BIT MORE IN PLAY"
+  },
+  {
+   "t": 9.65,
+   "text": "TEU BE NIGE TU OEE PRIMARY MUVE DOWN."
+  },
+  {
+   "t": 11.7,
+   "text": ""
+  },
+  {
+   "t": 14.25,
+   "text": "7 VURN INTO VeVeyeuvuey"
+  },
+  {
+   "t": 16.6,
+   "text": "LOOKS LIKE WE HELD RESISTANCE ."
+  },
+  {
+   "t": 18.1,
+   "text": "IT'S GETTING A LITTLE BIT STRONGER"
+  },
+  {
+   "t": 19.8,
+   "text": "Use THld TYPE UF READ Ad INDECISION, RIGHT"
+  },
+  {
+   "t": 21.3,
+   "text": "BECAUSE YOU'RE AT A LEVEL."
+  },
+  {
+   "t": 22.9,
+   "text": "YUU RE AT A oT RIKE, AND THEN YUU HAVE TWO"
+  },
+  {
+   "t": 24.85,
+   "text": "NODES BATTLING FOR COMPETITION."
+  },
+  {
+   "t": 26.65,
+   "text": "YUU GUULU AsoUME THAT 9 UME INDECISION."
+  },
+  {
+   "t": 27.9,
+   "text": "CONTINUE GROWTH."
+  },
+  {
+   "t": 28.95,
+   "text": "BACK UP HERE, CONTINUE GROWTH"
+  },
+  {
+   "t": 30.95,
+   "text": "HOLD OVER 768."
+  },
+  {
+   "t": 33.05,
+   "text": "DON'T HOLD OVER 789."
+  },
+  {
+   "t": 34.75,
+   "text": "WE SHOULD SEE 720 0'S"
+  },
+  {
+   "t": 36.05,
+   "text": "AGAIN. MIXED."
+  },
+  {
+   "t": 37.55,
+   "text": "PRIMARY 1S FLIPPING BETWEEN 2U AND 730."
+  },
+  {
+   "t": 39.4,
+   "text": "AND WE HAVE TWO"
+  },
+  {
+   "t": 41.4,
+   "text": "PRIMARIES ABOVE US ON THE SPIDERS"
+  },
+  {
+   "t": 43.05,
+   "text": "BOOM"
+  },
+  {
+   "t": 44.1,
+   "text": "IF WE START HOLDING THIS Q'S,"
+  },
+  {
+   "t": 45.6,
+   "text": "HUGE PUOITIVE GANA AREA nibh THERE."
+  },
+  {
+   "t": 47.7,
+   "text": "BASIGALLY FHUM WHERE WE AE NUW, 722. ALL"
+  },
+  {
+   "t": 49.9,
+   "text": "THE WAY UP TO 730."
+  },
+  {
+   "t": 51.6,
+   "text": "PRIMARY BACK ABOVE ON Q'S."
+  },
+  {
+   "t": 54.7,
+   "text": "SS SS SS LS iS a"
+  }
+ ]
 }

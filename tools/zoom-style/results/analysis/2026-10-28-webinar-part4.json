@@ -38,6 +38,7 @@
     0.156,
     0.536
    ],
+   "direct": true,
    "ink": {
     "px": 299,
     "share": 0.00035,
@@ -131,7 +132,22 @@
    "after_hold": 0,
    "zoom_from": null,
    "zoom_to": 1.003,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": -1.5,
+   "caption_text": "THE FIRST THING WE WANTED TO",
+   "transcript": {
+    "recording_t": 1810.82,
+    "cue_i": 245,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "What did I tell you? The first thing we wanted to look at was the 771 strike.",
+    "into_cue_s": 1.25,
+    "cue_dur": 4.65,
+    "in_gap": false,
+    "prev": "Put the values of each strike there.",
+    "next": "We held over it."
+   }
   },
   {
    "index": 1,
@@ -144,7 +160,22 @@
    "after_hold": 1,
    "zoom_from": 1.003,
    "zoom_to": 1.004,
-   "zoom_ratio": 1.001
+   "zoom_ratio": 1.001,
+   "caption_offset_s": 0.3,
+   "caption_text": "PRIMARY ABOVE IT SHOULD PULL",
+   "transcript": {
+    "recording_t": 1816.32,
+    "cue_i": 247,
+    "sure": true,
+    "direct": true,
+    "speaker": "Chuy",
+    "text": "Primary above it should pull us up a little bit.",
+    "into_cue_s": -0.73,
+    "cue_dur": 2.92,
+    "in_gap": false,
+    "prev": "We held over it.",
+    "next": "If you started to see a major 1 or a major 2 above here on the queues."
+   }
   },
   {
    "index": 2,
@@ -157,7 +188,22 @@
    "after_hold": 2,
    "zoom_from": 1.004,
    "zoom_to": 1.0,
-   "zoom_ratio": 0.996
+   "zoom_ratio": 0.996,
+   "caption_offset_s": 0.0,
+   "caption_text": "IFYOU",
+   "transcript": {
+    "recording_t": 1818.42,
+    "cue_i": 247,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Primary above it should pull us up a little bit.",
+    "into_cue_s": 1.37,
+    "cue_dur": 2.92,
+    "in_gap": false,
+    "prev": "We held over it.",
+    "next": "If you started to see a major 1 or a major 2 above here on the queues."
+   }
   },
   {
    "index": 3,
@@ -170,8 +216,105 @@
    "after_hold": 3,
    "zoom_from": 1.0,
    "zoom_to": null,
-   "zoom_ratio": null
+   "zoom_ratio": null,
+   "caption_offset_s": 0.0,
+   "caption_text": "v tw J l",
+   "transcript": {
+    "recording_t": 1831.22,
+    "cue_i": 249,
+    "sure": true,
+    "direct": false,
+    "speaker": "Chuy",
+    "text": "Then we could start to\u2026 to threaten a primary roll-up.",
+    "into_cue_s": 3.04,
+    "cue_dur": 3.65,
+    "in_gap": false,
+    "prev": "If you started to see a major 1 or a major 2 above here on the queues.",
+    "next": "as well."
+   }
   }
  ],
- "unresolved_holds": []
+ "unresolved_holds": [],
+ "caption_changes": [
+  1.9,
+  3.7,
+  5.6,
+  6.8,
+  8.0,
+  9.8,
+  11.6,
+  13.6,
+  15.7
+ ],
+ "align": {
+  "ok": true,
+  "segments": [
+   {
+    "t0": 0.95,
+    "t1": 7.4,
+    "offset": 1810.42,
+    "n": 4
+   },
+   {
+    "t0": 8.9,
+    "t1": 14.65,
+    "offset": 1815.52,
+    "n": 3
+   }
+  ],
+  "matched": 7,
+  "used": 7,
+  "captions": 10,
+  "share": 1.0,
+  "cues": [
+   245,
+   246,
+   247,
+   248,
+   249,
+   250
+  ]
+ },
+ "captions": [
+  {
+   "t": 0.95,
+   "text": "THE FIRST THING WE WANTED TO"
+  },
+  {
+   "t": 2.8,
+   "text": "LOOK AT WAS A771 STRIKE."
+  },
+  {
+   "t": 4.65,
+   "text": "TOO we y"
+  },
+  {
+   "t": 6.2,
+   "text": "PRIMARY ABOVE IT SHOULD PULL"
+  },
+  {
+   "t": 7.4,
+   "text": "OL US UP ALITTLE BIT"
+  },
+  {
+   "t": 8.9,
+   "text": "IFYOU STARTED TO SEE A MAJOR ONE"
+  },
+  {
+   "t": 10.7,
+   "text": "- ORAMAJOR TWO ABOVE HERE ON THE"
+  },
+  {
+   "t": 12.6,
+   "text": "Q'S. THEN WE COULD START TC"
+  },
+  {
+   "t": 14.65,
+   "text": "THREATEN A PRIMARY RULL-UP Ad WELL"
+  },
+  {
+   "t": 17.81,
+   "text": "SS SS CS SS SS"
+  }
+ ]
 }
