@@ -12,6 +12,7 @@ Spec: docs/superpowers/specs/2026-10-30-studio-intake-design.md
 from __future__ import annotations
 
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 STATUS_WORDS = ("confirmed", "pending", "failed", "unknown")
 STALE_PENDING = timedelta(hours=6)
@@ -239,3 +240,73 @@ def merge_jobs(current: dict | None, incoming: dict, by: str, now: datetime, stu
         "checkedBy": by,
         "jobs": dict(newest),
     }
+
+
+# --- content items -------------------------------------------------------------
+
+MIN_CLIP_DATE = "2026-10-14"
+
+
+def content_writes(studio: str, job_id: str, job: dict | None, candidates: list, existing_ids: set, since) -> list[dict]:
+    """Add-only content/{id} writes for a confirmed job that ended on or after
+    `since`. Highlight clips dated before MIN_CLIP_DATE are never added."""
+    if not job or job.get("status") != "confirmed" or not since or not job.get("endedAt"):
+        return []
+    if _ts(job["endedAt"]) < _ts(since):
+        return []
+    meta = STUDIOS[studio]
+    writes = []
+    for c in candidates:
+        if c["id"] in existing_ids:
+            continue
+        if studio == "highlight" and c.get("clipDate") and c["clipDate"] < MIN_CLIP_DATE:
+            continue
+        writes.append({"op": "set", "collection": "content", "doc_id": c["id"], "data": {
+            "id": c["id"],
+            "title": c["title"],
+            "type": "video",
+            "kind": "video",
+            "status": "ready",
+            "channels": [],
+            "media": [{"file": c.get("path") or "", "alt": c["title"]}],
+            "text": c.get("text") or "",
+            "textByChannel": c.get("textByChannel") or {},
+            "sourceArtifact": meta["url"],
+            "studio": {
+                "name": studio, "job": job_id, "path": c.get("path"), "poster": c.get("poster"),
+                "seconds": c.get("seconds"), "orientation": c.get("orientation"), "clipDate": c.get("clipDate"),
+            },
+            "by": "studio",
+            "at": job["endedAt"],
+            "createdAt": job["endedAt"],
+        }})
+    return writes
+
+
+# --- check-ins -----------------------------------------------------------------
+
+PT = ZoneInfo("America/Los_Angeles")
+
+
+def pt_date(iso: str) -> str:
+    return parse_time(iso).astimezone(PT).strftime("%Y-%m-%d")
+
+
+def checkin_write(studio: str, job: dict | None, task_map: dict, tasks: dict, day_doc: dict | None) -> dict | None:
+    """A set on days/{PT date of endedAt} adding the mapped task's check-in,
+    or None. An entry that is already there is never changed."""
+    task_id = (task_map or {}).get(studio)
+    if not task_id or not job or job.get("status") != "confirmed" or not job.get("endedAt"):
+        return None
+    done = dict((day_doc or {}).get("done") or {})
+    if task_id in done:
+        return None
+    meta = STUDIOS[studio]
+    entry = {"at": job["endedAt"], "by": "studio", "note": f"{meta['label']} · {job.get('title', '')}", "link": meta["url"]}
+    task = (tasks or {}).get(task_id) or {}
+    if task.get("target"):
+        entry["count"] = int(job.get("videos") or 0)
+    done[task_id] = entry
+    date = pt_date(job["endedAt"])
+    data = dict(day_doc or {}, date=date, done=done)
+    return {"op": "set", "collection": "days", "doc_id": date, "data": data}

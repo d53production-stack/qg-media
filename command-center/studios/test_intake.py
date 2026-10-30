@@ -258,5 +258,110 @@ class TestMergeJobs(unittest.TestCase):
             self.assertEqual(job["message"], "unreadable job", bad)
 
 
+class TestContentWrites(unittest.TestCase):
+    RAW = "factory-2026-10-29-redo-howlive.json"
+    SINCE = "2026-10-29T00:00:00Z"
+
+    def run_it(self, existing=(), since=SINCE, raw=None, studio="factory", job_id="2026-10-29-redo-howlive"):
+        raw = raw or fixture(self.RAW)
+        job = intake.normalize(studio, job_id, raw, NOW)
+        cands = intake.outputs(studio, job_id, raw)
+        return intake.content_writes(studio, job_id, job, cands, set(existing), since)
+
+    def test_confirmed_job_after_since_makes_items(self):
+        writes = self.run_it()
+        self.assertEqual(len(writes), 2)
+        w = writes[0]
+        self.assertEqual((w["op"], w["collection"], w["doc_id"]), ("set", "content", "vf-cc-how-live-v"))
+        self.assertNotIn("if_version", w)
+        d = w["data"]
+        self.assertEqual(d["id"], "vf-cc-how-live-v")
+        self.assertEqual(d["type"], "video")
+        self.assertEqual(d["kind"], "video")
+        self.assertEqual(d["status"], "ready")
+        self.assertEqual(d["channels"], [])
+        self.assertEqual(d["media"], [{"file": d["studio"]["path"], "alt": d["title"]}])
+        self.assertEqual(d["sourceArtifact"], intake.STUDIOS["factory"]["url"])
+        self.assertEqual(d["studio"]["name"], "factory")
+        self.assertEqual(d["studio"]["job"], "2026-10-29-redo-howlive")
+        self.assertEqual(d["studio"]["orientation"], "v")
+        self.assertEqual(d["studio"]["seconds"], fixture(self.RAW)["outputs"][0]["seconds"])
+        self.assertIsNone(d["studio"]["clipDate"])
+        self.assertEqual(d["by"], "studio")
+        self.assertEqual(d["at"], "2026-10-29T22:10:54Z")
+        self.assertEqual(d["createdAt"], "2026-10-29T22:10:54Z")
+        self.assertIn("youtube", d["textByChannel"])
+        self.assertTrue(d["text"])
+
+    def test_existing_id_is_skipped(self):
+        writes = self.run_it(existing=["vf-cc-how-live-v"])
+        self.assertEqual([w["doc_id"] for w in writes], ["vf-cc-how-live-h"])
+
+    def test_pending_job_makes_nothing(self):
+        raw = dict(fixture(self.RAW), status="working", updatedAt=NOW.isoformat())
+        self.assertEqual(self.run_it(raw=raw), [])
+
+    def test_job_before_since_makes_nothing(self):
+        self.assertEqual(self.run_it(since="2026-10-30T00:00:00Z"), [])
+
+    def test_missing_since_makes_nothing(self):
+        self.assertEqual(self.run_it(since=None), [])
+        self.assertEqual(self.run_it(since=""), [])
+
+    def test_highlight_old_clip_is_skipped(self):
+        raw = fixture("highlight-2026-10-29-0ww4.json")
+        raw["outputs"][0]["short"]["date"] = "2026-10-12"
+        raw["outputs"][1]["short"]["date"] = "2026-10-14"
+        writes = self.run_it(raw=raw, studio="highlight", job_id="2026-10-29-0ww4")
+        self.assertEqual([w["doc_id"] for w in writes], ["hs-2026-10-29-webinar-part2"])
+        self.assertEqual(writes[0]["data"]["studio"]["clipDate"], "2026-10-14")
+        self.assertEqual(writes[0]["data"]["text"], writes[0]["data"]["title"])
+
+
+class TestCheckin(unittest.TestCase):
+    TASKS = {
+        "content.evergreen": {"id": "content.evergreen", "kind": "recurring", "target": {"min": 4, "max": 6, "unit": "posts"}},
+        "shorts.daily.clips": {"id": "shorts.daily.clips", "kind": "recurring"},
+    }
+    MAP = {"highlight": "shorts.daily.clips", "factory": "content.evergreen"}
+
+    def job(self, studio="factory", status="confirmed", ended="2026-10-30T02:00:00Z", videos=2):
+        return {"title": "Batch of Oct 29", "status": status, "endedAt": ended, "updatedAt": ended, "videos": videos}
+
+    def test_pt_date_rolls_back_after_utc_midnight(self):
+        self.assertEqual(intake.pt_date("2026-10-30T02:00:00Z"), "2026-10-29")
+        self.assertEqual(intake.pt_date("2026-10-30T15:00:00Z"), "2026-10-30")
+
+    def test_counter_task_gets_count(self):
+        w = intake.checkin_write("factory", self.job(), self.MAP, self.TASKS, None)
+        self.assertEqual((w["op"], w["collection"], w["doc_id"]), ("set", "days", "2026-10-29"))
+        self.assertNotIn("if_version", w)
+        self.assertEqual(w["data"]["date"], "2026-10-29")
+        entry = w["data"]["done"]["content.evergreen"]
+        self.assertEqual(entry, {"at": "2026-10-30T02:00:00Z", "by": "studio", "note": "Video Factory \u00b7 Batch of Oct 29",
+                                 "link": intake.STUDIOS["factory"]["url"], "count": 2})
+        self.assertEqual(list(w["data"]["done"]), ["content.evergreen"])
+
+    def test_plain_task_has_no_count(self):
+        w = intake.checkin_write("highlight", self.job("highlight"), self.MAP, self.TASKS, None)
+        self.assertNotIn("count", w["data"]["done"]["shorts.daily.clips"])
+        self.assertTrue(w["data"]["done"]["shorts.daily.clips"]["note"].startswith("Highlight Studio"))
+
+    def test_existing_entry_is_never_changed(self):
+        day = {"date": "2026-10-29", "done": {"content.evergreen": {"at": "x", "by": "matt", "count": 4}}}
+        self.assertIsNone(intake.checkin_write("factory", self.job(), self.MAP, self.TASKS, day))
+
+    def test_merges_into_existing_day(self):
+        day = {"date": "2026-10-29", "done": {"platforms.check": {"at": "x", "by": "matt"}}}
+        w = intake.checkin_write("factory", self.job(), self.MAP, self.TASKS, day)
+        self.assertEqual(set(w["data"]["done"]), {"platforms.check", "content.evergreen"})
+        self.assertEqual(w["data"]["done"]["platforms.check"], {"at": "x", "by": "matt"})
+
+    def test_unmapped_studio_or_pending_job_gives_none(self):
+        self.assertIsNone(intake.checkin_write("style", self.job("style"), self.MAP, self.TASKS, None))
+        self.assertIsNone(intake.checkin_write("factory", self.job(status="pending", ended=None), self.MAP, self.TASKS, None))
+        self.assertIsNone(intake.checkin_write("factory", self.job(status="failed"), self.MAP, self.TASKS, None))
+
+
 if __name__ == "__main__":
     unittest.main()
