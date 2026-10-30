@@ -167,9 +167,23 @@ def resolve_zoom(holds, samples, matcher):
     n = len(holds)
     for h, ks in zip(holds, keys):
         h["features"] = 0 if ks["des"] is None else len(ks["kp"])
+        h["kind"] = "video"
+    # template parts stay out of the match graph: the logo fade in the
+    # first 0.7 s, and the end card (last hold, no match to the hold before
+    # it; its logo would otherwise match the intro fade)
+    for h in holds:
+        if h["end"] <= 0.7:
+            h["kind"] = "template"
+    if n >= 2:
+        last, prev = holds[-1], holds[-2]
+        m = similarity(keys[-1]["kp"], keys[-1]["des"], keys[-2]["kp"], keys[-2]["des"], matcher)
+        if m is None or m["inliers"] < 30:
+            last["kind"] = "card"
     pair = {}
     for i in range(n):
         for j in range(i + 1, n):
+            if holds[i]["kind"] != "video" or holds[j]["kind"] != "video":
+                continue
             m = similarity(keys[i]["kp"], keys[i]["des"], keys[j]["kp"], keys[j]["des"], matcher)
             if m is not None:
                 s, tx, ty = m["scale"], m["tx"], m["ty"]
@@ -193,7 +207,8 @@ def resolve_zoom(holds, samples, matcher):
                     rel[b] = (sa * sb, sa * txb + txa, sa * tyb + tya)
                     frontier.append(b)
     for h in holds:
-        h["kind"] = "card" if (h["features"] < 80 or (degree[h["index"]] == 0 and n > 1)) else "video"
+        if h["kind"] == "video" and (h["features"] < 80 or (degree[h["index"]] == 0 and n > 1)):
+            h["kind"] = "card"
         h["zoom"] = None
         h["center"] = None
     resolved = [i for i in rel if holds[i]["kind"] == "video"]
