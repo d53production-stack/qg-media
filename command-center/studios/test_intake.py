@@ -98,6 +98,18 @@ class TestNormalize(unittest.TestCase):
         self.assertEqual(job["message"], "")
         self.assertNotIn("by", job)
 
+    def test_highlight_cleared_job_is_skipped(self):
+        # The Oct 29 clear bumped updatedAt on 8 old jobs; their files are gone, so they are not jobs to show.
+        raw = dict(fixture("highlight-2026-10-29-0ww4.json"), clearRequestedAt="2026-10-29T22:58:56.636Z",
+                   cleared={"at": "2026-10-29T22:59:49Z", "files": 6})
+        self.assertIsNone(intake.normalize("highlight", "old", raw, NOW))
+
+    def test_missing_updated_at_falls_back_to_other_times(self):
+        raw = {"status": "queued", "createdAt": "2026-10-26T00:14:05.907Z", "name": "Halloween 2"}
+        job = intake.normalize("style", "rmvoi7rdf", raw, NOW)
+        self.assertEqual(job["updatedAt"], "2026-10-26T00:14:05.907Z")
+        self.assertEqual(job["status"], "unknown")  # queued for days
+
     def test_highlight_clear_job_is_skipped(self):
         self.assertIsNone(intake.normalize("highlight", "2026-10-29-clear-ad4", fixture("highlight-clear.json"), NOW))
 

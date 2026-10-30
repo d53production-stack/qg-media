@@ -132,17 +132,18 @@ def normalize(studio: str, job_id: str, raw: dict, now: datetime) -> dict | None
         raise ValueError("job is not an object")
     if studio == "desk":
         return _normalize_desk(job_id, raw, now)
-    if studio == "highlight" and raw.get("task") == "clear":
-        return None
+    if studio == "highlight" and (raw.get("task") == "clear" or raw.get("cleared") or raw.get("clearRequestedAt")):
+        return None  # housekeeping, or a job whose files were cleared from disk
     videos = len(_outputs_list(raw))
     word = raw.get("status")
-    st = status(word, videos, raw.get("updatedAt"), now, studio)
+    updated = raw.get("updatedAt") or raw.get("builtAt") or raw.get("queuedAt") or raw.get("createdAt")
+    st = status(word, videos, updated, now, studio)
     ended = None
     if _word(word) in DONE_RAW | FAILED_RAW:
-        ended = raw.get("builtAt") if studio == "factory" and raw.get("builtAt") else raw.get("updatedAt")
+        ended = raw.get("builtAt") if studio == "factory" and raw.get("builtAt") else updated
     return _entry(
         raw.get("title") or raw.get("name") or job_id, st, word, raw.get("step"),
-        raw.get("queuedAt") or raw.get("createdAt"), ended, raw.get("updatedAt"),
+        raw.get("queuedAt") or raw.get("createdAt"), ended, updated,
         videos, raw.get("message"),
     )
 
