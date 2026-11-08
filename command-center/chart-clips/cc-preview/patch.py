@@ -20,10 +20,6 @@ css = """
 .clc .ah .eyebrow{font-size:10px}
 .clc.bad .ah .eyebrow{color:var(--rose)}
 .clc.stale .ah .eyebrow{color:var(--grey)}
-.clc .tks{display:flex;border:1px solid var(--surface)}
-.clc .tks button{background:none;border:0;border-right:1px solid var(--surface);padding:4px 9px;font-size:10px;font-weight:700;letter-spacing:.1em;color:var(--grey);min-height:30px}
-.clc .tks button:last-child{border-right:0}
-.clc .tks button[aria-pressed="true"]{background:var(--green);color:var(--bg)}
 .clc .ag{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--divider);border-top:1px solid var(--divider)}
 .clc .ac{background:var(--panel);padding:8px 12px;min-width:0;display:flex;flex-direction:column;gap:3px}
 .clc .ac .tn{font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--grey)}
