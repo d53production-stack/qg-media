@@ -1,0 +1,331 @@
+<title>QG Clip Monitor</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500;700;800&display=swap">
+<style>
+/* Layout: one dark QG terminal ground. Day strip and ticker filter on top, one summary band (creation + three channels), then one row per clip with its three channel chips and Matt's check. Square corners only. Dark-only by brand choice. */
+:root{
+  --bg:#0D100D; --panel:#121612; --surface:#1E221E;
+  --green:#32CD32; --rose:#C9AAA1; --grey:#8F938F; --white:#FFFFFF;
+  --divider:rgba(255,255,255,.12); --green-fill:rgba(50,205,50,.12); --rose-fill:rgba(201,170,161,.14);
+  --display:"Bebas Neue",Impact,"Arial Narrow",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background-color:var(--bg);background-image:radial-gradient(circle,var(--surface) 2px,transparent 2.5px);background-size:48px 48px;background-position:24px 24px;color:var(--white);font-family:var(--mono);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+a{color:var(--green)}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px;display:flex;flex-direction:column;gap:18px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:.16em;color:var(--green);text-transform:uppercase}
+h1{font-family:var(--display);font-weight:400;font-size:48px;line-height:.85;margin:4px 0 0;letter-spacing:.01em;text-wrap:balance}
+h1 span{color:var(--green)}
+.sub{font-size:12px;color:var(--grey);max-width:60ch}
+.fresh{font-size:10px;color:var(--grey);letter-spacing:.06em;display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.fresh .warn{color:var(--rose)}
+.btn{background:none;border:1px solid var(--surface);padding:6px 10px;font-size:11px;font-weight:700;letter-spacing:.1em;min-height:32px}
+.btn:hover{border-color:var(--green);color:var(--green)}
+.btn.go{background:var(--green);border-color:var(--green);color:var(--bg)}
+.btn.on{border-color:var(--green);color:var(--green);background:var(--green-fill)}
+.btn.flagon{border-color:var(--rose);color:var(--bg);background:var(--rose)}
+.btn[disabled]{opacity:.4;cursor:default}
+
+/* controls */
+.ctl{display:flex;gap:10px 16px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.days{display:flex;gap:1px;background:var(--divider);border:1px solid var(--surface);overflow-x:auto;max-width:100%}
+.days button{background:var(--panel);border:0;border-bottom:3px solid transparent;padding:7px 12px;display:flex;flex-direction:column;align-items:flex-start;min-width:78px}
+.days button b{font-size:11px;letter-spacing:.12em}
+.days button span{font-size:10px;color:var(--grey);font-variant-numeric:tabular-nums}
+.days button[aria-pressed="true"]{border-bottom-color:var(--green);background:#151b15}
+.days button.today b{color:var(--green)}
+.seg{display:flex;border:1px solid var(--surface)}
+.seg button{background:var(--panel);border:0;border-right:1px solid var(--surface);padding:7px 12px;font-size:11px;font-weight:700;letter-spacing:.12em;min-height:36px}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--green);color:var(--bg)}
+
+/* summary band */
+.band{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--divider);border:1px solid var(--surface)}
+.cell{background:var(--panel);padding:10px 14px 12px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.cell .tn{font-size:10px;font-weight:700;letter-spacing:.14em;color:var(--grey)}
+.cell .big{font-family:var(--display);font-size:34px;line-height:.9;font-variant-numeric:tabular-nums}
+.cell .big small{font-size:18px;color:var(--grey)}
+.cell .x{font-size:11px;color:var(--grey);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.meter{display:grid;grid-template-columns:repeat(5,1fr);gap:3px;margin-top:2px}
+.meter i{height:5px;background:var(--surface)}
+.meter i.confirmed{background:var(--green)}
+.meter i.pending{background:transparent;outline:1px solid var(--grey);outline-offset:-1px}
+.meter i.failed{background:var(--rose)}
+.meter i.unknown{background:transparent;outline:1px dashed var(--grey);outline-offset:-1px}
+@media (max-width:720px){.band{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* status words */
+.w{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.w.confirmed{color:var(--green)}
+.w.pending{color:var(--white)}
+.w.failed{color:var(--rose)}
+.w.unknown{color:var(--grey)}
+
+/* clip rows */
+.list{border:1px solid var(--surface);background:var(--panel)}
+.lh{display:flex;justify-content:space-between;gap:10px;padding:10px 14px;border-bottom:1px solid var(--divider);font-size:10px;font-weight:700;letter-spacing:.14em;color:var(--grey);text-transform:uppercase}
+.clip{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:10px 14px;padding:12px 14px;border-bottom:1px solid var(--divider);align-items:start}
+.clip:last-child{border-bottom:0}
+.clip.flag{background:var(--rose-fill)}
+.clip .tm{font-size:12px;color:var(--grey);font-variant-numeric:tabular-nums;padding-top:2px}
+.clip .main{min-width:0;display:flex;flex-direction:column;gap:6px}
+.clip .tt{font-size:14px;overflow-wrap:anywhere}
+.tk{display:flex;gap:4px;flex-wrap:wrap}
+.tk span{font-size:10px;font-weight:700;letter-spacing:.1em;padding:1px 6px;border:1px solid var(--green);color:var(--green)}
+.tk span.none{border-color:var(--surface);color:var(--grey)}
+.chs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--divider);border:1px solid var(--surface)}
+.ch{background:var(--bg);padding:6px 8px;display:flex;flex-direction:column;gap:1px;min-width:0}
+.ch .cn{font-size:9px;font-weight:700;letter-spacing:.14em;color:var(--grey)}
+.ch .cx{font-size:10px;color:var(--grey);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ch .cx.err{color:var(--rose);white-space:normal}
+.ch a{font-size:10px;font-weight:700;letter-spacing:.1em;text-decoration:none}
+.ch a:hover{text-decoration:underline}
+.rev{display:flex;flex-direction:column;gap:6px;align-items:stretch;min-width:132px}
+.rev .btns{display:flex;gap:6px}
+.rev .btns .btn{flex:1}
+.rev input{background:var(--bg);border:1px solid var(--surface);padding:6px 8px;font-size:11px;min-width:0;width:100%}
+.rev input::placeholder{color:var(--grey)}
+.rev .by{font-size:10px;color:var(--grey);letter-spacing:.04em}
+@media (max-width:720px){
+  .clip{grid-template-columns:52px minmax(0,1fr)}
+  .rev{grid-column:1/-1;flex-direction:row;flex-wrap:wrap;align-items:center}
+  .rev .btns{flex:none}.rev input{flex:1 1 160px;width:auto}
+}
+@media (max-width:420px){.ch{padding:5px 6px}.ch .cx{font-size:9px}.ch .w{font-size:9px}}
+@media (max-width:340px){.chs{grid-template-columns:1fr}}
+.empty{padding:22px 14px;color:var(--grey);font-size:12px;line-height:1.6}
+.empty b{color:var(--white);font-weight:700}
+.note{border:1px dashed var(--surface);color:var(--grey);font-size:11px;padding:10px 14px;line-height:1.6}
+.note b{color:var(--white)}
+.banner{border:1px solid var(--rose);color:var(--rose);font-size:12px;padding:10px 14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:20;background:var(--green);color:var(--bg);font-weight:800;font-size:12px;padding:9px 14px;max-width:calc(100% - 32px)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">QG Auto Chart Clipper · watch only</div>
+      <h1>Clip <span>Monitor</span></h1>
+      <div class="sub">Evening SPX, SPY and QQQ highlight clips, 6:00 to 9:30 PM ET on weekdays, up to 5 per channel. The clipper makes and schedules them on its own; this page only watches and lets you check them.</div>
+    </div>
+    <div class="fresh" id="fresh"></div>
+  </header>
+
+  <div id="banner"></div>
+
+  <div class="ctl">
+    <div class="days" id="days" role="group" aria-label="Day"></div>
+    <div class="seg" id="seg" role="group" aria-label="Ticker"></div>
+  </div>
+
+  <section class="band" id="band" aria-label="Summary"></section>
+
+  <section class="list" aria-label="Clips">
+    <div class="lh"><span id="lhl">Clips</span><span id="lhr"></span></div>
+    <div id="clips"></div>
+  </section>
+
+  <div class="note" id="srcnote"></div>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+/*CLIPSTATUS*/
+</script>
+<script>
+const CS=window.ClipStatus;
+const ORG="6ad46a3a59096eb0b7722c86";
+const CH_LABEL={tiktok:"TIKTOK",instagram:"INSTAGRAM",youtube:"YOUTUBE"};
+const S={day:null,tk:"ALL",buffer:{state:"loading",posts:[],err:null,asOf:null},runs:{},runsState:"loading",reviews:{},me:null,canWrite:true,drafts:{}};
+try{const t=localStorage.getItem("qgcm.tk");if(t)S.tk=t}catch(_){}
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nowIso=()=>new Date().toISOString();
+const addDays=(d,n)=>{const t=new Date(d+"T12:00:00Z");t.setUTCDate(t.getUTCDate()+n);return t.toISOString().slice(0,10)};
+const dlabel=d=>new Date(d+"T12:00:00Z").toLocaleDateString("en-US",{weekday:"short",timeZone:"UTC"}).toUpperCase();
+const dshort=d=>new Date(d+"T12:00:00Z").toLocaleDateString("en-US",{month:"short",day:"numeric",timeZone:"UTC"});
+const tmET=iso=>new Date(iso).toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit",timeZone:"America/New_York"});
+const ago=ms=>{const m=Math.round((Date.now()-ms)/60e3);return m<1?"just now":m<60?m+" min ago":Math.round(m/60)+" h ago"};
+function toast(t){const e=$("toast");e.textContent=t;e.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>e.hidden=true,2200)}
+
+// days: today (ET) if weekday, plus the 5 weekdays before; default = today on a weekday, else the last weekday
+function dayList(){
+  const today=CS.etDay(nowIso()),out=[];let d=today;
+  if(CS.isWeekday(d))out.push(d);
+  while(out.length<6){d=addDays(d,-1);if(CS.isWeekday(d))out.push(d)}
+  return {today,list:out.reverse()};
+}
+const DL=dayList();S.day=DL.list[DL.list.length-1];
+
+function renderControls(){
+  $("days").innerHTML=DL.list.map(d=>`<button type="button" class="${d===DL.today?"today":""}" aria-pressed="${d===S.day}" data-day="${d}"><b>${d===DL.today?"TODAY":dlabel(d)}</b><span>${esc(dshort(d))}</span></button>`).join("");
+  {const dd=$("days"),on=dd.querySelector("[aria-pressed=true]");if(on&&!renderControls.done){renderControls.done=1;dd.scrollLeft=dd.scrollWidth}}
+  $("seg").innerHTML=["ALL",...CS.TICKERS].map(t=>`<button type="button" aria-pressed="${t===S.tk}" data-tk="${t}">${t}</button>`).join("");
+}
+
+function ctx(){return {now:nowIso(),day:S.day,buffer:S.buffer.state}}
+function dayClips(){
+  const posts=S.buffer.posts.filter(p=>CS.etDay(p.dueAt)===S.day&&CS.inWindow(p.dueAt));
+  const rep=S.runs[S.day]||null;
+  return CS.groupClips(posts,rep).sort((a,b)=>String(a.dueAt||"~").localeCompare(String(b.dueAt||"~")));
+}
+
+function meter(clips,ch,c){
+  const cells=[];for(const k of clips){if(k.posts[ch])cells.push(CS.postWord(k.posts[ch]))}
+  while(cells.length<CS.ROOM)cells.push("");
+  return `<div class="meter">${cells.slice(0,Math.max(CS.ROOM,cells.length)).map(w=>`<i class="${w}"></i>`).join("")}</div>`;
+}
+
+function renderBand(all,shown){
+  const c=ctx(),rep=S.runs[S.day]||null,cw=S.runsState==="error"?"unknown":CS.creationWord(rep,{now:c.now});
+  const made=rep&&rep.clips?CS.filterTicker(CS.groupClips([],rep),S.tk).length:null;
+  const cx=!rep?"The clipper isn't reporting to this page yet":rep.status==="failed"?(rep.message||"The clipper reported a failure"):rep.message||(rep.updatedAt?"Reported "+ago(Date.parse(rep.updatedAt)):"");
+  let h=`<div class="cell"><span class="tn">CREATED</span><span class="big">${made==null?"&ndash;":made}<small> clips</small></span><span class="w ${cw}">${cw}</span><span class="x" title="${esc(cx)}">${esc(cx)}</span></div>`;
+  for(const ch of CS.CHANNELS){
+    const s=CS.channelSummary(shown,ch,c);
+    const x=S.buffer.state!=="live"?"Buffer not read":s.count?`${s.confirmed} posted · ${s.pending} queued${s.failed?" · "+s.failed+" failed":""}${s.missing&&Date.parse(c.now)>CS.windowEnd(S.day)?" · "+s.missing+" never sent":""}`:Date.parse(c.now)<=CS.windowEnd(S.day)?"Nothing queued yet":"No clips in the window";
+    h+=`<div class="cell"><span class="tn">${CH_LABEL[ch]}</span><span class="big">${s.count}<small> / ${s.room}</small></span>${meter(shown,ch)}<span class="w ${s.word}">${s.word}</span><span class="x">${esc(x)}</span></div>`;
+  }
+  $("band").innerHTML=h;
+}
+
+function chCell(clip,ch){
+  const p=clip.posts[ch],w=CS.channelWord(clip,ch,ctx());
+  let x="";
+  if(p){x=p.status==="sent"?"posted "+tmET(p.sentAt||p.dueAt):p.status==="error"?"":"due "+tmET(p.dueAt)}
+  else x=S.buffer.state!=="live"?"Buffer not read":w==="failed"?"never reached Buffer":"not in Buffer yet";
+  const err=p&&p.error?`<span class="cx err">${esc(typeof p.error==="string"?p.error:(p.error.message||"Buffer error"))}</span>`:"";
+  const watch=p&&p.media?`<a href="${esc(p.media)}" target="_blank" rel="noopener">WATCH &#8599;</a>`:(clip.report&&clip.report.url?`<a href="${esc(clip.report.url)}" target="_blank" rel="noopener">WATCH &#8599;</a>`:"");
+  const pid=p?`<span class="cx" title="Buffer post ${esc(p.id)}">post ${esc(String(p.id).slice(-6))}</span>`:"";
+  return `<div class="ch"><span class="cn">${CH_LABEL[ch]}</span><span class="w ${w}">${w}</span><span class="cx">${esc(x)}</span>${err}${pid}${watch}</div>`;
+}
+
+function reviewKey(clip){return (S.day+"_"+clip.id).replace(/[^A-Za-z0-9_\-.~:@+]/g,"-").slice(0,190)}
+function renderClips(shown,all){
+  const c=ctx(),before=Date.parse(c.now)<CS.windowStart(S.day),open=Date.parse(c.now)<=CS.windowEnd(S.day);
+  $("lhl").textContent=`Clips · ${dlabel(S.day)} ${dshort(S.day)}${S.tk!=="ALL"?" · "+S.tk:""}`;
+  const flagged=shown.filter(k=>(S.reviews[reviewKey(k)]||{}).verdict==="flag").length,checked=shown.filter(k=>S.reviews[reviewKey(k)]).length;
+  $("lhr").textContent=shown.length?`${checked} of ${shown.length} checked${flagged?" · "+flagged+" flagged":""}`:"";
+  if(S.buffer.state==="loading"&&!all.length){$("clips").innerHTML=`<div class="empty">Reading Buffer…</div>`;return}
+  if(!shown.length){
+    const why=all.length&&S.tk!=="ALL"?`No ${S.tk} clips on this day. ${all.length} other clip${all.length>1?"s":""} under ALL.`:
+      before?`<b>Nothing yet.</b> Clips land between 6:00 and 9:30 PM ET. The clipper adds up to 5 per channel; they show here as soon as they're in Buffer.`:
+      open?`<b>The window is open.</b> No clips have reached Buffer yet. This page re-reads Buffer every 15 minutes, or press REFRESH.`:
+      S.buffer.state!=="live"?`Buffer couldn't be read, so this day's clips are unknown.`:`No clips reached Buffer in this day's 6:00 to 9:30 PM ET window.`;
+    $("clips").innerHTML=`<div class="empty">${why}</div>`;return;
+  }
+  $("clips").innerHTML=shown.map(k=>{
+    const key=reviewKey(k),r=S.reviews[key]||null,v=r&&r.verdict,draft=S.drafts[key]!=null?S.drafts[key]:(r&&r.note)||"";
+    const tks=k.tickers.length?k.tickers.map(t=>`<span>${t}</span>`).join(""):`<span class="none">NO TICKER</span>`;
+    const dis=S.canWrite?"":"disabled";
+    return `<article class="clip${v==="flag"?" flag":""}" data-key="${esc(key)}">
+      <div class="tm">${k.dueAt?esc(tmET(k.dueAt)):"&ndash;"}</div>
+      <div class="main"><div class="tk">${tks}</div><div class="tt">${esc(k.title||"Untitled clip")}</div>
+        <div class="chs">${CS.CHANNELS.map(ch=>chCell(k,ch)).join("")}</div></div>
+      <div class="rev">
+        <div class="btns"><button type="button" class="btn${v==="ok"?" on":""}" data-rv="ok" ${dis} aria-pressed="${v==="ok"}">GOOD</button><button type="button" class="btn${v==="flag"?" flagon":""}" data-rv="flag" ${dis} aria-pressed="${v==="flag"}">FLAG</button></div>
+        <input id="note-${esc(key)}" data-note="${esc(key)}" placeholder="What's wrong? (optional)" value="${esc(draft)}" ${dis} aria-label="Note">
+        ${r&&r.at?`<span class="by">Checked ${esc(ago(Date.parse(r.at)))}</span>`:""}
+      </div></article>`}).join("");
+}
+
+function renderFresh(){
+  const b=S.buffer;let t="";
+  if(b.state==="live")t=`<span>BUFFER READ ${esc(ago(b.asOf).toUpperCase())}</span>`;
+  else if(b.state==="loading")t=`<span>READING BUFFER…</span>`;
+  else t=`<span class="warn">BUFFER: ${esc(errText(b.err).toUpperCase())}</span>`;
+  $("fresh").innerHTML=t+`<button type="button" class="btn" id="rf">REFRESH</button>`;
+}
+function errText(c){return ({server_not_connected:"add the Buffer connector in Settings, Connectors",needs_reauth:"reconnect Buffer in Settings, Connectors",not_in_manifest:"Buffer isn't allowed for this page",approval_required:"needs your OK",consent_required:"needs your OK",blocked_by_policy:"blocked for this account",unavailable:"can't connect from this view"})[c]||("couldn't read ("+(c||"error")+")")}
+function renderBanner(){
+  const b=S.buffer;
+  $("banner").innerHTML=b.state==="error"&&["approval_required","consent_required"].includes(b.err)?`<div class="banner"><span>This page reads your Buffer queue to show where each clip is. It never changes Buffer.</span><button type="button" class="btn go" id="allow">ALLOW BUFFER</button></div>`:"";
+}
+function renderNote(){
+  $("srcnote").innerHTML=`<b>Where this comes from.</b> Channel status is read live from Buffer: a clip counts as <b>confirmed</b> only when Buffer shows the post as sent, <b>pending</b> while it is queued, <b>failed</b> when Buffer reports an error or a made clip never reached Buffer by 9:30 PM ET, and <b>unknown</b> when there is no evidence. Clips are any Buffer posts due in the weekday 6:00 to 9:30 PM ET window, which the regular top-up keeps empty. <b>CREATED</b> fills in once the clipper reports each run to this page. Your checks are saved here for the clipper's next tuning pass; they don't stop or change any post.`;
+}
+function render(){
+  renderControls();renderFresh();renderBanner();
+  const all=dayClips(),shown=CS.filterTicker(all,S.tk);
+  renderBand(all,shown);renderClips(shown,all);
+}
+
+// Buffer, read-only
+let LIVE=null,unw=null,seq=0;
+function bufInput(){
+  const first=DL.list[0],last=DL.list[DL.list.length-1];
+  return {organizationId:ORG,dueAt:{start:new Date(CS.windowStart(first)).toISOString().replace(/\.\d+Z$/,"Z"),end:new Date(CS.windowEnd(last)).toISOString().replace(/\.\d+Z$/,"Z")},first:100,sort:[{field:"dueAt",direction:"asc"}]};
+}
+function findKey(v,k,d){if(!v||typeof v!=="object"||d>4)return null;if(k in v)return v;for(const x of Object.values(v)){const r=findKey(x,k,(d||0)+1);if(r)return r}return null}
+function resultObj(res,k){let o=findKey(res&&res.payload,k,0);if(o)return o;for(const b of (res&&res.content)||[]){if(b&&b.type==="text"){try{o=findKey(JSON.parse(b.text),k,0);if(o)return o}catch(_){}}}return null}
+const DENY=["needs_reauth","server_not_connected","blocked_by_policy","approval_required","not_in_manifest","consent_required"];
+function onBuffer(ev){
+  const L=S.buffer;
+  if(ev.type==="error"){const c=ev.error&&ev.error.code;L.err=c;if(DENY.includes(c)||L.state!=="live"){L.state="error";L.posts=[]}render();return}
+  const o=resultObj(ev.result,"edges");if(!o){L.state="error";L.err="unexpected_reply";render();return}
+  const my=++seq,pages=[o],inp=bufInput();L.asOf=(ev.result.cache&&ev.result.cache.storedAt)||Date.now();
+  (async()=>{
+    while(pages.length<6){const pi=pages[pages.length-1].pageInfo;if(!pi||!pi.hasNextPage||!pi.endCursor)break;
+      try{const r=await LIVE.callTool("Buffer","list_posts",{...inp,after:pi.endCursor},{cache:{staleTime:10*60e3,gcTime:864e5}});const n=resultObj(r,"edges");if(!n)break;pages.push(n)}catch(_){break}
+      if(my!==seq)return}
+    if(my!==seq)return;const seen=new Set();
+    L.posts=pages.flatMap(p=>p.edges||[]).map(e=>e&&e.node).filter(n=>n&&n.id&&n.dueAt&&!seen.has(n.id)&&seen.add(n.id)).map(n=>{const a=(n.assets||[])[0]||{};return {id:n.id,channel:String(n.channelService||"").toLowerCase(),status:String(n.status||"").toLowerCase(),text:n.text||"",dueAt:n.dueAt,sentAt:n.sentAt||null,media:a.source||"",error:n.error||null}});
+    L.state="live";L.err=null;render();
+  })();
+}
+function watch(){if(!LIVE)return;if(unw)unw();if(S.buffer.state!=="live")S.buffer.state="loading";unw=LIVE.watchTool("Buffer","list_posts",bufInput(),onBuffer,{cache:{staleTime:10*60e3,gcTime:864e5},refetchInterval:15*60e3})}
+async function refresh(){
+  if(!LIVE){toast("Buffer isn't available in this view");return}
+  S.buffer.state=S.buffer.state==="live"?"live":"loading";render();
+  try{const r=await LIVE.callTool("Buffer","list_posts",bufInput(),{cache:{staleTime:0,gcTime:864e5,refresh:true}});onBuffer({type:"data",result:r})}catch(e){onBuffer({type:"error",error:e})}
+}
+
+// db: runs/{day} written by the clipper; reviews/{key} written here
+let DB=null;
+async function startDb(){
+  try{DB=await window.claude.use("db")}catch(_){DB=null}
+  if(!DB){S.runsState="error";S.canWrite=false;render();return}
+  try{const u=await window.claude.use("user");if(u){S.me=await u.id().catch(()=>null);const cw=await u.can("data.write").catch(()=>null);if(cw===false)S.canWrite=false}}catch(_){}
+  DB.collection("runs").onSnapshot(q=>{S.runs={};q.docs.forEach(d=>S.runs[d.id]=d.data());S.runsState="live";render()},()=>{S.runsState="error";render()});
+  DB.collection("reviews").onSnapshot(q=>{S.reviews={};q.docs.forEach(d=>S.reviews[d.id]=d.data());render()},()=>{});
+}
+async function saveReview(key,verdict){
+  if(!DB||!S.canWrite)return;
+  const prev=S.reviews[key]||{},inp=document.querySelector(`[data-note="${CSS.escape(key)}"]`),note=inp?inp.value.trim():"";
+  const clip=dayClips().find(k=>reviewKey(k)===key);
+  const v=prev.verdict===verdict&&note===(prev.note||"")?null:verdict;
+  try{
+    if(!v){await DB.doc("reviews/"+key).delete();delete S.drafts[key];toast("Check cleared");return}
+    await DB.doc("reviews/"+key).set({day:S.day,clipId:clip?clip.id:key,title:clip?clip.title:"",tickers:clip?clip.tickers:[],posts:clip?Object.fromEntries(Object.entries(clip.posts).map(([c,p])=>[c,p.id])):{},verdict:v,note,at:new Date().toISOString(),by:S.me||null});
+    delete S.drafts[key];toast(v==="ok"?"Marked as looking good":"Flagged");
+  }catch(e){toast("Couldn't save. "+(e&&e.code==="permission_denied"?"You can only view this page.":"Try again."))}
+}
+
+document.addEventListener("click",e=>{
+  const d=e.target.closest("[data-day]");if(d){S.day=d.dataset.day;render();return}
+  const t=e.target.closest("[data-tk]");if(t){S.tk=t.dataset.tk;try{localStorage.setItem("qgcm.tk",S.tk)}catch(_){}render();return}
+  const r=e.target.closest("[data-rv]");if(r){saveReview(r.closest(".clip").dataset.key,r.dataset.rv);return}
+  if(e.target.closest("#rf")){refresh();return}
+  if(e.target.closest("#allow")){(async()=>{try{const p=await window.claude.use("permissions");if(p)await p.request(["mcp:Buffer"])}catch(_){}refresh()})()}
+});
+document.addEventListener("input",e=>{const n=e.target.closest("[data-note]");if(n)S.drafts[n.dataset.note]=n.value});
+document.addEventListener("keydown",e=>{const n=e.target.closest&&e.target.closest("[data-note]");if(n&&e.key==="Enter"){e.preventDefault();saveReview(n.dataset.note,"flag")}});
+
+renderNote();render();
+(async()=>{
+  try{LIVE=window.claude&&await window.claude.use("mcp")}catch(_){LIVE=null}
+  if(!LIVE){S.buffer.state="error";S.buffer.err="unavailable";render()}else watch();
+})();
+startDb();
+setInterval(render,60e3);
+</script>
