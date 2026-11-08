@@ -1,7 +1,7 @@
 // Chart Clips status logic. Pure functions, shared by the monitor page and its tests.
 // Status words are only: confirmed, pending, failed, unknown.
 (function(root){
-const TZ="America/New_York",TICKERS=["SPX","SPY","QQQ"],CHANNELS=["tiktok","instagram","youtube"],ROOM=5;
+const TZ="America/New_York",TICKERS=["SPX","SPY","QQQ"],CHANNELS=["tiktok","instagram","youtube"];
 const WIN_START=18*60,WIN_END=21*60+30,STALE_MS=3*3600e3;
 function etParts(iso){
   const p=new Intl.DateTimeFormat("en-US",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",weekday:"short",hourCycle:"h23"}).formatToParts(new Date(iso));
@@ -54,7 +54,7 @@ function channelWord(clip,ch,ctx){
   return Date.parse(ctx.now)<=windowEnd(ctx.day)?"pending":"failed";
 }
 function channelSummary(clips,ch,ctx){
-  const s={room:ROOM,count:0,confirmed:0,pending:0,failed:0,unknown:0,word:"unknown"};
+  const s={total:(clips||[]).length,count:0,confirmed:0,pending:0,failed:0,unknown:0,word:"unknown"};
   let missing=0;
   for(const c of clips){if(!c.posts[ch]){if(c.report)missing++;continue}s.count++;s[postWord(c.posts[ch])]++}
   if(ctx.buffer!=="live"){s.word="unknown";return s}
@@ -73,6 +73,6 @@ function creationWord(rep,ctx){
   return "unknown";
 }
 function filterTicker(clips,t){return !t||t==="ALL"?clips:clips.filter(c=>c.tickers.includes(t))}
-const api={TZ,TICKERS,CHANNELS,ROOM,etParts,etDay,isWeekday,inWindow,windowStart,windowEnd,tickers,postWord,captionKey,groupClips,channelWord,channelSummary,creationWord,filterTicker};
+const api={TZ,TICKERS,CHANNELS,etParts,etDay,isWeekday,inWindow,windowStart,windowEnd,tickers,postWord,captionKey,groupClips,channelWord,channelSummary,creationWord,filterTicker};
 if(typeof module!=="undefined"&&module.exports)module.exports=api;else root.ClipStatus=api;
 })(this);

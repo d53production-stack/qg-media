@@ -12,7 +12,7 @@ function shim(sc){
   caps.forEach((c,i)=>["tiktok","instagram","youtube"].forEach(ch=>{
     const st=i<3?"sent":"scheduled";const err=sc==="bad"&&i===2&&ch==="instagram";
     edges.push({node:{id:`6af0${i}${ch.slice(0,2)}00000000000000000`,channelService:ch,status:err?"error":st,dueAt:t[i],text:c,assets:[{type:"video",source:"https://x/"+i+".mp4"}],error:err?{message:"Video could not be processed"}:null}})}));
-  const C={clips:sc==="none"?[]:[{id:day,status:"working",updatedAt:new Date(NOW-6*60e3).toISOString(),message:"4 of 5 made",clips:caps.map((c,i)=>({id:"c"+i,ticker:["SPX","SPY","QQQ","SPX"][i],title:c}))}],studio:[],tasks:[],content:[],projects:[],playbooks:[],suggestions:[],days:[]};
+  const C={clips:sc==="none"?[]:[{id:day,status:"working",updatedAt:new Date(NOW-6*60e3).toISOString(),message:"Made from 4 of Joule's reads",clips:caps.map((c,i)=>({id:"c"+i,ticker:["SPX","SPY","QQQ","SPX"][i],title:c}))}],studio:[],tasks:[],content:[],projects:[],playbooks:[],suggestions:[],days:[]};
   const D={"settings/home":{tz:"America/Los_Angeles",zip:"95014"}};
   return `(()=>{const RN=${NOW};const _D=Date;class FD extends _D{constructor(...a){super(...(a.length?a:[RN]))}static now(){return RN}}window.Date=FD;
     const D=${JSON.stringify(D)},C=${JSON.stringify(C)};

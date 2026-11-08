@@ -138,7 +138,7 @@ h1 span{color:var(--green)}
     <div>
       <div class="eyebrow">QG Auto Chart Clipper · watch only</div>
       <h1>Clip <span>Monitor</span></h1>
-      <div class="sub">Evening SPX, SPY and QQQ highlight clips, 6:00 to 9:30 PM ET on weekdays, up to 5 per channel. The clipper makes and schedules them on its own; this page only watches and lets you check them.</div>
+      <div class="sub">Evening highlight clips made from Joule's reads on the QuantGeeks MCP, posted 6:00 to 9:30 PM ET on weekdays. How many there are depends on the day's reads. The clipper makes and schedules them on its own; this page only watches and lets you check them.</div>
     </div>
     <div class="fresh" id="fresh"></div>
   </header>
@@ -167,7 +167,7 @@ h1 span{color:var(--green)}
 // Chart Clips status logic. Pure functions, shared by the monitor page and its tests.
 // Status words are only: confirmed, pending, failed, unknown.
 (function(root){
-const TZ="America/New_York",TICKERS=["SPX","SPY","QQQ"],CHANNELS=["tiktok","instagram","youtube"],ROOM=5;
+const TZ="America/New_York",TICKERS=["SPX","SPY","QQQ"],CHANNELS=["tiktok","instagram","youtube"];
 const WIN_START=18*60,WIN_END=21*60+30,STALE_MS=3*3600e3;
 function etParts(iso){
   const p=new Intl.DateTimeFormat("en-US",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",weekday:"short",hourCycle:"h23"}).formatToParts(new Date(iso));
@@ -220,7 +220,7 @@ function channelWord(clip,ch,ctx){
   return Date.parse(ctx.now)<=windowEnd(ctx.day)?"pending":"failed";
 }
 function channelSummary(clips,ch,ctx){
-  const s={room:ROOM,count:0,confirmed:0,pending:0,failed:0,unknown:0,word:"unknown"};
+  const s={total:(clips||[]).length,count:0,confirmed:0,pending:0,failed:0,unknown:0,word:"unknown"};
   let missing=0;
   for(const c of clips){if(!c.posts[ch]){if(c.report)missing++;continue}s.count++;s[postWord(c.posts[ch])]++}
   if(ctx.buffer!=="live"){s.word="unknown";return s}
@@ -239,7 +239,7 @@ function creationWord(rep,ctx){
   return "unknown";
 }
 function filterTicker(clips,t){return !t||t==="ALL"?clips:clips.filter(c=>c.tickers.includes(t))}
-const api={TZ,TICKERS,CHANNELS,ROOM,etParts,etDay,isWeekday,inWindow,windowStart,windowEnd,tickers,postWord,captionKey,groupClips,channelWord,channelSummary,creationWord,filterTicker};
+const api={TZ,TICKERS,CHANNELS,etParts,etDay,isWeekday,inWindow,windowStart,windowEnd,tickers,postWord,captionKey,groupClips,channelWord,channelSummary,creationWord,filterTicker};
 if(typeof module!=="undefined"&&module.exports)module.exports=api;else root.ClipStatus=api;
 })(this);
 
@@ -285,8 +285,8 @@ function dayClips(){
 
 function meter(clips,ch,c){
   const cells=[];for(const k of clips){if(k.posts[ch])cells.push(CS.postWord(k.posts[ch]))}
-  while(cells.length<CS.ROOM)cells.push("");
-  return `<div class="meter">${cells.slice(0,Math.max(CS.ROOM,cells.length)).map(w=>`<i class="${w}"></i>`).join("")}</div>`;
+  while(cells.length<clips.length)cells.push("");
+  return cells.length?`<div class="meter" style="grid-template-columns:repeat(${cells.length},1fr)">${cells.map(w=>`<i class="${w}"></i>`).join("")}</div>`:`<div class="meter"></div>`;
 }
 
 function renderBand(all,shown){
@@ -297,7 +297,7 @@ function renderBand(all,shown){
   for(const ch of CS.CHANNELS){
     const s=CS.channelSummary(shown,ch,c);
     const x=S.buffer.state!=="live"?"Buffer not read":s.count?`${s.confirmed} posted · ${s.pending} queued${s.failed?" · "+s.failed+" failed":""}${s.missing&&Date.parse(c.now)>CS.windowEnd(S.day)?" · "+s.missing+" never sent":""}`:Date.parse(c.now)<=CS.windowEnd(S.day)?"Nothing queued yet":"No clips in the window";
-    h+=`<div class="cell"><span class="tn">${CH_LABEL[ch]}</span><span class="big">${s.count}<small> / ${s.room}</small></span>${meter(shown,ch)}<span class="w ${s.word}">${s.word}</span><span class="x">${esc(x)}</span></div>`;
+    h+=`<div class="cell"><span class="tn">${CH_LABEL[ch]}</span><span class="big">${s.count}<small> / ${s.total}</small></span>${meter(shown,ch)}<span class="w ${s.word}">${s.word}</span><span class="x">${esc(x)}</span></div>`;
   }
   $("band").innerHTML=h;
 }
@@ -368,7 +368,7 @@ function renderClips(shown,all){
   if(S.buffer.state==="loading"&&!all.length){$("clips").innerHTML=`<div class="empty">Reading Buffer…</div>`;return}
   if(!shown.length){
     const why=all.length&&S.tk!=="ALL"?`No ${S.tk} clips on this day. ${all.length} other clip${all.length>1?"s":""} under ALL.`:
-      before?`<b>Nothing yet.</b> Clips land between 6:00 and 9:30 PM ET. The clipper adds up to 5 per channel; they show here as soon as they're in Buffer.`:
+      before?`<b>Nothing yet.</b> Clips land between 6:00 and 9:30 PM ET. They show here as soon as they're in Buffer.`:
       open?`<b>The window is open.</b> No clips have reached Buffer yet. This page re-reads Buffer every 15 minutes, or press REFRESH.`:
       S.buffer.state!=="live"?`Buffer couldn't be read, so this day's clips are unknown.`:`No clips reached Buffer in this day's 6:00 to 9:30 PM ET window.`;
     $("clips").innerHTML=`<div class="empty">${why}</div>`;return;

@@ -44,7 +44,7 @@ sub('@media (prefers-reduced-motion:reduce){*{transition:none!important}}\n</sty
 fn = r"""
 // ---- CHART CLIPS card (preview) ----
 const CLIP_MONITOR=%r;
-let CLIP_TK="ALL";try{CLIP_TK=localStorage.getItem("qg.cliptk")||"ALL"}catch(_){}
+const CLIP_TK="ALL";
 function clipDay(){const CS=window.ClipStatus,t=CS.etDay(new Date().toISOString());let d=t;while(!CS.isWeekday(d)){const x=new Date(d+"T12:00:00Z");x.setUTCDate(x.getUTCDate()-1);d=x.toISOString().slice(0,10)}return d}
 function renderClipCard(){
   const el=$("clipcard"),CS=window.ClipStatus;if(!el||!CS)return;
@@ -58,15 +58,13 @@ function renderClipCard(){
   const isToday=day===CS.etDay(nowIso),dl=new Date(day+"T12:00:00Z").toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric",timeZone:"UTC"}).toUpperCase();
   const before=Date.parse(nowIso)<CS.windowStart(day);
   const head=`Chart clips · ${isToday?"tonight":dl}${failed?" · needs a look":""}`;
-  const pips=(ch)=>{const c=shown.filter(k=>k.posts[ch]).map(k=>CS.postWord(k.posts[ch]));while(c.length<5)c.push("");return `<div class="pips">${c.slice(0,5).map(w=>`<i class="${w}"></i>`).join("")}</div>`};
+  const pips=(ch)=>{const c=shown.filter(k=>k.posts[ch]).map(k=>CS.postWord(k.posts[ch]));while(c.length<shown.length)c.push("");return c.length?`<div class="pips" style="grid-template-columns:repeat(${c.length},1fr)">${c.map(w=>`<i class="${w}"></i>`).join("")}</div>`:""};
   const lab={tiktok:"TIKTOK",instagram:"INSTAGRAM",youtube:"YOUTUBE"};
   const cx=!run?"not reporting yet":run.message||"";
   const cells=[`<div class="ac"><span class="tn">CREATED</span><span class="n">${made==null?"&ndash;":made}</span><b class="${cw}">${cw.toUpperCase()}</b><span class="x" title="${esc(cx)}">${esc(cx)}</span></div>`]
-    .concat(sums.map(([ch,s])=>`<div class="ac"><span class="tn">${lab[ch]}</span><span class="n">${s.count}<small>/5</small></span>${pips(ch)}<b class="${s.word}">${s.word.toUpperCase()}</b><span class="x">${bst!=="live"?"Buffer not read":s.count?`${s.confirmed} posted · ${s.pending} queued`:before?"opens 6:00 PM ET":"none in Buffer"}</span></div>`)).join("");
-  const tks=["ALL","SPX","SPY","QQQ"].map(t=>`<button type="button" data-cliptk="${t}" aria-pressed="${t===CLIP_TK}">${t}</button>`).join("");
-  el.innerHTML=`<div class="clc${failed?" bad":allUnknown?" stale":""}" role="region" aria-label="Chart clips"><div class="ah"><span class="eyebrow">${esc(head)}</span><span class="tks" role="group" aria-label="Ticker">${tks}</span></div><div class="ag">${cells}</div><div class="cf"><span>${shown.length?`${shown.length} clip${shown.length>1?"s":""} · 6:00 to 9:30 PM ET`:"Up to 5 per channel, 6:00 to 9:30 PM ET weekdays"}</span><a href="${CLIP_MONITOR}" target="_blank" rel="noopener">WATCH &amp; CHECK &#8599;</a></div></div>`;
+    .concat(sums.map(([ch,s])=>`<div class="ac"><span class="tn">${lab[ch]}</span><span class="n">${s.count}<small>/${s.total}</small></span>${pips(ch)}<b class="${s.word}">${s.word.toUpperCase()}</b><span class="x">${bst!=="live"?"Buffer not read":s.count?`${s.confirmed} posted · ${s.pending} queued${s.failed?" · "+s.failed+" failed":""}`:before?"opens 6:00 PM ET":"none in Buffer"}</span></div>`)).join("");
+  el.innerHTML=`<div class="clc${failed?" bad":allUnknown?" stale":""}" role="region" aria-label="Chart clips"><div class="ah"><span class="eyebrow">${esc(head)}</span></div><div class="ag">${cells}</div><div class="cf"><span>${shown.length?`${shown.length} clip${shown.length>1?"s":""} from Joule's reads · 6:00 to 9:30 PM ET`:"From Joule's reads · 6:00 to 9:30 PM ET weekdays"}</span><a href="${CLIP_MONITOR}" target="_blank" rel="noopener">WATCH &amp; CHECK &#8599;</a></div></div>`;
 }
-document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-cliptk]");if(!b)return;CLIP_TK=b.dataset.cliptk;try{localStorage.setItem("qg.cliptk",CLIP_TK)}catch(_){}renderClipCard()});
 """ % MON
 sub('function renderStudios(){', fn + '\nfunction renderStudios(){')
 sub('renderAir();renderStudios();', 'renderAir();renderStudios();renderClipCard();')

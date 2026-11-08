@@ -70,11 +70,11 @@ test("creation word comes only from the clipper report", ()=>{
   assert.equal(S.creationWord({status:"failed"},{now}),"failed");
 });
 
-test("channel summary counts up to the 5-clip room", ()=>{
+test("channel summary counts against however many clips the day has", ()=>{
   const ps=[1,2,3].map(i=>post({channel:"tiktok",text:"SPX clip "+i,status:i===3?"error":"sent"}));
   const g=S.groupClips(ps,null);
   const s=S.channelSummary(g,"tiktok",{now:"2026-11-10T03:00:00Z",day:"2026-11-09",buffer:"live"});
-  assert.deepEqual(s,{room:5,count:3,confirmed:2,pending:0,failed:1,unknown:0,missing:0,word:"failed"});
+  assert.deepEqual(s,{total:3,count:3,confirmed:2,pending:0,failed:1,unknown:0,missing:0,word:"failed"});
 });
 
 test("summary word: all sent = confirmed, any queued = pending, Buffer down = unknown", ()=>{
@@ -104,4 +104,11 @@ test("a made clip missing from a channel after the window makes that channel fai
 test("report ticker and caption tickers are combined", ()=>{
   const rep={status:"done",clips:[{id:"c1",ticker:"SPY",title:"SPY and QQQ battle"}]};
   assert.deepEqual(S.groupClips([],rep)[0].tickers,["SPY","QQQ"]);
+});
+
+test("total follows the day's clips, not a fixed 5", ()=>{
+  const rep={status:"done",clips:[{id:"a",title:"SPX one"},{id:"b",title:"QQQ two"}]};
+  const g=S.groupClips([post({channel:"tiktok",text:"SPX one",status:"sent"})],rep);
+  const s=S.channelSummary(g,"tiktok",{now:"2026-11-09T20:00:00Z",day:"2026-11-09",buffer:"live"});
+  assert.equal(s.total,2);assert.equal(s.count,1);
 });
