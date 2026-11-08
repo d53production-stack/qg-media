@@ -102,6 +102,28 @@ h1 span{color:var(--green)}
 }
 @media (max-width:420px){.ch{padding:5px 6px}.ch .cx{font-size:9px}.ch .w{font-size:9px}}
 @media (max-width:340px){.chs{grid-template-columns:1fr}}
+/* player: today's clips one after another, 9:16 */
+.player{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:0;border:1px solid var(--surface);background:var(--panel)}
+.pv{background:#000;aspect-ratio:9/16;max-height:72vh;width:100%;display:grid;place-items:center;position:relative;border-right:1px solid var(--surface)}
+.pv video{width:100%;height:100%;object-fit:contain;display:block;background:#000}
+.pv .nov{padding:18px;text-align:center;color:var(--grey);font-size:12px;line-height:1.6;display:flex;flex-direction:column;gap:10px;align-items:center}
+.pv .nov b{color:var(--white);font-family:var(--display);font-weight:400;font-size:24px;letter-spacing:.02em}
+.pv label.btn{display:inline-flex;align-items:center}
+.pv input[type=file]{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.pinfo{padding:14px 16px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.pinfo .pn{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.pinfo .pn .ct{font-size:11px;color:var(--grey);letter-spacing:.08em;font-variant-numeric:tabular-nums}
+.pinfo h2{font-family:var(--display);font-weight:400;font-size:30px;line-height:1;margin:0;overflow-wrap:anywhere;text-wrap:balance}
+.pinfo .rev{min-width:0}
+.pinfo .auto{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--grey);letter-spacing:.06em}
+.pinfo .auto input{accent-color:var(--green);width:16px;height:16px}
+.vtag{font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--grey);border:1px solid var(--surface);padding:1px 5px;align-self:flex-start}
+.vtag.has{color:var(--green);border-color:var(--green)}
+.clip .tm{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.clip .play{background:none;border:1px solid var(--surface);font-size:10px;font-weight:800;letter-spacing:.1em;padding:4px 7px;color:var(--white)}
+.clip .play:hover{border-color:var(--green);color:var(--green)}
+.clip.cur{box-shadow:inset 3px 0 0 var(--green)}
+@media (max-width:720px){.player{grid-template-columns:1fr}.pv{border-right:0;border-bottom:1px solid var(--surface);max-height:none;max-width:420px;margin:0 auto}}
 .empty{padding:22px 14px;color:var(--grey);font-size:12px;line-height:1.6}
 .empty b{color:var(--white);font-weight:700}
 .note{border:1px dashed var(--surface);color:var(--grey);font-size:11px;padding:10px 14px;line-height:1.6}
@@ -129,6 +151,8 @@ h1 span{color:var(--green)}
   </div>
 
   <section class="band" id="band" aria-label="Summary"></section>
+
+  <section class="player" id="player" aria-label="Player" hidden><div class="pv" id="pv"></div><div class="pinfo" id="pinfo"></div></section>
 
   <section class="list" aria-label="Clips">
     <div class="lh"><span id="lhl">Clips</span><span id="lhr"></span></div>
@@ -224,7 +248,8 @@ if(typeof module!=="undefined"&&module.exports)module.exports=api;else root.Clip
 const CS=window.ClipStatus;
 const ORG="6ad46a3a59096eb0b7722c86";
 const CH_LABEL={tiktok:"TIKTOK",instagram:"INSTAGRAM",youtube:"YOUTUBE"};
-const S={day:null,tk:"ALL",buffer:{state:"loading",posts:[],err:null,asOf:null},runs:{},runsState:"loading",reviews:{},me:null,canWrite:true,drafts:{}};
+const S={day:null,tk:"ALL",buffer:{state:"loading",posts:[],err:null,asOf:null},runs:{},runsState:"loading",reviews:{},me:null,canWrite:true,drafts:{},cur:null,autoNext:true,canUpload:false};
+try{S.autoNext=localStorage.getItem("qgcm.auto")!=="0"}catch(_){}
 try{const t=localStorage.getItem("qgcm.tk");if(t)S.tk=t}catch(_){}
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -288,11 +313,57 @@ function chCell(clip,ch){
   return `<div class="ch"><span class="cn">${CH_LABEL[ch]}</span><span class="w ${w}">${w}</span><span class="cx">${esc(x)}</span>${err}${pid}${watch}</div>`;
 }
 
+// A clip plays here only from this page's own asset store: the clipper (or you) puts the render there.
+function vsrc(clip){
+  const r=clip.report||{},rv=S.reviews[reviewKey(clip)]||{};
+  if(r.assetId)return "/_blob/"+r.assetId;
+  if(r.assetUrl&&/^\/_blob\//.test(r.assetUrl))return r.assetUrl;
+  if(rv.assetId)return "/_blob/"+rv.assetId;
+  return "";
+}
+function extWatch(clip){for(const ch of CS.CHANNELS){const p=clip.posts[ch];if(p&&p.media)return p.media}return clip.report&&clip.report.url||""}
+function revBlock(k){
+  const key=reviewKey(k),r=S.reviews[key]||null,v=r&&r.verdict,draft=S.drafts[key]!=null?S.drafts[key]:(r&&r.note)||"",dis=S.canWrite?"":"disabled";
+  return `<div class="rev" data-key="${esc(key)}">
+        <div class="btns"><button type="button" class="btn${v==="ok"?" on":""}" data-rv="ok" ${dis} aria-pressed="${v==="ok"}">GOOD</button><button type="button" class="btn${v==="flag"?" flagon":""}" data-rv="flag" ${dis} aria-pressed="${v==="flag"}">FLAG</button></div>
+        <input data-note="${esc(key)}" placeholder="What's wrong? (optional)" value="${esc(draft)}" ${dis} aria-label="Note">
+        ${r&&r.at&&r.verdict?`<span class="by">Checked ${esc(ago(Date.parse(r.at)))}</span>`:""}
+      </div>`;
+}
+let PV_KEY=null;
+function renderPlayer(shown){
+  const el=$("player");
+  if(!shown.length){el.hidden=true;PV_KEY=null;return}
+  el.hidden=false;
+  let i=shown.findIndex(k=>reviewKey(k)===S.cur);if(i<0){i=Math.max(0,shown.findIndex(k=>vsrc(k)));S.cur=reviewKey(shown[i])}
+  const k=shown[i],src=vsrc(k),ext=extWatch(k),key=reviewKey(k)+"|"+src;
+  if(PV_KEY!==key){
+    PV_KEY=key;
+    $("pv").innerHTML=src?`<video id="vid" src="${esc(src)}" controls playsinline preload="metadata"></video>`:
+      `<div class="nov"><b>No video on this page yet</b><span>The clipper hasn't put this render here.${ext?" You can watch Buffer's copy in a new tab.":""}</span>${ext?`<a class="btn" href="${esc(ext)}" target="_blank" rel="noopener">WATCH IN NEW TAB &#8599;</a>`:""}${S.canUpload?`<label class="btn" for="vfile">ADD THE VIDEO FILE</label><input type="file" id="vfile" accept="video/mp4,video/quicktime,video/*">`:""}</div>`;
+    const v=$("vid");if(v)v.addEventListener("ended",()=>{if(!S.autoNext)return;const all=CS.filterTicker(dayClips(),S.tk),j=all.findIndex(c=>reviewKey(c)===S.cur);for(let n=j+1;n<all.length;n++){if(vsrc(all[n])){S.cur=reviewKey(all[n]);render();const nv=$("vid");if(nv)nv.play().catch(()=>{});return}}});
+  }
+  const tks=k.tickers.map(t=>`<span>${t}</span>`).join("");
+  const withV=shown.filter(c=>vsrc(c)).length;
+  $("pinfo").innerHTML=`<div class="pn"><span class="ct">CLIP ${i+1} OF ${shown.length} · ${k.dueAt?esc(tmET(k.dueAt)):"&ndash;"} ET · ${withV} WITH VIDEO</span><span class="btns" style="display:flex;gap:6px"><button type="button" class="btn" data-step="-1" ${i?"":"disabled"}>&larr; PREV</button><button type="button" class="btn" data-step="1" ${i<shown.length-1?"":"disabled"}>NEXT &rarr;</button></span></div>
+    <div class="tk">${tks||'<span class="none">NO TICKER</span>'}</div><h2>${esc(k.title||"Untitled clip")}</h2>
+    <div class="chs">${CS.CHANNELS.map(ch=>chCell(k,ch)).join("")}</div>
+    ${revBlock(k)}
+    <label class="auto"><input type="checkbox" id="autonext" ${S.autoNext?"checked":""}> Play the next clip when one ends</label>`;
+}
+async function addVideo(file){
+  const key=S.cur;if(!file||!key||!DB)return;
+  let A=null;try{A=await window.claude.use("assets")}catch(_){}
+  if(!A){toast("Only editors of this page can add videos");return}
+  toast("Uploading "+file.name+"…");
+  try{const up=await A.upload(file);const prev=S.reviews[key]||{};await DB.doc("reviews/"+key).set({...prev,day:S.day,assetId:up.id,assetName:file.name,assetAt:new Date().toISOString()});PV_KEY=null;toast("Video added")}
+  catch(e){toast(e&&e.code==="too_large"?"That file is over 20 MB":"Couldn't upload the video. Try again.")}
+}
 function reviewKey(clip){return (S.day+"_"+clip.id).replace(/[^A-Za-z0-9_\-.~:@+]/g,"-").slice(0,190)}
 function renderClips(shown,all){
   const c=ctx(),before=Date.parse(c.now)<CS.windowStart(S.day),open=Date.parse(c.now)<=CS.windowEnd(S.day);
   $("lhl").textContent=`Clips · ${dlabel(S.day)} ${dshort(S.day)}${S.tk!=="ALL"?" · "+S.tk:""}`;
-  const flagged=shown.filter(k=>(S.reviews[reviewKey(k)]||{}).verdict==="flag").length,checked=shown.filter(k=>S.reviews[reviewKey(k)]).length;
+  const flagged=shown.filter(k=>(S.reviews[reviewKey(k)]||{}).verdict==="flag").length,checked=shown.filter(k=>(S.reviews[reviewKey(k)]||{}).verdict).length;
   $("lhr").textContent=shown.length?`${checked} of ${shown.length} checked${flagged?" · "+flagged+" flagged":""}`:"";
   if(S.buffer.state==="loading"&&!all.length){$("clips").innerHTML=`<div class="empty">Reading Buffer…</div>`;return}
   if(!shown.length){
@@ -305,16 +376,12 @@ function renderClips(shown,all){
   $("clips").innerHTML=shown.map(k=>{
     const key=reviewKey(k),r=S.reviews[key]||null,v=r&&r.verdict,draft=S.drafts[key]!=null?S.drafts[key]:(r&&r.note)||"";
     const tks=k.tickers.length?k.tickers.map(t=>`<span>${t}</span>`).join(""):`<span class="none">NO TICKER</span>`;
-    const dis=S.canWrite?"":"disabled";
-    return `<article class="clip${v==="flag"?" flag":""}" data-key="${esc(key)}">
-      <div class="tm">${k.dueAt?esc(tmET(k.dueAt)):"&ndash;"}</div>
+    const hv=!!vsrc(k);
+    return `<article class="clip${v==="flag"?" flag":""}${key===S.cur?" cur":""}" data-key="${esc(key)}">
+      <div class="tm"><span>${k.dueAt?esc(tmET(k.dueAt)):"&ndash;"}</span><button type="button" class="play" data-play="${esc(key)}" aria-label="Show in player">${hv?"&#9654; PLAY":"OPEN"}</button><span class="vtag${hv?" has":""}">${hv?"VIDEO":"NO VIDEO"}</span></div>
       <div class="main"><div class="tk">${tks}</div><div class="tt">${esc(k.title||"Untitled clip")}</div>
         <div class="chs">${CS.CHANNELS.map(ch=>chCell(k,ch)).join("")}</div></div>
-      <div class="rev">
-        <div class="btns"><button type="button" class="btn${v==="ok"?" on":""}" data-rv="ok" ${dis} aria-pressed="${v==="ok"}">GOOD</button><button type="button" class="btn${v==="flag"?" flagon":""}" data-rv="flag" ${dis} aria-pressed="${v==="flag"}">FLAG</button></div>
-        <input id="note-${esc(key)}" data-note="${esc(key)}" placeholder="What's wrong? (optional)" value="${esc(draft)}" ${dis} aria-label="Note">
-        ${r&&r.at?`<span class="by">Checked ${esc(ago(Date.parse(r.at)))}</span>`:""}
-      </div></article>`}).join("");
+      ${revBlock(k)}</article>`}).join("");
 }
 
 function renderFresh(){
@@ -330,12 +397,12 @@ function renderBanner(){
   $("banner").innerHTML=b.state==="error"&&["approval_required","consent_required"].includes(b.err)?`<div class="banner"><span>This page reads your Buffer queue to show where each clip is. It never changes Buffer.</span><button type="button" class="btn go" id="allow">ALLOW BUFFER</button></div>`:"";
 }
 function renderNote(){
-  $("srcnote").innerHTML=`<b>Where this comes from.</b> Channel status is read live from Buffer: a clip counts as <b>confirmed</b> only when Buffer shows the post as sent, <b>pending</b> while it is queued, <b>failed</b> when Buffer reports an error or a made clip never reached Buffer by 9:30 PM ET, and <b>unknown</b> when there is no evidence. Clips are any Buffer posts due in the weekday 6:00 to 9:30 PM ET window, which the regular top-up keeps empty. <b>CREATED</b> fills in once the clipper reports each run to this page. Your checks are saved here for the clipper's next tuning pass; they don't stop or change any post.`;
+  $("srcnote").innerHTML=`<b>Where this comes from.</b> Channel status is read live from Buffer: a clip counts as <b>confirmed</b> only when Buffer shows the post as sent, <b>pending</b> while it is queued, <b>failed</b> when Buffer reports an error or a made clip never reached Buffer by 9:30 PM ET, and <b>unknown</b> when there is no evidence. Clips are any Buffer posts due in the weekday 6:00 to 9:30 PM ET window, which the regular top-up keeps empty. <b>CREATED</b> fills in once the clipper reports each run to this page. Videos play here once the clipper puts each render in this page's video store (or you add the file yourself); otherwise WATCH opens Buffer's copy in a new tab. Your checks are saved here for the clipper's next tuning pass; they don't stop or change any post.`;
 }
 function render(){
   renderControls();renderFresh();renderBanner();
   const all=dayClips(),shown=CS.filterTicker(all,S.tk);
-  renderBand(all,shown);renderClips(shown,all);
+  renderBand(all,shown);renderPlayer(shown);renderClips(shown,all);
 }
 
 // Buffer, read-only
@@ -374,27 +441,35 @@ async function startDb(){
   try{DB=await window.claude.use("db")}catch(_){DB=null}
   if(!DB){S.runsState="error";S.canWrite=false;render();return}
   try{const u=await window.claude.use("user");if(u){S.me=await u.id().catch(()=>null);const cw=await u.can("data.write").catch(()=>null);if(cw===false)S.canWrite=false}}catch(_){}
+  try{const A=await window.claude.use("assets");S.canUpload=!!A}catch(_){}
   DB.collection("runs").onSnapshot(q=>{S.runs={};q.docs.forEach(d=>S.runs[d.id]=d.data());S.runsState="live";render()},()=>{S.runsState="error";render()});
   DB.collection("reviews").onSnapshot(q=>{S.reviews={};q.docs.forEach(d=>S.reviews[d.id]=d.data());render()},()=>{});
 }
 async function saveReview(key,verdict){
   if(!DB||!S.canWrite)return;
-  const prev=S.reviews[key]||{},inp=document.querySelector(`[data-note="${CSS.escape(key)}"]`),note=inp?inp.value.trim():"";
+  const prev=S.reviews[key]||{},inp=S.drafts[key]!=null?{value:S.drafts[key]}:document.querySelector(`[data-note="${CSS.escape(key)}"]`),note=inp?inp.value.trim():"";
   const clip=dayClips().find(k=>reviewKey(k)===key);
   const v=prev.verdict===verdict&&note===(prev.note||"")?null:verdict;
   try{
-    if(!v){await DB.doc("reviews/"+key).delete();delete S.drafts[key];toast("Check cleared");return}
-    await DB.doc("reviews/"+key).set({day:S.day,clipId:clip?clip.id:key,title:clip?clip.title:"",tickers:clip?clip.tickers:[],posts:clip?Object.fromEntries(Object.entries(clip.posts).map(([c,p])=>[c,p.id])):{},verdict:v,note,at:new Date().toISOString(),by:S.me||null});
+    const keep=prev.assetId?{assetId:prev.assetId,assetName:prev.assetName||"",assetAt:prev.assetAt||""}:{};
+    if(!v){if(prev.assetId)await DB.doc("reviews/"+key).set({...keep,day:S.day});else await DB.doc("reviews/"+key).delete();delete S.drafts[key];toast("Check cleared");return}
+    await DB.doc("reviews/"+key).set({...keep,day:S.day,clipId:clip?clip.id:key,title:clip?clip.title:"",tickers:clip?clip.tickers:[],posts:clip?Object.fromEntries(Object.entries(clip.posts).map(([c,p])=>[c,p.id])):{},verdict:v,note,at:new Date().toISOString(),by:S.me||null});
     delete S.drafts[key];toast(v==="ok"?"Marked as looking good":"Flagged");
   }catch(e){toast("Couldn't save. "+(e&&e.code==="permission_denied"?"You can only view this page.":"Try again."))}
 }
 
 document.addEventListener("click",e=>{
-  const d=e.target.closest("[data-day]");if(d){S.day=d.dataset.day;render();return}
+  const d=e.target.closest("[data-day]");if(d){S.day=d.dataset.day;S.cur=null;render();return}
   const t=e.target.closest("[data-tk]");if(t){S.tk=t.dataset.tk;try{localStorage.setItem("qgcm.tk",S.tk)}catch(_){}render();return}
-  const r=e.target.closest("[data-rv]");if(r){saveReview(r.closest(".clip").dataset.key,r.dataset.rv);return}
+  const r=e.target.closest("[data-rv]");if(r){saveReview(r.closest(".rev").dataset.key,r.dataset.rv);return}
+  const pl=e.target.closest("[data-play]");if(pl){S.cur=pl.dataset.play;render();$("player").scrollIntoView({behavior:"smooth",block:"start"});const v=$("vid");if(v)v.play().catch(()=>{});return}
+  const st=e.target.closest("[data-step]");if(st){const all=CS.filterTicker(dayClips(),S.tk),j=all.findIndex(c=>reviewKey(c)===S.cur),n=all[j+Number(st.dataset.step)];if(n){S.cur=reviewKey(n);render()}return}
   if(e.target.closest("#rf")){refresh();return}
   if(e.target.closest("#allow")){(async()=>{try{const p=await window.claude.use("permissions");if(p)await p.request(["mcp:Buffer"])}catch(_){}refresh()})()}
+});
+document.addEventListener("change",e=>{
+  if(e.target.id==="vfile"){addVideo(e.target.files&&e.target.files[0]);return}
+  if(e.target.id==="autonext"){S.autoNext=e.target.checked;try{localStorage.setItem("qgcm.auto",S.autoNext?"1":"0")}catch(_){}}
 });
 document.addEventListener("input",e=>{const n=e.target.closest("[data-note]");if(n)S.drafts[n.dataset.note]=n.value});
 document.addEventListener("keydown",e=>{const n=e.target.closest&&e.target.closest("[data-note]");if(n&&e.key==="Enter"){e.preventDefault();saveReview(n.dataset.note,"flag")}});
@@ -405,5 +480,5 @@ renderNote();render();
   if(!LIVE){S.buffer.state="error";S.buffer.err="unavailable";render()}else watch();
 })();
 startDb();
-setInterval(render,60e3);
+setInterval(()=>{const a=document.activeElement;if(!(a&&a.matches&&a.matches("input")))render()},60e3);
 </script>

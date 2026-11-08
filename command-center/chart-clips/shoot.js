@@ -13,10 +13,10 @@ const {chromium}=require("playwright");const fs=require("fs");
    const fake={payload:{posts:{edges,pageInfo:{hasNextPage:false}}},cache:{storedAt:Date.now()-4*60e3}};
    const snap=docs=>({docs:docs.map(([id,d])=>({id,data:()=>d}))});
    window.claude={use:async n=>n==="mcp"?{watchTool:(s,t,i,h)=>{setTimeout(()=>h({type:"data",result:fake}),50);return()=>{}},callTool:async()=>fake}:
-     n==="db"?{collection:c=>({onSnapshot:f=>{setTimeout(()=>f(snap(c==="runs"?[[day,{status:"done",updatedAt:"2026-11-07T02:10:00Z",message:"5 clips made, 5 scheduled",clips:caps.map((t,i)=>({id:"c"+i,ticker:["SPX","SPY","QQQ","SPX","SPY"][i],title:t}))}]]:c==="reviews"?[[day+"_c2",{verdict:"flag",note:"Caption cut off",at:new Date().toISOString()}],[day+"_c0",{verdict:"ok",at:new Date().toISOString()}]]:[])),60);return()=>{}}}),doc:()=>({set:async()=>{},delete:async()=>{}})}:
+     n==="db"?{collection:c=>({onSnapshot:f=>{setTimeout(()=>f(snap(c==="runs"?[[day,{status:"done",updatedAt:"2026-11-07T02:10:00Z",message:"5 clips made, 5 scheduled",clips:caps.map((t,i)=>({id:"c"+i,ticker:["SPX","SPY","QQQ","SPX","SPY"][i],title:t,assetId:i<3?"vid"+i:undefined}))}]]:c==="reviews"?[[day+"_c2",{verdict:"flag",note:"Caption cut off",at:new Date().toISOString()}],[day+"_c0",{verdict:"ok",at:new Date().toISOString()}]]:[])),60);return()=>{}}}),doc:()=>({set:async()=>{},delete:async()=>{}})}:
      n==="user"?{id:async()=>"u",can:async()=>true}:null};
   });
-  await p.goto("file://"+__dirname+"/clip-monitor.html");await p.waitForTimeout(600);
+  await p.goto("http://127.0.0.1:8765/clip-monitor.html");await p.waitForTimeout(400);await p.evaluate(()=>{const v=document.getElementById("vid");if(v){v.currentTime=4}});await p.waitForTimeout(1500);
   await p.screenshot({path:__dirname+`/shots/monitor-${name}.png`,fullPage:true});
  }
  await b.close();

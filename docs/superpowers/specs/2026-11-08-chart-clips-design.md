@@ -16,6 +16,7 @@ Artifact: https://claude.ai/artifact/W6Tu8vrSJ5JD6SSa8bCfgd (source `command-cen
 - Day strip (today + 5 weekdays back), ticker filter ALL / SPX / SPY / QQQ.
 - Summary band: CREATED, then TIKTOK / INSTAGRAM / YOUTUBE as n of 5 with one pip per clip.
 - Per clip: time, tickers, caption, each channel's word + Buffer post id + WATCH link (opens the video Buffer holds; the page can't play outside video inline).
+- Player (added 2026-11-08 08:3xZ, Matt: human quality control of each render): 9:16 player above the list, PREV/NEXT, "play the next clip when one ends", GOOD/FLAG beside it. Each row has PLAY + VIDEO / NO VIDEO tag. The page can only play videos from its own asset store (artifact CSP blocks outside video), so a render plays when `runs/<day>.clips[].assetId` is set (clipper uploads it: Artifact publish `asset: true` to the monitor URL, verified 2026-11-08, then writes the id). Without it: WATCH IN NEW TAB (Buffer's copy) or ADD THE VIDEO FILE (editor upload, stored as `reviews/<key>.assetId`). Asset limit 20 MB per file; delete renders older than ~5 days to stay under the quota.
 - Check per clip: GOOD or FLAG + note, saved in the monitor's db `reviews/<day>_<clipId>` {verdict, note, at, by, posts}. Checks never touch Buffer or the clipper.
 
 ### Status rules (`clipstatus.js`, 14 tests in `clipstatus.test.js`)
@@ -29,7 +30,7 @@ Artifact: https://claude.ai/artifact/W6Tu8vrSJ5JD6SSa8bCfgd (source `command-cen
 CREATED stays unknown until the clipper reports. Proposed: after each step the Chart Clipper job writes the monitor's db `runs/<YYYY-MM-DD>` (ET day):
 ```
 {status: "queued"|"working"|"done"|"failed", updatedAt, message,
- clips: [{id, ticker, title, caption, url?, seconds?, createdAt, posts: {tiktok, instagram, youtube: <Buffer post id>}}]}
+ clips: [{id, ticker, title, caption, assetId (render uploaded to the monitor), url?, seconds?, createdAt, posts: {tiktok, instagram, youtube: <Buffer post id>}}]}
 ```
 Needs: where the clipper runs and saves its clips (unknown tonight), and a one-step change to its job. That job is in a separate project, so it is a "live tool" change and needs Matt's OK.
 
