@@ -94,7 +94,7 @@ test("ticker filter keeps clips that mention the ticker", ()=>{
 });
 
 test("a made clip missing from a channel after the window makes that channel failed", ()=>{
-  const rep={status:"done",clips:[{id:"c1",ticker:"SPX",title:"SPX flips"},{id:"c2",ticker:"SPY",title:"SPY holds"}]};
+  const rep={status:"done",clips:[{id:"c1",ticker:"SPX",title:"SPX flips",posts:{}},{id:"c2",ticker:"SPY",title:"SPY holds",posts:{}}]};
   const g=S.groupClips([post({channel:"youtube",text:"SPX flips",status:"sent"})],rep);
   const late={now:"2026-11-10T03:00:00Z",day:"2026-11-09",buffer:"live"};
   assert.equal(S.channelSummary(g,"youtube",late).word,"failed");
@@ -111,4 +111,12 @@ test("total follows the day's clips, not a fixed 5", ()=>{
   const g=S.groupClips([post({channel:"tiktok",text:"SPX one",status:"sent"})],rep);
   const s=S.channelSummary(g,"tiktok",{now:"2026-11-09T20:00:00Z",day:"2026-11-09",buffer:"live"});
   assert.equal(s.total,2);assert.equal(s.count,1);
+});
+
+test("a reported clip with no posts field was never sent: unknown, not failed", ()=>{
+  const rep={status:"done",clips:[{id:"c1",ticker:"SPX",title:"SPX test"}]};
+  const g=S.groupClips([],rep),late={now:"2026-11-10T03:00:00Z",day:"2026-11-09",buffer:"live"};
+  assert.equal(S.channelWord(g[0],"tiktok",late),"unknown");
+  assert.equal(S.channelSummary(g,"tiktok",late).word,"unknown");
+  assert.equal(S.sentToBuffer(g[0]),false);
 });

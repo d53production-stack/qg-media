@@ -124,6 +124,22 @@ h1 span{color:var(--green)}
 .clip .play:hover{border-color:var(--green);color:var(--green)}
 .clip.cur{box-shadow:inset 3px 0 0 var(--green)}
 @media (max-width:720px){.player{grid-template-columns:1fr}.pv{border-right:0;border-bottom:1px solid var(--surface);max-height:none;max-width:420px;margin:0 auto}}
+/* why this clip: Joule's read -> the move -> the grade */
+.why{display:grid;grid-template-columns:auto minmax(0,1fr);gap:3px 10px;border-left:2px solid var(--green);padding:4px 0 4px 10px;font-size:11px;line-height:1.45}
+.why dt{color:var(--grey);font-size:9px;font-weight:700;letter-spacing:.14em;padding-top:2px;text-transform:uppercase}
+.why dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.why dd q{color:var(--white)}
+.why .pts{font-family:var(--display);font-size:20px;line-height:1;color:var(--green);letter-spacing:.02em}
+.why .pts.dn{color:var(--rose)}
+.why .gr{font-size:10px;font-weight:800;letter-spacing:.1em;color:var(--green)}
+.hook{font-family:var(--display);font-size:20px;line-height:1;letter-spacing:.02em}
+.dayline{display:flex;gap:6px 18px;flex-wrap:wrap;align-items:baseline;border:1px solid var(--surface);background:var(--panel);padding:10px 14px;font-size:12px}
+.dayline b{font-family:var(--display);font-weight:400;font-size:26px;line-height:1;color:var(--green)}
+.dayline span{color:var(--grey);min-width:0;overflow-wrap:anywhere}
+.cuts{border:1px solid var(--surface);background:var(--panel)}
+.cuts summary{padding:10px 14px;font-size:10px;font-weight:700;letter-spacing:.14em;color:var(--grey);text-transform:uppercase;cursor:pointer}
+.cuts ul{margin:0;padding:0 14px 12px 30px;font-size:11px;color:var(--grey);display:flex;flex-direction:column;gap:4px}
+.cuts li b{color:var(--white);font-weight:500}
 .empty{padding:22px 14px;color:var(--grey);font-size:12px;line-height:1.6}
 .empty b{color:var(--white);font-weight:700}
 .note{border:1px dashed var(--surface);color:var(--grey);font-size:11px;padding:10px 14px;line-height:1.6}
@@ -150,6 +166,8 @@ h1 span{color:var(--green)}
     <div class="seg" id="seg" role="group" aria-label="Ticker"></div>
   </div>
 
+  <div class="dayline" id="dayline" hidden></div>
+
   <section class="band" id="band" aria-label="Summary"></section>
 
   <section class="player" id="player" aria-label="Player" hidden><div class="pv" id="pv"></div><div class="pinfo" id="pinfo"></div></section>
@@ -159,12 +177,15 @@ h1 span{color:var(--green)}
     <div id="clips"></div>
   </section>
 
+  <details class="cuts" id="cuts" hidden></details>
+
   <div class="note" id="srcnote"></div>
 </div>
 <div class="toast" id="toast" hidden></div>
 
 <script>
 /*CLIPSTATUS*/
+
 </script>
 <script>
 const CS=window.ClipStatus;
@@ -202,7 +223,9 @@ function ctx(){return {now:nowIso(),day:S.day,buffer:S.buffer.state}}
 function dayClips(){
   const posts=S.buffer.posts.filter(p=>CS.etDay(p.dueAt)===S.day&&CS.inWindow(p.dueAt));
   const rep=S.runs[S.day]||null;
-  return CS.groupClips(posts,rep).sort((a,b)=>String(a.dueAt||"~").localeCompare(String(b.dueAt||"~")));
+  const g=CS.groupClips(posts,rep);
+  // once the clipper has reported the day, other posts in the window are filler, not clips
+  return (rep&&(rep.clips||[]).length?g.filter(c=>c.report):g).sort((a,b)=>String(a.dueAt||"~").localeCompare(String(b.dueAt||"~")));
 }
 
 function meter(clips,ch,c){
@@ -228,9 +251,10 @@ function chCell(clip,ch){
   const p=clip.posts[ch],w=CS.channelWord(clip,ch,ctx());
   let x="";
   if(p){x=p.status==="sent"?"posted "+tmET(p.sentAt||p.dueAt):p.status==="error"?"":"due "+tmET(p.dueAt)}
-  else x=S.buffer.state!=="live"?"Buffer not read":w==="failed"?"never reached Buffer":"not in Buffer yet";
+  else x=S.buffer.state!=="live"?"Buffer not read":!CS.sentToBuffer(clip)?"not sent to Buffer":w==="failed"?"never reached Buffer":"not in Buffer yet";
   const err=p&&p.error?`<span class="cx err">${esc(typeof p.error==="string"?p.error:(p.error.message||"Buffer error"))}</span>`:"";
-  const watch=p&&p.media?`<a href="${esc(p.media)}" target="_blank" rel="noopener">WATCH &#8599;</a>`:(clip.report&&clip.report.url?`<a href="${esc(clip.report.url)}" target="_blank" rel="noopener">WATCH &#8599;</a>`:"");
+  const http=u=>/^https?:\/\//.test(String(u||""));
+  const watch=p&&http(p.media)?`<a href="${esc(p.media)}" target="_blank" rel="noopener">WATCH &#8599;</a>`:(clip.report&&http(clip.report.url)?`<a href="${esc(clip.report.url)}" target="_blank" rel="noopener">WATCH &#8599;</a>`:"");
   const pid=p?`<span class="cx" title="Buffer post ${esc(p.id)}">post ${esc(String(p.id).slice(-6))}</span>`:"";
   return `<div class="ch"><span class="cn">${CH_LABEL[ch]}</span><span class="w ${w}">${w}</span><span class="cx">${esc(x)}</span>${err}${pid}${watch}</div>`;
 }
@@ -240,10 +264,33 @@ function vsrc(clip){
   const r=clip.report||{},rv=S.reviews[reviewKey(clip)]||{};
   if(r.assetId)return "/_blob/"+r.assetId;
   if(r.assetUrl&&/^\/_blob\//.test(r.assetUrl))return r.assetUrl;
+  if(r.url&&/^\/_blob\//.test(r.url))return r.url;
   if(rv.assetId)return "/_blob/"+rv.assetId;
   return "";
 }
-function extWatch(clip){for(const ch of CS.CHANNELS){const p=clip.posts[ch];if(p&&p.media)return p.media}return clip.report&&clip.report.url||""}
+function extWatch(clip){const ok=u=>/^https?:\/\//.test(String(u||""));for(const ch of CS.CHANNELS){const p=clip.posts[ch];if(p&&ok(p.media))return p.media}const u=clip.report&&clip.report.url;return ok(u)?u:""}
+function whyBlock(k){
+  const r=k.report;if(!r||!(r.read||r.points||r.hook))return "";
+  const dn=/^[-\u2013\u2212]/.test(String(r.points||""));
+  const mv=Array.isArray(r.move)&&r.move.length===2?`${esc(r.move[0])} \u2192 ${esc(r.move[1])} ET`:"";
+  let h=`<dl class="why">`;
+  if(r.read)h+=`<dt>Joule${r.read_time?" "+esc(r.read_time):""}</dt><dd>${r.bias?esc(String(r.bias).toUpperCase())+" · ":""}<q>${esc(r.read)}</q></dd>`;
+  if(r.points||r.path)h+=`<dt>Move</dt><dd>${r.points?`<span class="pts${dn?" dn":""}">${esc(r.points)}</span> `:""}${esc(r.path||"")}${mv?" · "+mv:""}</dd>`;
+  if(r.note)h+=`<dt>Result</dt><dd>${esc(r.note)}</dd>`;
+  const pick=[r.grade?`<span class="gr">${esc(r.grade)}</span>`:"",r.score!=null?"pick score "+esc(r.score):"",r.reason?esc(r.reason):""].filter(Boolean).join(" · ");
+  if(pick)h+=`<dt>Why</dt><dd>${pick}</dd>`;
+  return h+`</dl>`;
+}
+function hookLine(k){const h=k.report&&k.report.hook;return h?`<div class="hook">${esc(h)}</div>`:""}
+function renderDay(){
+  const rep=S.runs[S.day]||null,el=$("dayline"),cu=$("cuts");
+  const sc=rep&&rep.score,rc=rep&&rep.recap;
+  if(sc||rc){el.hidden=false;el.innerHTML=(sc&&sc.graded?`<b>${esc(sc.hit)}/${esc(sc.graded)}</b><span>Joule reads hit${sc.miss?" · "+esc(sc.miss)+" missed":""}${sc.partial?" · "+esc(sc.partial)+" partial":""}</span>`:"")+(rc?`<span>${rc.bias?esc(rc.bias)+" · ":""}${esc(rc.title||"")}</span>`:"")}
+  else{el.hidden=true;el.innerHTML=""}
+  const cut=(rep&&rep.cut)||[];
+  if(cut.length){cu.hidden=false;cu.innerHTML=`<summary>Cut by the picker · ${cut.length}</summary><ul>${cut.map(c=>`<li><b>${esc(c.read_time||c.id||"")}</b> ${esc(c.read||"")}${c.reason?" · "+esc(c.reason):""}</li>`).join("")}</ul>`}
+  else{cu.hidden=true;cu.innerHTML=""}
+}
 function revBlock(k){
   const key=reviewKey(k),r=S.reviews[key]||null,v=r&&r.verdict,draft=S.drafts[key]!=null?S.drafts[key]:(r&&r.note)||"",dis=S.canWrite?"":"disabled";
   return `<div class="rev" data-key="${esc(key)}">
@@ -268,7 +315,7 @@ function renderPlayer(shown){
   const tks=k.tickers.map(t=>`<span>${t}</span>`).join("");
   const withV=shown.filter(c=>vsrc(c)).length;
   $("pinfo").innerHTML=`<div class="pn"><span class="ct">CLIP ${i+1} OF ${shown.length} · ${k.dueAt?esc(tmET(k.dueAt)):"&ndash;"} ET · ${withV} WITH VIDEO</span><span class="btns" style="display:flex;gap:6px"><button type="button" class="btn" data-step="-1" ${i?"":"disabled"}>&larr; PREV</button><button type="button" class="btn" data-step="1" ${i<shown.length-1?"":"disabled"}>NEXT &rarr;</button></span></div>
-    <div class="tk">${tks||'<span class="none">NO TICKER</span>'}</div><h2>${esc(k.title||"Untitled clip")}</h2>
+    <div class="tk">${tks||'<span class="none">NO TICKER</span>'}</div><h2>${esc(k.title||"Untitled clip")}</h2>${hookLine(k)}${whyBlock(k)}
     <div class="chs">${CS.CHANNELS.map(ch=>chCell(k,ch)).join("")}</div>
     ${revBlock(k)}
     <label class="auto"><input type="checkbox" id="autonext" ${S.autoNext?"checked":""}> Play the next clip when one ends</label>`;
@@ -301,7 +348,7 @@ function renderClips(shown,all){
     const hv=!!vsrc(k);
     return `<article class="clip${v==="flag"?" flag":""}${key===S.cur?" cur":""}" data-key="${esc(key)}">
       <div class="tm"><span>${k.dueAt?esc(tmET(k.dueAt)):"&ndash;"}</span><button type="button" class="play" data-play="${esc(key)}" aria-label="Show in player">${hv?"&#9654; PLAY":"OPEN"}</button><span class="vtag${hv?" has":""}">${hv?"VIDEO":"NO VIDEO"}</span></div>
-      <div class="main"><div class="tk">${tks}</div><div class="tt">${esc(k.title||"Untitled clip")}</div>
+      <div class="main"><div class="tk">${tks}</div><div class="tt">${esc(k.title||"Untitled clip")}</div>${whyBlock(k)}
         <div class="chs">${CS.CHANNELS.map(ch=>chCell(k,ch)).join("")}</div></div>
       ${revBlock(k)}</article>`}).join("");
 }
@@ -319,12 +366,12 @@ function renderBanner(){
   $("banner").innerHTML=b.state==="error"&&["approval_required","consent_required"].includes(b.err)?`<div class="banner"><span>This page reads your Buffer queue to show where each clip is. It never changes Buffer.</span><button type="button" class="btn go" id="allow">ALLOW BUFFER</button></div>`:"";
 }
 function renderNote(){
-  $("srcnote").innerHTML=`<b>Where this comes from.</b> Channel status is read live from Buffer: a clip counts as <b>confirmed</b> only when Buffer shows the post as sent, <b>pending</b> while it is queued, <b>failed</b> when Buffer reports an error or a made clip never reached Buffer by 9:30 PM ET, and <b>unknown</b> when there is no evidence. Clips are any Buffer posts due in the weekday 6:00 to 9:30 PM ET window, which the regular top-up keeps empty. <b>CREATED</b> fills in once the clipper reports each run to this page. Videos play here once the clipper puts each render in this page's video store (or you add the file yourself); otherwise WATCH opens Buffer's copy in a new tab. Your checks are saved here for the clipper's next tuning pass; they don't stop or change any post.`;
+  $("srcnote").innerHTML=`<b>Where this comes from.</b> Channel status is read live from Buffer: a clip counts as <b>confirmed</b> only when Buffer shows the post as sent, <b>pending</b> while it is queued, <b>failed</b> when Buffer reports an error or a made clip never reached Buffer by 9:30 PM ET, and <b>unknown</b> when there is no evidence. Clips are any Buffer posts due in the weekday 6:00 to 9:30 PM ET window, which the regular top-up keeps empty. <b>CREATED</b>, the day score and each clip\u2019s read, move and grade fill in once the clipper reports its run to this page; every number there comes from the QuantGeeks data the clip was built from. Videos play here once the clipper puts each render in this page's video store (or you add the file yourself); otherwise WATCH opens Buffer's copy in a new tab. Your checks are saved here for the clipper's next tuning pass; they don't stop or change any post.`;
 }
 function render(){
   renderControls();renderFresh();renderBanner();
   const all=dayClips(),shown=CS.filterTicker(all,S.tk);
-  renderBand(all,shown);renderPlayer(shown);renderClips(shown,all);
+  renderDay();renderBand(all,shown);renderPlayer(shown);renderClips(shown,all);
 }
 
 // Buffer, read-only
