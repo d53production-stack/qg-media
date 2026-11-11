@@ -1,0 +1,149 @@
+{
+  "clips": [
+    {
+      "assetId": "5abb9bce85d5f16b9b3e14f4756ded96",
+      "bias": "BULL",
+      "caption": "At 10:00 ET Joule flagged 7515 as the trigger higher with SPX pressing the high of the day; 7515 broke at 10:19, 7520 at 10:36, and SPX reached 7541 by 10:59. Live 0DTE gamma levels at QuantGeeks.io. Use code QUANT for 50% off.",
+      "createdAt": "2026-11-10T03:04:16Z",
+      "dueAt": "2026-11-09T22:50:00-05:00",
+      "grade": "DAY: 8/10 READS HIT",
+      "hook": "Two lids. Then room to run.",
+      "id": "01_call",
+      "move": [
+        "10:00",
+        "11:00"
+      ],
+      "note": "Low 7497.84 at 10:03, 7515 cleared at 10:19, 7520 at 10:36 and 7541.27 printed at 10:59.",
+      "path": "7498 → 7541",
+      "points": "+43 PTS",
+      "posts": {
+        "instagram": "6af29059d35dff5701d78c29",
+        "tiktok": "6af29041b59b34913a526f00",
+        "youtube": "6af2905a223aa16048e7751e"
+      },
+      "read": "Trend day pressing HOD — 7515 lid is the trigger higher.",
+      "read_time": "10:00",
+      "review": false,
+      "seconds": 39.7,
+      "setup_at": "10:00",
+      "ticker": "SPX",
+      "title": "SPX Breaks Two Lids for 43 Points After the 10:00 Read | Nov 9",
+      "url": "/_blob/5abb9bce85d5f16b9b3e14f4756ded96"
+    },
+    {
+      "assetId": "69165b370e7666882a3f93351b107c05",
+      "bias": "BULL",
+      "caption": "At noon ET Joule flagged a 7541 break toward 7560; 7541 broke at 12:08, 7560 became the primary node at 12:30 and rolled up to 7570 by 2:00, and SPX printed 7574 at 2:42. Live 0DTE gamma levels at QuantGeeks.io. Use code QUANT for 50% off.",
+      "createdAt": "2026-11-10T03:04:16Z",
+      "dueAt": "2026-11-09T23:20:00-05:00",
+      "grade": "DAY: 8/10 READS HIT",
+      "hook": "The magnet rolled. Price followed.",
+      "id": "03_call",
+      "move": [
+        "12:00",
+        "14:45"
+      ],
+      "note": "Low 7531.20 at 12:00, 7541 cleared at 12:08, 7560 tagged at 14:38 and 7573.62 printed at 14:42.",
+      "path": "7531 → 7574",
+      "points": "+42 PTS",
+      "posts": {
+        "instagram": "6af2905b26f9e6aeeadfe614",
+        "tiktok": "6af2905be261c09acc991832",
+        "youtube": "6af2905c05af22d726037265"
+      },
+      "read": "Trend day continues — 7541 break targets the 7560 magnet; 7525 trapdoor is the only downside risk.",
+      "read_time": "12:00",
+      "review": false,
+      "score": 0.8,
+      "seconds": 42.4,
+      "setup_at": "12:00",
+      "ticker": "SPX",
+      "title": "SPX Follows the Rolling Magnet for 42 Points After the Noon Read | Nov 9",
+      "url": "/_blob/69165b370e7666882a3f93351b107c05"
+    }
+  ],
+  "cut": [
+    {
+      "read": "bull survived the 7375 test; needs 7444 recapture, QQQ 663 is the tell",
+      "read_time": "09:32",
+      "reason": "not picked"
+    },
+    {
+      "read": "trend day at HOD — 7520 is the last lid, break opens air",
+      "read_time": "10:30",
+      "reason": "not picked"
+    },
+    {
+      "read": "SPXW flipped short — 7515 trapdoor, break opens air toward the 7490 SPY pin zone",
+      "read_time": "11:30",
+      "reason": "not picked"
+    },
+    {
+      "read": "7560 magnet 6pts away with 7570 behind it; 7545 is the floor; SPY/QQQ full short-gamma is the diverge",
+      "read_time": "14:00",
+      "reason": "not picked"
+    },
+    {
+      "read": "coiled 7541-7555 — SPX magnets overhead vs SPY 754 wall; 7555 break targets 7570",
+      "read_time": "14:30",
+      "reason": "not picked"
+    },
+    {
+      "read": "SPX fortress under price, 7570 magnet is the draw into the close",
+      "read_time": "15:00",
+      "reason": "not picked"
+    },
+    {
+      "read": "trend day pressing HOD — 7585 break opens the next leg, 7570 shelf is the ride line",
+      "read_time": "15:15",
+      "reason": "not picked"
+    },
+    {
+      "read": "pinned 7560-7565 into the bell under a full fortress; no edge inside the box",
+      "read_time": "15:45",
+      "reason": "not picked"
+    },
+    {
+      "read": "7565 shelf holds, squeeze runs at HOD 7575 into the bell",
+      "read_time": "15:47",
+      "reason": "not picked"
+    },
+    {
+      "read": "pin at the 7560/7565 fortress, squeeze target HOD 7576",
+      "read_time": "15:49",
+      "reason": "not picked"
+    },
+    {
+      "read": "7560 pin holds into settlement; 7570 magnet is the reclaim target",
+      "read_time": "15:51",
+      "reason": "not picked"
+    },
+    {
+      "read": "7560 pin holds into settlement",
+      "read_time": "15:53",
+      "reason": "not picked"
+    },
+    {
+      "read": "$164M pin at 7555 catches settlement",
+      "read_time": "15:55",
+      "reason": "not picked"
+    }
+  ],
+  "day": "2026-11-09",
+  "message": "Scheduled on all channels at 22:50 and 23:20 ET (Mark voice).",
+  "recap": {
+    "bias": "BULL",
+    "title": "EOD · +115PT TREND DAY · 8/10 GRADED"
+  },
+  "score": {
+    "accuracy_pct": 80,
+    "evolved": 0,
+    "graded": 10,
+    "hit": 8,
+    "miss": 2,
+    "open": 7,
+    "partial": 0
+  },
+  "status": "done",
+  "updatedAt": "2026-11-10T03:33:09Z"
+}

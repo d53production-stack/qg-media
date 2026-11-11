@@ -1,0 +1,22 @@
+/* chart clip tracker (top of Today): job line, one row per clip, last 5 trading days */
+.clc .ah .when{font-size:10px;color:var(--grey);letter-spacing:.06em;font-variant-numeric:tabular-nums}
+.clc .ah .when.warn{color:var(--rose)}
+.clc .cl{border-top:1px solid var(--divider)}
+.clc .cr{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:2px 12px;align-items:center;padding:7px 14px;border-bottom:1px solid var(--divider);font-size:12px;min-height:40px}
+.clc .cr:last-child{border-bottom:0}
+.clc .cr.failed{background:var(--rose-fill)}
+.clc .cr .tm{color:var(--grey);font-variant-numeric:tabular-nums}
+.clc .cr .tt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.clc .cr .tt small{display:block;font-size:10px;color:var(--grey);letter-spacing:.06em;overflow:hidden;text-overflow:ellipsis}
+.clc .chs{display:flex;gap:4px}
+.clc .chs i{font-style:normal;font-size:9px;font-weight:800;letter-spacing:.06em;width:22px;height:18px;display:grid;place-items:center;border:1px solid var(--surface);color:var(--grey)}
+.clc .chs i.confirmed{background:var(--green);border-color:var(--green);color:var(--bg)}
+.clc .chs i.pending{border-color:var(--grey);color:var(--white)}
+.clc .chs i.failed{background:var(--rose);border-color:var(--rose);color:var(--bg)}
+.clc .cf .hist{display:flex;align-items:center;gap:8px;font-size:10px;font-weight:700;letter-spacing:.12em}
+.clc .cf .hist .dots{gap:4px}
+.clc .dots i.pend{background:transparent;border:1px solid var(--white)}
+.clc .dots i.unk{background:transparent;border:1px dashed var(--grey)}
+.clc .dots i.now{outline:1px solid var(--green);outline-offset:2px}
+@media (max-width:520px){.clc .cr{grid-template-columns:52px minmax(0,1fr) auto;gap:2px 8px}.clc .ah{display:grid;grid-template-columns:minmax(0,1fr);gap:2px}}
+.clc .dots i.miss{background:var(--rose);border:0}

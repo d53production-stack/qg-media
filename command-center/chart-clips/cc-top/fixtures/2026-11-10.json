@@ -1,0 +1,178 @@
+{
+  "clips": [
+    {
+      "assetId": "2d22c1a47a329384d91440a8748a4a3e",
+      "bias": "BEAR",
+      "caption": "At 11:30 ET Joule flagged lower highs into the 7480 shelf, with a break opening room toward 7450. SPX topped at 7506 at 11:33, broke 7480 at 12:37 and reached 7471 by 12:41. Live 0DTE gamma levels at QuantGeeks.io. Use code QUANT for 50% off.",
+      "createdAt": "2026-11-10T21:35:23Z",
+      "dueAt": "2026-11-10T19:44:00-05:00",
+      "grade": "READ GRADED: HIT",
+      "hook": "The bounce was a sell.",
+      "id": "01_call",
+      "move": [
+        "11:30",
+        "12:45"
+      ],
+      "note": "Bounce topped at 7506.41 at 11:33, the 7480 shelf broke at 12:37 and SPX printed 7470.73 at 12:41.",
+      "path": "7506 → 7471",
+      "points": "–35 PTS",
+      "posts": {
+        "instagram": "6af39c4040d53aa0ae18e65e",
+        "tiktok": "6af39c3f357b57fbf8bee04c",
+        "youtube": "6af39c4132827e88e29c2a77"
+      },
+      "read": "Lower highs into the 7480 shelf — break opens air to 7450 via SPY's 750 trapdoor.",
+      "read_time": "11:30",
+      "review": false,
+      "seconds": 42.4,
+      "setup_at": "11:30",
+      "ticker": "SPX",
+      "title": "SPX Bounce Sold for 35 Points After the 11:30 Read | Nov 10",
+      "url": "/_blob/2d22c1a47a329384d91440a8748a4a3e"
+    },
+    {
+      "assetId": "6e76ab95639a16fa6b8a64a729ad8d6c",
+      "bias": "BULL",
+      "caption": "At 15:00 ET Joule called a pull toward the 7520 magnet into the close, with SPX at 7511. SPX dipped to 7502 at 15:04, tagged 7520 at 15:47 and reached 7535 at 15:52 before closing at 7520.93. Live 0DTE gamma levels at QuantGeeks.io. Use code QUANT for 50% off.",
+      "createdAt": "2026-11-10T21:35:23Z",
+      "dueAt": "2026-11-10T21:28:00-05:00",
+      "grade": "READ GRADED: HIT",
+      "hook": "The magnet pulled it in.",
+      "id": "02_call",
+      "move": [
+        "15:00",
+        "15:55"
+      ],
+      "note": "Low 7502.10 at 15:04, 7520 tagged at 15:47 and 7535.37 printed at 15:52 before a 7520.93 close.",
+      "path": "7502 → 7535",
+      "points": "+33 PTS",
+      "posts": {
+        "instagram": "6af39c4240d53aa0ae18e708",
+        "tiktok": "6af39c4132827e88e29c2ae0",
+        "youtube": "6af39c43e001088fbc7a4129"
+      },
+      "read": "Magnet pull to 7520 into the close; first tag likely caps at the SPY wall.",
+      "read_time": "15:00",
+      "review": false,
+      "seconds": 37.1,
+      "setup_at": "15:00",
+      "ticker": "SPX",
+      "title": "SPX Pulled to the 7520 Magnet, 33 Points Into the Close | Nov 10",
+      "url": "/_blob/6e76ab95639a16fa6b8a64a729ad8d6c"
+    },
+    {
+      "assetId": "e0b3c842cec753fc840db6df351bc1f3",
+      "bias": "BEAR",
+      "caption": "Before the open at 09:00 ET, Joule flagged the 7550 wall as the cap with room below. SPX stalled at 7544 at 10:08, broke 7525 at 10:16 and fell to 7483 by 10:50. Live 0DTE gamma levels at QuantGeeks.io. Use code QUANT for 50% off.",
+      "createdAt": "2026-11-10T21:47:05Z",
+      "dueAt": "2026-11-10T18:00:00-05:00",
+      "grade": "READ GRADED: HIT",
+      "hook": "The 7550 cap held.",
+      "id": "03_call",
+      "move": [
+        "10:00",
+        "10:55"
+      ],
+      "note": "SPX stalled at 7543.89 at 10:08 under the 7550 wall, broke 7525 at 10:16 and printed 7482.60 at 10:50.",
+      "path": "7544 → 7483",
+      "points": "–61 PTS",
+      "posts": {
+        "instagram": "6af39c25cda6440b2f1e5ad5",
+        "tiktok": "6af39c2440d53aa0ae18df3f",
+        "youtube": "6af39c26357b57fbf8bed970"
+      },
+      "read": "7550 wall caps the open; downside has air.",
+      "read_time": "09:00",
+      "review": false,
+      "seconds": 37.9,
+      "setup_at": "10:00",
+      "ticker": "SPX",
+      "title": "SPX Capped Under 7550, 61 Points Lower | Nov 10",
+      "url": "/_blob/e0b3c842cec753fc840db6df351bc1f3"
+    }
+  ],
+  "cut": [
+    {
+      "read": "7550 caps the open after rejecting a test; downside air toward 740/735 on SPY",
+      "read_time": "09:32",
+      "reason": "not picked"
+    },
+    {
+      "read": "ripping into the 7550 cap; reclaim opens the 7570 magnet",
+      "read_time": "10:00",
+      "reason": "not picked"
+    },
+    {
+      "read": "distribution overrides the fortress — Lose 7480, air to 7450",
+      "read_time": "12:00",
+      "reason": "not picked"
+    },
+    {
+      "read": "7500 reclaimed on a melting SPY wall, but the fresh SPX 7490 trapdoor caps trust — squeeze only if 7",
+      "read_time": "14:00",
+      "reason": "not picked"
+    },
+    {
+      "read": "boxed 7490-7520 — SPXW 7520 magnet vs melting $263M SPY wall at 7527-equiv; squeeze only if the wall",
+      "read_time": "14:30",
+      "reason": "not picked"
+    },
+    {
+      "read": "hardening 7510 hub under spot, break amplifies to 7500/7490 into the bell",
+      "read_time": "15:15",
+      "reason": "not picked"
+    },
+    {
+      "read": "pinned to the 7525 magnet into the bell, 7515 is the tripwire",
+      "read_time": "15:30",
+      "reason": "not picked"
+    },
+    {
+      "read": "knife-edge — 7515 trapdoor vs 7520 magnet, break amplifies toward 7500",
+      "read_time": "15:45",
+      "reason": "not picked"
+    },
+    {
+      "read": "7525 magnet pulls the drift into the bell, 7520 stacked under it",
+      "read_time": "15:47",
+      "reason": "not picked"
+    },
+    {
+      "read": "7525 magnet ($118M) pulls the tag into the bell, 7515 held",
+      "read_time": "15:49",
+      "reason": "not picked"
+    },
+    {
+      "read": "pinned 7530–7535 into the bell, $133M shelf at 7525 is the floor",
+      "read_time": "15:51",
+      "reason": "not picked"
+    },
+    {
+      "read": "pinned above the 7525/7530 shelves, drifting to the melting 7540 lid",
+      "read_time": "15:53",
+      "reason": "not picked"
+    },
+    {
+      "read": "7525/7530 pin into the bell — $194M magnet at spot, lid gone",
+      "read_time": "15:55",
+      "reason": "not picked"
+    }
+  ],
+  "day": "2026-11-10",
+  "message": "",
+  "recap": {
+    "bias": "BULL",
+    "title": "EOD RECAP · 7521.12 (+26) · SQUEEZE INTO THE BELL"
+  },
+  "score": {
+    "accuracy_pct": 50,
+    "evolved": 0,
+    "graded": 10,
+    "hit": 5,
+    "miss": 4,
+    "open": 7,
+    "partial": 1
+  },
+  "status": "done",
+  "updatedAt": "2026-11-10T22:35:56Z"
+}
