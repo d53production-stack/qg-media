@@ -1,0 +1,20 @@
+{
+ "day": "2026-11-11",
+ "clips": [
+  {
+   "id": "01_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-11/01_call.mp4",
+   "name": "SPX Capped Under 7605, 31 Points Lower - Nov 11.mp4"
+  },
+  {
+   "id": "02_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-11/02_call.mp4",
+   "name": "SPX Bear Re-Armed at 10.00, 16 Points Lower - Nov 11.mp4"
+  },
+  {
+   "id": "03_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-11/03_call.mp4",
+   "name": "SPX Squeeze Called at 11.30, 36 Points Higher - Nov 11.mp4"
+  }
+ ]
+}
