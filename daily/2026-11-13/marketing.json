@@ -1,0 +1,20 @@
+{
+ "day": "2026-11-13",
+ "clips": [
+  {
+   "id": "01_trend",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-13/01_trend.mp4",
+   "name": "SPX Trend Day Called at 10.00, 65 Points Lower - Nov 13.mp4"
+  },
+  {
+   "id": "02_fade",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-13/02_fade.mp4",
+   "name": "SPX Bounce Faded at 7538, 33 Points Lower - Nov 13.mp4"
+  },
+  {
+   "id": "03_close",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-13/03_close.mp4",
+   "name": "SPX Close Squeeze Called at 15.15, 24 Points Higher - Nov 13.mp4"
+  }
+ ]
+}
