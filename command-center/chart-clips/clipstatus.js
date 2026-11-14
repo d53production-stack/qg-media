@@ -33,7 +33,7 @@ function captionKey(text){return String(text||"").split(/\n/)[0].replace(/#\S+/g
 function groupClips(posts,report){
   const out=[],byPost=new Map();
   for(const c of (report&&report.clips)||[]){
-    const clip={id:c.id,title:c.title||c.id,tickers:TICKERS.filter(k=>[].concat(c.ticker||[]).map(x=>String(x).toUpperCase()).includes(k)||tickers(c.title).includes(k)),posts:{},report:c,key:captionKey(c.caption||c.title),dueAt:null};
+    const clip={id:c.id,title:c.title||c.id,tickers:TICKERS.filter(k=>[].concat(c.ticker||[]).map(x=>String(x).toUpperCase()).includes(k)||tickers(c.title).includes(k)),posts:{},report:c,key:captionKey(c.caption||c.title),dueAt:c.dueAt||null};
     for(const [ch,pid] of Object.entries(c.posts||{}))byPost.set(pid,{clip,ch});
     out.push(clip);
   }
@@ -47,16 +47,19 @@ function groupClips(posts,report){
   }
   return out;
 }
+// A reported clip with no `posts` field was never handed to Buffer (e.g. a test render): no evidence either way.
+function sentToBuffer(clip){return !clip.report||clip.report.posts!=null||Object.keys(clip.posts).length>0}
 function channelWord(clip,ch,ctx){
   if(ctx.buffer!=="live")return "unknown";
   const p=clip.posts[ch];
   if(p)return postWord(p);
+  if(!sentToBuffer(clip))return "unknown";
   return Date.parse(ctx.now)<=windowEnd(ctx.day)?"pending":"failed";
 }
 function channelSummary(clips,ch,ctx){
   const s={total:(clips||[]).length,count:0,confirmed:0,pending:0,failed:0,unknown:0,word:"unknown"};
   let missing=0;
-  for(const c of clips){if(!c.posts[ch]){if(c.report)missing++;continue}s.count++;s[postWord(c.posts[ch])]++}
+  for(const c of clips){if(!c.posts[ch]){if(c.report&&sentToBuffer(c))missing++;continue}s.count++;s[postWord(c.posts[ch])]++}
   if(ctx.buffer!=="live"){s.word="unknown";return s}
   const open=Date.parse(ctx.now)<=windowEnd(ctx.day);
   s.missing=missing;
@@ -73,6 +76,6 @@ function creationWord(rep,ctx){
   return "unknown";
 }
 function filterTicker(clips,t){return !t||t==="ALL"?clips:clips.filter(c=>c.tickers.includes(t))}
-const api={TZ,TICKERS,CHANNELS,etParts,etDay,isWeekday,inWindow,windowStart,windowEnd,tickers,postWord,captionKey,groupClips,channelWord,channelSummary,creationWord,filterTicker};
+const api={TZ,TICKERS,CHANNELS,etParts,etDay,isWeekday,inWindow,windowStart,windowEnd,tickers,postWord,captionKey,groupClips,sentToBuffer,channelWord,channelSummary,creationWord,filterTicker};
 if(typeof module!=="undefined"&&module.exports)module.exports=api;else root.ClipStatus=api;
 })(this);
