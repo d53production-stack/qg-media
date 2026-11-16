@@ -1,0 +1,20 @@
+{
+ "day": "2026-11-16",
+ "clips": [
+  {
+   "id": "01_trend",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-16/01_trend.mp4",
+   "name": "SPX Trend Day Called at 09.32, 58 Points Lower - Nov 16.mp4"
+  },
+  {
+   "id": "03_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-16/03_call.mp4",
+   "name": "SPX Breaks the 7445 Cushion, 67 Points Lower - Nov 16.mp4"
+  },
+  {
+   "id": "04_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-16/04_call.mp4",
+   "name": "SPX Loses 7425 After the 14.00 Read, 17 Points Lower - Nov 16.mp4"
+  }
+ ]
+}
