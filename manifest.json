@@ -665,17 +665,65 @@
    "file": "2026-10-28-webinar-part9.mp4",
    "zip": "send-to-buffer page"
   },
+  "2026-10-29-webinar-part1": {
+   "addedAt": "2026-11-16T05:35:55+00:00",
+   "bytes": 12324235,
+   "file": "2026-10-29-webinar-part1.mp4",
+   "zip": "mac studio copy"
+  },
   "2026-10-29-webinar-part10": {
    "addedAt": "2026-11-15T00:34:25+00:00",
    "bytes": 6100037,
    "file": "2026-10-29-webinar-part10.mp4",
    "zip": "mac-studio Movies (studio cleared Nov 12)"
   },
+  "2026-10-29-webinar-part2": {
+   "addedAt": "2026-11-16T05:35:55+00:00",
+   "bytes": 11494840,
+   "file": "2026-10-29-webinar-part2.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-10-29-webinar-part3": {
+   "addedAt": "2026-11-16T05:35:55+00:00",
+   "bytes": 13222360,
+   "file": "2026-10-29-webinar-part3.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-10-29-webinar-part4": {
+   "addedAt": "2026-11-16T05:35:55+00:00",
+   "bytes": 11195103,
+   "file": "2026-10-29-webinar-part4.mp4",
+   "zip": "mac studio copy"
+  },
   "2026-10-29-webinar-part5": {
    "addedAt": "2026-11-15T00:34:25+00:00",
    "bytes": 18336407,
    "file": "2026-10-29-webinar-part5.mp4",
    "zip": "mac-studio Movies (studio cleared Nov 12)"
+  },
+  "2026-10-29-webinar-part6": {
+   "addedAt": "2026-11-16T05:35:55+00:00",
+   "bytes": 27048298,
+   "file": "2026-10-29-webinar-part6.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-10-29-webinar-part7": {
+   "addedAt": "2026-11-16T05:35:56+00:00",
+   "bytes": 11048343,
+   "file": "2026-10-29-webinar-part7.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-10-29-webinar-part8": {
+   "addedAt": "2026-11-16T05:35:56+00:00",
+   "bytes": 18219913,
+   "file": "2026-10-29-webinar-part8.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-10-29-webinar-part9": {
+   "addedAt": "2026-11-16T05:35:56+00:00",
+   "bytes": 16700146,
+   "file": "2026-10-29-webinar-part9.mp4",
+   "zip": "mac studio copy"
   },
   "2026-11-02-webinar-part1": {
    "addedAt": "2026-11-15T00:34:25+00:00",
@@ -755,6 +803,12 @@
    "file": "2026-11-04-power-hour-part1.mp4",
    "zip": "mac studio copy"
   },
+  "2026-11-04-power-hour-part10": {
+   "addedAt": "2026-11-16T05:35:57+00:00",
+   "bytes": 10029036,
+   "file": "2026-11-04-power-hour-part10.mp4",
+   "zip": "mac studio copy"
+  },
   "2026-11-04-power-hour-part2": {
    "addedAt": "2026-11-16T05:31:36+00:00",
    "bytes": 11027349,
@@ -771,6 +825,36 @@
    "addedAt": "2026-11-16T05:31:36+00:00",
    "bytes": 15145981,
    "file": "2026-11-04-power-hour-part4.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-11-04-power-hour-part5": {
+   "addedAt": "2026-11-16T05:35:57+00:00",
+   "bytes": 12805661,
+   "file": "2026-11-04-power-hour-part5.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-11-04-power-hour-part6": {
+   "addedAt": "2026-11-16T05:35:57+00:00",
+   "bytes": 6315850,
+   "file": "2026-11-04-power-hour-part6.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-11-04-power-hour-part7": {
+   "addedAt": "2026-11-16T05:35:57+00:00",
+   "bytes": 12005265,
+   "file": "2026-11-04-power-hour-part7.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-11-04-power-hour-part8": {
+   "addedAt": "2026-11-16T05:35:57+00:00",
+   "bytes": 12689332,
+   "file": "2026-11-04-power-hour-part8.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-11-04-power-hour-part9": {
+   "addedAt": "2026-11-16T05:35:57+00:00",
+   "bytes": 22197405,
+   "file": "2026-11-04-power-hour-part9.mp4",
    "zip": "mac studio copy"
   },
   "2026-11-04-webinar-part1": {
@@ -808,6 +892,36 @@
    "bytes": 15108882,
    "file": "2026-11-04-webinar-part4.mp4",
    "zip": "send-to-buffer page"
+  },
+  "2026-11-04-webinar-part5": {
+   "addedAt": "2026-11-16T05:35:56+00:00",
+   "bytes": 15249007,
+   "file": "2026-11-04-webinar-part5.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-11-04-webinar-part6": {
+   "addedAt": "2026-11-16T05:35:56+00:00",
+   "bytes": 16616560,
+   "file": "2026-11-04-webinar-part6.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-11-04-webinar-part7": {
+   "addedAt": "2026-11-16T05:35:56+00:00",
+   "bytes": 16788507,
+   "file": "2026-11-04-webinar-part7.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-11-04-webinar-part8": {
+   "addedAt": "2026-11-16T05:35:57+00:00",
+   "bytes": 15514417,
+   "file": "2026-11-04-webinar-part8.mp4",
+   "zip": "mac studio copy"
+  },
+  "2026-11-04-webinar-part9": {
+   "addedAt": "2026-11-16T05:35:57+00:00",
+   "bytes": 15766448,
+   "file": "2026-11-04-webinar-part9.mp4",
+   "zip": "mac studio copy"
   },
   "2026-11-05-webinar-part1": {
    "addedAt": "2026-11-09T22:09:12+00:00",
@@ -994,6 +1108,12 @@
    "bytes": 10093785,
    "file": "recap-2026-10-05-afternoon-v.mp4",
    "zip": "send-to-buffer page"
+  },
+  "recap-2026-10-05-morning-v": {
+   "addedAt": "2026-11-16T05:35:57+00:00",
+   "bytes": 10723074,
+   "file": "recap-2026-10-05-morning-v.mp4",
+   "zip": "mac studio copy"
   },
   "recap-2026-10-08-v": {
    "addedAt": "2026-10-21T05:08:08+00:00",
