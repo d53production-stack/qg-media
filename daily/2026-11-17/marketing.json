@@ -1,0 +1,25 @@
+{
+ "day": "2026-11-17",
+ "clips": [
+  {
+   "id": "01_fade",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-17/01_fade.mp4",
+   "name": "SPX Fade Called at 10.30, 97 Points Lower - Nov 17.mp4"
+  },
+  {
+   "id": "02_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-17/02_call.mp4",
+   "name": "SPX Down 29 Points After the 11.30 Bear Read - Nov 17.mp4"
+  },
+  {
+   "id": "03_miss",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-17/03_miss.mp4",
+   "name": "SPX Bear Read Missed at 12.00, 36 Points the Other Way - Nov 17.mp4"
+  },
+  {
+   "id": "04_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-17/04_call.mp4",
+   "name": "SPX 7305 Break Called at 14.30, 31 Points Lower - Nov 17.mp4"
+  }
+ ]
+}
