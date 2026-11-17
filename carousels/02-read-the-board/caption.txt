@@ -1,0 +1,8 @@
+4 levels. That's the whole board.
+
+Primary node, positive nodes, negative nodes, the gamma flip. Learn those four and a GEX map stops looking like noise.
+One rule: compare nodes inside one symbol and one expiration, never across.
+
+Save this for your next session. Then watch all four levels move live: 50% off QuantGeeks with code: QUANT. Link in bio.
+
+#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks

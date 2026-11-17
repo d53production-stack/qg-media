@@ -1,0 +1,728 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "slug": "01-trend-day-7500",
+      "kind": "daily-clip",
+      "batch": null,
+      "source_clip": "2026-11-13-spx-7500",
+      "created": "2026-11-14",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/01-trend-day-7500/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: JOULE CALLED 7500. SPX LOW: 7499.40"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/01-trend-day-7500/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: SHORT GAMMA BEFORE THE BELL."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/01-trend-day-7500/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: 10:00 ET · JOULE'S READ: bias BEAR"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/01-trend-day-7500/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: 65 POINTS. 25 MINUTES."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/01-trend-day-7500/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: THEN WE STAYED BEAR TOO LONG."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/01-trend-day-7500/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: WHEN THE FLOOR HARDENS 3 READS STRAIGHT, THE TREND IS DYING."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/01-trend-day-7500/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: SEE THE NEXT READ BEFORE THE MOVE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "Joule called 7500. SPX printed 7499.40.\n\nFriday's 10:00 ET read flipped bear with a 7500 downside pivot. SPX got there by 10:20: 65 points in 25 minutes.\nThen Joule stayed bear too long, and its own recap says so. Every read is graded in public, hits and misses.\n\nGet 50% off QuantGeeks with code: QUANT. See today's levels and Joule's reads live. Link in bio.\n\nNot investment advice.\n\n#SPX #0DTE #GammaExposure #OptionsTrading #DayTrading #QuantGeeks",
+      "status": "queued",
+      "buffer_post_id": "6af8cd7a918fe79d2ea47a64",
+      "queued_at": "2026-11-17",
+      "due_at": "2026-11-17T04:41:00Z",
+      "posted_at": null
+    },
+    {
+      "slug": "02-read-the-board",
+      "kind": "evergreen",
+      "batch": null,
+      "source_clip": null,
+      "created": "2026-11-14",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/02-read-the-board/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: 4 LEVELS. THAT'S THE WHOLE BOARD."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/02-read-the-board/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2:"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/02-read-the-board/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3:"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/02-read-the-board/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4:"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/02-read-the-board/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5:"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/02-read-the-board/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: ONE BOOK AT A TIME."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/02-read-the-board/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: SAVE THIS FOR YOUR NEXT SESSION.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "4 levels. That's the whole board.\n\nPrimary node, positive nodes, negative nodes, the gamma flip. Learn those four and a GEX map stops looking like noise.\nOne rule: compare nodes inside one symbol and one expiration, never across.\n\nSave this for your next session. Then watch all four levels move live: 50% off QuantGeeks with code: QUANT. Link in bio.\n\n#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks",
+      "status": "queued",
+      "buffer_post_id": "6afbcddb85dca6b14a1b93eb",
+      "queued_at": "2026-11-17",
+      "due_at": "2026-11-18T02:10:00Z",
+      "posted_at": null
+    },
+    {
+      "slug": "2026-11-16-spx-trend-day",
+      "kind": "daily-clip",
+      "batch": null,
+      "source_clip": "2026-11-16-01_trend",
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-trend-day/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: CALLED AT 09:32. TREND DAY. 58 POINTS LOWER."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-trend-day/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: Chart Clipper frame, the setup: SPX 0DTE gamma map with Joule's read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-trend-day/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: THE READ."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-trend-day/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: Chart Clipper frame, the move: SPX 0DTE gamma map with Joule's read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-trend-day/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: Chart Clipper frame, the result: SPX 0DTE gamma map with Joule's read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-trend-day/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: A THIN SHELF WON'T STOP A SHORT-GAMMA TAPE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-trend-day/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: SEE THE NEXT READ BEFORE THE MOVE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "Joule called a trend day at 09:32. SPX fell 58 points.\n\nMonday's 09:32 ET read: short-gamma trend day, ride toward the 7450 trapdoor, the 7475 shelf too thin to hold. SPX popped to 7515.60 first, then broke 7475 at 10:00 and printed 7457.37 by 10:20.\n\nGet 50% off QuantGeeks with code: QUANT. See today's levels and Joule's reads live. Link in bio.\n\nNot investment advice.\n\n#SPX #0DTE #GammaExposure #OptionsTrading #DayTrading #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "2026-11-16-spx-last-cushion",
+      "kind": "daily-clip",
+      "batch": null,
+      "source_clip": "2026-11-16-03_call",
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-last-cushion/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: LAST CUSHION BROKE. 67 POINTS LOWER."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-last-cushion/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: Chart Clipper frame, the setup: SPX 0DTE gamma map with Joule's read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-last-cushion/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: THE READ."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-last-cushion/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: Chart Clipper frame, the move: SPX 0DTE gamma map with Joule's read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-last-cushion/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: Chart Clipper frame, the result: SPX 0DTE gamma map with Joule's read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-last-cushion/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: NO CUSHION BELOW MEANS AIR."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-last-cushion/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: SEE THE NEXT READ BEFORE THE MOVE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "7445 was the last cushion. It broke, and SPX fell 67 points.\n\nMonday's 12:00 ET read: bear flush running, 7445 is the last cushion before air. 7445 broke at 13:00 and SPX printed 7406.87 by 13:35.\n\nGet 50% off QuantGeeks with code: QUANT. See today's levels and Joule's reads live. Link in bio.\n\nNot investment advice.\n\n#SPX #0DTE #GammaExposure #OptionsTrading #DayTrading #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "2026-11-16-spx-7425-break",
+      "kind": "daily-clip",
+      "batch": null,
+      "source_clip": "2026-11-16-04_call",
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-7425-break/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: 7425 BROKE. 7407 CALLED. 7404.73 PRINTED."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-7425-break/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: Chart Clipper frame, the setup: SPX 0DTE gamma map with Joule's read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-7425-break/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: THE READ."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-7425-break/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: Chart Clipper frame, the move: SPX 0DTE gamma map with Joule's read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-7425-break/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: Chart Clipper frame, the result: SPX 0DTE gamma map with Joule's read"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-7425-break/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: A BREAK INTO AIR RUNS TO THE NEXT REAL LEVEL."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/2026-11-16-spx-7425-break/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: SEE THE NEXT READ BEFORE THE MOVE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "Joule said a 7425 break opens air to 7407. SPX printed 7404.73.\n\nMonday's 14:00 ET read: 7425 break opens air to the 7407 low of day. 7425 broke at 14:15 and SPX tagged 7404.73 by 14:40. The 7400 floor held after that.\n\nGet 50% off QuantGeeks with code: QUANT. See today's levels and Joule's reads live. Link in bio.\n\nNot investment advice.\n\n#SPX #0DTE #GammaExposure #OptionsTrading #DayTrading #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "03-launchpad",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/03-launchpad/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: TWO FLOORS. FUEL ABOVE. LAUNCHPAD."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/03-launchpad/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: THE SHAPE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/03-launchpad/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: WHERE PRICE HAS TO BE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/03-launchpad/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: AIR IS NOT FUEL."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/03-launchpad/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: WHAT KILLS IT."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/03-launchpad/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: FLOOR BELOW. FUEL ABOVE. PRICE ON TOP."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/03-launchpad/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: FIND THE NEXT LAUNCHPAD LIVE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "Two floors. Fuel above. That's a launchpad.\n\nTwo positive nodes under price, true negatives stacked right above them, and price in or above the positives. Empty strikes don't count: air is not fuel.\nSave this and check the next board you read.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "04-trapdoor",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/04-trapdoor/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: A CEILING WITH NOTHING UNDER IT."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/04-trapdoor/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: THE SHAPE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/04-trapdoor/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: WHERE PRICE HAS TO BE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/04-trapdoor/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: WHAT WEAKENS IT."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/04-trapdoor/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: WHAT KILLS IT."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/04-trapdoor/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: CEILING ABOVE. FUEL BELOW. PRICE UNDER."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/04-trapdoor/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: CATCH THE NEXT DOOR BEFORE IT OPENS.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "A ceiling with nothing under it.\n\nThe trapdoor is the launchpad flipped: two positives over price, true negatives stacked beneath, price in or below them. The target below losing value is the first warning sign.\nSave this for your next session.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "05-pin",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/05-pin/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: PRICE ISN'T STUCK. IT'S PINNED."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/05-pin/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: THE SHAPE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/05-pin/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: TWO OR THREE BOOKS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/05-pin/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: LUNCH AND THE CLOSE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/05-pin/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: HOW IT BREAKS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/05-pin/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: SIDEWAYS IS INFORMATION."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/05-pin/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: KNOW WHEN TO SIT OUT.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "Price isn't stuck. It's pinned.\n\nA pin is spot sitting on a dominant primary, strongest when two or three books show it at once. It shows up most at lunch and into the close. Watch the pinned node: when it bleeds and a rival grows, the break tends toward the rival.\nSave this one.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "06-box",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/06-box/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: TWO CUSHIONS. PRICE IN THE MIDDLE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/06-box/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: THE SHAPE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/06-box/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: THE MIDDLE SAYS LEAST."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/06-box/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: NOT A BOX."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/06-box/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: HOW IT ENDS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/06-box/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: READ THE EDGES. IGNORE THE MIDDLE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/06-box/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: SEE THE BOX BEFORE IT BREAKS.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "Two cushions. Price in the middle.\n\nA box is a positive node above and one of similar size below, with price between. The edges say the most and the middle says the least. It's over when the primary stops flipping between them and rolls one way.\nSave this for your next range day.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "07-squeeze",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/07-squeeze/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: WHY SOME MOVES DON'T STOP."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/07-squeeze/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: THE SHAPE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/07-squeeze/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: DON'T STAND IN FRONT."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/07-squeeze/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: THE TOPPING HINT."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/07-squeeze/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: NOT A SQUEEZE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/07-squeeze/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: NO FUEL, NO SQUEEZE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/07-squeeze/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: SPOT THE FUEL BEFORE THE SQUEEZE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "Why some moves don't stop.\n\nA squeeze is what a launchpad releases: a positive floor with negatives stacked tightly above. Once price lifts off, the negatives feed the move, and the top can take longer than it looks.\nNo fuel, no squeeze.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "08-double-floor",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/08-double-floor/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: ONE FLOOR CAN BREAK. TWO MAKE A NET."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/08-double-floor/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: THE SHAPE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/08-double-floor/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: WHY TWO MATTERS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/08-double-floor/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: WHAT WEAKENS IT."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/08-double-floor/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: WHAT KILLS IT."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/08-double-floor/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: COUNT THE FLOORS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/08-double-floor/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: SEE THE NET UNDER PRICE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "One floor can break. Two make a net.\n\nTwo positives stacked on the same side of spot: below price it's a double floor, above it's a double ceiling. Watch both as price tests them. A floor that shrinks on each test is likely to give.\nSave this.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "09-voids",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/09-voids/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: NO FLOOR ISN'T A FORECAST."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/09-voids/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: AN AIR POCKET."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/09-voids/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: AIR IS NOT FUEL."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/09-voids/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: SMALL ISN'T A TARGET."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/09-voids/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: VOIDS SET THE SPEED, NOT THE DIRECTION."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/09-voids/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: SEE THE AIR POCKETS LIVE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "No floor isn't a forecast.\n\nA void is a run of strikes with nothing of size. It carries no direction, it just means price can move fast once it's in. And a small positive sitting in the path is part of the void, not a target.\nVoids set the speed, not the direction.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #OptionsFlow #0DTE #SPX #TradingEducation #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "10-roll-vs-flip",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/10-roll-vs-flip/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: ROLL OR FLIP?"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/10-roll-vs-flip/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: A ROLL."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/10-roll-vs-flip/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: A FLIP."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/10-roll-vs-flip/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: ONE IS A TEASE. TWO IS A TREND."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/10-roll-vs-flip/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: CHECK THE GAP."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/10-roll-vs-flip/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: FOLLOW THE PRIMARY'S PATH."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/10-roll-vs-flip/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: WATCH THE PRIMARY MOVE LIVE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "Roll or flip?\n\nA roll is the primary moving to a new strike on the same side of spot. A flip is the primary crossing to the other side. One move is a tease, two in the same direction is a trend.\nSave this for the next time the primary moves.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #OptionsFlow #0DTE #SPX #TradingEducation #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "11-growing-shrinking",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/11-growing-shrinking/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: SIZE ISN'T THE STORY. CHANGE IS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/11-growing-shrinking/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: BIGGER OR SMALLER?"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/11-growing-shrinking/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: COLOR WON'T TELL YOU."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/11-growing-shrinking/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: TEST BY TEST."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/11-growing-shrinking/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: THE INVERSE CLUE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/11-growing-shrinking/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: READ THE CHIP."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/11-growing-shrinking/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: SEE EVERY LEVEL GROW AND SHRINK LIVE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "Size isn't the story. Change is.\n\nWhen price presses on a level, ask one thing: is it getting bigger or smaller? A level that weakens on each test is likely to break. One that grows on each test is likely to hold.\nRead the chip, not just the color.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #OptionsFlow #0DTE #SPX #TradingEducation #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "12-session-clock",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/12-session-clock/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: SAME SHAPE. DIFFERENT HOUR."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/12-session-clock/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: 9:30. LET IT FILL."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/12-session-clock/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: LUNCH: PINS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/12-session-clock/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: INTO THE CLOSE: MAGNETS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/12-session-clock/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: CHECK THE CLOCK BEFORE THE BOARD."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/12-session-clock/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: READ THE BOARD AT EVERY HOUR.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "Same shape. Different hour.\n\nThe board is thin at the open, readable once it fills, prone to pins at lunch, and more magnetic into the close. Tendencies, not rules, but the hour changes what a shape means.\nSave this and check the clock before the board.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #OptionsFlow #0DTE #SPX #TradingEducation #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "13-committee",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/13-committee/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: ONE BOOK CAN MISLEAD. THREE RARELY DO."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/13-committee/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: THREE BOOKS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/13-committee/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: THE VOTE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/13-committee/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: NEVER COMPARE ACROSS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/13-committee/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: CHECK THE FLIPS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/13-committee/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: LET THE BOOKS VOTE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/13-committee/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: ALL THREE BOOKS. ONE SCREEN.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "One book can mislead. Three rarely do.\n\nRead SPX, SPY and QQQ together: 3 of 3 agreeing is conviction, 2 of 3 is tradable, mixed is chop. Compare node sizes inside one book only, never across.\nSave this for your next board read.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #OptionsFlow #0DTE #SPX #TradingEducation #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    },
+    {
+      "slug": "14-proximity",
+      "kind": "evergreen",
+      "batch": "filler-1",
+      "source_clip": null,
+      "created": "2026-11-17",
+      "slides": [
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/14-proximity/slide-01.png",
+          "alt": "QuantGeeks carousel slide 1: THE BIGGEST NODE ISN'T THE NEXT ONE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/14-proximity/slide-02.png",
+          "alt": "QuantGeeks carousel slide 2: CLOSER IS STRONGER."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/14-proximity/slide-03.png",
+          "alt": "QuantGeeks carousel slide 3: THE NORTH STAR."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/14-proximity/slide-04.png",
+          "alt": "QuantGeeks carousel slide 4: THE FIRST OBSTACLE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/14-proximity/slide-05.png",
+          "alt": "QuantGeeks carousel slide 5: NODES THAT DON'T MOVE."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/14-proximity/slide-06.png",
+          "alt": "QuantGeeks carousel slide 6: WEIGHT = SIZE × CLOSENESS."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/carousels/14-proximity/slide-07.png",
+          "alt": "QuantGeeks carousel slide 7: SEE WHAT'S NEXT TO PRICE.. 50% off QuantGeeks with code QUANT"
+        }
+      ],
+      "caption": "The biggest node isn't the next one.\n\nSize is half of weight, distance is the other. The far primary is the North Star for the session, but the nearest node of size is what price has to deal with first.\nSave this one.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #OptionsFlow #0DTE #SPX #TradingEducation #QuantGeeks",
+      "status": "ready",
+      "buffer_post_id": null,
+      "queued_at": null,
+      "due_at": null,
+      "posted_at": null
+    }
+  ]
+}

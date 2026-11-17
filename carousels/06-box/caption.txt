@@ -1,0 +1,10 @@
+Two cushions. Price in the middle.
+
+A box is a positive node above and one of similar size below, with price between. The edges say the most and the middle says the least. It's over when the primary stops flipping between them and rolls one way.
+Save this for your next range day.
+
+Get 50% off QuantGeeks with code: QUANT. Link in bio.
+
+Not investment advice.
+
+#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks
