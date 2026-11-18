@@ -1,0 +1,25 @@
+{
+ "day": "2026-11-18",
+ "clips": [
+  {
+   "id": "01_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-18/01_call.mp4",
+   "name": "SPX Bear Read at 9.32, 64 Points Lower by 9.50 - Nov 18.mp4"
+  },
+  {
+   "id": "02_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-18/02_call.mp4",
+   "name": "SPX Retest at 7367 Sold, 65 Points Lower - Nov 18.mp4"
+  },
+  {
+   "id": "03_fade",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-18/03_fade.mp4",
+   "name": "SPX Bounce Faded at 11.30, 28 Points Lower - Nov 18.mp4"
+  },
+  {
+   "id": "05_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-18/05_call.mp4",
+   "name": "SPX Coil at 7350 Breaks, 34 Points Lower - Nov 18.mp4"
+  }
+ ]
+}
