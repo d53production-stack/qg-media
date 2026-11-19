@@ -1,0 +1,20 @@
+{
+ "day": "2026-11-19",
+ "clips": [
+  {
+   "id": "02_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-19/02_call.mp4",
+   "name": "SPX Bear Call at 10.00, 118 Points Lower by 10.39 - Nov 19.mp4"
+  },
+  {
+   "id": "03_fade",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-19/03_fade.mp4",
+   "name": "SPX Bounce Faded at 7335, 141 Points Lower by 12.06 - Nov 19.mp4"
+  },
+  {
+   "id": "04_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-19/04_call.mp4",
+   "name": "SPX Turn Called at 14.00, 32 Points Higher by 14.27 - Nov 19.mp4"
+  }
+ ]
+}
