@@ -253,10 +253,10 @@
         }
       ],
       "caption": "Two floors. Fuel above. That's a launchpad.\n\nTwo positive nodes under price, true negatives stacked right above them, and price in or above the positives. Empty strikes don't count: air is not fuel.\nSave this and check the next board you read.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks",
-      "status": "ready",
-      "buffer_post_id": null,
-      "queued_at": null,
-      "due_at": null,
+      "status": "queued",
+      "buffer_post_id": "6b00a446861298c9b14ae118",
+      "queued_at": "2026-11-20",
+      "due_at": "2026-11-21T11:04:00-08:00",
       "posted_at": null
     },
     {
