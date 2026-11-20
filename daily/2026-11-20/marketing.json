@@ -1,0 +1,25 @@
+{
+ "day": "2026-11-20",
+ "clips": [
+  {
+   "id": "01_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-20/01_call.mp4",
+   "name": "SPX Bull Call at 09.32, 63 Points Higher by 10.00 - Nov 20.mp4"
+  },
+  {
+   "id": "02_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-20/02_call.mp4",
+   "name": "SPX Bear Flip at 10.30, 88 Points Lower by 11.48 - Nov 20.mp4"
+  },
+  {
+   "id": "04_call",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-20/04_call.mp4",
+   "name": "SPX Trend Day Read at 14.00, 91 Points Lower by 14.33 - Nov 20.mp4"
+  },
+  {
+   "id": "06_close",
+   "url": "https://raw.githubusercontent.com/d53production-stack/qg-media/main/daily/2026-11-20/06_close.mp4",
+   "name": "SPX 6910 Breaks Into the Bell, 73 Points Lower by 15.56 - Nov 20.mp4"
+  }
+ ]
+}
