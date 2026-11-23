@@ -951,7 +951,8 @@
   "2026-11-04-webinar-part6": {
    "addedAt": "2026-11-16T05:35:56+00:00",
    "bytes": 16616560,
-   "file": "2026-11-04-webinar-part6.mp4",
+   "file": "posted/2026-11-04-webinar-part6.mp4",
+   "postedAt": "2026-11-23T19:49:09Z",
    "zip": "mac studio copy"
   },
   "2026-11-04-webinar-part7": {
@@ -1007,14 +1008,16 @@
   "2026-11-05-webinar-part5": {
    "addedAt": "2026-11-15T00:34:26+00:00",
    "bytes": 21983177,
-   "file": "posted/2026-11-05-webinar-part5.mp4",
+   "deletedAt": "2026-11-23T19:49:09Z",
+   "file": null,
    "postedAt": "2026-11-16T17:50:10Z",
    "zip": "mac-studio Movies (studio cleared Nov 12)"
   },
   "2026-11-05-webinar-part6": {
    "addedAt": "2026-11-09T22:09:12+00:00",
    "bytes": 9890463,
-   "file": "posted/2026-11-05-webinar-part6.mp4",
+   "deletedAt": "2026-11-23T19:49:09Z",
+   "file": null,
    "postedAt": "2026-11-16T17:50:10Z",
    "zip": "send-to-buffer page"
   },
