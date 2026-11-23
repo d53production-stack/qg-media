@@ -176,42 +176,48 @@
   "2026-10-15-webinar-part1": {
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 12954010,
-   "file": "posted/2026-10-15-webinar-part1.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
   "2026-10-15-webinar-part2": {
    "addedAt": "2026-10-21T05:08:07+00:00",
    "bytes": 11182350,
-   "file": "posted/2026-10-15-webinar-part2.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
   "2026-10-15-webinar-part3": {
    "addedAt": "2026-10-21T05:08:07+00:00",
    "bytes": 11507559,
-   "file": "posted/2026-10-15-webinar-part3.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
   "2026-10-15-webinar-part4": {
    "addedAt": "2026-10-21T05:08:07+00:00",
    "bytes": 13511475,
-   "file": "posted/2026-10-15-webinar-part4.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
   "2026-10-15-webinar-part5": {
    "addedAt": "2026-10-21T05:08:06+00:00",
    "bytes": 9050516,
-   "file": "posted/2026-10-15-webinar-part5.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
   "2026-10-15-webinar-part6": {
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 10891852,
-   "file": "posted/2026-10-15-webinar-part6.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -230,42 +236,48 @@
   "2026-10-19-webinar-part1": {
    "addedAt": "2026-10-21T03:02:55+00:00",
    "bytes": 8729406,
-   "file": "posted/2026-10-19-webinar-part1.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part10": {
    "addedAt": "2026-10-21T03:02:55+00:00",
    "bytes": 11091028,
-   "file": "posted/2026-10-19-webinar-part10.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part11": {
    "addedAt": "2026-10-21T03:02:55+00:00",
    "bytes": 11167073,
-   "file": "posted/2026-10-19-webinar-part11.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part12": {
    "addedAt": "2026-10-21T03:02:54+00:00",
    "bytes": 8417867,
-   "file": "posted/2026-10-19-webinar-part12.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part13": {
    "addedAt": "2026-10-21T03:02:54+00:00",
    "bytes": 10531383,
-   "file": "posted/2026-10-19-webinar-part13.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part14": {
    "addedAt": "2026-10-21T03:02:54+00:00",
    "bytes": 10536918,
-   "file": "posted/2026-10-19-webinar-part14.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
@@ -278,63 +290,72 @@
   "2026-10-19-webinar-part16": {
    "addedAt": "2026-10-21T03:02:54+00:00",
    "bytes": 7168122,
-   "file": "posted/2026-10-19-webinar-part16.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part2": {
    "addedAt": "2026-10-21T03:02:54+00:00",
    "bytes": 9608964,
-   "file": "posted/2026-10-19-webinar-part2.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part3": {
    "addedAt": "2026-10-21T03:02:55+00:00",
    "bytes": 15225065,
-   "file": "posted/2026-10-19-webinar-part3.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part4": {
    "addedAt": "2026-10-21T03:02:54+00:00",
    "bytes": 11815969,
-   "file": "posted/2026-10-19-webinar-part4.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part5": {
    "addedAt": "2026-10-21T03:02:55+00:00",
    "bytes": 8400241,
-   "file": "posted/2026-10-19-webinar-part5.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part6": {
    "addedAt": "2026-10-21T03:02:55+00:00",
    "bytes": 7976063,
-   "file": "posted/2026-10-19-webinar-part6.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part7": {
    "addedAt": "2026-10-21T03:02:55+00:00",
    "bytes": 12188906,
-   "file": "posted/2026-10-19-webinar-part7.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part8": {
    "addedAt": "2026-10-21T03:02:54+00:00",
    "bytes": 12444119,
-   "file": "posted/2026-10-19-webinar-part8.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
   "2026-10-19-webinar-part9": {
    "addedAt": "2026-10-21T03:02:54+00:00",
    "bytes": 9077853,
-   "file": "posted/2026-10-19-webinar-part9.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "2026-10-19.zip"
   },
@@ -954,28 +975,32 @@
   "2026-11-05-webinar-part1": {
    "addedAt": "2026-11-09T22:09:12+00:00",
    "bytes": 13680885,
-   "file": "posted/2026-11-05-webinar-part1.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
   "2026-11-05-webinar-part2": {
    "addedAt": "2026-11-09T22:09:12+00:00",
    "bytes": 11334512,
-   "file": "posted/2026-11-05-webinar-part2.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
   "2026-11-05-webinar-part3": {
    "addedAt": "2026-11-09T22:09:12+00:00",
    "bytes": 15226120,
-   "file": "posted/2026-11-05-webinar-part3.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
   "2026-11-05-webinar-part4": {
    "addedAt": "2026-11-09T22:09:12+00:00",
    "bytes": 12065765,
-   "file": "posted/2026-11-05-webinar-part4.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1015,7 +1040,8 @@
   "cc-follows-account-v": {
    "addedAt": "2026-10-26T17:10:06+00:00",
    "bytes": 3313062,
-   "file": "posted/cc-follows-account-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1028,7 +1054,8 @@
   "cc-how-live-v": {
    "addedAt": "2026-10-21T05:08:07+00:00",
    "bytes": 3288398,
-   "file": "posted/cc-how-live-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1047,7 +1074,8 @@
   "cc-replay-what-v": {
    "addedAt": "2026-10-26T17:10:06+00:00",
    "bytes": 3292763,
-   "file": "posted/cc-replay-what-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1060,7 +1088,8 @@
   "idea-fresh-chip-or-old-news-d3e-v": {
    "addedAt": "2026-10-21T05:08:06+00:00",
    "bytes": 6392113,
-   "file": "posted/idea-fresh-chip-or-old-news-d3e-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1073,7 +1102,8 @@
   "idea-gold-row-vs-silver-rails-a18-v": {
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 6096744,
-   "file": "posted/idea-gold-row-vs-silver-rails-a18-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1086,14 +1116,16 @@
   "idea-is-that-bright-cell-really-big-77w-v": {
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 3809795,
-   "file": "posted/idea-is-that-bright-cell-really-big-77w-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
   "idea-qg-in-claude-and-chatgpt-v": {
    "addedAt": "2026-11-13T04:32:11+00:00",
    "bytes": 6343793,
-   "file": "posted/idea-qg-in-claude-and-chatgpt-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1126,7 +1158,8 @@
   "idea-which-lens-am-i-reading-lf4-v": {
    "addedAt": "2026-10-26T04:31:34+00:00",
    "bytes": 6129370,
-   "file": "posted/idea-which-lens-am-i-reading-lf4-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "Oct 25 Classic dark (Mac Studio)"
   },
@@ -1295,7 +1328,8 @@
   "rtb-ladder-03-sign-v": {
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 6157972,
-   "file": "posted/rtb-ladder-03-sign-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1314,7 +1348,8 @@
   "rtb-ladder-07-moving-v": {
    "addedAt": "2026-10-26T04:31:34+00:00",
    "bytes": 5496639,
-   "file": "posted/rtb-ladder-07-moving-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "Oct 25 Classic dark (Mac Studio)"
   },
@@ -1339,7 +1374,8 @@
   "rtb-motion-migrating-v": {
    "addedAt": "2026-10-26T04:31:34+00:00",
    "bytes": 6145576,
-   "file": "posted/rtb-motion-migrating-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "Oct 25 Classic dark (Mac Studio)"
   },
@@ -1352,7 +1388,8 @@
   "rtb-motion-three-books-v": {
    "addedAt": "2026-10-26T04:31:34+00:00",
    "bytes": 6232893,
-   "file": "posted/rtb-motion-three-books-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "Oct 25 Classic dark (Mac Studio)"
   },
@@ -1365,7 +1402,8 @@
   "rtb-myth-negative-sr-v": {
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 3753588,
-   "file": "posted/rtb-myth-negative-sr-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1396,7 +1434,8 @@
   "rtb-myth-thin-book-v": {
    "addedAt": "2026-10-26T17:10:05+00:00",
    "bytes": 3716061,
-   "file": "posted/rtb-myth-thin-book-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1409,7 +1448,8 @@
   "rtb-p-60s-v": {
    "addedAt": "2026-10-21T05:08:06+00:00",
    "bytes": 6060727,
-   "file": "posted/rtb-p-60s-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1446,7 +1486,8 @@
   "rtb-s1-dealer-v": {
    "addedAt": "2026-10-21T05:08:07+00:00",
    "bytes": 3974502,
-   "file": "posted/rtb-s1-dealer-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1459,7 +1500,8 @@
   "rtb-s1-negative-v": {
    "addedAt": "2026-10-21T05:08:06+00:00",
    "bytes": 3943466,
-   "file": "posted/rtb-s1-negative-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1472,7 +1514,8 @@
   "rtb-s1-not-direction-v": {
    "addedAt": "2026-10-21T05:08:06+00:00",
    "bytes": 3740096,
-   "file": "posted/rtb-s1-not-direction-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1485,7 +1528,8 @@
   "rtb-s1-positive-v": {
    "addedAt": "2026-10-21T05:08:06+00:00",
    "bytes": 3747406,
-   "file": "posted/rtb-s1-positive-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1498,7 +1542,8 @@
   "rtb-vs-blocker-air-v": {
    "addedAt": "2026-10-26T17:10:05+00:00",
    "bytes": 3820067,
-   "file": "posted/rtb-vs-blocker-air-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1511,7 +1556,8 @@
   "rtb-vs-cushion-accelerant-v": {
    "addedAt": "2026-10-26T04:31:34+00:00",
    "bytes": 5699796,
-   "file": "posted/rtb-vs-cushion-accelerant-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "Oct 25 Classic dark (Mac Studio)"
   },
@@ -1524,7 +1570,8 @@
   "rtb-vs-pin-two-cushions-v": {
    "addedAt": "2026-10-21T05:08:08+00:00",
    "bytes": 4236453,
-   "file": "posted/rtb-vs-pin-two-cushions-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "send-to-buffer page"
   },
@@ -1537,7 +1584,8 @@
   "rtb-vs-trapdoor-launch-v": {
    "addedAt": "2026-10-26T04:31:34+00:00",
    "bytes": 5807095,
-   "file": "posted/rtb-vs-trapdoor-launch-v.mp4",
+   "deletedAt": "2026-11-23T11:50:42Z",
+   "file": null,
    "postedAt": "2026-11-16T05:50:08Z",
    "zip": "Oct 25 Classic dark (Mac Studio)"
   }
