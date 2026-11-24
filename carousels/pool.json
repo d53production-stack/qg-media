@@ -382,11 +382,11 @@
         }
       ],
       "caption": "Two cushions. Price in the middle.\n\nA box is a positive node above and one of similar size below, with price between. The edges say the most and the middle says the least. It's over when the primary stops flipping between them and rolls one way.\nSave this for your next range day.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks",
-      "status": "queued",
+      "status": "posted",
       "buffer_post_id": "6b0460be779e9370a78c4c96",
       "queued_at": "2026-11-23",
       "due_at": "2026-11-24T06:31:00-08:00",
-      "posted_at": null
+      "posted_at": "2026-11-24T14:31:00.000Z"
     },
     {
       "slug": "07-squeeze",
@@ -425,10 +425,10 @@
         }
       ],
       "caption": "Why some moves don't stop.\n\nA squeeze is what a launchpad releases: a positive floor with negatives stacked tightly above. Once price lifts off, the negatives feed the move, and the top can take longer than it looks.\nNo fuel, no squeeze.\n\nGet 50% off QuantGeeks with code: QUANT. Link in bio.\n\nNot investment advice.\n\n#GEX #GammaExposure #OptionsTrading #SPX #DayTrading #QuantGeeks",
-      "status": "ready",
-      "buffer_post_id": null,
-      "queued_at": null,
-      "due_at": null,
+      "status": "queued",
+      "buffer_post_id": "6b05b20ce95029ef22a02b43",
+      "queued_at": "2026-11-24",
+      "due_at": "2026-11-25T06:32:00-08:00",
       "posted_at": null
     },
     {
