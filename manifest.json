@@ -938,7 +938,8 @@
   "2026-11-04-webinar-part4": {
    "addedAt": "2026-11-06T01:48:53+00:00",
    "bytes": 15108882,
-   "file": "posted/2026-11-04-webinar-part4.mp4",
+   "deletedAt": "2026-11-24T16:16:57Z",
+   "file": null,
    "postedAt": "2026-11-17T15:51:15Z",
    "zip": "send-to-buffer page"
   },
@@ -1208,7 +1209,8 @@
   "idea-quant-academy-in-the-console-v": {
    "addedAt": "2026-11-13T04:32:11+00:00",
    "bytes": 5332617,
-   "file": "posted/idea-quant-academy-in-the-console-v.mp4",
+   "deletedAt": "2026-11-24T16:16:57Z",
+   "file": null,
    "postedAt": "2026-11-17T15:51:15Z",
    "zip": "send-to-buffer page"
   },
