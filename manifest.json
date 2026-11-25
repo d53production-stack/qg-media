@@ -856,7 +856,8 @@
   "2026-11-04-power-hour-part2": {
    "addedAt": "2026-11-16T05:31:36+00:00",
    "bytes": 11027349,
-   "file": "posted/2026-11-04-power-hour-part2.mp4",
+   "deletedAt": "2026-11-25T19:49:59Z",
+   "file": null,
    "postedAt": "2026-11-18T17:49:37Z",
    "zip": "mac studio copy"
   },
@@ -914,7 +915,8 @@
   "2026-11-04-webinar-part10": {
    "addedAt": "2026-11-06T01:48:53+00:00",
    "bytes": 15823544,
-   "file": "2026-11-04-webinar-part10.mp4",
+   "file": "posted/2026-11-04-webinar-part10.mp4",
+   "postedAt": "2026-11-25T19:49:59Z",
    "zip": "send-to-buffer page"
   },
   "2026-11-04-webinar-part11": {
@@ -926,7 +928,8 @@
   "2026-11-04-webinar-part2": {
    "addedAt": "2026-11-16T05:31:36+00:00",
    "bytes": 13163507,
-   "file": "posted/2026-11-04-webinar-part2.mp4",
+   "deletedAt": "2026-11-25T19:49:59Z",
+   "file": null,
    "postedAt": "2026-11-18T19:48:57Z",
    "zip": "mac studio copy"
   },
