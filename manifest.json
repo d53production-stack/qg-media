@@ -938,7 +938,8 @@
   "2026-11-04-webinar-part3": {
    "addedAt": "2026-11-16T05:31:36+00:00",
    "bytes": 10043406,
-   "file": "posted/2026-11-04-webinar-part3.mp4",
+   "deletedAt": "2026-11-27T19:49:15Z",
+   "file": null,
    "postedAt": "2026-11-20T01:50:05Z",
    "zip": "mac studio copy"
   },
@@ -1261,7 +1262,8 @@
   "idea-quiz-what-am-i-looking-at-silver-rai-vj9-v": {
    "addedAt": "2026-11-13T04:32:11+00:00",
    "bytes": 5990949,
-   "file": "posted/idea-quiz-what-am-i-looking-at-silver-rai-vj9-v.mp4",
+   "deletedAt": "2026-11-27T19:49:15Z",
+   "file": null,
    "postedAt": "2026-11-20T01:50:05Z",
    "zip": "send-to-buffer page"
   },
